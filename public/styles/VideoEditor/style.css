@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.VideoEditor .Landing {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.VideoEditor .Landing .Landingtext {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.VideoEditor .Landing .Button {
+  width: 120px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.VideoEditor .Landing .Button .InputButton {
+  width: 100px;
+  height: 60px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.VideoEditor .Landing .Button .InputButton:hover {
+  background: grey;
+  color: white;
+}
+
+.VideoEditor .Landing .Spinner {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 6%;
+  background: url("./media/icons/spinner.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.VideoEditor .Landing .LoadingText {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.VideoEditor .Landing .DownloadBox {
+  width: 500px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  background: white;
+}
+
+.VideoEditor .Landing .DownloadBox .DownloadIcon {
+  width: 50px;
+  height: 50px;
+  background: url("./media/icons/download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.VideoEditor .Landing .DownloadBox .DownloadLink {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #353535;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.VideoEditor .Landing .Workspace {
+  width: 100%;
+  height: 100%;
+  background: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: none;
+}
+
+.VideoEditor .Landing .Workspace #videoWrapper {
+  width: 640px;
+  height: 480px;
+}
+
+.VideoEditor .Landing .Workspace #videoWrapper #video {
+  width: 640px;
+  height: 480px;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer {
+  width: 80%;
+  height: 50px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 1s ease-in;
+  transition: 1s ease-in;
+  position: relative;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer #StartTrim, .VideoEditor .Landing .Workspace .FramesLayer #EndTrim {
+  width: 15px;
+  height: 80px;
+  background: #1386f1;
+  cursor: e-resize;
+  position: absolute;
+  z-index: 1;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer #StartTrim .StartValue, .VideoEditor .Landing .Workspace .FramesLayer #StartTrim .EndValue, .VideoEditor .Landing .Workspace .FramesLayer #EndTrim .StartValue, .VideoEditor .Landing .Workspace .FramesLayer #EndTrim .EndValue {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background: rgba(219, 219, 219, 0.664);
+  right: 50%;
+  top: -50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer #StartTrim {
+  left: 0;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer #EndTrim {
+  right: 0;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer .Frames {
+  width: 100%;
+  height: 100%;
+  background: #4e4e4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer .Frames .Frame {
+  width: 5%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.VideoEditor .Landing .Workspace .FramesLayer .Frames .Animate {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-animation: animate 1s ease-in forwards;
+          animation: animate 1s ease-in forwards;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.VideoEditor .Landing .Workspace .Settings {
+  width: 80%;
+  height: 5vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.VideoEditor .Landing .Workspace .Settings .PlayButton {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.VideoEditor .Landing .Workspace .Settings .DownloadOptions {
+  width: 200px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.VideoEditor .Landing .Workspace .Settings .DownloadOptions .QuickDownload, .VideoEditor .Landing .Workspace .Settings .DownloadOptions .SlowDownload {
+  width: 200px;
+  height: 30px;
+  left: 0;
+  text-align: center;
+  background: lightgray;
+  color: #353535;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+  display: none;
+}
+
+.VideoEditor .Landing .Workspace .Settings .DownloadOptions .QuickDownload:hover, .VideoEditor .Landing .Workspace .Settings .DownloadOptions .SlowDownload:hover {
+  background: #353535;
+  color: lightgray;
+}
+
+.VideoEditor .Landing .Workspace .Settings .Download, .VideoEditor .Landing .Workspace .Settings .TrimVideo, .VideoEditor .Landing .Workspace .Settings .done, .VideoEditor .Landing .Workspace .Settings .cancel {
+  width: 100px;
+  height: 24px;
+  text-align: center;
+  background: lightgray;
+  color: #353535;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 14px;
+  background-repeat: no-repeat;
+}
+
+.VideoEditor .Landing .Workspace .Settings .Download:hover, .VideoEditor .Landing .Workspace .Settings .TrimVideo:hover, .VideoEditor .Landing .Workspace .Settings .done:hover, .VideoEditor .Landing .Workspace .Settings .cancel:hover {
+  background: #353535;
+  color: lightgray;
+}
+
+.VideoEditor .Landing .Workspace .Settings .done, .VideoEditor .Landing .Workspace .Settings .cancel {
+  display: none;
+}
+
+.VideoEditor .Landing .Workspace .Settings .RotateButtons {
+  width: 100px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.VideoEditor .Landing .Workspace .Settings .RotateButtons .RotateLeft {
+  width: 24px;
+  height: 24px;
+  background: url("./media/icons/Rleft.png");
+  background-size: contain;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.VideoEditor .Landing .Workspace .Settings .RotateButtons .RotateRight {
+  width: 24px;
+  height: 24px;
+  background: url("./media/icons/Rright.png");
+  background-size: contain;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.VideoEditor .Landing .Workspace .Settings .Crop {
+  width: 24px;
+  height: 24px;
+  background: url("./media/icons/crop.png");
+  background-size: contain;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.VideoEditor .Landing .Workspace .Settings .mirrorBox {
+  width: 300px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.VideoEditor .Landing .Workspace .Settings .mirrorBox .mirror {
+  width: 24px;
+  height: 24px;
+  background: url("./media/icons/mirror.png");
+  background-size: contain;
+  cursor: pointer;
+}
+
+.VideoEditor .Landing .Workspace .Settings .mirrorBox .FHorz, .VideoEditor .Landing .Workspace .Settings .mirrorBox .FVert, .VideoEditor .Landing .Workspace .Settings .mirrorBox .FReset {
+  width: 100px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-align: center;
+  background: lightgray;
+  color: #353535;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: none;
+}
+
+.VideoEditor .Landing .Workspace .Settings .mirrorBox .FHorz:hover, .VideoEditor .Landing .Workspace .Settings .mirrorBox .FVert:hover, .VideoEditor .Landing .Workspace .Settings .mirrorBox .FReset:hover {
+  background: #353535;
+  color: lightgray;
+}
+
+.VideoEditor .Landing .Workspace .Settings .FrameSettings {
+  width: 300px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.VideoEditor .Landing .Workspace .Settings .FrameSettings .Start, .VideoEditor .Landing .Workspace .Settings .FrameSettings .End {
+  width: 100px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.VideoEditor .Landing .Workspace .Settings .FrameSettings .Start .value #inputStart, .VideoEditor .Landing .Workspace .Settings .FrameSettings .Start .value #inputEnd, .VideoEditor .Landing .Workspace .Settings .FrameSettings .End .value #inputStart, .VideoEditor .Landing .Workspace .Settings .FrameSettings .End .value #inputEnd {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 24px;
+  -webkit-box-shadow: 0 0 3px rgba(24, 24, 24, 0.2);
+          box-shadow: 0 0 3px rgba(24, 24, 24, 0.2);
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.VideoEditor .resizable {
+  background: rgba(0, 0, 0, 0.2);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.VideoEditor .resizable .resizers {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #4286f4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.VideoEditor .resizable .resizers .resizer {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /*magic to turn square into circle*/
+  background: white;
+  border: 3px solid #4286f4;
+  position: absolute;
+  z-index: 10;
+}
+
+.VideoEditor .resizable .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize;
+  /*resizer cursor*/
+}
+
+.VideoEditor .resizable .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+
+.VideoEditor .resizable .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+
+.VideoEditor .resizable .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+/*# sourceMappingURL=style.css.map */

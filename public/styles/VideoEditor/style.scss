@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@mixin flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+@mixin ButtonStyle{
+    text-align: center;
+    background: rgb(211, 211, 211);
+    color: #353535;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    &:hover{
+        background: #353535;
+        color: rgb(211, 211, 211);
+    }
+}
+ .VideoEditor{
+    .Landing{
+        width: 100%;
+        height: 300px;
+        @include flexColumn();
+        .Landingtext{
+            width: 100%;
+            height: 20%;
+            @include flexRow();
+            font-size: 16px;
+            color:white;
+        }
+    .Button{
+        // display: none;
+        width: 120px;
+        height: 60px;
+        @include flexColumn();
+    .InputButton{
+        width: 100px;
+        height: 60px;
+        background: white;
+        color:#353535;
+        @include flexColumn();
+        font-size: 14px;
+        cursor: pointer;
+
+        &:hover{
+            background: grey;
+            color: white;
+        }
+        
+
+    }
+}
+.Spinner{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:6%;
+    background: url("./media/icons/spinner.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.LoadingText{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: white;
+    color: #353535;
+    @include flexRow();
+    display: none;
+}
+.DownloadBox{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    display: none;
+    background: white;
+.DownloadIcon{
+    width: 50px;
+    height: 50px;
+    background: url("./media/icons/download.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.DownloadLink{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #353535;
+    font-size: 18px;
+    @include flexRow();
+}
+}
+    .Workspace{
+        width: 100%;
+        height: 100%;
+        background: #353535;
+        @include flexColumn();
+        justify-content: space-around;
+        display: none;
+        
+        #videoWrapper{
+            width: 640px;
+            height: 480px;
+            // position: relative;
+            
+        
+        #video{
+            width: 640px;
+            height: 480px;
+            
+            }
+        }
+        .FramesLayer{
+            width: 80%;
+            height: 50px;
+            background: white;
+            @include flexRow();
+            transition: 1s ease-in;
+            position: relative;
+            #StartTrim,#EndTrim{
+                width: 15px;
+                height: 80px;
+                background: #1386f1;
+                cursor: e-resize;
+                position: absolute;
+                z-index: 1;
+                .StartValue,.EndValue{
+                    width: 100px;
+                    height: 20px;
+                    position: absolute;
+                    background: rgba(219, 219, 219, 0.664);
+                    right: 50%;
+                    top:-50%;
+                    transform: translateX(50%);
+                    
+                }
+            }
+            #StartTrim{
+                left: 0;
+            }
+            #EndTrim{
+                right: 0;
+            }
+            .Frames{
+                width:100%;
+                height: 100%;
+                background: #4e4e4e;
+                display:flex;
+                padding-left:15px;
+            .Frame{
+                width: 5%;
+                height: 100%;
+                object-fit: contain;
+                -webkit-user-drag: none;
+                user-select: none;
+                // margin-left: 10px;
+                // background-size: auto; 
+                
+            }
+            .Animate{
+                transition: 1s;
+                animation: animate 1s ease-in forwards;
+                @keyframes animate {
+                    0%{
+                        opacity: 0;
+                        transform: scale(1);
+                    }
+                    100%{
+                        opacity: 1;
+                        transform: scale(1.1);
+                    }
+
+                }
+            }
+            }
+            
+        }
+        .Settings{
+            width: 80%;
+            height: 5vh;
+            background: white;
+            @include flexRow();
+            justify-content: space-around;
+            .PlayButton{
+                width: 24px;
+                height: 24px;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .DownloadOptions{
+                width: 200px;
+                height: 100%;
+                @include flexColumn();
+                position: relative;
+                .QuickDownload,.SlowDownload{
+                    width: 200px;
+                    height: 30px;
+                    left: 0;
+                    @include ButtonStyle();
+                    position: absolute;
+                    transition: 0.5s;
+                    opacity: 0;
+                    z-index: 10;
+                    display: none;
+                }
+            }
+            .Download,.TrimVideo,.done,.cancel{
+                width: 100px;
+                height: 24px;
+                @include ButtonStyle();
+                @include flexRow();
+                font-size: 14px;
+                background-repeat: no-repeat;
+            }
+
+            .done,.cancel{
+                display: none;
+            }
+            .RotateButtons{
+                width: 100px;
+                height: 30px;
+                @include flexRow();
+                .RotateLeft{
+                    width: 24px;
+                    height: 24px;
+                    background: url("./media/icons/Rleft.png");
+                    background-size: contain;
+                    cursor: pointer;
+                    background-repeat: no-repeat;
+                }
+                .RotateRight{
+                    width:24px;
+                    height:24px;
+                    background: url("./media/icons/Rright.png");
+                    background-size: contain;
+                    cursor: pointer;
+                    background-repeat: no-repeat;
+                }
+            }
+            .Crop{
+                width: 24px;
+                height: 24px;
+                background: url("./media/icons/crop.png");
+                background-size: contain;
+                cursor: pointer;
+                background-repeat: no-repeat;
+            }
+            .mirrorBox{
+                width: 300px;
+                height: 50px;
+                @include flexRow();
+                gap:10px;
+            .mirror{
+                width:24px;
+                height:24px;
+                background: url("./media/icons/mirror.png");
+                background-size: contain;
+                cursor: pointer;
+            }
+            .FHorz,.FVert,.FReset{
+                width: 100px;
+                height: 24px;
+                @include flexRow();
+                @include ButtonStyle();
+                display: none;
+            }
+            }
+            .FrameSettings{
+                width: 300px;
+                height: 100%;
+                @include flexRow();
+                .Start,.End{
+                    width: 100px;
+                    height: 24px;
+                    @include flexRow();
+                    .value{
+                    #inputStart,#inputEnd{
+                        border: none;
+                        outline: none;
+                        width: 100px;
+                        height: 24px;
+                        box-shadow: 0 0 3px rgba(24, 24, 24, 0.2);
+                        padding-left: 2px;
+                        cursor: pointer;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.resizable {
+    background: rgba(0,0,0,0.2);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+  
+  .resizable .resizers{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #4286f4;
+    box-sizing: border-box;
+  }
+  
+  .resizable .resizers .resizer{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /*magic to turn square into circle*/
+    background: white;
+    border: 3px solid #4286f4;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .resizable .resizers .resizer.top-left {
+    left: -5px;
+    top: -5px;
+    cursor: nwse-resize; /*resizer cursor*/
+  }
+  .resizable .resizers .resizer.top-right {
+    right: -5px;
+    top: -5px;
+    cursor: nesw-resize;
+  }
+  .resizable .resizers .resizer.bottom-left {
+    left: -5px;
+    bottom: -5px;
+    cursor: nesw-resize;
+  }
+  .resizable .resizers .resizer.bottom-right {
+    right: -5px;
+    bottom: -5px;
+    cursor: nwse-resize;
+  }
+ }
