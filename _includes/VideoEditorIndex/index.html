@@ -1,0 +1,131 @@
+
+
+<body class="VideoEditor">
+
+    <div class="Landing">
+        <div class="Landingtext">Upload your video to edit</div>
+        <div class="Button">      
+            <label for="files" class="InputButton">Upload</label>
+            <input id="files" style="visibility:hidden;" type="file" onchange="get_video_source_from_input(this)">
+        </div>
+        <div class="Spinner">
+
+        </div>
+        <div class="LoadingText">
+
+        </div>
+        <div class="DownloadBox">
+            <!-- <div class="DownloadIcon">
+
+            </div> -->
+            <a class="DownloadLink">
+                Click here to download the file
+            </a>
+
+        </div>
+        <div class="Workspace">
+            <div id="videoWrapper">
+
+                <div class='resizable'>
+                    <div class='resizers'>
+                      <div class='resizer top-left'></div>
+                      <div class='resizer top-right'></div>
+                      <div class='resizer bottom-left'></div>
+                      <div class='resizer bottom-right'></div>
+                    </div>
+                  </div>
+                <video id="video" src="" width="pixels"></video>            
+    
+            </div>
+            
+            
+            <div class="FramesLayer">
+                <div id="StartTrim" class="Trimmer" >
+                    <div class="StartValue">
+                        00:00:00
+                    </div>
+                </div>
+                <duv class="Frames">
+
+                </duv>
+                <div id="EndTrim" class="Trimmer">
+                    <div class="EndValue">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="Settings">
+                
+                <div class="RotateButtons">
+                    <div class="RotateLeft" onclick="RotatePreview(2)">
+
+                    </div>
+
+                    <div class="RotateRight" onclick="RotatePreview(1)">
+                        
+                    </div>
+                </div>
+                <div class="PlayButton">
+
+                </div>
+                
+                <div class="FrameSettings">
+                    <div class="Start">
+                        <div class="value">
+                            <input value="00:00:00" type="time" step="1" id="inputStart" onchange="ChangeHandler(this,0)">
+                        </div>
+                    </div>
+                    <div class="End">
+                        
+                        <div class="value">
+                            <input value="00:00:00" type="time" step="1" id="inputEnd" onchange="ChangeHandler(this,1)">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="DownloadOptions">
+                    
+                    <div class="ChooseOption">
+                        <div class="QuickDownload" onclick="DownloadFile(1)">
+                            Quick download
+                        </div>
+                        <div class="SlowDownload" onclick="DownloadFile(0)">
+                            Slow download
+                        </div>
+                        
+                    </div>
+                    
+                </div> -->
+                <div class="Download" onclick="DownloadFile()">Download</div>
+                <div class="Crop"
+                onclick="InitiateCropping()"
+                >
+
+                </div>
+                <div class="done" onclick="Show_or_Hide_Buttons(1)">Done</div>
+                <div class="cancel" onclick="Show_or_Hide_Buttons(2)">Cancel</div>
+                <div class="mirrorBox">
+                    <div class="mirror" onclick="ShowFlipOptions()">
+                    
+                    </div>
+                    <div class="FHorz" onclick="setFlip(1)">
+                        Flip X
+                    </div>
+                    <div class="FVert" onclick="setFlip(2)">
+                        Flip Y
+                    </div>
+                    <div class="FReset" onclick="setFlip(0)">
+                        Reset flip
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.9.5/dist/ffmpeg.min.js"></script>
+<script src="./src/VideoEditorJS/App.js"></script>
+<link rel="stylesheet" href="./public/styles/VideoEditor/style.css">
+</body>
