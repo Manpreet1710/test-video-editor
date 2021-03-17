@@ -1,2 +1,2 @@
 # video-editor
-Video editor
+Video-Editor
