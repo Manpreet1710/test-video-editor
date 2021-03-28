@@ -1,0 +1,162 @@
+{
+    "logo":"",
+    "heading":"We make video editing easy.",
+    "company":[
+       {
+        "name":"About",
+        "url":"/about"
+          
+       },
+       {
+        "name":"Help",
+        "url":"/help"
+        
+      },
+      {
+        "name":"Blog",
+        "url":"/blog"
+        
+      }
+    ],
+    "product":[
+        {
+            "name": "Crop MP4",
+            "description": "Crop any MP4 video",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/crop-mp4"  
+          },
+          {
+            "name": "Crop video",
+            "description": "Crop any video",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/crop-video"
+          },
+          {
+            "name": "MP4 editor",
+            "description": "Edit any MP4 video",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/edit-mp4-video"
+          },
+          {
+            "name": "Flip video",
+            "description": "Flip any video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/flip-video"
+          },
+          {
+            "name": "MOV compressor",
+            "description": "Compress any MOV video",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/mov-compressor"
+          },
+          {
+            "name": "MP4 compressor",
+            "description": "Compress any MP4 videos",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/mp4-compressor"
+          },{
+            "name": "MP4 Cutter",
+            "description": "Cut any MP4 video",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/mp4-cutter"
+          },
+          {
+            "name": "video editor",
+            "description": "Edit any video",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/video-editor"
+          },
+          {
+            "name": "MP4 trimmer",
+            "description": "Trim any MP4 video",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/mp4-trimmer"
+          },
+          {
+            "name": "Resize video",
+            "description": "Resize any video",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/resize-video"
+          },
+          {
+            "name": "Video compressor",
+            "description": "Compress any video",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/video-compressor"
+          },
+          {
+            "name": "video-cutter",
+            "description": "Cut any video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/video-cutter"
+          },
+          {
+            "name": "Video rotater",
+            "description": "Rotate any video",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/video-rotater"
+          },
+          {
+            "name": "Video splitter",
+            "description": "Split any video",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/video-splitter"
+          },
+          {
+            "name": "Video trimmer",
+            "description": "Trim any video",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/video-trimmer"
+          }
+    ],
+    "networkSites":[
+        
+    ],
+    "social":[
+        {
+            "logo":"/assets/facebook.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/youtube.svg",
+            "url": "/",
+            "title":"abc"
+        },
+        {
+            "logo":"/assets/instagram.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/linkdin.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/twitter.svg",
+            "url": "/",
+            "title":"abc"
+            
+        }
+    ],
+    "messege": "© 2021 pdf AG — Made with love for the people of the internet."
+ }
