@@ -9,7 +9,10 @@
     "LABEL": "DOCX to PDF",
     "BREADCRUMB_LABEL": "DOCX TO PDF",
     "color": "#ffa502",
-    "height": "300px",
+    "height": "300px",    "img":"./assets/FeatureIcons_featurePage/edit-video.svg",
+    "imgwidth":"30px",
+    "imgheight":"30px",
+    "imgalt":"altvalue",
     "TEXTUAL_CONTENT": [
       {
       "priority": 1,
