@@ -16,6 +16,10 @@
         "name":"Blog",
         "url":"/blog"
         
+      },
+      {
+        "name":"Terms and conditions",
+        "url":"/terms-and-conditions"
       }
     ],
     "product":[
@@ -128,35 +132,50 @@
         
     ],
     "social":[
-        {
-            "logo":"/assets/facebook.svg",
-            "url": "/",
-            "title":"abc"
-            
-        },
-        {
-            "logo":"/assets/youtube.svg",
-            "url": "/",
-            "title":"abc"
-        },
-        {
-            "logo":"/assets/instagram.svg",
-            "url": "/",
-            "title":"abc"
-            
-        },
-        {
-            "logo":"/assets/linkdin.svg",
-            "url": "/",
-            "title":"abc"
-            
-        },
-        {
-            "logo":"/assets/twitter.svg",
-            "url": "/",
-            "title":"abc"
-            
-        }
+      {
+        "logo":"/assets/facebook.svg",
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+        "title":"facebook"
+        
+    },
+    {
+        "logo":"/assets/youtube.svg",
+        "url": "/",
+        "title":"youtube"
+    },
+    {
+        "logo":"/assets/instagram.svg",
+        "url": "/",
+        "title":"instagram"
+        
+    },
+    {
+        "logo":"/assets/linkdin.svg",
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+        "title":"linkdin"
+        
+    },
+    {
+        "logo":"/assets/twitter.svg",
+        "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+        "title":"twitter"
+        
+    }
     ],
-    "messege": "© 2021 pdf AG — Made with love for the people of the internet."
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal":[
+      {
+       "name":"Terms and conditions",
+       "url":"/terms-and-conditions"
+     },
+      {
+       "name":"Privacy Policy",
+       "url":"/privacy-policy"
+     },
+     {
+      "name":"Contact Us",
+      "url":"/contact"
+        
+     }
+   ]
  }
