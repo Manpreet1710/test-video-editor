@@ -75,7 +75,7 @@
                 </a>
                <p class="featureName">Reset</p>
             </div>
-            <div class="FeatureR" id="cancel">
+            <div class="FeatureR" id="cancel" onclick="Show_or_Hide_CancelEditOverlay()">
                 <a> <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' fill='none'><path d='M13 26c7.2 0 13-5.8 13-13S20.2 0 13 0 0 5.8 0 13s5.8 13 13 13z' fill='white'/><path d='M17.7 9.5c.4-.3.4-.9 0-1.2-.3-.4-.9-.4-1.2 0L13 11.7 9.5 8.3c-.3-.4-.9-.4-1.2 0-.4.3-.4.9 0 1.2l3.4 3.5-3.4 3.5c-.4.3-.4.9 0 1.2.3.4.9.4 1.2 0l3.5-3.4 3.5 3.4c.3.4.9.4 1.2 0 .4-.3.4-.9 0-1.2L14.3 13l3.4-3.5z' fill='#353535'/></svg>
                 </a>
                 <p class="featureName">Cancel</p>
@@ -94,7 +94,7 @@
                   <div class='resizer bottom-right'></div>
                 </div>
               </div>
-            <video id="video" src="" width="pixels"></video>            
+            <video id="video" src="" width="pixels" ></video>            
 
         </div>
         
@@ -108,6 +108,11 @@
             <div id="EndTrim" class="Trimmer">
                 <div class="EndValue">
                     
+                </div>
+            </div>
+            <div id="SeekTrim">
+                <div class="SeekValue">
+                    00:00:00
                 </div>
             </div>
             <div class="ActiveFrames">
@@ -127,154 +132,156 @@
 
                 </div>
             </div>
-            <div class="RotateSettings">
-                <div class="wrapper">
-                    <div class="RotateLeft" onclick="SetRotate(2)">
-                        <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
-                        <div class="RLeft">Left</div>
-                    </div>
-
-                    <div class="RotateRight" onclick="SetRotate(1)">
-                        <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
-                        <div class="RRight">Right</div>
-                    </div>
-
-                </div>
+            <div class="SettingsWrap">
                 
-            </div>
-            
-            
-            <div class="FrameSettings">
-
-                <div class="wrapper">
-                    <div class="Start">
-                        <div class="value">
-                            <div class="hhmmss">
-                                <input type="text" id="hhs" placeholder="00" onchange="TrimChangeHandler(0)">
-                                :
-                                <input type="text" id="mms" placeholder="00" onchange="TrimChangeHandler(0)">
-                                :
-                                <input type="text" id="sss" placeholder="00" onchange="TrimChangeHandler(0)">
-
+                <div class="RotateSettings">
+                    <div class="wrapper">
+                        <div class="RotateLeft" onclick="SetRotate(2)">
+                            <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                            <div class="RLeft">Left</div>
+                        </div>
+    
+                        <div class="RotateRight" onclick="SetRotate(1)">
+                            <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                            <div class="RRight">Right</div>
+                        </div>
+    
+                    </div>
+                    
+                </div>            
+                <div class="FrameSettings">
+    
+                    <div class="wrapper">
+                        <div class="Start">
+                            <div class="value">
+                                <div class="hhmmss">
+                                    <input type="text" id="hhs" placeholder="00" onchange="TrimChangeHandler(0)">
+                                    :
+                                    <input type="text" id="mms" placeholder="00" onchange="TrimChangeHandler(0)">
+                                    :
+                                    <input type="text" id="sss" placeholder="00" onchange="TrimChangeHandler(0)">
+    
+                                </div>
+                            </div>
+                        </div>
+                        to
+                        <div class="End">
+                            
+                            <div class="value">
+                                 <div class="hhmmss">
+                                    <input type="text" id="hhe" placeholder="00" onchange="TrimChangeHandler(1)">
+                                    :
+                                    <input type="text" id="mme" placeholder="00" onchange="TrimChangeHandler(1)">
+                                    :
+                                    <input type="text" id="sse" placeholder="00" onchange="TrimChangeHandler(1)">
+    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    to
-                    <div class="End">
-                        
-                        <div class="value">
-                             <div class="hhmmss">
-                                <input type="text" id="hhe" placeholder="00" onchange="TrimChangeHandler(1)">
-                                :
-                                <input type="text" id="mme" placeholder="00" onchange="TrimChangeHandler(1)">
-                                :
-                                <input type="text" id="sse" placeholder="00" onchange="TrimChangeHandler(1)">
-
-                            </div>
+                </div>
+                <div class="CropSettings">
+                    <div class="AspectRatios">
+                        <div class="RatioO Ratio ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1:1
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            16:9
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            9:16
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            4:3
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            3:4
+                        </div>
+                    </div>
+    
+                    
+                </div>
+                <div class="ResolutionSettings">
+                    <div class="Resolutions">
+                        <div class="ResolutionO Resolution ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1080p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            720p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            480p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            360p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            240p
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="CropSettings">
-                <div class="AspectRatios">
-                    <div class="RatioO Ratio ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        Original
-                    </div>
-                    <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1:1
-                    </div>
-                    <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        16:9
-                    </div>
-                    <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        9:16
-                    </div>
-                    <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        4:3
-                    </div>
-                    <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        3:4
-                    </div>
-                </div>
-
-                
-            </div>
-            <div class="ResolutionSettings">
-                <div class="Resolutions">
-                    <div class="ResolutionO Resolution ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        Original
-                    </div>
-                    <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1080p
-                    </div>
-                    <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        720p
-                    </div>
-                    <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        480p
-                    </div>
-                    <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        360p
-                    </div>
-                    <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        240p
+                <div class="SpeedSettings">
+                    <div class="Speeds">
+                        <div class="SpeedO Speed ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.25x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.5x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.75x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.25x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.5x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.75x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            2x
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="SpeedSettings">
-                <div class="Speeds">
-                    <div class="SpeedO Speed ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        Original
+                <div class="FlipSettings">
+                    <div class="Flips">
+                    <div class="Flip" onclick="setFlip(1)">
+                        <a>
+                            <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
+                        </a>
+                        <div>Flip X</div>
                     </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        0.25x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        0.5x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        0.75x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1.25x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1.5x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        1.75x
-                    </div>
-                    <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
-                        2x
+                    <div class="Flip" onclick="setFlip(2)">
+                        <a>
+                            <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
+                        </a>
+                        <div>Flip Y</div>
                     </div>
                 </div>
-            </div>
-            <div class="FlipSettings">
-                <div class="Flips">
-                <div class="Flip" onclick="setFlip(1)">
-                    <a>
-                        <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
-                    </a>
-                    <div>Flip X</div>
-                </div>
-                <div class="Flip" onclick="setFlip(2)">
-                    <a>
-                        <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
-                    </a>
-                    <div>Flip Y</div>
                 </div>
             </div>
-            </div>
+            
 
             <div class="Compression_Settings">
                 <p class="Title">Compression Setings</p>
-                <div class="Size">
+                <!-- <div class="Size">
                     <label for="size" >Video size</label>
                     <input type="text" id="size" name="field" placeholder="size in MB,example 10" onchange="Compress_data_Handler(this)">
-                </div>
+                </div> -->
                 <div class="EncodingSpeed">
                     <label for="speed" >Encoding speed</label>
                     <select id="speed" name="field" onchange="Compress_data_Handler(this)">
@@ -291,8 +298,12 @@
                 </div>
                 
                 <div class="slidecontainer">
-                    <input name="field" id="crf" type="range" min="0" max="51" value="23" class="slider" onchange="Compress_data_Handler(this)">
-                    <p id="crfText">23</p>
+                    <label for="crf" >CRF value</label>
+                    <div class="CRFValue">
+                        <input name="field" id="crf" type="range" min="0" max="51" value="23" class="slider" onchange="Compress_data_Handler(this)">
+                        <p id="crfText">23</p>
+                    </div>
+                   
 
                 </div>
                 
@@ -308,7 +319,16 @@
                 </div>
             </div>
         </div>
-
+        <div class="CancelEditing">
+            <div class="container">
+                <h2>Cancel editing?</h2>
+                <div class="ButtonsWrap">
+                    <button id="cancelEdit" onclick="CancelEdit()">yes</button>
+                    <button id="noCancelEdit" onclick="Show_or_Hide_CancelEditOverlay()">No</button>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
 <script src="./src/ffmpeg.min.js"></script>

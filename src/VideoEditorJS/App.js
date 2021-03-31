@@ -11,7 +11,7 @@ var previous_feature_displayed=null;
 var TrimInfo=document.querySelector('.TrimInfo');
 var update_PreviousFeature_and_Change_Style=(target)=>{
   previous_feature_selected=target.childNodes[3];
-  previous_feature_selected.style.width="150px";
+  previous_feature_selected.style.width="80px";
   previous_feature_selected.style.display="inherit";
 }
 const Show_or_Hide_featureNames=async (e)=>{
@@ -33,6 +33,11 @@ var FeatureOriginals={
   Speed:document.querySelector('.SpeedO')
 }
 var previous_Selected_feature_option={};
+var CancelEditing=document.querySelector('.CancelEditing');
+
+
+
+
 
 const Add_Remove_ClassOnClick=(e)=>{
   var Target=e.target;
@@ -80,9 +85,11 @@ const Eventlisteners_on_feature_click=(()=>{
   }
 
 })();
+
 var ProgressBar=document.querySelector('.ProgressBar');
 var StartTrimValue=document.querySelector('.StartValue');
 var EndTrimValue=document.querySelector('.EndValue');
+var SeekValue=document.querySelector('.SeekValue');
 var Ratio;
 var videoSource= document.getElementById("video"); // added for clarity: this is needed
 var FinalVideosrc;
@@ -91,8 +98,7 @@ var ActualSourceurl;
 var EndTimeinSeconds;
 var StartTimeinSeconds=0;
 var FramesLayer=document.querySelector(".FramesLayer .Frames");
-var DoneButton=document.querySelector('.done');
-var CancelButton=document.querySelector('.cancel');
+var FramesLayerWrap=document.querySelector(".FramesLayer");
 var CurrentCropTop;
 var CurrentCropLeft;
 var CurrentCropWidth;
@@ -140,7 +146,7 @@ var QuickDownload=document.querySelector('.QuickDownload');
 var SlowDownload=document.querySelector('.SlowDownload');
 var ToggleDownloadOptions=0;
 var LandingPage=document.querySelector('.Landing');
-
+var SeekTrim=document.querySelector('#SeekTrim');
 
 var CurrentFeature=null;
 var CompressionSettingsButton=document.querySelector('.Encoding_and_compression_Settings');
@@ -153,6 +159,40 @@ var OriginalFeatures={
   Speed:document.querySelector('.SpeedO')
 }
 var Compression_Settings_ClickCount=0;
+var ToggleCancelEdit=0;
+
+videoSource.onended=()=>{
+  TogglePlayPause(CurrentSeek.time);
+}
+
+
+
+window.addEventListener('keydown', function(e){
+  
+  if(e.keyCode == 32){
+    e.preventDefault();
+    TogglePlayPause(CurrentSeek.Time);
+  }
+}
+);
+var Show_or_Hide_CancelEditOverlay=()=>{
+  
+  if(ToggleCancelEdit==0)
+  {
+    CancelEditing.style.display="inherit";
+    ToggleCancelEdit=1;
+    return;
+  }
+  else{
+    CancelEditing.style.display="none";
+    ToggleCancelEdit=0;
+    return;
+  }
+}
+var CancelEdit=()=>{
+  location.reload();
+}
+
 const AnimateCompression_Settings=()=>{
   if((++Compression_Settings_ClickCount)%2==1)
   {
@@ -165,6 +205,29 @@ const AnimateCompression_Settings=()=>{
   }
 }
 
+var CurrentSeek={
+  Position:0,
+  Time:0
+}
+
+var SeekVideo=()=>{
+
+  videoSource.currentTime=CurrentSeek.Time;
+
+}
+var OnSeekHover=(e)=>{
+  CurrentSeek.Position=e.pageX-FramesLayer.getBoundingClientRect().left;
+  CurrentSeek.Time=CurrentSeek.Position*ratio;
+  let Milliseconds=((CurrentSeek.Time%1).toFixed(1)).toString().slice(1);
+  let measuredTime = new Date(null);
+  measuredTime.setSeconds(CurrentSeek.Time); // specify value of SECONDS
+  let MHSTime = measuredTime.toISOString().substr(11, 8);
+  SeekValue.innerText=MHSTime+Milliseconds;
+  SeekTrim.style.left=CurrentSeek.Position+"px";
+  
+}
+FramesLayerWrap.addEventListener('click',SeekVideo);
+FramesLayerWrap.addEventListener('mousemove',OnSeekHover);
 
 
 var EndTimeChange={
@@ -341,7 +404,7 @@ var HandleFeatureValueChange=(target)=>
 //from url
 // Switch_to_Feature('crop-mp4');
 
-const TogglePlayPause=()=>{
+var TogglePlayPause=(time=null)=>{
   if(TogglePlay===1)
   {
     playPauseButtonIcon.style.backgroundImage=`url("./public/styles/VideoEditor/media/icons/play.svg")`;
@@ -351,7 +414,7 @@ const TogglePlayPause=()=>{
   else
   {
     playPauseButtonIcon.style.backgroundImage=`url("./public/styles/VideoEditor/media/icons/pause.svg")`;
-    playVideoPreview();
+    playVideoPreview(time);
     TogglePlay=1;
   }
 }
@@ -633,9 +696,9 @@ const TrimChangeHandler=(value)=>{
 
 
 
-const playVideoPreview=async()=>{
+const playVideoPreview=async(starttime=null)=>{
     //change actual video src to src#t 00:00 to 00:10 using basic html
-    videoSource.src=`${ActualSourceurl}#t=${FeatureValues['StartTime']},${FeatureValues['EndTime']}`;
+    videoSource.src=`${ActualSourceurl}#t=${starttime?starttime:FeatureValues['StartTime']},${FeatureValues['EndTime']}`;
     videoSource.play();
 }
 
