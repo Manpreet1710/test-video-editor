@@ -1,131 +1,337 @@
 
-
 <body class="VideoEditor">
+    <link rel="stylesheet" href="./public/styles/VideoEditor/style.css">
 
     <div class="Landing">
-        <div class="Landingtext">Upload your video to edit</div>
+        <div class="ProgressBar">
+            
+        </div>
+        
         <div class="Button">      
             <label for="files" class="InputButton">Upload</label>
             <input id="files" style="visibility:hidden;" type="file" onchange="get_video_source_from_input(this)">
         </div>
+        <div class="Landingtext">or drop your file here</div>
         <div class="Spinner">
 
         </div>
-        <div class="LoadingText">
+        
 
-        </div>
         <div class="DownloadBox">
-            <!-- <div class="DownloadIcon">
-
-            </div> -->
+            <img class="DownloadIcon" src="./public/styles/VideoEditor/media/icons/trust.svg">
+            <div class="LoadingText">
+                Thanks for your patience
+            </div>
             <a class="DownloadLink">
-                Click here to download the file
+                Download
             </a>
 
         </div>
-        <div class="Workspace">
-            <div id="videoWrapper">
 
-                <div class='resizable'>
-                    <div class='resizers'>
-                      <div class='resizer top-left'></div>
-                      <div class='resizer top-right'></div>
-                      <div class='resizer bottom-left'></div>
-                      <div class='resizer bottom-right'></div>
-                    </div>
-                  </div>
-                <video id="video" src="" width="pixels"></video>            
-    
-            </div>
-            
-            
-            <div class="FramesLayer">
-                <div id="StartTrim" class="Trimmer" >
-                    <div class="StartValue">
-                        00:00:00
-                    </div>
-                </div>
-                <duv class="Frames">
-
-                </duv>
-                <div id="EndTrim" class="Trimmer">
-                    <div class="EndValue">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="Settings">
-                
-                <div class="RotateButtons">
-                    <div class="RotateLeft" onclick="RotatePreview(2)">
-
-                    </div>
-
-                    <div class="RotateRight" onclick="RotatePreview(1)">
-                        
-                    </div>
-                </div>
-                <div class="PlayButton">
-
-                </div>
-                
-                <div class="FrameSettings">
-                    <div class="Start">
-                        <div class="value">
-                            <input value="00:00:00" type="time" step="1" id="inputStart" onchange="ChangeHandler(this,0)">
-                        </div>
-                    </div>
-                    <div class="End">
-                        
-                        <div class="value">
-                            <input value="00:00:00" type="time" step="1" id="inputEnd" onchange="ChangeHandler(this,1)">
-                        </div>
-                    </div>
-
-                </div>
-                <!-- <div class="DownloadOptions">
-                    
-                    <div class="ChooseOption">
-                        <div class="QuickDownload" onclick="DownloadFile(1)">
-                            Quick download
-                        </div>
-                        <div class="SlowDownload" onclick="DownloadFile(0)">
-                            Slow download
-                        </div>
-                        
-                    </div>
-                    
-                </div> -->
-                <div class="Download" onclick="DownloadFile()">Download</div>
-                <div class="Crop"
-                onclick="InitiateCropping()"
-                >
-
-                </div>
-                <div class="done" onclick="Show_or_Hide_Buttons(1)">Done</div>
-                <div class="cancel" onclick="Show_or_Hide_Buttons(2)">Cancel</div>
-                <div class="mirrorBox">
-                    <div class="mirror" onclick="ShowFlipOptions()">
-                    
-                    </div>
-                    <div class="FHorz" onclick="setFlip(1)">
-                        Flip X
-                    </div>
-                    <div class="FVert" onclick="setFlip(2)">
-                        Flip Y
-                    </div>
-                    <div class="FReset" onclick="setFlip(0)">
-                        Reset flip
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
 
     </div>
+    <div class="Workspace">
+        <div class="FeaturesPanel">
+            <div class="LeftPanel">
+                <div class="Feature" id="Trim">
+                    
+                    <a> <svg width='20' height='20' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M8.08 6.665A3.5 3.5 0 106.665 8.08L8.585 10l-1.921 1.922a3.5 3.5 0 101.414 1.414l2.614-2.614a.591.591 0 00.028-.028l6.653-6.653a1 1 0 00-1.414-1.414L10 8.586l-1.92-1.92zM5 3.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm0 10a1.5 1.5 0 100 3 1.5 1.5 0 000-3z' fill='white'/><path d='M11.35 11.36a1 1 0 011.415-.001l4.608 4.6a1 1 0 01-1.413 1.415l-4.608-4.6a1 1 0 01-.001-1.414z' fill='white'/></svg>
+                    </a>
+                    <p class="featureName">Trim</p>
+                </div>
+                <div class="Feature" id="Crop" onclick="InitiateCropping()">
+                    <a> <svg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M4 0a1 1 0 00-1 1v14.454C3 16.308 3.692 17 4.545 17H14v-2H5.714A.714.714 0 015 14.286V1a1 1 0 00-1-1z' fill='white'/><path d='M16 20a1 1 0 001-1V4.545C17 3.691 16.308 3 15.454 3H6v2h8.15c.47 0 .85.38.85.849v13.15a1 1 0 001 1zM0 4a1 1 0 011-1h1v2H1a1 1 0 01-1-1zM19 15h-1v2h1a1 1 0 100-2z' fill='white'/></svg>
+                    </a>
+                    <p class="featureName">Crop</p>
+                </div>
+                <div class="Feature" id="Rotate">
+                    <a> <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                    </a>
+                    <p class="featureName">Rotate</p>
+                </div>
 
-<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.9.5/dist/ffmpeg.min.js"></script>
+                <div class="Feature" id="Resolution">
+                    <a> <svg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M7 8a1 1 0 112 0 1 1 0 01-2 0zM11 7a1 1 0 100 2 1 1 0 000-2zM13 8a1 1 0 112 0 1 1 0 01-2 0zM8 10a1 1 0 100 2 1 1 0 000-2zM7 14a1 1 0 112 0 1 1 0 01-2 0z' fill='white'/><path d='M4 0a4 4 0 00-4 4v12a4 4 0 004 4h12a4 4 0 004-4V4a4 4 0 00-4-4H4zm12 2H4a2 2 0 00-2 2v12a2 2 0 002 2h3v-1a1 1 0 112 0v1h7a2 2 0 002-2V9h-1a1 1 0 110-2h1V4a2 2 0 00-2-2z' clip-rule='evenodd' fill='white' fill-rule='evenodd'/></svg>
+                    </a>
+                    <p class="featureName">Resolution</p>
+                </div>
+
+                <div class="Feature" id="Speed">
+                    <a> <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none'><style>.a{fill:white}</style><path d='M10 0c-.6 0-1 .4-1 1s.4 1 1 1h3c.6 0 1-.4 1-1s-.4-1-1-1h-3zM18 11.5c0 3.6-2.9 6.5-6.5 6.5-2.3 0-4.3-1.2-5.5-3H3.8c1.3 2.9 4.3 5 7.7 5 4.7 0 8.5-3.8 8.5-8.5S16.2 3 11.5 3c-2.1 0-4 .8-5.5 2h6c3.4.3 6 3.1 6 6.5z' class='a'/><path d='M3 13c-.6 0-1-.4-1-1s.4-1 1-1h4c.6 0 1 .4 1 1s-.4 1-1 1H3zM11 12.9c.5.2 1.1 0 1.3-.4l1.8-3.6c.3-.5.1-1.1-.4-1.4-.5-.2-1.1 0-1.3.5l-1.9 3.5c-.2.5 0 1.1.5 1.4zM1 9c-.6 0-1-.4-1-1s.4-1 1-1h8c.6 0 1 .4 1 1s-.4 1-1 1H1z' class='a'/></svg>
+                    </a>
+                    <p class="featureName">Speed</p>
+                </div>
+                <div class="Feature" id="Flip">
+                    <a>
+                        <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
+                    </a>
+                    <p class="featureName">Flip</p>
+                </div>
+        </div>
+        <div class="RightPanel">
+
+            <div class="FeatureR" id="reset" onclick="ResetFeature()">
+                <a> <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                </a>
+               <p class="featureName">Reset</p>
+            </div>
+            <div class="FeatureR" id="cancel" onclick="Show_or_Hide_CancelEditOverlay()">
+                <a> <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' fill='none'><path d='M13 26c7.2 0 13-5.8 13-13S20.2 0 13 0 0 5.8 0 13s5.8 13 13 13z' fill='white'/><path d='M17.7 9.5c.4-.3.4-.9 0-1.2-.3-.4-.9-.4-1.2 0L13 11.7 9.5 8.3c-.3-.4-.9-.4-1.2 0-.4.3-.4.9 0 1.2l3.4 3.5-3.4 3.5c-.4.3-.4.9 0 1.2.3.4.9.4 1.2 0l3.5-3.4 3.5 3.4c.3.4.9.4 1.2 0 .4-.3.4-.9 0-1.2L14.3 13l3.4-3.5z' fill='#353535'/></svg>
+                </a>
+                <p class="featureName">Cancel</p>
+            </div>
+
+        
+        </div>
+        </div>
+        <div id="videoWrapper">
+
+            <div class='resizable'>
+                <div class='resizers'>
+                  <!-- <div class='resizer top-left'></div>
+                  <div class='resizer top-right'></div>
+                  <div class='resizer bottom-left'></div> -->
+                  <div class='resizer bottom-right'></div>
+                </div>
+              </div>
+            <video id="video" src="" width="pixels" ></video>            
+
+        </div>
+        
+        
+        <div class="FramesLayer">
+            <div id="StartTrim" class="Trimmer" >
+                <div class="StartValue">
+                    00:00:00
+                </div>
+            </div>
+            <div id="EndTrim" class="Trimmer">
+                <div class="EndValue">
+                    
+                </div>
+            </div>
+            <div id="SeekTrim">
+                <div class="SeekValue">
+                    00:00:00
+                </div>
+            </div>
+            <div class="ActiveFrames">
+
+            </div>
+            <div class="Frames">
+
+            </div>
+            
+        </div>
+        <div class="TrimInfo">
+            The video is not edited yet
+        </div>
+        <div class="Settings">
+            <div class="PlayButton">
+                <div class="PlayIcon">
+
+                </div>
+            </div>
+            <div class="SettingsWrap">
+                
+                <div class="RotateSettings">
+                    <div class="wrapper">
+                        <div class="RotateLeft" onclick="SetRotate(2)">
+                            <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                            <div class="RLeft">Left</div>
+                        </div>
+    
+                        <div class="RotateRight" onclick="SetRotate(1)">
+                            <svg fill='none' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M11 17A7 7 0 104.674 7H7.5a1 1 0 010 2H1V2.5a1 1 0 012 0v3.373a9 9 0 11-.039 8.18c-.267-.53.056-1.143.628-1.296.5-.134 1.014.135 1.261.59A6.998 6.998 0 0011 17z' fill='white'/></svg>
+                            <div class="RRight">Right</div>
+                        </div>
+    
+                    </div>
+                    
+                </div>            
+                <div class="FrameSettings">
+    
+                    <div class="wrapper">
+                        <div class="Start">
+                            <div class="value">
+                                <div class="hhmmss">
+                                    <input type="text" id="hhs" placeholder="00" onchange="TrimChangeHandler(0)">
+                                    :
+                                    <input type="text" id="mms" placeholder="00" onchange="TrimChangeHandler(0)">
+                                    :
+                                    <input type="text" id="sss" placeholder="00" onchange="TrimChangeHandler(0)">
+    
+                                </div>
+                            </div>
+                        </div>
+                        to
+                        <div class="End">
+                            
+                            <div class="value">
+                                 <div class="hhmmss">
+                                    <input type="text" id="hhe" placeholder="00" onchange="TrimChangeHandler(1)">
+                                    :
+                                    <input type="text" id="mme" placeholder="00" onchange="TrimChangeHandler(1)">
+                                    :
+                                    <input type="text" id="sse" placeholder="00" onchange="TrimChangeHandler(1)">
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CropSettings">
+                    <div class="AspectRatios">
+                        <div class="RatioO Ratio ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1:1
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            16:9
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            9:16
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            4:3
+                        </div>
+                        <div class="Ratio" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            3:4
+                        </div>
+                    </div>
+    
+                    
+                </div>
+                <div class="ResolutionSettings">
+                    <div class="Resolutions">
+                        <div class="ResolutionO Resolution ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1080p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            720p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            480p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            360p
+                        </div>
+                        <div class="Resolution" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            240p
+                        </div>
+                    </div>
+                </div>
+                <div class="SpeedSettings">
+                    <div class="Speeds">
+                        <div class="SpeedO Speed ActiveFeature" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            Original
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.25x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.5x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            0.75x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.25x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.5x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            1.75x
+                        </div>
+                        <div class="Speed" name="FeatureValue" onClick="HandleFeatureValueChange(this)">
+                            2x
+                        </div>
+                    </div>
+                </div>
+                <div class="FlipSettings">
+                    <div class="Flips">
+                    <div class="Flip" onclick="setFlip(1)">
+                        <a>
+                            <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
+                        </a>
+                        <div>Flip X</div>
+                    </div>
+                    <div class="Flip" onclick="setFlip(2)">
+                        <a>
+                            <svg id="Layer_2" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m16 9c-.382 0-.746-.144-1.023-.406l-6.497-5.997c-.303-.274-.48-.675-.48-1.097 0-.827.673-1.5 1.5-1.5h13c.827 0 1.5.673 1.5 1.5 0 .422-.177.823-.485 1.101l-6.495 5.996c-.274.259-.638.403-1.02.403zm-6.5-8c-.276 0-.5.224-.5.5 0 .141.055.269.155.359l6.504 6.004c.19.18.495.176.678.003l6.504-6.003c.104-.094.159-.222.159-.363 0-.276-.224-.5-.5-.5z" fill='white'/></g><g><path d="m22.5 24h-13c-.827 0-1.5-.673-1.5-1.5 0-.422.177-.823.485-1.101l6.496-5.996c.548-.518 1.487-.521 2.043.003l6.496 5.997c.303.274.48.675.48 1.097 0 .827-.673 1.5-1.5 1.5zm-6.5-8c-.126 0-.246.047-.337.134l-6.504 6.003c-.104.094-.159.222-.159.363 0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5 0-.141-.055-.269-.155-.359l-6.504-6.004c-.095-.09-.215-.137-.341-.137z" fill='white'/></g><g><path d="m22.5 12.5h-13c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h13c.276 0 .5.224.5.5s-.224.5-.5.5z" fill='white'/></g><g><path d="m6.5 21h-6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5.5v-5.5c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z" fill='white' /></g><g><path d="m6.5 21c-.054 0-.109-.009-.163-.027-3.791-1.307-6.337-4.813-6.337-8.723s2.546-7.416 6.337-8.723c.261-.09.545.048.636.31.09.261-.048.546-.31.636-3.387 1.168-5.663 4.294-5.663 7.777s2.276 6.609 5.663 7.777c.261.09.399.375.31.636-.072.207-.265.337-.473.337z" fill='white'/></g></svg>
+                        </a>
+                        <div>Flip Y</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+
+            <div class="Compression_Settings">
+                <p class="Title">Compression Setings</p>
+                <!-- <div class="Size">
+                    <label for="size" >Video size</label>
+                    <input type="text" id="size" name="field" placeholder="size in MB,example 10" onchange="Compress_data_Handler(this)">
+                </div> -->
+                <div class="EncodingSpeed">
+                    <label for="speed" >Encoding speed</label>
+                    <select id="speed" name="field" onchange="Compress_data_Handler(this)">
+                        <option>ultrafast</option>
+                        <option>superfast</option>
+                        <option>veryfast</option>
+                        <option>faster</option>
+                        <option>fast</option>
+                        <option>medium</option>
+                        <option>slow</option>
+                        <option>slower</option>
+                        <option>veryslow</option>
+                    </select>   
+                </div>
+                
+                <div class="slidecontainer">
+                    <label for="crf" >CRF value</label>
+                    <div class="CRFValue">
+                        <input name="field" id="crf" type="range" min="0" max="51" value="23" class="slider" onchange="Compress_data_Handler(this)">
+                        <p id="crfText">23</p>
+                    </div>
+                   
+
+                </div>
+                
+                
+            </div>
+            <div class="FinalSettings">
+                
+                <div class="Encoding_and_compression_Settings">
+                    <svg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M10 9a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z' clip-rule='evenodd' fill='white' fill-rule='evenodd'/><path d='M10 2a.636.636 0 00-.636.636v.143A2.35 2.35 0 017.939 4.93a1 1 0 01-.245.07 2.35 2.35 0 01-2.402-.544l-.008-.008-.05-.05a.64.64 0 00-.9 0V4.4a.636.636 0 000 .9l.056.058a2.35 2.35 0 01.483 2.563 2.35 2.35 0 01-2.14 1.509h-.097a.636.636 0 000 1.273h.143a2.35 2.35 0 012.149 1.42 2.35 2.35 0 01-.472 2.586l-.008.008-.05.05a.64.64 0 00-.138.694.637.637 0 001.04.207l.057-.057a2.35 2.35 0 012.563-.483 2.35 2.35 0 011.509 2.14v.097a.636.636 0 101.273 0V17.22a2.351 2.351 0 011.42-2.149 2.349 2.349 0 012.586.472l.008.008.05.05a.64.64 0 00.694.138.636.636 0 00.206-.138V15.6a.637.637 0 000-.9l-.056-.058a2.35 2.35 0 01-.473-2.587 2.35 2.35 0 012.149-1.42h.078a.636.636 0 000-1.272H17.22a2.35 2.35 0 01-2.151-1.425 1 1 0 01-.07-.245 2.35 2.35 0 01.544-2.402l.008-.008.05-.05a.64.64 0 00.138-.694.636.636 0 00-1.04-.207l-.057.057a2.35 2.35 0 01-2.587.473 2.35 2.35 0 01-1.42-2.149v-.078A.637.637 0 0010 2zm6.97 10.858a.35.35 0 00.067.383l.043.044a2.637 2.637 0 010 3.73h.001a2.635 2.635 0 01-3.73 0l-.044-.044a.35.35 0 00-.383-.067l-.01.004a.35.35 0 00-.212.319v.136a2.636 2.636 0 11-5.273 0v-.058a.35.35 0 00-.229-.312 1.024 1.024 0 01-.058-.024.35.35 0 00-.384.067l-.043.044a2.64 2.64 0 01-3.73 0 2.637 2.637 0 010-3.73l.044-.043a.35.35 0 00.067-.384l-.004-.01a.35.35 0 00-.32-.212h-.136a2.636 2.636 0 110-5.272h.058a.35.35 0 00.313-.229c.007-.02.015-.04.024-.059a.35.35 0 00-.068-.383l-.043-.043a2.636 2.636 0 113.73-3.73l.043.043a.35.35 0 00.383.068 1 1 0 01.159-.055.35.35 0 00.129-.269v-.136a2.636 2.636 0 115.272 0v.071a.35.35 0 00.213.319l.01.004a.35.35 0 00.383-.067l.043-.044a2.64 2.64 0 013.73 0 2.635 2.635 0 010 3.73l-.044.044a.35.35 0 00-.067.383c.023.051.04.104.055.158a.349.349 0 00.268.13h.137a2.636 2.636 0 110 5.272h-.071a.35.35 0 00-.32.212l-.004.01z' clip-rule='evenodd' fill='white' fill-rule='evenodd'/></svg>
+                </div>
+                <div class="Save" onclick="DownloadFile()">
+                    Save
+                </div>
+            </div>
+        </div>
+        <div class="CancelEditing">
+            <div class="container">
+                <h2>Cancel editing?</h2>
+                <div class="ButtonsWrap">
+                    <button id="cancelEdit" onclick="CancelEdit()">yes</button>
+                    <button id="noCancelEdit" onclick="Show_or_Hide_CancelEditOverlay()">No</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<script src="./src/ffmpeg.min.js"></script>
 <script src="./src/VideoEditorJS/App.js"></script>
-<link rel="stylesheet" href="./public/styles/VideoEditor/style.css">
+    
 </body>

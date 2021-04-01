@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 @mixin flexRow {
@@ -35,33 +36,47 @@
     }
 }
  .VideoEditor{
+     width: 100%;
+     height: 100%;
     .Landing{
         width: 100%;
         height: 300px;
         @include flexColumn();
+        // display: none;
+        .ProgressBar{
+            width: 0%;
+            border-bottom:8px solid white;
+            position: absolute;
+            top: 0;
+            align-self: flex-start;
+
+        }
         .Landingtext{
-            width: 100%;
-            height: 20%;
+            width: fit-content;
+            height: fit-content;
             @include flexRow();
-            font-size: 16px;
+            font-size: 12px;
             color:white;
+            // display: none;
+            
         }
     .Button{
-        // display: none;
         width: 120px;
         height: 60px;
         @include flexColumn();
+        // display: none;
     .InputButton{
-        width: 100px;
-        height: 60px;
+        width: 140px;
+        height: 70px;
         background: white;
         color:#353535;
         @include flexColumn();
         font-size: 14px;
         cursor: pointer;
-
+        transition: 0.2s;
         &:hover{
-            background: grey;
+            background: none;
+            border: 1px solid white;
             color: white;
         }
         
@@ -79,239 +94,828 @@
     display: none;
 }
 .LoadingText{
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    background: white;
-    color: #353535;
+    width: fit-content;
+    height: fit-content;
+    color: white;
     @include flexRow();
     display: none;
 }
 .DownloadBox{
     width: 500px;
-    height: 50px;
-    display: flex;
+    height: 200px;
     display: none;
-    background: white;
+    @include flexColumn();
+    justify-content: space-around;
+    display: none;
 .DownloadIcon{
     width: 50px;
     height: 50px;
-    background: url("./media/icons/download.png");
     background-size: contain;
     background-repeat: no-repeat;
 
 }
 .DownloadLink{
-    width: 100%;
+    width: 140px;
     height: 50px;
-    text-align: center;
+    background: white;
+    color:#353535;
+    @include flexColumn();
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
     text-decoration: none;
-    color: #353535;
-    font-size: 18px;
-    @include flexRow();
+    &:hover{
+        background: none;
+        border: 1px solid white;
+        color: white;
+    }
 }
 }
-    .Workspace{
+
+}
+.Workspace{
+    width: 100%;
+    height: 90vh;
+    background: #353535;
+    @include flexColumn();
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    .CancelEditing{
         width: 100%;
         height: 100%;
         background: #353535;
+        position: absolute;
+        z-index: 1000;
         @include flexColumn();
-        justify-content: space-around;
         display: none;
-        
-        #videoWrapper{
-            width: 640px;
-            height: 480px;
-            // position: relative;
-            
-        
-        #video{
-            width: 640px;
-            height: 480px;
-            
+        .container{
+            width: 300px;
+            height: 200px;
+            // background: white;
+            @include flexColumn();
+            h2{
+                font-size: 16px;
+                color: white;
             }
-        }
-        .FramesLayer{
-            width: 80%;
-            height: 50px;
-            background: white;
-            @include flexRow();
-            transition: 1s ease-in;
-            position: relative;
-            #StartTrim,#EndTrim{
-                width: 15px;
-                height: 80px;
-                background: #1386f1;
-                cursor: e-resize;
-                position: absolute;
-                z-index: 1;
-                .StartValue,.EndValue{
-                    width: 100px;
-                    height: 20px;
-                    position: absolute;
-                    background: rgba(219, 219, 219, 0.664);
-                    right: 50%;
-                    top:-50%;
-                    transform: translateX(50%);
-                    
+            .ButtonsWrap{
+                width: 100%;
+                height: 60%;
+                @include flexColumn();
+                justify-content: space-around;
+                button
+                {
+                    width: 120px;
+                    height: 50px;
+                    color: #353535;
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    transition: 0.2s;
+                }
+                #noCancelEdit{
+                    background: black;
+                    color: white;
+                    &:hover{
+                        background: rgb(58, 58, 58);
+                    }
+                }
+
+                #cancelEdit
+                {
+                    &:hover{
+                        background:rgb(201, 201, 201);
+                    }
                 }
             }
-            #StartTrim{
-                left: 0;
+        }
+        
+    }
+    .FeaturesPanel{
+        width: 90%;
+        height: 10%;
+        @include flexRow();
+        justify-content: space-between;
+        .LeftPanel{
+            width: 40%;
+            display: flex;
+            gap: 2px;
+        .Feature{
+            padding: 10px;
+            width: 150px;
+            height: 40px;
+            background: rgba(90, 90, 90, 0.466);
+            @include flexRow();
+            cursor: pointer;
+            a,#Layer_2{
+                width: 20px;
+                height: 30px;
+                pointer-events: none;
             }
-            #EndTrim{
-                right: 0;
+            #Layer_2{
+                transform: rotate(90deg);
             }
-            .Frames{
-                width:100%;
-                height: 100%;
-                background: #4e4e4e;
-                display:flex;
-                padding-left:15px;
-            .Frame{
-                width: 5%;
-                height: 100%;
-                object-fit: contain;
-                -webkit-user-drag: none;
-                user-select: none;
-                // margin-left: 10px;
-                // background-size: auto; 
+            .featureName{
+                padding: 10%;
+                display: none;
+                width: 60px;
+                height: 30px;
+                color:white;
+                pointer-events: none;
                 
             }
-            .Animate{
-                transition: 1s;
-                animation: animate 1s ease-in forwards;
-                @keyframes animate {
-                    0%{
-                        opacity: 0;
-                        transform: scale(1);
-                    }
-                    100%{
-                        opacity: 1;
-                        transform: scale(1.1);
-                    }
-
-                }
+            &:nth-child(1)
+            {
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
             }
+            &:nth-last-child(1)
+            {
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
             }
-            
+            &:hover{
+                background: rgba(68, 68, 68, 0.466);
+            }
         }
-        .Settings{
-            width: 80%;
-            height: 5vh;
-            background: white;
+        
+    }
+    .RightPanel{
+        width: 15%;
+        display: flex;
+        gap: 2px;
+        .FeatureR{
+            padding: 10px;
+            width: 150px;
+            height: 40px;
             @include flexRow();
-            justify-content: space-around;
-            .PlayButton{
-                width: 24px;
-                height: 24px;
-                background-size: cover;
-                cursor: pointer;
+            background: rgba(90, 90, 90, 0.466);
+            cursor: pointer;
+            a{
+                width: 22px;
+                height: 22px;
+                pointer-events: none;
             }
-            .DownloadOptions{
-                width: 200px;
-                height: 100%;
-                @include flexColumn();
-                position: relative;
-                .QuickDownload,.SlowDownload{
-                    width: 200px;
-                    height: 30px;
-                    left: 0;
-                    @include ButtonStyle();
-                    position: absolute;
-                    transition: 0.5s;
-                    opacity: 0;
-                    z-index: 10;
-                    display: none;
-                }
-            }
-            .Download,.TrimVideo,.done,.cancel{
-                width: 100px;
-                height: 24px;
-                @include ButtonStyle();
-                @include flexRow();
-                font-size: 14px;
-                background-repeat: no-repeat;
-            }
-
-            .done,.cancel{
+            .featureName{
+                padding: 10%;
                 display: none;
+                width: 60px;
+                color:white;
+                pointer-events: none;
             }
-            .RotateButtons{
-                width: 100px;
-                height: 30px;
-                @include flexRow();
-                .RotateLeft{
-                    width: 24px;
-                    height: 24px;
-                    background: url("./media/icons/Rleft.png");
-                    background-size: contain;
-                    cursor: pointer;
-                    background-repeat: no-repeat;
-                }
-                .RotateRight{
-                    width:24px;
-                    height:24px;
-                    background: url("./media/icons/Rright.png");
-                    background-size: contain;
-                    cursor: pointer;
-                    background-repeat: no-repeat;
-                }
+            &:nth-child(1)
+            {
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
             }
-            .Crop{
-                width: 24px;
-                height: 24px;
-                background: url("./media/icons/crop.png");
-                background-size: contain;
-                cursor: pointer;
-                background-repeat: no-repeat;
+            &:nth-last-child(1)
+            {
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
             }
-            .mirrorBox{
-                width: 300px;
-                height: 50px;
-                @include flexRow();
-                gap:10px;
-            .mirror{
-                width:24px;
-                height:24px;
-                background: url("./media/icons/mirror.png");
-                background-size: contain;
-                cursor: pointer;
-            }
-            .FHorz,.FVert,.FReset{
-                width: 100px;
-                height: 24px;
-                @include flexRow();
-                @include ButtonStyle();
-                display: none;
-            }
-            }
-            .FrameSettings{
-                width: 300px;
-                height: 100%;
-                @include flexRow();
-                .Start,.End{
-                    width: 100px;
-                    height: 24px;
-                    @include flexRow();
-                    .value{
-                    #inputStart,#inputEnd{
-                        border: none;
-                        outline: none;
-                        width: 100px;
-                        height: 24px;
-                        box-shadow: 0 0 3px rgba(24, 24, 24, 0.2);
-                        padding-left: 2px;
-                        cursor: pointer;
-                        }
-                    }
-                    
-                }
+            &:hover{
+                background: rgba(68, 68, 68, 0.466);
             }
         }
     }
-}
+    }
+    
+    #videoWrapper{
+        width: 480px;
+        height: 318px;
+        // background:#073764;
+        position: relative;
+        
+    
+    #video{
+        width: 100%;
+        height: 100%;
+        
+        }
+    }
+    .FramesLayer{
+        width: 95%;
+        height:55px;
+        background: white;
+        @include flexRow();
+        transition: 1s ease-in;
+        position: relative;
+        #StartTrim,#EndTrim,#SeekTrim{
+            width: 10px;
+            height: 60px;
+            background: white;
+            cursor: e-resize;
+            position: absolute;
+            z-index: 1;
+            .StartValue,.EndValue,.SeekValue{
+                width: 100px;
+                height: 15px;
+                font-size: 12px;
+                position: absolute;
+                background: rgba(219, 219, 219, 0.664);
+                @include flexColumn();
+                border-radius: 10px;
+                right: 50%;
+                top:-50%;
+                transform: translateX(50%);
+                
+            }
+            .SeekValue{
+                top:100%;
+                bottom: 0;
+                background: white;
+                height: 15px;
+                font-size: 12px;
+                border-radius: 10px;
+            }
+        }
+        #StartTrim{
+            left: 0;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            z-index: 900;
+        }
+        #EndTrim{
+            right: 0;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            z-index: 900;
+        }
+        #SeekTrim{
+            left: 0;
+            width: 2px;
+            height: 60px;
+            background: rgb(255, 255, 255);
+            cursor: none;
+        }
+        .ActiveFrames{
+            width: 100%;
+            height: 100%;
+            background: #ffffffa6;
+            backdrop-filter: blur(5px);
+            position: absolute;
+        }
+        .Frames{
+            width:100%;
+            height: 100%;
+            background: #4e4e4e;
+            display:flex;
+            padding-left:15px;
+        .Frame{
+            width: 5%;
+            height: 100%;
+            object-fit: contain;
+            -webkit-user-drag: none;
+            user-select: none;
+            // margin-left: 10px;
+            // background-size: auto; 
+            
+        }
+        .Animate{
+            transition: 1s;
+            animation: animate 1s ease-in forwards;
+            @keyframes animate {
+                0%{
+                    opacity: 0;
+                    transform: scale(1);
+                }
+                100%{
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
 
+            }
+        }
+        }
+        
+    }
+    .Settings{
+        width: 100%;
+        padding: 3%;
+        @include flexRow();
+        user-select: none;
+        justify-content: space-between;
+        .PlayButton{
+            width: 100px;
+            height: 40px;
+            @include flexRow();
+            border-radius: 10px;
+            background: rgba(90, 90, 90, 0.466);
+            cursor: pointer;
+            .PlayIcon{
+                width: 20px;
+                height: 20px;
+                
+                object-fit: contain;
+                transition: 0.1s ease-in-out;
+            }
+            &:hover{
+                background: rgba(68, 68, 68, 0.466);
+            }
+        }
+        .DownloadOptions{
+            width: 200px;
+            height: 100%;
+            @include flexColumn();
+            position: relative;
+            .QuickDownload,.SlowDownload{
+                width: 200px;
+                height: 30px;
+                left: 0;
+                @include ButtonStyle();
+                position: absolute;
+                transition: 0.5s;
+                opacity: 0;
+                z-index: 10;
+                display: none;
+            }
+        }
+        .Download,.TrimVideo{
+            width: 100px;
+            height: 24px;
+            @include ButtonStyle();
+            @include flexRow();
+            font-size: 14px;
+            background-repeat: no-repeat;
+            display: none;
+        }
+        .SettingsWrap
+        {
+            width:70%;
+            height: 40px;
+            @include flexRow();
+            user-select: none;
+        .CropSettings{
+            width:100%;
+            height: 40px;
+            gap:2px;
+            @include flexRow();
+            display: none;
+            justify-content: space-around;
+            .AspectRatios{
+                width: 90%;
+                height: 100%;
+                @include flexRow();
+                gap: 2px;
+                .Ratio{
+                    width: 80px;
+                    height: 100%;
+                    @include flexRow();
+                    background: rgba(90, 90, 90, 0.466);
+                    color: white;
+                    cursor: pointer;
+                    font-size: 14px;
+                    &:nth-child(1)
+                                {
+                                border-bottom-left-radius: 10px;
+                                border-top-left-radius: 10px;
+                                }
+                        &:nth-last-child(1)
+                                {
+                                    border-bottom-right-radius: 10px;
+                                    border-top-right-radius: 10px;
+                                }
+                                
+                &:hover{
+                    background: rgba(68, 68, 68, 0.466);
+                }
+                }
+                
+            }
+            .Done_cancel_choice{
+                width: 210px;
+                height: 40px;
+                gap:2px;
+                @include flexRow();
+                
+                .done,.cancel{
+                    width: 100px;
+                    height: 40px;
+                    background: rgba(90, 90, 90, 0.466);
+                    color: white;
+                    @include flexRow();
+                    cursor: pointer;
+                    
+                &:hover{
+                    background: rgba(68, 68, 68, 0.466);
+                }
+
+                }
+                .done{
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+                .cancel{
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+            
+        }
+        .ResolutionSettings{
+            width:100%;
+            height: 40px;
+            gap:2px;
+            @include flexRow();
+            display: none;
+            justify-content: space-around;
+            .Resolutions{
+                width: 70%;
+                height: 100%;
+                @include flexRow();
+                gap: 2px;
+                .Resolution{
+                    width: 80px;
+                    height: 100%;
+                    @include flexRow();
+                    background: rgba(90, 90, 90, 0.466);
+                    color: white;
+                    cursor: pointer;
+                    font-size: 14px;
+                    &:nth-child(1)
+                                {
+                                border-bottom-left-radius: 10px;
+                                border-top-left-radius: 10px;
+                                }
+                        &:nth-last-child(1)
+                                {
+                                    border-bottom-right-radius: 10px;
+                                    border-top-right-radius: 10px;
+                                }
+                                
+                &:hover{
+                    background: rgba(68, 68, 68, 0.466);
+                }
+                }
+                
+            }
+        }
+        .SpeedSettings{
+            width:100%;
+            height: 40px;
+            gap:2px;
+            @include flexRow();
+            display: none;
+            justify-content: space-around;
+            .Speeds{
+                width: 70%;
+                height: 100%;
+                @include flexRow();
+                gap: 2px;
+                .Speed{
+                    width: 80px;
+                    height: 100%;
+                    @include flexRow();
+                    background: rgba(90, 90, 90, 0.466);
+                    color: white;
+                    cursor: pointer;
+                    font-size: 14px;
+                    &:nth-child(1)
+                                {
+                                border-bottom-left-radius: 10px;
+                                border-top-left-radius: 10px;
+                                }
+                        &:nth-last-child(1)
+                                {
+                                    border-bottom-right-radius: 10px;
+                                    border-top-right-radius: 10px;
+                                }
+                                
+                &:hover{
+                    background: rgba(68, 68, 68, 0.466);
+                }
+                }
+                
+            }
+        }
+        .FlipSettings{
+            width:100%;
+            height: 40px;
+            @include flexRow();
+            display: none;
+            
+            .Flips{
+                width: 250px;
+                height: 100%;
+                @include flexRow();
+                gap: 2px;
+
+
+            .Flip{
+                width: 100px;
+                height:100%;
+                @include flexRow();
+                background: rgba(90, 90, 90, 0.466);
+                cursor: pointer;
+                font-size: 14px;
+                justify-content: space-around;
+                svg{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                object-fit: contain;
+                pointer-events: none;
+                }
+                div{
+                    font-size: 14px;
+                    color: white;
+                }
+                &:nth-child(1)
+                {
+                    border-bottom-left-radius: 10px;
+                    border-top-left-radius: 10px;
+                }
+                &:nth-last-child(1)
+                {
+                    
+                    border-bottom-right-radius: 10px;
+                    border-top-right-radius: 10px;
+                    svg{
+                        transform: rotate(90deg);
+                    }
+                }
+                &:hover{
+                    background: rgba(34, 34, 34, 0.493)
+                }
+                }
+            
+            
+        }
+            
+        }
+        
+        .RotateSettings{
+            width:100%;
+            height: 40px;
+            @include flexRow();
+            display: none;
+            
+            .wrapper{
+                width: 250px;
+                height: 100%;
+                @include flexRow();
+                gap: 2px;
+
+            .RotateLeft,.RotateRight{
+                width: 100px;
+                height: 100%;
+                @include flexRow();
+                background: rgba(90, 90, 90, 0.466);
+                cursor: pointer;
+                justify-content: space-evenly;
+                svg{
+                width: 22px;
+                height: 22px;
+                pointer-events: none;
+                }
+                div{
+                    font-size: 14px;
+                    pointer-events: none;
+                    color: white;
+                    
+                }
+                &:hover{
+                    background: rgba(34, 34, 34, 0.493)
+                }
+            }
+            .RotateLeft{
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+
+            }
+            .RotateRight{
+                svg{
+                transform: rotateY(180deg);
+                }
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+            
+        }
+        .Crop{
+            width: 24px;
+            height: 24px;
+            background: url("./media/icons/crop.png");
+            background-size: contain;
+            cursor: pointer;
+            background-repeat: no-repeat;
+            display: none;
+        }
+    }
+        .Compression_Settings{
+            right: 10%;
+            bottom: 15%;
+            width: 350px;
+            height: 300px;
+            z-index: 100;
+            user-select: none;
+            // background: white;
+            border-radius: 10px;
+            opacity: 0;
+            justify-content: space-around;
+            @include flexColumn();
+            position: absolute;
+            display: none;
+            pointer-events: none;
+            background: rgba(255, 255, 255, 0.726);
+            backdrop-filter: blur(5px);
+            .Title{
+                width: 100%;
+                height: 10%;
+                font-size: 20px;
+                @include flexColumn();
+            }
+            .Size{
+                width:100%;
+                height: 30%;
+                @include flexRow();
+                label{
+                    width: 40%;
+                    text-align: left;
+                    font-size: 14px;
+                }
+                #size{
+                    width: 50%;
+                    height: 40%;
+                    outline: none;
+                    font-size: 14px;
+                }
+            }
+            .EncodingSpeed{
+                width: 100%;
+                height: 30%;
+                @include flexRow();
+                label{
+                    width: 40%;
+                    text-align: left;
+                    font-size: 14px;
+                }
+                 #speed{
+                width: 50%;
+                height: 40%;
+                @include flexColumn();
+                outline: none;
+                font-size: 14px;
+                }
+                option{
+                    text-align: left;
+                    outline: none;
+                    font-size: 14px;
+                    background: #353535;
+                    color: white;
+                    
+                    &:hover{
+                        background: white;
+                        border: 1px solid white;
+                        color: #353535;
+                    }
+                }
+                &::before{
+                    content: 'Slower speed gives better compression';
+                    width: 150px;
+                    height: 50px;
+                    padding: 5px;
+                    bottom:50%;       
+                    left: 0;
+                    text-align: center;
+                    position: absolute;
+                    transition: 0.4s;
+                    background: white;
+                    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                    border-radius: 6px;
+                    font-size: 14px;
+                    @include flexColumn();
+                    opacity: 0;
+                   
+                }
+                &:hover::before{
+                    left: 0;
+                    display: block; 
+                    background: white; 
+                    opacity: 1;
+                    bottom:60%; 
+                    @include flexColumn();
+                }   
+            
+            }
+           
+
+        }
+        .AnimateSettings{
+            animation: animate 0.1s ease-in forwards;
+
+            @keyframes animate {
+                0%{
+                    opacity: 0;
+                    bottom: 15%;
+                }
+                100%{
+                    opacity: 1;
+                    bottom: 20%;
+                    pointer-events: inherit;
+                   
+                }
+                
+            }
+        }
+        .FinalSettings{
+            width: 180px;
+            height: 100px;
+            @include flexRow();
+            justify-content: space-between;
+            .Encoding_and_compression_Settings{
+                width: 60px;
+                height: 40px;
+                background: rgba(90, 90, 90, 0.466);
+                @include flexRow();
+                border-radius: 10px;
+                cursor: pointer;
+                svg{
+                    width: 24px;
+                    height: 24px;
+                    object-fit: contain;
+                }
+                &:hover{
+                    background: rgba(68, 68, 68, 0.466);
+                }
+               
+            }
+            .Save{
+                width: 100px;
+                height: 50px;
+                background: white;
+                border-radius: 10px;
+                @include flexRow();
+                color:#353535;
+                cursor: pointer;
+                font-weight: bolder;
+                user-select: none;
+            }
+        }
+        .FrameSettings{
+            width: 70%;
+            height: 100%;
+            @include flexRow();
+            display: none;
+            .wrapper{
+            width: 400px;
+            height: 100%;
+            @include flexRow();
+            justify-content: space-around;
+            color: white;
+            
+            .Start,.End{
+                width: 100px;
+                height: 24px;
+                @include flexRow();
+                .value{
+                #inputStart,#inputEnd{
+                    display: none;
+                    border: none;
+                    outline: none;
+                    width: 100px;
+                    height: 24px;
+                    box-shadow: 0 0 3px rgba(24, 24, 24, 0.2);
+                    padding-left: 2px;
+                    cursor: pointer;
+                    }
+                    .hhmmss{
+                        width: 150px;
+                        height: 40px;
+                        @include flexRow();
+                        color: rgba(207, 207, 207, 0.466);
+                        input{
+                            width: 40px;
+                            height: 30px;
+                            background: rgba(90, 90, 90, 0.466);
+                            outline: none;
+                            border: none;
+                            padding: 5%;
+                            color: white;
+                            &:nth-child(1)
+                                {
+                                border-bottom-left-radius: 4px;
+                                border-top-left-radius: 4px;
+                                }
+                        &:nth-last-child(1)
+                                {
+                                    border-bottom-right-radius: 4px;
+                                    border-top-right-radius: 4px;
+                                }
+                            
+                        }
+                        
+
+                    }
+                }
+                
+            }
+        }
+        }
+    }
+}
 .resizable {
     background: rgba(0,0,0,0.2);
     background-size: contain;
@@ -320,6 +924,7 @@
     position: absolute;
     z-index: 1;
     display: none;
+    
   }
   
   .resizable .resizers{
@@ -327,6 +932,7 @@
     height: 100%;
     border: 3px solid #4286f4;
     box-sizing: border-box;
+    cursor: move;
   }
   
   .resizable .resizers .resizer{
@@ -360,3 +966,315 @@
     cursor: nwse-resize;
   }
  }
+ .SliderContainerBefore{
+    &::before{
+        content: ' lower CRF values correspond to higher bitrates, and hence produce higher quality videos.';
+        width: 150px;
+        height: 120px;
+        padding: 5px;
+        top: -30px;
+        left: -100px;
+        text-align: center;
+        position: absolute;
+        transition: 0.4s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        border-radius: 6px;
+        font-size: 14px;
+        background: white;
+        @include flexColumn();
+        opacity: 0;
+    }
+ }
+ .slidecontainer
+    {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height:70px;
+        @include flexRow();
+      
+        
+        label{
+            width: 40%;
+            text-align: left;
+        }
+        .CRFValue{
+            width: 50%;
+            height: 100%;
+            @include flexColumn();
+            // align-items: flex-end;
+            p{
+                height: fit-content;
+            }
+        }
+    .slider {
+        margin-top: 10%;
+        -webkit-appearance: none;
+        width: 90%;
+        height: 5px;
+        border-radius: 5px;  
+        background: #ffffff;
+        outline: none;
+        opacity: 1;
+        border: 0.5px solid #353535;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        // &:before{
+        //     width: 0;
+        //     height: 0;
+        // }
+        &::before{
+            content: 'Lower crf values gives better compression and quality';
+            width: 150px;
+            height: 100px;
+            padding: 5px;
+            bottom:80%;    
+            // right: 90%;      
+            left: 0;
+            text-align: center;
+            position: absolute;
+            transition: 0.4s;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 6px;
+            font-size: 14px;
+            @include flexColumn();
+            opacity: 0;
+        }
+        &:hover::before{
+            display: block; 
+            left: 0;
+            background: white; 
+            opacity: 1;
+            bottom: 90%;  
+            @include flexColumn();
+        }
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; 
+        background: #4CAF50;
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+      }
+    }
+
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+      }
+      
+      /* Hide default HTML checkbox */
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      /* The slider */
+      .slider {
+        // position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      
+      
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 34px;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      
+      .ActiveFeature{
+        background: rgba(34, 34, 34, 0.493)!important;
+    }
+
+
+    .feature-card-img{
+        width: 30px;
+        height: 30px;
+    }
+
+.TrimInfo{
+    width: 40%;
+    height: 30px;
+    background: white;
+    margin-top: 2%;
+    color: #353535;
+    margin-right: 5%;
+    @include flexRow();
+    border-radius: 10px;
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .VideoEditor .Workspace .FeaturesPanel {
+        flex-direction: column;
+        width: 100%;
+        height: 15%;
+    }
+    .VideoEditor .Workspace #videoWrapper {
+        width: 220px;
+        height: 180px;
+        margin-bottom: 5%;
+    }
+    .VideoEditor .Workspace .FeaturesPanel .LeftPanel {
+        width: 100%;
+    }   
+    .VideoEditor .Workspace .Settings .FrameSettings {
+        width: 60%;
+    }
+    .VideoEditor .Workspace .Settings .FrameSettings .wrapper {
+        width: 100%;
+    
+    }
+    .VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input {
+        width: 20px;
+        height: 20px;
+        background: rgba(90, 90, 90, 0.466);
+        outline: none;
+        border: none;
+        padding: 0%;
+        color: white;
+        font-size: 12px;
+    }
+    .VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss {
+        width: 70px;
+    }
+
+    .VideoEditor .Workspace .Settings .PlayButton{
+        background: none;
+    }
+    .VideoEditor .Workspace .Settings .FinalSettings .Encoding_and_compression_Settings {
+        width: 30px;
+        height: 30px;
+        background: none;
+    }
+    .VideoEditor .Workspace .Settings .FinalSettings .Save {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .VideoEditor .Workspace .Settings .FinalSettings {
+        width: 50%;
+        height: 30px;
+        gap: 2px;
+    }
+    .TrimInfo {
+        width: 90%;
+        font-size: 14px;
+        height: 20px;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+    .VideoEditor .Workspace #videoWrapper {
+        width: 240px;
+        height: 180px;
+    }
+
+    .VideoEditor .Workspace .Settings {
+        width: 100%;
+        height: 150px;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .VideoEditor .Workspace .Settings .SettingsWrap {
+        width: 100%;
+    
+    }
+    .VideoEditor .Workspace .Settings .Compression_Settings {
+        bottom: 15%;
+        width: 300px;
+        height: 300px;
+        right: auto;
+    }
+    .VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .AspectRatios .Ratio {
+        width: 50px;
+        height: 90%;
+        font-size: 12px;
+    }
+    .VideoEditor .Workspace .Settings .SettingsWrap .ResolutionSettings .Resolutions {
+        width: 100%;
+    }
+
+    .VideoEditor .Workspace .Settings .SettingsWrap .ResolutionSettings .Resolutions .Resolution {
+        width: 50px;
+        height: 90%;
+        font-size: 12px;
+    }
+
+    .VideoEditor .Workspace .Settings .SettingsWrap .SpeedSettings .Speeds {
+        width: 100%;
+    }
+    .VideoEditor .Workspace .Settings .SettingsWrap .SpeedSettings .Speeds .Speed {
+        width: 50px;
+        height: 90%;
+        font-size: 12px;
+    }
+    .VideoEditor .Workspace .FramesLayer {
+        width: 95%;
+        height: 35px;
+    }
+    .VideoEditor .Workspace .FramesLayer #StartTrim .StartValue, .VideoEditor .Workspace .FramesLayer #StartTrim .EndValue, .VideoEditor .Workspace .FramesLayer #EndTrim .StartValue, .VideoEditor .Workspace .FramesLayer #EndTrim .EndValue {
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .VideoEditor .Workspace .FramesLayer {
+        width: 85%;
+        height: 35px;
+    }
+    .VideoEditor .Workspace .FramesLayer .Frames .Frame {
+        width: 5%;
+        &:hover{
+            transform: scale(2);
+        }
+    }
+    
+
+
+}
