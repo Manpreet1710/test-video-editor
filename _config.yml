@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Safevideokit.com is a game changing website for people who are in need to edit their videos.
   Safevideokit.com offers free online video editing services that does your job in no time.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://safevideokit.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://safevideokit.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
