@@ -32,7 +32,7 @@
     {
       "name": "Flip video",
       "description": "Flip any video",
-      "color": "#ff615c",
+      "color": "##4bcffa",
       "icon": "/assets/FeatureIcons/flip.svg",
       "url": "/flip-video"
     },
