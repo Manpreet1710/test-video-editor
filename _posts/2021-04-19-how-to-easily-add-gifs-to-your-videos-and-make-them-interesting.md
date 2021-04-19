@@ -79,13 +79,11 @@ By default, your videos will have a watermark in the free version. You must upgr
   ![](/uploads/image10.png)
 * After you have selected a video, tap on STICKER from the editing toolbar present at the bottom.
 
-![](https://lh3.googleusercontent.com/KL2ft3vtnwPilnirFpFEZKPYQOIuw8fQVxLCyKO0Y0i6SGpndBGANpRgQWi35ElBDJcj7S96MWtnqoMm5wxSqafGHHRNlP86q2L9rVHB5GUPMzfenMhh6PevghNeKT1kK5qdiak3 "How to add GIFs to videos" =210x357)
-
+  ![](/uploads/image6.png)
 * Tap on **GIF**.
 * Search for the GIF you want. The GIF library of InShot is powered by Giphy, which is one of the largest libraries for GIFs. This means that you can find almost any GIF that you search for.
 
-![](https://lh3.googleusercontent.com/2OVZa-fuQDh4TzII7tK7CVsyloCszqPDndn0QD-yPQKorRLeSz2u0a6OXsCUEZYE_TLhYxaS4xE8FMDna-BfFke2huc0bkDf8mrUnOAUj1NFSBelUA0jOOPaPfTBCx2ZXd243UUa "How to add GIFs to videos" =212x377)
-
+  ![](/uploads/image13.png)
 * Tap on the GIF that you want. It should now appear on top of your video.
 * You can drag the GIF to position it on your video or resize it.
 * InShot even allows you to adjust the opacity of the GIF and give it various kinds of effects such as bouncy, wavy, and many more. Tap on the pencil icon on the GIF to try all of them.
@@ -96,8 +94,7 @@ By default, your videos will have a watermark in the free version. You must upgr
 * Interestingly enough, InShot allows you to make a watermark-free video for free. Tap on the InShot watermark and select **Remove Once**.
 * Once you have added the GIF to your video, tap on the share icon in the upper-right corner to download your video. You can even select the resolution of your video you want to download.
 
-![](https://lh6.googleusercontent.com/QubMv1xzxwjq06T7yUTAeEDJ1Kz9d39Pb5d8iReuz5iK4o3r-V7wxFGQgn8O02m89qVHQQPIx6mIlP7wFqnPbGU3Z9UNaLTtPBrZIvHa-MfWTh6v6h3o9CfJTRVP-kGU_tVK24qb "How to add GIFs to videos" =194x322)
-
+  ![](/uploads/image2.png)
 * Congratulations! You now have a video to which you have added a GIF to. You can find it in the gallery on your phone.
 
 ## **_Adding GIFs to videos using Snapchat_**
@@ -110,24 +107,20 @@ Snapchat has a huge library of GIFs that can either be used to be added on image
 * Once the app is downloaded, tap to open it.
 * Next, tap on this icon to access your camera roll.
 
-![](https://lh4.googleusercontent.com/4I16XpmTGIe-_iy3uQY7y8YJ2w0vlJjiFcgx0zJsB_qSkGLg0ea_xPm2YDYKuPDKCN87LCgibWy1kKhT8w1dHkY6DzTbZr7Bs1voO5aZmzH6-Yaee8HiAkmAbvt1h1IMK7vl7K5K "How to add GIFs to videos" =198x352)
-
+  ![](/uploads/image12.png)
 * From your camera roll, choose the video to which you want to add a GIF to.
 * Once you have chosen your video, tap on **Edit**.
 
-![](https://lh3.googleusercontent.com/Xj3qyAKdMQwUDJlzQasOBSrTsI8ATsZgbwGuDF1n8N0Z6ijgPjuCIvlDt4wW-zS1CFOW7qr_i4gH_3iy69Q6QhTQniGC-s-AGUrwg30bsjmiztZNQ4XEcgKYH41AnbPdM975qMOJ "How to add GIFs to videos" =178x306)
-
+  ![](/uploads/image7.png)
 * Next, click on this icon to add GIFs or stickers.
 
-![](https://lh4.googleusercontent.com/YieFFyr2XjokD9tFqBvDIYIw8nk0S3HpPL6hqo5d_7ymULQBNxCOo3-pYinOde1aXdd5VsDqHMG9TginZd18gPfZDP6JAYGBOv19vZrY6v90UxNbW3w9Ufapv2uhuryCE6xZp0Ex "How to add GIFs to videos" =180x320)
-
+  ![](/uploads/image9.png)
 * Search for a GIF in the search box and tap on the result to choose it.
 * You can now position the GIF on your video by dragging it. To resize the GIF, pinch in and out on the GIF. This will decrease and increase the size of the GIF respectively.
 * Similarly, you can add some more GIFs to your video if you want. _The GIF will be there for the entire duration of the video_.
 * Once you are done, click on the share icon present in the bottom-left corner to save your video.
 
-![](https://lh6.googleusercontent.com/FgwJCkmZS4o8nSCrBgs_Ut2IdbpkK4UuG2caa85CkLRHd1Zjs5cjVWxpBCBYgRm-A3Og2W_xZpUavaMo7UUarZr6JI7YDaxauZfyRoXsSyIvSRaECDcdA5ozGD0mt5GvwD3EjngG "How to add GIFs to videos" =229x409)
-
+  ![](/uploads/image3.png)
 * You can find your video in your phone’s gallery.
 
 So these were the three easiest ways to add GIFs to videos within a few clicks and taps. Hope you try them out.
