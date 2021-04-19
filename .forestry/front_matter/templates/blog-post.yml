@@ -33,3 +33,5 @@ fields:
 - name: comments
   type: boolean
   label: Comments
+pages:
+- _posts/how-to-easily-add-gifs-to-your-videos-and-make-them-interesting.md
