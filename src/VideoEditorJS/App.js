@@ -5,24 +5,45 @@ const ffmpeg = createFFmpeg({ log: true });
 let setAll = (obj, val, key) => Object.keys(obj).forEach(k => obj[k]= val);
 var previous_feature_selected=null;
 var previous_feature_displayed=null;
-
-
-
+var videoTime=0;
+var ButtonLabel=document.getElementById("ButtonLabel");
 var TrimInfo=document.querySelector('.TrimInfo');
-var update_PreviousFeature_and_Change_Style=(target)=>{
+var CancelProgressOverlay=document.getElementById("OverlayCancel");
+
+
+var Show_or_Hide_CancelProgressOverlay=(params)=>{
+  if(params=="open")
+  {
+    CancelProgressOverlay.style.display="inherit";
+    return
+  }
+  else if(params=="Yes")
+  {
+    location.reload();
+    return
+  }
+  else if(params=="No"){
+    CancelProgressOverlay.style.display="none";
+    return
+  }
+ 
+}
+function update_PreviousFeature_and_Change_Style(target){
   previous_feature_selected=target.childNodes[3];
+  target.className="Feature CurrentFeature";
   previous_feature_selected.style.width="80px";
   previous_feature_selected.style.display="inherit";
 }
 const Show_or_Hide_featureNames=async (e)=>{
+
   if(previous_feature_selected)
   {
     previous_feature_selected.style.display="none";
+    previous_feature_selected.parentElement.className="Feature";
     previous_feature_selected.style.width="60px";
   }
-  // if(previous_feature_selected+"Settings")
-  update_PreviousFeature_and_Change_Style(e.target)
-  ShowSettings(e.target.id)
+  update_PreviousFeature_and_Change_Style(e)
+  ShowSettings(e.id)
   
 }
 var features=document.getElementsByClassName('Feature');
@@ -61,15 +82,23 @@ const Add_Remove_ClassOnClick=(e)=>{
 }
 
 console.stdlog = console.log.bind(console);    
-// console.logs = [];
+var inCompress=false
 console.log = function(){
-    // console.logs.push(Array.from(arguments));
-    // console.stdlog.apply(console, arguments);
     let consoleLog=Array.from(arguments);
-    // console.stdlog(consoleLog[0]);
-    consoleLog[0].indexOf("time=")!=-1?console.stdlog(consoleLog[0].slice(consoleLog[0].indexOf("time="),consoleLog[0].indexOf("time=")+ consoleLog[0].substring(consoleLog[0].indexOf("time=")).indexOf("bitrate="))):null;
-
-    // consoleLog.indexOf("time=")!=-1?console.stdlog.apply(console,[...consoleLog]):null;
+    let CurrentTime=null;
+    if(consoleLog[0].indexOf("time=")!=-10)
+      CurrentTime=consoleLog[0].slice(consoleLog[0].indexOf("time="),consoleLog[0].indexOf("time=")+ consoleLog[0].substring(consoleLog[0].indexOf("time=")).indexOf("bitrate="));
+    ProgressBar.style.width="0%";
+    if(consoleLog[0].indexOf("inputCompress")!=-1)
+      inCompress=true
+    if(CurrentTime!=""){
+      let a=CurrentTime.slice(5,CurrentTime.length).split(':');
+      var seconds = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
+      var percentage=seconds/videoTime*100;
+      ProgressBar.style.width=percentage+"%";
+      LandingText.innerHTML=`Please wait while we are ${inCompress?'compressing':'flipping'} your video in the most secured way.<br><span>${percentage>0?percentage.toFixed(0):0}%</span>${percentage>90?'<br>Almost done, few seconds left</br>':''}`;
+    }
+    
 }
 
 
@@ -77,7 +106,7 @@ const Eventlisteners_on_feature_click=(()=>{
 
   for(index=0;index<features.length;++index)
   {
-    features[index].addEventListener('click',Show_or_Hide_featureNames,false);
+    features[index].addEventListener('click',e=>Show_or_Hide_featureNames(e.target),false);
   }
   for(index=0;index<Feature_Value_inputs.length;++index)
   {
@@ -142,8 +171,6 @@ var InitialEndTrimPosition;
 var ToggleFlipOptions=0;
 var ActiveFrames=document.querySelector('.ActiveFrames');
 var FlipReset=document.querySelector('.FReset');
-var QuickDownload=document.querySelector('.QuickDownload');
-var SlowDownload=document.querySelector('.SlowDownload');
 var ToggleDownloadOptions=0;
 var LandingPage=document.querySelector('.Landing');
 var SeekTrim=document.querySelector('#SeekTrim');
@@ -160,7 +187,23 @@ var OriginalFeatures={
 }
 var Compression_Settings_ClickCount=0;
 var ToggleCancelEdit=0;
-
+var EditLandingText=(URL)=>{
+  if(URL.indexOf("mp4")!=-1){
+    LandingText.innerText="or drop your mp4 file here";
+    ButtonLabel.innerText="UPLOAD MP4"
+  }
+  else if(URL.indexOf("mov")!=-1){
+    LandingText.innerText="or drop your mov file here";
+    ButtonLabel.innerText="UPLOAD MOV"
+  }
+  else{
+    LandingText.innerText="or drop your video file here";
+    ButtonLabel.innerText="UPLOAD VIDEO"
+  }
+}
+var CurrentURL=window.location.href;
+Switch_to_Feature(CurrentURL.slice(CurrentURL.lastIndexOf('/')+1,CurrentURL.length));
+EditLandingText(CurrentURL.slice(CurrentURL.lastIndexOf('/')+1,CurrentURL.length));
 videoSource.onended=()=>{
   TogglePlayPause(CurrentSeek.time);
 }
@@ -193,7 +236,7 @@ var CancelEdit=()=>{
   location.reload();
 }
 
-const AnimateCompression_Settings=()=>{
+function AnimateCompression_Settings(){
   if((++Compression_Settings_ClickCount)%2==1)
   {
     CompressionSettings.style.display="inherit";
@@ -274,20 +317,23 @@ var FeatureValues={
 }
 
 
-var ShowSettings=async (Feature_to_display)=>{
+async function ShowSettings(Feature_to_display,flag=false){
     
     var CurrentFeature_settings=Feature_to_display+'Settings';
-    if(previous_feature_displayed){
-      if(CurrentFeature!==previous_feature_displayed.className)
+    if(previous_feature_displayed ){
+      if(CurrentFeature!==previous_feature_displayed.className || flag)
       {
-      previous_feature_displayed.style.display="none";
-      previous_feature_displayed.className==="CropSettings"?Resizable.style.display="none":null;
+        // console.stdlog(previous_feature_displayed,CurrentFeature)
+        
+        previous_feature_displayed.style.display="none";
+        previous_feature_displayed.className==="CropSettings"?Resizable.style.display="none":null;
       }
     }
     switch(Feature_to_display)
     {
       case 'Compress':
         {
+          isCompressed=1;
           AnimateCompression_Settings();
           break;
         }
@@ -301,6 +347,7 @@ var ShowSettings=async (Feature_to_display)=>{
         if(Feature_to_display=="Trim")
         {
           TrimInfo.style.display="inherit";
+          // FramesLayerWrap.style.display="inherit";
         }
         else{
           TrimInfo.style.display="none";
@@ -310,7 +357,7 @@ var ShowSettings=async (Feature_to_display)=>{
     }
 
   }
-const Switch_to_Feature=(feature)=>{
+function Switch_to_Feature(feature){
     switch (feature)
     {
       case 'crop-mp4':ShowSettings('Crop');break;
@@ -335,14 +382,10 @@ const Switch_to_Feature=(feature)=>{
       case 'video-rotater':ShowSettings('Rotate');break;
   
       case 'video-splitter':ShowSettings('Trim');break;
-     
+      
     }
     
   }
-  
-var CurrentURL=window.location.href;
-var Feature=CurrentURL.slice(CurrentURL.lastIndexOf('/')+1,CurrentURL.length);
-Switch_to_Feature(Feature)
 
 var HandleFeatureValueChange=(target)=>
 {
@@ -427,7 +470,7 @@ const fetch_and_load_Video_to_FFmpeg=async ()=>{
 }
 
 const Handle_Trimmer_Change=(Target,value)=>{
-  
+
   if(value==0)
   {
     var Left=Target.style.left;
@@ -476,6 +519,9 @@ const Handle_Trimmer_Change=(Target,value)=>{
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutationRecord) {
         var Target=mutations[0].target;
+        Show_or_Hide_featureNames(document.getElementById("Trim"));
+        ShowSettings("Trim",true);
+        
         if(Target.id=="StartTrim")
         {
           Handle_Trimmer_Change(Target,0);
@@ -507,6 +553,7 @@ const get_video_source_from_input=async(input)=>{
     const reader = new FileReader();
     reader.readAsDataURL(VideoSourceFile);
     let TempVideo=document.createElement('video');
+    console.stdlog(ffmpeg);
     TempVideo.onloadeddata = function() {
         Set_actual_video_resolution(this);
     };
@@ -551,7 +598,7 @@ async function generateFrames(e) {
     video.muted=true;
     var duration=e.duration;
     EndTimeinSeconds=duration;
-    
+    videoTime=duration;
     //time conversion for FeatureValues[EndTime]
     var measuredTime = new Date(null);
     measuredTime.setSeconds(duration); // specify value of SECONDS
@@ -563,6 +610,7 @@ async function generateFrames(e) {
     var i=0
     Spinner.style.display="none";
     var previousWorkingFrameData;
+
     while(video.currentTime<duration)
     {    
         
@@ -585,7 +633,6 @@ async function generateFrames(e) {
         img.classList.add("Animate");
         FramesLayer.appendChild(img);
         i=i+FrameStep;
-        // console.log(i*100/duration)
         let progressPercent=i*100/duration;
         progressPercent<100?ProgressBar.style.width=progressPercent+"%":null;
 }
@@ -839,7 +886,7 @@ const InitiateCropping=()=>{
 
 
 const Set_crop_dimensions=()=>{
-
+        
         CurrentCropWidth=Resizable.style.width;
         CurrentCropWidth=parseInt(CurrentCropWidth.slice(0,CurrentCropWidth.indexOf('p')));
         CurrentCropHeight=Resizable.style.height;
@@ -855,8 +902,9 @@ const Confirm_crop_dimensions_and_crop=()=>{
     RatioOfResolutions.RatioWidth=ActualSourceVideoWidth/CanvasVideoWidth;
     RatioOfResolutions.RatioHeight=ActualSourceVideoHeight/CanvasVideoHeight;
     // console.log({CurrentCropHeight,CurrentCropWidth,CurrentCropTop,CurrentCropLeft})
-    FinalCropTop=(CurrentCropTop-179)*RatioOfResolutions.RatioHeight;
-    FinalCropLeft=(CurrentCropLeft-544)*RatioOfResolutions.RatioWidth;
+    
+    FinalCropTop=(CurrentCropTop)*RatioOfResolutions.RatioHeight;
+    FinalCropLeft=(CurrentCropLeft)*RatioOfResolutions.RatioWidth;
     FinalCropWidth=CurrentCropWidth*RatioOfResolutions.RatioWidth;
     FinalCropHeight=CurrentCropHeight*RatioOfResolutions.RatioHeight;
     //display video with croppped dimensions
@@ -945,12 +993,12 @@ const FlipVideo=async()=>{
     }
     if(isFlipped===1)
     {
-    var FlipCommand="-i inputFlip.mp4 -vf vflip -threads 5 -c:a copy Output.mp4";
+    var FlipCommand=`-i inputFlip.mp4 -vf vflip -threads ${ThreadsCount>10?10:ThreadsCount} -c:a copy Output.mp4`;
     
     }
     else
     {
-    var FlipCommand="-i inputFlip.mp4 -vf hflip -threads 5 -c:a copy Output.mp4";
+    var FlipCommand=`-i inputFlip.mp4 -vf hflip -threads ${ThreadsCount>10?10:ThreadsCount} -c:a copy Output.mp4`;
     }
     
     var ArrayofInstructions=FlipCommand.split(' ');
@@ -980,9 +1028,9 @@ const ResizeVideo=async()=>{
     );
 
     }
-   var ResizeCommand=`-i inputResize.mp4 -vf scale=480:${FeatureValues.Resolution} Output.mp4`;
-    var ArrayofInstructions=ResizeCommand.split(' ');
-    await ffmpeg.run(...ArrayofInstructions);
+  var ResizeCommand=`-i inputResize.mp4 -vf scale=480:${FeatureValues.Resolution} Output.mp4`;
+  var ArrayofInstructions=ResizeCommand.split(' ');
+  await ffmpeg.run(...ArrayofInstructions);
 }
 const ChangeSpeed=async()=>{
   if(FeatureValues.Speed!="Original" || FeatureValues.Speed!=1)
@@ -1051,16 +1099,15 @@ const FinalSettings=async ()=>{
 
 }
 
-
+var CancelProcess=document.getElementById("CancelProcess");
 
 const DownloadFile=async ()=>{
     Workspace.style.display="none";
-    Spinner.style.display="inherit";
     LandingPage.style.display="inherit";
     ProgressBar.style.width="0%";
     LoadingText.style.display="inherit";
-    LandingText.style.display="none";
-
+    LandingText.innerText="";
+    CancelProcess.style.display="inherit";
     if(isTrimmed===1)
     {
     LoadingText.innerText=`Please Wait...Trimming video`;
@@ -1096,6 +1143,7 @@ const DownloadFile=async ()=>{
 
     if(isSpeedChanged===1)
     {
+
       if(FeatureValues.Speed!=1)
       {
         await ChangeSpeed();
@@ -1107,7 +1155,7 @@ const DownloadFile=async ()=>{
     await FinalSettings();
     }
 
-
+    CancelProcess.style.display="none";
     var link = document.querySelector(".DownloadLink");
     if(isCropped===0&&isTrimmed===0&&isFlipped===0&&isRotated===0&&isCompressed===0&&isCut===0&&isResized===0&&isSpeedChanged===0)
     {
@@ -1119,15 +1167,14 @@ const DownloadFile=async ()=>{
       await Render_edited_video();
       link.href = FinalVideosrc;
     }
-    
-    Spinner.style.display="none";
+    LandingText.innerHTML='';
     LoadingText.innerText="Thanks for your patience";
     link.download = "OutputVideo.mp4";
     document.querySelector('.DownloadBox').style.display="inherit";
 
 
 
-}
+} 
 
 
 

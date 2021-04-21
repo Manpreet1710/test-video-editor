@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.audioExtractor {
+  width: 100%;
+  height: 100%;
+}
+
+.audioExtractor .Landing {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.audioExtractor .Landing #CancelProcess {
+  width: 200px;
+  height: 50px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 10%;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  display: none;
+}
+
+.audioExtractor .Landing #CancelProcess:hover {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.audioExtractor .Landing #OverlayCancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.425);
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.audioExtractor .Landing #OverlayCancel h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.audioExtractor .Landing #OverlayCancel .ButtonsWrap {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 2%;
+}
+
+.audioExtractor .Landing #OverlayCancel .ButtonsWrap .decisionButton {
+  width: 200px;
+  height: 50px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.audioExtractor .Landing #OverlayCancel .ButtonsWrap .decisionButton:hover {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.audioExtractor .Landing .ProgressBar {
+  width: 0%;
+  border-bottom: 8px solid white;
+  position: absolute;
+  top: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.audioExtractor .Landing .Landingtext {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  bottom: 20%;
+}
+
+.audioExtractor .Landing .Landingtext span {
+  font-size: 26px;
+}
+
+.audioExtractor .Landing .Button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.audioExtractor .Landing .Button svg {
+  width: 70px;
+  height: 70px;
+}
+
+.audioExtractor .Landing .Button .InputButton {
+  margin-top: 2%;
+  width: 200px;
+  height: 50px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.audioExtractor .Landing .Button .InputButton:hover {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.audioExtractor .Landing .Spinner {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 6%;
+  background: url("./media/icons/spinner.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.audioExtractor .Landing .LoadingText {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.audioExtractor .Landing .DownloadBox {
+  width: 500px;
+  height: 200px;
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: none;
+}
+
+.audioExtractor .Landing .DownloadBox .DownloadIcon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.audioExtractor .Landing .DownloadBox .DownloadLink {
+  width: 140px;
+  height: 50px;
+  background: white;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.audioExtractor .Landing .DownloadBox .DownloadLink:hover {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.audioExtractor .Workspace {
+  width: 100%;
+  height: 90vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: none;
+}
+
+.audioExtractor .Workspace .ExtractBtn {
+  width: 200px;
+  height: 70px;
+  outline: none;
+  background: #a55eea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.audioExtractor .Workspace .ExtractBtn:hover {
+  background: white;
+  border: 1px solid #a55eea;
+  color: #a55eea;
+}
+
+.audioExtractor .Workspace .Settings {
+  width: 80%;
+  height: 80%;
+  -webkit-box-shadow: 0 0 5px rgba(58, 58, 58, 0.267);
+          box-shadow: 0 0 5px rgba(58, 58, 58, 0.267);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  gap: 2%;
+}
+
+.audioExtractor .Workspace .Settings h3 {
+  position: absolute;
+  top: 10px;
+  font-size: 22px;
+  color: #4e4e4e;
+}
+
+.audioExtractor .Workspace .Settings .Setting {
+  width: 95%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.audioExtractor .Workspace .Settings .Setting .Label {
+  width: 120px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f56666;
+  color: white;
+  border-radius: 10px;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values {
+  margin-left: 5%;
+  width: 80%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 1%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values .value {
+  width: 70px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #4848ec;
+  color: white;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values .value:nth-child(1) {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values .value:nth-last-child(1) {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values .value:hover {
+  background: white;
+  color: #4848ec;
+  border: 1px solid #4848ec;
+  cursor: pointer;
+}
+
+.audioExtractor .Workspace .Settings .Setting .values .ActiveValue {
+  background: white;
+  color: #4848ec;
+  border: 1px solid #4848ec;
+  cursor: pointer;
+}
+/*# sourceMappingURL=audioExtractor.css.map */

@@ -126,6 +126,11 @@
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/video-trimmer"
+          },
+          {
+            "name": "Extract video",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/extract-audio"
           }
     ],
     "networkSites":[

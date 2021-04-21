@@ -1,0 +1,109 @@
+<body class="audioExtractor">
+    <link rel="stylesheet" href="./public/styles/VideoEditor/audioExtractor.css">
+
+    <div class="Landing">
+        <div class="ProgressBar">
+            
+        </div>
+        <div id="CancelProcess" onclick="Show_or_Hide_CancelProgressOverlay('open')" >Cancel</div>
+        <div id="OverlayCancel" >
+            <h4>Are you sure you want to cancel processing?<br>you will lose your progress</h4>
+            <div class="ButtonsWrap">
+                <div class="decisionButton" onClick="Show_or_Hide_CancelProgressOverlay(this.innerText)">
+                    Yes
+                </div>
+                <div class="decisionButton" onClick="Show_or_Hide_CancelProgressOverlay(this.innerText)">
+                    No
+                </div>
+            </div>
+            
+            
+        </div>
+        <label class="Button" for="files" >      
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg enable-background="new 0 0 55.125 55.125" version="1.1" viewBox="0 0 55.125 55.125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="white" d="m4.167 47.007h46.792c2.302 0 4.167-1.866 4.167-4.167v-30.555c0-2.301-1.865-4.167-4.167-4.167h-46.792c-2.301 0-4.167 1.866-4.167 4.167v30.555c0 2.301 1.866 4.167 4.167 4.167zm26.604-2.925h-6.418v-3.965h6.418v3.965zm15.294-32.944h6.418v3.965h-6.418v-3.965zm-0.19 28.979h6.419v3.965h-6.419v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965zm-10.571-28.979h6.418v3.965h-6.418v-3.965zm-1.8 9.579 9.639 4.82c2.237 1.119 2.237 2.933 0 4.051l-9.639 4.821c-2.237 1.118-4.052-3e-3 -4.052-2.506v-8.681c-1e-3 -2.502 1.814-3.623 4.052-2.505zm-8.961-9.579h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.418v3.965h-6.418v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965z" fill="#fff"/>
+            </svg>
+
+            <label for="files" id="ButtonLabel" class="InputButton">Extract audio</label>
+            <input id="files" style="visibility:hidden;" type="file" onchange="get_video_source_from_input(this)">
+        </label>
+        <div class="Landingtext">or drop your video file here</div>
+        <div class="Spinner">
+
+        </div>
+        
+
+        <div class="DownloadBox">
+            <img class="DownloadIcon" src="./public/styles/VideoEditor/media/icons/trust.svg">
+            <div class="LoadingText">
+                Thanks for your patience
+            </div>
+            <a class="DownloadLink">
+                Download
+            </a>
+
+        </div>
+
+
+    </div>
+    <div class="Workspace">
+        
+        <div class="Settings">
+            <h3>Choose appropriate settings for your audio</h3>
+            <div class="Setting" id="outputFormat">
+                <div class="Label">Output format</div>
+                <div class="values">
+                    <div class="value ActiveValue" id="default">
+                        default
+                    </div>
+                    <div class="value">
+                        MP3
+                    </div>
+                    <div class="value">
+                        AAC
+                    </div>
+                    <div class="value">
+                        Ogg
+                    </div>
+                    <div class="value">
+                        WAV
+                    </div>
+                    <div class="value">
+                        FLAC
+                    </div>
+                    <div class="value">
+                        AIFF
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="Setting" id="audioQuality">
+                <div class="Label">Audio quality</div>
+                <div class="values">
+                    <div class="value ActiveValue" id="default">
+                        default
+                    </div>
+                    <div class="value ">48k</div>
+                    <div class="value">64k</div>
+                    <div class="value">80k</div>
+                    <div class="value">96k</div>
+                    <div class="value">128k</div>
+                    <div class="value">160k</div>
+                    <div class="value">256k</div>
+                    <div class="value">320k</div>
+                    
+                </div>
+            </div>
+           
+
+        </div>
+        <button class="ExtractBtn" onclick="ExtractAudio()">
+            Extract audio
+        </button>
+    </div>
+
+<script src="./src/ffmpeg.min.js"></script>
+<script src="./src/VideoEditorJS/audioExtractor.js"></script>
+    
+</body>
