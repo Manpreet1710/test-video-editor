@@ -1,0 +1,294 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@mixin flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+@mixin ButtonStyle{
+    text-align: center;
+    background: rgb(211, 211, 211);
+    color: #353535;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    &:hover{
+        background: #353535;
+        color: rgb(211, 211, 211);
+    }
+}
+@mixin valueActive{
+    background: white;
+    color:rgb(72, 72, 236);
+    border:1px solid rgb(72, 72, 236);
+    cursor: pointer;
+}
+.audioExtractor{
+    width: 100%;
+    height: 100%;
+   .Landing{
+       width: 100%;
+       height: 300px;
+       @include flexColumn();
+    //    display: none;
+       #CancelProcess{
+           width: 200px;
+           height: 50px;
+           background: white;
+           color:#353535;
+           @include flexColumn();
+           position: absolute;
+           top: 10%;
+           font-size: 20px;
+           cursor: pointer;
+           transition: 0.2s;
+           display: none;
+           
+           &:hover{
+               background: none;
+               border: 1px solid white;
+               color: white;
+           }
+           
+       }
+       #OverlayCancel{
+           position: absolute;
+           width: 100%;
+           height:100%;
+           background: rgba(0, 0, 0, 0.425);
+           z-index: 1;
+           @include flexColumn();
+           display: none;
+           backdrop-filter: blur(5px);
+           h4{
+               font-size: 18px;
+               color: white;
+           
+           }
+           .ButtonsWrap{
+               width: 100%;
+               height: 70%;
+               @include flexRow();
+               gap: 2%;
+               .decisionButton{
+                   width: 200px;
+                   height: 50px;
+                   background: white;
+                   color:#353535;
+                   @include flexColumn();
+                   font-size: 20px;
+                   cursor: pointer;
+                   transition: 0.2s;
+                   &:hover{
+                       background: none;
+                       border: 1px solid white;
+                       color: white;
+                   }
+               }
+           }
+           
+       }
+       .ProgressBar{
+           width: 0%;
+           border-bottom:8px solid white;
+           position: absolute;
+           top: 0;
+           align-self: flex-start;
+
+       }
+       .Landingtext{
+           width: fit-content;
+           height: fit-content;
+           font-size: 18px;
+           color:white;
+           position: absolute;
+           bottom: 20%;
+           span{
+               font-size: 26px;
+           }
+           // display: none;
+           
+           }
+   .Button{
+
+       width: 100%;
+       height: 100%;
+       cursor: pointer;
+       @include flexColumn();
+       svg{
+           width: 70px;
+           height: 70px;
+       }
+   .InputButton{
+       margin-top: 2%;
+       width: 200px;
+       height: 50px;
+       background: white;
+       color:#353535;
+       @include flexColumn();
+       font-size: 20px;
+       cursor: pointer;
+       transition: 0.2s;
+       &:hover{
+           background: none;
+           border: 1px solid white;
+           color: white;
+       }
+       
+
+   }
+}
+.Spinner{
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top:6%;
+   background: url("./media/icons/spinner.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: none;
+}
+.LoadingText{
+   width: fit-content;
+   height: fit-content;
+   color: white;
+   @include flexRow();
+   display: none;
+}
+.DownloadBox{
+   width: 500px;
+   height: 200px;
+   display: none;
+   @include flexColumn();
+   justify-content: space-around;
+   display: none;
+.DownloadIcon{
+   width: 50px;
+   height: 50px;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+.DownloadLink{
+   width: 140px;
+   height: 50px;
+   background: white;
+   color:#353535;
+   @include flexColumn();
+   font-size: 14px;
+   cursor: pointer;
+   transition: 0.2s;
+   text-decoration: none;
+   &:hover{
+       background: none;
+       border: 1px solid white;
+       color: white;
+   }
+}
+}
+
+   }
+   .Workspace{
+       width: 100%;
+       height: 90vh;
+       background: white;
+       @include flexRow();
+       justify-content: space-around;
+       display: none;
+       .ExtractBtn{
+        width: 200px;
+        height: 70px;
+        outline: none;
+        background: #a55eea;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 24px;
+        &:hover{
+            background: white;
+            border: 1px solid #a55eea;
+            color: #a55eea;
+        }
+        }
+       .Settings{
+           width: 80%;
+           height: 80%;
+           box-shadow:0 0 5px rgba(58, 58, 58, 0.267);
+           border-radius: 10px;
+           @include flexColumn();
+           position: relative;
+           gap: 2%;
+           h3{
+               position: absolute;
+               top: 10px;
+               font-size: 22px;
+               color: #4e4e4e;
+            }
+           .Setting{
+               width: 95%;
+               height: 50px;
+               @include flexRow();
+               justify-content: flex-start;
+               
+               .Label{
+                width: 120px;   
+                height: 50px;
+                @include flexColumn();
+                background: #f56666;
+                color: white;
+                border-radius: 10px;
+               }
+               .values{
+                //    width: 90%;
+                   margin-left: 5%;
+                   width: 80%;
+                   height: 50px;
+                   @include flexRow();
+                   gap: 1%;
+                   justify-content: flex-start;
+                .value{
+                    width: 70px;
+                    height: 50px;
+                    @include flexColumn();
+                    background: rgb(72, 72, 236);
+                    color: white;
+                    &:nth-child(1)
+                        {
+                            border-bottom-left-radius: 10px;
+                            border-top-left-radius: 10px;
+                        }
+                        &:nth-last-child(1)
+                        {
+                            
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 10px;
+                        }
+                        &:hover{
+                            @include valueActive();
+                        }
+                }
+                .ActiveValue{
+                    @include valueActive();
+                }
+               }
+               
+           }
+           
+       }
+   }
+}

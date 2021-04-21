@@ -32,7 +32,7 @@
     {
       "name": "Flip video",
       "description": "Flip any video",
-      "color": "##4bcffa",
+      "color": "#ff615c",
       "icon": "/assets/FeatureIcons/flip.svg",
       "url": "/flip-video"
     },
@@ -111,6 +111,13 @@
       "color": "#00a8ff",
       "icon": "/assets/FeatureIcons/split.svg",
       "url": "/video-trimmer"
+    },
+    {
+      "name": "Extract audio",
+      "description": "Extract audio from a video",
+      "color": "#26de81",
+      "icon": "/assets/FeatureIcons/sound.svg",
+      "url": "/extract-audio"
     }
     
 

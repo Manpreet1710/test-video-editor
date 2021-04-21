@@ -94,6 +94,12 @@
           "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
           "url": "/video-trimmer",
           "hover": "blue"
+        },
+        {
+          "name": "Extract video",
+          "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+          "url": "/extract-audio",
+          "hover": "blue"
         }
         
     
