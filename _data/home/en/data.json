@@ -1,0 +1,148 @@
+{ "Language":"English",
+  "htmlLangAtt":"en",
+  "h1": "Online Video Editor",
+  "h2": "Edit videos for free online start by uploading your file",
+  "title": "Video editor- Edit videos for free online",
+  "TITLE":"Safevideokit - an online video editing kit",
+  "meta": "Our online video editor tool is absolutely free and is easy to use. We make sure all your data is safe while you edit your video. We support a large range of video formats like mp3,mov,mkv etc.",
+  "keywords":"key1,key2,key3,key4",
+  
+  "features": [
+    {
+      "name": "Crop MP4",
+      "description": "Crop any MP4 video",
+      "color": "#3867d6",
+      "icon": "/assets/FeatureIcons/crop.svg",
+      "url": "/crop-mp4"  
+    },
+    {
+      "name": "Crop video",
+      "description": "Crop any video",
+      "color": "#ff5e57",
+      "icon": "/assets/FeatureIcons/crop.svg",
+      "url": "/crop-video"
+    },
+    {
+      "name": "MP4 editor",
+      "description": "Edit any MP4 video",
+      "color": "#4bcffa",
+      "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/edit-mp4-video"
+    },
+    {
+      "name": "Flip video",
+      "description": "Flip any video",
+      "color": "#ff615c",
+      "icon": "/assets/FeatureIcons/flip.svg",
+      "url": "/flip-video"
+    },
+    {
+      "name": "MOV compressor",
+      "description": "Compress any MOV video",
+      "color": "#0be881",
+      "icon": "/assets/FeatureIcons/compress.svg",
+      "url": "/mov-compressor"
+    },
+    {
+      "name": "MP4 compressor",
+      "description": "Compress any MP4 videos",
+      "color": "#c56cf0",
+      "icon": "/assets/FeatureIcons/compress.svg",
+      "url": "/mp4-compressor"
+    },{
+      "name": "MP4 Cutter",
+      "description": "Cut any MP4 video",
+      "color": "#7d5fff",
+      "icon": "/assets/FeatureIcons/split.svg",
+      "url": "/mp4-cutter"
+    },
+    {
+      "name": "video editor",
+      "description": "Edit any video",
+      "color": "#ffa502",
+      "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/video-editor"
+    },
+    {
+      "name": "MP4 trimmer",
+      "description": "Trim any MP4 video",
+      "color": "#4cd137",
+      "icon": "/assets/FeatureIcons/split.svg",
+      "url": "/mp4-trimmer"
+    },
+    {
+      "name": "Resize video",
+      "description": "Resize any video",
+      "color": "#ff793f",
+      "icon": "/assets/FeatureIcons/resize.svg",
+      "url": "/resize-video"
+    },
+    {
+      "name": "Video compressor",
+      "description": "Compress any video",
+      "color": "#9c88ff",
+      "icon": "/assets/FeatureIcons/compress.svg",
+      "url": "/video-compressor"
+    },
+    {
+      "name": "video-cutter",
+      "description": "Cut any video",
+      "color": "#ff615c",
+      "icon": "/assets/FeatureIcons/split.svg",
+      "url": "/video-cutter"
+    },
+    {
+      "name": "Video rotater",
+      "description": "Rotate any video",
+      "color": "#33d9b2",
+      "icon": "/assets/FeatureIcons/rotate.svg",
+      "url": "/video-rotater"
+    },
+    {
+      "name": "Video splitter",
+      "description": "Split any video",
+      "color": "#e84118",
+      "icon": "/assets/FeatureIcons/split.svg",
+      "url": "/video-splitter"
+    },
+    {
+      "name": "Video trimmer",
+      "description": "Trim any video",
+      "color": "#00a8ff",
+      "icon": "/assets/FeatureIcons/split.svg",
+      "url": "/video-trimmer"
+    },
+    {
+      "name": "Extract audio",
+      "description": "Extract audio from a video",
+      "color": "#26de81",
+      "icon": "/assets/FeatureIcons/sound.svg",
+      "url": "/extract-audio"
+    }
+    
+
+  ],
+  "StructuredDataWebsite": {
+    "@type": "WebSite",
+    "name": "appscms",
+    "alternateName": "appscms",
+    "url": "www.appscms.com"
+  },
+  "StructuredDataorganization": {
+    "@type": "Organization",
+    "url": "http://www.appscms.com",
+    "logo": "http://www.example.com/images/logo.png" 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
