@@ -130,6 +130,7 @@
        height: 100%;
        cursor: pointer;
        @include flexColumn();
+       
        svg{
            width: 70px;
            height: 70px;
@@ -210,21 +211,53 @@
        @include flexRow();
        justify-content: space-around;
        display: none;
-       .ExtractBtn{
-        width: 200px;
-        height: 70px;
-        outline: none;
-        background: #a55eea;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        font-size: 24px;
-        &:hover{
-            background: white;
-            border: 1px solid #a55eea;
-            color: #a55eea;
-        }
-        }
+       .ButtonPointerWrap{
+           width: 300px;
+           height: 200px;
+           @include flexColumn();
+           justify-content: space-around;
+        .pointerDown{
+            width: 300px;
+            height: 100px;
+            @include flexColumn();
+            position: relative;
+            h4{
+                font-size: 16px;
+                color: #353535;
+            }
+            svg{
+                position: absolute;
+                width: 50px;
+                top: 60%;
+                animation: animatehand 1s infinite ease-in alternate;
+                @keyframes animatehand {
+                    0%{
+                        top: 60%;
+                    }
+                    100%{
+                        top: 65%;
+                    }
+                    
+                }
+            }
+           }
+           .ExtractBtn{
+            width: 200px;
+            height: 70px;
+            outline: none;
+            background: #a55eea;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 24px;
+            &:hover{
+                background: white;
+                border: 1px solid #a55eea;
+                color: #a55eea;
+            }
+            }
+       }
+       
        .Settings{
            width: 80%;
            height: 80%;
@@ -232,62 +265,81 @@
            border-radius: 10px;
            @include flexColumn();
            position: relative;
+           justify-content: space-around;
            gap: 2%;
            h3{
-               position: absolute;
-               top: 10px;
                font-size: 22px;
                color: #4e4e4e;
             }
-           .Setting{
-               width: 95%;
-               height: 50px;
-               @include flexRow();
-               justify-content: flex-start;
-               
-               .Label{
-                width: 120px;   
-                height: 50px;
+            .VideoFile{
+                width: 100%;
+                height: 40%;
                 @include flexColumn();
-                background: #f56666;
-                color: white;
-                border-radius: 10px;
-               }
-               .values{
-                //    width: 90%;
-                   margin-left: 5%;
-                   width: 80%;
-                   height: 50px;
-                   @include flexRow();
-                   gap: 1%;
-                   justify-content: flex-start;
-                .value{
-                    width: 70px;
+                svg{
+                    width: 100px;
+                }
+                h4{
+                    font-size: 16px;
+                    color: #a55eea;
+                 }
+            }
+          .SettingsWrap{
+              width: 100%;
+              height: 25%;
+
+              @include flexColumn();
+              justify-content: space-around;
+            .Setting{
+                width: 95%;
+                height: 50px;
+                @include flexRow();
+                justify-content: flex-start;
+                
+                .Label{
+                 width: 120px;   
+                 height: 50px;
+                 @include flexColumn();
+                 background: #f56666;
+                 color: white;
+                 border-radius: 10px;
+                }
+                .values{
+                 //    width: 90%;
+                    margin-left: 5%;
+                    width: 80%;
                     height: 50px;
-                    @include flexColumn();
-                    background: rgb(72, 72, 236);
-                    color: white;
-                    &:nth-child(1)
-                        {
-                            border-bottom-left-radius: 10px;
-                            border-top-left-radius: 10px;
-                        }
-                        &:nth-last-child(1)
-                        {
-                            
-                            border-bottom-right-radius: 10px;
-                            border-top-right-radius: 10px;
-                        }
-                        &:hover{
-                            @include valueActive();
-                        }
+                    @include flexRow();
+                    gap: 1%;
+                    justify-content: flex-start;
+                 .value{
+                     width: 70px;
+                     height: 50px;
+                     @include flexColumn();
+                     background: rgb(72, 72, 236);
+                     color: white;
+                     &:nth-child(1)
+                         {
+                             border-bottom-left-radius: 10px;
+                             border-top-left-radius: 10px;
+                         }
+                         &:nth-last-child(1)
+                         {
+                             
+                             border-bottom-right-radius: 10px;
+                             border-top-right-radius: 10px;
+                         }
+                         &:hover{
+                             @include valueActive();
+                         }
+                 }
+                 .ActiveValue{
+                     @include valueActive();
+                 }
                 }
-                .ActiveValue{
-                    @include valueActive();
-                }
-               }
-               
-           }
+                
+            }
+          }
+           
            
        }
    }

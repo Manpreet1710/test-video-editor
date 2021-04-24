@@ -9,21 +9,37 @@ var LandingText=document.querySelector('.Landingtext');
 var InputButtonContainer=document.querySelector(".Button");
 var ActualSourceurl=null;
 var sourceBuffer=null;
+var FileName=document.querySelector(".VideoFile h4");
 var settings={
     outputFormat:"mp3",
     audioQuality:"default"
 }
+let VideoTimeinhhmmss='00:00:00';
 var LoadingText=document.querySelector('.LoadingText');
 var Landing=document.querySelector(".Landing");
 var values=document.querySelectorAll(".value");
 const link = document.querySelector(".DownloadLink");
 var DownloadBox=document.querySelector('.DownloadBox');
 var videoTime=0;
-var videoSource=document.createElement('video');
-videoSource.setAttribute("type","video/mp4")
-videoSource.addEventListener('loadeddata',(e)=>{
-    videoTime=e.path[0].duration;
-});
+var CancelProcess=document.getElementById("CancelProcess");
+var CancelProgressOverlay=document.getElementById("OverlayCancel");
+var Show_or_Hide_CancelProgressOverlay=(params)=>{
+    if(params=="open")
+    {
+      CancelProgressOverlay.style.display="inherit";
+      return
+    }
+    else if(params=="Yes")
+    {
+      location.reload();
+      return
+    }
+    else if(params=="No"){
+      CancelProgressOverlay.style.display="none";
+      return
+    }
+   
+  }
 console.stdlog = console.log.bind(console);  
 console.log = function(){
  
@@ -34,33 +50,32 @@ console.log = function(){
     {
       CurrentTime=consoleLog[0].slice(consoleLog[0].indexOf("time="),consoleLog[0].indexOf("time=")+ consoleLog[0].substring(consoleLog[0].indexOf("time=")).indexOf("bitrate="));
     }
+    if(consoleLog[0].indexOf("Duration:")!=-1)
+    {
+      VideoTimeinhhmmss=consoleLog[0].slice(consoleLog[0].indexOf("Duration: ")+10,consoleLog[0].indexOf(","));
+    }
     ProgressBar.style.width="0%";
     if(CurrentTime!=null){
-      console.stdlog(CurrentTime);
       let a=CurrentTime.slice(5,CurrentTime.length).split(':');
       var seconds = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
+      let tot=VideoTimeinhhmmss.split(':');
+      videoTime = (+tot[0]) * 60 * 60 + (+tot[1]) * 60 + (+tot[2]);
       var percentage=seconds/videoTime*100;
       ProgressBar.style.width=percentage+"%";
       LandingText.innerHTML=`Please wait ,we are extracting audio in the most secure way<br><span>${percentage>0?percentage.toFixed(0):0}%</span>`;
     }
     
 }
-
-
-
-
-
 const get_video_source_from_input=async(input)=>{
     LandingText.innerText="Please wait,processing your video";
     Spinner.style.display="inherit";
     UploadButton.style.display="none";
     VideoSourceFile=input.files[0];
+    FileName.innerText=VideoSourceFile.name;
     const reader = new FileReader();
     reader.readAsDataURL(VideoSourceFile);
 
     reader.addEventListener("load", async function () {
-      
-        videoSource.src=reader.result;
         ActualSourceurl=reader.result;
         fetch_and_load_Video_to_FFmpeg();  
       
@@ -107,19 +122,18 @@ var ExtractAudio=async ()=>{
     Spinner.style.display="none";
     Workspace.style.display="none";
     Landing.style.display="inherit";
+    CancelProcess.style.display="inherit";
     var FFMPEGCommand=`-i input.mp4 ${(ThreadsCount>16)?`-threads 16`:`-threads ${ThreadsCount}`} -vn${(settings.audioQuality&&settings.audioQuality!=="default")?` -b:a ${settings.audioQuality}`:''} output.${settings.outputFormat}`;
     var ArrayofInstructions=FFMPEGCommand.split(' ');
     await ffmpeg.run(...ArrayofInstructions);
+    CancelProcess.style.display="none";
     LandingText.style.display="none";
     initateDownload();
 }
 
 const initateDownload=async ()=>{
   
-    // read the MP4 file back from the FFmpeg file system
     const output = ffmpeg.FS("readFile", `output.${settings.outputFormat}`);
-    // ... and now do something with the file
-
     link.href = URL.createObjectURL(
     new Blob([output.buffer], { type:`audio/${settings.outputFormat}` })
     );
