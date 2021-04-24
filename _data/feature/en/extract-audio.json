@@ -64,8 +64,8 @@
     },
     "FAQ": [
       {
-      "question": "How much time does it takes to crop my video?",
-      "answer": "Once you click on save,it will take no more time and immediately gives result"
+      "question": "How much time does it takes to extract audio for my video?",
+      "answer": "Once you click on extract audio,it will take really less time to extract for videos under 1 hr of time"
       },
       {
       "question": "Can I rely on this application to get my job done?",
@@ -80,7 +80,7 @@
       "answer": "Your test result is 100% accurate and precisely calculated"
       },
       {
-        "question": "Why is my video taking lot of time to edit?",
+        "question": "Why is my video taking lot of time to extract?",
         "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
       }
       ],

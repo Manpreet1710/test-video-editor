@@ -336,7 +336,79 @@
   display: none;
 }
 
-.audioExtractor .Workspace .ExtractBtn {
+.audioExtractor .Workspace .ButtonPointerWrap {
+  width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.audioExtractor .Workspace .ButtonPointerWrap .pointerDown {
+  width: 300px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.audioExtractor .Workspace .ButtonPointerWrap .pointerDown h4 {
+  font-size: 16px;
+  color: #353535;
+}
+
+.audioExtractor .Workspace .ButtonPointerWrap .pointerDown svg {
+  position: absolute;
+  width: 50px;
+  top: 60%;
+  -webkit-animation: animatehand 1s infinite ease-in alternate;
+          animation: animatehand 1s infinite ease-in alternate;
+}
+
+@-webkit-keyframes animatehand {
+  0% {
+    top: 60%;
+  }
+  100% {
+    top: 65%;
+  }
+}
+
+@keyframes animatehand {
+  0% {
+    top: 60%;
+  }
+  100% {
+    top: 65%;
+  }
+}
+
+.audioExtractor .Workspace .ButtonPointerWrap .ExtractBtn {
   width: 200px;
   height: 70px;
   outline: none;
@@ -347,7 +419,7 @@
   font-size: 24px;
 }
 
-.audioExtractor .Workspace .ExtractBtn:hover {
+.audioExtractor .Workspace .ButtonPointerWrap .ExtractBtn:hover {
   background: white;
   border: 1px solid #a55eea;
   color: #a55eea;
@@ -374,17 +446,66 @@
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   gap: 2%;
 }
 
 .audioExtractor .Workspace .Settings h3 {
-  position: absolute;
-  top: 10px;
   font-size: 22px;
   color: #4e4e4e;
 }
 
-.audioExtractor .Workspace .Settings .Setting {
+.audioExtractor .Workspace .Settings .VideoFile {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.audioExtractor .Workspace .Settings .VideoFile svg {
+  width: 100px;
+}
+
+.audioExtractor .Workspace .Settings .VideoFile h4 {
+  font-size: 16px;
+  color: #a55eea;
+}
+
+.audioExtractor .Workspace .Settings .SettingsWrap {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting {
   width: 95%;
   height: 50px;
   display: -webkit-box;
@@ -402,7 +523,7 @@
           justify-content: flex-start;
 }
 
-.audioExtractor .Workspace .Settings .Setting .Label {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .Label {
   width: 120px;
   height: 50px;
   display: -webkit-box;
@@ -424,7 +545,7 @@
   border-radius: 10px;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values {
   margin-left: 5%;
   width: 80%;
   height: 50px;
@@ -444,7 +565,7 @@
           justify-content: flex-start;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values .value {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values .value {
   width: 70px;
   height: 50px;
   display: -webkit-box;
@@ -465,24 +586,24 @@
   color: white;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values .value:nth-child(1) {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values .value:nth-child(1) {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values .value:nth-last-child(1) {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values .value:nth-last-child(1) {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values .value:hover {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values .value:hover {
   background: white;
   color: #4848ec;
   border: 1px solid #4848ec;
   cursor: pointer;
 }
 
-.audioExtractor .Workspace .Settings .Setting .values .ActiveValue {
+.audioExtractor .Workspace .Settings .SettingsWrap .Setting .values .ActiveValue {
   background: white;
   color: #4848ec;
   border: 1px solid #4848ec;

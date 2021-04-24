@@ -58,8 +58,6 @@ var CancelEditing=document.querySelector('.CancelEditing');
 
 
 
-
-
 const Add_Remove_ClassOnClick=(e)=>{
   var Target=e.target;
   if((previous_Selected_feature_option[Target.className]!=Target)&&(previous_Selected_feature_option[Target.className]!==null))
@@ -465,6 +463,7 @@ var TogglePlayPause=(time=null)=>{
 playPauseButton.addEventListener('click',TogglePlayPause);
 //this should be called when the video is loaded 
 const fetch_and_load_Video_to_FFmpeg=async ()=>{
+  
     await ffmpeg.load();
     sourceBuffer= await fetch(ActualSourceurl).then(r => r.arrayBuffer());  
 }
@@ -553,7 +552,6 @@ const get_video_source_from_input=async(input)=>{
     const reader = new FileReader();
     reader.readAsDataURL(VideoSourceFile);
     let TempVideo=document.createElement('video');
-    console.stdlog(ffmpeg);
     TempVideo.onloadeddata = function() {
         Set_actual_video_resolution(this);
     };
@@ -562,7 +560,7 @@ const get_video_source_from_input=async(input)=>{
     videoSource.src=reader.result;
     ActualSourceurl=reader.result;
     TempVideo.src=ActualSourceurl;
-    fetch_and_load_Video_to_FFmpeg();  
+    await fetch_and_load_Video_to_FFmpeg();  
       //generate Frames in FrameLayer
     video=videoSource.cloneNode(true);  
     video.addEventListener('loadeddata', async function() {
@@ -571,9 +569,6 @@ const get_video_source_from_input=async(input)=>{
     });
       
     }, false);
-
-    
-    
 
 }
 
@@ -687,7 +682,6 @@ function dragElement(elmnt) {
     
         if(elmnt.id=="StartTrim")
         {
-          console.stdlog(parseInt(Right.slice(0,Right.indexOf("p"))))
           let RightValue=Right.slice(0,Right.indexOf("p"));
           if(!RightValue||parseInt(RightValue)>NewPos)
           {
@@ -1101,7 +1095,9 @@ const FinalSettings=async ()=>{
 
 var CancelProcess=document.getElementById("CancelProcess");
 
+
 const DownloadFile=async ()=>{
+
     Workspace.style.display="none";
     LandingPage.style.display="inherit";
     ProgressBar.style.width="0%";
