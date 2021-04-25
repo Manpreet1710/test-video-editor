@@ -37,11 +37,11 @@ YouTube recommends the container of the video to be an MP4 instead of other vide
 * Click [here](https://cloudconvert.com/mp4-converter) to open the free online converter by CloudConvert.
 * Click on **Select File**.
 
-  ![](/uploads/imageedit_2_5679953323.png)
+  ![Clicking on Select File](/uploads/imageedit_2_5679953323.png "how to upload youtube videos faster")
 * Select the video file that you want to convert to MP4.
 * Click on the drop-down menu next to **Convert to** and select **MP4**.
 
-  ![](/uploads/imageedit_6_5261088418.png)
+  ![Choosing to covert to MP4](/uploads/imageedit_6_5261088418.png "how to upload youtube videos faster")
 * Click on **Convert**.
 * Your video file will now be uploaded for conversion. The time taken for upload and conversion will be proportional to the size of your video file.
 * Once the conversion is done, click on the green **Download** button to download your MP4.
@@ -50,7 +50,7 @@ YouTube recommends the container of the video to be an MP4 instead of other vide
 
 YouTube recommends using an **H.264** codec for your videos and an **AAC-LC** codec for your audio.
 
-![](/uploads/imageedit_4_7573737479.png)
+![Video and Audio recommendations by YouTube](/uploads/imageedit_4_7573737479.png "how to upload youtube videos faster")
 
 But, what is a codec?
 
@@ -67,25 +67,25 @@ We can use any video editor available in the market to change the codec of our v
 * Hit on the following [link](https://handbrake.fr/) to download **HandBrake** for your machine.
 * Once it is successfully downloaded and installed, you should see an interface resembling this when you open the app:
 
-  ![](/uploads/imageedit_11_8597594030.png)
+  ![HandBrake's interface](/uploads/imageedit_11_8597594030.png "how to upload youtube videos faster")
 * Click on **File** to open a single video file that you want to optimize.\\
-* In the Summary tab, make sure that the format is MP4 and check on the web-optimized checkbox if not already checked.
+* In the Summary tab, make sure that the **Format** is **MP4** and check on the **Web Optimized** checkbox if not already checked.
 
-  ![](/uploads/imageedit_8_8652536128.png)
+  ![Check the Web Optimized checkbox and select MP4 as format](/uploads/imageedit_8_8652536128.png "how to upload youtube videos faster")
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264**.
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
-  ![](/uploads/imageedit_15_3620313304.png)
+  ![Keeping the framerate same as the source](/uploads/imageedit_15_3620313304.png "how to upload youtube videos faster")
 * If you wish, you can also switch to **Constant Framerate** from **Variable Framerate**.
 * Go on to the **Audio** tab and make sure that the codec is **AAC(avcodec)**.
 
-  ![](/uploads/imageedit_22_6411776720.png)
+  ![Setting the Audio codec to AAC(avcodec)](/uploads/imageedit_22_6411776720.png "how to upload youtube videos faster")
 * Finally, click on the **Browse** button in the bottom-right corner of the app to select a location where your optimized video will be saved.
 
-  ![](/uploads/imageedit_20_5072004310.png)
+  ![Setting the location to save the video](/uploads/imageedit_20_5072004310.png "how to upload youtube videos faster")
 * Click on the **Start Encode** button present at the top to start the encoding process.
 
-  ![](/uploads/imageedit_18_4456778579.png)
+  ![Clicking on Start Encode](/uploads/imageedit_18_4456778579.png "how to upload youtube videos faster")
 * You can find your compressed video in the same location which you selected earlier for saving your video.
 
 So these were some of the general and specific solutions and tips to increase your upload speeds. Sticking to these tips and solutions will surely save you a drastic amount of upload time and will provide you with some noticeable changes in your next YouTube uploads.
