@@ -30,7 +30,7 @@ Adding a GIF to your video ensures that you are engaging efficiently with your a
 
 Now that you know why GIFs are so popular and how impactful can be a combination of videos and GIFs, let’s dive straight into how to add GIFs to videos.
 
-## **_Adding GIFs to videos using Kapwing’s Online Video Editor_**
+# **_Adding GIFs to videos using Kapwing’s Online Video Editor_**
 
 **About:** Kapwing is a free, online all-in-one editor for adding visual elements to a video clip. You can add shapes, text, background colours, overlays, borders, and many more with simple layout tools. Best of all, it is online and does not require downloads of any third-party software.
 
@@ -64,7 +64,7 @@ Now that you know why GIFs are so popular and how impactful can be a combination
   ![](/uploads/image5.png)
 * Enjoy! Now you have a cool video you added a GIF to.
 
-## **_Adding GIFs to videos using the InShot app on Android and iOS_**
+# **_Adding GIFs to videos using the InShot app on Android and iOS_**
 
 **About:** InShot is a powerful video editor and photo editor with features such as trim & cut video/movie, add music, text, stickers, GIFs and glitch effects! It has professional-level video editing features and has a very user-friendly interface.
 
@@ -97,7 +97,7 @@ By default, your videos will have a watermark in the free version. You must upgr
   ![](/uploads/image2.png)
 * Congratulations! You now have a video to which you have added a GIF to. You can find it in the gallery on your phone.
 
-## **_Adding GIFs to videos using Snapchat_**
+# **_Adding GIFs to videos using Snapchat_**
 
 Snapchat has a huge library of GIFs that can either be used to be added on images or videos. Although, this option is only available if the duration of your video is less than one minute. If it is more than a minute, Snapchat doesn’t allow you to edit the video. Hence, you would have to go with any of the above two options.
 
