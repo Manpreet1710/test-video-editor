@@ -9,7 +9,7 @@ categories:
 title: How to easily add GIFs to your videos and make them interesting
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output.png"
 comments: false
 
 ---
