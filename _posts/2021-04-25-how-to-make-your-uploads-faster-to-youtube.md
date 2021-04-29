@@ -1,10 +1,15 @@
 ---
-tags: []
-categories: []
+tags:
+- Upload videos to YouTube fast
+- Fast uploads
+- YouTube
+- YouTube upload
+categories:
+- General
 title: How to make your uploads faster to YouTube
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-1.png"
 comments: false
 
 ---
