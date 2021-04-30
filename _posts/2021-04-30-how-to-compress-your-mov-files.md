@@ -9,7 +9,7 @@ categories:
 title: How to compress your MOV files
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-4.png"
 comments: false
 
 ---
@@ -38,14 +38,14 @@ You can easily compress a MOV file without downloading any third-party applicati
 * Click [here](https://www.freeconvert.com/video-compressor) to open the online compressor.
 * Click on **Choose Files** to choose the MOV file that you want to compress.
 
-  ![](/uploads/imageedit_2_2629340571.png)
+  ![Click on Choose Files](/uploads/imageedit_2_2629340571.png "How to compress MOV files")
 * By default, you can only upload files with a maximum size of 1GB. However, you can overcome this limit by upgrading to a paid version.
 * Once you have chosen your file, click on **Compress Now!** to carry on with the default settings and initiate the compression process.
 
-  ![](/uploads/imageedit_4_6487648200.png)
+  ![Click on Compress Now!](/uploads/imageedit_4_6487648200.png "How to compress MOV files")
 * Or, click on the **Settings** button(the little gear icon) to head on to advanced settings.
 
-  ![](/uploads/imageedit_8_4395329542.png)
+  ![Clicking the Settings icon](/uploads/imageedit_8_4395329542.png "How to compress MOV files")
 * Here, you can:
   * **Change the Video Codec:** Video Codec is a technique of compression. You can either choose H264 or H265. H265 codec can reduce video size 20-75% more compared to H264 (especially high-resolution video).
   * **Change the Compression method:** You can choose to compress either by percentage or select a target file size. Options for compressing by lowering video quality, video resolution and bitrate are also available though are not recommended.
@@ -56,7 +56,7 @@ You can easily compress a MOV file without downloading any third-party applicati
 
   your file.
 
-  ![](/uploads/imageedit_10_2622638015.png)
+  ![Downloading MOV](/uploads/imageedit_10_2622638015.png "How to compress MOV files")
 * You can also save it to your Google Drive or Dropbox by clicking on the down-arrow next to **Download MOV**.
 
 ## **_Compressing MOV files using an Offline Compressor_**
@@ -72,30 +72,30 @@ With no limits of file size and plenty of more advanced tools and features, vide
 * Head on to [this](https://handbrake.fr/) site to download HandBrake for your system.
 * Once it is successfully downloaded and installed, you should see an interface resembling this when you open the app:
 
-  ![](/uploads/imageedit_11_8597594030.png)
+  ![HandBrake interface](/uploads/imageedit_11_8597594030.png "How to compress MOV files")
 * Click on **File** to open a single video file that you want to compress.
 * You can also drag and drop a file in the white rectangle to open it.
 * In the Summary tab, make sure that the format is MP4 and check on the web-optimized checkbox if not already checked.
 
-  ![](/uploads/imageedit_8_8652536128.png)
+  ![Choosing the format as MP4 and optimizing it for the web](/uploads/imageedit_8_8652536128.png "How to compress MOV files")
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264 (x264)**.
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
-  ![](/uploads/imageedit_15_3620313304.png)
+  ![Making the framerate same as source](/uploads/imageedit_15_3620313304.png "How to compress MOV files")
 * You can also switch to **Constant Framerate** from **Variable Framerate if you wish**.
 * A constant frame rate ensures a fixed framerate throughout the video. Whereas, a variable framerate will increase and decrease the framerate where it finds it necessary to do so.
 * Go on to the **Audio** tab and make sure that the codec is **AAC(avcodec)**.
 
-  ![](/uploads/imageedit_22_6411776720.png)
+  ![Changing the audio codec to AAC](/uploads/imageedit_22_6411776720.png "How to compress MOV files")
 * Finally, click on the **Browse** button in the bottom-right corner of the app to select a location where your optimized video will be saved.
 
-  ![](/uploads/imageedit_20_5072004310.png)
+  ![Browsing a location to save the compressed file](/uploads/imageedit_20_5072004310.png "How to compress MOV files")
 * _Make sure to save the file name with an extension of **.mov**._
 
   _If you forget to do so, your MOV file will be converted to an M4V file._
 * Click on the **Start Encode** button present at the top to start the encoding process.
 
-  ![](/uploads/imageedit_18_4456778579.png)
+  ![Clicking on Start Encode](/uploads/imageedit_18_4456778579.png "How to compress MOV files")
 * You can find your compressed MOV file in the same location which you selected earlier for saving your video.
 
 # **_Compressing MOV files on iOS_**
@@ -109,13 +109,13 @@ If you want to compress the MOV files that you shot on your iPhone or iPad, then
 * Download the app by visiting [this](https://apps.apple.com/us/app/video-compress-shrink-vids/id997699744) link.
 * Open the app and tap on the **+** icon to select the video that you want to compress.
 
-  ![](/uploads/image1.png)
+  ![Tapping on the + icon](/uploads/image1.png "How to compress MOV files")
 * Although you can select multiple videos at once, it is recommended to select one video at a time.
 * Tap on **Done** in the top-right corner.
 * If you want to compress according to a preset, tap on **Choose Preset** and select the preset of your choice.
 * Or, you can drag the slider of **Adjust bitrate** to control the extent of compression of your MOV file.
 
-  ![](/uploads/image11-1.png)
+  ![Adjusting the bitrate](/uploads/image11-1.png "How to compress MOV files")
 * Dragging the slider to the left will increase compression and dragging to the right will decrease compression.
 * Once you are done, tap on **Continue**.
 * The video will now begin to compress. The time taken for compression will be proportional to the file size and the extent of compression that you chose.
