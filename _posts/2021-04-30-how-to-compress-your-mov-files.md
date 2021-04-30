@@ -59,7 +59,7 @@ You can easily compress a MOV file without downloading any third-party applicati
   ![Downloading MOV](/uploads/imageedit_10_2622638015.png "How to compress MOV files")
 * You can also save it to your Google Drive or Dropbox by clicking on the down-arrow next to **Download MOV**.
 
-## **_Compressing MOV files using an Offline Compressor_**
+# **_Compressing MOV files using an Offline Compressor_**
 
 If you wish to compress your MOV files without any maximum file size limit or dependency on a steady internet connection, then downloading video compressing software is the perfect choice for you.
 
@@ -109,13 +109,13 @@ If you want to compress the MOV files that you shot on your iPhone or iPad, then
 * Download the app by visiting [this](https://apps.apple.com/us/app/video-compress-shrink-vids/id997699744) link.
 * Open the app and tap on the **+** icon to select the video that you want to compress.
 
-  ![Tapping on the + icon](/uploads/image1.png "How to compress MOV files")
+  ![Tapping on + icon](/uploads/image1-1.png "How to compress MOV files")
 * Although you can select multiple videos at once, it is recommended to select one video at a time.
 * Tap on **Done** in the top-right corner.
 * If you want to compress according to a preset, tap on **Choose Preset** and select the preset of your choice.
 * Or, you can drag the slider of **Adjust bitrate** to control the extent of compression of your MOV file.
 
-  ![Adjusting the bitrate](/uploads/image11-1.png "How to compress MOV files")
+  ![Adjusting the bitrate](/uploads/image11-2.png "How to compress MOV files")
 * Dragging the slider to the left will increase compression and dragging to the right will decrease compression.
 * Once you are done, tap on **Continue**.
 * The video will now begin to compress. The time taken for compression will be proportional to the file size and the extent of compression that you chose.
