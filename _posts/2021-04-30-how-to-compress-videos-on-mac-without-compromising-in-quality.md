@@ -8,7 +8,6 @@ image: ''
 comments: false
 
 ---
-
 # **Compress videos on Mac easily**
 
 Congratulations! Your search for “How to compress videos on Mac” has landed you in the perfect place. Here, we will be looking at the various ways in which you can compress your videos on a Mac for free without compromising in quality.
@@ -27,7 +26,7 @@ Compression of files has many benefits and people mostly do it for:
 
 Here, we will be looking at some of the ways to compress video files on a Mac. We will be looking in detail at the various steps involved and will be walking you through different methods so that you can compress your videos easily. So let’s get started without further ado.
 
-**Compressing videos using an Online Compressor**
+# **_Compressing videos using an Online Compressor_**
 
 You can easily compress a video without downloading any third-party applications on your Mac. The online video compressor by **FreeConvert.com** is enough to get the job done within a few clicks.
 
@@ -38,14 +37,14 @@ You can easily compress a video without downloading any third-party applications
 * Click [here](https://www.freeconvert.com/video-compressor) to open the online compressor.
 * Click on **Choose Files** to choose the video that you want to compress. Generally, videos in Mac are in MOV format since this is the video format used by Apple.
 
-![](https://lh6.googleusercontent.com/gRQg3t0Q30dE8aI__ZhSnmQus1HIKuneSxM7po2Zm-Wza7gheaBMFTpwqAf_uUiILnWWh9bsSDh9NTPKjLA2XiFOXVF15tQ50MXlZJTXz9-xK9yXYcEaXp_8fs-hM6D6k7R0fLF_ =539x196)
-
+  ![Clicking on Choose Files](/uploads/imageedit_2_2629340571.png "How to compress videos on Mac")
 * By default, you can only upload files with a maximum size of 1GB. However, you can overcome this limit by upgrading to a paid version.
-* Once you have chosen your file, click on **Compress Now!** to carry on with the default settings and initiate the compression process.![](https://lh4.googleusercontent.com/BTFywPCkHyllMXCX1AjEVFZD6av4kclV0NQUnn4LTTIeoCLu9jqTIWIFNz4mEdO0jF2K-FKur0okWKKdQ7QXKcDJQ0-uo0OKFfWfyBIHTVgnAXUo2jasHphMgVSycZvogZYstXKx =574x142)
+* Once you have chosen your file, click on **Compress Now!** to carry on with the default settings and initiate the compression process.
+
+  ![Clicking on Compress Now!](/uploads/imageedit_4_6487648200.png "How to compress videos on Mac")
 * Or, click on the **Settings** button(the little gear icon) to head on to advanced settings.
 
-![](https://lh5.googleusercontent.com/rZdk_dZcgMn71oJ-nuA5zZ5BFc9Su2kpDplSPHKMndutyxxebwhstzwHvFIuIbH-QK1wJTmBRyAXtTVW9zn7ktmlm7hG394e-dghv__Sf1yviZa1eIvMYXnVASRxx6nn4YRIUmsi =443x250)
-
+  ![Clicking on the Settings icon](/uploads/imageedit_8_4395329542.png "How to compress videos on Mac")
 * Here, you can:
   * **Change the Video Codec:** Video Codec is a technique of compression. You can either choose H264 or H265. H265 codec can reduce video size 20-75% more compared to H264 (especially high-resolution video).
   * **Change the Compression method:** You can choose to compress either by percentage or select a target file size. Options for compressing by lowering video quality, video resolution and bitrate are also available though are not recommended.
@@ -57,15 +56,14 @@ If you compress using file size, then just specifying the target file size will 
 * The time taken for compression will be proportional to the file size and the extent of compression chosen.
 * Once the compression is over, click on **Download MOV** to download
 
-your file.
+  your file.
 
-![](https://lh3.googleusercontent.com/Bb8ItxxFxxXpqu8jSLfX5fuo8wozEM-NXz0iDhFgYShiBEBkipboeWt4jd6itn3gPr7SZM6lXBsv1_ka_LsAZ0qnzJD95RX2fVu04bZROPtpo8EbM5RytLskIa2SArc5g0jx3bAf =550x91)
-
+  ![Downloading the video](/uploads/imageedit_10_2622638015.png "How to compress videos on Mac")
 * You can also save it to your Google Drive or Dropbox by clicking on the down-arrow next to **Download MOV**.
 
-**Compressing videos using iMovie**
+# **_Compressing videos using iMovie_**
 
-You can easily choose to compress your videos using iMovie on Mac. iMovie comes pre-installed with most of the Macs but in case you don’t have it installed, you can download it from [here](https://itunes.apple.com/in/app/imovie/id408981434?mt=12&amp;ls=1&amp;v0=www-in-mac-imovie-app-imovie).
+You can easily choose to compress your videos using iMovie on Mac. iMovie comes pre-installed with most of the Macs but in case you don’t have it installed, you can download it from [here](https://itunes.apple.com/in/app/imovie/id408981434?mt=12&ls=1&v0=www-in-mac-imovie-app-imovie).
 
 **About:** iMovie is a video maker and editor for iOS and macOS, where you can enjoy your videos like never before. It’s easy to browse your clips and create Hollywood-style trailers and stunning 4K-resolution movies and edit them on the go.
 
@@ -75,33 +73,29 @@ You can easily choose to compress your videos using iMovie on Mac. iMovie comes 
 * Once you are satisfied with your editing, you should now export your video file.
 * To export your video, click on the **Share** icon and choose **File**.
 
-![](https://lh5.googleusercontent.com/4dL0yWPD-Hibpb23R_sP68GKpc7SslUSbv6yseHnSExTfHvfU2zGBFTQIoPicO1RxOfGqKYu03Uklr5GdEbsHqaMFoUS1AdZo1HPEyU9pqxKoYZqCRPXPSmFX6w89H27y_Z5mccW =359x266)
+  ![Clicking on Share icon](/uploads/image22.png "How to compress videos on Mac")
 
-Picture Credits: Solent Online Learning
-
+  _Picture Credits: Solent Online Learning_
 * Upon choosing **File**, a new window will open which will resemble this:
 
-![](https://lh3.googleusercontent.com/mwiaJGXR0tGDhSSktaJ73gl6Ir8mW6y2cTtdprVMYgYRJnqbtCwG44BeJqK43Cmbd2YA-fZL8z6EotV9tieKjZFHtEhXneW02Fj-MaY7UtE5mnmigs-xPFitXyXMWKtYcY9hhgE3 =624x275)
+  ![File size information](/uploads/image16.png "How to compress videos on Mac")
 
-Picture Credits: Solent Online Learning
-
-* You can see that in this example, the video size is 3.38 GB which is way too large. You can reduce this size by tweaking the **Resolution** and the **Quality**.
+  _Picture Credits: Solent Online Learning_
+* You can see that in this example, the video size is 3.38 GB**,** which is way too large. You can reduce this size by tweaking the **Resolution** and the **Quality**.
 * You can see your new estimated file size as you tweak with the resolution and quality. Here, we have successfully compressed it from 3.38GB to 198 MB.
 * After you are satisfied with the resolution and quality of your video, hit **Next…**.
 
-![](https://lh6.googleusercontent.com/3RMNWwJO0S8YPrgGqqCMCitxYe_lbsv4kfxOgZXD-foZCcQzT6iNxE4znIjARogQZaH9s_G7QIwWjGVa9VhC_e3zy79GFnyFcmctCRMamcLEMaiAAu9aCjKyTMei7wwMtUT8Abm7 =624x275)
+  ![Tweaking the resolution and clicking on Next](/uploads/image14.png "How to compress videos on Mac")
 
-Picture Credits: Solent Online Learning
-
+  _Picture Credits: Solent Online Learning_
 * Give your newly compressed video an appropriate name and destination and hit **Save**.
 
-![](https://lh6.googleusercontent.com/5tUxVi4CCGu0niF4GA4CsIQJlLJB8DsGTdzejDb16L_784QqBB56SO7BRH6Jq7H0feHj05bk79rNoWpcBUHCQPUnTrlsdixGH2EitehA2-WcOhRugS4MD4kZ_R-61GeT149gRxTm =624x283)
+  ![Hitting Save](/uploads/image21.png "How to compress videos on Mac")
 
-Picture Credits: Solent Online Learning
-
+  _Picture Credits: Solent Online Learning_
 * Your video is now compressed and can be found in the location where you saved it.
 
-**Compressing videos using VLC Media Player**
+# **_Compressing videos using VLC Media Player_**
 
 VLC Media Player is undoubtedly one of the most popular media players. Along with Mac, it is available for Windows and Linux as well. We can use VLC Media Player to compress our videos on Mac by changing the video format, framerate and other parameters.
 
@@ -116,30 +110,27 @@ VLC Media Player is undoubtedly one of the most popular media players. Along wit
 * Click on the **Convert/Save** button to open the Convert Dialogue box.
 * From the drop-down menu next to **Profile**, select the required type of conversion. Although it is recommended to go for Video-H.265+MP3 (MP4) or Video-H.264+MP3 (MP4), you are free to experiment with other options.
 
-![](https://lh3.googleusercontent.com/Jm88QF8Gsg_nx9osw6xgKlpF9kYR4rBvwhtNvUAyMoBXTkIgqSKe2nRKIvsbdgLB4-KbPXmrdtVsSpf3-MSTUr_TlKyshH6-MnsB7RaL24Fe86mqFBk9PKoWID1dXhd8TdQVvCbZ =464x346)
+  ![Choosing apt profile to compress](/uploads/imageedit_8_2304509690.png "How to compress videos on Mac")
 
-Picture Credit: Stellar
-
+  _Picture Credit: Stellar_
 * To compress your video even more by tweaking other video parameters, hit on the **Edit selected profile** icon next to the drop-down menu.
 
-![](https://lh4.googleusercontent.com/qQQ8XJudJCy4u9BsdyScUi0z2pCuqw-CnIAuPIR9MTlONtLV2uV0_VtWMBa6z_FBTNRZVem2XoWwKKmAtcaAMqcL2WoONTDpTrMQObjNVMWakhiQY8naruSIe0NrKLOOko05rar9 =380x305)
+  ![Clicking on Edit Selected Profile icon](/uploads/imageedit_2_8038741154.png "How to compress videos on Mac")
 
-Picture Credit: Stellar
-
+  _Picture Credit: Stellar_
 * Select the **Video Codec** tab and click on **Encoding Parameters**.
 * Choose your codec(H.264 or H.265 is recommended) and change the bitrate if you would like.
 * Make sure that the framerate is the same as the source.
 * Click on the **Resolution** tab to change your scale.
 
-![](https://lh5.googleusercontent.com/ngEO8OngPq7cchNqAw70KlmJRZCnbibaaM1lsI0e0DtXsZjtSqN0j_RCmxC2zkUuKd_PwYjp-x93zgdMHKhR_N8Q9vqWBO099MHn3FSlebzPa1F6CfulSWVaYN_TVAXelRWIy8UI =461x365)
+  ![Clicking on the resolution tab and hitting save after changing the resolution](/uploads/imageedit_11_7968936402.png "How to compress videos on Mac")
 
-Picture Credit: Stellar
-
+  _Picture Credit: Stellar_
 * Click on **Save**.
 * Next, click on the **Browse** button and specify the file name and the destination where it will be saved.
 * Finally, click on **Start** and your video will start compressing. You can find it at the destination you chose.
 
-**Compressing videos using HandBrake**
+# **_Compressing videos using HandBrake_**
 
 HandBrake is one such offline software used for video compression. Since it works offline like the VLC media player, there is no need for a steady internet connection to get the job done.
 
@@ -150,40 +141,34 @@ HandBrake is one such offline software used for video compression. Since it work
 * Open HandBrake on your Mac.
 * You should see an interface resembling this:
 
-![](https://lh4.googleusercontent.com/6WgcnYZzNA3fk9l2F-KLkovjqT8es1Pv7ykcmpM_MtksnZfIRsJzSMRugwn9TWhcBFATuBrcXE9q791ht_KM8cJPFOVJWe9Bx-SZL2ffNNg0305UdTfRivd2-LGgwvLdk5w4SkdU =444x269)
-
+  ![HandBrake interface](/uploads/imageedit_11_8597594030-1.png "How to compress videos on Mac")
 * Click on **File** to open a single video file that you want to compress.
 * You can also drag and drop a file in the white rectangle to open it.
 * In the Summary tab, make sure that the format is MP4 and check on the web-optimized checkbox if not already checked.
 
-![](https://lh5.googleusercontent.com/VbCBL2_eyQ7JU3nD5jOa3h37x4A3WrFKh5E4z7V7cDamRcvTXsPua5jpJkIY0UzBbU5wH-hP2PpZ6RrnyW0PmTo95yKm6d4E2n68siP0HZPngCDLY0FY-ZxSvJM3C1Udrm5ZroYi =564x318)
-
+  ![Selecting MP4 as the format and optimizing it for the web](/uploads/imageedit_8_8652536128.png "How to compress videos on Mac")
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264 (x264)**.
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
-![](https://lh3.googleusercontent.com/n7584MBjatMrqf3RKY9gnz52euOLoQ9PZ7182KhkS2J0FPSu56ul9WZPd8qFIcCLMyKVdWowoa3G1RQ4TeOzbPaoia-N8mgPwOJzfjR8rtSHKUh77DS6C_JvIyaMt0btQa1lVXTj =493x286)
-
-* If you wish, you can also switch to **Constant Framerate** from **Variable Framerate**.
+  ![Making the framerate same as source](/uploads/imageedit_15_3620313304.png "How to compress videos on Mac")
+* You can also switch to **Constant Framerate** from **Variable Framerate if you wish**.
 * A constant frame rate ensures a fixed framerate throughout the video. Whereas, a variable framerate will increase and decrease the framerate where it finds it necessary to do so.
 * Go on to the **Audio** tab and make sure that the codec is **AAC(avcodec)**.
 
-![](https://lh6.googleusercontent.com/KK14viSe2B66nXGXCgdnGNa4KfjB2j13evYolJ7twse0AN0BdPyQ4phnETQjnWEbQLMaFOVWPoCyB1_ebfbuE2X6FCmZ_Dnzw6NL9SOrWBdZ4y7hBxdp11USlTeCNHW_FH9JRKCv =574x146)
-
+  ![Changing audio codec to AAC](/uploads/imageedit_22_6411776720.png "How to compress videos on Mac")
 * Finally, click on the **Browse** button in the bottom-right corner of the app to select a location where your optimized video will be saved.
 
-![](https://lh5.googleusercontent.com/h2t1JYu-9jolWXalVNUbpyw5xs-ywVShRc1THqUJDmQQj_NFSAot3xXhWrFdzBubrdtsrvz1WWq6nuAbnjvvmqb3n6HF2gzpWsmMvh_3JfbNBnIh7jp8Y9UP7jYZbMTMDcFnFZzG =551x50)
-
+  ![Saving the location](/uploads/imageedit_20_5072004310.png "How to compress videos on Mac")
 * Click on the **Start Encode** button present at the top to start the encoding process.
 
-![](https://lh6.googleusercontent.com/Qp0sosd1q5HN7boUAeQcT3RRbBsxKVumlWtHC2RjBXqA-j76MUbWJEWA1v19oGvZ2e403KIHtIAsqU3JCJm6ZOgWkZzk1cOYK4-RwLoG1AE3V5FbssQeLzF9jDI32gHzQQBYc9BG =593x56)
-
+  ![Clicking on Start Encode](/uploads/imageedit_18_4456778579.png "How to compress videos on Mac")
 * You can find your compressed video file in the same location which you selected earlier for saving your video.
 
-**Compressing videos using Apple’s QuickTime Player**
+# **_Compressing videos using Apple’s QuickTime Player_**
 
 QuickTime Player is the default player on macOS developed by Apple. Although compressing videos on QuickTime Player is super easy and can be done in about five clicks, it does not provide many options or control over the compression and only compresses the video by lowering its resolution.
 
-**About:** QuickTime Player is a video player by Apple that lets you make common movie edits like trim, rearrange and rotate. You can also split a movie into multiple clips and manipulate each one individually. Although it comes pre-installed on most modern Macs, it can be downloaded for free from [here](https://support.apple.com/downloads/quicktime).
+QuickTime Player is a video player by Apple that lets you make common movie edits like trim, rearrange, and rotate. You can also split a movie into multiple clips and manipulate each one individually. Although it comes pre-installed on most modern Macs, it can be downloaded for free from [here](https://support.apple.com/downloads/quicktime).
 
 **How to:**
 
@@ -196,7 +181,7 @@ QuickTime Player is the default player on macOS developed by Apple. Although com
 * Choose a location to save the compressed video and select **Save**.
 * You can find your compressed video in the location that you chose earlier.
 
-**Compressing videos using Shotcut**
+# **_Compressing videos using Shotcut_**
 
 Shotcut is another open-source video editing software that lets you perform professional edits to your videos and compress them. Along with macOS, Shotcut is available on Windows and Linux as well.
 
@@ -207,21 +192,18 @@ Shotcut is another open-source video editing software that lets you perform prof
 * Open Shotcut on your Mac.
 * Click on **Open File** and choose the video that you want to compress.
 
-![](https://lh3.googleusercontent.com/-3mHSZvUuy2u-Q8NZmMVRuEqkAPrODffikT1BxDKIFbFNl-b8CWdV9I8xAPPETMcckpeZqqe1-GVXZWTySTSX_ZvVczir9X6HFTDPGhbPgM-LQ1x4TsLMDY4pRVVdl4skAacXM9y =624x356)
-
+  ![Clicking on Open File](/uploads/image24.png "How to compress videos on Mac")
 * Once you have chosen your video, you can change its Aspect ratio or resolution to compress it.
 
-![](https://lh4.googleusercontent.com/_sLNzcnRqwSjyqSVzv2XWHyajIVzFrVz6vt-vmcHrWg_s1kJmYERdQDQc38xxEvIl8v1sYgPfPR32B5TMRN3pLc_jIh0t8MDNbnV5F25VS6B_qDAVyF9pycuEKXCv5MUNVw-AJhF =624x356)
-
+  ![Tweaking the aspect ratio](/uploads/image23.png "How to compress videos on Mac")
 * Click on the **Export** button present near the top-right corner and choose **H.264 Baseline Profile** to reduce the size of your video.
 * Click on **Export File** and choose a file name and destination.
 * Your video file will now start compressing, you can see the progress of your compression in the **Jobs** menu.
 
-![](https://lh4.googleusercontent.com/jYJPxDVarchbyI0vPh2Ojc0vh-u53eydynx1RHaHKKegGSGspDYOnWYHq8xsCzXTRzXvQHuCu7AP5kgo6-L4QPQ49vN6G6e1Hh-44Ijax9E0zaa4oz0qlf7WRNk2y_5BEQ-wyHDJ =624x356)
-
+  ![Completion status available in the Jobs menu](/uploads/image15.png "How to compress videos on Mac")
 * Once it is completed, you can find your compressed video file in the same location that you chose earlier.
 
-**Compressing videos using Wondershare**
+# **_Compressing videos using Wondershare_**
 
 Wondershare is a very user-friendly video compressor and converter for Mac. It is a perfect choice if you want to compress more than one video at the same time as it allows compressing many videos together with a single click.
 
@@ -232,20 +214,17 @@ Wondershare is a very user-friendly video compressor and converter for Mac. It i
 * Open **Wondershare UniConverter** on your Mac.
 * Click on the **Video Compressor** tab.
 
-![](https://lh3.googleusercontent.com/-a_7Mb_r5kBBC5nG2pbVCf30A30igpwl0XRJkaAXHBv6TUxFGOxwE0eMqAwbAtPCRH4wiVMohEuAnTztbJqh5irKlVdwbuM-jShaJHLpCAgSdBrbH7979POy5GK1ixUMVHmqEdcC =624x404)
-
+  ![Clicking on Video Compressor tab](/uploads/imageedit_13_5375371591.png "How to compress videos on Mac")
 * Click on the file icon to add your video file or files. Alternatively, you can drag and drop them all at once.
 * Once you have chosen your file, click on the drop-down menu next to **Reduce File Size** present at the top-right corner and select a suitable value. The more the value, the more is the compression.
 * You can see the estimated file size changing as you experiment with the values.
 
-![](https://lh6.googleusercontent.com/cTY8s8xKE3XGNHdI8hfaTOq7viJlIjZ3j6hvC4aHAE4OFL7AvKoM5Ohm0WxfcS5tn5fzj_82_PeztZ-nGTPa81TmFyFikIX6ny0GXJBI0TM0zWj1NOHXloU7pXt300-kP4XyL8cp =624x396)
-
+  ![Compressing the video](/uploads/image20.png "How to compress videos on Mac")
 * You can click on the gear icon next to your video file and adjust the resolution and file size too.
 
-![](https://lh6.googleusercontent.com/Np_-VEDcJHnKYdHP3BIXTIqU7q6nC7YlXosu0gb73XKG6HVPB_D3hQcBtxxGTdRuehHhUTwna4S8uJeJn9BHKb2Fl-hpFLMREmqCiJUL_AdSJxlGPqH-800e6N-ubLxRgCspdkKA =624x393)
-
+  ![Clicking on gear icon to edit the parameters](/uploads/image9-1.png "How to compress videos on Mac")
 * Once you are done adjusting the parameters, hit **Compress**.
 * Your video will now start compressing.
 * Once it is finished compressing, click on the **Finished** tab and click on **Open** to view your video.
 
-![](https://lh4.googleusercontent.com/Zi8DpMiJl1wMyWOfRHc9_XVfgRuXtoDTSgYoyJu4qBDDQrk_YwVl1t2k-Kh4IYJgjfsM7J2ceMUDaVCMhQiPAeHbT0IXwF0ay1HGt1uQyVdf6mATrnioX0Gd_E0bwcW0UrQhfc8X =624x404)
+  ![Clicking on Finished tab.](/uploads/imageedit_15_7661043528.png "How to compress videos on Mac")
