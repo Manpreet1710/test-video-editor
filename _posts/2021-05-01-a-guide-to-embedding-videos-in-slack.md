@@ -9,7 +9,7 @@ categories:
 title: A guide to embedding videos in Slack
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-6.png"
 comments: false
 
 ---
@@ -47,19 +47,19 @@ Now that we know about the video specs, let’s have a detailed look at ways to 
 * From here, you can embed your video in three ways:
   * **Upload it**: Click on the paper clip button to attach a file and choose a video file from your computer. You can alternatively hit **Ctrl+U**.
 
-    ![](/uploads/imageedit_2_6812038670.png)
+    ![Clicking on paper clip icon](/uploads/imageedit_2_6812038670.png "embed videos in Slack")
 
 
   * **Drag and drop it**: Or you can simply drag and drop the video file that you want to embed into the message box.
 
-    ![](/uploads/imageedit_4_9222484619.png)
+    ![dragging and droping the file ](/uploads/imageedit_4_9222484619.png "embed videos in Slack")
 
 
   * **Copy and paste it**: You can also just copy the video file and paste it in the message box.
 * If you are trying to upload a video from a streaming platform such as YouTube or Vimeo, then you can just copy-paste the link to the video and send it. It will automatically embed the video.
 * Once your video file is uploaded, hit send and your video is now embedded in the chats.
 
-  ![](/uploads/imageedit_6_9645315594.png)
+  ![Hitting on Send](/uploads/imageedit_6_9645315594.png "embed videos in Slack")
 
 # **_Embedding videos using Slack app on mobile_**
 
@@ -72,12 +72,12 @@ Now that we know about the video specs, let’s have a detailed look at ways to 
 * If you are trying to upload a video from a streaming platform such as YouTube or Vimeo, then you can just copy-paste the link to the video and send it. It will automatically embed the video.
 * If you want to upload a video file from your device, tap on the Attachment icon.
 
-  ![](/uploads/image10-2.png)
+  ![Tapping on Attachment icon](/uploads/image10-2.png "embed videos in Slack")
 * Here, you can see a list of your recently attached files. Tap on **Add a file** to choose a new video file.
 * Once you have chosen your video file, it will start uploading.
 * You can also directly upload a video by tapping on the photos and videos icon.
 
-  ![](/uploads/image6-1.png)
+  ![Tapping on Photos and Videos icon](/uploads/image6-1.png "embed videos in Slack")
 * Then, choose a video to upload from your camera roll and wait for it to upload.
 * Once your video is uploaded, hit on the send button.
 * Your video is now embedded in the chat if it is in an MP4 or a MOV format.
@@ -91,11 +91,11 @@ Now that we know about the video specs, let’s have a detailed look at ways to 
 * Click [here](https://cloudconvert.com/mp4-converter) to open the free online converter by CloudConvert.
 * Click on **Select File**.
 
-  ![](/uploads/imageedit_8_8255324582.png)
+  ![Clicking on Select File](/uploads/imageedit_8_8255324582.png "embed videos in Slack")
 * Select the video file that you want to convert to MP4.
 * Click on the drop-down menu next to **Convert to** and select **MP4**.
 
-  ![](/uploads/imageedit_10_8416739837.png)
+  ![Choosing file format as MP4 from drop-down menu](/uploads/imageedit_10_8416739837.png "embed videos in Slack")
 * Click on **Convert**.
 * Your video file will now be uploaded for conversion. The time taken for upload and conversion will be proportional to the size of your video file.
 * Once the conversion is done, click on the green **Download** button to download your MP4.
@@ -111,27 +111,27 @@ Since most online compressors mostly allow a maximum file size of 1GB, we need a
 * Head on to [this](https://handbrake.fr/) site to download HandBrake for your system.
 * Once it is successfully downloaded and installed, you should see an interface resembling this when you open the app:
 
-  ![](/uploads/imageedit_11_8597594030-1.png)
+  ![HandBrake's interface](/uploads/imageedit_11_8597594030-1.png "embed videos in Slack")
 * Click on **File** to open a single video file that you want to compress.
 * You can also drag and drop a file in the white rectangle to open it.
 * In the Summary tab, make sure that the format is MP4 and check on the web-optimized checkbox if not already checked.
 
-  ![](/uploads/imageedit_8_8652536128.png)
+  ![Making the format as MP4 and optimizing it for the web](/uploads/imageedit_8_8652536128.png "embed videos in Slack")
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264 (x264)**.
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
-  ![](/uploads/imageedit_15_3620313304.png)
+  ![making the framerate same as source](/uploads/imageedit_15_3620313304.png "embed videos in Slack")
 * You can also switch to **Constant Framerate** from **Variable Framerate** if you wish.
 * A constant frame rate ensures a fixed framerate throughout the video. Whereas, a variable framerate will increase and decrease the framerate where it finds it necessary to do so.
 * Go on to the **Audio** tab and make sure that the codec is **AAC(avcodec)**.
 
-  ![](/uploads/imageedit_22_6411776720.png)
+  ![changing audio codec to AAC](/uploads/imageedit_22_6411776720.png "embed videos in Slack")
 * Finally, click on the **Browse** button in the bottom-right corner of the app to select a location where your optimized video will be saved.
 
-  ![](/uploads/imageedit_20_5072004310.png)
+  ![Browsing the location to save](/uploads/imageedit_20_5072004310.png "embed videos in Slack")
 * Click on the **Start Encode** button present at the top to start the encoding process.
 
-  ![](/uploads/imageedit_18_4456778579.png)
+  ![Clicking on Start Encode](/uploads/imageedit_18_4456778579.png "embed videos in Slack")
 * You can find your compressed video file in the same location which you selected earlier for saving your video.
 
 In conclusion, these were the ways of embedding a video to Slack and making necessary optimizations to the video to embed it. Hope you try them out.
