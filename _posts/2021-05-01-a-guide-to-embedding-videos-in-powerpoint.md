@@ -13,7 +13,7 @@ image: "/uploads/output-5.png"
 comments: false
 
 ---
-# How to easily embed video formats in PowerPoint
+# **How to easily embed video formats in PowerPoint**
 
 There is no denying that PowerPoint is the go-to tool for most of us for creating eye-catching presentations. Whether these presentations are created to target a general audience as in school or to establish a billion-dollar project idea at the workplace, PowerPoint covers both.
 
