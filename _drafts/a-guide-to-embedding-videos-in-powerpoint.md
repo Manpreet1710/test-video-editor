@@ -13,8 +13,7 @@ image: ''
 comments: false
 
 ---
-# **  
-How to easily embed video formats in PowerPoint** 
+# **How to easily embed video formats in PowerPoint**
 
 There is no denying that PowerPoint is the go-to tool for most of us for creating eye-catching presentations. Whether these presentations are created to target a general audience as in school or to establish a billion-dollar project idea at the workplace, PowerPoint covers both.
 
@@ -29,7 +28,6 @@ Before we begin embedding the videos, let’s look at the formats supported acro
 * **PowerPoint 2010**:
   * Video recommendation: _.wmv_ video files
   * Audio recommendation: _.wav_, _.wma_ audio files
-
 * **Newer versions of PowerPoint**:
   * Video recommendation: _.mp4_ files encoded with H.264 video and AAC audio
   * Audio recommendation: _.m4a_ files encoded with AAC audio
@@ -77,7 +75,6 @@ Once you have the appropriate video format according to your PowePoint version, 
 * Select **Online Video**.
 * In the **Online Video** dialogue box, paste the URL of the video you copied.
 * Click on **Insert**.
-
 * Your video is now successfully embedded and can be played directly from the presentation.
 
 **Embedding video formats in PowerPoint 2007**
@@ -120,13 +117,13 @@ In case you want to embed a video from an online streaming platform such as YouT
 * Click on the **Insert** tab and then select **Video**.
 * Select **Online Video** from the drop-down menu that appears.
 
-![](https://lh5.googleusercontent.com/p3jF8KZcRD-AsQ7ubOTtTSt0DMMYMqooaNT87EByS7sRbS2MMF2TwU0RVsbAGlJOoSj6XT2fSYSBMUpQ4_GsO6NWLXbFr22O4LJof55iJOT6NP6IOH5XYnyNpEGhShr3QVcyVbAh =379x285.1878787878788)
+!\[\](https://lh5.googleusercontent.com/p3jF8KZcRD-AsQ7ubOTtTSt0DMMYMqooaNT87EByS7sRbS2MMF2TwU0RVsbAGlJOoSj6XT2fSYSBMUpQ4_GsO6NWLXbFr22O4LJof55iJOT6NP6IOH5XYnyNpEGhShr3QVcyVbAh =379x285.1878787878788)
 
 Picture Credits: WikiHow
 
 * Paste the embedded code that you copied and hit the **Enter** key on your keyboard.
 
-![](https://lh5.googleusercontent.com/_uPRzpKgD-7J3g5GRsewHYsbQXFDH0gcWo6pO1DugOAV2stnkuIGRDs0MAhpxK8uP-0W5pA3pWUsvpycaox4EuX2lIxaXdapcUqJBHIaOM5tGmPGmmZMXtAuZfirrN-3mdC1hLEv =436x327.36446233623144)
+!\[\](https://lh5.googleusercontent.com/_uPRzpKgD-7J3g5GRsewHYsbQXFDH0gcWo6pO1DugOAV2stnkuIGRDs0MAhpxK8uP-0W5pA3pWUsvpycaox4EuX2lIxaXdapcUqJBHIaOM5tGmPGmmZMXtAuZfirrN-3mdC1hLEv =436x327.36446233623144)
 
 Picture Credits: WikiHow
 
@@ -163,7 +160,6 @@ The playing of the video in this manner is called **In Click Sequence**. However
 * Click on the embedded video in your PPT.
 * You should see a **Video Tools Playback** tab on the ribbon.
 * Click on the list next to **Start** and choose any of the following options from the drop-down menu:
-
 * **In Click Sequence:** This option is selected by default. When you click anywhere on the slide or press a key that triggers the next step (press the Spacebar, Right arrow key, or other keys that advances to the next step), the video plays.
 * **Automatically: The video will start playing automatically.**
 
@@ -201,7 +197,6 @@ Here, we will look at one such tool called **HandBrake** to optimize and compres
 ![](https://lh5.googleusercontent.com/EKGqbO-q_65zCPtRG2voFzxjBDMfmEGy2VkarwboOVYN9-yt6iF36oeR1sZ3BPd7m8N2puD1FBjplBJIM1BBICypve6AgXU0Uq1W8pKTpLr5FjHZyn9LyOrd2mLvm3yvqIKzzRn9 =564x318)
 
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264 (x264)**. Microsoft recommends H.264 codec for its videos.
-
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
 ![](https://lh6.googleusercontent.com/9MxK6Khfu5kz93Ms4QwNVrfBcC3qRqK6M0MDsOKGzp0c9gtCNT5DbObCeEjCKZtAkISAbqyhZLVwSq_CVwyVUG8Hq6Sw3jEOKsD59GrCg7jq8NPq1pQWAAkiB-X2xTY1nijk7E2Y =493x286)
