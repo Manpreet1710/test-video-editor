@@ -9,7 +9,7 @@ categories:
 title: A guide to embedding videos in PowerPoint
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-5.png"
 comments: false
 
 ---
