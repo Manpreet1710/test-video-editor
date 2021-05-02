@@ -8,7 +8,7 @@ categories:
 title: Top tips to edit your Zoom recording for better viewing
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-7.png"
 comments: false
 
 ---
@@ -29,15 +29,15 @@ Here we will look at some of how you can edit your Zoom recordings. So let’s g
 **How to:**
 
 * Click [here](https://online-video-cutter.com/) to open the free online video cutter by 123Apps.
-* Click on Open file and choose your Zoom recording. You can alternatively just drag and drop your Zoom recording in there.
+* Click on **Open file** and choose your Zoom recording. You can alternatively just drag and drop your Zoom recording in there.
 
-  ![](/uploads/imageedit_2_3124420314.png)
+  ![Clicking on Open file](/uploads/imageedit_2_3124420314.png "How to edit Zoom recordings")
 * To trim your recording from the start, drag the leftmost blue panel to the left till the place you want to be trimmed out. To trim your recording from the end, drag the rightmost panel to the left similarly.
 
-  ![](/uploads/image2-1.png)
+  ![Trimming the recording from ends](/uploads/image2-1.png "How to edit Zoom recordings")
 * To trim a part from between, select the portion you want to trim by bringing the left panel and right panel to the clip that you want to be trimmed out and click the reverse trim button.
 
-  ![](/uploads/image1-2.png)
+  ![Trimming the recording from between](/uploads/image1-2.png "How to edit Zoom recordings")
 * Finally, hit **Save** to save and download your trimmed Zoom recording.
 * You have now successfully removed the unwanted bits from your Zoom recording.
 
@@ -50,7 +50,7 @@ Here we will look at some of how you can edit your Zoom recordings. So let’s g
 * Click [here](https://www.kapwing.com/subtitles) to open Kapwing’s free online video editing studio.
 * Click on **Upload** to upload your Zoom recording from your local machine or paste the link of your Zoom recording from the cloud.
 
-  ![](/uploads/imageedit_4_7588642454.png)
+  ![Clicking on Upload](/uploads/imageedit_4_7588642454.png "How to edit Zoom recordings")
 * Now, you can add subtitles to your recording in three ways:
   * **Add subtitle**: Click on **+ Add subtitle** to manually type and add subtitles to your recording.
   * **Auto-generate**: Click on **Auto-generate** to automatically generate a transcript based on the language used in the video. You can even choose to translate your transcript to another language. _Note: Auto-generation of subtitles is still a beta feature and might be prone to some errors_.
@@ -59,7 +59,7 @@ Here we will look at some of how you can edit your Zoom recordings. So let’s g
 * Click on **Export Video** present at the top-right corner of the screen to export your video.
 * Once your watermark-free video is exported, hit the **Download** button to download it.
 
-  ![](/uploads/image14-1.png)
+  ![Clicking on the Download button](/uploads/image14-1.png "How to edit Zoom recordings")
 
 # **_Add transitions and title to your Zoom recording_**
 
@@ -70,17 +70,17 @@ Here we will look at some of how you can edit your Zoom recordings. So let’s g
 * Head over to [Kapwing's Online Video Editor](https://www.kapwing.com/tools/free-video-editor).
 * Upload your recording or drag and drop your recording in the box.
 
-  ![](/uploads/image9-2.png)
+  ![Clicking on Click to Upload](/uploads/image9-2.png "How to edit Zoom recordings")
 * To add a transition in between the video, drag the white divider to the part where you want to add the transition and select **Split**.
 
-  ![](/uploads/image4-1.png)
+  ![Splitting the recording](/uploads/image4-1.png "How to edit Zoom recordings")
 * Drag the split parts. The more you drag, the longer will be the transition.
 
-  ![](/uploads/image10-3.png)
+  ![Adding transistion to the recording](/uploads/image10-3.png "How to edit Zoom recordings")
 * To add a text in between the transition, hit **Text** and add your text.
 * Then, drag and fit the text in between your transition.
 
-  ![](/uploads/image11-3.png)
+  ![Adding text in the transition](/uploads/image11-3.png "How to edit Zoom recordings")
 * To add a title, similarly hit on **Text** and drag its timeline across the entire duration of the video.
 * Finally, click on the **Export Video** button present at the top-right corner of the screen.
 * Once your video is exported, hit **Download**.
@@ -95,28 +95,28 @@ Here we will look at some of how you can edit your Zoom recordings. So let’s g
 * If asked to sign in, sign in with your Google Account if you have one.
 * Click on the **Get Started** button to start the editor.
 
-  ![](/uploads/imageedit_6_8242043433.png)
+  ![Clicking on Get Started](/uploads/imageedit_6_8242043433.png "How to edit Zoom recordings")
 * You can either upload the URL of the video you wish to add GIFs to or just upload a video from your local machine.
 * Click on **Click to Upload** and choose the video file you want to add a GIF to. Alternatively, you can also drag and drop your video file there.
 * Your video file will now start uploading to the online studio.
 * Once your video is uploaded, click on **Images** to search for a GIF from Kapwing’s library.
 
-  ![](/uploads/image13-3.png)
+  ![Clicking on Images](/uploads/image13-3.png "How to edit Zoom recordings")
 * Search for your desired GIF. Make sure to add the word “ gif ” in the search to filter the search results to GIFs.
 
-  ![](/uploads/image3-1.png)
+  ![Searching the gif](/uploads/image3-1.png "How to edit Zoom recordings")
 * Click on the GIF that you want to add to your video.
 * You can resize your GIF using the four-pointer corners. Drag the GIF to position it on the video.
 * If you want your GIF to appear for the entire duration of your video, drag the edges of your GIF till the start and end of your video.
 
-  ![](/uploads/image12-2.png)
+  ![Positioning the GIF](/uploads/image12-2.png "How to edit Zoom recordings")
 * However, if you want your GIF to appear for some specific part of your video, drag your GIF to the corresponding part.
 * In case you want your GIF to disappear and appear again later in the video, add the same GIF again in the same manner and position it to the part where you want it to appear again.
 * Once you are satisfied with your editing, click on the **Export Video** button present in the top-right corner of the window.
 * Your watermark-free video is now getting rendered and exported. The time taken for rendering will be proportional to the edits and the duration of the video.
 * Once it is exported, hit **Download** to download your video.
 
-  ![](/uploads/image6-2.png)
+  ![Clicking on Download](/uploads/image6-2.png "How to edit Zoom recordings")
 * Enjoy! Now you have a cool video you added a GIF to.
 
 So, these were a few of the tips to edit your Zoom recording to make it more informative, concise, and entertaining for your viewers. Hope you try them out.
