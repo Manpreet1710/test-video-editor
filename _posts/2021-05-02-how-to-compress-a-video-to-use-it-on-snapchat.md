@@ -45,14 +45,14 @@ You can easily compress your video that you want to use across Snapchat without 
 * Click [here](https://www.freeconvert.com/video-compressor) to open the online compressor.
 * Click on **Choose Files** to choose the MOV file that you want to compress.
 
-  ![](/uploads/imageedit_21_7117034606.png)
+  ![Clicking on Choose Files](/uploads/imageedit_21_7117034606.png "how to trim snapchat video")
 * By default, you can only upload files with a maximum size of 1GB. However, you can overcome this limit by upgrading to a paid version.
 * Once you have chosen your file, click on **Compress Now!** to carry on with the default settings and initiate the compression process.
 
-  ![](/uploads/imageedit_4_6487648200.png)
+  ![Clicking on Compress Now!](/uploads/imageedit_4_6487648200.png "how to trim snapchat video")
 * Or, click on the **Settings** button(the little gear icon) to head on to advanced settings.
 
-  ![](/uploads/imageedit_8_4395329542.png)
+  ![Clicking on Settings icon](/uploads/imageedit_8_4395329542.png "how to trim snapchat video")
 * Here, you can:
   * **Change the Video Codec:** Video Codec is a technique of compression. You can either choose H264 or H265. As we have already seen above, Snapchat recommends the use of the H264 encoding.
   * **Change the Compression method:** You can choose to compress either by percentage or select a target file size. Options for compressing by lowering video quality, video resolution and bitrate are also available though are not recommended since it will result in loss of video quality when sending the video across Snapchat.
@@ -61,12 +61,12 @@ You can easily compress your video that you want to use across Snapchat without 
 
 * Once you are done with the advanced settings, click on **Compress Now!** to start the compression.
 * The time taken for compression will be proportional to the file size and the extent of compression chosen.
-* Once the compression is over, click on **Download MP4** to download
+* Once the compression is over, click on **Download MOV** to download
 
   your file.
 
-  ![](/uploads/imageedit_10_2622638015.png)
-* You can also save it to your Google Drive or Dropbox by clicking on the down-arrow next to **Download MP4.**
+  ![Clicking on Download MOV](/uploads/imageedit_10_2622638015.png "how to trim snapchat video")
+* You can also save it to your Google Drive or Dropbox by clicking on the down-arrow next to **Download MOV**.
 * After it is downloaded, you can either share it on Snapchat or resize it.
 
 # **_Compressing videos using an Offline Compressor_**
@@ -80,26 +80,26 @@ If you wish to compress your MOV files without any maximum file size limit or de
 * Head on to [this](https://handbrake.fr/) site to download the latest version of HandBrake for your operating system.
 * Once it is successfully downloaded and installed, you should see an interface resembling this when you open the app:
 
-  ![](/uploads/imageedit_11_8597594030-1.png)
+  ![HandBrake's interface](/uploads/imageedit_11_8597594030-1.png "how to trim snapchat video")
 * Click on **File** to open a single video file that you want to compress.
 * You can also drag and drop a file in the white rectangle to open it.
 * In the Summary tab, make sure that the format is MP4 and check on the web-optimized checkbox if not already checked.
 
-  ![](/uploads/imageedit_8_8652536128.png)
+  ![Changing the format to mp4](/uploads/imageedit_8_8652536128.png "how to trim snapchat video")
 * Next, Go on the **Video** tab and make sure that the video codec is **H.264 (x264)**. This is the same encoding that is recommended by Snapchat.
 * Select “**Same as source**” in the drop-down menu next to **Framerate (FPS)**.
 
-  ![](/uploads/imageedit_15_3620313304.png)
+  ![Changing the framerate to same as source](/uploads/imageedit_15_3620313304.png "how to trim snapchat video")
 * You can also switch to **Constant Framerate** from **Variable Framerate** if you wish.
 * A constant frame rate ensures a fixed framerate throughout the video. Whereas, a variable framerate will increase and decrease the framerate where it finds it necessary to do so.
 * To compress more, slide the slider of Quality towards the left. The more left it is, the lower will be the quality of your video.
 
-  ![](/uploads/imageedit_2_5881802913.png)
+  ![Adjusting the quality](/uploads/imageedit_2_5881802913.png "how to trim snapchat video")
 * Go on to the **Audio** tab and make sure that the codec is **AAC(avcodec)**.
-* ![](/uploads/imageedit_22_6411776720.png)
+* ![Change the codec to AAC](/uploads/imageedit_22_6411776720.png "how to trim snapchat video")
 * Finally, click on the **Browse** button in the bottom-right corner of the app to select a location where your optimized video will be saved.
 
-  ![](/uploads/imageedit_20_5072004310.png)
+  ![Browsing the location where you want to save the video](/uploads/imageedit_20_5072004310.png "how to trim snapchat video")
 * Click on the **Start Encode** button present at the top to start the encoding process.
 
   ![](/uploads/imageedit_18_4456778579.png)
@@ -118,7 +118,7 @@ How to:
 * Hit the blue **Upload** button and select the compressed video file that you want to resize.
 * Select 9:16 as the **OUTPUT SIZE** under **CANVAS**.
 
-  ![](/uploads/image8-1.png)
+  ![Selecting OUTPUT SIZE as 9:16](/uploads/image8-1.png "how to trim snapchat video")
 * You can also choose the background colour or use the eye-dropper to pick a colour from your video.
 * Click on **Export Video** present in the top-right corner.
 * It will take some time to make the changes and optimize them.
