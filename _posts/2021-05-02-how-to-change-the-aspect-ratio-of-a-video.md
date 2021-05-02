@@ -7,7 +7,7 @@ categories:
 title: How to change the Aspect Ratio of a Video
 author: Keshav Agarwal
 layout: post
-image: ''
+image: "/uploads/output-10.png"
 comments: false
 
 ---
