@@ -35,15 +35,15 @@ This might be the optimal choice for not only Windows and Mac users but also mob
 * You can upload a video either from your local machine or from a URL.
 * To upload a video from your local machine, select **Upload File** in **Source.** Then hit on **Choose File** and browse to the video file that you want to resize.
 
-  ![](/uploads/imageedit_4_4043913800.png)
+  ![Click on Choose File](/uploads/imageedit_4_4043913800.png "change aspect ratio of video")
 * In **Size**, select the desired aspect ratio from the drop-down menu.
 
-  ![](/uploads/imageedit_6_2429678393.png)
+  ![Select desired Aspect Ratio](/uploads/imageedit_6_2429678393.png "change aspect ratio of video")
 * Hit the **Resize** button.
 * Your video will first be uploaded and then converted. The time taken in this will be proportional to the size of your video file.
 * Once the conversion is done, hit **Download Now** to download the converted video.
 
-  ![](/uploads/imageedit_7_8108412564.png)
+  ![Clicking on Download Now](/uploads/imageedit_7_8108412564.png "change aspect ratio of video")
 
 # **_Changing aspect ratio using an Offline software_**
 
@@ -56,14 +56,14 @@ If your needs include changing aspect ratios or editing videos quite frequently 
 * Head on to [this](https://www.microsoft.com/store/productId/9NBLGGH6FW5V) link and download Animotica from the Microsoft Store.
 * Open Animotica and click on **EDIT VIDEO**.
 
-  ![](/uploads/imageedit_9_2366433557.png)
+  ![Clicking on EDIT VIDEO](/uploads/imageedit_9_2366433557.png "change aspect ratio of video")
 * Select the video whose aspect ratio you want to change.
 * Click on the Aspect Ratio icon present on the right side of the edit-toolbar.
 
-  ![](/uploads/imageedit_11_6352966049.png)
+  ![Clicking on Aspect Ratio icon](/uploads/imageedit_11_6352966049.png "change aspect ratio of video")
 * Choose the aspect ratio that you want.
 
-  ![](/uploads/imageedit_13_8201135299.png)
+  ![Selecting the desired Aspect Ratio](/uploads/imageedit_13_8201135299.png "change aspect ratio of video")
 * Hit **Save**.
 * By default, the free version will contain watermarks. To remove those watermarks, you need to upgrade to the paid version of Animotica.
 
@@ -79,21 +79,21 @@ We can use the inbuilt editor that comes with the iPhone to change the aspect ra
 * Select the video whose aspect ratio you want to change.
 * Tap on **Edit**.
 
-  ![](/uploads/image6-3.png)
+  ![Tapping on Edit](/uploads/image6-3.png "change aspect ratio of video")
 * Tap on the crop icon that resembles a square with two arrows going around it.
 
-  ![](/uploads/image9-3.png)
+  ![Tapping on the Crop icon ](/uploads/image9-3.png "change aspect ratio of video")
 * Tap on the aspect ratio icon on the top.
 
-  ![](/uploads/image8-2.png)
+  ![Tapping on the Aspect Ratio icon](/uploads/image8-2.png "change aspect ratio of video")
 * Choose the aspect ratio that you want and hit **Done**.
 
-  ![](/uploads/image12-3.png)
+  ![Selecting the desired Aspect Ratio](/uploads/image12-3.png "change aspect ratio of video")
 * From iOS 13 onwards, videos became non-destructive. So in case, you want to revert back to the original aspect ratio:
   * Open the video and tap on **Edit**.
   * Tap on **Revert**.
 
-    ![](/uploads/image10-4.png)
+    ![Tapping on Revert](/uploads/image10-4.png "change aspect ratio of video")
   * On the next box, tap on **Revert to Original**.
 
 # **_Change aspect ratio on Android_**
@@ -109,16 +109,16 @@ Although some inbuilt editors in Android devices support this feature, most of t
 * Click [here](https://play.google.com/store/apps/details?id=com.camerasideas.instashot&hl=en_IN&gl=US) to download **Video Editor & Video Maker - InShot** app.
 * Tap on **Video**.
 
-  ![](/uploads/image11-4.png)
+  ![Tapping on Video](/uploads/image11-4.png "change aspect ratio of video")
 * Choose the video whose aspect ratio you want to change and then tap on the green tick at the bottom-right corner of the screen.
 * Scroll towards the right in the editing toolbar until you find an option to crop.
 
-  ![](/uploads/image13-4.png)
+  ![Scrolling towards right](/uploads/image13-4.png "change aspect ratio of video")
 
-  ![](/uploads/image14-2.png)
+  ![Tapping on Crop icon](/uploads/image14-2.png "change aspect ratio of video")
 * Choose the aspect ratio that you want.
 
-  ![](/uploads/image15-1.png)
+  ![Selecting the desired Aspect Ratio](/uploads/image15-1.png "change aspect ratio of video")
 * Hit the tick mark and tap on the **SAVE** button present in the top-right corner of the screen.
 * Choose the video quality that you wish to save your video in.
 * The aspect ratio of your video has now been changed.
