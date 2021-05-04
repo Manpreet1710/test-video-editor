@@ -40,28 +40,28 @@ Now that you know why GIFs are so popular and how impactful can be a combination
 * If asked to sign in, sign in with your Google Account if you have one.
 * Click on the **Get Started** button to start the editor.
 
-  ![](/uploads/imageedit_2_3704872474.png)
+  ![Clicking on Get Started](/uploads/imageedit_2_3704872474.png "How to add GIFs to videos")
 * You can either upload the URL of the video you wish to add GIFs to or just upload a video from your local machine.
 * Click on **Click to Upload** and choose the video file you want to add a GIF to. Alternatively, you can also drag and drop your video file there.
 * Your video file will now start uploading to the online studio.
 * Once your video is uploaded, click on Images to search for a GIF from Kapwing’s library.
 
-  ![](/uploads/image8.png)
+  ![Clicking on Images](/uploads/image8.png "How to add GIFs to videos")
 * Search for your desired GIF. Make sure to add the word “ _gif_ ” in the search to filter the search results to GIFs.
 
-  ![](/uploads/image4.png)
+  ![Searching for the gif](/uploads/image4.png "How to add GIFs to videos")
 * Click on the GIF that you want to add to your video.
 * You can resize your GIF using the four-pointer corners. Drag the GIF to position it on the video.
 * If you want your GIF to appear for the entire duration of your video, drag the edges of your GIF till the start and end of your video.
 
-  ![](/uploads/image11.png)
+  ![Placing the GIF and adjusting the duration](/uploads/image11.png "How to add GIFs to videos")
 * However, if you want your GIF to appear for some specific part of your video, drag your GIF to the corresponding part.
 * In case you want your GIF to disappear and appear again later in the video, add the same GIF again in the same manner and position it to the part where you want it to appear again.
 * Once you are satisfied with your editing, click on the **Export Video** button present in the top-right corner of the window.
 * Your watermark-free video is now getting rendered and exported. The time taken for rendering will be proportional to the edits and the duration of the video.
 * Once it is exported, hit **Download** to download your video.
 
-  ![](/uploads/image5.png)
+  ![Clicking on Download](/uploads/image5.png "How to add GIFs to videos")
 * Enjoy! Now you have a cool video you added a GIF to.
 
 # **_Adding GIFs to videos using the InShot app on Android and iOS_**
@@ -76,14 +76,14 @@ By default, your videos will have a watermark in the free version. You must upgr
 * Once the app is successfully installed, tap on it to open it.
 * Tap on **VIDEO** and select the video you wish to put a GIF on.
 
-  ![](/uploads/image10.png)
+  ![Tapping on VIDEO](/uploads/image10.png "How to add GIFs to videos")
 * After you have selected a video, tap on STICKER from the editing toolbar present at the bottom.
 
-  ![](/uploads/image6.png)
+  ![Tapping on STICKER](/uploads/image6.png "How to add GIFs to videos")
 * Tap on **GIF**.
 * Search for the GIF you want. The GIF library of InShot is powered by Giphy, which is one of the largest libraries for GIFs. This means that you can find almost any GIF that you search for.
 
-  ![](/uploads/image13.png)
+  ![Selecting the GIF](/uploads/image13.png "How to add GIFs to videos")
 * Tap on the GIF that you want. It should now appear on top of your video.
 * You can drag the GIF to position it on your video or resize it.
 * InShot even allows you to adjust the opacity of the GIF and give it various kinds of effects such as bouncy, wavy, and many more. Tap on the pencil icon on the GIF to try all of them.
@@ -94,7 +94,7 @@ By default, your videos will have a watermark in the free version. You must upgr
 * Interestingly enough, InShot allows you to make a watermark-free video for free. Tap on the InShot watermark and select **Remove Once**.
 * Once you have added the GIF to your video, tap on the share icon in the upper-right corner to download your video. You can even select the resolution of your video you want to download.
 
-  ![](/uploads/image2.png)
+  ![Tapping on Share icon](/uploads/image2.png "How to add GIFs to videos")
 * Congratulations! You now have a video to which you have added a GIF to. You can find it in the gallery on your phone.
 
 # **_Adding GIFs to videos using Snapchat_**
@@ -107,20 +107,20 @@ Snapchat has a huge library of GIFs that can either be used to be added on image
 * Once the app is downloaded, tap to open it.
 * Next, tap on this icon to access your camera roll.
 
-  ![](/uploads/image12.png)
+  ![Tapping on camera roll icon](/uploads/image12.png "How to add GIFs to videos")
 * From your camera roll, choose the video to which you want to add a GIF to.
 * Once you have chosen your video, tap on **Edit**.
 
-  ![](/uploads/image7.png)
+  ![Tapping the pencil to edit](/uploads/image7.png "How to add GIFs to videos")
 * Next, click on this icon to add GIFs or stickers.
 
-  ![](/uploads/image9.png)
+  ![Tapping on Stickers icon](/uploads/image9.png "How to add GIFs to videos")
 * Search for a GIF in the search box and tap on the result to choose it.
 * You can now position the GIF on your video by dragging it. To resize the GIF, pinch in and out on the GIF. This will decrease and increase the size of the GIF respectively.
 * Similarly, you can add some more GIFs to your video if you want. _The GIF will be there for the entire duration of the video_.
 * Once you are done, click on the share icon present in the bottom-left corner to save your video.
 
-  ![](/uploads/image3.png)
+  ![Tapping the Share icon](/uploads/image3.png "How to add GIFs to videos")
 * You can find your video in your phone’s gallery.
 
 So these were the three easiest ways to add GIFs to videos within a few clicks and taps. Hope you try them out.
