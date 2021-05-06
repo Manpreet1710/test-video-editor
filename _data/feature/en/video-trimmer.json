@@ -65,10 +65,6 @@
   },
   "FAQ": [
     {
-      "question": "1-What are the available aspect ratios while cropping?",
-      "answer": "SafeVideoKit allows you to crop your video into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don’t want these standard aspect ratios.\nSafeVideoKit allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. SafeVideoKit makes cropping videos very easy.\n"
-    },
-    {
       "question": "How much time does it takes to trim my video?",
       "answer": "Once you click on save,it will take no more time and immediately gives result"
     },
