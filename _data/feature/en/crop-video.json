@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Will the quality of my videos decrease after cropping?",
+      "answer": "Crop video allows you to choose the quality of the video as per your requirement. If you want high quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then chose a lesser resolution.\nCrop video also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
+    },
+    {
       "question": "Is it safe to use Crop video?",
       "answer": "Crop video is one of the safest and most secure free online tools. It is absolutely trouble-free and does its job perfectly well. At the same time, it does not save any of the user data. "
     },
