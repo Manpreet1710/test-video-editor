@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What are the available audio formats in which in can extract my audio?",
+      "answer": "Extract Audio provides you multiple options of different audio file formats in which you can download your extracted audio. The file formats available are MP3, ACC, Ogg, WAV, FLAC, and AIFF."
+    },
+    {
       "question": "What audio qualities are available?",
       "answer": "Extract Audio provides you multiple options of different audio qualities in which you can download your extracted audio. The available audio qualities are 48k. 64k, 80k, 96k, 128k, 256k, and 320k"
     },
