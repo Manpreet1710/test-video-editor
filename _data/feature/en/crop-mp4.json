@@ -71,6 +71,10 @@
   },
   "FAQ": [
     {
+      "question": "Will my uploaded files be saved on the server?",
+      "answer": "Our website works on cloud server and does not save your files. Your files will be completely safe with you, after you have cropped your file."
+    },
+    {
       "question": "Does it support both Android and iOS platforms?",
       "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms."
     },
