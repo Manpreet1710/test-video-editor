@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "How long will it take to upload my video?",
+      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low quality videos with lesser resolution.\nIt also depends on the type of video you want to edit/crop. The larger the size of the video, the longer it will take."
+    },
+    {
       "question": "What is CRF value?",
       "answer": "Constant rate factor (CRF) is an encoding mode that adjusts the file data rate up or down to achieve a selected quality level rather than a specific data rate. CRF values range from 0 to 51, with lower numbers delivering higher quality scores."
     },
