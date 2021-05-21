@@ -71,6 +71,10 @@
   },
   "FAQ": [
     {
+      "question": "What are the available aspect ratios while cropping?",
+      "answer": "Crop MP4 allows you to crop your videos into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don't want these standard aspect ratios.\nCrop MP4 allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. Crop MP4 makes cropping videos very easy."
+    },
+    {
       "question": "Will I be charged to use the website?",
       "answer": "Our website is absolutely free and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
     },
@@ -87,36 +91,32 @@
       "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms."
     },
     {
-      "question": "Which Windows versions does Crop MP4 support?",
-      "answer": "Crop MP4 is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
-    },
-    {
-      "question": "I refreshed the browser by mistake. What do I do?",
-      "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to crop it."
-    },
-    {
       "question": "How can I crop multiple videos?",
       "answer": "Crop MP4 allows you to crop multiple files, one after the other. When you crop one file and click on save, the video will be processed. After the video has been processed, you can see download option on the screen. By clicking on it you can download the cropped file. \nIn order to crop another video, you only need to refresh the browser and you will see upload MP4 option. Now you can again select your file which you want to crop."
-    },
-    {
-      "question": "What are the available aspect ratios while cropping?",
-      "answer": "Crop MP4 allows you to crop your videos into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don't want these standard aspect ratios.\nCrop MP4 allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. Crop MP4 makes cropping videos very easy."
-    },
-    {
-      "question": "How long will it take to upload my video?",
-      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low-quality videos with lesser resolution.\nIt also depends on the type of video you want to edit/crop. The larger the size of the video, the longer it will take."
-    },
-    {
-      "question": "Will the quality of my videos decrease after cropping?",
-      "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     },
     {
       "question": "Is it safe to use Crop MP4?",
       "answer": "Crop MP4 is one of the safest and most secure free online tools. It is absolutely trouble-free and does its job perfectly well. At the same time, it does not save any of the user data. "
     },
     {
+      "question": "Which Windows versions does Crop MP4 support?",
+      "answer": "Crop MP4 is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
+    },
+    {
+      "question": "How long will it take to upload my video?",
+      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low-quality videos with lesser resolution.\nIt also depends on the type of video you want to edit/crop. The larger the size of the video, the longer it will take."
+    },
+    {
       "question": "Can I resize my videos?",
       "answer": "By cropping, you can resize your videos to any size you want. There are standard sizes available that you can use. and if you want your own aspect ratio, you can resize your video to your liking."
+    },
+    {
+      "question": "I refreshed the browser by mistake. What do I do?",
+      "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to crop it."
+    },
+    {
+      "question": "Will the quality of my videos decrease after cropping?",
+      "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     }
   ],
   "StructuredDataWebsite": {
