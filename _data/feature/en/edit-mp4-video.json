@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What are encoding speeds?",
+      "answer": "MP4 editor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with MP4 editor are ultrafast, superfast, very fast, faster, Fast, medium, slow, slower, very slow.\nThe slower the speed the better is the compression. MP4 editor provides a wide range of encoding speeds according to varying needs of our users and ensures to provide the best quality videos for each edit made by the user."
+    },
+    {
       "question": "What are the other options available other than cropping the MP4 video?",
       "answer": "MP4 editor provides many options. Apart from cropping you can trim your video, rotate it, change the resolution of your videos, and even increase or decrease the speed of your videos.\nMP4 editor is platform that allows you to do multiple edits on a single platform. That too for FREE!"
     },
