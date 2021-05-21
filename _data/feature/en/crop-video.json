@@ -81,8 +81,8 @@
       "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to crop it."
     },
     {
-      "question": "Why is my video taking lot of time to edit?",
-      "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
+      "question": "How can I crop multiple videos?",
+      "answer": "Crop video allows you to crop multiple files, one after the other. When you crop one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the cropped file. In order to crop another video, you only need to refresh the browser and you will see the upload video option. Now you can again select your file which you want to crop."
     }
   ],
   "StructuredDataWebsite": {
