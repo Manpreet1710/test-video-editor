@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "How can I flip multiple videos?",
+      "answer": "Flip Video allows you to flip multiple files, one after the other. When you flip one file and click on save, the video will be processed. After the video has been processes, you can see download option on the screen. By clicking on it you can download the flipped file. In order to flip another video, you only need to refresh the browser and you will see upload video option. Now you can again select your file which you want to flip."
+    },
+    {
       "question": "I refreshed the browser by mistake. What do I do?",
       "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to flip it."
     },
