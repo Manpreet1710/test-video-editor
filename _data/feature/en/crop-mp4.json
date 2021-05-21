@@ -16,12 +16,6 @@
   "imgalt": "altvalue",
   "TEXTUAL_CONTENT": [
     {
-      "priority": "",
-      "logoUrl": "",
-      "header": "",
-      "content": ""
-    },
-    {
       "priority": 1,
       "logoUrl": "/assets/lightbulb.svg",
       "header": "Simple to use",
