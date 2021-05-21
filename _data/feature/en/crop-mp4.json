@@ -71,6 +71,10 @@
   },
   "FAQ": [
     {
+      "question": "How can I crop multiple videos?",
+      "answer": "Crop MP4 allows you to crop multiple files, one after the other. When you crop one file and click on save, the video will be processed. After the video has been processed, you can see download option on the screen. By clicking on it you can download the cropped file. \nIn order to crop another video, you only need to refresh the browser and you will see upload MP4 option. Now you can again select your file which you want to crop."
+    },
+    {
       "question": "What are the available aspect ratios while cropping?",
       "answer": "Crop MP4 allows you to crop your videos into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don't want these standard aspect ratios.\nCrop MP4 allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. Crop MP4 makes cropping videos very easy."
     },
