@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Will the quality of my videos decrease after flipping?",
+      "answer": "No, the quality of the video remains as is it before flipping the video. Both horizontal and vertical flip does not affect the quality of your videos and it will be as when uploaded."
+    },
+    {
       "question": "How can I flip multiple videos?",
       "answer": "Flip Video allows you to flip multiple files, one after the other. When you flip one file and click on save, the video will be processed. After the video has been processes, you can see download option on the screen. By clicking on it you can download the flipped file. In order to flip another video, you only need to refresh the browser and you will see upload video option. Now you can again select your file which you want to flip."
     },
