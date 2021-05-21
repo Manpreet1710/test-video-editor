@@ -77,12 +77,12 @@
       "answer": "Yes, you can easily split and trim the videos as per your requirement. MP4 editor allows you to split the video into multiple parts. Then you can individually edit each part of the video as per your need."
     },
     {
-      "question": "Are the test results accurate and correct?",
-      "answer": "Your test result is 100% accurate and precisely calculated"
+      "question": "Can I resize my videos?",
+      "answer": "You can use the resize video option to resize your videos to any size you want."
     },
     {
-      "question": "Why is my video taking lot of time to edit?",
-      "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
+      "question": "Can I Extract Audio from my video files on this platform?",
+      "answer": "MP4 editor doesn't have an option where you can extract audio from your files. You can use the Extract audio feature on safevideokit.com to extract audio from your files."
     }
   ],
   "StructuredDataWebsite": {
