@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What can i do if i am not sure what format to choose?",
+      "answer": "If you are not sure, what file format and audio quality to choose, you don't need to worry. Extract Audio has a default option which will extract the audio in the format best suited for your file type."
+    },
+    {
       "question": "Can I upload and extract audio from video file of any type?",
       "answer": "Yes, extract audio allows you to extract audio from any video file format you want.  It supports MP4, MOV, FLV, AVI, MKV and other video files type."
     },
