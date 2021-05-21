@@ -71,6 +71,10 @@
   },
   "FAQ": [
     {
+      "question": "Which Windows versions does Crop MP4 support?",
+      "answer": "Crop MP4 is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
+    },
+    {
       "question": "I refreshed the browser by mistake. What do I do?",
       "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to crop it."
     },
