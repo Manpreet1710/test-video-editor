@@ -81,8 +81,8 @@
       "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms"
     },
     {
-      "question": "Why is my video taking lot of time to edit?",
-      "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
+      "question": "Which Windows versions does Flip Video support?",
+      "answer": "Flip video is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on Windows operating system but can work on any other operating system, that supports a browser."
     }
   ],
   "StructuredDataWebsite": {
