@@ -71,6 +71,10 @@
   },
   "FAQ": [
     {
+      "question": "Will I have to create an account to use Crop MP4?",
+      "answer": "Our website does not require you to sign up or create an account. The platform is absolutely free and you can compress as many files as you want."
+    },
+    {
       "question": "Will my uploaded files be saved on the server?",
       "answer": "Our website works on cloud server and does not save your files. Your files will be completely safe with you, after you have cropped your file."
     },
