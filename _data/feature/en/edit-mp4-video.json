@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What are the available aspect ratios while cropping?",
+      "answer": "MP4 editor allows you to crop your video into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don’t want these standard aspect ratios.\nMP4 editor allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. MP4 editor makes cropping videos very easy."
+    },
+    {
       "question": "How long will it take to upload my video?",
       "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low quality videos with lesser resolution.\nIt also depends on the type of video you want to edit/crop. The larger the size of the video, the longer it will take."
     },
