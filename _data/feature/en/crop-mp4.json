@@ -79,8 +79,8 @@
       "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low-quality videos with lesser resolution.\nIt also depends on the type of video you want to edit/crop. The larger the size of the video, the longer it will take."
     },
     {
-      "question": "What will happen if I refresh the browser?",
-      "answer": "As we give first priority to your data security, they are not uploaded to server. So refreshing resets your settings and video file"
+      "question": "Will the quality of my videos decrease after cropping?",
+      "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     },
     {
       "question": "Are the test results accurate and correct?",
