@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Can I use both flip X and flip Y simultaneously?",
+      "answer": "Yes, Flip video allows you to flip your windows in multiple ways, and you can use both Flip X and Flip Y, multiple times, until your video has been flipped to your liking."
+    },
+    {
       "question": "Why is it taking so long to process my file?",
       "answer": "The time taken to flip and process your video depend on the size, aspect ratio and the number of flips you have performed. If your file size is bigger, it will take a bit longer than regular files."
     },
