@@ -73,8 +73,8 @@
       "answer": "Yes, our website works on a browser, and therefore supports both iOS and Android platforms."
     },
     {
-      "question": "What will happen if I refresh the browser?",
-      "answer": "As we give first priority to your data security, they are not uploaded to server. So refreshing resets your settings and video file"
+      "question": "Which Windows versions does crop video support?",
+      "answer": "Crop video is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on Windows operating system but can work on any other operating system, that supports a browser."
     },
     {
       "question": "Are the test results accurate and correct?",
