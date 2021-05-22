@@ -54,12 +54,12 @@
   ],
   "HOW_TO_CONTENT": {
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
-    "heading": "How to compress your mov",
+    "heading": "How to compress your MOV",
     "steps": [
       "Choose your video file",
-      "Wait patiently till the video gets loaded",
-      "Choose your compression settings appropriately",
-      "Click save to download your video",
+      "Wait patiently till the video gets uploaded",
+      "Choose your compression settings, the CRF value and the encoding speed",
+      "Click on save to download your video",
       "Hurray! Enjoy our services"
     ]
   },
