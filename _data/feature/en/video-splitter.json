@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Will the quality of my video decrease after splitting it?",
+      "answer": "Until and unless you change the resolution of your file, it won't affect the quality of your Video file. The quality of your video will remain intact, only the size or the length will be changed."
+    },
+    {
       "question": "Can I trim my video in Video splitter?",
       "answer": "Yes, you can both trim and split your videos. You can drag over the playback bar to see the timer, at which you want to stop, or click on the play back bar at the spot and click on save. Your video will be saved and ready to download."
     },
