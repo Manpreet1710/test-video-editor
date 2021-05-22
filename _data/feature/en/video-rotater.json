@@ -81,8 +81,8 @@
       "answer": "Our website does not require you to sign up or create an account. The platform is absolutely free and you can compress as many files as you want."
     },
     {
-      "question": "Why is my video taking lot of time to edit?",
-      "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
+      "question": "Will my uploaded files be saved on the server?",
+      "answer": "Our website works on a cloud server and does not save your files. Your files will be completely safe with you after you have compressed your file."
     }
   ],
   "StructuredDataWebsite": {
