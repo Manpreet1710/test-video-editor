@@ -69,12 +69,12 @@
       "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to cut it."
     },
     {
-      "question": "Can I rely on this application to get my job done?",
-      "answer": "Yes Ofcourse! Our application never fails to impress you by getting your job done in no time"
+      "question": "How can I cut multiple videos?",
+      "answer": "Video cutter allows you to cut multiple files, one after the other. When you cut one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the file. In order to cut another video, you only need to refresh the browser and you will see the upload Video option. Now you can again select your file which you want to cut."
     },
     {
-      "question": "What will happen if I refresh the browser?",
-      "answer": "As we give first priority to your data security, they are not uploaded to server. So refreshing resets your settings and video file"
+      "question": "What is the difference between cut and split?",
+      "answer": "Cutting allows you to cut your video from either end of the entire length of the video. You can shorten your video as much as you like from either the starting or the ending or both as well.\nSplitting a video means dividing your video into two or more parts. After splitting your video you can make individual changes to video parts and save the video as one file."
     },
     {
       "question": "Are the test results accurate and correct?",
