@@ -65,6 +65,14 @@
   },
   "FAQ": [
     {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "What is CRF value?",
+      "answer": "Constant rate factor (CRF) is an encoding mode that adjusts the file data rate up or down to achieve a selected quality level rather than a specific data rate. CRF values range from 0 to 51, with lower numbers delivering higher quality scores."
+    },
+    {
       "question": "Will the quality of my videos decrease after compressing?",
       "answer": "When you compress a file, the file size will be reduced and to do that, the quality has to be cmpromised. To make sure that you do not lose out the qualily, MP4 Compressor allows you to choose the quality of the video as per your requirement. If you want high quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then chose a lesser resolution."
     },
