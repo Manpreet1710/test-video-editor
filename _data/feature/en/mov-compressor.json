@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What are encoding speeds?",
+      "answer": "MOV Compressor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with MOV Compressor are ultrafast, superfast, very fast, faster, Fast, medium, slow, slower, very slow.\nThe slower the speed the better is the compression. MOV Compressor provides a wide range of encoding speeds according to varying needs of our users and ensures to provide the best quality videos for each edit made by the user."
+    },
+    {
       "question": "Will I be charged to use the website?",
       "answer": "Our website is absolutely free and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
     },
