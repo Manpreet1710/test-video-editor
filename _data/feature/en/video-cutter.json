@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Can I split my video in Video cutter?",
+      "answer": "Yes, you can both cut and split your Video videos. You can drag or click on the play back bar and click on save. Your video will be saved and ready to download."
+    },
+    {
       "question": "Will the quality of my video decrease after cutting it?",
       "answer": "Until and unless you change the resolution of your file, it won't affect the quality of your Video file. The quality of your video will remain intact, only the size or the length will be changed."
     },
