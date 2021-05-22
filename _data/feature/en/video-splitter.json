@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Can I trim my video in Video splitter?",
+      "answer": "Yes, you can both trim and split your videos. You can drag over the playback bar to see the timer, at which you want to stop, or click on the play back bar at the spot and click on save. Your video will be saved and ready to download."
+    },
+    {
       "question": "Can I upload and split video file of any type?",
       "answer": "With Video splitter, you can upload and split any type of video file that you want. It supports MP4, MOV, FLV, AVI, MKV and other video files type."
     },
