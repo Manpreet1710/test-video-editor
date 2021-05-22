@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "What are the available rotations?",
+      "answer": "You are given two options: Left and Right. You can either rotate your video clockwise or anticlockwise, depending on your need. You can select either or both the options multiple times until you are satisfied with the rotation."
+    },
+    {
       "question": "How can I rotate my videos to 180 degrees?",
       "answer": "To rotate your video to 180 degrees you can click on either option, left or right and select it twice. Each selection rotates your video by 90 degrees, therefore two selections will rotate your videos to 180 degrees."
     },
