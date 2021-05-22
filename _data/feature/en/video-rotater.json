@@ -69,8 +69,8 @@
       "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to rotate it."
     },
     {
-      "question": "Can I rely on this application to get my job done?",
-      "answer": "Yes Ofcourse! Our application never fails to impress you by getting your job done in no time"
+      "question": "How can I rotate multiple videos?",
+      "answer": "Video Rotator allows you to rotate multiple files, one after the other. When you rotate one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the rotated file. In order to rotate another video, you only need to refresh the browser and you will see the upload Video option. Now you can again select your file which you want to rotate."
     },
     {
       "question": "What will happen if I refresh the browser?",
