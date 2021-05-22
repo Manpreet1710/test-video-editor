@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Which Windows versions does Video cutter support?",
+      "answer": "Video Cutter is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
+    },
+    {
       "question": "Does it support both Android and iOS platforms?",
       "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms"
     },
