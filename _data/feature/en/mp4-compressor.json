@@ -66,11 +66,11 @@
   "FAQ": [
     {
       "question": "Can I compress my videos using MP4 Compressor?",
-      "answer": "MP4 Compressor allows you to compress MP4 video files. For other file formats like MOV, you can choose our MOV CompressorYou only have to upload your video, select the encoding speed and CRF value and click on save You file will be compressed as per your desired size."
+      "answer": "MP4 Compressor allows you to compress MP4 video files. For other file formats like MOV, you can choose our MOV Compressor. You only have to upload your video, select the encoding speed and CRF value and click on save Your file will be compressed as per your desired size."
     },
     {
       "question": "How long will it take to upload my video?",
-      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low quality videos with lesser resolution."
+      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low-quality videos with lesser resolution.\nMP4 Compressor allows you to compress MP4 video files. For other file formats like MOV, you can choose our MOV CompressorYou only have to upload your video, select the encoding speed and CRF value and click on save Your file will be compressed as per your desired size."
     },
     {
       "question": "What is CRF value?",
@@ -86,7 +86,7 @@
     },
     {
       "question": "What are encoding speeds?",
-      "answer": "MP4 Compressor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with MP4 Compressor are ultrafast, superfast, very fast, faster, Fast, medium, slow, slower, very slow."
+      "answer": "MP4 Compressor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with MP4 Compressor are ultrafast, superfast, very fast, faster, fast, medium, slow, slower, very slow.\nThe slower the speed the better is the compression. MP4 Compressor provides a wide range of encoding speeds according to the varying needs of our users and ensures to provide the best quality videos for each edit made by the user."
     },
     {
       "question": "Will I be charged to use the website?",
