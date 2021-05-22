@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Will rotating affect the quality of my videos?",
+      "answer": "No, rotating your videos does not affect the quality of your videos. It will only change the aspect ratio of the video."
+    },
+    {
       "question": "Can I upload and rotate any other file type?",
       "answer": "With Video Rotator, you can upload and rotate any type of video file that you want. It supports MP4, MOV, FLV, AVI, MKV and other video files type."
     },
