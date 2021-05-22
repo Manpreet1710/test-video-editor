@@ -1,7 +1,7 @@
 {
   "Language": "English",
   "htmlLangAtt": "en",
-  "H1": "Video rotater",
+  "H1": "Video rotator",
   "H2": "Rotate your videos online",
   "TITLE": "Rotate your videos online",
   "META": "Easiest way to rotate your videos online.",
@@ -73,8 +73,8 @@
       "answer": "Video Rotator allows you to rotate multiple files, one after the other. When you rotate one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the rotated file. In order to rotate another video, you only need to refresh the browser and you will see the upload Video option. Now you can again select your file which you want to rotate."
     },
     {
-      "question": "What will happen if I refresh the browser?",
-      "answer": "As we give first priority to your data security, they are not uploaded to server. So refreshing resets your settings and video file"
+      "question": "Will I be charged to use the website?",
+      "answer": "Our website is absolutely free and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
     },
     {
       "question": "Are the test results accurate and correct?",
