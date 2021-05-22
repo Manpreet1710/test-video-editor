@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "How can I rotate my videos to 180 degrees?",
+      "answer": "To rotate your video to 180 degrees you can click on either option, left or right and select it twice. Each selection rotates your video by 90 degrees, therefore two selections will rotate your videos to 180 degrees."
+    },
+    {
       "question": "Will rotating affect the quality of my videos?",
       "answer": "No, rotating your videos does not affect the quality of your videos. It will only change the aspect ratio of the video."
     },
