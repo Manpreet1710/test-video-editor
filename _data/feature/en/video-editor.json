@@ -65,6 +65,18 @@
   },
   "FAQ": [
     {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": " What are the other options available other than cropping the Video video?",
+      "answer": "Video editor provides many options. Apart from cropping you can trim your video, rotate it, change the resolution of your videos, and even increase or decrease the speed of your videos.\nVideo editor is platform that allows you to do multiple edits on a single platform. That too for FREE!"
+    },
+    {
       "question": "Can I Extract Audio from my video files on this platform?",
       "answer": "MP4 editor doesn't have an option where you can extract audio from your files. You can use the Extract audio feature on safevideokit.com to extract audio from your files."
     },
