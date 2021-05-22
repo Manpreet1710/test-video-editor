@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Why is is taking so long to process my file?",
+      "answer": "The time taken to cut and process your video depend on the size, aspect ratio and the number of cuts you have performed. If your file size is bigger, it will take a bit longer than regular files."
+    },
+    {
       "question": "Which Windows versions does Video cutter support?",
       "answer": "Video Cutter is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
     },
