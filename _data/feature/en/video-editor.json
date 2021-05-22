@@ -65,8 +65,8 @@
   },
   "FAQ": [
     {
-      "question": "How much time does it takes to edit my video?",
-      "answer": "Once you click on save,it will take a bit of time if there is need for video re-encoding or immediately gives result, it is based on your video size"
+      "question": "Can I Extract Audio from my video files on this platform?",
+      "answer": "MP4 editor doesn't have an option where you can extract audio from your files. You can use the Extract audio feature on safevideokit.com to extract audio from your files."
     },
     {
       "question": "Can I resize my videos?",
