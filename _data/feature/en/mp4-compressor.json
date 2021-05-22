@@ -65,8 +65,8 @@
   },
   "FAQ": [
     {
-      "question": "",
-      "answer": ""
+      "question": "How long will it take to upload my video?",
+      "answer": "The time taken to upload your video for cropping or editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low quality videos with lesser resolution."
     },
     {
       "question": "What is CRF value?",
