@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "Why should I rotate my video?",
+      "answer": "If there has been a mistake while shooting the video, or of a video is potrait mode and you want it in landscape mode you can use rotate. Rotating videos changes the aspect ratio of your videos."
+    },
+    {
       "question": "What are the available rotations?",
       "answer": "You are given two options: Left and Right. You can either rotate your video clockwise or anticlockwise, depending on your need. You can select either or both the options multiple times until you are satisfied with the rotation."
     },
