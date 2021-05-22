@@ -65,6 +65,30 @@
   },
   "FAQ": [
     {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms.",
+      "question": "Does it support both Android and iOS platforms?"
+    },
+    {
       "question": "Will my uploaded files be saved on the server?",
       "answer": "Our website works on a cloud server and does not save your files. Your files will be completely safe with you after you have compressed your file."
     },
