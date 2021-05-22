@@ -65,8 +65,8 @@
   },
   "FAQ": [
     {
-      "question": "How much time does it takes to resize my video?",
-      "answer": "Once you click on save,it will take a some time for re-encoding the video and immediately gives result after that"
+      "question": "Will my uploaded files be saved on the server?",
+      "answer": "Our website works on a cloud server and does not save your files. Your files will be completely safe with you after you have compressed your file."
     },
     {
       "question": "Will I have to create an account to use Resize Video?",
