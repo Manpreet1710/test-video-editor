@@ -73,8 +73,8 @@
       "answer": ""
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is CRF value?",
+      "answer": "Constant rate factor (CRF) is an encoding mode that adjusts the file data rate up or down to achieve a selected quality level rather than a specific data rate. CRF values range from 0 to 51, with lower numbers delivering higher quality scores."
     },
     {
       "question": "Will the quality of my videos decrease after cropping?",
