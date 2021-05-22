@@ -65,7 +65,7 @@
   },
   "FAQ": [
     {
-      "question": "Why is is taking so long to process my file?",
+      "question": "Why is it taking so long to process my file?",
       "answer": "The time taken to split and process your video depend on the size, aspect ratio and the number of splits you have performed. If your file size is bigger, it will take a bit longer than regular files."
     },
     {
