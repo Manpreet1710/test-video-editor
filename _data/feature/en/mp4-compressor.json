@@ -65,8 +65,8 @@
   },
   "FAQ": [
     {
-      "question": "",
-      "answer": ""
+      "question": "What are encoding speeds?",
+      "answer": "MP4 Compressor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with MP4 Compressor are ultrafast, superfast, very fast, faster, Fast, medium, slow, slower, very slow."
     },
     {
       "question": "Will I be charged to use the website?",
@@ -85,8 +85,8 @@
       "answer": "Our website works on cloud server and does not save your files. Your files will be completely safe with you, after you have compressed your file."
     },
     {
-      "question": "Why is my video taking lot of time to edit?",
-      "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
+      "question": "Can I download the file after compressing in any other format?",
+      "answer": "MP4 Compressor allows you to edit your videos as per your need and requirements providing multiple attributes and functions. You can download the edited video in MP4 format only. However, you can use our other websites like MOV Converter, to finally convert your video in your desired format."
     }
   ],
   "StructuredDataWebsite": {
