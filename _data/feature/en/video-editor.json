@@ -69,6 +69,22 @@
       "answer": ""
     },
     {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "",
+      "answer": ""
+    },
+    {
+      "question": "What are the resolutions available and what will be the size of the file of different resolutions?",
+      "answer": "Video editor provides all the standard resolutions i.e., 1080p, 720p, 480p, 360p, and 240p. Keep in mind that a higher resolution file size will be more than a file with lower resolution. The size of the file will also depend on the length of the video, the resolution, the aspect ratio and the CRF values."
+    },
+    {
       "question": "What are encoding speeds?",
       "answer": "Video editor allows you to choose encoding speed i.e., the speed at which you want to convert the video and save it for download. The encoding speeds available with Video editor are ultrafast, superfast, very fast, faster, Fast, medium, slow, slower, very slow.\nThe slower the speed the better is the compression. Video editor provides a wide range of encoding speeds according to varying needs of our users and ensures to provide the best quality videos for each edit made by the user."
     },
