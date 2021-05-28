@@ -42,14 +42,14 @@
     {
       "priority": 1,
       "logoUrl": "/assets/fast.svg",
-      "header": "Privacy and Security ",
-      "content": "Our website prioritises its customers’ privacy. Since we work with cloud storage your files do not get uploaded. So, no chance of getting any data breach. Your data is safe with us!"
+      "header": "Saves Time",
+      "content": "he conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
     },
     {
       "priority": 1,
       "logoUrl": "/assets/cloud_new.svg",
-      "header": "No files are uploaded",
-      "content": "The application works completely on your browser without invlolving any server.Hence your data is safe"
+      "header": "Quick Results",
+      "content": "The conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
     }
   ],
   "HOW_TO_CONTENT": {
