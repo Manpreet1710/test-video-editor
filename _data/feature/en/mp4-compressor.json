@@ -1,10 +1,10 @@
 {
   "Language": "English",
   "htmlLangAtt": "en",
-  "H1": "Compress mp4",
-  "H2": "Compress your mp4 videos online",
-  "TITLE": "Compress your mp4 videos online",
-  "META": "Easiest way to compress your mp4 videos online",
+  "H1": "Compress MP4",
+  "H2": "Compress your MP4 videos online",
+  "TITLE": "Compress your MP4 videos online",
+  "META": "Easiest way to compress your MP4 videos online",
   "keywords": "key1,key2,key3,key4",
   "LABEL": "DOCX to PDF",
   "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -54,7 +54,7 @@
   ],
   "HOW_TO_CONTENT": {
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
-    "heading": "How to compress your mp4",
+    "heading": "How to compress your MP4",
     "steps": [
       "Choose your video file",
       "Wait patiently till the video gets loaded",
