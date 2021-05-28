@@ -82,7 +82,7 @@
       "answer": "Yes, extract audio allows you to extract audio from any video file format you want.  It supports MP4, MOV, FLV, AVI, MKV and other video files type."
     },
     {
-      "question": "Why is is taking so long to process my file?",
+      "question": "Why is it taking so long to process my file?",
       "answer": "The time taken to extract the audio and process your video depend on the size of you file, the file format you have chosen and the audio quality you have selected. If your file size is bigger, it will take a bit longer than regular files."
     },
     {
