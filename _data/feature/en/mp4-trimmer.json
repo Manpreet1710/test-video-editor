@@ -1,10 +1,10 @@
 {
   "Language": "English",
   "htmlLangAtt": "en",
-  "H1": "Mp4 trimmer",
-  "H2": "Trim your mp4 videos online",
-  "TITLE": "Trim your mp4 videos online",
-  "META": "Easiest way to trim your mp4 videos online.",
+  "H1": "MP4 trimmer",
+  "H2": "Trim your MP4 videos online",
+  "TITLE": "Trim your MP4 videos online",
+  "META": "Easiest way to trim your MP4 videos online.",
   "keywords": "key1,key2,key3,key4",
   "LABEL": "DOCX to PDF",
   "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -18,8 +18,8 @@
     {
       "priority": 1,
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "Simple to use",
-      "content": "Our video editing process elegant and straightforward"
+      "header": "Independent",
+      "content": "Our website is platform independent. It works on both Window and iOS Operating systems and can be used without any downloads required."
     },
     {
       "priority": 1,
