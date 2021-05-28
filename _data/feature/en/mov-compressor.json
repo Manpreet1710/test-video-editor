@@ -30,14 +30,14 @@
     {
       "priority": 1,
       "logoUrl": "/assets/cross.svg",
-      "header": "Cross platform",
-      "content": "You can use this application from now on any operating system, like Windows/Mac/Linux/Android/iPhone."
+      "header": "Privacy and Security ",
+      "content": "Our website prioritises its customers’ privacy. Since we work with cloud storage your files do not get uploaded. So, no chance of getting any data breach. Your data is safe with us!"
     },
     {
       "priority": 1,
       "logoUrl": "/assets/shield.svg",
-      "header": "Secure and trustworthy",
-      "content": "There is no server involved and hence your video is safe"
+      "header": "Quick Results",
+      "content": "The conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
     },
     {
       "priority": 1,
