@@ -5,7 +5,7 @@ tags:
 categories:
 - General
 title: How to compress a video to use it on Snapchat
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-9.png"
 comments: false
