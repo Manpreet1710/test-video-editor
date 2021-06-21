@@ -111,7 +111,7 @@
     },
     {
       "question": "Will my uploaded files be saved on the server?",
-      "answer": "Our website works on a cloud server and does not save your files. Your files will be completely safe with you after you have extracted audio from your file."
+      "answer": "All processing is done on your browser, and no files are transferred to the server. Hence your files are 100% safe."
     }
   ],
   "StructuredDataWebsite": {
