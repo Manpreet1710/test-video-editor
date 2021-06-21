@@ -43,7 +43,6 @@ plugins:
   - jekyll-feed
 favicon: assets/safevideokit.svg
 production_google_analytics: 'UA-179965937-17'
-development_google_analytics: 'UA-179965937-17'
 name: safevideokit
 # Exclude from processing.
 # The following items will not be processed, by default.
