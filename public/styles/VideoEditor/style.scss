@@ -1359,6 +1359,9 @@
     border-top: 1px solid #5c5c5c60;
     border-bottom: 1px solid #5c5c5c60;
     @include flexRow();
+    // .rating-img{
+    //     display: none;
+    // }
     .rating-text{
         font-weight: bolder;
     }

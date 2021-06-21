@@ -17,8 +17,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-production_google_analytics: 'G-FDMEFMD93L'
-development_google_analytics: 'G-FDMEFMD93L'
 title: Safevideokit
 email: marketing@safevideokit.com 
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,6 +26,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://safevideokit.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+siteurl: https://safevideokit.com
+alternateName: safevideokit
+logo: /assets/safevideokit.svg
 
 permalink: /blog/:title
 paginate: '12'
@@ -40,8 +42,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 favicon: assets/safevideokit.svg
-production_google_analytics: 'G-FDMEFMD93L'
-development_google_analytics: 'G-FDMEFMD93L'
+production_google_analytics: 'UA-179965937-17'
+development_google_analytics: 'UA-179965937-17'
 name: safevideokit
 # Exclude from processing.
 # The following items will not be processed, by default.

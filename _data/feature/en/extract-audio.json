@@ -83,16 +83,5 @@
         "question": "Why is my video taking lot of time to extract?",
         "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
       }
-      ],
-      "StructuredDataWebsite": {
-        "@type": "WebSite",
-        "name": "appscms",
-        "alternateName": "appscms",
-        "url": "www.appscms.com"
-      },
-     "StructuredDataorganization": {
-        "@type": "Organization",
-        "url": "http://www.appscms.com",
-        "logo": "http://www.example.com/images/logo.png" 
-      }
+      ]
   }
