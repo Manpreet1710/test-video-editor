@@ -1359,15 +1359,20 @@
     border-top: 1px solid #5c5c5c60;
     border-bottom: 1px solid #5c5c5c60;
     @include flexRow();
-    // .rating-img{
-    //     display: none;
-    // }
+    #rating-img{
+        visibility: hidden;
+        position: absolute;
+    }
     .rating-text{
         font-weight: bolder;
     }
+    i {
+        
+        margin-bottom: 0px; 
+    }
     .rating-stars{
         width: 200px;
-        height: 10%;
+        height: 100%;
         @include flexRow();
     }
 }

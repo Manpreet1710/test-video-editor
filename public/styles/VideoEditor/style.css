@@ -2146,13 +2146,22 @@ input:checked + .slider:before {
   text-align: center;
 }
 
+.rating-tool #rating-img {
+  visibility: hidden;
+  position: absolute;
+}
+
 .rating-tool .rating-text {
   font-weight: bolder;
 }
 
+.rating-tool i {
+  margin-bottom: 0px;
+}
+
 .rating-tool .rating-stars {
   width: 200px;
-  height: 10%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
