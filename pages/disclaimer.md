@@ -4,6 +4,7 @@ permalink: disclaimer
 folderName: disclaimer
 lang: en
 fileName: disclaimer
-companyName: appscms
-domain: com
+companyName: safevideokit
+domain : com
+title: Disclaimer
 ---

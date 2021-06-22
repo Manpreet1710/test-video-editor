@@ -62,7 +62,7 @@
       "Select the audio quality",
       "Click on Extract Audio to download your file",
       "Hurray! Enjoy our services"
-    ]
+      ]
   },
   "FAQ": [
     {
@@ -113,16 +113,5 @@
       "question": "Will my uploaded files be saved on the server?",
       "answer": "All processing is done on your browser, and no files are transferred to the server. Hence your files are 100% safe."
     }
-  ],
-  "StructuredDataWebsite": {
-    "@type": "WebSite",
-    "name": "appscms",
-    "alternateName": "appscms",
-    "url": "www.appscms.com"
-  },
-  "StructuredDataorganization": {
-    "@type": "Organization",
-    "url": "http://www.appscms.com",
-    "logo": "http://www.example.com/images/logo.png"
-  }
+  ]
 }
