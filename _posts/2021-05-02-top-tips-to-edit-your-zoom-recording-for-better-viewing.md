@@ -6,7 +6,7 @@ tags:
 categories:
 - General
 title: Top tips to edit your Zoom recording for better viewing
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-7.png"
 comments: false

@@ -7,7 +7,7 @@ tags:
 categories:
 - General
 title: How to compress your MOV files
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-4.png"
 comments: false

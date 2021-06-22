@@ -7,7 +7,7 @@ tags:
 categories:
 - General
 title: A guide to embedding videos in Slack
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-6.png"
 comments: false

@@ -6,7 +6,7 @@ tags:
 categories:
 - General
 title: How to compress videos on Mac without compromising in  quality
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-2.png"
 comments: false

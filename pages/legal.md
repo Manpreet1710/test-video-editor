@@ -1,10 +1,11 @@
 ---
 fileName: termAndCondition
-layout:  contactUs
+layout:  termAndCondition
 permalink: terms-and-conditions
 folderName: termAndCondition
 lang: en
 fileName: termAndCondition
-companyName: appscms 
+companyName: safevideokit
 domain : com
+title: Terms and Conditions
 ---

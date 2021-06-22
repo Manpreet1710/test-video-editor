@@ -7,7 +7,7 @@ tags:
 categories:
 - General
 title: Easiest ways to embed a video in Outlook email
-author: Keshav Agarwal
+author: Keshav
 layout: post
 image: "/uploads/output-8.png"
 comments: false
