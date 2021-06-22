@@ -1,87 +1,117 @@
 {
-    "Language":"English",
-    "htmlLangAtt":"en",
-    "H1":"Video splitter",
-    "H2":"Split your videos online",
-    "TITLE": "Split your videos online",
-    "META": "Easiest way to split your videos online",
-    "keywords":"key1,key2,key3,key4",
-    "LABEL": "DOCX to PDF",
-    "BREADCRUMB_LABEL": "DOCX TO PDF",
-    "color":"#e84118",
-    "height": "300px",    "img":"./assets/FeatureIcons_featurePage/video-split.svg",
-    "imgwidth":"30px",
-    "imgheight":"30px",
-    "imgalt":"altvalue",
-    "TEXTUAL_CONTENT": [
-      {
+  "Language": "English",
+  "htmlLangAtt": "en",
+  "H1": "Video splitter",
+  "H2": "Split your videos online",
+  "TITLE": "Split your videos online",
+  "META": "Easiest way to split your videos online",
+  "keywords": "key1,key2,key3,key4",
+  "LABEL": "DOCX to PDF",
+  "BREADCRUMB_LABEL": "DOCX TO PDF",
+  "color": "#e84118",
+  "height": "300px",
+  "img": "./assets/FeatureIcons_featurePage/video-split.svg",
+  "imgwidth": "30px",
+  "imgheight": "30px",
+  "imgalt": "altvalue",
+  "TEXTUAL_CONTENT": [
+    {
       "priority": 1,
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "Simple to use",
-      "content": "Our video editing process elegant and straightforward"
-      },
-      {
+      "header": "Independent",
+      "content": "Our website is platform independent. It works on both Window and iOS Operating systems and can be used without any downloads required."
+    },
+    {
       "priority": 1,
       "logoUrl": "/assets/target.svg",
-      "header": "Accurate results",
-      "content": "The results are accurate and hence completely satisfy user needs"
-      },
-      {
+      "header": "Absolutely Free",
+      "content": "The conversion is absolutely free, so you can convert as many files as you want."
+    },
+    {
       "priority": 1,
       "logoUrl": "/assets/cross.svg",
-      "header": "Cross platform",
-      "content": "You can use this application from now on any operating system, like Windows/Mac/Linux/Android/iPhone."
-      },
-      {
+      "header": "Privacy and Security ",
+      "content": "Our website prioritises its customers’ privacy. Since we work with cloud storage your files do not get uploaded. So, no chance of getting any data breach. Your data is safe with us!"
+    },
+    {
       "priority": 1,
       "logoUrl": "/assets/shield.svg",
-      "header": "Secure and trustworthy",
-      "content": "There is no server involved and hence your video is safe"
-      },
-      {
+      "header": "Quick Results",
+      "content": "The conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
+    },
+    {
       "priority": 1,
       "logoUrl": "/assets/fast.svg",
       "header": "Fast and efficient",
       "content": "Video editing is really fast and you can get your job done in no time"
-      },
-      {
+    },
+    {
       "priority": 1,
       "logoUrl": "/assets/cloud_new.svg",
-      "header": "No files are uploaded",
-      "content": "The application works completely on your browser without invlolving any server.Hence your data is safe"
-      }
-    ],
-    "HOW_TO_CONTENT": {
-      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
-      "heading": "How to split your video",
-      "steps": [
+      "header": "Saves Time",
+      "content": "Our website is platform independent, can work on laptops, tabs and phones and the conversion is quick, it saves time."
+    }
+  ],
+  "HOW_TO_CONTENT": {
+    "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+    "heading": "How to split your video",
+    "steps": [
       "Choose your video file",
-      "Wait patiently till the video gets loaded",
+      "Wait patiently till the video gets uploaded",
       "Choose the appropriate split settings",
-      "Click save to download your video",
+      "Click on save to download your video",
       "Hurray! Enjoy our services"
-      ]
+    ]
+  },
+  "FAQ": [
+    {
+      "question": "Will the quality of my video decrease after splitting it?",
+      "answer": "Until and unless you change the resolution of your file, it won't affect the quality of your Video file. The quality of your video will remain intact, only the size or the length will be changed."
     },
-    "FAQ": [
-      {
-        "question": "How much time does it takes to split my video?",
-        "answer": "Once you click on save,it will take no more time and immediately gives result"
-        },
-        {
-        "question": "Can I rely on this application to get my job done?",
-        "answer": "Yes Ofcourse! Our application never fails to impress you by getting your job done in no time"
-        },
-        {
-        "question": "What will happen if I refresh the browser?",
-        "answer": "As we give first priority to your data security, they are not uploaded to server. So refreshing resets your settings and video file"
-        },
-        {
-        "question": "Are the test results accurate and correct?",
-        "answer": "Your test result is 100% accurate and precisely calculated"
-        },
-        {
-          "question": "Why is my video taking lot of time to edit?",
-          "answer": "Your video maybe of very large size. As we dont use servers,large video files take a bit of extra time to process"
-        }
-      ]
+    {
+      "question": "Can I trim my video in Video splitter?",
+      "answer": "Yes, you can both trim and split your videos. You can drag over the playback bar to see the timer, at which you want to stop, or click on the play back bar at the spot and click on save. Your video will be saved and ready to download."
+    },
+    {
+      "question": "Can I upload and split video file of any type?",
+      "answer": "With Video splitter, you can upload and split any type of video file that you want. It supports MP4, MOV, FLV, AVI, MKV and other video files type."
+    },
+    {
+      "question": "Why is it taking so long to process my file?",
+      "answer": "The time taken to split and process your video depend on the size, aspect ratio and the number of splits you have performed. If your file size is bigger, it will take a bit longer than regular files."
+    },
+    {
+      "question": "Which Windows versions does Video splitter support?",
+      "answer": "Video splitter is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
+    },
+    {
+      "question": "Does it support both Android and iOS platforms?",
+      "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms"
+    },
+    {
+      "question": "Will my uploaded files be saved on the server?",
+      "answer": "All processing is done on your browser, and no files are transferred to the server. Hence your files are 100% safe."
+    },
+    {
+      "question": "I refreshed the browser by mistake. What do I do?",
+      "answer": "Since our website does not use any servers, and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to split it."
+    },
+    {
+      "question": "How can I split multiple videos?",
+      "answer": "Video splitter allows you to split multiple files, one after the other. When you split one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the split file. In order to split another video, you only need to refresh the browser and you will see upload video option. Now you can again select your file which you want to split."
+    },
+    {
+      "question": "What is the difference between split and split?",
+      "answer": "Splitting allows you to cut your video from either end of the entire length of the video. You can shorten your video as much as you like from either the starting or the ending or both as well.\nSplitting a video means dividing your video into two or more parts. After splitting your video you can make individual changes to video parts and save the video as one file."
+    },
+    {
+      "question": "Will I be charged to use the website?",
+      "answer": "Our website is absolutely free and you can use it as many times as you want. There is no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
+    },
+    {
+      "question": "Will I have to create an account to use Video splitter?",
+      "answer": "Our website does not require you to sign up or create an account. The platform is absolutely free and you can compress as many files as you want."
+    }
+  ]
   }
+
