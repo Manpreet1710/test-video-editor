@@ -180,7 +180,10 @@
      {
       "name":"Contact Us",
       "url":"/contact"
-        
+     },
+     {
+      "name":"Disclaimer",
+      "url":"/disclaimer"
      }
    ]
  }
