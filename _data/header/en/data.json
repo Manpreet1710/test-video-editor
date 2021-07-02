@@ -5,133 +5,129 @@
     "nav-link-name": "Tools",
     "dropdown": [
       {
-     "categoryName":"MP4 Tools",
-     "links": [
-        {
-          "name": "Crop MP4",
-          "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
-          "url": "/crop-mp4",
-          "hover": "blue"
-        },
-        {
-          "name": "Edit MP4",
-          "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
-          "url": "/edit-mp4-video",
-          "hover": "blue"
-        },
-        {
-          "name": "Edit MP4 video",
-          "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-          "url": "/edit-mp4-video",
-          "hover": "blue"
-        },
-        {
-          "name": "MP4 compressor",
-          "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
-          "url": "/mp4-compressor",
-          "hover": "blue"
-        },{
-          "name": "MP4 Cutter",
-          "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
-          "url": "/mp4-cutter",
-          "hover": "blue"
-        },
-        {
-          "name": "MP4 trimmer",
-          "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
-          "url": "/mp4-trimmer",
-          "hover": "blue"
-        }
-        
-      
-        
-    
-      ]
-     
-    },
-    {
-      "categoryName":"Compress",
-      "links":[
-        {
-          "name": "MOV compressor",
-          "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
-          "url": "/mov-compressor",
-          "hover": "blue"
-        },
-        {
-          "name": "MP4 compressor",
-          "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
-          "url": "/mp4-compressor",
-          "hover": "blue"
-        },
-        {
-          "name": "Video compressor",
-          "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
-          "url": "/video-compressor",
-          "hover": "blue"
-        }
-      ]
-    },
-    {
-      "categoryName":"Video Tools",
-      "links":[
-        {
-          "name": "Crop video",
-          "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
-          "url": "/crop-video",
-          "hover": "blue"
-        },
-        {
-          "name": "Resize video",
-          "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
-          "url": "/resize-video",
-          "hover": "blue"
-        },
-        {
-          "name": "Rotate video",
-          "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
-          "url": "/rotate-video",
-          "hover": "blue"
-        },
-        
-        {
-          "name": "Flip video",
-          "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
-          "url": "/flip-video",
-          "hover": "blue"
-        },
-        {
-          "name": "video-cutter",
-          "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
-          "url": "/video-cutter",
-          "hover": "blue"
-        },
-        {
-          "name": "Video splitter",
-          "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
-          "url": "video-splitter",
-          "hover": "blue"
-        },
-        {
-          "name": "Video trimmer",
-          "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
-          "url": "/video-trimmer",
-          "hover": "blue"
-        }]
-    },
-    {
-      "categoryName":"Extract Audio",
-      "links":[
-        
-        {
-          "name": "Extract audio",
-          "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
-          "url": "/extract-audio",
-          "hover": "blue"
-        }
-      ]
-    }
-    ]},
+        "categoryName": "MP4 Tools",
+        "links": [
+          {
+            "name": "Crop MP4",
+            "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/crop-mp4",
+            "hover": "blue"
+          },
+          {
+            "name": "Edit MP4",
+            "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+            "url": "/edit-mp4-video",
+            "hover": "blue"
+          },
+          {
+            "name": "Edit MP4 video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+            "url": "/edit-mp4-video",
+            "hover": "blue"
+          },
+          {
+            "name": "MP4 compressor",
+            "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+            "url": "/mp4-compressor",
+            "hover": "blue"
+          },
+          {
+            "name": "MP4 Cutter",
+            "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+            "url": "/mp4-cutter",
+            "hover": "blue"
+          },
+          {
+            "name": "MP4 trimmer",
+            "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/mp4-trimmer",
+            "hover": "blue"
+          }
+        ]
+      },
+      {
+        "categoryName": "Compress",
+        "links": [
+          {
+            "name": "MOV compressor",
+            "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+            "url": "/mov-compressor",
+            "hover": "blue"
+          },
+          {
+            "name": "MP4 compressor",
+            "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+            "url": "/mp4-compressor",
+            "hover": "blue"
+          },
+          {
+            "name": "Video compressor",
+            "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+            "url": "/video-compressor",
+            "hover": "blue"
+          }
+        ]
+      },
+      {
+        "categoryName": "Video Tools",
+        "links": [
+          {
+            "name": "Crop video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+            "url": "/crop-video",
+            "hover": "blue"
+          },
+          {
+            "name": "Resize video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+            "url": "/resize-video",
+            "hover": "blue"
+          },
+          {
+            "name": "Rotate video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+            "url": "/rotate-video",
+            "hover": "blue"
+          },
+          {
+            "name": "Flip video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+            "url": "/flip-video",
+            "hover": "blue"
+          },
+          {
+            "name": "video-cutter",
+            "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+            "url": "/video-cutter",
+            "hover": "blue"
+          },
+          {
+            "name": "Video splitter",
+            "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "video-splitter",
+            "hover": "blue"
+          },
+          {
+            "name": "Video trimmer",
+            "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+            "url": "/video-trimmer",
+            "hover": "blue"
+          }
+        ]
+      },
+      {
+        "categoryName": "Extract Audio",
+        "links": [
+          {
+            "name": "Extract audio",
+            "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/extract-audio",
+            "hover": "blue"
+          }
+        ]
+      }
+    ]
+  },
   "navItems": [
     {
       "name": "Blog",
