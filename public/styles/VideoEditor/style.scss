@@ -1362,6 +1362,12 @@ input:checked + .slider:before {
   font-size: 17px;
   font-weight: 800;
 }
+.boxes svg,
+#dropbox svg,
+#filepicker svg {
+  height: 24px !important;
+  width: 24px !important;
+}
 .file-pick-dropdown {
   display: inline-flex;
   background: #fff;
@@ -1377,7 +1383,7 @@ input:checked + .slider:before {
   margin: 0;
 }
 .file-picker-dropdown {
-  width: 220px;
+  width: 222px;
   position: absolute;
   background: #fff;
   top: 111%;

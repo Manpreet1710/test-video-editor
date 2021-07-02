@@ -18,14 +18,9 @@ const getFile = (file) => {
   get_video_source_from_input(input)
 }
 const showLoader = () => {
-  // document.querySelector('#inputbox').style.display = 'none'
-  // var loaderbox = document.createElement('div')
-  // loaderbox.id = 'loader-box'
-  // var mainDiv = document.querySelector('#loaderDiv .col')
-  // mainDiv.insertBefore(loaderbox, mainDiv.childNodes[1])
-  // document.querySelector('#loader').innerHTML = '<p id="loadingMessage"></p>'
-  // document.querySelector('#loadingMessage').innerHTML =
-  //   'Please Wait ,Loading Your file '
+  LandingText.innerText = 'Please wait,processing your video'
+  Spinner.style.display = 'inherit'
+  UploadButton.style.display = 'none'
 }
 const closeLoader = () => {}
 const mimeTypes = 'video/mp4,video/mov,video/ogg,video/webm'
@@ -273,10 +268,10 @@ var EditLandingText = (URL) => {
     // ButtonLabel.innerText = 'UPLOAD MP4'
   } else if (URL.indexOf('mov') != -1) {
     LandingText.innerText = 'or drop your mov file here'
-    ButtonLabel.innerText = 'UPLOAD MOV'
+    // ButtonLabel.innerText = 'UPLOAD MOV'
   } else {
     LandingText.innerText = 'or drop your video file here'
-    ButtonLabel.innerText = 'UPLOAD VIDEO'
+    // ButtonLabel.innerText = 'UPLOAD VIDEO'
   }
 }
 var CurrentURL = window.location.href

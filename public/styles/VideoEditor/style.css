@@ -2243,6 +2243,13 @@ input {
   font-weight: 800;
 }
 
+.boxes svg,
+#dropbox svg,
+#filepicker svg {
+  height: 24px !important;
+  width: 24px !important;
+}
+
 .file-pick-dropdown {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2264,7 +2271,7 @@ input {
 }
 
 .file-picker-dropdown {
-  width: 220px;
+  width: 222px;
   position: absolute;
   background: #fff;
   top: 111%;
