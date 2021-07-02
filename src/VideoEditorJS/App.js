@@ -13,8 +13,6 @@ const getFile = (file) => {
   console.stdlog(file)
   console.stdlog(input)
   console.stdlog(input.files[0])
-
-  // onFileDrop(file)
   get_video_source_from_input(input)
 }
 const showLoader = () => {
@@ -32,14 +30,9 @@ gdrive.addEventListener(
   }
 )
 const getDropBoxFile = (file) => {
-  // onFileDrop(file)
   const input = {
     files: [file],
   }
-  console.stdlog(file)
-  console.stdlog(input)
-  console.stdlog(input.files[0])
-  // onFileDrop(file)
   get_video_source_from_input(input)
 }
 const dropbox = document.getElementById('dropbox')

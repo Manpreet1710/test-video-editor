@@ -10,6 +10,46 @@ var InputButtonContainer = document.querySelector('.Button')
 var ActualSourceurl = null
 var sourceBuffer = null
 var FileName = document.querySelector('.VideoFile h4')
+const gdrive = document.querySelector('#filepicker')
+const getFile = (file) => {
+  const input = {
+    files: [file],
+  }
+  console.stdlog(file)
+  console.stdlog(input)
+  console.stdlog(input.files[0])
+  get_video_source_from_input(input)
+}
+const showLoader = () => {
+  LandingText.innerText = 'Please wait,processing your video'
+  Spinner.style.display = 'inherit'
+  UploadButton.style.display = 'none'
+}
+const closeLoader = () => {}
+const mimeTypes = 'video/mp4,video/mov,video/ogg,video/webm'
+const filemimes = ['.mp4', '.mov', '.ogg', '.webm']
+gdrive.addEventListener(
+  'click',
+  (getFile, mimeTypes, showLoader, closeLoader) => {
+    const data = loadPicker()
+  }
+)
+const getDropBoxFile = (file) => {
+  const input = {
+    files: [file],
+  }
+  console.stdlog(file)
+  console.stdlog(input)
+  console.stdlog(input.files[0])
+  get_video_source_from_input(input)
+}
+const dropbox = document.getElementById('dropbox')
+dropbox.addEventListener(
+  'click',
+  async (getDropBoxFile, showLoader, closeLoader) => {
+    const getFile = chooseFromDropbox()
+  }
+)
 var settings = {
   outputFormat: 'mp3',
   audioQuality: 'default',
@@ -158,3 +198,21 @@ const initateDownload = async () => {
     }
   }, 2000)
 }
+
+const showDropDown = document.querySelector('.file-pick-dropdown')
+const icon = document.querySelector('.arrow-sign')
+const dropDown = document.querySelector('.file-picker-dropdown')
+showDropDown.addEventListener('click', (e) => {
+  e.preventDefault()
+  e.stopPropagation()
+  addScripts()
+  if (dropDown.style.display !== 'none') {
+    dropDown.style.display = 'none'
+    icon.classList.remove('fa-angle-up')
+    icon.classList.add('fa-angle-down')
+  } else {
+    dropDown.style.display = 'block'
+    icon.classList.remove('fa-angle-down')
+    icon.classList.add('fa-angle-up')
+  }
+})
