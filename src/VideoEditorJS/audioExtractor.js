@@ -15,9 +15,6 @@ const getFile = (file) => {
   const input = {
     files: [file],
   }
-  console.stdlog(file)
-  console.stdlog(input)
-  console.stdlog(input.files[0])
   get_video_source_from_input(input)
 }
 const showLoader = () => {
@@ -194,9 +191,9 @@ const initateDownload = async () => {
     if (lang === 'en') {
       window.location.href = `/download?tool=${pageTool}`
     } else {
-      window.location.href = `/download/${lang}?tool=${pageTool}`
+      window.location.href = `/${lang}/download?tool=${pageTool}`
     }
-  }, 2000)
+  }, 500)
 }
 
 const showDropDown = document.querySelector('.file-pick-dropdown')

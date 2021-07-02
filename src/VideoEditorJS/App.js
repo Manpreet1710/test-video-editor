@@ -10,9 +10,6 @@ const getFile = (file) => {
   const input = {
     files: [file],
   }
-  console.stdlog(file)
-  console.stdlog(input)
-  console.stdlog(input.files[0])
   get_video_source_from_input(input)
 }
 const showLoader = () => {
@@ -59,9 +56,9 @@ let handleDownload = (src) => {
     if (lang === 'en') {
       window.location.href = `/download?tool=${pageTool}`
     } else {
-      window.location.href = `/download/${lang}?tool=${pageTool}`
+      window.location.href = `/${lang}/download?tool=${pageTool}`
     }
-  }, 1500)
+  }, 500)
 }
 var Show_or_Hide_CancelProgressOverlay = (params) => {
   if (params == 'open') {
