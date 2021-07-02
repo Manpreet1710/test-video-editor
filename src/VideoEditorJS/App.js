@@ -10,6 +10,10 @@ const getFile = (file) => {
   const input = {
     files: [file],
   }
+  console.stdlog(file)
+  console.stdlog(input)
+  console.stdlog(input.files[0])
+
   // onFileDrop(file)
   get_video_source_from_input(input)
 }
@@ -37,6 +41,9 @@ const getDropBoxFile = (file) => {
   const input = {
     files: [file],
   }
+  console.stdlog(file)
+  console.stdlog(input)
+  console.stdlog(input.files[0])
   // onFileDrop(file)
   get_video_source_from_input(input)
 }
