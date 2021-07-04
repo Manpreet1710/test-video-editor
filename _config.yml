@@ -19,6 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Safevideokit
 email: marketing@safevideokit.com 
+showusps: true
+safeui: true
+pwa: true
+developerKey: AIzaSyDr30lsukCywJXYYPSn5prs6FwvmgqQkxg
+clientId: 762288849553-00jgfop7e3qqhabi7s7culrbc8ntohrs.apps.googleusercontent.com
+appId: 762288849553
+dropboxapikey: ctioixo2vm18z7u
 description: >- # this means to ignore newlines until "baseurl:"
   Safevideokit.com is a game changing website for people who are in need to edit their videos.
   Safevideokit.com offers free online video editing services that does your job in no time.
@@ -30,6 +37,7 @@ github_username:  jekyll
 siteurl: https://safevideokit.com
 alternateName: safevideokit
 logo: /assets/safevideokit.svg
+pwalogo: /assets/safevideokit.svg
 
 permalink: /blog/:title
 paginate: '12'

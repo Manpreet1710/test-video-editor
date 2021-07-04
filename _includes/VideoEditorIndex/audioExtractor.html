@@ -20,13 +20,32 @@
             
         </div>
         <label class="Button" for="files" >      
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg enable-background="new 0 0 55.125 55.125" version="1.1" viewBox="0 0 55.125 55.125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+            
+            <div class="m-auto ">
+                <svg class='video-svg mb-4' enable-background="new 0 0 55.125 55.125" version="1.1" viewBox="0 0 55.125 55.125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
                     <path fill="white" d="m4.167 47.007h46.792c2.302 0 4.167-1.866 4.167-4.167v-30.555c0-2.301-1.865-4.167-4.167-4.167h-46.792c-2.301 0-4.167 1.866-4.167 4.167v30.555c0 2.301 1.866 4.167 4.167 4.167zm26.604-2.925h-6.418v-3.965h6.418v3.965zm15.294-32.944h6.418v3.965h-6.418v-3.965zm-0.19 28.979h6.419v3.965h-6.419v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965zm-10.571-28.979h6.418v3.965h-6.418v-3.965zm-1.8 9.579 9.639 4.82c2.237 1.119 2.237 2.933 0 4.051l-9.639 4.821c-2.237 1.118-4.052-3e-3 -4.052-2.506v-8.681c-1e-3 -2.502 1.814-3.623 4.052-2.505zm-8.961-9.579h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.418v3.965h-6.418v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965z" fill="#fff"/>
             </svg>
-
-            <label for="files" id="ButtonLabel" class="InputButton">Extract audio</label>
-            <input id="files" style="visibility:hidden;" type="file" onchange="get_video_source_from_input(this)">
+                <div class=" d-flex justify-content-center align-items-center ">
+                  <div id="ButtonLabel" class="InputButton"  class="boxes"> <svg  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M14.0036 1.99646L17.0036 4.99646L16.999 4.99946L17 5.00001V13H16V5.99946L13 6.00001V2.99946H4V17.9995L12.0275 18.0003C12.0093 17.8361 12 17.6691 12 17.5C12 15.0147 14.0147 13 16.5 13C18.9853 13 21 15.0147 21 17.5C21 19.9853 18.9853 22 16.5 22C14.5409 22 12.8742 20.7481 12.2563 19.0007L3 19V2.00001H14L14.0036 1.99646ZM16.5 14C14.567 14 13 15.567 13 17.5C13 19.433 14.567 21 16.5 21C18.433 21 20 19.433 20 17.5C20 15.567 18.433 14 16.5 14ZM17 15V16.9995L19 17V18L17 17.9995V20H16V17.9995L14 18V17L16 16.9995V15H17ZM11 14V15H6V14H11ZM14 11V12H6V11H14ZM14 8.00001V9.00001H6V8.00001H14ZM14 3.40746V4.99946H15.592L14 3.40746Z"></path></svg> <span class='ml-2' >CHOOSE FILE</span>  </div>
+                  <div class="file-pick-dropdown">
+                    <i class="fas fa-angle-down arrow-sign "></i>
+                    <div class="file-picker-dropdown" style="display: none;">
+                      <button id="dropbox"> <svg viewBox="0 0 24 24" fill="#0061FF" xmlns="http://www.w3.org/2000/svg">
+                          <path id="icon"
+                            d="M12.0146 6.57367L6.50732 10.1473L12.0146 13.721L6.50732 17.2947L1 13.6912L6.50732 10.1176L1 6.57367L6.50732 3L12.0146 6.57367ZM6.47803 18.4263L11.9854 14.8527L17.4927 18.4263L11.9854 22L6.47803 18.4263ZM12.0146 13.6912L17.522 10.1176L12.0146 6.57367L17.4927 3L23 6.57367L17.4927 10.1473L23 13.721L17.4927 17.2947L12.0146 13.6912Z">
+                          </path>
+                        </svg> From Dropbox</button>
+                      <button id='filepicker'> <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path id="Path" d="M8.33331 3H15.6666L23 15H15.6666L8.33331 3Z" fill="#FFC107"></path>
+                          <path id="Path_2" d="M4.6012 21L8.30086 15H23L19.3333 21H4.6012Z" fill="#1976D2"></path>
+                          <path id="Path_3" d="M1 15.0625L4.60119 21L12 9L8.33333 3L1 15.0625Z" fill="#4CAF50"></path>
+                        </svg>  From Google Drive</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- <label for="files" id="ButtonLabel" class="InputButton"></label> -->
+            <input id="files" style="visibility:hidden;" type="file" onchange="get_video_source_from_input(this)" accept=".mp4,.mov,.ogg,.webm">
         </label>
         <div class="Landingtext">or drop your video file here</div>
         <div class="Spinner">
@@ -118,7 +137,7 @@
         </div>
         
     </div>
-
+    <script src="/assets/js/googledrive.js"></script>
 <script src="./src/ffmpeg.min.js"></script>
 <script src="./src/VideoEditorJS/audioExtractor.js"></script>
     

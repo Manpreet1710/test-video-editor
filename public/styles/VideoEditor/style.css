@@ -478,7 +478,8 @@
   cursor: pointer;
 }
 
-.VideoEditor .Workspace .FeaturesPanel .LeftPanel .Feature a, .VideoEditor .Workspace .FeaturesPanel .LeftPanel .Feature #Layer_2 {
+.VideoEditor .Workspace .FeaturesPanel .LeftPanel .Feature a,
+.VideoEditor .Workspace .FeaturesPanel .LeftPanel .Feature #Layer_2 {
   width: 20px;
   height: 30px;
   pointer-events: none;
@@ -609,7 +610,9 @@
   position: relative;
 }
 
-.VideoEditor .Workspace .FramesLayer #StartTrim, .VideoEditor .Workspace .FramesLayer #EndTrim, .VideoEditor .Workspace .FramesLayer #SeekTrim {
+.VideoEditor .Workspace .FramesLayer #StartTrim,
+.VideoEditor .Workspace .FramesLayer #EndTrim,
+.VideoEditor .Workspace .FramesLayer #SeekTrim {
   width: 10px;
   height: 60px;
   background: white;
@@ -618,7 +621,15 @@
   z-index: 1;
 }
 
-.VideoEditor .Workspace .FramesLayer #StartTrim .StartValue, .VideoEditor .Workspace .FramesLayer #StartTrim .EndValue, .VideoEditor .Workspace .FramesLayer #StartTrim .SeekValue, .VideoEditor .Workspace .FramesLayer #EndTrim .StartValue, .VideoEditor .Workspace .FramesLayer #EndTrim .EndValue, .VideoEditor .Workspace .FramesLayer #EndTrim .SeekValue, .VideoEditor .Workspace .FramesLayer #SeekTrim .StartValue, .VideoEditor .Workspace .FramesLayer #SeekTrim .EndValue, .VideoEditor .Workspace .FramesLayer #SeekTrim .SeekValue {
+.VideoEditor .Workspace .FramesLayer #StartTrim .StartValue,
+.VideoEditor .Workspace .FramesLayer #StartTrim .EndValue,
+.VideoEditor .Workspace .FramesLayer #StartTrim .SeekValue,
+.VideoEditor .Workspace .FramesLayer #EndTrim .StartValue,
+.VideoEditor .Workspace .FramesLayer #EndTrim .EndValue,
+.VideoEditor .Workspace .FramesLayer #EndTrim .SeekValue,
+.VideoEditor .Workspace .FramesLayer #SeekTrim .StartValue,
+.VideoEditor .Workspace .FramesLayer #SeekTrim .EndValue,
+.VideoEditor .Workspace .FramesLayer #SeekTrim .SeekValue {
   width: 100px;
   height: 15px;
   font-size: 12px;
@@ -645,7 +656,9 @@
           transform: translateX(50%);
 }
 
-.VideoEditor .Workspace .FramesLayer #StartTrim .SeekValue, .VideoEditor .Workspace .FramesLayer #EndTrim .SeekValue, .VideoEditor .Workspace .FramesLayer #SeekTrim .SeekValue {
+.VideoEditor .Workspace .FramesLayer #StartTrim .SeekValue,
+.VideoEditor .Workspace .FramesLayer #EndTrim .SeekValue,
+.VideoEditor .Workspace .FramesLayer #SeekTrim .SeekValue {
   top: 100%;
   bottom: 0;
   background: white;
@@ -813,7 +826,8 @@
   position: relative;
 }
 
-.VideoEditor .Workspace .Settings .DownloadOptions .QuickDownload, .VideoEditor .Workspace .Settings .DownloadOptions .SlowDownload {
+.VideoEditor .Workspace .Settings .DownloadOptions .QuickDownload,
+.VideoEditor .Workspace .Settings .DownloadOptions .SlowDownload {
   width: 200px;
   height: 30px;
   left: 0;
@@ -833,12 +847,14 @@
   display: none;
 }
 
-.VideoEditor .Workspace .Settings .DownloadOptions .QuickDownload:hover, .VideoEditor .Workspace .Settings .DownloadOptions .SlowDownload:hover {
+.VideoEditor .Workspace .Settings .DownloadOptions .QuickDownload:hover,
+.VideoEditor .Workspace .Settings .DownloadOptions .SlowDownload:hover {
   background: #353535;
   color: lightgray;
 }
 
-.VideoEditor .Workspace .Settings .Download, .VideoEditor .Workspace .Settings .TrimVideo {
+.VideoEditor .Workspace .Settings .Download,
+.VideoEditor .Workspace .Settings .TrimVideo {
   width: 100px;
   height: 24px;
   text-align: center;
@@ -864,7 +880,8 @@
   display: none;
 }
 
-.VideoEditor .Workspace .Settings .Download:hover, .VideoEditor .Workspace .Settings .TrimVideo:hover {
+.VideoEditor .Workspace .Settings .Download:hover,
+.VideoEditor .Workspace .Settings .TrimVideo:hover {
   background: #353535;
   color: lightgray;
 }
@@ -972,7 +989,8 @@
   text-align: center;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .done, .VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .cancel {
+.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .done,
+.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .cancel {
   width: 100px;
   height: 40px;
   background: rgba(90, 90, 90, 0.466);
@@ -990,7 +1008,8 @@
   cursor: pointer;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .done:hover, .VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .cancel:hover {
+.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .done:hover,
+.VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .Done_cancel_choice .cancel:hover {
   background: rgba(68, 68, 68, 0.466);
 }
 
@@ -1257,7 +1276,8 @@
   gap: 2px;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft, .VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight {
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft,
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight {
   width: 100px;
   height: 100%;
   display: -webkit-box;
@@ -1277,19 +1297,22 @@
           justify-content: space-evenly;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft svg, .VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight svg {
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft svg,
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight svg {
   width: 22px;
   height: 22px;
   pointer-events: none;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft div, .VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight div {
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft div,
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight div {
   font-size: 14px;
   pointer-events: none;
   color: white;
 }
 
-.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft:hover, .VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight:hover {
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateLeft:hover,
+.VideoEditor .Workspace .Settings .SettingsWrap .RotateSettings .wrapper .RotateRight:hover {
   background: rgba(34, 34, 34, 0.493);
 }
 
@@ -1635,7 +1658,8 @@
   color: white;
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End {
   width: 100px;
   height: 24px;
   display: -webkit-box;
@@ -1650,7 +1674,10 @@
   text-align: center;
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value #inputStart, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value #inputEnd, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value #inputStart, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value #inputEnd {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value #inputStart,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value #inputEnd,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value #inputStart,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value #inputEnd {
   display: none;
   border: none;
   outline: none;
@@ -1662,7 +1689,8 @@
   cursor: pointer;
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss {
   width: 150px;
   height: 40px;
   display: -webkit-box;
@@ -1678,7 +1706,8 @@
   color: rgba(207, 207, 207, 0.466);
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input,
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input {
   width: 40px;
   height: 30px;
   background: rgba(90, 90, 90, 0.466);
@@ -1688,12 +1717,14 @@
   color: white;
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input:nth-child(1), .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input:nth-child(1) {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input:nth-child(1),
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input:nth-child(1) {
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
 
-.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input:nth-last-child(1), .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input:nth-last-child(1) {
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input:nth-last-child(1),
+.VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input:nth-last-child(1) {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -1843,9 +1874,9 @@
   outline: none;
   opacity: 1;
   border: 0.5px solid #353535;
-  -webkit-transition: .2s;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .slidecontainer .slider::before {
@@ -1909,7 +1940,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer;
 }
 
@@ -1917,7 +1948,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer;
 }
 
@@ -1943,17 +1974,17 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #2196F3;
-          box-shadow: 0 0 1px #2196F3;
+  -webkit-box-shadow: 0 0 1px #2196f3;
+          box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -2023,7 +2054,24 @@ input:checked + .slider:before {
   .VideoEditor .Workspace .Settings .FrameSettings .wrapper {
     width: 100%;
   }
-  .VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss input, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss input {
+  .VideoEditor
+.Workspace
+.Settings
+.FrameSettings
+.wrapper
+.Start
+.value
+.hhmmss
+input,
+  .VideoEditor
+.Workspace
+.Settings
+.FrameSettings
+.wrapper
+.End
+.value
+.hhmmss
+input {
     width: 20px;
     height: 20px;
     background: rgba(90, 90, 90, 0.466);
@@ -2033,13 +2081,32 @@ input:checked + .slider:before {
     color: white;
     font-size: 12px;
   }
-  .VideoEditor .Workspace .Settings .FrameSettings .wrapper .Start .value .hhmmss, .VideoEditor .Workspace .Settings .FrameSettings .wrapper .End .value .hhmmss {
+  .VideoEditor
+.Workspace
+.Settings
+.FrameSettings
+.wrapper
+.Start
+.value
+.hhmmss,
+  .VideoEditor
+.Workspace
+.Settings
+.FrameSettings
+.wrapper
+.End
+.value
+.hhmmss {
     width: 70px;
   }
   .VideoEditor .Workspace .Settings .PlayButton {
     background: none;
   }
-  .VideoEditor .Workspace .Settings .FinalSettings .Encoding_and_compression_Settings {
+  .VideoEditor
+.Workspace
+.Settings
+.FinalSettings
+.Encoding_and_compression_Settings {
     width: 30px;
     height: 30px;
     background: none;
@@ -2086,15 +2153,32 @@ input:checked + .slider:before {
     height: 300px;
     right: auto;
   }
-  .VideoEditor .Workspace .Settings .SettingsWrap .CropSettings .AspectRatios .Ratio {
+  .VideoEditor
+.Workspace
+.Settings
+.SettingsWrap
+.CropSettings
+.AspectRatios
+.Ratio {
     width: 50px;
     height: 90%;
     font-size: 12px;
   }
-  .VideoEditor .Workspace .Settings .SettingsWrap .ResolutionSettings .Resolutions {
+  .VideoEditor
+.Workspace
+.Settings
+.SettingsWrap
+.ResolutionSettings
+.Resolutions {
     width: 100%;
   }
-  .VideoEditor .Workspace .Settings .SettingsWrap .ResolutionSettings .Resolutions .Resolution {
+  .VideoEditor
+.Workspace
+.Settings
+.SettingsWrap
+.ResolutionSettings
+.Resolutions
+.Resolution {
     width: 50px;
     height: 90%;
     font-size: 12px;
@@ -2102,7 +2186,13 @@ input:checked + .slider:before {
   .VideoEditor .Workspace .Settings .SettingsWrap .SpeedSettings .Speeds {
     width: 100%;
   }
-  .VideoEditor .Workspace .Settings .SettingsWrap .SpeedSettings .Speeds .Speed {
+  .VideoEditor
+.Workspace
+.Settings
+.SettingsWrap
+.SpeedSettings
+.Speeds
+.Speed {
     width: 50px;
     height: 90%;
     font-size: 12px;
@@ -2111,7 +2201,10 @@ input:checked + .slider:before {
     width: 95%;
     height: 35px;
   }
-  .VideoEditor .Workspace .FramesLayer #StartTrim .StartValue, .VideoEditor .Workspace .FramesLayer #StartTrim .EndValue, .VideoEditor .Workspace .FramesLayer #EndTrim .StartValue, .VideoEditor .Workspace .FramesLayer #EndTrim .EndValue {
+  .VideoEditor .Workspace .FramesLayer #StartTrim .StartValue,
+  .VideoEditor .Workspace .FramesLayer #StartTrim .EndValue,
+  .VideoEditor .Workspace .FramesLayer #EndTrim .StartValue,
+  .VideoEditor .Workspace .FramesLayer #EndTrim .EndValue {
     width: 70px;
     height: 20px;
     font-size: 12px;
@@ -2127,5 +2220,95 @@ input:checked + .slider:before {
     -webkit-transform: scale(2);
             transform: scale(2);
   }
+}
+
+.boxes {
+  background: #fff;
+  border-radius: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 24px;
+  height: 54px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.boxes svg,
+#dropbox svg,
+#filepicker svg {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.file-pick-dropdown {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #fff;
+  height: 54px;
+  border-left: 1px solid rgba(134, 124, 124, 0.15);
+  padding: 13px 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.file-pick-dropdown i {
+  margin: 0;
+}
+
+.file-picker-dropdown {
+  width: 227px;
+  position: absolute;
+  background: #fff;
+  top: 111%;
+  right: 0px;
+  display: none;
+  border-radius: 4px;
+}
+
+.arrow-sign {
+  font-size: 18px;
+}
+
+.file-picker-dropdown svg {
+  height: 24px;
+  width: 24px;
+}
+
+.file-picker-dropdown button,
+.file-picker-dropdown a {
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  text-align: left;
+  background: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 24px;
+  list-style: none;
+  height: 54px;
+}
+
+.file-picker-dropdown button:hover {
+  background: #e9e4e4;
+}
+
+#downloadButton svg {
+  height: 25px;
 }
 /*# sourceMappingURL=style.css.map */
