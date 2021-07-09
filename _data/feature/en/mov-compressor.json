@@ -108,6 +108,9 @@
       "question": "Can I download the file after compressing in any other format?",
       "answer": "MOV Compressor allows you to edit your videos as per your need and requirements providing multiple attributes and functions. You can download the edited video in MOV format only. However, you can use our other websites like MP4 Converter, to finally convert your video in your desired format."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mov"  ]
   }
 

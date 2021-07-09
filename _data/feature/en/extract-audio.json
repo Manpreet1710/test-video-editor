@@ -113,5 +113,14 @@
       "question": "Will my uploaded files be saved on the server?",
       "answer": "All processing is done on your browser, and no files are transferred to the server. Hence your files are 100% safe."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4",
+    "mp3"
+  ],
+  "compare_formats": [
+    "mp4",
+    "mp3"
+  ],
 }

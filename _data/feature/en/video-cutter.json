@@ -112,6 +112,10 @@
       "question": "Will I have to create an account to use Video cutter?",
       "answer": "Our website does not require you to sign up or create an account. The platform is absolutely free and you can compress as many files as you want."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
   }
+
 
