@@ -1,5 +1,20 @@
 const fs = require('fs')
 const axios = require('axios')
+const nodegit = require('nodegit')
+const path = require('path')
+fs.rmdirSync('./_data/files', { recursive: true })
+const url = 'https://github.com/Appscms-com/file-type-data.git',
+  local = './_data/files',
+  cloneOpts = {}
+nodegit
+  .Clone(url, local, cloneOpts)
+  .then(function (repo) {
+    console.log('Cloned ' + path.basename(url) + ' to ' + repo.workdir())
+    fs.rmdirSync('./_data/files/.git', { recursive: true })
+  })
+  .catch(function (err) {
+    console.log(err)
+  })
 const data = fs.readFileSync('./_data/rating/rating.json', {
   encoding: 'utf8',
   flag: 'r',

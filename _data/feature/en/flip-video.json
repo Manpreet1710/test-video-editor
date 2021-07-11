@@ -112,5 +112,9 @@
       "question": "Which Windows versions does Flip Video support?",
       "answer": "Flip video is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on Windows operating system but can work on any other operating system, that supports a browser."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
   }
+

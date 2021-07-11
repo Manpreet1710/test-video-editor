@@ -112,6 +112,10 @@
       "question": "I refreshed the browser by mistake. What do I do?",
       "answer": "Since our website does not use any servers and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to resize it."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
   }
+
 

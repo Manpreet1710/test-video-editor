@@ -104,5 +104,9 @@
       "question": "How can I crop multiple videos?",
       "answer": "Crop video allows you to crop multiple files, one after the other. When you crop one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it you can download the cropped file. In order to crop another video, you only need to refresh the browser and you will see the upload video option. Now you can again select your file which you want to crop."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
   }
+

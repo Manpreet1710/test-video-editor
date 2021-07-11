@@ -112,5 +112,8 @@
       "question": "Will the quality of my videos decrease after cropping?",
       "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     }
-  ]
-}
+  ],  
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
+  }

@@ -112,6 +112,10 @@
       "question": "Can I extract audio from my video files on this platform?",
       "answer": "MP4 editor doesn't have an option where you can extract audio from your files. You can use the Extract Audio feature on safevideokit.com to extract audio from your files."
     }
-  ]
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ]
   }
+
 
