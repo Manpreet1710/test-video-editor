@@ -42,21 +42,16 @@ It also does not compromise with the quality of the final bass boosted audio. Yo
 
 Here is a quick and simple guide on how to cut audio out of a video using our tool.
 
-Go to the main [safevideokit.com](https://safevideokit.com/) website. You will find a large variety of tools here.
+* Go to the main [safevideokit.com](https://safevideokit.com/) website. You will find a large variety of tools here.
 
-![extract audio sound cutter](/uploads/26b78987-b123-4783-960b-2bbc47460410.jpg)
+  ![extract audio sound cutter](/uploads/26b78987-b123-4783-960b-2bbc47460410.jpg)
+* Scroll down to find the Extract Audio tool. Here is direct [URL](https://safevideokit.com/extract-audio) for your convenience.
+* Now, click on the Choose File button.
 
-Scroll down to find the Extract Audio tool. Here is direct [URL](https://safevideokit.com/extract-audio) for your convenience.
-
-Now, click on the Choose File button.
-
-![choose file to cut audio](/uploads/44337582-ca58-49be-8f5b-ec20f40f59de.jpg)
-
-You can now browse your device storage. Select the video file that you want cut sound from. It will take a few seconds for the site to process and upload the file to its interface.
-
-Once the uploading is over, you select your format and quality of your output audio file.
-
-Now click the Extract Audio button to your right. This will save the audio file in your device. You will find it in the Downloads section of your device storage.
+  ![choose file to cut audio](/uploads/44337582-ca58-49be-8f5b-ec20f40f59de.jpg)
+* You can now browse your device storage. Select the video file that you want cut sound from. It will take a few seconds for the site to process and upload the file to its interface.
+* Once the uploading is over, you select your format and quality of your output audio file.
+* Now click the Extract Audio button to your right. This will save the audio file in your device. You will find it in the Downloads section of your device storage.
 
 ![extract audio](/uploads/d19642fd-bcc2-4cfb-beee-45291ecf4f2e.jpg)
 
