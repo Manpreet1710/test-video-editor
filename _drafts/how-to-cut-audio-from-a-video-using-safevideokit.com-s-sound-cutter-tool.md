@@ -17,6 +17,8 @@ Often, we come across a video whose audio might particularly engage us. You migh
 
 There are several third-party applications on the internet that you can install to do this job. However, if you are looking for a quick and easy technique, you can totally rely on online sound cutters to cut audio from video files.
 
+![safevideokit.com](/uploads/6aaff611-cf3a-4fac-a2ba-98b66753d148.jpg)
+
 [Safevideokit.com](https://safevideokit.com/) has an excellent Extract Audio tool that lets you cut sound component from videos easily. It is free and completely browser based. Hence, you can use it one any device.
 
 ## About our Extract Audio tool
@@ -42,15 +44,21 @@ Here is a quick and simple guide on how to cut audio out of a video using our to
 
 Go to the main [safevideokit.com](https://safevideokit.com/) website. You will find a large variety of tools here.
 
+![extract audio sound cutter](/uploads/26b78987-b123-4783-960b-2bbc47460410.jpg)
+
 Scroll down to find the Extract Audio tool. Here is direct [URL](https://safevideokit.com/extract-audio) for your convenience.
 
 Now, click on the Choose File button.
+
+![choose file to cut audio](/uploads/44337582-ca58-49be-8f5b-ec20f40f59de.jpg)
 
 You can now browse your device storage. Select the video file that you want cut sound from. It will take a few seconds for the site to process and upload the file to its interface.
 
 Once the uploading is over, you select your format and quality of your output audio file.
 
 Now click the Extract Audio button to your right. This will save the audio file in your device. You will find it in the Downloads section of your device storage.
+
+![extract audio](/uploads/d19642fd-bcc2-4cfb-beee-45291ecf4f2e.jpg)
 
 Any audio file needs a clear and crisp tone to please your senses. So, what you need is a dedicated sound cutter tool that does not compromise with quality. It must effortlessly cut audio from video while also improving your overall experience.
 
