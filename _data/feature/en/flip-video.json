@@ -56,7 +56,7 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to flip your video",
     "steps": [
-      "Choose your video file",
+      "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Select the flip option of your choice",
       "Click on save to download your video",
@@ -115,6 +115,9 @@
   ],
   "filelang": "en",
   "display_formats": [
-    "mp4","mov","ogg","webm"  ]
-  }
-
+    "mp4",
+    "mov",
+    "ogg",
+    "webm"
+  ]
+}
