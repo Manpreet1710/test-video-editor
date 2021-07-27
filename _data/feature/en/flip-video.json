@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
+    {
       "question": "Can I use both flip X and flip Y simultaneously?",
       "answer": "Yes, Flip video allows you to flip your windows in multiple ways, and you can use both Flip X and Flip Y, multiple times, until your video has been flipped to your liking."
     },
