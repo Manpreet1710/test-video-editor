@@ -56,13 +56,13 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to crop your MP4",
     "steps": [
-      "Choose your MP4 video file",
+      "Choose your MP4 video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Choose your crop aspect ratio or manually create your crop ratio",
       "Click on save to download your cropped MP4 file",
       "Hurray! Enjoy our services"
-      ]
-    },
+    ]
+  },
   "FAQ": [
     {
       "question": "What are the available aspect ratios while cropping?",
@@ -112,8 +112,12 @@
       "question": "Will the quality of my videos decrease after cropping?",
       "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     }
-  ],  
+  ],
   "filelang": "en",
   "display_formats": [
-    "mp4","mov","ogg","webm"  ]
-  }
+    "mp4",
+    "mov",
+    "ogg",
+    "webm"
+  ]
+}
