@@ -56,15 +56,23 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to extract audio from your vidoes",
     "steps": [
-      "Choose your video file",
+      "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Select the audio file format",
       "Select the audio quality",
       "Click on Extract Audio to download your file",
       "Hurray! Enjoy our services"
-      ]
+    ]
   },
   "FAQ": [
+    {
+      "question": "Is it safe to allow access to my drive?",
+      "answer": "Yes, it is absolutely safe to allow and give us access to your drive. We won't be making any changes to your site and your dfiles will be safe with you."
+    },
+    {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
     {
       "question": "What are the available audio formats in which in can extract my audio?",
       "answer": "Extract Audio provides you multiple options of different audio file formats in which you can download your extracted audio. The file formats available are MP3, ACC, Ogg, WAV, FLAC, and AIFF."
