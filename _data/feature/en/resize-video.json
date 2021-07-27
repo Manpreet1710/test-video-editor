@@ -65,6 +65,10 @@
   },
   "FAQ": [
     {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
+    {
       "question": "What is meant by resizing the video?",
       "answer": "Resizing the video means changing the file size of your video. Suppose you have a file that is 10 MB, and you want it to be less than 5 MB, or vice versa, you can resize your video. Do to this, you can change the resolution of the video. "
     },
