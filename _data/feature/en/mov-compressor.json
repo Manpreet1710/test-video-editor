@@ -56,7 +56,7 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to compress your MOV",
     "steps": [
-      "Choose your video file",
+      "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Choose your compression settings, the CRF value and the encoding speed",
       "Click on save to download your video",
@@ -111,6 +111,6 @@
   ],
   "filelang": "en",
   "display_formats": [
-    "mov"  ]
-  }
-
+    "mov"
+  ]
+}
