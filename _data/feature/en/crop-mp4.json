@@ -56,14 +56,22 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to crop your MP4",
     "steps": [
-      "Choose your MP4 video file",
+      "Choose your MP4 video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Choose your crop aspect ratio or manually create your crop ratio",
       "Click on save to download your cropped MP4 file",
       "Hurray! Enjoy our services"
-      ]
-    },
+    ]
+  },
   "FAQ": [
+    {
+      "question": "Is it safe to allow access to my drive?",
+      "answer": "Yes, it is absolutely safe to allow and give us access to your drive. We won't be making any changes to your site and your dfiles will be safe with you."
+    },
+    {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
     {
       "question": "What are the available aspect ratios while cropping?",
       "answer": "Crop MP4 allows you to crop your videos into multiple aspect ratios i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, 3:4(portrait). You can even keep the original ratio of your video and make changes according to your requirement if you don't want these standard aspect ratios.\nCrop MP4 allows you to crop the video as per your need. You only need to drag and adjust the box and move it to the area which you want to keep. Crop MP4 makes cropping videos very easy."
@@ -112,7 +120,7 @@
       "question": "Will the quality of my videos decrease after cropping?",
       "answer": "Crop MP4 allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution and the file size will be bigger. But if you care about the size of the file and can compromise in the size then choose a lesser resolution.\nCrop MP4 also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
     }
-  ],  
+  ],
   "filelang": "en",
   "display_formats": [
     "mp4"],

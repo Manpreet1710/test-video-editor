@@ -56,7 +56,7 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to compress your MP4",
     "steps": [
-      "Choose your video file",
+      "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets loaded",
       "Choose your compression settings appropriately",
       "Click save to download your video",
@@ -64,6 +64,14 @@
     ]
   },
   "FAQ": [
+    {
+      "question": "Is it safe to allow access to my drive?",
+      "answer": "Yes, it is absolutely safe to allow and give us access to your drive. We won't be making any changes to your site and your dfiles will be safe with you."
+    },
+    {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
     {
       "question": "Can I compress my videos using MP4 Compressor?",
       "answer": "MP4 Compressor allows you to compress MP4 video files. For other file formats like MOV, you can choose our MOV Compressor. You only have to upload your video, select the encoding speed and CRF value and click on save Your file will be compressed as per your desired size."
@@ -115,6 +123,5 @@
     "compare_formats": [
       "mp4"  ]
   }
-
 
 

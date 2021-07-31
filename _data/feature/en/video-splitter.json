@@ -56,7 +56,7 @@
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to split your video",
     "steps": [
-      "Choose your video file",
+      "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
       "Wait patiently till the video gets uploaded",
       "Choose the appropriate split settings",
       "Click on save to download your video",
@@ -64,6 +64,14 @@
     ]
   },
   "FAQ": [
+    {
+      "question": "Is it safe to allow access to my drive?",
+      "answer": "Yes, it is absolutely safe to allow and give us access to your drive. We won't be making any changes to your site and your dfiles will be safe with you."
+    },
+    {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+    },
     {
       "question": "Will the quality of my video decrease after splitting it?",
       "answer": "Until and unless you change the resolution of your file, it won't affect the quality of your Video file. The quality of your video will remain intact, only the size or the length will be changed."
@@ -119,4 +127,5 @@
     "compare_formats": [
       "mp4","mov","ogg","webm"  ]
   }
+
 
