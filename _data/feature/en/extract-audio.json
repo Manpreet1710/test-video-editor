@@ -123,8 +123,8 @@
     }
   ],
   "filelang": "en",
-  "compare_formats": [
-    "mp4",
-    "mp3"
-  ]
-}
+  "display_formats": [
+    "mp4","mov","ogg","webm"  ],
+    "compare_formats": [
+      "mp4","mov","ogg","webm"  ]
+  }

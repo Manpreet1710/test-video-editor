@@ -119,6 +119,9 @@
   ],
   "filelang": "en",
   "display_formats": [
-    "mov"
-  ]
-}
+    "mov"  ],
+    "compare_formats": [
+      "mov"  ]
+  }
+
+
