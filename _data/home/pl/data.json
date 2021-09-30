@@ -1,0 +1,135 @@
+{
+    "Language": "Polski",
+    "htmlLangAtt": "pl",
+    "h1": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
+    "h2": "Żadne pliki nie są wysyłane na serwer. 100% bezpieczne.",
+    "title": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
+    "TITLE": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
+    "meta": "Nasze narzędzie do edytora wideo online jest całkowicie bezpłatne i jest łatwe w użyciu. Upewniamy się, że wszystkie Twoje dane są bezpieczne podczas edycji filmu. Obsługujemy szeroką gamę formatów wideo, takich jak mp3, mov, mkv itp.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "Przytnij MP4",
+            "description": "Kadrowanie dowolnego wideo MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/pl/crop-mp4"
+        },
+        {
+            "name": "Przycinanie wideo",
+            "description": "Przytnij dowolny film",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/pl/crop-video"
+        },
+        {
+            "name": "Edytor MP4",
+            "description": "Edytuj dowolne wideo w formacie MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/pl/edit-mp4-video"
+        },
+        {
+            "name": "Odwróć wideo",
+            "description": "Odwróć dowolny film",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/pl/flip-video"
+        },
+        {
+            "name": "Sprężarka MOV",
+            "description": "Kompresuj dowolny film MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/pl/mov-compressor"
+        },
+        {
+            "name": "Sprężarka MP4",
+            "description": "Kompresuj dowolne filmy MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/pl/mp4-compressor"
+        },
+        {
+            "name": "Frez MP4",
+            "description": "Wytnij dowolny film MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/pl/mp4-cutter"
+        },
+        {
+            "name": "edytor wideo",
+            "description": "Edytuj dowolny film",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/pl/video-editor"
+        },
+        {
+            "name": "MP4 przycinarka",
+            "description": "Przycinanie dowolnego wideo MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/pl/mp4-trimmer"
+        },
+        {
+            "name": "Zmiana rozmiaru wideo",
+            "description": "Zmiana rozmiaru dowolnego filmu",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/pl/resize-video"
+        },
+        {
+            "name": "Sprężarka wideo",
+            "description": "Kompresuj dowolny film",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/pl/video-compressor"
+        },
+        {
+            "name": "obcinarka wideo",
+            "description": "Wytnij dowolny film",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/pl/video-cutter"
+        },
+        {
+            "name": "Wirnik wideo",
+            "description": "Obróć dowolny film",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/pl/video-rotater"
+        },
+        {
+            "name": "Rozdzielacz wideo",
+            "description": "Podziel dowolny film",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/pl/video-splitter"
+        },
+        {
+            "name": "Wideo trymer",
+            "description": "Przycinanie dowolnego filmu",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/pl/video-trimmer"
+        },
+        {
+            "name": "Wyodrębnij dźwięk",
+            "description": "Wyodrębnianie dźwięku z wideo",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/pl/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

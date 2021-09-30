@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "MP4 Araçları",
+                "links": [
+                    {
+                        "name": "Kırpma MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/tr/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 Düzenle",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/tr/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 videosunu düzenle",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/tr/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 kompresör",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/tr/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 Kesici",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/tr/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 düzenleyici",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/tr/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Sıkıştır",
+                "links": [
+                    {
+                        "name": "MOV kompresör",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/tr/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 kompresör",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/tr/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video kompresörü",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/tr/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Video Araçları",
+                "links": [
+                    {
+                        "name": "Kırpma videosu",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/tr/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videoyu yeniden boyutlandırma",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/tr/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videoyu döndürme",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/tr/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videoyu çevir",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/tr/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "video kesici",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/tr/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video ayırıcı",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/tr/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video düzenleyici",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/tr/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Ses Ayıklama",
+                "links": [
+                    {
+                        "name": "Ses ayıklama",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/tr/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        }
+    ]
+}

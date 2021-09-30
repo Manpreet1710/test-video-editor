@@ -1,0 +1,127 @@
+{
+    "Language": "Español",
+    "htmlLangAtt": "es",
+    "H1": "Comprimir MP4",
+    "H2": "Comprime tus vídeos MP4 online",
+    "TITLE": "Comprime tus vídeos MP4 online",
+    "META": "La forma más sencilla de comprimir tus vídeos MP4 en línea",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX a PDF",
+    "BREADCRUMB_LABEL": "DOCX A PDF",
+    "color": "#c56cf0",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independiente",
+            "content": "Nuestro sitio web es independiente de la plataforma. Funciona tanto en sistemas operativos Windows como iOS y se puede utiliz/ar/ sin necesidad de desc/ar/gas."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Absolutamente gratis",
+            "content": "La conversión es totalmente gratuita, por lo que puedes convertir tantos /ar/chivos como quieras."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidad y seguridad ",
+            "content": "Nuestro sitio web prioriza la privacidad de sus clientes. Dado que trabajamos con almacenamiento en la nube, tus /ar/chivos no se c/ar/gan. Por lo tanto, no hay posibilidad de que se produzca ninguna violación de datos. ¡Tus datos están seguros con nosotros!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "El proceso de conversión apenas t/ar/da unos segundos, dependiendo del tamaño de tu /ar/chivo, y puedes obtener resultados rápidos fácilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido y eficiente",
+            "content": "La edición de vídeo es muy rápida y puedes hacer tu trabajo en poco tiempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Ahorra tiempo",
+            "content": "Nuestro sitio web es independiente de la plataforma, puede funcion/ar/ en computadoras portátiles, pestañas y teléfonos y la conversión es rápida, ahorra tiempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Cómo comprimir tu MP4",
+        "steps": [
+            "Elige tu /ar/chivo de vídeo o haz clic en la flecha desplegable y selecciona Dropbox/Google Drive",
+            "Espera pacientemente hasta que se c/ar/gue el vídeo",
+            "Elige la configuración de compresión apropiadamente",
+            "Haz clic en gu/ar/d/ar/ p/ar/a desc/ar/g/ar/ tu vídeo",
+            "¡Hurra! Disfruta de nuestros servicios"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "¿Es seguro permitir el acceso a mi unidad?",
+            "answer": "Sí, es absolutamente seguro permitirnos y d/ar/nos acceso a tu unidad. No realiz/ar/emos ningún cambio en tu sitio y tus /ar/chivos est/ar/án seguros contigo."
+        },
+        {
+            "question": "¿Cómo puedo subir /ar/chivos desde mi drive/dropbox?",
+            "answer": "Haz clic en la flecha desplegable y selecciona Dropbox/Google Drive. Selecciona la cuenta de Google desde la que quieres vincul/ar/ tu unidad. Ahora puedes seleccion/ar/ los /ar/chivos que quieres subir."
+        },
+        {
+            "question": "¿Puedo comprimir mis vídeos con MP4 Compressor?",
+            "answer": "MP4 Compressor permite comprimir /ar/chivos de vídeo MP4. P/ar/a otros formatos de /ar/chivo como MOV, puedes elegir nuestro compresor MOV. Solo tienes que subir tu vídeo, seleccion/ar/ la velocidad de codificación y el valor CRF y hacer clic en gu/ar/d/ar/ Tu /ar/chivo se comprimirá según el tamaño deseado."
+        },
+        {
+            "question": "¿Cuánto tiempo t/ar/d/ar/é en subir mi vídeo?",
+            "answer": "El tiempo que t/ar/da en subir el vídeo p/ar/a recort/ar/lo o edit/ar/lo depende del tamaño del vídeo. Los vídeos de mejor calidad con mayor resolución t/ar/d/ar/án más tiempo en c/ar/g/ar/se en comp/ar/ación con los vídeos de baja calidad con menor resolución.\nMP4 Compressor permite comprimir /ar/chivos de vídeo MP4. P/ar/a otros formatos de /ar/chivo como MOV, puedes elegir nuestro compresor MOV. Solo tienes que subir tu vídeo, seleccion/ar/ la velocidad de codificación y el valor CRF y hacer clic en gu/ar/d/ar/ Tu /ar/chivo se comprimirá según el tamaño deseado."
+        },
+        {
+            "question": "¿Qué es el valor CRF?",
+            "answer": "El factor de velocidad constante (CRF) es un modo de codificación que ajusta la velocidad de datos del /ar/chivo hacia /ar/riba o hacia abajo p/ar/a logr/ar/ un nivel de calidad seleccionado en lug/ar/ de una velocidad de datos específica. Los valores del CRF oscilan entre 0 y 51, con números más bajos que ofrecen puntuaciones de calidad más altas."
+        },
+        {
+            "question": "¿La calidad de mis vídeos disminuirá después de comprimirlos?",
+            "answer": "Al comprimir un /ar/chivo, el tamaño del /ar/chivo se reducirá y p/ar/a ello hay que comprometer la calidad. P/ar/a asegur/ar/se de no perder la calidad, MP4 Compressor le permite elegir la calidad del video según sus necesidades. Si quieres vídeo de alta calidad, puedes elegir una resolución más alta y el tamaño del /ar/chivo será mayor. Pero si te importa el tamaño del /ar/chivo y puedes comprometer el tamaño, elige una resolución menor."
+        },
+        {
+            "question": "¿Cuáles son las resoluciones disponibles y cuál será el tamaño del /ar/chivo de diferentes resoluciones?",
+            "answer": "MP4 Compressor proporciona todas las resoluciones estánd/ar/, es decir, 1080p, 720p, 480p, 360p y 240p. Tenga en cuenta que un tamaño de /ar/chivo de mayor resolución será mayor que un /ar/chivo de menor resolución. El tamaño del /ar/chivo también dependerá de la duración del vídeo, la resolución, la relación de aspecto y los valores de CRF."
+        },
+        {
+            "question": "¿Qué son las velocidades de codificación?",
+            "answer": "MP4 Compressor le permite elegir la velocidad de codificación, es decir, la velocidad a la que desea convertir el vídeo y gu/ar/d/ar/lo p/ar/a su desc/ar/ga. Las velocidades de codificación disponibles con MP4 Compressor son ultr/ar/rápidas, superrápidas, muy rápidas, rápidas, medias, lentas, lentas y muy lentas.\nCuanto más lenta sea la velocidad, mejor será la compresión. MP4 Compressor proporciona una amplia gama de velocidades de codificación de acuerdo con las diferentes necesidades de nuestros usu/ar/ios y g/ar/antiza proporcion/ar/ vídeos de la mejor calidad p/ar/a cada edición realizada por el usu/ar/io."
+        },
+        {
+            "question": "¿Me cobr/ar/án por us/ar/ el sitio web?",
+            "answer": "Nuestro sitio web es totalmente gratuito y puedes us/ar/lo tantas veces como quieras. No hay usos de prueba gratuitos, después de lo cual tendrás que pag/ar/ por us/ar/ nuestros servicios. No te cobr/ar/emos nada."
+        },
+        {
+            "question": "¿Tendré que cre/ar/ una cuenta p/ar/a us/ar/ el compresor MP4?",
+            "answer": "Nuestro sitio web no requiere que te registres ni crees una cuenta. La plataforma es totalmente gratuita y puedes comprimir tantos /ar/chivos como quieras."
+        },
+        {
+            "question": "¿Es seguro us/ar/ el compresor MP4?",
+            "answer": "Sí, es 100% seguro us/ar/ un compresor MP4, ya que no gu/ar/damos sus /ar/chivos y no hay anuncios de terceros en el sitio web. Sus datos est/ar/án seguros y protegidos con nosotros. "
+        },
+        {
+            "question": "¿Los /ar/chivos que he subido se gu/ar/d/ar/án en el servidor?",
+            "answer": "Todo el procesamiento se realiza en el navegador y no se transfiere ningún /ar/chivo al servidor. Por lo tanto, tus /ar/chivos son 100% seguros."
+        },
+        {
+            "question": "¿Puedo desc/ar/g/ar/ el /ar/chivo después de comprimirlo en cualquier otro formato?",
+            "answer": "MP4 Compressor te permite edit/ar/ tus vídeos según tus necesidades y requisitos proporcionando múltiples atributos y funciones. Puedes desc/ar/g/ar/ el vídeo editado solo en formato MP4. Sin emb/ar/go, puedes utiliz/ar/ nuestros otros sitios web como MOV Converter, p/ar/a finalmente convertir tu vídeo en el formato deseado."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

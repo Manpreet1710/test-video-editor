@@ -1,0 +1,131 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "MP4-Schneider",
+    "H2": "Schneiden Sie Ihre MP4-Videos online",
+    "TITLE": "Schneiden Sie Ihre MP4-Videos online",
+    "META": "Der einfachste Weg, Ihre MP4-Videos online zu schneiden.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#7d5fff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Einfach zu bedienen",
+            "content": "Unser Videobe/ar/beitungsprozess ist elegant und unkompliziert"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Präzise Ergebnisse",
+            "content": "Die Ergebnisse sind genau und erfüllen daher die Bedürfnisse der Benutzer vollständig."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Plattform übergreifend",
+            "content": "Sie können diese Anwendung ab sofort auf jedem Betriebssystem wie Windows/Mac/Linux/Android/iPhone verwenden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Sicher und vertrauenswürdig",
+            "content": "Es ist kein Server beteiligt und daher ist Ihr Video sicher"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobe/ar/beitung ist sehr schnell und Sie können Ihre /ar/beit in kürzester Zeit erledigen"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Es werden keine Dateien hochgeladen",
+            "content": "Die Anwendung funktioniert vollständig in Ihrem Browser, ohne dass ein Server beteiligt ist. Daher sind Ihre Daten sicher"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "So schneiden Sie Ihr mp4",
+        "steps": [
+            "Wähle deine Videodatei oder klicke auf den Dropdown-Pfeil und wähle Dropbox/Google Drive",
+            "W/ar/te geduldig bis das Video geladen ist",
+            "Stellen Sie die Frames oder die Timeline ein, die aus dem Video herausgeschnitten werden sollen",
+            "Klicke auf „Speichern“, um dein Video herunterzuladen",
+            "Hurra! Geniessen Sie unsere Dienstleistungen"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Ist es sicher, Zugriff auf mein Laufwerk zu gewähren?",
+            "answer": "Ja, es ist absolut sicher, uns Zugriff auf Ihr Laufwerk zu gewähren und zu gewähren. Wir werden keine Änderungen an Ihrer Website vornehmen und Ihre Dateien sind bei Ihnen sicher."
+        },
+        {
+            "question": "Wie kann ich Dateien von meinem Laufwerk/meiner Dropbox hochladen?",
+            "answer": "Klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus. Wählen Sie das Google-Konto aus, von dem aus Sie Ihr Laufwerk verknüpfen möchten. Jetzt können Sie die Dateien auswählen, die Sie hochladen möchten."
+        },
+        {
+            "question": "Kann ich mein Video in MP4 Cutter aufteilen?",
+            "answer": "Ja, Sie können Ihre MP4-Videos sowohl schneiden als auch teilen. Sie können auf die Wiedergabeleiste ziehen oder klicken und auf Speichern klicken. Ihr Video wird gespeichert und kann heruntergeladen werden."
+        },
+        {
+            "question": "Wird die Qualität meines Videos nach dem Schneiden sinken?",
+            "answer": "Solange Sie die Auflösung Ihrer Datei nicht ändern, hat dies keinen Einfluss auf die Qualität Ihrer MP4-Datei. Die Qualität Ihres Videos bleibt erhalten, nur die Größe oder Länge wird geändert."
+        },
+        {
+            "question": "Kann ich einen anderen Dateityp hochladen und schneiden?",
+            "answer": "Mit dem MP4-Cutter können Sie nur MP4-Dateien hochladen und schneiden. Für andere Videotypen können Sie unsere Video Cutter-Funktion verwenden."
+        },
+        {
+            "question": "W/ar/um dauert es so lange, meine Datei zu ver/ar/beiten?",
+            "answer": "Die Zeit, die zum Schneiden und Ver/ar/beiten Ihres Videos gebraucht wird, hängt von der Größe, dem Seitenverhältnis und der Anzahl der von Ihnen durchgeführten Schnitte ab. Wenn Ihre Dateigröße größer ist, dauert es etwas länger als normale Dateien."
+        },
+        {
+            "question": "Welche Windows-Versionen unterstützt MP4 Cutter?",
+            "answer": "MP4 Cutter ist vollständig webbasiert und bietet daher plattformübergreifende Unterstützung. Dies bedeutet, dass unser Tool alle Versionen von Windows unterstützt. Es funktioniert nicht nur unter Windows-Betriebssystem, sondern kann auch auf jedem anderen Betriebssystem /ar/beiten, das einen Browser unterstützt."
+        },
+        {
+            "question": "Unterstützt es sowohl Android- als auch iOS-Plattformen?",
+            "answer": "Ja, unsere Website funktioniert im Browser und unterstützt daher sowohl iOS- als auch Android-Plattformen"
+        },
+        {
+            "question": "Werden meine hochgeladenen Dateien auf dem Server gespeichert?",
+            "answer": "Die gesamte Ver/ar/beitung erfolgt in Ihrem Browser und es werden keine Dateien auf den Server übertragen. Daher sind Ihre Dateien zu 100% sicher."
+        },
+        {
+            "question": "Muss ich ein Konto erstellen, um MP4 Cutter verwenden zu können?",
+            "answer": "Auf unserer Website müssen Sie sich nicht anmelden oder ein Konto erstellen. Die Plattform ist absolut kostenlos und Sie können so viele Dateien komprimieren, wie Sie möchten."
+        },
+        {
+            "question": "Wird mir die Nutzung der Website in Rechnung gestellt?",
+            "answer": "Unsere Website ist absolut kostenlos und Sie können sie so oft verwenden, wie Sie möchten. Es gibt keine kostenlosen Testnutzungen, nach denen Sie für die Nutzung unserer Dienste bezahlen müssen. Wir berechnen dir nichts."
+        },
+        {
+            "question": "Was ist der Unterschied zwischen Schnitt und Split?",
+            "answer": "Durch das Schneiden können Sie Ihr Video von beiden Enden der gesamten Länge des Videos aus schneiden. Sie können Ihr Video entweder vom Anfang oder vom Ende oder von beiden beliebig kürzen.\nWenn Sie ein Video aufteilen, teilen Sie Ihr Video in zwei oder mehr Teile auf. Nachdem Sie Ihr Video geteilt haben, können Sie individuelle Änderungen an Videoteilen vornehmen und das Video als eine Datei speichern."
+        },
+        {
+            "question": "Wie kann ich mehrere Videos schneiden?",
+            "answer": "Mit dem MP4-Cutter können Sie mehrere Dateien nacheinander schneiden. Wenn Sie eine Datei ausschneiden und auf Speichern klicken, wird das Video ver/ar/beitet. Nachdem das Video ver/ar/beitet wurde, können Sie die Download-Option auf dem Bildschirm sehen. Durch Anklicken können Sie die Datei herunterladen. Um ein weiteres Video zu schneiden, müssen Sie nur den Browser aktualisieren und die Option zum Hochladen von MP4 wird angezeigt. Jetzt können Sie erneut Ihre Datei auswählen, die Sie schneiden möchten."
+        },
+        {
+            "question": "Ich habe den Browser versehentlich aktualisiert. Was mache ich?",
+            "answer": "Da unsere Website keine Server verwendet und Ihre Daten nicht speichert, wird die von Ihnen hochgeladene Datei nicht gespeichert. Sie müssen die Datei erneut hochladen, um sie zu schneiden."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Beskær MP4",
+    "H2": "Beskær dine MP4-videoer online",
+    "TITLE": "Beskær dine MP4-videoer online",
+    "META": "Den nemmeste måde at beskære dine MP4-videoer på ingen tid",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#3867d6",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Uafhængige",
+            "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/er tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Sådan beskære du din MP4",
+        "steps": [
+            "Vælg din MP4 videofil eller Klik på rullepilen og vælg Dropbox/Google Drev",
+            "Vent tålmodigt, indtil videoen bliver uploadet",
+            "Vælg dit beskæringsforhold, eller opret dit afgrødeforhold manuelt",
+            "Klik på Gem for at downloade din beskårne MP4-fil",
+            "Hurra! Nyd vores tjenester"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Er det sikkert at give adgang til mit drev?",
+            "answer": "Ja, det er helt sikkert at tillade og give os adgang til dit drev. Vi foretager ingen ændringer på dit websted, og dine dfiles vil være sikre hos dig."
+        },
+        {
+            "question": "Hvordan kan jeg uploade filer fra mit drev/Dropbox?",
+            "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil linke dit drev. Nu kan du vælge de filer, du vil uploade."
+        },
+        {
+            "question": "Hvad er de tilgængelige aspektforhold under beskæring?",
+            "answer": "Beskær MP4 giver dig mulighed for at beskære dine videoer i flere formatforhold, dvs. 1:1 (kvadrat), 16:9 (landskab), 9:16, 4:3, 3:4 (portræt). Du kan endda beholde det oprindelige forhold i din video og foretage ændringer efter dit behov, hvis du ikke ønsker disse stand/ar/dformatforhold.\nBeskær MP4 giver dig mulighed for at beskære videoen efter dit behov. Du behøver kun at trække og justere boksen og flytte den til det område, du vil beholde. Beskær MP4 gør beskæring videoer meget nemt."
+        },
+        {
+            "question": "Bliver jeg opkrævet for at bruge hjemmesiden?",
+            "answer": "Vores hjemmeside er helt gratis, og du kan bruge det så mange gange som du ønsker. Der er ingen gratis prøvebrug, hvorefter du skal betale for at bruge vores tjenester. Vi vil ikke anklage dig noget."
+        },
+        {
+            "question": "Skal jeg oprette en konto for at bruge Crop MP4?",
+            "answer": "Vores hjemmeside kræver ikke, at du tilmelder dig eller opretter en konto. Platformen er helt gratis, og du kan komprimere så mange filer som du vil."
+        },
+        {
+            "question": "Vil mine uploadede filer blive gemt på serveren?",
+            "answer": "Al behandling sker i din browser, og ingen filer overføres til serveren. Derfor er dine filer 100% sikre."
+        },
+        {
+            "question": "Understøtter det både Android- og iOS-platforme?",
+            "answer": "Ja, vores hjemmeside fungerer på browser og understøtter derfor både iOS- og Android-platforme."
+        },
+        {
+            "question": "Hvordan kan jeg beskære flere videoer?",
+            "answer": "Beskær MP4 giver dig mulighed for at beskære flere filer, den ene efter den anden. Når du beskære en fil og klikker på gem, behandles videoen. Når videoen er blevet behandlet, kan du se downloadindstilling på skærmen. Ved at klikke på det kan du downloade den beskårne fil. \nFor at beskære en anden video behøver du kun at opdatere browseren, og du vil se upload MP4 indstilling. Nu kan du igen vælge din fil, som du vil beskære."
+        },
+        {
+            "question": "Er det sikkert at bruge Crop MP4?",
+            "answer": "Crop MP4 er en af de sikreste og mest sikre gratis online værktøjer. Det er helt problemfrit og gør sit /ar/bejde helt godt. Samtidig gemmer den ikke nogen af brugerdataene. "
+        },
+        {
+            "question": "Hvilke Windows-versioner understøtter Crop MP4?",
+            "answer": "Crop MP4 er fuldstændig webbaseret og giver derfor understøttelse på tværs af platforme. Det betyder, at vores værktøj understøtter alle versioner af Windows. Det virker ikke kun på Windows operativsystem, men kan /ar/bejde på ethvert andet operativsystem, der understøtter en browser."
+        },
+        {
+            "question": "Hvor lang tid tager det at uploade min video?",
+            "answer": "Den tid, det tager at uploade din video til beskæring eller redigering, afhænger af størrelsen på din video. Videoer i bedre kvalitet med højere opløsning vil tage længere tid at uploade sammenlignet med videoer i lav kvalitet med mindre opløsning.\nDet afhænger også af den type video, du vil redigere/beskære. Jo større videoens størrelse er, desto længere tager det."
+        },
+        {
+            "question": "Kan jeg ændre størrelsen på mine videoer?",
+            "answer": "Ved at beskære kan du ændre størrelsen på dine videoer til enhver størrelse, du ønsker. Der er stand/ar/dstørrelser til rådighed, som du kan bruge. og hvis du vil have dit eget formatforhold, kan du ændre størrelsen på din video til din smag."
+        },
+        {
+            "question": "Jeg opdaterede browseren ved en fejl. Hvad skal jeg gøre?",
+            "answer": "Da vores hjemmeside ikke bruger nogen servere, og ikke gemmer dine data, vil den fil, du h/ar/ uploadet, ikke blive gemt. Du skal uploade filen igen for at beskære den."
+        },
+        {
+            "question": "Vil kvaliteten af mine videoer falde efter beskæring?",
+            "answer": "Beskær MP4 giver dig mulighed for at vælge kvaliteten af videoen som pr dit krav. Hvis du vil have video af høj kvalitet, kan du vælge en højere opløsning, og filstørrelsen bliver større. Men hvis du bekymrer dig om størrelsen af filen og kan kompromittere i størrelsen, så vælg en mindre opløsning.\nBeskær MP4 giver dig også mulighed for at vælge CRF-værdien, hvilket betyder, at du kan vælge opløsningen og CRF-værdien efter dit behov."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

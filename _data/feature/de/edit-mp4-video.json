@@ -1,0 +1,131 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "MP4 be/ar/beiten",
+    "H2": "Be/ar/beiten Sie Ihre MP4-Videos online",
+    "TITLE": "Be/ar/beiten Sie Ihre MP4-Videos online",
+    "META": "Der einfachste Weg, Ihre MP4-Videos online zu be/ar/beiten.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#4bcffa",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Absolut kostenlos",
+            "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Unabhängig",
+            "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne Download verwendet werden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Datenschutz und Sicherheit ",
+            "content": "Unsere Website legt Wert auf die Privatsphäre ihrer Kunden. Da wir mit Cloud-Speicher /ar/beiten, werden Ihre Dateien nicht hochgeladen. Also keine Chance, einen Datenverstoß zu bekommen. Ihre Daten sind bei uns sicher!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Schnelle Ergebnisse",
+            "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein pa/ar/ Sekunden, und Sie können problemlos schnelle Ergebnisse erzielen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobe/ar/beitung ist sehr schnell und Sie können Ihre /ar/beit in kürzester Zeit erledigen"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/t Zeit",
+            "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen /ar/beiten und die Konvertierung ist schnell und sp/ar/t Zeit."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "So be/ar/beiten Sie Ihre mp4",
+        "steps": [
+            "Wähle deine Videodatei oder klicke auf den Dropdown-Pfeil und wähle Dropbox/Google Drive",
+            "W/ar/te geduldig bis das Video geladen ist",
+            "Wählen Sie die entsprechenden Einstellungen im /ar/beitsbereich",
+            "Klicke auf Speichern um dein Video herunterzuladen",
+            "Hurra! Geniessen Sie unsere Dienstleistungen"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Ist es sicher, Zugriff auf mein Laufwerk zu gewähren?",
+            "answer": "Ja, es ist absolut sicher, uns Zugriff auf Ihr Laufwerk zu gewähren und zu gewähren. Wir werden keine Änderungen an Ihrer Website vornehmen und Ihre Dateien sind bei Ihnen sicher."
+        },
+        {
+            "question": "Wie kann ich Dateien von meinem Laufwerk/meiner Dropbox hochladen?",
+            "answer": "Klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus. Wählen Sie das Google-Konto aus, von dem aus Sie Ihr Laufwerk verknüpfen möchten. Jetzt können Sie die Dateien auswählen, die Sie hochladen möchten."
+        },
+        {
+            "question": "Was sind die verfügb/ar/en Seitenverhältnisse beim Zuschneiden?",
+            "answer": "Mit dem MP4-Editor können Sie Ihr Video in mehrere Seitenverhältnisse zuschneiden, z. B. 1:1 (Quadrat), 16:9 (Querformat), 9:16, 4:3, 3:4 (Hochformat). Sie können sog/ar/ das ursprüngliche Verhältnis Ihres Videos beibehalten und Änderungen gemäß Ihren Anforderungen vornehmen, wenn Sie diese Stand/ar/d-Seitenverhältnisse nicht möchten.\nMit dem MP4-Editor können Sie das Video nach Ihren Wünschen zuschneiden. Sie müssen nur das Feld ziehen und anpassen und in den Bereich verschieben, den Sie behalten möchten. Der MP4-Editor macht das Zuschneiden von Videos sehr einfach."
+        },
+        {
+            "question": "Wie lange dauert es, mein Video hochzuladen?",
+            "answer": "Die Zeit, die benötigt wird, um Ihr Video zum Zuschneiden oder Be/ar/beiten hochzuladen, hängt von der Größe Ihres Videos ab. Das Hochladen von Videos mit besserer Qualität und höherer Auflösung dauert länger als Videos mit geringer Qualität mit geringerer Auflösung.\nDies hängt auch von der /ar/t des Videos ab, das Sie be/ar/beiten/zuschneiden möchten. Je größer das Video ist, desto länger dauert es."
+        },
+        {
+            "question": "Was ist der CRF-Wert?",
+            "answer": "Der konstante Ratenfaktor (CRF) ist ein Kodierungsmodus, der die Dateidatenrate nach oben oder unten anpasst, um ein ausgewähltes Qualitätsniveau anstelle einer bestimmten Datenrate zu erreichen. CRF-Werte reichen von 0 bis 51, wobei niedrigere Zahlen höhere Qualitätswerte liefern."
+        },
+        {
+            "question": "Wird die Qualität meiner Videos nach dem Zuschneiden sinken?",
+            "answer": "Mit dem MP4-Editor können Sie die Qualität des Videos gemäß Ihren Anforderungen auswählen. Wenn Sie ein qualitativ hochwertiges Video wünschen, können Sie eine höhere Auflösung wählen und die Dateigröße ist größer. Wenn Sie sich jedoch für die Größe der Datei interessieren und bei der Größe Kompromisse eingehen können, wählen Sie eine geringere Auflösung.\nMit dem MP4-Editor können Sie auch den CRF-Wert auswählen, was bedeutet, dass Sie die Auflösung und den CRF-Wert nach Ihren Wünschen auswählen können.\nCRF-Werte liegen zwischen 0 und 1, wobei ein niedrigerer CRF eine bessere Kompression und Qualität bietet."
+        },
+        {
+            "question": "Welche Auflösungen sind verfügb/ar/ und wie groß ist die Datei mit unterschiedlichen Auflösungen?",
+            "answer": "Der MP4-Editor bietet alle Stand/ar/dauflösungen, dh 1080p, 720p, 480p, 360p und 240p. Denken Sie d/ar/an, dass eine Dateigröße mit höherer Auflösung mehr ist als eine Datei mit geringerer Auflösung. Die Größe der Datei hängt auch von der Länge des Videos, der Auflösung, dem Seitenverhältnis und den CRF-Werten ab."
+        },
+        {
+            "question": "Was sind Codierungsgeschwindigkeiten?",
+            "answer": "Mit dem MP4-Editor können Sie die Codierungsgeschwindigkeit auswählen, dh die Geschwindigkeit, mit der Sie das Video konvertieren und zum Herunterladen speichern möchten. Die mit dem MP4-Editor verfügb/ar/en Codierungsgeschwindigkeiten sind ultraschnell, superschnell, sehr schnell, schneller, schnell, mittel, langsam, langsamer, sehr langsam.\nJe langsamer die Geschwindigkeit desto besser ist die Kompression. Der MP4-Editor bietet eine breite Palette von Codierungsgeschwindigkeiten, die den unterschiedlichen Anforderungen unserer Benutzer entsprechen, und stellt sicher, dass für jede vom Benutzer vorgenommene Be/ar/beitung Videos von bester Qualität bereitgestellt werden."
+        },
+        {
+            "question": "Welche anderen Optionen sind außer dem Zuschneiden des MP4-Videos verfügb/ar/?",
+            "answer": "Der MP4-Editor bietet viele Optionen. Abgesehen vom Zuschneiden können Sie Ihr Video zuschneiden, drehen, die Auflösung Ihrer Videos ändern und sog/ar/ die Geschwindigkeit Ihrer Videos erhöhen oder verringern.\nDer MP4-Editor ist eine Plattform, mit der Sie mehrere Be/ar/beitungen auf einer einzigen Plattform vornehmen können. Das auch KOSTENLOS!"
+        },
+        {
+            "question": " Kann ich die Datei nach dem Zuschneiden in einem anderen Format herunterladen?",
+            "answer": "Mit dem MP4-Editor können Sie Ihre Videos nach Ihren Bedürfnissen und Anforderungen be/ar/beiten und mehrere Attribute und Funktionen bereitstellen. Sie können das be/ar/beitete Video nur im MP4-Format herunterladen. Sie können jedoch unsere anderen Websites wie MOV Converter verwenden, um Ihr Video endlich in das gewünschte Format zu konvertieren."
+        },
+        {
+            "question": "Was ist der Unterschied zwischen Trimmen und Teilen?",
+            "answer": "Durch das Trimmen können Sie Ihr Video von beiden Enden der gesamten Länge des Videos aus schneiden. Sie können Ihr Video entweder vom Anfang oder vom Ende oder von beiden beliebig kürzen.\nWenn Sie ein Video aufteilen, teilen Sie Ihr Video in zwei oder mehr Teile auf. Nachdem Sie Ihr Video geteilt haben, können Sie individuelle Änderungen an Videoteilen vornehmen und das Video als eine Datei speichern."
+        },
+        {
+            "question": "Können wir die unerwünschten Teile des Videos entfernen?",
+            "answer": "Ja, Sie können die Videos ganz einfach nach Ihren Anforderungen teilen und zuschneiden. Mit dem MP4-Editor können Sie das Video in mehrere Teile aufteilen. Dann können Sie jeden Teil des Videos nach Ihren Wünschen individuell be/ar/beiten."
+        },
+        {
+            "question": "Kann ich die Größe meiner Videos ändern?",
+            "answer": "Sie können die Option zum Ändern der Videogröße verwenden, um die Größe Ihrer Videos auf eine beliebige Größe zu ändern."
+        },
+        {
+            "question": "Kann ich auf dieser Plattform Audio aus meinen Videodateien extrahieren?",
+            "answer": "Der MP4-Editor hat keine Option, mit der Sie Audio aus Ihren Dateien extrahieren können. Sie können die Funktion Audio extrahieren auf safevideokit.com verwenden, um Audio aus Ihren Dateien zu extrahieren."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Taglierina video",
+    "H2": "Taglia i tuoi video online",
+    "TITLE": "Taglia i tuoi video online",
+    "META": "Il modo più semplice per tagliare i tuoi video online",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX DI PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/video-cut.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indipendente",
+            "content": "Il nostro sito web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza bisogno di download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Assolutamente gratuito",
+            "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy e sicurezza ",
+            "content": "Il nostro sito web dà la priorità alla privacy dei propri clienti. Poiché lavoriamo con il cloud storage, i tuoi file non vengono caricati. Quindi, nessuna possibilità di ottenere alcuna violazione dei dati. I tuoi dati sono al sicuro con noi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Veloce ed efficiente",
+            "content": "L'editing video è molto veloce e puoi portare a termine il tuo lavoro in pochissimo tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Risparmia tempo",
+            "content": "Il nostro sito Web è indipendente dalla piattaforma, può funzionare su laptop, schede e telefoni e la conversione è rapida, consente di risparmiare tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Come tagliare il video",
+        "steps": [
+            "Scegli il tuo file video o fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive",
+            "Attendi pazientemente fino al caricamento del video",
+            "Impostare i fotogrammi o la timeline da tagliare dal video",
+            "Fai clic su Salva per scaricare il video",
+            "Evviva! Goditi i nostri servizi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "È sicuro consentire l'accesso all'unità?",
+            "answer": "Sì, è assolutamente sicuro consentirci di accedere alla tua unità. Non apporteremo modifiche al tuo sito e i tuoi file saranno al sicuro con te."
+        },
+        {
+            "question": "Come posso caricare file dalla mia unità/dropbox?",
+            "answer": "Fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive. Seleziona l'account Google da cui vuoi collegare l'unità. Ora puoi selezionare i file che vuoi caricare."
+        },
+        {
+            "question": "È possibile dividere il video in Taglierina video?",
+            "answer": "Sì, puoi tagliare e dividere i video video. È possibile trascinare o fare clic sulla barra di riproduzione e fare clic su Salva. Il video verrà salvato e pronto per il download."
+        },
+        {
+            "question": "La qualità del video diminuirà dopo averlo tagliato?",
+            "answer": "Fino a quando e a meno che non modifichi la risoluzione del file, non influirà sulla qualità del file video. La qualità del tuo video rimarrà intatta, verranno modificate solo le dimensioni o la lunghezza."
+        },
+        {
+            "question": "Posso caricare e tagliare qualsiasi altro tipo di file?",
+            "answer": "Con Video Cutter, puoi caricare e tagliare qualsiasi tipo di file video che desideri. Supporta MP4, MOV, FLV, AVI, MKV e altri tipi di file video."
+        },
+        {
+            "question": "Perché ci vuole così tanto tempo per elaborare il mio file?",
+            "answer": "Il tempo necessario per tagliare ed elaborare il video dipende dalle dimensioni, dalle proporzioni e dal numero di tagli eseguiti. Se le dimensioni del file sono maggiori, ci vorrà un po' più di tempo rispetto ai file normali."
+        },
+        {
+            "question": "Quali versioni di Windows sono supportate da Video cutter?",
+            "answer": "Video Cutter è completamente basato sul Web e quindi fornisce supporto multipiattaforma. Ciò significa che il nostro strumento supporta tutte le versioni di Windows. Non funziona solo sul sistema operativo Windows, ma può funzionare su qualsiasi altro sistema operativo che supporti un browser."
+        },
+        {
+            "question": "Supporta piattaforme Android e iOS?",
+            "answer": "Sì, il nostro sito web funziona su browser e quindi supporta piattaforme iOS e Android"
+        },
+        {
+            "question": "I file caricati verranno salvati sul server?",
+            "answer": "Tutta l'elaborazione viene eseguita sul browser e nessun file viene trasferito sul server. Quindi i tuoi file sono sicuri al 100%."
+        },
+        {
+            "question": "Ho aggiornato il browser per errore. Cosa devo fare?",
+            "answer": "Poiché il nostro sito Web non utilizza alcun server e non memorizza i tuoi dati, il file che hai caricato non verrà salvato. Devi ricaricare il file per tagliarlo."
+        },
+        {
+            "question": "Come posso tagliare più video?",
+            "answer": "La taglierina video consente di tagliare più file, uno dopo l'altro. Quando tagli un file e fai clic su Salva, il video verrà elaborato. Dopo che il video è stato elaborato, è possibile visualizzare l'opzione di download sullo schermo. Cliccando su di esso è possibile scaricare il file. Per tagliare un altro video, devi solo aggiornare il browser e vedrai l'opzione Carica video. Ora è possibile selezionare nuovamente il file che si desidera tagliare."
+        },
+        {
+            "question": "Qual è la differenza tra taglio e divisione?",
+            "answer": "Il taglio consente di tagliare il video da entrambe le estremità dell'intera lunghezza del video. Puoi accorciare il tuo video quanto vuoi dall'inizio o dalla fine o anche da entrambi.\nDividere un video significa dividere il video in due o più parti. Dopo aver diviso il video, è possibile apportare modifiche individuali alle parti video e salvare il video come un unico file."
+        },
+        {
+            "question": "Mi verrà addebitato un costo per l'utilizzo del sito Web?",
+            "answer": "Il nostro sito web è assolutamente gratuito e puoi utilizzarlo tutte le volte che vuoi. Non ci sono utilizzi di prova gratuiti, dopodiché dovrai pagare per l'utilizzo dei nostri servizi. Non ti addebiteremo nulla."
+        },
+        {
+            "question": "Dovrò creare un account per utilizzare la taglierina video?",
+            "answer": "Il nostro sito Web non richiede la registrazione o la creazione di un account. La piattaforma è assolutamente gratuita e puoi comprimere tutti i file che vuoi."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Vídeo flip",
+    "H2": "Vire seus vídeos online",
+    "TITLE": "Vire seus vídeos online",
+    "META": "A maneira mais fácil de virar seus vídeos online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/flip.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independente",
+            "content": "Nosso site é independente de plataforma. Ele funciona nos sistemas operacionais Windows e iOS e pode ser usado sem a necessidade de nenhum download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Totalmente grátis",
+            "content": "A conversão é totalmente gratuita, então você pode converter quantos arquivos quiser."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidade e segurança ",
+            "content": "Nosso site prioriza a privacidade de seus clientes. Como trabalhamos com armazenamento em nuvem, seus arquivos não são carregados. Portanto, não há chance de obter qualquer violação de dados. Seus dados estão seguros conosco!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "O processo de conversão leva apenas alguns segundos, dependendo do tamanho do arquivo, e você pode obter resultados rápidos facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido e eficiente",
+            "content": "A edição de vídeo é muito rápida e você pode fazer seu trabalho em pouco tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Economiza tempo",
+            "content": "Nosso site é independente de plataforma, pode funcionar em laptops, guias e telefones e a conversão é rápida, economiza tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como virar seu vídeo",
+        "steps": [
+            "Escolha seu arquivo de vídeo ou clique na seta suspensa e selecione Dropbox/Google Drive",
+            "Espere pacientemente até que o vídeo seja carregado",
+            "Selecione a opção de virar de sua escolha",
+            "Clique em salvar para baixar seu vídeo",
+            "Viva! Aproveite nossos serviços"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "É seguro permitir o acesso à minha unidade?",
+            "answer": "Sim, é absolutamente seguro permitir e nos dar acesso à sua unidade. Não faremos nenhuma alteração em seu site e seus arquivos estarão seguros com você."
+        },
+        {
+            "question": "Como posso fazer upload de arquivos do meu drive/dropbox?",
+            "answer": "Clique na seta suspensa e selecione Dropbox/Google Drive. Selecione a Conta do Google de onde você deseja vincular sua unidade. Agora você pode selecionar os arquivos que deseja enviar."
+        },
+        {
+            "question": "Posso usar o flip X e o flip Y simultaneamente?",
+            "answer": "Sim, o Flip video permite que você vire suas janelas de várias maneiras, e você pode usar o Flip X e o Flip Y, várias vezes, até que seu vídeo seja virado ao seu gosto."
+        },
+        {
+            "question": "Por que demora tanto para processar meu arquivo?",
+            "answer": "O tempo necessário para virar e processar seu vídeo depende do tamanho, da proporção e do número de reviradas que você realizou. Se o tamanho do arquivo for maior, demorará um pouco mais do que os arquivos normais."
+        },
+        {
+            "question": "O Flip Video é seguro para uso?",
+            "answer": "O Flip Video é uma das ferramentas online gratuitas mais seguras e protegidas. É absolutamente livre de problemas e faz seu trabalho perfeitamente bem. Ao mesmo tempo, ele não salva nenhum dos dados do usuário. "
+        },
+        {
+            "question": "Quanto tempo demora para enviar meu vídeo?",
+            "answer": "O tempo necessário para enviar seu vídeo para recortar ou editar depende do tamanho do vídeo. Vídeos de melhor qualidade com resolução mais alta levarão mais tempo para serem carregados em comparação com vídeos de baixa qualidade com menor resolução."
+        },
+        {
+            "question": "A qualidade dos meus vídeos diminuirá após a virada?",
+            "answer": "Não, a qualidade do vídeo permanece como está antes de virar o vídeo. A virada horizontal e vertical não afeta a qualidade dos seus vídeos e será como quando carregados."
+        },
+        {
+            "question": "Como posso virar vários vídeos?",
+            "answer": "Flip Video permite que você inverta vários arquivos, um após o outro. Quando você vira um arquivo e clica em salvar, o vídeo será processado. Depois que o vídeo for processado, você poderá ver a opção de download na tela. Ao clicar nele, você pode baixar o arquivo invertido. Para virar outro vídeo, você só precisa atualizar o navegador e verá a opção de upload de vídeo. Agora você pode selecionar novamente o arquivo que deseja inverter."
+        },
+        {
+            "question": "Eu atualizei o navegador por engano. O que eu faço?",
+            "answer": "Como nosso site não usa nenhum servidor e não armazena seus dados, o arquivo que você carregou não será salvo. Você precisa recarregar o arquivo para invertê-lo."
+        },
+        {
+            "question": "Serei cobrado pelo uso do site?",
+            "answer": "Nosso site é totalmente gratuito e você pode usá-lo quantas vezes quiser. Não há uso de teste gratuito, após o qual você terá que pagar pelo uso de nossos serviços. Não cobraremos nada."
+        },
+        {
+            "question": "Terei que criar uma conta para usar o Flip Video?",
+            "answer": "Nosso site não exige que você se inscreva ou crie uma conta. A plataforma é totalmente gratuita e você pode compactar quantos arquivos quiser."
+        },
+        {
+            "question": "Meus arquivos enviados serão salvos no servidor?",
+            "answer": "Todo o processamento é feito em seu navegador e nenhum arquivo é transferido para o servidor. Portanto, seus arquivos são 100% seguros."
+        },
+        {
+            "question": "Ele é compatível com as plataformas Android e iOS?",
+            "answer": "Sim, nosso site funciona no navegador e, portanto, suporta plataformas iOS e Android"
+        },
+        {
+            "question": "Quais versões do Windows são compatíveis com o Flip Video?",
+            "answer": "O vídeo flip é totalmente baseado na Web e, portanto, fornece suporte multiplataforma. Isso significa que nossa ferramenta oferece suporte a todas as versões do Windows. Ele não só funciona no sistema operacional Windows, mas pode funcionar em qualquer outro sistema operacional, que suporte um navegador."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

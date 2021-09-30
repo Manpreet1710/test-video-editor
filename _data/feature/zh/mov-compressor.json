@@ -1,0 +1,127 @@
+{
+    "Language": "简体中文",
+    "htmlLangAtt": "zh",
+    "H1": "压缩 MOV",
+    "H2": "在线压缩 MOV 视频文件",
+    "TITLE": "在线压缩 MOV 视频文件",
+    "META": "立即压缩 MOV 视频的最简单方法",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX 到 PDF",
+    "BREADCRUMB_LABEL": "DOCX 到 PDF",
+    "color": "#0be881",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "独立",
+            "content": "我们的网站独立于平台。它可以在 Window 和 iOS 操作系统上使用，无需任何下载即可使用。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "完全免费",
+            "content": "转换是完全免费的，因此您可以根据需要转换任意数量的文件。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "隐私和安全 ",
+            "content": "我们的网站优先考虑客户的隐私。由于我们使用云存储，因此您的文件不会上传。因此，没有机会发生任何数据泄露。你的数据对我们来说是安全的！"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "快速结果",
+            "content": "转换过程几乎不需要几秒钟，具体取决于您的文件大小，您可以轻松获得快速结果。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "快速高效",
+            "content": "视频编辑速度非常快，您可以立即完成工作"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "节省时间",
+            "content": "我们的网站独立于平台，可以在笔记本电脑，标签和手机上运行，转换速度快，节省时间。"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "如何压缩你的 MOV",
+        "steps": [
+            "选择您的视频文件或单击下拉箭头，然后选择 Dropbox/Google 云端硬盘",
+            "耐心等待视频上传",
+            "选择压缩设置、CRF 值和编码速度",
+            "点击保存下载视频",
+            "欢呼！享受我们的服务"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "允许访问我的驱动器是否安全？",
+            "answer": "是的，允许并允许我们访问您的驱动器是绝对安全的。我们不会对你的网站进行任何更改，你的 dfiles 对你来说是安全的。"
+        },
+        {
+            "question": "如何从我的云端硬盘/保管箱上传文件？",
+            "answer": "点击下拉箭头，然后选择 Dropbox/Google 云端硬盘。选择要从中关联云端硬盘的 Google 帐户。现在，您可以选择要上传的文件。"
+        },
+        {
+            "question": "我可以使用 MOV 压缩器压缩我的视频吗？",
+            "answer": "MOV 压缩器允许您压缩 MOV 视频文件。对于 MP4 等其他文件格式，您可以选择我们的 MP4 压缩器。您只需要上传视频，选择编码速度和 CRF 值，然后单击保存即可。您的文件将按照所需的大小进行压缩。"
+        },
+        {
+            "question": "上传我的视频需要多长时间？",
+            "answer": "上传视频进行裁剪或编辑所需的时间取决于视频的大小。与分辨率较低的低质量视频相比，具有较高分辨率的质量更高的视频将花费更多的时间来上传。\n这还取决于要压缩的视频类型。视频的大小越大，花费的时间就越长。\n"
+        },
+        {
+            "question": "什么是 CRF 价值？",
+            "answer": "恒定速率因子 (CRF) 是一种编码模式，它可以上下调整文件数据速率，以达到选定的质量级别，而不是特定的数据速率。CRF 值的范围为 0 到 51，较低的数字可提供更高的质量分数。"
+        },
+        {
+            "question": "压缩后我的视频质量会降低吗？",
+            "answer": "压缩文件时，文件大小将减小，要做到这一点，必须降低质量。为了确保您不会损失质量，MOV Compressor 允许您根据需要选择视频质量。如果你想要高质量的视频，你可以选择更高的分辨率，文件大小会更大。但是，如果您关心文件的大小并且可能会损害文件的大小，那么请选择较小的分辨率。\nMOV Compressor 还允许您选择 CRF 值，这意味着您可以根据需要选择分辨率和 CRF 值。\nCRF 值介于 0-1 之间，较低的 CRF 可提供更好的压缩和质量。"
+        },
+        {
+            "question": "可用的分辨率是多少？不同分辨率的文件大小是多少？",
+            "answer": "MOV 压缩器提供所有标准分辨率，即 1080p、720p、480p、360p 和 240p。请记住，较高分辨率的文件大小将比分辨率较低的文件大。文件的大小还将取决于视频的长度、分辨率、纵横比和 CRF 值。"
+        },
+        {
+            "question": "什么是编码速度？",
+            "answer": "MOV Compressor 允许您选择编码速度，即要转换视频并保存以供下载的速度。MOV Compressor 提供的编码速度有超快、超快、非常快、更快、快、中、慢、慢、非常慢。\n速度越慢压缩越好。MOV Compressor 根据用户的不同需求提供各种编码速度，并确保为用户进行的每次编辑提供最优质的视频。"
+        },
+        {
+            "question": "我需要支付使用该网站的费用吗？",
+            "answer": "我们的网站是完全免费的，你可以根据需要多次使用它。没有免费试用版，之后您必须为使用我们的服务付费。我们不会向你收取任何费用。"
+        },
+        {
+            "question": "我需要创建一个帐户才能使用 MOV 压缩器吗？",
+            "answer": "我们的网站不需要您注册或创建帐户。该平台是完全免费的，您可以根据需要压缩任意数量的文件。"
+        },
+        {
+            "question": "使用 MOV 压缩器安全吗？",
+            "answer": "是的，使用 MOV 压缩器是 100％ 安全的，因为我们不会保存您的文件，并且网站上没有第三方广告。在我们这里，您的数据将是安全可靠的。 "
+        },
+        {
+            "question": "我上传的文件会保存在服务器上吗？",
+            "answer": "所有处理都在浏览器上完成，不会将任何文件传输到服务器。因此，你的文件是 100％ 安全的。"
+        },
+        {
+            "question": "压缩成任何其他格式后我可以下载文件吗？",
+            "answer": "MOV Compressor 允许您根据需要和要求编辑视频，提供多种属性和功能。您只能以 MOV 格式下载编辑过的视频。但是，您可以使用我们的其他网站，例如 MP4 Converter，最终将视频转换为所需的格式。"
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mov"
+    ],
+    "compare_formats": [
+        "mov"
+    ]
+}

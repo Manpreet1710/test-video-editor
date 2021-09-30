@@ -1,0 +1,141 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Rotador de vídeo",
+    "H2": "Gire seus vídeos online",
+    "TITLE": "Gire seus vídeos online",
+    "META": "A maneira mais fácil de girar seus vídeos online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#33d9b2",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/rotate.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independente",
+            "content": "Nosso site é independente de plataforma. Ele funciona nos sistemas operacionais Windows e iOS e pode ser usado sem a necessidade de nenhum download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Totalmente grátis",
+            "content": "A conversão é totalmente gratuita, então você pode converter quantos arquivos quiser."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidade e segurança ",
+            "content": "Nosso site prioriza a privacidade de seus clientes. Como trabalhamos com armazenamento em nuvem, seus arquivos não são carregados. Portanto, não há chance de obter qualquer violação de dados. Seus dados estão seguros conosco!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "O processo de conversão leva apenas alguns segundos, dependendo do tamanho do arquivo, e você pode obter resultados rápidos facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido e eficiente",
+            "content": "A edição de vídeo é muito rápida e você pode fazer seu trabalho em pouco tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Economiza tempo",
+            "content": "Nosso site é independente de plataforma, pode funcionar em laptops, guias e telefones e a conversão é rápida, economiza tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como girar seu vídeo",
+        "steps": [
+            "Escolha seu arquivo de vídeo ou clique na seta suspensa e selecione Dropbox/Google Drive",
+            "Espere pacientemente até que o vídeo seja carregado",
+            "Escolha as configurações de rotação apropriadas",
+            "Clique em Salvar para baixar seu vídeo",
+            "Viva! Aproveite nossos serviços"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "É seguro permitir o acesso à minha unidade?",
+            "answer": "Sim, é absolutamente seguro permitir e nos dar acesso à sua unidade. Não faremos nenhuma alteração em seu site e seus arquivos estarão seguros com você."
+        },
+        {
+            "question": "Como posso fazer upload de arquivos do meu drive/dropbox?",
+            "answer": "Clique na seta suspensa e selecione Dropbox/Google Drive. Selecione a Conta do Google de onde você deseja vincular sua unidade. Agora você pode selecionar os arquivos que deseja enviar."
+        },
+        {
+            "question": "Por que devo girar meu vídeo?",
+            "answer": "Se houve um erro ao gravar o vídeo, ou se um vídeo for o modo potrait e você quiser no modo paisagem, você pode usar girar. A rotação de vídeos altera a proporção de seus vídeos."
+        },
+        {
+            "question": "Quais são as rotações disponíveis?",
+            "answer": "Você tem duas opções: Esquerda e Direita. Você pode girar o vídeo no sentido horário ou anti-horário, dependendo da sua necessidade. Você pode selecionar uma ou ambas as opções várias vezes até ficar satisfeito com a rotação."
+        },
+        {
+            "question": "Como posso girar meus vídeos para 180 graus?",
+            "answer": "Para girar seu vídeo para 180 graus, você pode clicar em qualquer uma das opções, esquerda ou direita e selecioná-la duas vezes. Cada seleção gira seu vídeo em 90 graus, portanto, duas seleções girarão seus vídeos para 180 graus."
+        },
+        {
+            "question": "A rotação afetará a qualidade dos meus vídeos?",
+            "answer": "Não, girar seus vídeos não afeta a qualidade de seus vídeos. Isso só mudará a proporção do vídeo."
+        },
+        {
+            "question": "Posso fazer upload e girar qualquer outro tipo de arquivo?",
+            "answer": "Com o Video Rotator, você pode fazer upload e girar qualquer tipo de arquivo de vídeo que desejar. Ele suporta MP4, MOV, FLV, AVI, MKV e outros tipos de arquivos de vídeo."
+        },
+        {
+            "question": "Por que demora tanto para processar meu arquivo?",
+            "answer": "O tempo necessário para girar e processar seu vídeo depende do tamanho, da proporção e do número de rotações realizadas. Se o tamanho do arquivo for maior, demorará um pouco mais do que os arquivos normais."
+        },
+        {
+            "question": "Quais versões do Windows giram o suporte de vídeo?",
+            "answer": "O Video Rotator é totalmente baseado na Web e, portanto, fornece suporte multiplataforma. Isso significa que nossa ferramenta oferece suporte a todas as versões do Windows. Ele não só funciona no sistema operacional Windows, mas pode funcionar em qualquer outro sistema operacional, que suporte um navegador."
+        },
+        {
+            "question": "Ele é compatível com as plataformas Android e iOS?",
+            "answer": "Sim, nosso site funciona no navegador e, portanto, suporta plataformas iOS e Android"
+        },
+        {
+            "question": "Eu atualizei o navegador por engano. O que eu faço?",
+            "answer": "Como nosso site não usa nenhum servidor e não armazena seus dados, o arquivo que você carregou não será salvo. Você precisa recarregar o arquivo para girá-lo."
+        },
+        {
+            "question": "Como posso girar vários vídeos?",
+            "answer": "O Video Rotator permite girar vários arquivos, um após o outro. Quando você gira um arquivo e clica em salvar, o vídeo será processado. Depois que o vídeo for processado, você poderá ver a opção de download na tela. Ao clicar nele, você pode baixar o arquivo girado. Para girar outro vídeo, você só precisa atualizar o navegador e verá a opção de upload de vídeo. Agora você pode selecionar novamente o arquivo que deseja girar."
+        },
+        {
+            "question": "Serei cobrado pelo uso do site?",
+            "answer": "Nosso site é totalmente gratuito e você pode usá-lo quantas vezes quiser. Não há uso de teste gratuito, após o qual você terá que pagar pelo uso de nossos serviços. Não cobraremos nada."
+        },
+        {
+            "question": "Terei que criar uma conta para usar o Rotate Video?",
+            "answer": "Nosso site não exige que você se inscreva ou crie uma conta. A plataforma é totalmente gratuita e você pode compactar quantos arquivos quiser."
+        },
+        {
+            "question": "Meus arquivos enviados serão salvos no servidor?",
+            "answer": "Todo o processamento é feito em seu navegador e nenhum arquivo é transferido para o servidor. Portanto, seus arquivos são 100% seguros."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

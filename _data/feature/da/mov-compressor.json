@@ -1,0 +1,127 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Komprimer MOV",
+    "H2": "Komprimer dine MOV-videofiler online",
+    "TITLE": "Komprimer dine MOV-videofiler online",
+    "META": "Den nemmeste måde at komprimere dine MOV-videoer på ingen tid",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#0be881",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Uafhængige",
+            "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/er tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Sådan komprimeres din MOV",
+        "steps": [
+            "Vælg din videofil eller Klik på rullepilen og vælg Dropbox/Google Drev",
+            "Vent tålmodigt, indtil videoen bliver uploadet",
+            "Vælg dine komprimeringsindstillinger, CRF-værdien og kodningshastigheden",
+            "Klik på Gem for at downloade din video",
+            "Hurra! Nyd vores tjenester"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Er det sikkert at give adgang til mit drev?",
+            "answer": "Ja, det er helt sikkert at tillade og give os adgang til dit drev. Vi foretager ingen ændringer på dit websted, og dine dfiles vil være sikre hos dig."
+        },
+        {
+            "question": "Hvordan kan jeg uploade filer fra mit drev/Dropbox?",
+            "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil linke dit drev. Nu kan du vælge de filer, du vil uploade."
+        },
+        {
+            "question": "Kan jeg komprimere mine videoer ved hjælp af MOV Compressor?",
+            "answer": "MOV Compressor giver dig mulighed for at komprimere MOV videofiler. For andre filformater som MP4, kan du vælge vores MP4 Compressor. Du behøver kun at uploade din video, vælg kodningshastigheden og CRF-værdien og klik på gem. Du fil vil blive komprimeret som pr din ønskede størrelse."
+        },
+        {
+            "question": "Hvor lang tid tager det at uploade min video?",
+            "answer": "Den tid, det tager at uploade din video til beskæring eller redigering, afhænger af størrelsen på din video. Videoer i bedre kvalitet med højere opløsning vil tage længere tid at uploade sammenlignet med videoer i lav kvalitet med mindre opløsning.\nDet afhænger også af den type video, du vil komprimere. Jo større videoens størrelse er, desto længere tager det.\n"
+        },
+        {
+            "question": "Hvad er CRF-værdi?",
+            "answer": "CRF (Constant Rate Factor) er en kodningstilstand, der justerer fildatahastigheden op eller ned for at opnå et valgt kvalitetsniveau i stedet for en bestemt datahastighed. CRF-værdier v/ar/ierer fra 0 til 51, med lavere tal, der giver resultater af højere kvalitet."
+        },
+        {
+            "question": "Vil kvaliteten af mine videoer falde efter komprimering?",
+            "answer": "Når du komprimerer en fil, reduceres filstørrelsen, og for at gøre det skal kvaliteten kompromitteres. For at sikre, at du ikke mister kvaliteten, giver MOV Compressor dig mulighed for at vælge kvaliteten af videoen som pr. dit krav. Hvis du vil have video i høj kvalitet, kan du vælge en højere opløsning, og filstørrelsen bliver større. Men hvis du bekymrer dig om størrelsen af filen og kan kompromittere i størrelsen, så vælg en mindre opløsning.\nMOV Compressor giver dig også mulighed for at vælge CRF-værdien, hvilket betyder, at du kan vælge opløsningen og CRF-værdien efter dit behov.\nCRF-værdier ligger fra 0-1, hvor en lavere CRF giver bedre kompression og kvalitet."
+        },
+        {
+            "question": "Hvilke beslutninger er der til rådighed, og hvad vil størrelsen af de forskellige resolutioner være?",
+            "answer": "MOV Compressor leverer alle stand/ar/dopløsninger dvs. 1080p, 720p, 480p, 360p og 240p. Husk, at en filstørrelse med højere opløsning vil være mere end en fil med lavere opløsning. Filens størrelse afhænger også af længden af videoen, opløsningen, formatforholdet og CRF-værdierne."
+        },
+        {
+            "question": "Hvad er kodningshastigheder?",
+            "answer": "MOV Compressor giver dig mulighed for at vælge kodningshastighed, dvs. den hastighed, hvormed du vil konvertere videoen og gemme den til download. De kodningshastigheder, der fås med MOV-kompressor, er ultrahurtige, superhurtige, meget hurtige, hurtige, hurtige, mellemstore, langsomme, langsommere, meget langsomme.\nJo langsommere hastigheden jo bedre er kompressionen. MOV Compressor giver en bred vifte af kodningshastigheder i henhold til forskellige behov hos vores brugere og sikrer at levere den bedste kvalitet videoer til hver redigering foretaget af brugeren."
+        },
+        {
+            "question": "Bliver jeg opkrævet for at bruge hjemmesiden?",
+            "answer": "Vores hjemmeside er helt gratis, og du kan bruge det så mange gange som du ønsker. Der er ingen gratis prøvebrug, hvorefter du skal betale for at bruge vores tjenester. Vi vil ikke anklage dig noget."
+        },
+        {
+            "question": "Skal jeg oprette en konto for at bruge MOV-kompressor?",
+            "answer": "Vores hjemmeside kræver ikke, at du tilmelder dig eller opretter en konto. Platformen er helt gratis, og du kan komprimere så mange filer som du vil."
+        },
+        {
+            "question": "Er det sikkert at bruge MOV-kompressor?",
+            "answer": "Ja, det er 100% sikkert at bruge MOV-kompressoren, da vi ikke gemmer dine filer, og der er ingen tredjep/ar/tsannoncer på hjemmesiden. Dine data vil være sikre og sikre hos os. "
+        },
+        {
+            "question": "Vil mine uploadede filer blive gemt på serveren?",
+            "answer": "Al behandling sker i din browser, og ingen filer overføres til serveren. Derfor er dine filer 100% sikre."
+        },
+        {
+            "question": "Kan jeg downloade filen efter komprimering i et andet format?",
+            "answer": "MOV Compressor giver dig mulighed for at redigere dine videoer efter dit behov og krav giver flere attributter og funktioner. Du kan kun downloade den redigerede video i MOV-format. Du kan dog bruge vores andre hjemmesider som MP4 Converter, til endelig at konvertere din video i dit ønskede format."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mov"
+    ],
+    "comp/ar/e_formats": [
+        "mov"
+    ]
+}

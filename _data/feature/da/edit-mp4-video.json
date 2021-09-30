@@ -1,0 +1,131 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Redigér MP4",
+    "H2": "Rediger dine MP4-videoer online",
+    "TITLE": "Rediger dine MP4-videoer online",
+    "META": "Den nemmeste måde at redigere dine MP4-videoer online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#4bcffa",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Uafhængige",
+            "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/er tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Sådan redigerer du din mp4",
+        "steps": [
+            "Vælg din videofil eller Klik på rullepilen og vælg Dropbox/Google Drev",
+            "Vent tålmodigt, indtil videoen bliver indlæst",
+            "Vælg de relevante indstillinger i /ar/bejdsområdet",
+            "Klik på Gem for at downloade din video",
+            "Hurra! Nyd vores tjenester"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Er det sikkert at give adgang til mit drev?",
+            "answer": "Ja, det er helt sikkert at tillade og give os adgang til dit drev. Vi foretager ingen ændringer på dit websted, og dine dfiles vil være sikre hos dig."
+        },
+        {
+            "question": "Hvordan kan jeg uploade filer fra mit drev/Dropbox?",
+            "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil linke dit drev. Nu kan du vælge de filer, du vil uploade."
+        },
+        {
+            "question": "Hvad er de tilgængelige aspektforhold under beskæring?",
+            "answer": "MP4 editor giver dig mulighed for at beskære din video i flere formatforhold dvs. 1:1 (kvadrat), 16:9 (landskab), 9:16, 4:3, 3:4 (portræt). Du kan endda beholde det oprindelige forhold i din video og foretage ændringer efter dit behov, hvis du ikke ønsker disse stand/ar/dformatforhold.\nMP4 editor giver dig mulighed for at beskære videoen efter dit behov. Du behøver kun at trække og justere boksen og flytte den til det område, du vil beholde. MP4 editor gør beskæring videoer meget nemt."
+        },
+        {
+            "question": "Hvor lang tid tager det at uploade min video?",
+            "answer": "Den tid, det tager at uploade din video til beskæring eller redigering, afhænger af størrelsen på din video. Videoer i bedre kvalitet med højere opløsning vil tage længere tid at uploade sammenlignet med videoer i lav kvalitet med mindre opløsning.\nDet afhænger også af den type video, du vil redigere/beskære. Jo større videoens størrelse er, desto længere tager det."
+        },
+        {
+            "question": "Hvad er CRF-værdi?",
+            "answer": "CRF (Constant Rate Factor) er en kodningstilstand, der justerer fildatahastigheden op eller ned for at opnå et valgt kvalitetsniveau i stedet for en bestemt datahastighed. CRF-værdier v/ar/ierer fra 0 til 51, med lavere tal, der giver resultater af højere kvalitet."
+        },
+        {
+            "question": "Vil kvaliteten af mine videoer falde efter beskæring?",
+            "answer": "MP4 editor giver dig mulighed for at vælge kvaliteten af videoen som pr dit krav. Hvis du vil have video i høj kvalitet, kan du vælge en højere opløsning, og filstørrelsen bliver større. Men hvis du bekymrer dig om størrelsen af filen og kan kompromittere i størrelsen, så vælg en mindre opløsning.\nMP4 editor giver dig også mulighed for at vælge CRF værdi, hvilket betyder at du kan vælge opløsningen og CRF værdi efter dit behov.\nCRF-værdier ligger fra 0-1, hvor en lavere CRF giver bedre kompression og kvalitet."
+        },
+        {
+            "question": "Hvilke beslutninger er der til rådighed, og hvad vil størrelsen af de forskellige resolutioner være?",
+            "answer": "MP4 editor indeholder alle stand/ar/dopløsninger dvs. 1080p, 720p, 480p, 360p og 240p. Husk, at en filstørrelse med højere opløsning vil være mere end en fil med lavere opløsning. Filens størrelse afhænger også af længden af videoen, opløsningen, formatforholdet og CRF-værdierne."
+        },
+        {
+            "question": "Hvad er kodningshastigheder?",
+            "answer": "MP4 editor giver dig mulighed for at vælge kodningshastighed dvs., den hastighed, hvormed du vil konvertere videoen og gemme den til download. De kodningshastigheder, der er tilgængelige med MP4 editor, er ultrahurtige, superhurtige, meget hurtige, hurtigere, Hurtig, medium, langsom, langsommere, meget langsom.\nJo langsommere hastigheden jo bedre er kompressionen. MP4 editor giver en bred vifte af kodningshastigheder i henhold til v/ar/ierende behov hos vores brugere og sikrer at levere den bedste kvalitet videoer til hver redigering foretaget af brugeren."
+        },
+        {
+            "question": "Hvad er de andre muligheder, der er tilgængelige, bortset fra beskæring af MP4-videoen?",
+            "answer": "MP4 editor giver mange muligheder. Bortset fra beskæring kan du trimme din video, rotere den, ændre opløsningen på dine videoer og endda øge eller mindske hastigheden på dine videoer.\nMP4 editor er platform, der giver dig mulighed for at gøre flere redigeringer på en enkelt platform. Det er også gratis!"
+        },
+        {
+            "question": " Kan jeg downloade filen efter beskæring i et andet format?",
+            "answer": "MP4 editor giver dig mulighed for at redigere dine videoer efter dit behov og krav giver flere attributter og funktioner. Du kan kun downloade den redigerede video i MP4-format. Du kan dog bruge vores andre hjemmesider som MOV Converter, til endelig at konvertere din video i dit ønskede format."
+        },
+        {
+            "question": "Hvad er forskellen mellem trim og split?",
+            "answer": "Trimming giver dig mulighed for at klippe din video fra hver ende af hele længden af videoen. Du kan forkorte din video så meget som du vil fra enten st/ar/t eller slutning eller begge dele så godt.\nOpdeling af en video betyder, at du deler din video i to eller flere dele. Når du h/ar/ delt videoen, kan du foretage individuelle ændringer i videodele og gemme videoen som en fil."
+        },
+        {
+            "question": "Kan vi fjerne de uønskede dele af videoen?",
+            "answer": "Ja, du kan nemt opdele og trimme videoerne efter dit krav. MP4 editor giver dig mulighed for at opdele videoen i flere dele. Derefter kan du individuelt redigere hver del af videoen efter dit behov."
+        },
+        {
+            "question": "Kan jeg ændre størrelsen på mine videoer?",
+            "answer": "Du kan bruge indstillingen Tilpas størrelse på video til at ændre størrelsen på dine videoer til den ønskede størrelse."
+        },
+        {
+            "question": "Kan jeg udtrække lyd fra mine videofiler på denne platform?",
+            "answer": "MP4 editor h/ar/ ikke en mulighed, hvor du kan udtrække lyd fra dine filer. Du kan bruge funktionen Udtræk lyd på safevideokit.com til at udtrække lyd fra dine filer."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

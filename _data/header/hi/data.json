@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "MP4 टूल्स",
+                "links": [
+                    {
+                        "name": "MP4 क्रॉप करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/hi/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 संपादित करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/hi/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 वीडियो संपादित करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/hi/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "mp4 कंप्रेसर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/hi/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 कटर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/hi/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 ट्रिमर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/hi/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "कम्प्रेस",
+                "links": [
+                    {
+                        "name": "MOV कंप्रेसर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/hi/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "mp4 कंप्रेसर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/hi/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "विडियो कम्प्रेसर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/hi/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "विडियो टूल्स",
+                "links": [
+                    {
+                        "name": "वीडियो क्रॉप करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/hi/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "वीडियो का आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/hi/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "वीडियो रोटेट करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/hi/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "फ्लिप वीडियो",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/hi/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "वीडियो-कटर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/hi/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "वीडियो स्प्लिटर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/hi/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "वीडियो ट्रिमर",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/hi/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "ऑडियो एक्सट्रेक्ट करें",
+                "links": [
+                    {
+                        "name": "ऑडियो एक्सट्रेक्ट करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/hi/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "ब्लॉग",
+            "url": "/blog"
+        }
+    ]
+}

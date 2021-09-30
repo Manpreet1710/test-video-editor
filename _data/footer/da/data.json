@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "Vi gør videoredigering let.",
+    "companytitle": "Selskab",
+    "producttitle": "Produkt",
+    "networksitestitle": "Netværkssteder",
+    "company": [
+        {
+            "name": "Om",
+            "url": "/da/about"
+        },
+        {
+            "name": "Hjælp",
+            "url": "/da/help"
+        },
+        {
+            "name": "Blog",
+            "url": "/da/blog"
+        },
+        {
+            "name": "Vilkår og betingelser",
+            "url": "/da/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "Beskær MP4",
+            "description": "Beskær enhver MP4-video",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/da/crop-mp4"
+        },
+        {
+            "name": "Beskær video",
+            "description": "Beskær enhver video",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/da/crop-video"
+        },
+        {
+            "name": "MP4 editor",
+            "description": "Redigér enhver MP4-video",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/da/edit-mp4-video"
+        },
+        {
+            "name": "Flip video",
+            "description": "Flip enhver video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/da/flip-video"
+        },
+        {
+            "name": "MOV kompressor",
+            "description": "Komprimer enhver MOV-video",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/da/mov-compressor"
+        },
+        {
+            "name": "MP4 kompressor",
+            "description": "Komprimer eventuelle MP4-videoer",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/da/mp4-compressor"
+        },
+        {
+            "name": "MP4 fræser",
+            "description": "Klip enhver MP4-video",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/da/mp4-cutter"
+        },
+        {
+            "name": "video editor",
+            "description": "Redigér enhver video",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/da/video-editor"
+        },
+        {
+            "name": "MP4 trimmer",
+            "description": "Trim enhver MP4-video",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/da/mp4-trimmer"
+        },
+        {
+            "name": "Tilpas størrelse på video",
+            "description": "Ændr størrelse på enhver video",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/da/resize-video"
+        },
+        {
+            "name": "Video kompressor",
+            "description": "Komprimer enhver video",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/da/video-compressor"
+        },
+        {
+            "name": "video-cutter",
+            "description": "Klip enhver video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/da/video-cutter"
+        },
+        {
+            "name": "Video roterer",
+            "description": "Roter enhver video",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/da/video-rotater"
+        },
+        {
+            "name": "Video splitter",
+            "description": "Opdel enhver video",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/da/video-splitter"
+        },
+        {
+            "name": "Video trimmer",
+            "description": "Trim enhver video",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/da/video-trimmer"
+        },
+        {
+            "name": "Uddrag video",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/da/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "facebook"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "youtube"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "instagram"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "linkdin"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "Twitter"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "Vilkår og betingelser",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "Privatlivspolitik",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "Kontakt os",
+            "url": "/contact"
+        },
+        {
+            "name": "Ansvarsfraskrivelse",
+            "url": "/disclaimer"
+        }
+    ]
+}

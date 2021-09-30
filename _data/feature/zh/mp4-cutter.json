@@ -1,0 +1,131 @@
+{
+    "Language": "简体中文",
+    "htmlLangAtt": "zh",
+    "H1": "MP4 切割器",
+    "H2": "在线剪辑 MP4 视频",
+    "TITLE": "在线剪辑 MP4 视频",
+    "META": "在线剪辑 MP4 视频的最简单方法。",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX 到 PDF",
+    "BREADCRUMB_LABEL": "DOCX 到 PDF",
+    "color": "#7d5fff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "简单易用",
+            "content": "我们的视频编辑过程优雅而直接"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "准确的结果",
+            "content": "结果准确无误，因此完全满足用户需求"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "跨平台",
+            "content": "从现在开始，您可以在任何操作系统上使用此应用程序，例如 Windows/Mac/Linux/Android/iPhone。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "安全可靠",
+            "content": "没有涉及服务器，因此你的视频是安全的"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "快速高效",
+            "content": "视频编辑速度非常快，您可以立即完成工作"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "没有上传任何文件",
+            "content": "该应用程序完全可以在浏览器上运行，而无需任何服务器。因此，您的数据是安全的"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "如何剪掉你的 mp4",
+        "steps": [
+            "选择您的视频文件或单击下拉箭头，然后选择 Dropbox/Google 云端硬盘",
+            "耐心等待直到视频加载完毕",
+            "设置要从视频中剪切的帧或时间轴",
+            "点击保存下载视频",
+            "欢呼！享受我们的服务"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "允许访问我的驱动器是否安全？",
+            "answer": "是的，允许并允许我们访问您的驱动器是绝对安全的。我们不会对你的网站进行任何更改，你的 dfiles 对你来说是安全的。"
+        },
+        {
+            "question": "如何从我的云端硬盘/保管箱上传文件？",
+            "answer": "点击下拉箭头，然后选择 Dropbox/Google 云端硬盘。选择要从中关联云端硬盘的 Google 帐户。现在，您可以选择要上传的文件。"
+        },
+        {
+            "question": "我可以在 MP4 切割器中分割我的视频吗？",
+            "answer": "是的，您既可以剪切也可以拆分 MP4 视频。您可以拖动或单击播放栏，然后单击保存。您的视频将被保存并准备好下载。"
+        },
+        {
+            "question": "剪切后我的视频质量会降低吗？",
+            "answer": "除非您更改文件的分辨率，否则不会影响 MP4 文件的质量。您的视频质量将保持不变，只会更改大小或长度。"
+        },
+        {
+            "question": "我可以上传和剪切任何其他文件类型吗？",
+            "answer": "使用 MP4 切割器，您只能上传和剪切 MP4 文件。对于其他视频类型，您可以使用我们的视频切割器功能。"
+        },
+        {
+            "question": "为什么处理我的文件需要这么长时间？",
+            "answer": "剪切和处理视频所花费的时间取决于大小，宽高比和执行的剪切次数。如果您的文件大小较大，则需要比普通文件更长的时间。"
+        },
+        {
+            "question": "MP4 切割器支持哪些 Windows 版本？",
+            "answer": "MP4 Cutter 完全基于网络，因此提供跨平台支持。这意味着我们的工具支持所有版本的 Windows。它不仅适用于 Windows 操作系统，而且可以在支持浏览器的任何其他操作系统上运行。"
+        },
+        {
+            "question": "它是否同时支持安卓和 iOS 平台？",
+            "answer": "是的，我们的网站可以在浏览器上运行，因此同时支持 iOS 和 Android 平台"
+        },
+        {
+            "question": "我上传的文件会保存在服务器上吗？",
+            "answer": "所有处理都在浏览器上完成，不会将任何文件传输到服务器。因此，你的文件是 100％ 安全的。"
+        },
+        {
+            "question": "我需要创建一个帐户才能使用 MP4 切割器吗？",
+            "answer": "我们的网站不需要您注册或创建帐户。该平台是完全免费的，您可以根据需要压缩任意数量的文件。"
+        },
+        {
+            "question": "我需要支付使用该网站的费用吗？",
+            "answer": "我们的网站是完全免费的，你可以根据需要多次使用它。没有免费试用版，之后您必须为使用我们的服务付费。我们不会向你收取任何费用。"
+        },
+        {
+            "question": "切割和分割有什么区别？",
+            "answer": "剪切允许您从整个视频长度的任一端剪切视频。您可以从开始或结尾或两者都可以随意缩短视频。\n拆分视频意味着将视频分为两个或更多部分。拆分视频后，您可以对视频部分进行单独更改，然后将视频另存为一个文件。"
+        },
+        {
+            "question": "如何剪辑多个视频？",
+            "answer": "MP4 切割器允许您一个接一个地剪切多个文件。当你剪切一个文件然后点击保存时，视频将被处理。处理完视频后，您可以在屏幕上看到下载选项。通过单击它，你可以下载文件。为了剪辑另一个视频，您只需要刷新浏览器，就会看到上传 MP4 选项。现在，您可以再次选择要剪切的文件。"
+        },
+        {
+            "question": "我误刷了浏览器。我该怎么办？",
+            "answer": "由于我们的网站不使用任何服务器，也不存储您的数据，因此不会保存您上传的文件。你需要重新上传文件才能剪切它。"
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

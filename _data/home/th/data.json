@@ -1,0 +1,135 @@
+{
+    "Language": "ภาษาไทย",
+    "htmlLangAtt": "th",
+    "h1": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "h2": "ไม่มีไฟล์จะถูกส่งไปยังเซิร์ฟเวอร์. 100% ปลอดภัย.",
+    "title": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "TITLE": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "meta": "เครื่องมือตัดต่อวิดีโอออนไลน์ของเราฟรีและใช้งานง่ายเราตรวจสอบให้แน่ใจว่าข้อมูลทั้งหมดของคุณปลอดภัยในขณะที่คุณแก้ไขวิดีโอเราสนับสนุนช่วงกว้างของรูปแบบวิดีโอเช่น mp3, mov, mkv ฯลฯ.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "ครอบตัด MP4",
+            "description": "ครอบตัดวิดีโอ MP4 ใด ๆ",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/th/crop-mp4"
+        },
+        {
+            "name": "ครอบตัดวิดีโอ",
+            "description": "ครอบตัดวิดีโอใดๆ",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/th/crop-video"
+        },
+        {
+            "name": "ตัวแก้ไข MP4",
+            "description": "แก้ไขวิดีโอ MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/th/edit-mp4-video"
+        },
+        {
+            "name": "พลิกวิดีโอ",
+            "description": "พลิกวิดีโอใดก็ได้",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/th/flip-video"
+        },
+        {
+            "name": "คอมเพรสเซอร์ MOV",
+            "description": "บีบอัดวิดีโอ MOV ใด ๆ",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/mov-compressor"
+        },
+        {
+            "name": "คอมเพรสเซอร์ MP",
+            "description": "บีบอัดวิดีโอ MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/mp4-compressor"
+        },
+        {
+            "name": "เครื่องตัด MP4",
+            "description": "ตัดวิดีโอ MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/mp4-cutter"
+        },
+        {
+            "name": "โปรแกรมตัดต่อวิดีโอ",
+            "description": "แก้ไขวิดีโอใดๆ",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/th/video-editor"
+        },
+        {
+            "name": "เครื่องตัดแต่ง MP4",
+            "description": "ตัดแต่งวิดีโอ MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/mp4-trimmer"
+        },
+        {
+            "name": "ปรับขนาดวิดีโอ",
+            "description": "ปรับขนาดวิดีโอ",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/th/resize-video"
+        },
+        {
+            "name": "คอมเพรสเซอร์วิดีโอ",
+            "description": "บีบอัดวิดีโอใด ๆ",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/video-compressor"
+        },
+        {
+            "name": "เครื่องตัดวิดีโอ",
+            "description": "ตัดวิดีโอใดก็ได้",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-cutter"
+        },
+        {
+            "name": "หมุนวิดีโอ",
+            "description": "หมุนวิดีโอใดก็ได้",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/th/video-rotater"
+        },
+        {
+            "name": "ตัวแยกสัญญาณวิดีโอ",
+            "description": "แยกวิดีโอใดก็ได้",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-splitter"
+        },
+        {
+            "name": "เครื่องตัดแต่งวิดีโอ",
+            "description": "ตัดแต่งวิดีโอใดๆ",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-trimmer"
+        },
+        {
+            "name": "แยกเสียง",
+            "description": "แยกเสียงจากวิดีโอ",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/th/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "แอพสซีม",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

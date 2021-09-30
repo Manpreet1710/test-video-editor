@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "Strumenti MP4",
+                "links": [
+                    {
+                        "name": "Ritaglia MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/it/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Modifica MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/it/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Modifica video MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/it/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Compressore MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/it/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Taglierina MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/it/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "trimmer MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/it/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Comprimi",
+                "links": [
+                    {
+                        "name": "Compressore MOV",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/it/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Compressore MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/it/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Compressore video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/it/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Strumenti video",
+                "links": [
+                    {
+                        "name": "Ritaglia video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/it/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/it/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ruota video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/it/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Capovolgi video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/it/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "taglierina video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/it/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Splitter video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/it/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Rifinitore video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/it/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Estrai audio",
+                "links": [
+                    {
+                        "name": "Estrai audio",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/it/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        }
+    ]
+}

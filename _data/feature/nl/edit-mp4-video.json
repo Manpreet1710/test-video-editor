@@ -1,0 +1,131 @@
+{
+    "Language": "Nederlands",
+    "htmlLangAtt": "nl",
+    "H1": "MP4 bewerken",
+    "H2": "Bewerk je MP4-video's online",
+    "TITLE": "Bewerk je MP4-video's online",
+    "META": "De eenvoudigste manier om je MP4-video's online te bewerken.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX naar PDF",
+    "BREADCRUMB_LABEL": "DOCX NAAR PDF",
+    "color": "#4bcffa",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Absoluut gratis",
+            "content": "De conversie is helemaal gratis, dus je kunt zoveel bestanden converteren als je wilt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Onafhankelijk",
+            "content": "Onze website is platformonafhankelijk. Het werkt op zowel Windows- als iOS-besturingssystemen en kan zonder downloads worden gebruikt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy en beveiliging ",
+            "content": "Onze website geeft prioriteit aan de privacy van haar klanten. Omdat we met cloudopslag werken, worden je bestanden niet geüpload. Dus geen kans op een datalek. Jouw gegevens zijn veilig bij ons!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snelle resultaten",
+            "content": "Het conversieproces duurt nauwelijks een paar seconden, afhankelijk van je bestandsgrootte, en je kunt snel resultaat behalen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snel en efficiënt",
+            "content": "Videobewerking is erg snel en je kunt je klus in een mum van tijd klaren"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Bespaart tijd",
+            "content": "Onze website is platformonafhankelijk, kan werken op laptops, tabbladen en telefoons en de conversie verloopt snel, het bespaart tijd."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Hoe je je mp4 kunt bewerken",
+        "steps": [
+            "Kies je videobestand of klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive",
+            "Wacht geduldig tot de video is geladen",
+            "Kies de juiste instellingen in de werkruimte",
+            "Klik op opslaan om je video te downloaden",
+            "Hoera! Geniet van onze diensten"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Is het veilig om toegang tot mijn schijf toe te staan?",
+            "answer": "Ja, het is absoluut veilig om je schijf toe te staan en ons toegang te geven. We zullen geen wijzigingen aanbrengen in je site en je bestanden zijn veilig bij je."
+        },
+        {
+            "question": "Hoe kan ik bestanden uploaden vanuit mijn drive/dropbox?",
+            "answer": "Klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive. Selecteer het Google-account waar je je schijf wilt koppelen. Nu kun je de bestanden selecteren die je wilt uploaden."
+        },
+        {
+            "question": "Wat zijn de beschikbare beeldverhoudingen tijdens het bijsnijden?",
+            "answer": "Met de MP4-editor kunt u uw video bijsnijden in meerdere beeldverhoudingen, d.w.z. 1:1 (vierkant), 16:9 (liggend), 9:16, 4:3, 3:4 (portret). Je kunt zelfs de oorspronkelijke verhouding van je video behouden en wijzigingen aanbrengen op basis van je vereisten als je deze standaard beeldverhouding niet wilt.\nMet de MP4-editor kunt u de video bijsnijden volgens uw behoefte. U hoeft alleen maar het vak te slepen en aan te passen en te verplaatsen naar het gebied dat u wilt behouden. MP4-editor maakt het bijsnijden van video's heel eenvoudig."
+        },
+        {
+            "question": "Hoe lang duurt het om mijn video te uploaden?",
+            "answer": "De tijd die nodig is om je video te uploaden voor bijsnijden of bewerken, hangt af van de grootte van je video. video's van betere kwaliteit met een hogere resolutie zullen meer tijd kosten om te uploaden in vergelijking met video's van lage kwaliteit met een lagere resolutie.\nHet hangt ook af van het type video dat je wilt bewerken/bijsnijden. Hoe groter het formaat van de video, hoe langer het duurt."
+        },
+        {
+            "question": "Wat is de CRF-waarde?",
+            "answer": "Constante snelheidsfactor (CRF) is een coderingsmodus die de bestandsgegevenssnelheid omhoog of omlaag aanpast om een geselecteerd kwaliteitsniveau te bereiken in plaats van een specifieke gegevenssnelheid. CRF-waarden variëren van 0 tot 51, met lagere getallen die scores van hogere kwaliteit opleveren."
+        },
+        {
+            "question": "Neemt de kwaliteit van mijn video's af na het bijsnijden?",
+            "answer": "Met de MP4-editor kunt u de kwaliteit van de video kiezen volgens uw vereisten. Als je video van hoge kwaliteit wilt, kun je een hogere resolutie kiezen en wordt de bestandsgrootte groter. Maar als je om de grootte van het bestand geeft en een compromis kunt sluiten in de grootte, kies dan een mindere resolutie.\nMet de MP4-editor kunt u ook de CRF-waarde kiezen, wat betekent dat u de resolutie en de CRF-waarde kunt kiezen volgens uw behoefte.\nCRF-waarden liggen van 0-1, waarbij een lagere CRF zorgt voor betere compressie en kwaliteit."
+        },
+        {
+            "question": "Wat zijn de beschikbare resoluties en wat is de grootte van het bestand met verschillende resoluties?",
+            "answer": "MP4-editor biedt alle standaardresoluties, d.w.z. 1080p, 720p, 480p, 360p en 240p. Houd er rekening mee dat een bestandsgrootte met een hogere resolutie groter is dan een bestand met een lagere resolutie. De grootte van het bestand hangt ook af van de lengte van de video, de resolutie, de beeldverhouding en de CRF-waarden."
+        },
+        {
+            "question": "Wat zijn coderingssnelheden?",
+            "answer": "Met de MP4-editor kunt u de coderingssnelheid kiezen, d.w.z. de snelheid waarmee u de video wilt converteren en opslaan om te downloaden. De coderingssnelheden die beschikbaar zijn met MP4-editor zijn ultrasnel, supersnel, zeer snel, sneller, snel, gemiddeld, langzaam, langzamer, erg traag.\nHoe langzamer de snelheid, hoe beter de compressie is. MP4-editor biedt een breed scala aan coderingssnelheden volgens de verschillende behoeften van onze gebruikers en zorgt ervoor dat video's van de beste kwaliteit worden geleverd voor elke bewerking die door de gebruiker wordt gemaakt."
+        },
+        {
+            "question": "Wat zijn de andere opties die beschikbaar zijn dan het bijsnijden van de MP4-video?",
+            "answer": "MP4-editor biedt veel opties. Naast het bijsnijden kun je je video bijsnijden, roteren, de resolutie van je video's wijzigen en zelfs de snelheid van je video's verhogen of verlagen.\nMP4-editor is een platform waarmee je meerdere bewerkingen op één platform kunt uitvoeren. Dat ook GRATIS!"
+        },
+        {
+            "question": " Kan ik het bestand downloaden na het bijsnijden in een andere indeling?",
+            "answer": "Met de MP4-editor kunt u uw video's bewerken volgens uw behoefte en vereisten met meerdere kenmerken en functies. U kunt de bewerkte video alleen in MP4-indeling downloaden. U kunt echter onze andere websites zoals MOV Converter gebruiken om eindelijk uw video in het gewenste formaat te converteren."
+        },
+        {
+            "question": "Wat is het verschil tussen knippen en splitsen?",
+            "answer": "Bij snijden kun je je video vanaf beide uiteinden van de hele lengte van de video knippen. Je kunt je video zoveel verkorten als je wilt vanaf het begin of het einde, of beide.\nEen video splitsen betekent dat je je video opdeelt in twee of meer delen. Na het splitsen van je video kun je individuele wijzigingen aanbrengen in videodelen en de video als één bestand opslaan."
+        },
+        {
+            "question": "Kunnen we de ongewenste delen van de video verwijderen?",
+            "answer": "Ja, u kunt de video's eenvoudig splitsen en bijsnijden volgens uw vereisten. Met de MP4-editor kun je de video in meerdere delen splitsen. Vervolgens kun je elk deel van de video individueel bewerken naar behoefte."
+        },
+        {
+            "question": "Kan ik het formaat van mijn video's wijzigen?",
+            "answer": "Je kunt de optie Videoformaat wijzigen om het formaat van je video's naar elke gewenste grootte te wijzigen."
+        },
+        {
+            "question": "Kan ik audio extraheren uit mijn videobestanden op dit platform?",
+            "answer": "MP4-editor heeft geen optie waarmee je audio uit je bestanden kunt extraheren. U kunt de functie Extraheren Audio op safevideokit.com gebruiken om audio uit uw bestanden te extraheren."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

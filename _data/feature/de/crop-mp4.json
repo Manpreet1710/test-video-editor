@@ -1,0 +1,131 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "MP4 zuschneiden",
+    "H2": "Beschneiden Sie Ihre MP4-Videos online",
+    "TITLE": "Beschneiden Sie Ihre MP4-Videos online",
+    "META": "Einfachste Möglichkeit, Ihre MP4-Videos in kürzester Zeit zuzuschneiden",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#3867d6",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Unabhängig",
+            "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne Download verwendet werden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Absolut kostenlos",
+            "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Datenschutz und Sicherheit ",
+            "content": "Unsere Website legt Wert auf die Privatsphäre ihrer Kunden. Da wir mit Cloud-Speicher /ar/beiten, werden Ihre Dateien nicht hochgeladen. Also keine Chance, einen Datenverstoß zu bekommen. Ihre Daten sind bei uns sicher!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Schnelle Ergebnisse",
+            "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein pa/ar/ Sekunden, und Sie können problemlos schnelle Ergebnisse erzielen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobe/ar/beitung ist sehr schnell und Sie können Ihre /ar/beit in kürzester Zeit erledigen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/t Zeit",
+            "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen /ar/beiten und die Konvertierung ist schnell und sp/ar/t Zeit."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "So beschneiden Sie Ihr MP4",
+        "steps": [
+            "Wählen Sie Ihre MP4-Videodatei aus oder klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive",
+            "W/ar/te geduldig bis das Video hochgeladen wird",
+            "Wähle dein Seitenverhältnis aus oder erstelle manuell dein Ernteverhältnis",
+            "Klicken Sie auf Speichern, um Ihre zugeschnittene MP4-Datei herunterzuladen",
+            "Hurra! Geniessen Sie unsere Dienstleistungen"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Ist es sicher, Zugriff auf mein Laufwerk zu gewähren?",
+            "answer": "Ja, es ist absolut sicher, uns Zugriff auf Ihr Laufwerk zu gewähren und zu gewähren. Wir werden keine Änderungen an Ihrer Website vornehmen und Ihre Dateien sind bei Ihnen sicher."
+        },
+        {
+            "question": "Wie kann ich Dateien von meinem Laufwerk/meiner Dropbox hochladen?",
+            "answer": "Klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus. Wählen Sie das Google-Konto aus, von dem aus Sie Ihr Laufwerk verknüpfen möchten. Jetzt können Sie die Dateien auswählen, die Sie hochladen möchten."
+        },
+        {
+            "question": "Was sind die verfügb/ar/en Seitenverhältnisse beim Zuschneiden?",
+            "answer": "Mit Crop MP4 können Sie Ihre Videos in mehrere Seitenverhältnisse zuschneiden, d. h. 1:1 (quadratisch), 16:9 (Querformat), 9:16, 4:3, 3:4 (Hochformat). Sie können sog/ar/ das ursprüngliche Verhältnis Ihres Videos beibehalten und Änderungen gemäß Ihren Anforderungen vornehmen, wenn Sie diese Stand/ar/d-Seitenverhältnisse nicht möchten.\nMit Crop MP4 können Sie das Video nach Ihren Wünschen zuschneiden. Sie müssen nur das Feld ziehen und anpassen und in den Bereich verschieben, den Sie behalten möchten. Crop MP4 macht das Zuschneiden von Videos sehr einfach."
+        },
+        {
+            "question": "Wird mir die Nutzung der Website in Rechnung gestellt?",
+            "answer": "Unsere Website ist absolut kostenlos und Sie können sie so oft verwenden, wie Sie möchten. Es gibt keine kostenlosen Testnutzungen, nach denen Sie für die Nutzung unserer Dienste bezahlen müssen. Wir berechnen dir nichts."
+        },
+        {
+            "question": "Muss ich ein Konto erstellen, um Crop MP4 verwenden zu können?",
+            "answer": "Auf unserer Website müssen Sie sich nicht anmelden oder ein Konto erstellen. Die Plattform ist absolut kostenlos und Sie können so viele Dateien komprimieren, wie Sie möchten."
+        },
+        {
+            "question": "Werden meine hochgeladenen Dateien auf dem Server gespeichert?",
+            "answer": "Die gesamte Ver/ar/beitung erfolgt in Ihrem Browser und es werden keine Dateien auf den Server übertragen. Daher sind Ihre Dateien zu 100% sicher."
+        },
+        {
+            "question": "Unterstützt es sowohl Android- als auch iOS-Plattformen?",
+            "answer": "Ja, unsere Website funktioniert im Browser und unterstützt daher sowohl iOS- als auch Android-Plattformen."
+        },
+        {
+            "question": "Wie kann ich mehrere Videos zuschneiden?",
+            "answer": "Mit Crop MP4 können Sie mehrere Dateien nacheinander zuschneiden. Wenn Sie eine Datei zuschneiden und auf Speichern klicken, wird das Video ver/ar/beitet. Nachdem das Video ver/ar/beitet wurde, sehen Sie die Download-Option auf dem Bildschirm. Durch Anklicken können Sie die zugeschnittene Datei herunterladen. \nUm ein weiteres Video zuzuschneiden, müssen Sie nur den Browser aktualisieren und die Option zum Hochladen von MP4 wird angezeigt. Jetzt können Sie erneut Ihre Datei auswählen, die Sie zuschneiden möchten."
+        },
+        {
+            "question": "Ist die Verwendung von Crop MP4 sicher?",
+            "answer": "Crop MP4 ist eines der sichersten und sichersten kostenlosen Online-Tools. Es ist absolut störungsfrei und macht seine /ar/beit perfekt. Gleichzeitig werden keine Benutzerdaten gespeichert. "
+        },
+        {
+            "question": "Welche Windows-Versionen unterstützt Crop MP4?",
+            "answer": "Crop MP4 ist vollständig webbasiert und bietet daher plattformübergreifende Unterstützung. Dies bedeutet, dass unser Tool alle Versionen von Windows unterstützt. Es funktioniert nicht nur unter Windows-Betriebssystem, sondern kann auch auf jedem anderen Betriebssystem /ar/beiten, das einen Browser unterstützt."
+        },
+        {
+            "question": "Wie lange dauert es, mein Video hochzuladen?",
+            "answer": "Die Zeit, die benötigt wird, um Ihr Video zum Zuschneiden oder Be/ar/beiten hochzuladen, hängt von der Größe Ihres Videos ab. Das Hochladen von Videos mit besserer Qualität und höherer Auflösung dauert länger als Videos mit geringer Qualität mit geringerer Auflösung.\nDies hängt auch von der /ar/t des Videos ab, das Sie be/ar/beiten/zuschneiden möchten. Je größer das Video ist, desto länger dauert es."
+        },
+        {
+            "question": "Kann ich die Größe meiner Videos ändern?",
+            "answer": "Durch Zuschneiden können Sie die Größe Ihrer Videos auf jede gewünschte Größe ändern. Es gibt Stand/ar/dgrößen, die Sie verwenden könnten. und wenn Sie ein eigenes Seitenverhältnis wünschen, können Sie die Größe Ihres Videos nach Ihren Wünschen ändern."
+        },
+        {
+            "question": "Ich habe den Browser versehentlich aktualisiert. Was mache ich?",
+            "answer": "Da unsere Website keine Server verwendet und Ihre Daten nicht speichert, wird die von Ihnen hochgeladene Datei nicht gespeichert. Sie müssen die Datei erneut hochladen, um sie zuzuschneiden."
+        },
+        {
+            "question": "Wird die Qualität meiner Videos nach dem Zuschneiden sinken?",
+            "answer": "Mit Crop MP4 können Sie die Qualität des Videos gemäß Ihren Anforderungen auswählen. Wenn Sie ein qualitativ hochwertiges Video wünschen, können Sie eine höhere Auflösung wählen und die Dateigröße ist größer. Wenn Sie sich jedoch für die Größe der Datei interessieren und bei der Größe Kompromisse eingehen können, wählen Sie eine geringere Auflösung.\nMit Crop MP4 können Sie auch den CRF-Wert auswählen, was bedeutet, dass Sie die Auflösung und den CRF-Wert nach Ihren Wünschen auswählen können."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "comp/ar/e_formats": [
+        "mp4"
+    ]
+}

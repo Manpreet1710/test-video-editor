@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "Інструменти MP4",
+                "links": [
+                    {
+                        "name": "Рослинництво MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/uk/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Редагувати MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/uk/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Редагування відео MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/uk/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Компресор MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/uk/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 різак",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/uk/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 триммер",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/uk/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Компрес",
+                "links": [
+                    {
+                        "name": "MOV компресор",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/uk/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Компресор MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/uk/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Відеокомпресор",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/uk/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Інструменти для відео",
+                "links": [
+                    {
+                        "name": "Кадрування відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/uk/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Змінити розмір відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/uk/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Поворот відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/uk/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Перевернути відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/uk/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "відеорізак",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/uk/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Відео розгалужувач",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/uk/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Відео-тример",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/uk/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Витягти аудіо",
+                "links": [
+                    {
+                        "name": "Витяг аудіо",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/uk/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Блог",
+            "url": "/blog"
+        }
+    ]
+}

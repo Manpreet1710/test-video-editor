@@ -1,0 +1,133 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Video sıkıştır",
+    "H2": "Videolarınızı çevrimiçi sıkıştırın",
+    "TITLE": "Videolarınızı çevrimiçi sıkıştırın",
+    "META": "Videolarınızı çevrimiçi sıkıştırmanın en kolay yolu",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'ten PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX İÇİN PDF",
+    "color": "#9c88ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/video-compress.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Kazanır",
+            "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Videonuzu nasıl sıkıştırılır?",
+        "steps": [
+            "Video dosyanızı seçin veya Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin",
+            "Video yüklenene kadar sabırla bekleyin",
+            "Sıkıştırma ayarlarınızı uygun şekilde seçin",
+            "Videonuzu indirmek için Kaydet'e tıklayın",
+            "Yaşasın! Hizmetlerimizin keyfini çıkarın"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Sürücüme erişime izin vermek güvenli mi?",
+            "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+        },
+        {
+            "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+            "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+        },
+        {
+            "question": "Video Kompresörü kullanarak videolarımı sıkıştırabilir miyim?",
+            "answer": "Video Kompresörü, herhangi bir formattaki Video dosyalarını sıkıştırmanıza izin verir. Sadece videonuzu yüklemeniz, kodlama hızını ve CRF değerini seçmeniz ve kaydetmeniz yeterlidir. Dosyanız istediğiniz boyuta göre sıkıştırılacaktır."
+        },
+        {
+            "question": "Videomun yüklenmesi ne kadar sürer?",
+            "answer": "Kırpma veya düzenleme için videonuzu yüklemek için geçen süre, videonuzun boyutuna bağlıdır. Daha yüksek çözünürlüğe sahip daha kaliteli videoların yüklenmesi daha az çözünürlüğe sahip düşük kaliteli videolara kıyasla daha fazla zaman alacaktır."
+        },
+        {
+            "question": "CRF değeri nedir?",
+            "answer": "Sabit hız faktörü (CRF), belirli bir veri hızı yerine seçilen bir kalite düzeyine ulaşmak için dosya veri hızını yukarı veya aşağı ayarlayan bir kodlama modudur. CRF değerleri 0 ile 51 arasında değişir ve daha düşük sayılar daha yüksek kaliteli puanlar sağlar."
+        },
+        {
+            "question": "Sıkıştırmadan sonra videolarımın kalitesi azalacak mı?",
+            "answer": "Bir dosyayı sıkıştırdığınızda, dosya boyutu azaltılır ve bunu yapmak için kalite cmpromised olmalıdır. Kaliteli bir şekilde kaybetmediğinizden emin olmak için, Video Kompresörü, gereksiniminize göre videonun kalitesini seçmenize izin verir. Yüksek kaliteli video istiyorsanız, daha yüksek bir çözünürlük seçebilir ve dosya boyutu daha büyük olacaktır. Ancak, dosyanın boyutunu önemsiyorsanız ve boyutta ödün verebiliyorsanız, daha az çözünürlük seçti.\nVideo Kompresörü ayrıca CRF değerini seçmenize izin verir, bu da ihtiyacınız olan çözünürlüğü ve CRF değerini seçebileceğiniz anlamına gelir.\nCRF değerleri, daha düşük bir CRF'nin daha iyi sıkıştırma ve kalite sağladığı 0-1 arasındadır."
+        },
+        {
+            "question": "Mevcut çözünürlükler nelerdir ve farklı çözünürlüklerin dosyasının boyutu ne olacak?",
+            "answer": "Video Kompresörü, 1080p, 720p, 480p, 360p ve 240p gibi tüm standart çözünürlükleri sağlar. Daha yüksek çözünürlüklü dosya boyutunun daha düşük çözünürlüklü bir dosyadan daha fazla olacağını unutmayın. Dosyanın boyutu, videonun uzunluğuna, çözünürlüğe, en boy oranına ve CRF değerlerine de bağlı olacaktır."
+        },
+        {
+            "question": "Kodlama hızları nedir?",
+            "answer": "Video Kompresörü, kodlama hızını seçmenize izin verir, yani videoyu dönüştürmek ve indirmek için kaydetmek istediğiniz hızı. Video Kompresör ile kullanılabilen kodlama hızları ultra hızlı, süper hızlı, çok hızlı, hızlı, hızlı, orta, yavaş, daha yavaş, çok yavaştır.\nHız ne kadar yavaş olursa, sıkıştırma o kadar iyi olur. Video Kompresörü, kullanıcılarımızın değişen ihtiyaçlarına göre geniş bir kodlama hızı yelpazesi sunar ve kullanıcı tarafından yapılan her düzenleme için en iyi kalitede videoları sağlamayı sağlar."
+        },
+        {
+            "question": "Web sitesini kullanmak için ücret alınacak mı?",
+            "answer": "Web sitemiz tamamen ücretsizdir ve istediğiniz kadar kullanabilirsiniz. Ücretsiz deneme kullanımı yoktur, bundan sonra hizmetlerimizi kullanmak için ödeme yapmak zorunda kalacaksınız. Sana hiçbir şey ödemeyeceğiz."
+        },
+        {
+            "question": "Video kompresörünü kullanmak için bir hesap oluşturmam gerekecek mi?",
+            "answer": "Web sitemiz kaydolmanızı veya bir hesap oluşturmanızı gerektirmez. Platform tamamen ücretsizdir ve istediğiniz kadar dosyayı sıkıştırabilirsiniz."
+        },
+        {
+            "question": "Video kompresörü kullanmak güvenli mi?",
+            "answer": "Evet, dosyalarınızı kaydetmediğimiz için Video kompresörünü kullanmanız% 100 güvenlidir ve web sitesinde üçüncü taraf reklamları yoktur. Verileriniz bizimle güvende olacak. "
+        },
+        {
+            "question": "Yüklenen dosyalarım sunucuya kaydedilecek mi?",
+            "answer": "Tüm işlemler tarayıcınızda yapılır ve sunucuya hiçbir dosya aktarılmaz. Bu nedenle dosyalarınız% 100 güvenlidir."
+        },
+        {
+            "question": "Dosyayı başka bir formatta sıkıştırdıktan sonra indirebilir miyim?",
+            "answer": "Video Kompresörü, videolarınızı ihtiyaçlarınıza ve gereksinimlerinize göre düzenlemenize olanak tanır ve birden fazla özellik ve işlev sağlar. Düzenlenen videoyu videonuzun orijinal biçiminde indirebilirsiniz. Ancak, nihayet istediğiniz formatta videonuzu dönüştürmek için, Video Converter gibi diğer web sitelerimizi kullanabilirsiniz."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "MP4-hulpmiddelen",
+                "links": [
+                    {
+                        "name": "MP4 bijsnijden",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/nl/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 bewerken",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/nl/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-video bewerken",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/nl/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-compressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/nl/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 snijder",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/nl/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 trimmer",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/nl/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Comprimeren",
+                "links": [
+                    {
+                        "name": "MOV-compressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/nl/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-compressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/nl/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videocompressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/nl/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Hulpmiddelen voor video",
+                "links": [
+                    {
+                        "name": "Video bijsnijden",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/nl/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "De grootte van video wijzigen",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/nl/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video roteren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/nl/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video omdraaien",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/nl/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "video-snijder",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/nl/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video splitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/nl/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video-trimmer",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/nl/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Audio extraheren",
+                "links": [
+                    {
+                        "name": "Audio extraheren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/nl/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        }
+    ]
+}

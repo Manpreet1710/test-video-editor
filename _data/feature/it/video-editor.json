@@ -1,0 +1,137 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Editor video",
+    "H2": "Modifica i tuoi video online",
+    "TITLE": "Modifica i tuoi video online",
+    "META": "Il modo più semplice per modificare i tuoi video online",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX DI PDF",
+    "color": "#ffa502",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-video.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indipendente",
+            "content": "Il nostro sito web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza bisogno di download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Assolutamente gratuito",
+            "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy e sicurezza ",
+            "content": "Il nostro sito web dà la priorità alla privacy dei propri clienti. Poiché lavoriamo con il cloud storage, i tuoi file non vengono caricati. Quindi, nessuna possibilità di ottenere alcuna violazione dei dati. I tuoi dati sono al sicuro con noi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Veloce ed efficiente",
+            "content": "L'editing video è molto veloce e puoi portare a termine il tuo lavoro in pochissimo tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Risparmia tempo",
+            "content": "Il nostro sito Web è indipendente dalla piattaforma, può funzionare su laptop, schede e telefoni e la conversione è rapida, consente di risparmiare tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Come modificare il video",
+        "steps": [
+            "Scegli il tuo file video o fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive",
+            "Attendi pazientemente fino al caricamento del video",
+            "Scegli le impostazioni appropriate nell'area di lavoro",
+            "Fai clic su Salva per scaricare il video",
+            "Evviva! Goditi i nostri servizi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "È sicuro consentire l'accesso all'unità?",
+            "answer": "Sì, è assolutamente sicuro consentirci di accedere alla tua unità. Non apporteremo modifiche al tuo sito e i tuoi file saranno al sicuro con te."
+        },
+        {
+            "question": "Come posso caricare file dalla mia unità/dropbox?",
+            "answer": "Fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive. Seleziona l'account Google da cui vuoi collegare l'unità. Ora puoi selezionare i file che vuoi caricare."
+        },
+        {
+            "question": "Quali sono le proporzioni disponibili durante il ritaglio?",
+            "answer": "L'editor video ti consente di ritagliare il tuo video in più proporzioni, ad esempio 1:1 (quadrato), 16:9 (orizzontale), 9:16, 4:3, 3:4 (verticale). Puoi anche mantenere il rapporto originale del tuo video e apportare modifiche in base alle tue esigenze se non desideri queste proporzioni standard.\nL'editor video ti consente di ritagliare il video secondo le tue esigenze. È sufficiente trascinare e regolare la casella e spostarla nell'area che si desidera mantenere. L'editor video semplifica il ritaglio dei video."
+        },
+        {
+            "question": "Quanto tempo ci vorrà per caricare il mio video?",
+            "answer": "Il tempo necessario per caricare il video per il ritaglio o la modifica dipende dalle dimensioni del video. Il caricamento di video di qualità migliore con una risoluzione più elevata richiederà più tempo rispetto ai video di bassa qualità con una risoluzione inferiore.\nDipende anche dal tipo di video che vuoi modificare/ritagliare. Maggiore è la dimensione del video, più tempo ci vorrà."
+        },
+        {
+            "question": "Qual è il valore CRF?",
+            "answer": "Il fattore di velocità costante (CRF) è una modalità di codifica che regola la velocità dei dati del file verso l'alto o verso il basso per ottenere un livello di qualità selezionato anziché una velocità dati specifica. I valori CRF vanno da 0 a 51, con numeri più bassi che offrono punteggi di qualità più elevati."
+        },
+        {
+            "question": "La qualità dei miei video diminuirà dopo il ritaglio?",
+            "answer": "L'editor video ti consente di scegliere la qualità del video secondo le tue esigenze. Se desideri video di alta qualità, puoi scegliere una risoluzione più alta e le dimensioni del file saranno maggiori. Ma se ti interessa la dimensione del file e puoi comprometterne le dimensioni, scegli una risoluzione inferiore.\nL'editor video consente inoltre di scegliere il valore CRF, il che significa che è possibile scegliere la risoluzione e il valore CRF secondo le proprie esigenze.\nI valori CRF sono compresi tra 0 e 1, dove un CRF più basso fornisce una compressione e una qualità migliori."
+        },
+        {
+            "question": "Quali sono le risoluzioni disponibili e quali saranno le dimensioni del file di diverse risoluzioni?",
+            "answer": "L'editor video fornisce tutte le risoluzioni standard, ovvero 1080p, 720p, 480p, 360p e 240p. Tieni presente che le dimensioni di un file con risoluzione più elevata saranno superiori a quelle di un file con risoluzione inferiore. La dimensione del file dipenderà anche dalla lunghezza del video, dalla risoluzione, dalle proporzioni e dai valori CRF."
+        },
+        {
+            "question": "Quali sono le velocità di codifica?",
+            "answer": "L'editor video ti consente di scegliere la velocità di codifica, ovvero la velocità con cui vuoi convertire il video e salvarlo per il download. Le velocità di codifica disponibili con l'editor video sono ultraveloci, superveloci, molto veloci, veloci, veloci, medie, lente, lente, molto lente.\nPiù lenta è la velocità, migliore è la compressione. L'editor video offre un'ampia gamma di velocità di codifica in base alle diverse esigenze dei nostri utenti e garantisce di fornire la migliore qualità video per ogni modifica effettuata dall'utente."
+        },
+        {
+            "question": " Quali sono le altre opzioni disponibili oltre al ritaglio del video video?",
+            "answer": "L'editor video offre molte opzioni. Oltre al ritaglio, puoi tagliare il tuo video, ruotarlo, modificare la risoluzione dei tuoi video e persino aumentare o diminuire la velocità dei tuoi video.\nL'editor video è una piattaforma che consente di eseguire più modifiche su un'unica piattaforma. Anche questo è GRATIS!"
+        },
+        {
+            "question": "Posso estrarre l'audio dai miei file video su questa piattaforma?",
+            "answer": "L'editor video non ha un'opzione in cui è possibile estrarre l'audio dai file. Puoi utilizzare la funzione Estrai audio su safevideokit.com per estrarre l'audio dai tuoi file."
+        },
+        {
+            "question": "Posso ridimensionare i miei video?",
+            "answer": "Puoi utilizzare l'opzione ridimensiona video per ridimensionare i video in base alle dimensioni desiderate."
+        },
+        {
+            "question": "Possiamo rimuovere le parti indesiderate del video?",
+            "answer": "Sì, puoi dividere e tagliare facilmente i video secondo le tue esigenze. L'editor video consente di dividere il video in più parti. Quindi puoi modificare singolarmente ogni parte del video secondo le tue esigenze."
+        },
+        {
+            "question": " Qual è la differenza tra trim e split?",
+            "answer": "Il taglio consente di tagliare il video da entrambe le estremità dell'intera lunghezza del video. Puoi accorciare il tuo video quanto vuoi dall'inizio o dalla fine o anche da entrambi.\nDividere un video significa dividere il video in due o più parti. Dopo aver diviso il video, è possibile apportare modifiche individuali alle parti video e salvare il video come un unico file."
+        },
+        {
+            "question": "Posso scaricare il file dopo averlo ritagliato in qualsiasi altro formato?",
+            "answer": "L'editor video ti consente di modificare i tuoi video secondo le tue esigenze e requisiti fornendo molteplici attributi e funzioni. È possibile scaricare il video modificato solo in formato video. Tuttavia, puoi utilizzare altri nostri siti Web come Video Converter, per convertire finalmente il tuo video nel formato desiderato."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "Language": "Bahasa Indonesia",
+    "htmlLangAtt": "id",
+    "H1": "Membalik video",
+    "H2": "Membalik video Anda secara online",
+    "TITLE": "Membalik video Anda secara online",
+    "META": "Cara termudah untuk membalik video Anda secara online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX ke PDF",
+    "BREADCRUMB_LABEL": "DOCX KE PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/flip.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independen",
+            "content": "Situs web kami adalah platform independen. Ia bekerja pada kedua Window dan iOS sistem operasi dan dapat digunakan tanpa download diperlukan."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Benar-benar Gratis",
+            "content": "Konversi ini benar-benar gratis, sehingga Anda dapat mengkonversi file sebanyak yang Anda inginkan."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privasi dan Keamanan ",
+            "content": "Situs web kami memprioritaskan privasi pelanggannya. Karena kami bekerja dengan penyimpanan cloud file Anda tidak bisa diunggah. Jadi, tidak ada kesempatan untuk mendapatkan pelanggaran data. Data Anda aman bersama kami!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hasil Cepat",
+            "content": "Proses konversi hampir tidak memakan waktu beberapa detik, tergantung pada ukuran file Anda, dan Anda bisa mendapatkan hasil yang cepat dengan mudah."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Cepat dan efisien",
+            "content": "Pengeditan video sangat cepat dan Anda bisa menyelesaikan pekerjaan Anda dalam waktu singkat"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Menghemat Waktu",
+            "content": "Situs web kami adalah platform independen, dapat bekerja pada laptop, tab dan telepon dan konversi cepat, menghemat waktu."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Cara membalik video",
+        "steps": [
+            "Pilih fail video anda atau Klik pada anak panah jatuh ke bawah dan pilih Dropbox/Google Drive",
+            "Tunggu dengan sabar sampai video diunggah",
+            "Pilih opsi flip pilihan Anda",
+            "Klik simpan untuk memuat turun video anda",
+            "Hore! Nikmati layanan kami"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Apakah aman untuk mengizinkan akses ke drive saya?",
+            "answer": "Ya, itu benar-benar aman untuk memungkinkan dan memberi kami akses ke drive Anda. Kami tidak akan membuat perubahan apa pun pada situs Anda dan dfiles Anda akan aman bersama Anda."
+        },
+        {
+            "question": "Bagaimana cara mengunggah file dari drive/dropbox saya?",
+            "answer": "Klik pada panah drop down dan pilih Dropbox/Google Drive. Pilih akun Google dari tempat Anda ingin menautkan hard disk Anda. Sekarang Anda bisa memilih file yang ingin Anda unggah."
+        },
+        {
+            "question": "Dapatkah saya menggunakan kedua flip X dan flip Y secara bersamaan?",
+            "answer": "Ya, video Flip memungkinkan Anda membalik jendela dengan berbagai cara, dan Anda dapat menggunakan Flip X dan Flip Y, beberapa kali, hingga video Anda dibalik sesuai keinginan Anda."
+        },
+        {
+            "question": "Mengapa butuh waktu lama untuk memproses file saya?",
+            "answer": "Waktu yang dibutuhkan untuk membalik dan memproses video Anda tergantung pada ukuran, rasio aspek, dan jumlah flips yang telah Anda lakukan. Jika ukuran file Anda lebih besar, itu akan memakan waktu lebih lama dari file biasa."
+        },
+        {
+            "question": "Apakah Flip Video aman digunakan?",
+            "answer": "Flip Video adalah salah satu alat online gratis yang paling aman dan paling aman. Ini benar-benar bebas masalah dan melakukan tugasnya dengan baik. Pada saat yang sama, itu tidak menyimpan salah satu data pengguna. "
+        },
+        {
+            "question": "Berapa lama waktu yang dibutuhkan untuk mengunggah video saya?",
+            "answer": "Waktu yang dibutuhkan untuk mengunggah video Anda untuk dipotong atau diedit tergantung pada ukuran video Anda. Video berkualitas lebih baik dengan resolusi yang lebih tinggi akan memakan waktu lebih lama untuk mengunggah dibandingkan dengan video berkualitas rendah dengan resolusi lebih rendah."
+        },
+        {
+            "question": "Apakah kualitas video saya akan berkurang setelah membalik?",
+            "answer": "Tidak, kualitas video tetap seperti sebelum membalik video. Flip horizontal maupun vertikal tidak memengaruhi kualitas video Anda dan akan seperti saat diunggah."
+        },
+        {
+            "question": "Bagaimana cara membalik beberapa video?",
+            "answer": "Flip Video memungkinkan Anda membalik beberapa file, satu demi satu. Saat Anda membalik satu file dan klik simpan, video akan diproses. Setelah video telah proses, Anda dapat melihat opsi download di layar. Dengan mengkliknya Anda bisa mendownload file yang dibalik. Untuk membalik video lain, Anda hanya perlu menyegarkan browser dan Anda akan melihat opsi upload video. Sekarang Anda dapat kembali memilih file Anda yang ingin Anda flip."
+        },
+        {
+            "question": "Saya menyegarkan browser karena kesalahan. Apa yang harus saya lakukan?",
+            "answer": "Karena situs web kami tidak menggunakan server apapun, dan tidak menyimpan data Anda, file yang telah Anda unggah, tidak akan disimpan. Anda perlu mengunggah ulang file untuk membalikkannya."
+        },
+        {
+            "question": "Apakah saya akan dikenakan biaya untuk menggunakan situs web?",
+            "answer": "Situs web kami benar-benar gratis dan Anda dapat menggunakannya sebanyak yang Anda mau. Tidak ada penggunaan uji coba gratis, setelah itu Anda harus membayar untuk menggunakan layanan kami. Kami tidak akan mengenakan biaya apapun."
+        },
+        {
+            "question": "Apakah saya harus membuat akun untuk menggunakan Flip Video?",
+            "answer": "Situs web kami tidak mengharuskan Anda untuk mendaftar atau membuat akun. Platform ini benar-benar gratis dan Anda bisa memampatkan file sebanyak yang Anda mau."
+        },
+        {
+            "question": "Apakah file yang diunggah saya akan disimpan di server?",
+            "answer": "Semua pemrosesan dilakukan pada browser Anda, dan tidak ada file yang ditransfer ke server. Oleh karena itu file Anda 100% aman."
+        },
+        {
+            "question": "Apakah mendukung platform Android dan iOS?",
+            "answer": "Ya, situs web kami bekerja di browser, dan karena itu mendukung platform iOS dan Android"
+        },
+        {
+            "question": "Versi Windows mana yang mendukung Flip Video?",
+            "answer": "Flip video benar-benar berbasis web dan karena itu menyediakan dukungan cross-platform. Ini berarti alat kami mendukung semua versi Windows. Ini tidak hanya bekerja pada sistem operasi Windows tetapi dapat bekerja pada sistem operasi lain, yang mendukung browser."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

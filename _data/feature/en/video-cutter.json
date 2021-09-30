@@ -10,7 +10,7 @@
   "BREADCRUMB_LABEL": "DOCX TO PDF",
   "color": "#ff615c",
   "height": "300px",
-  "img": "./assets/FeatureIcons_featurePage/video-cut.svg",
+  "img": "/assets/FeatureIcons_featurePage/video-cut.svg",
   "imgwidth": "30px",
   "imgheight": "30px",
   "imgalt": "altvalue",

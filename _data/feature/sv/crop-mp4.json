@@ -1,0 +1,131 @@
+{
+    "Language": "Svenska",
+    "htmlLangAtt": "sv",
+    "H1": "Beskär MP4",
+    "H2": "Beskär dina MP4-videor online",
+    "TITLE": "Beskär dina MP4-videor online",
+    "META": "Det enklaste sättet att beskära dina MP4-videor på nolltid",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX till PDF",
+    "BREADCRUMB_LABEL": "DOCX TILL PDF",
+    "color": "#3867d6",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Oberoende",
+            "content": "Vår webbplats är plattformsoberoende. Det fungerar på både Windows- och iOS-operativsystem och kan användas utan några nedladdningar som krävs."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen är helt gratis, så du kan konvertera så många filer som du vill."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Sekretess och säkerhet ",
+            "content": "Vår webbplats prioriterar kundernas integritet. Eftersom vi arbetar med molnlagring laddas inte dina filer upp. Så, ingen chans att få någon dataintrång. Dina uppgifter är säkra hos oss!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snabba resultat",
+            "content": "Konverteringsprocessen tar knappt några sekunder, beroende på filstorleken, och du kan enkelt få snabba resultat."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snabb och effektiv",
+            "content": "Videoredigering är väldigt snabb och du kan få jobbet gjort på nolltid."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sparar tid",
+            "content": "Vår webbplats är plattformsoberoende, kan fungera på bärbara datorer, flikar och telefoner och konverteringen är snabb, det sparar tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Hur man beskär din MP4",
+        "steps": [
+            "Välj din MP4-videofil eller klicka på pilen och välj Dropbox/Google Drive",
+            "Vänta tålmodigt tills videon laddas upp",
+            "Välj beskärningsproportioner eller skapa beskärningsförhållandet manuellt",
+            "Klicka på spara för att ladda ner din beskurna MP4-fil",
+            "Hurra! Njut av våra tjänster"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Är det säkert att tillåta åtkomst till min enhet?",
+            "answer": "Ja, det är helt säkert att tillåta och ge oss tillgång till din enhet. Vi kommer inte att göra några ändringar på din webbplats och dina dfiles kommer att vara säkra hos dig."
+        },
+        {
+            "question": "Hur laddar jag upp filer från min enhet/dropbox?",
+            "answer": "Klicka på rullgardinsmenyn och välj Dropbox/Google Drive. Välj Google-kontot där du vill länka din enhet. Nu kan du välja de filer som du vill ladda upp."
+        },
+        {
+            "question": "Vilka är de tillgängliga bildförhållandena vid beskärning?",
+            "answer": "Beskär MP4 låter dig beskära dina videor i flera bildförhållanden, dvs. 1:1 (kvadrat), 16:9 (liggande), 9:16, 4:3, 3:4 (stående). Du kan till och med behålla videons ursprungliga förhållande och göra ändringar enligt dina krav om du inte vill ha dessa standardformat.\nBeskär MP4 kan du beskära videon enligt dina behov. Du behöver bara dra och justera rutan och flytta den till det område som du vill behålla. Beskär MP4 gör beskärning videor mycket enkelt."
+        },
+        {
+            "question": "Kommer jag att debiteras för att använda webbplatsen?",
+            "answer": "Vår hemsida är helt gratis och du kan använda den så många gånger du vill. Det finns ingen gratis provanvändning, varefter du måste betala för att använda våra tjänster. Vi kommer inte att debitera dig något."
+        },
+        {
+            "question": "Måste jag skapa ett konto för att använda Beskär MP4?",
+            "answer": "Vår webbplats kräver inte att du registrerar dig eller skapar ett konto. Plattformen är helt gratis och du kan komprimera så många filer som du vill."
+        },
+        {
+            "question": "Kommer mina uppladdade filer att sparas på servern?",
+            "answer": "All bearbetning sker i din webbläsare och inga filer överförs till servern. Därför är dina filer 100% säkra."
+        },
+        {
+            "question": "Stöder den både Android- och iOS-plattformar?",
+            "answer": "Ja, vår webbplats fungerar i webbläsaren och stöder därför både iOS- och Android-plattformar."
+        },
+        {
+            "question": "Hur beskär jag flera videor?",
+            "answer": "Beskär MP4 kan du beskära flera filer, en efter en. När du beskär en fil och klickar på spara, bearbetas videon. När videon har bearbetats kan du se nedladdningsalternativet på skärmen. Genom att klicka på den kan du ladda ner den beskurna filen. \nFör att beskära en annan video behöver du bara uppdatera webbläsaren och du kommer att se uppladdning MP4-alternativet. Nu kan du återigen välja filen som du vill beskära."
+        },
+        {
+            "question": "Är det säkert att använda Crop MP4?",
+            "answer": "Crop MP4 är en av de säkraste och säkraste gratis online-verktyg. Det är helt problemfritt och gör sitt jobb perfekt. Samtidigt sparar det inte någon av användardata. "
+        },
+        {
+            "question": "Vilka Windows-versioner stöder Crop MP4?",
+            "answer": "Beskär MP4 är helt webbaserat och ger därför plattformsoberoende stöd. Detta innebär att vårt verktyg stöder alla versioner av Windows. Det fungerar inte bara på Windows-operativsystem, men kan fungera på något annat operativsystem, som stöder en webbläsare."
+        },
+        {
+            "question": "Hur lång tid tar det att ladda upp min video?",
+            "answer": "Hur lång tid det tar att ladda upp videon för beskärning eller redigering beror på videons storlek. Bättre kvalitet videor med högre upplösning tar längre tid att ladda upp jämfört med lågkvalitativa videor med lägre upplösning.\nDet beror också på vilken typ av video du vill redigera/beskära. Ju större storleken på videon desto längre tid tar det."
+        },
+        {
+            "question": "Kan jag ändra storlek på mina videor?",
+            "answer": "Genom att beskära kan du ändra storlek på dina videor till vilken storlek du vill. Det finns standardstorlekar tillgängliga som du kan använda. och om du vill ha ditt eget bildförhållande kan du ändra storlek på din video efter eget tycke."
+        },
+        {
+            "question": "Jag uppdaterade webbläsaren av misstag. Vad ska jag göra?",
+            "answer": "Eftersom vår webbplats inte använder några servrar, och inte lagrar dina data, sparas inte filen som du har laddat upp. Du måste ladda upp filen igen för att beskära den."
+        },
+        {
+            "question": "Kommer kvaliteten på mina videor att minska efter beskärning?",
+            "answer": "Beskär MP4 kan du välja kvaliteten på videon enligt dina krav. Om du vill ha högkvalitativ video kan du välja en högre upplösning och filstorleken blir större. Men om du bryr dig om filens storlek och kan kompromissa i storleken väljer du en mindre upplösning.\nMed Beskär MP4 kan du också välja CRF-värdet, vilket innebär att du kan välja upplösning och CRF-värde enligt dina behov."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

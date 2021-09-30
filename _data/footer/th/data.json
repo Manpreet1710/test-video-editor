@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "เราทำให้การตัดต่อวิดีโอเป็นเรื่องง่าย",
+    "companytitle": "บริษัท",
+    "producttitle": "ผลิตภัณฑ์",
+    "networksitestitle": "ไซต์เครือข่าย",
+    "company": [
+        {
+            "name": "เกี่ยวกับ",
+            "url": "/th/about"
+        },
+        {
+            "name": "ความช่วยเหลือ",
+            "url": "/th/help"
+        },
+        {
+            "name": "บล็อก",
+            "url": "/th/blog"
+        },
+        {
+            "name": "ข้อกำหนดและเงื่อนไข",
+            "url": "/th/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "ครอบตัด MP4",
+            "description": "ครอบตัดวิดีโอ MP4 ใด ๆ",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/th/crop-mp4"
+        },
+        {
+            "name": "ครอบตัดวิดีโอ",
+            "description": "ครอบตัดวิดีโอใดๆ",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/th/crop-video"
+        },
+        {
+            "name": "ตัวแก้ไข MP4",
+            "description": "แก้ไขวิดีโอ MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/th/edit-mp4-video"
+        },
+        {
+            "name": "พลิกวิดีโอ",
+            "description": "พลิกวิดีโอใดก็ได้",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/th/flip-video"
+        },
+        {
+            "name": "คอมเพรสเซอร์ MOV",
+            "description": "บีบอัดวิดีโอ MOV ใด ๆ",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/mov-compressor"
+        },
+        {
+            "name": "คอมเพรสเซอร์ MP",
+            "description": "บีบอัดวิดีโอ MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/mp4-compressor"
+        },
+        {
+            "name": "เครื่องตัด MP4",
+            "description": "ตัดวิดีโอ MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/mp4-cutter"
+        },
+        {
+            "name": "โปรแกรมตัดต่อวิดีโอ",
+            "description": "แก้ไขวิดีโอใดๆ",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/th/video-editor"
+        },
+        {
+            "name": "เครื่องตัดแต่ง MP4",
+            "description": "ตัดแต่งวิดีโอ MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/mp4-trimmer"
+        },
+        {
+            "name": "ปรับขนาดวิดีโอ",
+            "description": "ปรับขนาดวิดีโอ",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/th/resize-video"
+        },
+        {
+            "name": "คอมเพรสเซอร์วิดีโอ",
+            "description": "บีบอัดวิดีโอใด ๆ",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/th/video-compressor"
+        },
+        {
+            "name": "เครื่องตัดวิดีโอ",
+            "description": "ตัดวิดีโอใดก็ได้",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-cutter"
+        },
+        {
+            "name": "หมุนวิดีโอ",
+            "description": "หมุนวิดีโอใดก็ได้",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/th/video-rotater"
+        },
+        {
+            "name": "ตัวแยกสัญญาณวิดีโอ",
+            "description": "แยกวิดีโอใดก็ได้",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-splitter"
+        },
+        {
+            "name": "เครื่องตัดแต่งวิดีโอ",
+            "description": "ตัดแต่งวิดีโอใดๆ",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/th/video-trimmer"
+        },
+        {
+            "name": "แยกวิดีโอ",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/th/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "เฟสบุ๊ค"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "YouTube"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "Instagram"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "ลิงค์ดิน"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "วิตเตอร์"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "ข้อกำหนดและเงื่อนไข",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "นโยบายความเป็นส่วนตัว",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "ติดต่อเรา",
+            "url": "/contact"
+        },
+        {
+            "name": "ผู้สละสิทธิ์",
+            "url": "/disclaimer"
+        }
+    ]
+}

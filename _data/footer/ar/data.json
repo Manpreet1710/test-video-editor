@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "نجعل تحرير الفيديو أمرًا سهلاً.",
+    "companytitle": "شركة",
+    "producttitle": "المنتج",
+    "networksitestitle": "مواقع الشبكة",
+    "company": [
+        {
+            "name": "حول",
+            "url": "/ar/about"
+        },
+        {
+            "name": "مساعدة",
+            "url": "/ar/help"
+        },
+        {
+            "name": "مدونة",
+            "url": "/ar/blog"
+        },
+        {
+            "name": "الشروط والأحكام",
+            "url": "/ar/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "المحاصيل MP4",
+            "description": "اقتصاص أي فيديو MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/ar/crop-mp4"
+        },
+        {
+            "name": "فيديو المحاصيل",
+            "description": "اقتصاص أي فيديو",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/ar/crop-video"
+        },
+        {
+            "name": "محرر MP4",
+            "description": "تحرير أي فيديو MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/ar/edit-mp4-video"
+        },
+        {
+            "name": "فيديو فليب",
+            "description": "اقلب أي فيديو",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/ar/flip-video"
+        },
+        {
+            "name": "ضاغط MOV",
+            "description": "ضغط أي فيديو MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/mov-compressor"
+        },
+        {
+            "name": "ضاغط MP4",
+            "description": "ضغط أي مقاطع فيديو MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/mp4-compressor"
+        },
+        {
+            "name": "قاطع MP4",
+            "description": "قص أي فيديو MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/mp4-cutter"
+        },
+        {
+            "name": "محرر فيديو",
+            "description": "تحرير أي فيديو",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/ar/video-editor"
+        },
+        {
+            "name": "ماكينة تشذيب MP4",
+            "description": "تقليم أي فيديو MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/mp4-trimmer"
+        },
+        {
+            "name": "تغيير حجم الفيديو",
+            "description": "تغيير حجم أي فيديو",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/ar/resize-video"
+        },
+        {
+            "name": "ضاغط فيديو",
+            "description": "ضغط أي فيديو",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/video-compressor"
+        },
+        {
+            "name": "قاطع الفيديو",
+            "description": "قص أي فيديو",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-cutter"
+        },
+        {
+            "name": "جهاز دوراتر الفيديو",
+            "description": "قم بتدوير أي فيديو",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/ar/video-rotater"
+        },
+        {
+            "name": "مقسم الفيديو",
+            "description": "تقسيم أي فيديو",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-splitter"
+        },
+        {
+            "name": "أداة تشذيب الفيديو",
+            "description": "تقليم أي فيديو",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-trimmer"
+        },
+        {
+            "name": "استخراج الفيديو",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/ar/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "الفيسبوك"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "يوتيوب"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "إنستغرام"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "لينكدين"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "تويتر"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "الشروط والأحكام",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "سياسة الخصوصية",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "اتصل بنا",
+            "url": "/contact"
+        },
+        {
+            "name": "إخلاء المسؤولية",
+            "url": "/disclaimer"
+        }
+    ]
+}

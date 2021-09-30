@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "Ferramentas MP4",
+                "links": [
+                    {
+                        "name": "Cortar MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/pt/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Editar MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/pt/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Editar vídeo MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/pt/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "compressor MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/pt/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Cortador MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/pt/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Aparador MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/pt/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Comprimir",
+                "links": [
+                    {
+                        "name": "Compressor MOV",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/pt/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "compressor MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/pt/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "compressor de vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/pt/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Ferramentas de vídeo",
+                "links": [
+                    {
+                        "name": "Vídeo de recorte",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/pt/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/pt/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Girar vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/pt/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Vídeo flip",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/pt/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "cortador de vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/pt/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Divisor de vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/pt/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Aparador de vídeo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/pt/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Extrair áudio",
+                "links": [
+                    {
+                        "name": "Extrair áudio",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/pt/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        }
+    ]
+}
