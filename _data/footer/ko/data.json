@@ -7,19 +7,19 @@
     "company": [
         {
             "name": "소개",
-            "url": "/ko/about"
+            "url": "/about"
         },
         {
             "name": "도움말",
-            "url": "/ko/help"
+            "url": "/help"
         },
         {
             "name": "블로그",
-            "url": "/ko/blog"
+            "url": "/blog"
         },
         {
             "name": "약관 및 조건",
-            "url": "/ko/terms-and-conditions"
+            "url": "/terms-and-conditions"
         }
     ],
     "product": [
@@ -28,110 +28,110 @@
             "description": "모든 MP4 비디오 자르기",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/ko/crop-mp4"
+            "url": "ko/crop-mp4"
         },
         {
             "name": "비디오 자르기",
             "description": "모든 동영상 자르기",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/ko/crop-video"
+            "url": "ko/crop-video"
         },
         {
             "name": "MP4 편집기",
             "description": "모든 MP4 비디오 편집",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/ko/edit-mp4-video"
+            "url": "ko/edit-mp4-video"
         },
         {
             "name": "플립 비디오",
             "description": "모든 동영상 뒤집기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "/ko/flip-video"
+            "url": "ko/flip-video"
         },
         {
             "name": "MOV 압축기",
             "description": "모든 MOV 비디오 압축",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ko/mov-compressor"
+            "url": "ko/mov-compressor"
         },
         {
             "name": "MP4 압축기",
             "description": "모든 MP4 비디오 압축",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ko/mp4-compressor"
+            "url": "ko/mp4-compressor"
         },
         {
             "name": "MP4 커터",
             "description": "모든 MP4 비디오 잘라내기",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ko/mp4-cutter"
+            "url": "ko/mp4-cutter"
         },
         {
             "name": "비디오 편집기",
             "description": "모든 비디오 편집",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/ko/video-editor"
+            "url": "ko/video-editor"
         },
         {
             "name": "MP4 트리머",
             "description": "모든 MP4 비디오 트리밍",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ko/mp4-trimmer"
+            "url": "ko/mp4-trimmer"
         },
         {
             "name": "비디오 크기 조정",
             "description": "모든 비디오 크기 조정",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "/ko/resize-video"
+            "url": "ko/resize-video"
         },
         {
             "name": "비디오 압축기",
             "description": "모든 비디오 압축",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ko/video-compressor"
+            "url": "ko/video-compressor"
         },
         {
             "name": "비디오 커터",
             "description": "모든 동영상 잘라내기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ko/video-cutter"
+            "url": "ko/video-cutter"
         },
         {
             "name": "비디오 로테이터",
             "description": "모든 동영상 회전",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "/ko/video-rotater"
+            "url": "ko/video-rotater"
         },
         {
             "name": "비디오 스플리터",
             "description": "모든 동영상 분할",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ko/video-splitter"
+            "url": "ko/video-splitter"
         },
         {
             "name": "비디오 트리머",
             "description": "모든 비디오 다듬기",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ko/video-trimmer"
+            "url": "ko/video-trimmer"
         },
         {
             "name": "비디오 추출",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "/ko/extract-audio"
+            "url": "ko/extract-audio"
         }
     ],
     "networkSites": [],

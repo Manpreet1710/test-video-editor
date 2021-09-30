@@ -7,19 +7,19 @@
     "company": [
         {
             "name": "バージョン情報",
-            "url": "/ja/about"
+            "url": "/about"
         },
         {
             "name": "ヘルプ",
-            "url": "/ja/help"
+            "url": "/help"
         },
         {
             "name": "ブログ",
-            "url": "/ja/blog"
+            "url": "/blog"
         },
         {
             "name": "利用規約",
-            "url": "/ja/terms-and-conditions"
+            "url": "/terms-and-conditions"
         }
     ],
     "product": [
@@ -28,110 +28,110 @@
             "description": "任意の MP4 ビデオを切り抜く",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/ja/crop-mp4"
+            "url": "ja/crop-mp4"
         },
         {
             "name": "動画のクロップ",
             "description": "どんな動画でも切り抜く",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/ja/crop-video"
+            "url": "ja/crop-video"
         },
         {
             "name": "MP4エディター",
             "description": "任意の MP4 ビデオを編集する",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/ja/edit-mp4-video"
+            "url": "ja/edit-mp4-video"
         },
         {
             "name": "フリップビデオ",
             "description": "任意の動画を反転させる",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "/ja/flip-video"
+            "url": "ja/flip-video"
         },
         {
             "name": "MOVコンプレッサー",
             "description": "MOV動画を圧縮する",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ja/mov-compressor"
+            "url": "ja/mov-compressor"
         },
         {
             "name": "MP4コンプレッサー",
             "description": "MP4 動画を圧縮する",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ja/mp4-compressor"
+            "url": "ja/mp4-compressor"
         },
         {
             "name": "MP4カッター",
             "description": "任意の MP4 ビデオをカットします。",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ja/mp4-cutter"
+            "url": "ja/mp4-cutter"
         },
         {
             "name": "ビデオエディター",
             "description": "動画を編集する",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/ja/video-editor"
+            "url": "ja/video-editor"
         },
         {
             "name": "MP4トリマー",
             "description": "任意の MP4 ビデオをトリミング",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ja/mp4-trimmer"
+            "url": "ja/mp4-trimmer"
         },
         {
             "name": "ビデオのサイズを変更",
             "description": "動画のサイズを変更",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "/ja/resize-video"
+            "url": "ja/resize-video"
         },
         {
             "name": "ビデオコンプレッサー",
             "description": "動画を圧縮する",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/ja/video-compressor"
+            "url": "ja/video-compressor"
         },
         {
             "name": "ビデオカッター",
             "description": "動画をカットする",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ja/video-cutter"
+            "url": "ja/video-cutter"
         },
         {
             "name": "ビデオローテータ",
             "description": "動画を回転させる",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "/ja/video-rotater"
+            "url": "ja/video-rotater"
         },
         {
             "name": "ビデオスプリッター",
             "description": "動画を分割する",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ja/video-splitter"
+            "url": "ja/video-splitter"
         },
         {
             "name": "ビデオトリマー",
             "description": "あらゆる動画をトリミング",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/ja/video-trimmer"
+            "url": "ja/video-trimmer"
         },
         {
             "name": "ビデオの抽出",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "/ja/extract-audio"
+            "url": "ja/extract-audio"
         }
     ],
     "networkSites": [],

@@ -7,19 +7,19 @@
     "company": [
         {
             "name": "हमारे बारे में",
-            "url": "/hi/about"
+            "url": "/about"
         },
         {
             "name": "हेल्प",
-            "url": "/hi/help"
+            "url": "/help"
         },
         {
             "name": "ब्लॉग",
-            "url": "/hi/blog"
+            "url": "/blog"
         },
         {
             "name": "नियम व शर्तें",
-            "url": "/hi/terms-and-conditions"
+            "url": "/terms-and-conditions"
         }
     ],
     "product": [
@@ -28,110 +28,110 @@
             "description": "किसी भी MP4 वीडियो को क्रॉप करें",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/hi/crop-mp4"
+            "url": "hi/crop-mp4"
         },
         {
             "name": "वीडियो क्रॉप करें",
             "description": "कोई भी वीडियो क्रॉप करें",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/hi/crop-video"
+            "url": "hi/crop-video"
         },
         {
             "name": "MP4 संपादक",
             "description": "किसी भी MP4 वीडियो को संपादित करें",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/hi/edit-mp4-video"
+            "url": "hi/edit-mp4-video"
         },
         {
             "name": "फ्लिप वीडियो",
             "description": "किसी भी वीडियो को फ्लिप करें",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "/hi/flip-video"
+            "url": "hi/flip-video"
         },
         {
             "name": "MOV कंप्रेसर",
             "description": "किसी भी MOV वीडियो को कंप्रेस करें",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/hi/mov-compressor"
+            "url": "hi/mov-compressor"
         },
         {
             "name": "mp4 कंप्रेसर",
             "description": "किसी भी MP4 वीडियो को कंप्रेस करें",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/hi/mp4-compressor"
+            "url": "hi/mp4-compressor"
         },
         {
             "name": "MP4 कटर",
             "description": "किसी भी MP4 वीडियो को काटें",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/hi/mp4-cutter"
+            "url": "hi/mp4-cutter"
         },
         {
             "name": "वीडियो एडिटर",
             "description": "किसी भी वीडियो को संपादित करें",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/hi/video-editor"
+            "url": "hi/video-editor"
         },
         {
             "name": "MP4 ट्रिमर",
             "description": "किसी भी MP4 वीडियो को ट्रिम करें",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/hi/mp4-trimmer"
+            "url": "hi/mp4-trimmer"
         },
         {
             "name": "वीडियो का आकार बदलें",
             "description": "किसी भी वीडियो का आकार बदलें",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "/hi/resize-video"
+            "url": "hi/resize-video"
         },
         {
             "name": "विडियो कम्प्रेसर",
             "description": "किसी भी वीडियो को कंप्रेस करें",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/hi/video-compressor"
+            "url": "hi/video-compressor"
         },
         {
             "name": "वीडियो-कटर",
             "description": "किसी भी वीडियो को काटें",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/hi/video-cutter"
+            "url": "hi/video-cutter"
         },
         {
             "name": "वीडियो रोटेटर",
             "description": "किसी भी वीडियो को घुमाएं",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "/hi/video-rotater"
+            "url": "hi/video-rotater"
         },
         {
             "name": "वीडियो स्प्लिटर",
             "description": "किसी भी वीडियो को विभाजित करें",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/hi/video-splitter"
+            "url": "hi/video-splitter"
         },
         {
             "name": "वीडियो ट्रिमर",
             "description": "किसी भी वीडियो को ट्रिम करें",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/hi/video-trimmer"
+            "url": "hi/video-trimmer"
         },
         {
             "name": "वीडियो एक्सट्रेक्ट करें",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "/hi/extract-audio"
+            "url": "hi/extract-audio"
         }
     ],
     "networkSites": [],

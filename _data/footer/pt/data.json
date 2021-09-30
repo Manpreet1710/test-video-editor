@@ -7,19 +7,19 @@
     "company": [
         {
             "name": "Sobre",
-            "url": "/pt/about"
+            "url": "/about"
         },
         {
             "name": "Socorro",
-            "url": "/pt/help"
+            "url": "/help"
         },
         {
             "name": "Blog",
-            "url": "/pt/blog"
+            "url": "/blog"
         },
         {
             "name": "Termos e condições",
-            "url": "/pt/terms-and-conditions"
+            "url": "/terms-and-conditions"
         }
     ],
     "product": [
@@ -28,110 +28,110 @@
             "description": "Recorte qualquer vídeo MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/pt/crop-mp4"
+            "url": "pt/crop-mp4"
         },
         {
             "name": "Vídeo de recorte",
             "description": "Recorte qualquer vídeo",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/pt/crop-video"
+            "url": "pt/crop-video"
         },
         {
             "name": "Editor MP4",
             "description": "Edite qualquer vídeo MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/pt/edit-mp4-video"
+            "url": "pt/edit-mp4-video"
         },
         {
             "name": "Vídeo flip",
             "description": "Inverta qualquer vídeo",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "/pt/flip-video"
+            "url": "pt/flip-video"
         },
         {
             "name": "Compressor MOV",
             "description": "Comprima qualquer vídeo MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/pt/mov-compressor"
+            "url": "pt/mov-compressor"
         },
         {
             "name": "compressor MP4",
             "description": "Comprima qualquer vídeo MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/pt/mp4-compressor"
+            "url": "pt/mp4-compressor"
         },
         {
             "name": "Cortador MP4",
             "description": "Corte qualquer vídeo MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/pt/mp4-cutter"
+            "url": "pt/mp4-cutter"
         },
         {
             "name": "editor de vídeo",
             "description": "Edite qualquer vídeo",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/pt/video-editor"
+            "url": "pt/video-editor"
         },
         {
             "name": "Aparador MP4",
             "description": "Apare qualquer vídeo MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/pt/mp4-trimmer"
+            "url": "pt/mp4-trimmer"
         },
         {
             "name": "Redimensionar vídeo",
             "description": "Redimensione qualquer vídeo",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "/pt/resize-video"
+            "url": "pt/resize-video"
         },
         {
             "name": "compressor de vídeo",
             "description": "Comprima qualquer vídeo",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/pt/video-compressor"
+            "url": "pt/video-compressor"
         },
         {
             "name": "cortador de vídeo",
             "description": "Corte qualquer vídeo",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/pt/video-cutter"
+            "url": "pt/video-cutter"
         },
         {
             "name": "Rotador de vídeo",
             "description": "Girar qualquer vídeo",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "/pt/video-rotater"
+            "url": "pt/video-rotater"
         },
         {
             "name": "Divisor de vídeo",
             "description": "Divida qualquer vídeo",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/pt/video-splitter"
+            "url": "pt/video-splitter"
         },
         {
             "name": "Aparador de vídeo",
             "description": "Apare qualquer vídeo",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/pt/video-trimmer"
+            "url": "pt/video-trimmer"
         },
         {
             "name": "Extrair vídeo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "/pt/extract-audio"
+            "url": "pt/extract-audio"
         }
     ],
     "networkSites": [],

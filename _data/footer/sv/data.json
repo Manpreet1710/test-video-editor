@@ -7,19 +7,19 @@
     "company": [
         {
             "name": "Om",
-            "url": "/sv/about"
+            "url": "/about"
         },
         {
             "name": "Hjälp",
-            "url": "/sv/help"
+            "url": "/help"
         },
         {
             "name": "blogg",
-            "url": "/sv/blog"
+            "url": "/blog"
         },
         {
             "name": "Regler och villkor",
-            "url": "/sv/terms-and-conditions"
+            "url": "/terms-and-conditions"
         }
     ],
     "product": [
@@ -28,110 +28,110 @@
             "description": "Beskär alla MP4-videor",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/sv/crop-mp4"
+            "url": "sv/crop-mp4"
         },
         {
             "name": "Beskär video",
             "description": "Beskär valfri video",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "/sv/crop-video"
+            "url": "sv/crop-video"
         },
         {
             "name": "MP4-redigerare",
             "description": "Redigera MP4-video",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/sv/edit-mp4-video"
+            "url": "sv/edit-mp4-video"
         },
         {
             "name": "Vänd video",
             "description": "Vänd valfri video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "/sv/flip-video"
+            "url": "sv/flip-video"
         },
         {
             "name": "MOV-kompressor",
             "description": "Komprimera någon MOV-video",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/sv/mov-compressor"
+            "url": "sv/mov-compressor"
         },
         {
             "name": "MP4-kompressor",
             "description": "Komprimera alla MP4-videor",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/sv/mp4-compressor"
+            "url": "sv/mp4-compressor"
         },
         {
             "name": "MP4 Cutter",
             "description": "Klipp ut någon MP4-video",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/sv/mp4-cutter"
+            "url": "sv/mp4-cutter"
         },
         {
             "name": "videoredigerare",
             "description": "Redigera valfri video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "/sv/video-editor"
+            "url": "sv/video-editor"
         },
         {
             "name": "MP4 trimmer",
             "description": "Trimma alla MP4-videor",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/sv/mp4-trimmer"
+            "url": "sv/mp4-trimmer"
         },
         {
             "name": "Ändra storlek på video",
             "description": "Ändra storlek på valfri video",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "/sv/resize-video"
+            "url": "sv/resize-video"
         },
         {
             "name": "Video kompressor",
             "description": "Komprimera valfri video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "/sv/video-compressor"
+            "url": "sv/video-compressor"
         },
         {
             "name": "video-cutter",
             "description": "Klipp ut valfri video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/sv/video-cutter"
+            "url": "sv/video-cutter"
         },
         {
             "name": "Video roterater",
             "description": "Rotera valfri video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "/sv/video-rotater"
+            "url": "sv/video-rotater"
         },
         {
             "name": "Video splitter",
             "description": "Dela vilken video som helst",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/sv/video-splitter"
+            "url": "sv/video-splitter"
         },
         {
             "name": "Video trimmer",
             "description": "Trimma valfri video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "/sv/video-trimmer"
+            "url": "sv/video-trimmer"
         },
         {
             "name": "Extrahera video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "/sv/extract-audio"
+            "url": "sv/extract-audio"
         }
     ],
     "networkSites": [],
