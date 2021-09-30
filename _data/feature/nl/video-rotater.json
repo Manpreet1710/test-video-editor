@@ -1,0 +1,141 @@
+{
+    "Language": "Nederlands",
+    "htmlLangAtt": "nl",
+    "H1": "Videorotator",
+    "H2": "Draai je video's online",
+    "TITLE": "Draai je video's online",
+    "META": "De eenvoudigste manier om je video's online te roteren.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX naar PDF",
+    "BREADCRUMB_LABEL": "DOCX NAAR PDF",
+    "color": "#33d9b2",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/rotate.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Onafhankelijk",
+            "content": "Onze website is platformonafhankelijk. Het werkt op zowel Windows- als iOS-besturingssystemen en kan zonder downloads worden gebruikt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absoluut gratis",
+            "content": "De conversie is helemaal gratis, dus je kunt zoveel bestanden converteren als je wilt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy en beveiliging ",
+            "content": "Onze website geeft prioriteit aan de privacy van haar klanten. Omdat we met cloudopslag werken, worden je bestanden niet geüpload. Dus geen kans op een datalek. Jouw gegevens zijn veilig bij ons!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snelle resultaten",
+            "content": "Het conversieproces duurt nauwelijks een paar seconden, afhankelijk van je bestandsgrootte, en je kunt snel resultaat behalen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snel en efficiënt",
+            "content": "Videobewerking is erg snel en je kunt je klus in een mum van tijd klaren"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Bespaart tijd",
+            "content": "Onze website is platformonafhankelijk, kan werken op laptops, tabbladen en telefoons en de conversie verloopt snel, het bespaart tijd."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Hoe draai je je video?",
+        "steps": [
+            "Kies je videobestand of klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive",
+            "Wacht geduldig tot de video is geladen",
+            "Kies de juiste rotatie-instellingen",
+            "Klik op opslaan om je video te downloaden",
+            "Hoera! Geniet van onze diensten"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Is het veilig om toegang tot mijn schijf toe te staan?",
+            "answer": "Ja, het is absoluut veilig om je schijf toe te staan en ons toegang te geven. We zullen geen wijzigingen aanbrengen in je site en je bestanden zijn veilig bij je."
+        },
+        {
+            "question": "Hoe kan ik bestanden uploaden vanuit mijn drive/dropbox?",
+            "answer": "Klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive. Selecteer het Google-account waar je je schijf wilt koppelen. Nu kun je de bestanden selecteren die je wilt uploaden."
+        },
+        {
+            "question": "Waarom zou ik mijn video draaien?",
+            "answer": "Als er een fout is opgetreden bij het opnemen van de video, of als een video de potrait-modus is en u deze in de landschapsmodus wilt gebruiken, kunt u roteren gebruiken. Door video's te roteren verandert de beeldverhouding van je video's."
+        },
+        {
+            "question": "Wat zijn de beschikbare rotaties?",
+            "answer": "Je krijgt twee opties: Links en Rechts. Je kunt je video met de klok mee of tegen de klok in draaien, afhankelijk van je behoefte. U kunt de opties meerdere keren of beide selecteren totdat u tevreden bent met de rotatie."
+        },
+        {
+            "question": "Hoe kan ik mijn video's tot 180 graden draaien?",
+            "answer": "Om je video naar 180 graden te draaien kun je op beide opties klikken, links of rechts en twee keer selecteren. Elke selectie draait je video 90 graden, dus twee selecties draaien je video's tot 180 graden."
+        },
+        {
+            "question": "Heeft rotatie invloed op de kwaliteit van mijn video's?",
+            "answer": "Nee, het roteren van je video's heeft geen invloed op de kwaliteit van je video's. Het verandert alleen de beeldverhouding van de video."
+        },
+        {
+            "question": "Kan ik een ander bestandstype uploaden en roteren?",
+            "answer": "Met Video Rotator kunt u elk type videobestand dat u wilt uploaden en roteren. Het ondersteunt MP4, MOV, FLV, AVI, MKV en andere soorten videobestanden."
+        },
+        {
+            "question": "Waarom duurt het zo lang om mijn bestand te verwerken?",
+            "answer": "De tijd die nodig is om je video te draaien en te verwerken is afhankelijk van de grootte, de beeldverhouding en het aantal rotaties dat je hebt uitgevoerd. Als je bestandsgrootte groter is, duurt het iets langer dan gewone bestanden."
+        },
+        {
+            "question": "Welke Windows-versies ondersteunen roterende video?",
+            "answer": "Video Rotator is volledig webgebaseerd en biedt daarom platformonafhankelijke ondersteuning. Dit betekent dat onze tool alle versies van Windows ondersteunt. Het werkt niet alleen op Windows-besturingssysteem, maar kan ook werken op elk ander besturingssysteem dat een browser ondersteunt."
+        },
+        {
+            "question": "Ondersteunt het zowel Android- als iOS-platforms?",
+            "answer": "Ja, onze website werkt op browser en ondersteunt daarom zowel iOS- als Android-platforms"
+        },
+        {
+            "question": "Ik heb de browser per ongeluk vernieuwd. Wat moet ik doen?",
+            "answer": "Aangezien onze website geen servers gebruikt en uw gegevens niet opslaat, wordt het bestand dat u hebt geüpload, niet opgeslagen. U moet het bestand opnieuw uploaden om het te roteren."
+        },
+        {
+            "question": "Hoe kan ik meerdere video's roteren?",
+            "answer": "Met Video Rotator kunt u meerdere bestanden achter elkaar roteren. Wanneer u één bestand roteert en op opslaan klikt, wordt de video verwerkt. Nadat de video is verwerkt, zie je de downloadoptie op het scherm. Door erop te klikken kun je het geroteerde bestand downloaden. Om een andere video te roteren, hoeft u alleen de browser te vernieuwen en ziet u de optie Video uploaden. Nu kun je opnieuw je bestand selecteren dat je wilt roteren."
+        },
+        {
+            "question": "Worden er kosten in rekening gebracht voor het gebruik van de website?",
+            "answer": "Onze website is helemaal gratis en je kunt hem zo vaak gebruiken als je wilt. Er zijn geen gratis proefversies, waarna u moet betalen voor het gebruik van onze diensten. We zullen je niets in rekening brengen."
+        },
+        {
+            "question": "Moet ik een account aanmaken om video roteren te gebruiken?",
+            "answer": "Op onze website hoeft u zich niet aan te melden of een account aan te maken. Het platform is helemaal gratis en je kunt zoveel bestanden comprimeren als je wilt."
+        },
+        {
+            "question": "Worden mijn geüploade bestanden opgeslagen op de server?",
+            "answer": "Alle verwerking gebeurt in uw browser en er worden geen bestanden naar de server overgebracht. Daarom zijn je bestanden 100% veilig."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

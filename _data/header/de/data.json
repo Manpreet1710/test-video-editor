@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "MP4-Werkzeuge",
+                "links": [
+                    {
+                        "name": "MP4 zuschneiden",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/de/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 bearbeiten",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/de/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Bearbeiten von MP4-Video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/de/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-Kompressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/de/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-Schneider",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/de/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-Trimmer",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/de/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Komprimieren",
+                "links": [
+                    {
+                        "name": "MOV-Kompressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/de/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4-Kompressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/de/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videokompressor",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/de/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Video-Tools",
+                "links": [
+                    {
+                        "name": "Video zuschneiden",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/de/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video Größe ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/de/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video drehen",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/de/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video umdrehen",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/de/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videoschneider",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/de/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videosplitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/de/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Videoschneider",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/de/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Audio extrahieren",
+                "links": [
+                    {
+                        "name": "Audio extrahieren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/de/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Bloggen",
+            "url": "/blog"
+        }
+    ]
+}

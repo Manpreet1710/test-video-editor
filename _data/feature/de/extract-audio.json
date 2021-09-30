@@ -1,0 +1,138 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "Audio extrahieren",
+    "H2": "Extrahieren Sie online Audio aus Ihren Videos",
+    "TITLE": "Extrahieren Sie online Audio aus Ihren Videos",
+    "META": "Einfachste Möglichkeit, Audio in kürzester Zeit aus Ihrem Video zu extrahieren",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Unabhängig",
+            "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne Download verwendet werden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Absolut kostenlos",
+            "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Datenschutz und Sicherheit ",
+            "content": "Unsere Website legt Wert auf die Privatsphäre ihrer Kunden. Da wir mit Cloud-Speicher /ar/beiten, werden Ihre Dateien nicht hochgeladen. Also keine Chance, einen Datenverstoß zu bekommen. Ihre Daten sind bei uns sicher!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Schnelle Ergebnisse",
+            "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein pa/ar/ Sekunden, und Sie können problemlos schnelle Ergebnisse erzielen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobe/ar/beitung ist sehr schnell und Sie können Ihre /ar/beit in kürzester Zeit erledigen"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/t Zeit",
+            "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen /ar/beiten und die Konvertierung ist schnell und sp/ar/t Zeit."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "So extrahieren Sie Audio aus Ihren Videos",
+        "steps": [
+            "Wähle deine Videodatei oder klicke auf den Dropdown-Pfeil und wähle Dropbox/Google Drive",
+            "W/ar/te geduldig bis das Video hochgeladen wird",
+            "Wählen Sie das Audiodateiformat",
+            "Wählen Sie die Audioqualität",
+            "Klicke auf Audio extrahieren um deine Datei herunterzuladen",
+            "Hurra! Geniessen Sie unsere Dienstleistungen"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Ist es sicher, Zugriff auf mein Laufwerk zu gewähren?",
+            "answer": "Ja, es ist absolut sicher, uns Zugriff auf Ihr Laufwerk zu gewähren und zu gewähren. Wir werden keine Änderungen an Ihrer Website vornehmen und Ihre Dateien sind bei Ihnen sicher."
+        },
+        {
+            "question": "Wie kann ich Dateien von meinem Laufwerk/meiner Dropbox hochladen?",
+            "answer": "Klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus. Wählen Sie das Google-Konto aus, von dem aus Sie Ihr Laufwerk verknüpfen möchten. Jetzt können Sie die Dateien auswählen, die Sie hochladen möchten."
+        },
+        {
+            "question": "In welchen Audioformaten kann ich mein Audio extrahieren?",
+            "answer": "Audio extrahieren bietet Ihnen mehrere Optionen für verschiedene Audiodateiformate, in denen Sie Ihr extrahierte Audio herunterladen können. Die verfügb/ar/en Dateiformate sind MP3, ACC, Ogg, WAV, FLAC und AIFF."
+        },
+        {
+            "question": "Welche Audioqualitäten gibt es?",
+            "answer": "Audio extrahieren bietet Ihnen mehrere Optionen mit unterschiedlichen Audioqualitäten, in denen Sie Ihr extrahierte Audio herunterladen können. Die verfügb/ar/en Audioqualitäten sind 48k. 64k, 80k, 96k, 128k, 256 k und 320 k"
+        },
+        {
+            "question": "Was kann ich tun, wenn ich mir nicht sicher bin, welches Format ich wählen soll?",
+            "answer": "Wenn Sie sich nicht sicher sind, welches Dateiformat und welche Audioqualität Sie wählen sollen, brauchen Sie sich keine Sorgen zu machen. Audio extrahieren hat eine Stand/ar/doption, mit der das Audio in dem für Ihren Dateityp am besten geeigneten Format extrahiert wird."
+        },
+        {
+            "question": "Kann ich Audio aus Videodateien jeglicher /ar/t hochladen und extrahieren?",
+            "answer": "Ja, Audio extrahieren ermöglicht es Ihnen, Audio aus jedem gewünschten Videodateiformat zu extrahieren. Es unterstützt MP4, MOV, FLV, AVI, MKV und andere Videodateien."
+        },
+        {
+            "question": "W/ar/um dauert es so lange, meine Datei zu ver/ar/beiten?",
+            "answer": "Die Zeit, die zum Extrahieren des Audios und zum Ver/ar/beiten Ihres Videos gebraucht wird, hängt von der Größe Ihrer Datei, dem ausgewählten Dateiformat und der von Ihnen ausgewählten Audioqualität ab. Wenn Ihre Dateigröße größer ist, dauert es etwas länger als normale Dateien."
+        },
+        {
+            "question": "Welche Windows-Versionen unterstützt Extract Audio?",
+            "answer": "Extract Audio ist vollständig webbasiert und bietet daher plattformübergreifende Unterstützung. Dies bedeutet, dass unser Tool alle Versionen von Windows unterstützt. Es funktioniert nicht nur unter Windows-Betriebssystem, sondern kann auch auf jedem anderen Betriebssystem funktionieren, das einen Browser unterstützt."
+        },
+        {
+            "question": "Unterstützt es sowohl Android- als auch iOS-Plattformen?",
+            "answer": "Ja, unsere Website funktioniert im Browser und unterstützt daher sowohl iOS- als auch Android-Plattformen"
+        },
+        {
+            "question": "Ich habe den Browser versehentlich aktualisiert. Was mache ich?",
+            "answer": "Da unsere Website keine Server verwendet und Ihre Daten nicht speichert, wird die von Ihnen hochgeladene Datei nicht gespeichert. Sie müssen die Datei erneut hochladen, um sie aufzuteilen."
+        },
+        {
+            "question": "Wie kann ich Audio aus mehreren Videos extrahieren?",
+            "answer": "Mit dem Extrahieren von Audio können Sie nacheinander Audio aus Ihren Videodateien extrahieren. Wenn Sie das Audio aus einer Datei extrahieren und auf Extrahieren klicken, wird das Video ver/ar/beitet. Nachdem das Video ver/ar/beitet wurde, sehen Sie die Download-Option auf dem Bildschirm. Durch Anklicken können Sie die Datei herunterladen. Um Audio aus einem anderen Video zu extrahieren, müssen Sie nur den Browser aktualisieren und die Option Video hochladen wird angezeigt. Jetzt können Sie erneut Ihre Datei auswählen, die Sie extrahieren möchten."
+        },
+        {
+            "question": "Wird mir die Nutzung der Website in Rechnung gestellt?",
+            "answer": "Unsere Website ist absolut kostenlos und Sie können sie so oft verwenden, wie Sie möchten. Es gibt keine kostenlosen Testnutzungen, nach denen Sie für die Nutzung unserer Dienste bezahlen müssen. Wir berechnen dir nichts."
+        },
+        {
+            "question": "Muss ich ein Konto erstellen, um Audio extrahieren zu verwenden?",
+            "answer": "Auf unserer Website müssen Sie sich nicht anmelden oder ein Konto erstellen. Die Plattform ist absolut kostenlos und Sie können so viele Dateien komprimieren, wie Sie möchten."
+        },
+        {
+            "question": "Werden meine hochgeladenen Dateien auf dem Server gespeichert?",
+            "answer": "Die gesamte Ver/ar/beitung erfolgt in Ihrem Browser und es werden keine Dateien auf den Server übertragen. Daher sind Ihre Dateien zu 100% sicher."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "comp/ar/e_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

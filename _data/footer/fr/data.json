@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "Nous facilitons le montage vidéo.",
+    "companytitle": "Entreprise",
+    "producttitle": "Produit",
+    "networksitestitle": "Sites réseau",
+    "company": [
+        {
+            "name": "À propos",
+            "url": "/about"
+        },
+        {
+            "name": "Aide",
+            "url": "/help"
+        },
+        {
+            "name": "Blogue",
+            "url": "/blog"
+        },
+        {
+            "name": "Termes et conditions",
+            "url": "/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "Recadrer MP4",
+            "description": "Recadrez n'importe quelle vidéo MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "fr/crop-mp4"
+        },
+        {
+            "name": "Vidéo recadrage",
+            "description": "Recadrez toutes les vidéos",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "fr/crop-video"
+        },
+        {
+            "name": "Editeur MP4",
+            "description": "Modifiez n'importe quelle vidéo MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "fr/edit-mp4-video"
+        },
+        {
+            "name": "Vidéo Flip",
+            "description": "Retourner toutes les vidéos",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "fr/flip-video"
+        },
+        {
+            "name": "Compresseur MOV",
+            "description": "Compressez n'importe quelle vidéo MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "fr/mov-compressor"
+        },
+        {
+            "name": "Compresseur MP4",
+            "description": "Compressez toutes les vidéos MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "fr/mp4-compressor"
+        },
+        {
+            "name": "Fraise MP4",
+            "description": "Coupez n'importe quelle vidéo MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "fr/mp4-cutter"
+        },
+        {
+            "name": "éditeur vidéo",
+            "description": "Éditez n'importe quelle vidéo",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "fr/video-editor"
+        },
+        {
+            "name": "tondeuse MP4",
+            "description": "Découpez n'importe quelle vidéo MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "fr/mp4-trimmer"
+        },
+        {
+            "name": "Redimensionner la vidéo",
+            "description": "Redimensionner n'importe quelle vidéo",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "fr/resize-video"
+        },
+        {
+            "name": "Compresseur vidéo",
+            "description": "Compressez n'importe quelle vidéo",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "fr/video-compressor"
+        },
+        {
+            "name": "découpeuse vidéo",
+            "description": "Coupez n'importe quelle vidéo",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "fr/video-cutter"
+        },
+        {
+            "name": "Rotater vidéo",
+            "description": "Faites pivoter n'importe quelle vidéo",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "fr/video-rotater"
+        },
+        {
+            "name": "Séparateur vidéo",
+            "description": "Divisez toutes les vidéos",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "fr/video-splitter"
+        },
+        {
+            "name": "Trimmer vidéo",
+            "description": "Coupez n'importe quelle vidéo",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "fr/video-trimmer"
+        },
+        {
+            "name": "Extraire vidéo",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "fr/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "facebook"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "YouTube"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "instagram"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "linkdin"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "twitter"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "Termes et conditions",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "Politique de confidentialité",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "Nous contacter",
+            "url": "/contact"
+        },
+        {
+            "name": "Clause de non-responsabilité",
+            "url": "/disclaimer"
+        }
+    ]
+}

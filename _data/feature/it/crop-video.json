@@ -1,0 +1,129 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Ritaglia video",
+    "H2": "Ritaglia i tuoi video online",
+    "TITLE": "Ritaglia i tuoi video online",
+    "META": "Il modo più semplice per ritagliare i tuoi video online",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX DI PDF",
+    "color": "#ff5e57",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/crop-video.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indipendente",
+            "content": "Il nostro sito web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza bisogno di download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Assolutamente gratuito",
+            "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Privacy e sicurezza ",
+            "content": "Il nostro sito web dà la priorità alla privacy dei propri clienti. Poiché lavoriamo con il cloud storage, i tuoi file non vengono caricati. Quindi, nessuna possibilità di ottenere alcuna violazione dei dati. I tuoi dati sono al sicuro con noi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Risparmia tempo",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Come ritagliare il video",
+        "steps": [
+            "Scegli il tuo file video o fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive",
+            "Attendi pazientemente fino al caricamento del video",
+            "Scegli le proporzioni di ritaglio o crea manualmente il rapporto di ritaglio",
+            "Fai clic su Salva per scaricare il video",
+            "Evviva! Goditi i nostri servizi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "È sicuro consentire l'accesso all'unità?",
+            "answer": "Sì, è assolutamente sicuro consentirci di accedere alla tua unità. Non apporteremo modifiche al tuo sito e i tuoi file saranno al sicuro con te."
+        },
+        {
+            "question": "Come posso caricare file dalla mia unità/dropbox?",
+            "answer": "Fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive. Seleziona l'account Google da cui vuoi collegare l'unità. Ora puoi selezionare i file che vuoi caricare."
+        },
+        {
+            "question": "Quali sono le proporzioni disponibili durante il ritaglio?",
+            "answer": "Ritaglia video ti consente di ritagliare il tuo video in più proporzioni, ad esempio 1:1 (quadrato), 16:9 (orizzontale), 9:16, 4:3, 3:4 (verticale). Puoi anche mantenere il rapporto originale del tuo video e apportare modifiche in base alle tue esigenze se non desideri queste proporzioni standard.\n\nRitaglia video ti consente di ritagliare il video secondo le tue esigenze. È sufficiente trascinare e regolare la casella e spostarla nell'area che si desidera mantenere. Ritaglia video rende il ritaglio dei video molto semplice."
+        },
+        {
+            "question": "Quanto tempo ci vorrà per caricare il mio video?",
+            "answer": "Il tempo necessario per caricare il video per il ritaglio o la modifica dipende dalle dimensioni del video. Il caricamento di video di qualità migliore con una risoluzione più elevata richiederà più tempo rispetto ai video di bassa qualità con una risoluzione inferiore.\nDipende anche dal tipo di video che vuoi modificare/ritagliare. Maggiore è la dimensione del video, più tempo ci vorrà."
+        },
+        {
+            "question": "La qualità dei miei video diminuirà dopo il ritaglio?",
+            "answer": "Ritaglia video ti consente di scegliere la qualità del video secondo le tue esigenze. Se desideri video di alta qualità, puoi scegliere una risoluzione più alta e le dimensioni del file saranno maggiori. Ma se ti interessa la dimensione del file e puoi comprometterne le dimensioni, scegli una risoluzione inferiore.\nRitaglia video ti consente anche di scegliere il valore CRF, il che significa che puoi scegliere la risoluzione e il valore CRF secondo le tue esigenze."
+        },
+        {
+            "question": "È sicuro usare Crop video?",
+            "answer": "Crop video è uno degli strumenti online gratuiti più sicuri e protetti. È assolutamente senza problemi e fa perfettamente il suo lavoro. Allo stesso tempo, non salva nessuno dei dati dell'utente. "
+        },
+        {
+            "question": "Posso ridimensionare i miei video?",
+            "answer": "Ritagliando, puoi ridimensionare i tuoi video in qualsiasi dimensione desideri. Sono disponibili dimensioni standard che puoi utilizzare. e se desideri le tue proporzioni, puoi ridimensionare il video a tuo piacimento."
+        },
+        {
+            "question": "Mi verrà addebitato un costo per l'utilizzo del sito Web?",
+            "answer": "Il nostro sito web è assolutamente gratuito e puoi utilizzarlo tutte le volte che vuoi. Non ci sono utilizzi di prova gratuiti, dopodiché dovrai pagare per l'utilizzo dei nostri servizi. Non ti addebiteremo nulla."
+        },
+        {
+            "question": "Supporta piattaforme Android e iOS?",
+            "answer": "Sì, il nostro sito web funziona su un browser e quindi supporta piattaforme iOS e Android."
+        },
+        {
+            "question": "Quali versioni di Windows supportano il ritaglio dei video?",
+            "answer": "Il ritaglio video è completamente basato sul Web e fornisce quindi supporto multipiattaforma. Ciò significa che il nostro strumento supporta tutte le versioni di Windows. Non funziona solo con il sistema operativo Windows, ma può funzionare su qualsiasi altro sistema operativo, che supporta un browser."
+        },
+        {
+            "question": "Ho aggiornato il browser per errore. Cosa devo fare?",
+            "answer": "Poiché il nostro sito Web non utilizza alcun server e non memorizza i tuoi dati, il file che hai caricato non verrà salvato. Devi ricaricare il file per ritagliarlo."
+        },
+        {
+            "question": "Come posso ritagliare più video?",
+            "answer": "Ritaglia video consente di ritagliare più file, uno dopo l'altro. Quando ritagli un file e fai clic su Salva, il video verrà elaborato. Dopo che il video è stato elaborato, è possibile visualizzare l'opzione di download sullo schermo. Facendo clic su di esso è possibile scaricare il file ritagliato. Per ritagliare un altro video, devi solo aggiornare il browser e vedrai l'opzione di caricamento video. Ora è possibile selezionare nuovamente il file che si desidera ritagliare."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

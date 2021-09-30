@@ -1,0 +1,135 @@
+{
+    "Language": "العربية",
+    "htmlLangAtt": "ar",
+    "h1": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
+    "h2": "لا يتم إرسال أي ملفات إلى الخادم. آمن بنسبة 100%.",
+    "title": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
+    "TITLE": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
+    "meta": "أداة محرر الفيديو عبر الإنترنت مجانية تمامًا وسهلة الاستخدام. نتأكد من أن جميع بياناتك آمنة أثناء تحرير الفيديو الخاص بك. نحن ندعم مجموعة كبيرة من تنسيقات الفيديو مثل mp3 و mov و mkv وما إلى ذلك.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "المحاصيل MP4",
+            "description": "اقتصاص أي فيديو MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/ar/crop-mp4"
+        },
+        {
+            "name": "فيديو المحاصيل",
+            "description": "اقتصاص أي فيديو",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/ar/crop-video"
+        },
+        {
+            "name": "محرر MP4",
+            "description": "تحرير أي فيديو MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/ar/edit-mp4-video"
+        },
+        {
+            "name": "فيديو فليب",
+            "description": "اقلب أي فيديو",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/ar/flip-video"
+        },
+        {
+            "name": "ضاغط MOV",
+            "description": "ضغط أي فيديو MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/mov-compressor"
+        },
+        {
+            "name": "ضاغط MP4",
+            "description": "ضغط أي مقاطع فيديو MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/mp4-compressor"
+        },
+        {
+            "name": "قاطع MP4",
+            "description": "قص أي فيديو MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/mp4-cutter"
+        },
+        {
+            "name": "محرر فيديو",
+            "description": "تحرير أي فيديو",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/ar/video-editor"
+        },
+        {
+            "name": "ماكينة تشذيب MP4",
+            "description": "تقليم أي فيديو MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/mp4-trimmer"
+        },
+        {
+            "name": "تغيير حجم الفيديو",
+            "description": "تغيير حجم أي فيديو",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/ar/resize-video"
+        },
+        {
+            "name": "ضاغط فيديو",
+            "description": "ضغط أي فيديو",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/ar/video-compressor"
+        },
+        {
+            "name": "قاطع الفيديو",
+            "description": "قص أي فيديو",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-cutter"
+        },
+        {
+            "name": "جهاز دوراتر الفيديو",
+            "description": "قم بتدوير أي فيديو",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/ar/video-rotater"
+        },
+        {
+            "name": "مقسم الفيديو",
+            "description": "تقسيم أي فيديو",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-splitter"
+        },
+        {
+            "name": "أداة تشذيب الفيديو",
+            "description": "تقليم أي فيديو",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/ar/video-trimmer"
+        },
+        {
+            "name": "استخراج الصوت",
+            "description": "استخراج الصوت من الفيديو",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/ar/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "تطبيقات",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

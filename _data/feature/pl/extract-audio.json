@@ -1,0 +1,138 @@
+{
+    "Language": "Polski",
+    "htmlLangAtt": "pl",
+    "H1": "Wyodrębnij dźwięk",
+    "H2": "Wyodrębnianie dźwięku z filmów online",
+    "TITLE": "Wyodrębnianie dźwięku z filmów online",
+    "META": "Najprostszy sposób na wyodrębnienie dźwięku z filmu w krótkim czasie",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX do PDF",
+    "BREADCRUMB_LABEL": "DOCX DO PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Niezależny",
+            "content": "Nasza strona internetowa jest niezależna od platformy. Działa zarówno w systemach operacyjnych Window, jak i iOS i może być używany bez konieczności pobierania plików."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Całkowicie za darmo",
+            "content": "Konwersja jest całkowicie darmowa, więc możesz przekonwertować tyle plików, ile chcesz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Prywatność i bezpieczeństwo ",
+            "content": "Nasza strona internetowa priorytetowo traktuje prywatność swoich klientów. Ponieważ pracujemy z magazynem w chmurze, Twoje pliki nie są przesyłane. Więc nie ma szans na jakiekolwiek naruszenie danych. Twoje dane są u nas bezpieczne!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Szybkie wyniki",
+            "content": "Proces konwersji prawie nie trwa kilka sekund, w zależności od rozmiaru pliku, i można łatwo uzyskać szybkie wyniki."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Szybki i wydajny",
+            "content": "Edycja wideo jest bardzo szybka i możesz wykonać swoją pracę w krótkim czasie"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Oszczędza czas",
+            "content": "Nasza strona internetowa jest niezależna od platformy, może pracować na laptopach, kartach i telefonach, a konwersja jest szybka, oszczędza czas."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Jak wyodrębnić dźwięk ze swoich vidoów",
+        "steps": [
+            "Wybierz plik wideo lub Kliknij strzałkę w dół i wybierz Dropbox/Dysk Google",
+            "Czekaj cierpliwie, aż film zostanie przesłany",
+            "Wybierz format pliku audio",
+            "Wybierz jakość dźwięku",
+            "Kliknij Extract Audio, aby pobrać plik",
+            "Hurra! Korzystaj z naszych usług"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Czy zezwalanie na dostęp do mojego dysku jest bezpieczne?",
+            "answer": "Tak, jest całkowicie bezpieczne, aby zezwolić i dać nam dostęp do dysku. Nie będziemy wprowadzać żadnych zmian w Twojej witrynie, a Twoje pliki dfiles będą bezpieczne z Tobą."
+        },
+        {
+            "question": "Jak mogę przesłać pliki z mojego dyskietu/dropbox?",
+            "answer": "Kliknij strzałkę w dół i wybierz Dropbox/Dysk Google. Wybierz konto Google, z którego chcesz połączyć swój dysk. Teraz możesz wybrać pliki, które chcesz przesłać."
+        },
+        {
+            "question": "Jakie są dostępne formaty audio, w których można wyodrębnić mój dźwięk?",
+            "answer": "Extract Audio zapewnia wiele opcji różnych formatów plików audio, w których można pobrać wyodrębniony dźwięk. Dostępne formaty plików to MP3, ACC, Ogg, WAV, FLAC i AIFF."
+        },
+        {
+            "question": "Jakie cechy audio są dostępne?",
+            "answer": "Extract Audio zapewnia wiele opcji różnych cech audio, w których można pobrać wyodrębniony dźwięk. Dostępne cechy dźwięku to 48k. 64k, 80k, 96k, 128k, 256k i 320k"
+        },
+        {
+            "question": "Co mogę zrobić, jeśli nie mam pewności, jaki format wybrać?",
+            "answer": "Jeśli nie jesteś pewien, jaki format pliku i jakość dźwięku wybrać, nie musisz się martwić. Extract Audio ma domyślną opcję, która wyodrębni dźwięk w formacie najlepiej dopasowanym do danego typu pliku."
+        },
+        {
+            "question": "Czy mogę przesłać i wyodrębnić dźwięk z pliku wideo dowolnego typu?",
+            "answer": "Tak, wyodrębnij dźwięk pozwala wyodrębnić dźwięk z dowolnego formatu pliku wideo. Obsługuje MP4, MOV, FLV, AVI, MKV i inne pliki wideo typu."
+        },
+        {
+            "question": "Dlaczego przetwarzanie moich plików trwa tak długo?",
+            "answer": "Czas potrzebny na wyodrębnienie dźwięku i przetworzenie wideo zależy od rozmiaru pliku, wybranego formatu pliku i wybranej jakości dźwięku. Jeśli rozmiar pliku jest większy, potrwa to nieco dłużej niż zwykłe pliki."
+        },
+        {
+            "question": "Które wersje systemu Windows obsługuje funkcję Extract Audio?",
+            "answer": "Extract Audio jest całkowicie oparty na Internecie i dlatego zapewnia obsługę międzyplatformową. Oznacza to, że nasze narzędzie obsługuje wszystkie wersje systemu Windows. Działa nie tylko w systemie operacyjnym Windows, ale może pracować na dowolnym innym systemie operacyjnym, który obsługuje przeglądarkę."
+        },
+        {
+            "question": "Czy obsługuje platformy Android i iOS?",
+            "answer": "Tak, nasza strona działa w przeglądarce i dlatego obsługuje zarówno platformy iOS, jak i Android"
+        },
+        {
+            "question": "Odświeżyłem przeglądarkę przez pomyłkę. Co mam zrobić?",
+            "answer": "Ponieważ nasza strona internetowa nie korzysta z serwerów i nie przechowuje Twoich danych, plik, który przesłałeś, nie zostanie zapisany. Musisz ponownie przesłać plik, aby go podzielić."
+        },
+        {
+            "question": "Jak mogę wyodrębnić dźwięk z wielu filmów?",
+            "answer": "Dzięki wyodrębnianiu dźwięku możesz wyodrębnić dźwięk z plików wideo, jeden po drugim. Po wyodrębnieniu dźwięku z jednego pliku i kliknięciu na wyodrębnienie wideo zostanie przetworzone. Po przetworzeniu wideo możesz zobaczyć opcję pobierania na ekranie. Klikając na niego możesz pobrać plik. Aby wyodrębnić dźwięk z innego filmu, wystarczy odświeżyć przeglądarkę, a zobaczysz opcję przesyłania wideo. Teraz możesz ponownie wybrać plik, który chcesz wyodrębnić dźwięk."
+        },
+        {
+            "question": "Czy zostanie naliczona opłata za korzystanie ze strony internetowej?",
+            "answer": "Nasza strona internetowa jest całkowicie bezpłatna i możesz z niej korzystać tyle razy, ile chcesz. Nie ma bezpłatnych zastosowań próbnych, po których będziesz musiał zapłacić za korzystanie z naszych usług. Nie oskarżymy cię o nic."
+        },
+        {
+            "question": "Czy muszę utworzyć konto, aby korzystać z funkcji Extract Audio?",
+            "answer": "Nasza strona internetowa nie wymaga od Ciebie zakładania lub zakładania konta. Platforma jest całkowicie darmowa i możesz skompresować tyle plików, ile chcesz."
+        },
+        {
+            "question": "Czy moje przesłane pliki zostaną zapisane na serwerze?",
+            "answer": "Wszystkie przetwarzanie odbywa się w przeglądarce i żadne pliki nie są przesyłane na serwer. Stąd twoje pliki są w 100% bezpieczne."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

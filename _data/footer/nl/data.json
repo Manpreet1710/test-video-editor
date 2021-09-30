@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "We maken videobewerking eenvoudig.",
+    "companytitle": "Bedrijf",
+    "producttitle": "Product",
+    "networksitestitle": "Netwerksites",
+    "company": [
+        {
+            "name": "Over",
+            "url": "/about"
+        },
+        {
+            "name": "Hulp",
+            "url": "/help"
+        },
+        {
+            "name": "Blog",
+            "url": "/blog"
+        },
+        {
+            "name": "Algemene voorwaarden",
+            "url": "/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "MP4 bijsnijden",
+            "description": "Elke MP4-video bijsnijden",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "nl/crop-mp4"
+        },
+        {
+            "name": "Video bijsnijden",
+            "description": "Elke video bijsnijden",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "nl/crop-video"
+        },
+        {
+            "name": "MP4-editor",
+            "description": "Bewerk elke MP4-video",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "nl/edit-mp4-video"
+        },
+        {
+            "name": "Video omdraaien",
+            "description": "Elke video omdraaien",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "nl/flip-video"
+        },
+        {
+            "name": "MOV-compressor",
+            "description": "Elke MOV-video comprimeren",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "nl/mov-compressor"
+        },
+        {
+            "name": "MP4-compressor",
+            "description": "Comprimeer alle MP4-video's",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "nl/mp4-compressor"
+        },
+        {
+            "name": "MP4 snijder",
+            "description": "Knip elke MP4-video",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "nl/mp4-cutter"
+        },
+        {
+            "name": "video-editor",
+            "description": "Elke video bewerken",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "nl/video-editor"
+        },
+        {
+            "name": "MP4 trimmer",
+            "description": "Elke MP4-video bijsnijden",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "nl/mp4-trimmer"
+        },
+        {
+            "name": "De grootte van video wijzigen",
+            "description": "Het formaat van elke video wijzigen",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "nl/resize-video"
+        },
+        {
+            "name": "Videocompressor",
+            "description": "Comprimeer elke video",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "nl/video-compressor"
+        },
+        {
+            "name": "video-snijder",
+            "description": "Knip elke video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "nl/video-cutter"
+        },
+        {
+            "name": "Videorotater",
+            "description": "Elke video roteren",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "nl/video-rotater"
+        },
+        {
+            "name": "Video splitter",
+            "description": "Elke video splitsen",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "nl/video-splitter"
+        },
+        {
+            "name": "Video-trimmer",
+            "description": "Elke video bijsnijden",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "nl/video-trimmer"
+        },
+        {
+            "name": "Video extraheren",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "nl/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "facebook"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "youtube"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "instagram"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "linkdin"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "twitter"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "Algemene voorwaarden",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "Privacybeleid",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "Contacteer ons",
+            "url": "/contact"
+        },
+        {
+            "name": "vrijwaring",
+            "url": "/disclaimer"
+        }
+    ]
+}

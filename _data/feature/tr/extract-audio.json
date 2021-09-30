@@ -1,0 +1,138 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Ses ayıklama",
+    "H2": "Videolarınızdan çevrimiçi ses çıkarma",
+    "TITLE": "Videolarınızdan çevrimiçi ses çıkarma",
+    "META": "Videonuzdan hiçbir zaman ses çıkarmanın en kolay yolu",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'ten PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX İÇİN PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Kazanır",
+            "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Vidoes ses çıkarmak için nasıl",
+        "steps": [
+            "Video dosyanızı seçin veya Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin",
+            "Video yüklenene kadar sabırla bekleyin",
+            "Ses dosyası biçimini seçin",
+            "Ses kalitesini seçin",
+            "Dosyanızı indirmek için Ses Çıkar'ı tıklayın",
+            "Yaşasın! Hizmetlerimizin keyfini çıkarın"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Sürücüme erişime izin vermek güvenli mi?",
+            "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+        },
+        {
+            "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+            "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+        },
+        {
+            "question": "Sesimi ayıklayabileceğiniz mevcut ses formatları nelerdir?",
+            "answer": "Extract Audio size ayıklanan ses indirebilirsiniz hangi farklı ses dosyası formatları birden fazla seçenek sağlar. Mevcut dosya formatları MP3, ACC, Ogg, WAV, FLAC ve AIFF'dir."
+        },
+        {
+            "question": "Hangi ses nitelikleri mevcuttur?",
+            "answer": "Extract Audio size ayıklanan ses indirebilirsiniz hangi farklı ses nitelikleri birden fazla seçenek sağlar. Kullanılabilir ses nitelikleri 48k. 64k, 80k, 96k, 128k, 256k ve 320k"
+        },
+        {
+            "question": "Hangi formatı seçeceğimden emin değilsem ne yapabilirim?",
+            "answer": "Emin değilseniz, hangi dosya formatı ve ses kalitesi seçmek için, endişelenmenize gerek yok. Extract Audio, ses dosyanızın türü için en uygun biçimde ayıklanacak varsayılan bir seçeneğe sahiptir."
+        },
+        {
+            "question": "Herhangi bir türdeki video dosyasından ses yükleyebilir ve çıkarabilir miyim?",
+            "answer": "Evet, ses ayıklamak istediğiniz herhangi bir video dosyası formatından ses çıkarmanızı sağlar. MP4, MOV, FLV, AVI, MKV ve diğer video dosyaları türünü destekler."
+        },
+        {
+            "question": "Dosyamı işlemek neden bu kadar uzun sürüyor?",
+            "answer": "Sesi ayıklamak ve videonuzu işlemek için geçen süre dosyanızın boyutuna, seçtiğiniz dosya biçimine ve seçtiğiniz ses kalitesine bağlıdır. Dosya boyutunuz büyükse, normal dosyalardan biraz daha uzun sürecektir."
+        },
+        {
+            "question": "Extract Audio hangi Windows sürümlerini destekliyor?",
+            "answer": "Extract Audio tamamen web tabanlı ve bu nedenle çapraz platform desteği sağlar. Bu, aracımızın tüm Windows sürümlerini desteklediği anlamına gelir. Sadece Windows işletim sisteminde çalışmaz, aynı zamanda bir tarayıcıyı destekleyen başka bir işletim sistemi üzerinde çalışabilir."
+        },
+        {
+            "question": "Hem Android hem de iOS platformlarını destekliyor mu?",
+            "answer": "Evet, web sitemiz tarayıcıda çalışır ve bu nedenle hem iOS hem de Android platformlarını destekler"
+        },
+        {
+            "question": "Tarayıcıyı yanlışlıkla yeniledim. Ben ne yapayım?",
+            "answer": "Web sitemiz herhangi bir sunucu kullanmadığından ve verilerinizi saklamadığından, yüklediğiniz dosya kaydedilmeyecektir. Bölmek için dosyayı yeniden yüklemeniz gerekiyor."
+        },
+        {
+            "question": "Birden fazla videodan nasıl ses çıkarabilirim?",
+            "answer": "Ses ayıklama ile, video dosyalarınızdan birbiri ardına ses ayıklayabilirsiniz. Sesi bir dosyadan çıkarıp ayıkladığınızda, video işlenecektir. Video işlendikten sonra, ekranda indirme seçeneğini görebilirsiniz. Üzerine tıklayarak dosyayı indirebilirsiniz. Başka bir videodan ses çıkarmak için, yalnızca tarayıcıyı yenilemeniz gerekir ve video yükleme seçeneğini göreceksiniz. Artık ses çıkarmak istediğiniz dosyanızı tekrar seçebilirsiniz."
+        },
+        {
+            "question": "Web sitesini kullanmak için ücret alınacak mı?",
+            "answer": "Web sitemiz tamamen ücretsizdir ve istediğiniz kadar kullanabilirsiniz. Ücretsiz deneme kullanımı yoktur, bundan sonra hizmetlerimizi kullanmak için ödeme yapmak zorunda kalacaksınız. Sana hiçbir şey ödemeyeceğiz."
+        },
+        {
+            "question": "Extract Audio kullanmak için bir hesap oluşturmam gerekecek mi?",
+            "answer": "Web sitemiz kaydolmanızı veya bir hesap oluşturmanızı gerektirmez. Platform tamamen ücretsizdir ve istediğiniz kadar dosyayı sıkıştırabilirsiniz."
+        },
+        {
+            "question": "Yüklenen dosyalarım sunucuya kaydedilecek mi?",
+            "answer": "Tüm işlemler tarayıcınızda yapılır ve sunucuya hiçbir dosya aktarılmaz. Bu nedenle dosyalarınız% 100 güvenlidir."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Editor de vídeo",
+    "H2": "Edite seus vídeos online",
+    "TITLE": "Edite seus vídeos online",
+    "META": "A maneira mais fácil de editar seus vídeos online",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#ffa502",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-video.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independente",
+            "content": "Nosso site é independente de plataforma. Ele funciona nos sistemas operacionais Windows e iOS e pode ser usado sem a necessidade de nenhum download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Totalmente grátis",
+            "content": "A conversão é totalmente gratuita, então você pode converter quantos arquivos quiser."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidade e segurança ",
+            "content": "Nosso site prioriza a privacidade de seus clientes. Como trabalhamos com armazenamento em nuvem, seus arquivos não são carregados. Portanto, não há chance de obter qualquer violação de dados. Seus dados estão seguros conosco!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "O processo de conversão leva apenas alguns segundos, dependendo do tamanho do arquivo, e você pode obter resultados rápidos facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido e eficiente",
+            "content": "A edição de vídeo é muito rápida e você pode fazer seu trabalho em pouco tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Economiza tempo",
+            "content": "Nosso site é independente de plataforma, pode funcionar em laptops, guias e telefones e a conversão é rápida, economiza tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como editar seu vídeo",
+        "steps": [
+            "Escolha seu arquivo de vídeo ou clique na seta suspensa e selecione Dropbox/Google Drive",
+            "Espere pacientemente até que o vídeo seja carregado",
+            "Escolha as configurações apropriadas no espaço de trabalho",
+            "Clique em Salvar para baixar seu vídeo",
+            "Viva! Aproveite nossos serviços"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "É seguro permitir o acesso à minha unidade?",
+            "answer": "Sim, é absolutamente seguro permitir e nos dar acesso à sua unidade. Não faremos nenhuma alteração em seu site e seus arquivos estarão seguros com você."
+        },
+        {
+            "question": "Como posso fazer upload de arquivos do meu drive/dropbox?",
+            "answer": "Clique na seta suspensa e selecione Dropbox/Google Drive. Selecione a Conta do Google de onde você deseja vincular sua unidade. Agora você pode selecionar os arquivos que deseja enviar."
+        },
+        {
+            "question": "Quais são as proporções de aspecto disponíveis durante o corte?",
+            "answer": "O editor de vídeo permite cortar seu vídeo em várias proporções, ou seja, 1:1 (quadrado), 16:9 (paisagem), 9:16, 4:3, 3:4 (retrato). Você pode até manter a proporção original do seu vídeo e fazer alterações de acordo com sua necessidade, se não quiser essas proporções padrão.\nO editor de vídeo permite cortar o vídeo de acordo com sua necessidade. Você só precisa arrastar e ajustar a caixa e movê-la para a área que deseja manter. O editor de vídeo facilita muito o corte de vídeos."
+        },
+        {
+            "question": "Quanto tempo demora para enviar meu vídeo?",
+            "answer": "O tempo necessário para enviar seu vídeo para recortar ou editar depende do tamanho do vídeo. Vídeos de melhor qualidade com resolução mais alta levarão mais tempo para serem carregados em comparação com vídeos de baixa qualidade com menor resolução.\nTambém depende do tipo de vídeo que você deseja editar/cortar. Quanto maior o tamanho do vídeo, mais tempo demorará."
+        },
+        {
+            "question": "Qual é o valor do CRF?",
+            "answer": "O fator de taxa constante (CRF) é um modo de codificação que ajusta a taxa de dados do arquivo para cima ou para baixo para atingir um nível de qualidade selecionado em vez de uma taxa de dados específica. Os valores de CRF variam de 0 a 51, com números mais baixos fornecendo pontuações de qualidade mais altas."
+        },
+        {
+            "question": "A qualidade dos meus vídeos diminuirá após o corte?",
+            "answer": "O editor de vídeo permite que você escolha a qualidade do vídeo de acordo com sua necessidade. Se você quiser um vídeo de alta qualidade, você pode escolher uma resolução mais alta e o tamanho do arquivo será maior. Mas se você se preocupa com o tamanho do arquivo e pode comprometer o tamanho, escolha uma resolução menor.\nO editor de vídeo também permite que você escolha o valor CRF, o que significa que você pode escolher a resolução e o valor CRF de acordo com sua necessidade.\nOs valores de CRF são de 0-1, onde um CRF mais baixo fornece melhor compressão e qualidade."
+        },
+        {
+            "question": "Quais são as resoluções disponíveis e qual será o tamanho do arquivo de diferentes resoluções?",
+            "answer": "O editor de vídeo fornece todas as resoluções padrão, ou seja, 1080p, 720p, 480p, 360p e 240p. Lembre-se de que um tamanho de arquivo de resolução mais alta será maior do que um arquivo com resolução mais baixa. O tamanho do arquivo também dependerá da duração do vídeo, da resolução, da proporção e dos valores CRF."
+        },
+        {
+            "question": "O que são velocidades de codificação?",
+            "answer": "O editor de vídeo permite que você escolha a velocidade de codificação, ou seja, a velocidade na qual você deseja converter o vídeo e salvá-lo para download. As velocidades de codificação disponíveis com o editor de vídeo são ultrarrápidas, super rápidas, muito rápidas, rápidas, médias, lentas, mais lentas, muito lentas.\nQuanto mais lenta a velocidade, melhor é a compressão. O editor de vídeo oferece uma ampla gama de velocidades de codificação de acordo com as diferentes necessidades de nossos usuários e garante o fornecimento de vídeos da melhor qualidade para cada edição feita pelo usuário."
+        },
+        {
+            "question": " Quais são as outras opções disponíveis além de cortar o vídeo em vídeo?",
+            "answer": "O editor de vídeo oferece muitas opções. Além de cortar, você pode cortar seu vídeo, girá-lo, alterar a resolução de seus vídeos e até aumentar ou diminuir a velocidade de seus vídeos.\nO editor de vídeo é uma plataforma que permite que você faça várias edições em uma única plataforma. Isso também de GRAÇA!"
+        },
+        {
+            "question": "Posso extrair áudio dos meus arquivos de vídeo nesta plataforma?",
+            "answer": "O editor de vídeo não tem uma opção em que você possa extrair o áudio de seus arquivos. Você pode usar o recurso Extrair áudio no safevideokit.com para extrair o áudio de seus arquivos."
+        },
+        {
+            "question": "Posso redimensionar meus vídeos?",
+            "answer": "Você pode usar a opção redimensionar vídeo para redimensionar seus vídeos para o tamanho desejado."
+        },
+        {
+            "question": "Podemos remover as partes indesejadas do vídeo?",
+            "answer": "Sim, você pode dividir e cortar facilmente os vídeos de acordo com sua necessidade. O editor de vídeo permite dividir o vídeo em várias partes. Em seguida, você pode editar individualmente cada parte do vídeo de acordo com sua necessidade."
+        },
+        {
+            "question": " Qual é a diferença entre aparar e dividir?",
+            "answer": "O corte permite que você corte seu vídeo de qualquer uma das extremidades de toda a duração do vídeo. Você pode encurtar seu vídeo o quanto quiser desde o início ou o final ou ambos também.\nDividir um vídeo significa dividir o vídeo em duas ou mais partes. Depois de dividir o vídeo, você pode fazer alterações individuais nas partes do vídeo e salvar o vídeo como um arquivo."
+        },
+        {
+            "question": "Posso baixar o arquivo depois de cortar em qualquer outro formato?",
+            "answer": "O editor de vídeo permite que você edite seus vídeos de acordo com suas necessidades e requisitos, fornecendo vários atributos e funções. Você pode baixar o vídeo editado apenas no formato Vídeo. No entanto, você pode usar nossos outros sites, como o Video Converter, para finalmente converter seu vídeo no formato desejado."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "Language": "Français",
+    "htmlLangAtt": "fr",
+    "H1": "Rotateur vidéo",
+    "H2": "Faites pivoter vos vidéos en ligne",
+    "TITLE": "Faites pivoter vos vidéos en ligne",
+    "META": "Le moyen le plus simple de faire pivoter vos vidéos en ligne.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX vers PDF",
+    "BREADCRUMB_LABEL": "DOCX VERS PDF",
+    "color": "#33d9b2",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/rotate.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indépendant",
+            "content": "Notre site Web est indépendant de la plateforme. Il fonctionne sur les systèmes d'exploitation Windows et iOS et peut être utilisé sans aucun téléchargement requis."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolument gratuit",
+            "content": "La conversion est totalement gratuite, vous pouvez donc convertir autant de fichiers que vous le souhaitez."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Confidentialité et sécurité ",
+            "content": "Notre site Web accorde la priorité à la confidentialité de ses clients. Comme nous travaillons avec le stockage dans le cloud, vos fichiers ne sont pas téléchargés. Il n'y a donc aucune chance d'obtenir une violation de données. Avec nous, vos données sont en sécurité !"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Résultats rapides",
+            "content": "Le processus de conversion ne prend que quelques secondes, en fonction de la taille de votre fichier, et vous pouvez facilement obtenir des résultats rapides."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rapide et efficace",
+            "content": "Le montage vidéo est très rapide et vous pouvez faire votre travail en un rien de temps"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Gain de temps",
+            "content": "Notre site Web est indépendant de la plate-forme, peut fonctionner sur des ordinateurs portables, des onglets et des téléphones et la conversion est rapide, cela permet de gagner du temps."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Comment faire pivoter votre vidéo",
+        "steps": [
+            "Choisissez votre fichier vidéo ou cliquez sur la flèche déroulante et sélectionnez Dropbox/Google Drive",
+            "Attendez patiemment que la vidéo soit chargée",
+            "Choisissez les paramètres de rotation appropriés",
+            "Cliquez sur Enregistrer pour télécharger votre vidéo",
+            "Hourra ! Profitez de nos services"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Est-il sécuritaire d'autoriser l'accès à mon disque dur ?",
+            "answer": "Oui, il est absolument sécuritaire de nous autoriser et de nous donner accès à votre disque dur. Nous n'apporterons aucune modification à votre site et vos fichiers seront en sécurité avec vous."
+        },
+        {
+            "question": "Comment puis-je télécharger des fichiers depuis mon lecteur ou ma boîte de dépôt ?",
+            "answer": "Cliquez sur la flèche déroulante et sélectionnez Dropbox/Google Drive. Sélectionnez le compte Google auquel vous souhaitez associer votre disque. Vous pouvez maintenant sélectionner les fichiers que vous souhaitez télécharger."
+        },
+        {
+            "question": "Pourquoi devrais-je faire pivoter ma vidéo ?",
+            "answer": "S'il y a eu une erreur lors de la prise de vue de la vidéo, ou si une vidéo est en mode portrait et que vous souhaitez qu'elle soit en mode paysage, vous pouvez utiliser la rotation. La rotation des vidéos modifie le rapport hauteur/largeur de vos vidéos."
+        },
+        {
+            "question": "Quelles sont les rotations disponibles ?",
+            "answer": "Deux options s'offrent à vous : Gauche et Droite. Vous pouvez faire pivoter votre vidéo dans le sens des aiguilles d'une montre ou dans le sens inverse des aiguilles d'une montre, selon vos besoins. Vous pouvez sélectionner l'une des deux options ou les deux plusieurs fois jusqu'à ce que vous soyez satisfait de la rotation."
+        },
+        {
+            "question": "Comment faire pivoter mes vidéos à 180 degrés ?",
+            "answer": "Pour faire pivoter votre vidéo à 180 degrés, vous pouvez cliquer sur l'une des options, à gauche ou à droite, et la sélectionner deux fois. Chaque sélection fait pivoter votre vidéo de 90 degrés. Par conséquent, deux sélections feront pivoter vos vidéos à 180 degrés."
+        },
+        {
+            "question": "La rotation affectera-t-elle la qualité de mes vidéos ?",
+            "answer": "Non, la rotation de vos vidéos n'affecte pas la qualité de vos vidéos. Il ne modifiera que le rapport hauteur/largeur de la vidéo."
+        },
+        {
+            "question": "Puis-je télécharger et faire pivoter n'importe quel autre type de fichier ?",
+            "answer": "Avec Video Rotator, vous pouvez télécharger et faire pivoter n'importe quel type de fichier vidéo de votre choix. Il prend en charge MP4, MOV, FLV, AVI, MKV et d'autres types de fichiers vidéo."
+        },
+        {
+            "question": "Pourquoi le traitement de mon dossier prend-il autant de temps ?",
+            "answer": "Le temps nécessaire à la rotation et au traitement de votre vidéo dépend de la taille, du format et du nombre de rotations effectuées. Si la taille de votre fichier est plus grande, cela prendra un peu plus de temps que les fichiers normaux."
+        },
+        {
+            "question": "Quelles sont les versions Windows prises en charge par la rotation de la vidéo ?",
+            "answer": "Video Rotator est entièrement basé sur le Web et fournit donc une prise en charge multiplateforme. Cela signifie que notre outil prend en charge toutes les versions de Windows. Il fonctionne non seulement sur le système d'exploitation Windows, mais peut également fonctionner sur n'importe quel autre système d'exploitation prenant en charge un navigateur."
+        },
+        {
+            "question": "Est-ce qu'il prend en charge les plates-formes Android et iOS ?",
+            "answer": "Oui, notre site Web fonctionne sur navigateur et prend donc en charge les plates-formes iOS et Android"
+        },
+        {
+            "question": "J'ai rafraîchi le navigateur par erreur. Que dois-je faire ?",
+            "answer": "Étant donné que notre site Web n'utilise aucun serveur et ne stocke pas vos données, le fichier que vous avez téléchargé ne sera pas enregistré. Vous devez télécharger à nouveau le fichier pour le faire pivoter."
+        },
+        {
+            "question": "Comment puis-je faire pivoter plusieurs vidéos ?",
+            "answer": "Video Rotator vous permet de faire pivoter plusieurs fichiers, l'un après l'autre. Lorsque vous faites pivoter un fichier et cliquez sur Enregistrer, la vidéo est traitée. Une fois la vidéo traitée, vous pouvez voir l'option de téléchargement à l'écran. En cliquant dessus, vous pouvez télécharger le fichier pivoté. Pour faire pivoter une autre vidéo, il vous suffit d'actualiser le navigateur et vous verrez l'option Télécharger la vidéo. Vous pouvez maintenant sélectionner à nouveau le fichier que vous souhaitez faire pivoter."
+        },
+        {
+            "question": "L'utilisation du site Web me sera-t-elle facturée ?",
+            "answer": "Notre site Web est absolument gratuit et vous pouvez l'utiliser autant de fois que vous le souhaitez. Il n'y a pas d'essai gratuit, après quoi vous devrez payer pour utiliser nos services. Nous ne vous facturerons rien."
+        },
+        {
+            "question": "Est-ce que je devrai créer un compte pour utiliser Rotate Video ?",
+            "answer": "Notre site Web n'exige pas que vous vous inscriviez ou que vous créiez un compte. La plateforme est totalement gratuite et vous pouvez compresser autant de fichiers que vous le souhaitez."
+        },
+        {
+            "question": "Mes fichiers téléchargés seront-ils enregistrés sur le serveur ?",
+            "answer": "Tout le traitement est effectué sur votre navigateur et aucun fichier n'est transféré vers le serveur. Vos fichiers sont donc sécurisés à 100 %."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

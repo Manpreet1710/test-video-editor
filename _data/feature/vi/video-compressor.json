@@ -1,0 +1,133 @@
+{
+    "Language": "Tiếng Việt",
+    "htmlLangAtt": "vi",
+    "H1": "Nén video",
+    "H2": "Nén video của bạn trực tuyến",
+    "TITLE": "Nén video của bạn trực tuyến",
+    "META": "Cách dễ nhất để nén video của bạn trực tuyến",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX sang PDF",
+    "BREADCRUMB_LABEL": "DOCX SANG PDF",
+    "color": "#9c88ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/video-compress.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Độc lập",
+            "content": "Trang web của chúng tôi là nền tảng độc lập. Nó hoạt động trên cả Windows và hệ điều hành iOS và có thể được sử dụng mà không cần bất kỳ tải xuống nào."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Hoàn toàn miễn phí",
+            "content": "Việc chuyển đổi hoàn toàn miễn phí, vì vậy bạn có thể chuyển đổi nhiều tệp tùy ý."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Quyền riêng tư và bảo mật ",
+            "content": "Trang web của chúng tôi ưu tiên quyền riêng tư của khách hàng. Vì chúng tôi làm việc với lưu trữ đám mây, các tệp của bạn không được tải lên. Vì vậy, không có cơ hội nhận được bất kỳ vi phạm dữ liệu. Dữ liệu của bạn được an toàn với chúng tôi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Kết quả nhanh",
+            "content": "Quá trình chuyển đổi hầu như không mất vài giây, tùy thuộc vào kích thước tệp của bạn và bạn có thể nhận được kết quả nhanh chóng một cách dễ dàng."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Nhanh chóng và hiệu quả",
+            "content": "Chỉnh sửa video thực sự nhanh chóng và bạn có thể hoàn thành công việc của mình trong thời gian ngắn"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Tiết kiệm thời gian",
+            "content": "Trang web của chúng tôi là nền tảng độc lập, có thể làm việc trên máy tính xách tay, tab và điện thoại và chuyển đổi là nhanh chóng, nó tiết kiệm thời gian."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Làm thế nào để nén video của bạn",
+        "steps": [
+            "Chọn tệp video của bạn hoặc Nhấp vào mũi tên thả xuống và chọn Dropbox/Google Drive",
+            "Chờ đợi kiên nhẫn cho đến khi video được tải",
+            "Chọn cài đặt nén của bạn một cách thích hợp",
+            "Nhấp vào lưu để tải video của bạn",
+            "Hurray! Thưởng thức các dịch vụ của chúng tôi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Có an toàn để cho phép truy cập vào ổ đĩa của tôi không?",
+            "answer": "Có, nó là hoàn toàn an toàn để cho phép và cung cấp cho chúng tôi quyền truy cập vào ổ đĩa của bạn. Chúng tôi sẽ không thực hiện bất kỳ thay đổi nào đối với trang web của bạn và dfiles của bạn sẽ an toàn với bạn."
+        },
+        {
+            "question": "Làm thế nào tôi có thể tải lên các tập tin từ ổ đĩa/dropbox của tôi?",
+            "answer": "Nhấp vào mũi tên thả xuống và chọn Dropbox/Google Drive. Chọn tài khoản Google từ nơi bạn muốn liên kết ổ đĩa của mình. Bây giờ bạn có thể chọn các tệp mà bạn muốn tải lên."
+        },
+        {
+            "question": "Tôi có thể nén video bằng Máy nén video không?",
+            "answer": "Máy nén video cho phép bạn nén các tệp video ở bất kỳ định dạng nào. Bạn chỉ phải tải lên video của bạn, chọn tốc độ mã hóa và giá trị CRF và nhấp vào lưu. Tệp của bạn sẽ được nén theo kích thước mong muốn của bạn."
+        },
+        {
+            "question": "Mất bao lâu để tải lên video của tôi?",
+            "answer": "Thời gian để tải video lên để cắt xén hoặc chỉnh sửa phụ thuộc vào kích cỡ video của bạn. Video chất lượng tốt hơn với độ phân giải cao hơn sẽ mất nhiều thời gian để tải lên so với video chất lượng thấp với độ phân giải thấp hơn."
+        },
+        {
+            "question": "Giá trị CRF là gì?",
+            "answer": "Hệ số tốc độ không đổi (CRF) là một chế độ mã hóa điều chỉnh tốc độ dữ liệu tệp lên hoặc xuống để đạt được mức chất lượng đã chọn chứ không phải là tốc độ dữ liệu cụ thể. Giá trị CRF dao động từ 0 đến 51, với số lượng thấp hơn cho điểm chất lượng cao hơn."
+        },
+        {
+            "question": "Chất lượng video của tôi có giảm sau khi nén không?",
+            "answer": "Khi bạn nén một tập tin, kích thước tập tin sẽ được giảm và để làm điều đó, chất lượng đã được cmpromised. Để đảm bảo rằng bạn không bị mất chất lượng, Máy nén video cho phép bạn chọn chất lượng của video theo yêu cầu của bạn. Nếu bạn muốn video chất lượng cao, bạn có thể chọn độ phân giải cao hơn và kích thước tệp sẽ lớn hơn. Nhưng nếu bạn quan tâm đến kích thước của tập tin và có thể thỏa hiệp trong kích thước sau đó chọn một độ phân giải thấp hơn.\nMáy nén video cũng cho phép bạn chọn giá trị CRF, có nghĩa là bạn có thể chọn độ phân giải và giá trị CRF theo nhu cầu của bạn.\nGiá trị CRF nằm từ 0-1, trong đó CRF thấp hơn cung cấp chất lượng và nén tốt hơn."
+        },
+        {
+            "question": "Các độ phân giải có sẵn và kích thước của tệp có độ phân giải khác nhau là gì?",
+            "answer": "Máy nén video cung cấp tất cả các độ phân giải tiêu chuẩn, tức là 1080p, 720p, 480p, 360p và 240p. Hãy nhớ rằng kích thước tệp độ phân giải cao hơn sẽ nhiều hơn một tệp có độ phân giải thấp hơn. Kích thước của tệp cũng sẽ phụ thuộc vào độ dài của video, độ phân giải, tỷ lệ khung hình và giá trị CRF."
+        },
+        {
+            "question": "Tốc độ mã hóa là gì?",
+            "answer": "Máy nén video cho phép bạn chọn tốc độ mã hóa tức là tốc độ mà bạn muốn chuyển đổi video và lưu nó để tải xuống. Tốc độ mã hóa có sẵn với Video Compressor là siêu nhanh, siêu nhanh, rất nhanh, nhanh hơn, nhanh hơn, trung bình, chậm hơn, rất chậm.\nTốc độ càng chậm càng tốt là nén. Máy nén video cung cấp một loạt các tốc độ mã hóa theo nhu cầu khác nhau của người dùng của chúng tôi và đảm bảo cung cấp các video chất lượng tốt nhất cho mỗi chỉnh sửa được thực hiện bởi người dùng."
+        },
+        {
+            "question": "Tôi có bị tính phí để sử dụng trang web không?",
+            "answer": "Trang web của chúng tôi là hoàn toàn miễn phí và bạn có thể sử dụng nó nhiều lần như bạn muốn. Không có sử dụng thử nghiệm miễn phí, sau đó bạn sẽ phải trả tiền cho việc sử dụng dịch vụ của chúng tôi. Chúng tôi sẽ không tính phí gì cả."
+        },
+        {
+            "question": "Tôi có phải tạo tài khoản để sử dụng Máy nén video không?",
+            "answer": "Trang web của chúng tôi không yêu cầu bạn đăng ký hoặc tạo tài khoản. Nền tảng này hoàn toàn miễn phí và bạn có thể nén bao nhiêu tệp tùy ý."
+        },
+        {
+            "question": "Có an toàn khi sử dụng máy nén video không?",
+            "answer": "Có, an toàn 100% khi sử dụng máy nén video, vì chúng tôi không lưu tệp của bạn và không có quảng cáo của bên thứ ba trên trang web. Dữ liệu của bạn sẽ an toàn và bảo mật với chúng tôi. "
+        },
+        {
+            "question": "Các tệp đã tải lên của tôi có được lưu trên máy chủ không?",
+            "answer": "Tất cả các quá trình xử lý được thực hiện trên trình duyệt của bạn, và không có tệp nào được chuyển đến máy chủ. Do đó các tập tin của bạn an toàn 100%."
+        },
+        {
+            "question": "Tôi có thể tải xuống tệp sau khi nén ở bất kỳ định dạng nào khác không?",
+            "answer": "Máy nén video cho phép bạn chỉnh sửa video của bạn theo nhu cầu và yêu cầu của bạn cung cấp nhiều thuộc tính và chức năng. Bạn có thể tải xuống video đã chỉnh sửa ở định dạng gốc của video của bạn. Tuy nhiên, bạn có thể sử dụng các trang web khác của chúng tôi như Video Converter, để cuối cùng chuyển đổi video của bạn ở định dạng mong muốn của bạn."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

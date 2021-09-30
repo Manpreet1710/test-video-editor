@@ -1,0 +1,137 @@
+{
+    "Language": "Tiếng Việt",
+    "htmlLangAtt": "vi",
+    "H1": "Đổi kích thước video",
+    "H2": "Đổi kích thước video của bạn trực tuyến",
+    "TITLE": "Đổi kích thước video của bạn trực tuyến",
+    "META": "Cách dễ nhất để thay đổi kích thước video của bạn trực tuyến",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX sang PDF",
+    "BREADCRUMB_LABEL": "DOCX SANG PDF",
+    "color": "#ff793f",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/resize.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Độc lập",
+            "content": "Trang web của chúng tôi là nền tảng độc lập. Nó hoạt động trên cả Windows và hệ điều hành iOS và có thể được sử dụng mà không cần bất kỳ tải xuống nào."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Hoàn toàn miễn phí",
+            "content": "Việc chuyển đổi hoàn toàn miễn phí, vì vậy bạn có thể chuyển đổi nhiều tệp tùy ý."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Quyền riêng tư và bảo mật ",
+            "content": "Trang web của chúng tôi ưu tiên quyền riêng tư của khách hàng. Vì chúng tôi làm việc với lưu trữ đám mây, các tệp của bạn không được tải lên. Vì vậy, không có cơ hội nhận được bất kỳ vi phạm dữ liệu. Dữ liệu của bạn được an toàn với chúng tôi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Kết quả nhanh",
+            "content": "Quá trình chuyển đổi hầu như không mất vài giây, tùy thuộc vào kích thước tệp của bạn và bạn có thể nhận được kết quả nhanh chóng một cách dễ dàng."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Nhanh chóng và hiệu quả",
+            "content": "Chỉnh sửa video thực sự nhanh chóng và bạn có thể hoàn thành công việc của mình trong thời gian ngắn"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Tiết kiệm thời gian",
+            "content": "Trang web của chúng tôi là nền tảng độc lập, có thể làm việc trên máy tính xách tay, tab và điện thoại và chuyển đổi là nhanh chóng, nó tiết kiệm thời gian."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Làm thế nào để thay đổi kích thước video của bạn",
+        "steps": [
+            "Chọn tệp video của bạn hoặc Nhấp vào mũi tên thả xuống và chọn Dropbox/Google Drive",
+            "Chờ đợi kiên nhẫn cho đến khi video được tải",
+            "Chọn cài đặt đổi kích cỡ thích hợp",
+            "Nhấp vào lưu để tải video của bạn",
+            "Hurray! Thưởng thức các dịch vụ của chúng tôi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Có an toàn để cho phép truy cập vào ổ đĩa của tôi không?",
+            "answer": "Có, nó là hoàn toàn an toàn để cho phép và cung cấp cho chúng tôi quyền truy cập vào ổ đĩa của bạn. Chúng tôi sẽ không thực hiện bất kỳ thay đổi nào đối với trang web của bạn và dfiles của bạn sẽ an toàn với bạn."
+        },
+        {
+            "question": "Làm thế nào tôi có thể tải lên các tập tin từ ổ đĩa/dropbox của tôi?",
+            "answer": "Nhấp vào mũi tên thả xuống và chọn Dropbox/Google Drive. Chọn tài khoản Google từ nơi bạn muốn liên kết ổ đĩa của mình. Bây giờ bạn có thể chọn các tệp mà bạn muốn tải lên."
+        },
+        {
+            "question": "Điều gì có nghĩa là khi thay đổi kích thước video?",
+            "answer": "Thay đổi kích thước video có nghĩa là thay đổi kích thước tệp của video của bạn. Giả sử bạn có một tập tin là 10 MB và bạn muốn nó nhỏ hơn 5 MB, hoặc ngược lại, bạn có thể thay đổi kích thước video của bạn. Làm với điều này, bạn có thể thay đổi độ phân giải của video. "
+        },
+        {
+            "question": "Các độ phân giải có sẵn và kích thước của tệp có độ phân giải khác nhau là gì?",
+            "answer": "Đổi kích thước Video cung cấp tất cả các độ phân giải tiêu chuẩn tức là, 1080p, 720p, 480p, 360p và 240p. Hãy nhớ rằng kích thước tệp độ phân giải cao hơn sẽ nhiều hơn một tệp có độ phân giải thấp hơn. Kích thước của tệp cũng sẽ phụ thuộc vào độ dài của video, độ phân giải, tỷ lệ khung hình và giá trị CRF."
+        },
+        {
+            "question": "Việc thay đổi kích cỡ có ảnh hưởng đến chất lượng video của tôi không?",
+            "answer": "Có, để giảm kích thước tệp, bạn sẽ phải thỏa hiệp về chất lượng của video.  "
+        },
+        {
+            "question": "Tôi có thể tải lên và thay đổi kích cỡ bất kỳ loại tệp nào khác không?",
+            "answer": "Với Đổi kích thước Video, bạn có thể tải lên và đổi kích thước bất kỳ loại tệp video nào mà bạn muốn. Nó hỗ trợ MP4, MOV, FLV, AVI, MKV và loại tệp video khác."
+        },
+        {
+            "question": "Tại sao phải mất quá nhiều thời gian để xử lý tập tin của tôi?",
+            "answer": "Thời gian thực hiện để thay đổi kích thước và xử lý video của bạn phụ thuộc vào kích thước, tỷ lệ khung hình và độ phân giải mà bạn đã chọn. Nếu kích thước tập tin của bạn lớn hơn, nó sẽ mất nhiều thời gian hơn một chút so với các tập tin thông thường."
+        },
+        {
+            "question": "Thay đổi kích thước Video hỗ trợ phiên bản Windows nào?",
+            "answer": "Đổi kích thước Video hoàn toàn dựa trên web và do đó cung cấp hỗ trợ đa nền tảng. Điều này có nghĩa là công cụ của chúng tôi hỗ trợ tất cả các phiên bản của Windows. Nó không chỉ hoạt động trên hệ điều hành Windows, nhưng có thể hoạt động trên bất kỳ hệ điều hành nào khác, hỗ trợ trình duyệt."
+        },
+        {
+            "answer": "Có, trang web của chúng tôi hoạt động trên trình duyệt và do đó hỗ trợ cả hai nền tảng iOS và Android.",
+            "question": "Nó có hỗ trợ cả nền tảng Android và iOS không?"
+        },
+        {
+            "question": "Các tệp đã tải lên của tôi có được lưu trên máy chủ không?",
+            "answer": "Tất cả các quá trình xử lý được thực hiện trên trình duyệt của bạn, và không có tệp nào được chuyển đến máy chủ. Do đó các tập tin của bạn an toàn 100%."
+        },
+        {
+            "question": "Tôi có phải tạo tài khoản để sử dụng Đổi kích thước Video không?",
+            "answer": "Trang web của chúng tôi không yêu cầu bạn đăng ký hoặc tạo tài khoản. Nền tảng này hoàn toàn miễn phí và bạn có thể nén bao nhiêu tệp tùy ý."
+        },
+        {
+            "question": "Tôi có bị tính phí để sử dụng trang web không?",
+            "answer": "Trang web của chúng tôi là hoàn toàn miễn phí và bạn có thể sử dụng nó nhiều lần như bạn muốn. Không có sử dụng thử nghiệm miễn phí, sau đó bạn sẽ phải trả tiền cho việc sử dụng dịch vụ của chúng tôi. Chúng tôi sẽ không tính phí gì cả."
+        },
+        {
+            "question": "Làm thế nào tôi có thể thay đổi kích cỡ nhiều video?",
+            "answer": "Thay đổi kích thước Video cho phép bạn thay đổi kích thước nhiều tệp, từng tệp khác. Khi bạn thay đổi kích thước một tệp và nhấp vào lưu, video sẽ được xử lý. Sau khi video đã được quy trình, bạn có thể thấy tùy chọn tải xuống trên màn hình. Bằng cách nhấp vào nó, bạn có thể tải xuống tệp được thay đổi kích thước. Để thay đổi kích thước video khác, bạn chỉ cần làm mới trình duyệt và bạn sẽ thấy tùy chọn tải lên Video. Bây giờ bạn có thể chọn lại tập tin mà bạn muốn thay đổi kích thước."
+        },
+        {
+            "question": "Tôi đã làm mới trình duyệt do nhầm lẫn. Tôi phải làm gì đây?",
+            "answer": "Vì trang web của chúng tôi không sử dụng bất kỳ máy chủ nào và không lưu trữ dữ liệu của bạn, tệp bạn đã tải lên sẽ không được lưu lại. Bạn cần phải tải lại tệp lên để thay đổi kích cỡ tệp đó."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

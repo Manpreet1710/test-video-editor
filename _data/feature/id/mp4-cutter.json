@@ -1,0 +1,131 @@
+{
+    "Language": "Bahasa Indonesia",
+    "htmlLangAtt": "id",
+    "H1": "Pemotong MP4",
+    "H2": "Memotong video MP4 secara online",
+    "TITLE": "Memotong video MP4 secara online",
+    "META": "Cara termudah untuk memotong video MP4 secara online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX ke PDF",
+    "BREADCRUMB_LABEL": "DOCX KE PDF",
+    "color": "#7d5fff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Mudah digunakan",
+            "content": "Proses penyuntingan video kami elegan dan mudah"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Hasil yang akurat",
+            "content": "Hasilnya akurat dan karenanya benar-benar memenuhi kebutuhan pengguna"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Platform lintas",
+            "content": "Anda bisa menggunakan aplikasi ini mulai sekarang pada sistem operasi manapun, seperti Windows/Mac/Linux/Android/iPhone."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Aman dan dapat dipercaya",
+            "content": "Tidak ada server yang terlibat dan karenanya video Anda aman"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Cepat dan efisien",
+            "content": "Pengeditan video sangat cepat dan Anda bisa menyelesaikan pekerjaan Anda dalam waktu singkat"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Tidak ada berkas yang diunggah",
+            "content": "Aplikasi ini bekerja sepenuhnya pada browser Anda tanpa invlolving server apapun.Oleh karena itu data Anda aman"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Bagaimana untuk memotong mp4 anda",
+        "steps": [
+            "Pilih fail video anda atau Klik pada anak panah jatuh ke bawah dan pilih Dropbox/Google Drive",
+            "Tunggu dengan sabar sampai video dimuat",
+            "Mengatur frame atau timeline yang akan dipotong dari video",
+            "Klik simpan untuk memuat turun video anda",
+            "Hore! Nikmati layanan kami"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Apakah aman untuk mengizinkan akses ke drive saya?",
+            "answer": "Ya, itu benar-benar aman untuk memungkinkan dan memberi kami akses ke drive Anda. Kami tidak akan membuat perubahan apa pun pada situs Anda dan dfiles Anda akan aman bersama Anda."
+        },
+        {
+            "question": "Bagaimana cara mengunggah file dari drive/dropbox saya?",
+            "answer": "Klik pada panah drop down dan pilih Dropbox/Google Drive. Pilih akun Google dari tempat Anda ingin menautkan hard disk Anda. Sekarang Anda bisa memilih file yang ingin Anda unggah."
+        },
+        {
+            "question": "Dapatkah saya membagi video saya dalam pemotong MP4?",
+            "answer": "Ya, Anda dapat memotong dan membagi video MP4 Anda. Anda dapat menyeret atau klik pada play back bar dan klik save. Video Anda akan disimpan dan siap untuk diunduh."
+        },
+        {
+            "question": "Akankah kualitas video saya menurun setelah memotongnya?",
+            "answer": "Hingga dan kecuali jika Anda mengubah resolusi file Anda, itu tidak akan mempengaruhi kualitas file MP4 Anda. Kualitas video Anda akan tetap utuh, hanya ukuran atau panjangnya yang akan berubah."
+        },
+        {
+            "question": "Dapatkah saya mengunggah dan memotong jenis file lainnya?",
+            "answer": "Dengan pemotong MP4, Anda dapat mengunggah dan memotong hanya file MP4. Untuk jenis video lainnya, Anda dapat menggunakan fitur pemotong Video kami."
+        },
+        {
+            "question": "Mengapa butuh waktu lama untuk memproses file saya?",
+            "answer": "Waktu yang dibutuhkan untuk memotong dan memproses video Anda tergantung pada ukuran, rasio aspek, dan jumlah pemotongan yang telah Anda lakukan. Jika ukuran file Anda lebih besar, itu akan memakan waktu lebih lama dari file biasa."
+        },
+        {
+            "question": "Versi Windows mana yang mendukung pemotong MP4?",
+            "answer": "MP4 Cutter benar-benar berbasis web dan karena itu memberikan dukungan cross-platform. Ini berarti alat kami mendukung semua versi Windows. Ini tidak hanya bekerja pada sistem operasi windows, tetapi dapat bekerja pada sistem operasi lain, yang mendukung browser."
+        },
+        {
+            "question": "Apakah mendukung platform Android dan iOS?",
+            "answer": "Ya, situs web kami bekerja di browser, dan karena itu mendukung platform iOS dan Android"
+        },
+        {
+            "question": "Apakah file yang diunggah saya akan disimpan di server?",
+            "answer": "Semua pemrosesan dilakukan pada browser Anda, dan tidak ada file yang ditransfer ke server. Oleh karena itu file Anda 100% aman."
+        },
+        {
+            "question": "Apakah saya harus membuat akun untuk menggunakan pemotong MP4?",
+            "answer": "Situs web kami tidak mengharuskan Anda untuk mendaftar atau membuat akun. Platform ini benar-benar gratis dan Anda bisa memampatkan file sebanyak yang Anda mau."
+        },
+        {
+            "question": "Apakah saya akan dikenakan biaya untuk menggunakan situs web?",
+            "answer": "Situs web kami benar-benar gratis dan Anda dapat menggunakannya sebanyak yang Anda mau. Tidak ada penggunaan uji coba gratis, setelah itu Anda harus membayar untuk menggunakan layanan kami. Kami tidak akan mengenakan biaya apapun."
+        },
+        {
+            "question": "Apa perbedaan antara cut dan split?",
+            "answer": "Pemotongan memungkinkan Anda memotong video Anda dari kedua ujung seluruh panjang video. Anda dapat mempersingkat video sebanyak yang Anda suka dari awal atau akhir atau keduanya juga.\nMemisahkan video berarti membagi video Anda menjadi dua bagian atau lebih. Setelah membagi video Anda, Anda dapat membuat perubahan individual pada bagian video dan menyimpan video sebagai satu file."
+        },
+        {
+            "question": "Bagaimana cara memotong beberapa video?",
+            "answer": "Pemotong MP4 memungkinkan Anda memotong beberapa file, satu demi satu. Saat Anda memotong satu file dan klik simpan, video akan diproses. Setelah video telah proses, Anda dapat melihat opsi download di layar. Dengan mengkliknya Anda bisa mendownload filenya. Untuk memotong video lain, Anda hanya perlu menyegarkan browser dan Anda akan melihat opsi upload MP4. Sekarang Anda dapat lagi memilih file Anda yang ingin Anda potong."
+        },
+        {
+            "question": "Saya menyegarkan browser karena kesalahan. Apa yang harus saya lakukan?",
+            "answer": "Karena situs web kami tidak menggunakan server dan tidak menyimpan data Anda, file yang telah Anda unggah, tidak akan disimpan. Anda perlu mengunggah ulang file untuk memotongnya."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

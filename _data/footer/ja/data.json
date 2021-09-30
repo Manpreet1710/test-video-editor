@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "ビデオ編集を簡単にします。",
+    "companytitle": "会社",
+    "producttitle": "プロダクト",
+    "networksitestitle": "ネットワークサイト",
+    "company": [
+        {
+            "name": "バージョン情報",
+            "url": "/about"
+        },
+        {
+            "name": "ヘルプ",
+            "url": "/help"
+        },
+        {
+            "name": "ブログ",
+            "url": "/blog"
+        },
+        {
+            "name": "利用規約",
+            "url": "/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "切り抜くMP4",
+            "description": "任意の MP4 ビデオを切り抜く",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "ja/crop-mp4"
+        },
+        {
+            "name": "動画のクロップ",
+            "description": "どんな動画でも切り抜く",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "ja/crop-video"
+        },
+        {
+            "name": "MP4エディター",
+            "description": "任意の MP4 ビデオを編集する",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "ja/edit-mp4-video"
+        },
+        {
+            "name": "フリップビデオ",
+            "description": "任意の動画を反転させる",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "ja/flip-video"
+        },
+        {
+            "name": "MOVコンプレッサー",
+            "description": "MOV動画を圧縮する",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "ja/mov-compressor"
+        },
+        {
+            "name": "MP4コンプレッサー",
+            "description": "MP4 動画を圧縮する",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "ja/mp4-compressor"
+        },
+        {
+            "name": "MP4カッター",
+            "description": "任意の MP4 ビデオをカットします。",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "ja/mp4-cutter"
+        },
+        {
+            "name": "ビデオエディター",
+            "description": "動画を編集する",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "ja/video-editor"
+        },
+        {
+            "name": "MP4トリマー",
+            "description": "任意の MP4 ビデオをトリミング",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "ja/mp4-trimmer"
+        },
+        {
+            "name": "ビデオのサイズを変更",
+            "description": "動画のサイズを変更",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "ja/resize-video"
+        },
+        {
+            "name": "ビデオコンプレッサー",
+            "description": "動画を圧縮する",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "ja/video-compressor"
+        },
+        {
+            "name": "ビデオカッター",
+            "description": "動画をカットする",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "ja/video-cutter"
+        },
+        {
+            "name": "ビデオローテータ",
+            "description": "動画を回転させる",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "ja/video-rotater"
+        },
+        {
+            "name": "ビデオスプリッター",
+            "description": "動画を分割する",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "ja/video-splitter"
+        },
+        {
+            "name": "ビデオトリマー",
+            "description": "あらゆる動画をトリミング",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "ja/video-trimmer"
+        },
+        {
+            "name": "ビデオの抽出",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "ja/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "フェイスブック"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "ユーチューブ"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "インスタグラム"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "linkdin"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "ツイッター"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "利用規約",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "プライバシーポリシー",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "お問い合わせ",
+            "url": "/contact"
+        },
+        {
+            "name": "免責事項",
+            "url": "/disclaimer"
+        }
+    ]
+}

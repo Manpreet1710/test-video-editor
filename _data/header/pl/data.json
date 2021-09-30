@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "Narzędzia MP4",
+                "links": [
+                    {
+                        "name": "Przytnij MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/pl/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Edytuj MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/pl/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Edytuj wideo w formacie MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/pl/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Sprężarka MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/pl/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Frez MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/pl/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 przycinarka",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/pl/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "kompresji",
+                "links": [
+                    {
+                        "name": "Sprężarka MOV",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/pl/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Sprężarka MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/pl/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Sprężarka wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/pl/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Narzędzia wideo",
+                "links": [
+                    {
+                        "name": "Przycinanie wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/pl/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmiana rozmiaru wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/pl/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Obróć wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/pl/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Odwróć wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/pl/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "obcinarka wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/pl/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Rozdzielacz wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/pl/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Wideo trymer",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/pl/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Wyodrębnij dźwięk",
+                "links": [
+                    {
+                        "name": "Wyodrębnij dźwięk",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/pl/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        }
+    ]
+}

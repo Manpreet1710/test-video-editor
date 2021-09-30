@@ -1,0 +1,131 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Cortador MP4",
+    "H2": "Corte seus vídeos MP4 online",
+    "TITLE": "Corte seus vídeos MP4 online",
+    "META": "A maneira mais fácil de cortar seus vídeos MP4 online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#7d5fff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Simples de usar",
+            "content": "Nosso processo de edição de vídeo elegante e direto"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Resultados precisos",
+            "content": "Os resultados são precisos e, portanto, satisfazem completamente as necessidades do usuário"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Plataforma cruzada",
+            "content": "Você pode usar este aplicativo a partir de agora em qualquer sistema operacional, como Windows/Mac/Linux/Android/iPhone."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Seguro e confiável",
+            "content": "Não há servidor envolvido e, portanto, seu vídeo está seguro"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido e eficiente",
+            "content": "A edição de vídeo é muito rápida e você pode fazer seu trabalho em pouco tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Nenhum arquivo é carregado",
+            "content": "O aplicativo funciona completamente no seu navegador sem envolver nenhum servidor. Portanto, seus dados estão seguros"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como cortar seu mp4",
+        "steps": [
+            "Escolha seu arquivo de vídeo ou clique na seta suspensa e selecione Dropbox/Google Drive",
+            "Espere pacientemente até que o vídeo seja carregado",
+            "Defina os quadros ou a linha do tempo a ser cortada do vídeo",
+            "Clique em Salvar para baixar seu vídeo",
+            "Viva! Aproveite nossos serviços"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "É seguro permitir o acesso à minha unidade?",
+            "answer": "Sim, é absolutamente seguro permitir e nos dar acesso à sua unidade. Não faremos nenhuma alteração em seu site e seus arquivos estarão seguros com você."
+        },
+        {
+            "question": "Como posso fazer upload de arquivos do meu drive/dropbox?",
+            "answer": "Clique na seta suspensa e selecione Dropbox/Google Drive. Selecione a Conta do Google de onde você deseja vincular sua unidade. Agora você pode selecionar os arquivos que deseja enviar."
+        },
+        {
+            "question": "Posso dividir meu vídeo no cortador MP4?",
+            "answer": "Sim, você pode cortar e dividir seus vídeos MP4. Você pode arrastar ou clicar na barra de reprodução e clicar em salvar. Seu vídeo estará salvo e pronto para download."
+        },
+        {
+            "question": "A qualidade do meu vídeo diminuirá depois de cortá-lo?",
+            "answer": "Até e a menos que você altere a resolução do seu arquivo, isso não afetará a qualidade do arquivo MP4. A qualidade do seu vídeo permanecerá intacta, apenas o tamanho ou a duração serão alterados."
+        },
+        {
+            "question": "Posso fazer upload e cortar qualquer outro tipo de arquivo?",
+            "answer": "Com o cortador MP4, você pode fazer upload e cortar apenas arquivos MP4. Para outros tipos de vídeo, você pode usar nosso recurso Cortador de vídeo."
+        },
+        {
+            "question": "Por que demora tanto para processar meu arquivo?",
+            "answer": "O tempo necessário para cortar e processar seu vídeo depende do tamanho, da proporção e do número de cortes que você realizou. Se o tamanho do arquivo for maior, demorará um pouco mais do que os arquivos normais."
+        },
+        {
+            "question": "Quais versões do Windows o cortador MP4 suporta?",
+            "answer": "O MP4 Cutter é totalmente baseado na Web e, portanto, fornece suporte multiplataforma. Isso significa que nossa ferramenta oferece suporte a todas as versões do Windows. Ele não só funciona no sistema operacional Windows, mas pode funcionar em qualquer outro sistema operacional, que suporte um navegador."
+        },
+        {
+            "question": "Ele é compatível com as plataformas Android e iOS?",
+            "answer": "Sim, nosso site funciona no navegador e, portanto, suporta plataformas iOS e Android"
+        },
+        {
+            "question": "Meus arquivos enviados serão salvos no servidor?",
+            "answer": "Todo o processamento é feito em seu navegador e nenhum arquivo é transferido para o servidor. Portanto, seus arquivos são 100% seguros."
+        },
+        {
+            "question": "Terei que criar uma conta para usar o cortador MP4?",
+            "answer": "Nosso site não exige que você se inscreva ou crie uma conta. A plataforma é totalmente gratuita e você pode compactar quantos arquivos quiser."
+        },
+        {
+            "question": "Serei cobrado pelo uso do site?",
+            "answer": "Nosso site é totalmente gratuito e você pode usá-lo quantas vezes quiser. Não há uso de teste gratuito, após o qual você terá que pagar pelo uso de nossos serviços. Não cobraremos nada."
+        },
+        {
+            "question": "Qual é a diferença entre cortar e dividir?",
+            "answer": "O corte permite que você corte seu vídeo de qualquer uma das extremidades de toda a duração do vídeo. Você pode encurtar seu vídeo o quanto quiser desde o início ou o final ou ambos também.\nDividir um vídeo significa dividir o vídeo em duas ou mais partes. Depois de dividir o vídeo, você pode fazer alterações individuais nas partes do vídeo e salvá-lo como um arquivo."
+        },
+        {
+            "question": "Como posso cortar vários vídeos?",
+            "answer": "O cortador MP4 permite cortar vários arquivos, um após o outro. Quando você corta um arquivo e clica em salvar, o vídeo será processado. Depois que o vídeo for processado, você poderá ver a opção de download na tela. Ao clicar nele, você pode baixar o arquivo. Para cortar outro vídeo, você só precisa atualizar o navegador e verá a opção de upload MP4. Agora você pode selecionar novamente o arquivo que deseja cortar."
+        },
+        {
+            "question": "Eu atualizei o navegador por engano. O que eu faço?",
+            "answer": "Como nosso site não usa nenhum servidor e não armazena seus dados, o arquivo que você carregou não será salvo. Você precisa recarregar o arquivo para cortá-lo."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

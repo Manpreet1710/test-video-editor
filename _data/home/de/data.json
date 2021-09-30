@@ -1,0 +1,135 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "h1": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
+    "h2": "Es werden keine Dateien an den Server gesendet. 100% sicher.",
+    "title": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
+    "TITLE": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
+    "meta": "Unser Online-Video-Editor-Tool ist absolut kostenlos und einfach zu bedienen. Wir stellen sicher, dass alle Ihre Daten sicher sind, während Sie Ihr Video bearbeiten. Wir unterstützen eine Vielzahl von Videoformaten wie MP3, MOV, MKV usw.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "MP4 zuschneiden",
+            "description": "Beschneiden Sie jedes MP4-Video",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/de/crop-mp4"
+        },
+        {
+            "name": "Video zuschneiden",
+            "description": "Beschneide jedes Video",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/de/crop-video"
+        },
+        {
+            "name": "MP4-Redakteur",
+            "description": "Bearbeiten Sie jedes MP4-Video",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/de/edit-mp4-video"
+        },
+        {
+            "name": "Video umdrehen",
+            "description": "Drehen Sie jedes Video um",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/de/flip-video"
+        },
+        {
+            "name": "MOV-Kompressor",
+            "description": "Komprimiere jedes MOV-Video",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/de/mov-compressor"
+        },
+        {
+            "name": "MP4-Kompressor",
+            "description": "Komprimiere alle MP4-Videos",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/de/mp4-compressor"
+        },
+        {
+            "name": "MP4-Schneider",
+            "description": "Schneiden Sie jedes MP4-Video",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/de/mp4-cutter"
+        },
+        {
+            "name": "Videoeditor",
+            "description": "Bearbeiten Sie jedes Video",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/de/video-editor"
+        },
+        {
+            "name": "MP4-Trimmer",
+            "description": "Trimmen Sie jedes MP4-Video",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/de/mp4-trimmer"
+        },
+        {
+            "name": "Video Größe ändern",
+            "description": "Ändern Sie die Größe jedes Videos",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/de/resize-video"
+        },
+        {
+            "name": "Videokompressor",
+            "description": "Komprimiere jedes Video",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/de/video-compressor"
+        },
+        {
+            "name": "Videoschneider",
+            "description": "Schneide jedes Video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/de/video-cutter"
+        },
+        {
+            "name": "Video-Rotater",
+            "description": "Drehen Sie jedes Video",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/de/video-rotater"
+        },
+        {
+            "name": "Videosplitter",
+            "description": "Teilen Sie jedes Video",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/de/video-splitter"
+        },
+        {
+            "name": "Videoschneider",
+            "description": "Trimmen Sie jedes Video",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/de/video-trimmer"
+        },
+        {
+            "name": "Audio extrahieren",
+            "description": "Extrahieren Sie Audio aus einem Video",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/de/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

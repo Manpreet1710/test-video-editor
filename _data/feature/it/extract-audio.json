@@ -1,0 +1,138 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Estrai audio",
+    "H2": "Estrai l'audio dai tuoi video online",
+    "TITLE": "Estrai l'audio dai tuoi video online",
+    "META": "Il modo più semplice per estrarre l'audio dal tuo video in pochissimo tempo",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX DI PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indipendente",
+            "content": "Il nostro sito web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza bisogno di download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Assolutamente gratuito",
+            "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy e sicurezza ",
+            "content": "Il nostro sito web dà la priorità alla privacy dei propri clienti. Poiché lavoriamo con il cloud storage, i tuoi file non vengono caricati. Quindi, nessuna possibilità di ottenere alcuna violazione dei dati. I tuoi dati sono al sicuro con noi!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Veloce ed efficiente",
+            "content": "L'editing video è molto veloce e puoi portare a termine il tuo lavoro in pochissimo tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Risparmia tempo",
+            "content": "Il nostro sito Web è indipendente dalla piattaforma, può funzionare su laptop, schede e telefoni e la conversione è rapida, consente di risparmiare tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Come estrarre l'audio dai tuoi video",
+        "steps": [
+            "Scegli il tuo file video o fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive",
+            "Attendi pazientemente fino al caricamento del video",
+            "Seleziona il formato del file audio",
+            "Seleziona la qualità audio",
+            "Fai clic su Estrai audio per scaricare il tuo file",
+            "Evviva! Goditi i nostri servizi"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "È sicuro consentire l'accesso all'unità?",
+            "answer": "Sì, è assolutamente sicuro consentirci di accedere alla tua unità. Non apporteremo modifiche al tuo sito e i tuoi file saranno al sicuro con te."
+        },
+        {
+            "question": "Come posso caricare file dalla mia unità/dropbox?",
+            "answer": "Fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive. Seleziona l'account Google da cui vuoi collegare l'unità. Ora puoi selezionare i file che vuoi caricare."
+        },
+        {
+            "question": "Quali sono i formati audio disponibili in cui è possibile estrarre l'audio?",
+            "answer": "Extract Audio offre diverse opzioni di diversi formati di file audio in cui è possibile scaricare l'audio estratto. I formati di file disponibili sono MP3, ACC, Ogg, WAV, FLAC e AIFF."
+        },
+        {
+            "question": "Quali qualità audio sono disponibili?",
+            "answer": "Extract Audio offre molteplici opzioni di qualità audio diverse in cui è possibile scaricare l'audio estratto. Le qualità audio disponibili sono 48k. 64k, 80k, 96k, 128k, 256k e 320k"
+        },
+        {
+            "question": "Cosa posso fare se non sono sicuro di quale formato scegliere?",
+            "answer": "Se non sei sicuro di quale formato di file e qualità audio scegliere, non devi preoccuparti. Estrai audio ha un'opzione predefinita che estrae l'audio nel formato più adatto al tuo tipo di file."
+        },
+        {
+            "question": "Posso caricare ed estrarre audio da file video di qualsiasi tipo?",
+            "answer": "Sì, estrarre l'audio consente di estrarre l'audio da qualsiasi formato di file video desiderato. Supporta MP4, MOV, FLV, AVI, MKV e altri tipi di file video."
+        },
+        {
+            "question": "Perché ci vuole così tanto tempo per elaborare il mio file?",
+            "answer": "Il tempo necessario per estrarre l'audio ed elaborare il video dipende dalle dimensioni del file, dal formato di file scelto e dalla qualità audio selezionata. Se le dimensioni del file sono maggiori, ci vorrà un po' più di tempo rispetto ai file normali."
+        },
+        {
+            "question": "Quali versioni di Windows sono supportate da Extract Audio?",
+            "answer": "Extract Audio è completamente basato sul web e quindi fornisce supporto multipiattaforma. Ciò significa che il nostro strumento supporta tutte le versioni di Windows. Non funziona solo con il sistema operativo Windows, ma può funzionare su qualsiasi altro sistema operativo, che supporta un browser."
+        },
+        {
+            "question": "Supporta piattaforme Android e iOS?",
+            "answer": "Sì, il nostro sito web funziona su browser e quindi supporta piattaforme iOS e Android"
+        },
+        {
+            "question": "Ho aggiornato il browser per errore. Cosa devo fare?",
+            "answer": "Poiché il nostro sito Web non utilizza alcun server e non memorizza i tuoi dati, il file che hai caricato non verrà salvato. Devi ricaricare il file per dividerlo."
+        },
+        {
+            "question": "Come posso estrarre l'audio da più video?",
+            "answer": "Con l'estrazione dell'audio, è possibile estrarre l'audio dai file video, uno dopo l'altro. Quando estrai l'audio da un file e fai clic su Estrai, il video verrà elaborato. Dopo che il video è stato elaborato, è possibile visualizzare l'opzione di download sullo schermo. Cliccando su di esso è possibile scaricare il file. Per estrarre l'audio da un altro video, devi solo aggiornare il browser e vedrai l'opzione di caricamento video. Ora è possibile selezionare nuovamente il file che si desidera estrarre l'audio."
+        },
+        {
+            "question": "Mi verrà addebitato un costo per l'utilizzo del sito Web?",
+            "answer": "Il nostro sito web è assolutamente gratuito e puoi utilizzarlo tutte le volte che vuoi. Non ci sono utilizzi di prova gratuiti, dopodiché dovrai pagare per l'utilizzo dei nostri servizi. Non ti addebiteremo nulla."
+        },
+        {
+            "question": "Dovrò creare un account per utilizzare Extract Audio?",
+            "answer": "Il nostro sito Web non richiede la registrazione o la creazione di un account. La piattaforma è assolutamente gratuita e puoi comprimere tutti i file che vuoi."
+        },
+        {
+            "question": "I file caricati verranno salvati sul server?",
+            "answer": "Tutta l'elaborazione viene eseguita sul browser e nessun file viene trasferito sul server. Quindi i tuoi file sono sicuri al 100%."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

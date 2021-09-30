@@ -1,0 +1,135 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "h1": "Safevideokit.com - Il modo più sicuro per elaborare i tuoi video",
+    "h2": "Nessun file viene inviato al server. Sicuro al 100%.",
+    "title": "Safevideokit.com - Il modo più sicuro per elaborare i tuoi video",
+    "TITLE": "Safevideokit.com - Il modo più sicuro per elaborare i tuoi video",
+    "meta": "Il nostro strumento di editor di video online è assolutamente gratuito ed è facile da usare. Ci assicuriamo che tutti i tuoi dati siano al sicuro durante la modifica del video. Supportiamo una vasta gamma di formati video come mp3, mov, mkv ecc.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "Ritaglia MP4",
+            "description": "Ritaglia qualsiasi video MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/it/crop-mp4"
+        },
+        {
+            "name": "Ritaglia video",
+            "description": "Ritaglia qualsiasi video",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/it/crop-video"
+        },
+        {
+            "name": "Editor MP4",
+            "description": "Modifica qualsiasi video MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/it/edit-mp4-video"
+        },
+        {
+            "name": "Capovolgi video",
+            "description": "Capovolgi qualsiasi video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/it/flip-video"
+        },
+        {
+            "name": "Compressore MOV",
+            "description": "Comprimi qualsiasi video MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/it/mov-compressor"
+        },
+        {
+            "name": "Compressore MP4",
+            "description": "Comprimi qualsiasi video MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/it/mp4-compressor"
+        },
+        {
+            "name": "Taglierina MP4",
+            "description": "Taglia qualsiasi video MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/it/mp4-cutter"
+        },
+        {
+            "name": "editor video",
+            "description": "Modifica qualsiasi video",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/it/video-editor"
+        },
+        {
+            "name": "trimmer MP4",
+            "description": "Taglia qualsiasi video MP4",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/it/mp4-trimmer"
+        },
+        {
+            "name": "Ridimensiona video",
+            "description": "Ridimensiona qualsiasi video",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/it/resize-video"
+        },
+        {
+            "name": "Compressore video",
+            "description": "Comprimi qualsiasi video",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/it/video-compressor"
+        },
+        {
+            "name": "taglierina video",
+            "description": "Taglia qualsiasi video",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/it/video-cutter"
+        },
+        {
+            "name": "Rotatore video",
+            "description": "Ruota qualsiasi video",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/it/video-rotater"
+        },
+        {
+            "name": "Splitter video",
+            "description": "Dividi qualsiasi video",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/it/video-splitter"
+        },
+        {
+            "name": "Rifinitore video",
+            "description": "Taglia qualsiasi video",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/it/video-trimmer"
+        },
+        {
+            "name": "Estrai audio",
+            "description": "Estrai l'audio da un video",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/it/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Udtræk lyd",
+    "H2": "Uddrag lyd fra dine videoer online",
+    "TITLE": "Uddrag lyd fra dine videoer online",
+    "META": "Den nemmeste måde at udtrække lyd fra din video på ingen tid",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Uafhængige",
+            "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/er tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Sådan udtrækker du lyd fra dine vidoer",
+        "steps": [
+            "Vælg din videofil eller Klik på rullepilen og vælg Dropbox/Google Drev",
+            "Vent tålmodigt, indtil videoen bliver uploadet",
+            "Vælg lydfilformatet",
+            "Vælg lydkvaliteten",
+            "Klik på Udtræk lyd for at downloade din fil",
+            "Hurra! Nyd vores tjenester"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Er det sikkert at give adgang til mit drev?",
+            "answer": "Ja, det er helt sikkert at tillade og give os adgang til dit drev. Vi foretager ingen ændringer på dit websted, og dine dfiles vil være sikre hos dig."
+        },
+        {
+            "question": "Hvordan kan jeg uploade filer fra mit drev/Dropbox?",
+            "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil linke dit drev. Nu kan du vælge de filer, du vil uploade."
+        },
+        {
+            "question": "Hvad er de tilgængelige lydformater, hvor i kan udtrække min lyd?",
+            "answer": "Uddrag Audio giver dig flere muligheder for forskellige lydfilformater, hvor du kan downloade din udtrukne lyd. De tilgængelige filformater er MP3, ACC, Ogg, WAV, FLAC og AIFF."
+        },
+        {
+            "question": "Hvilke lydkvaliteter er tilgængelige?",
+            "answer": "Uddrag Audio giver dig flere muligheder med forskellige lydkvaliteter, hvor du kan downloade din udtrukne lyd. De tilgængelige lydkvaliteter er 48k. 64k, 80k, 96k, 128k, 256k og 320k"
+        },
+        {
+            "question": "Hvad kan jeg gøre, hvis jeg ikke er sikker på, hvilket format jeg skal vælge?",
+            "answer": "Hvis du ikke er sikker på, hvilket filformat og lydkvalitet du skal vælge, behøver du ikke bekymre dig. Uddrag Audio h/ar/ en stand/ar/dindstilling, som vil udtrække lyden i det format, der passer bedst til din filtype."
+        },
+        {
+            "question": "Kan jeg uploade og udtrække lyd fra videofil af enhver type?",
+            "answer": "Ja, uddrag lyd giver dig mulighed for at udtrække lyd fra ethvert videofilformat, du ønsker. Det understøtter MP4, MOV, FLV, AVI, MKV og andre videofiler type."
+        },
+        {
+            "question": "Hvorfor tager det så lang tid at behandle min fil?",
+            "answer": "Den tid, det tager at udtrække lyden og behandle din video, afhænger af størrelsen på din fil, det filformat, du h/ar/ valgt, og den lydkvalitet, du h/ar/ valgt. Hvis din filstørrelse er større, vil det tage lidt længere tid end almindelige filer."
+        },
+        {
+            "question": "Hvilke Windows-versioner understøtter Extract Audio?",
+            "answer": "Extract Audio er helt webbaseret og giver derfor understøttelse på tværs af platforme. Det betyder, at vores værktøj understøtter alle versioner af Windows. Det virker ikke kun på Windows-operativsystemet, men kan /ar/bejde på ethvert andet operativsystem, der understøtter en browser."
+        },
+        {
+            "question": "Understøtter det både Android- og iOS-platforme?",
+            "answer": "Ja, vores hjemmeside fungerer på browser og understøtter derfor både iOS- og Android-platforme"
+        },
+        {
+            "question": "Jeg opdaterede browseren ved en fejl. Hvad skal jeg gøre?",
+            "answer": "Da vores hjemmeside ikke bruger nogen servere og ikke gemmer dine data, vil den fil, du h/ar/ uploadet, ikke blive gemt. Du skal uploade filen igen for at opdele den."
+        },
+        {
+            "question": "Hvordan kan jeg udtrække lyd fra flere videoer?",
+            "answer": "Med udtræk lyd kan du udtrække lyd fra dine videofiler, den ene efter den anden. Når du udtrækker lyden fra en fil og klikker på uddrag, behandles videoen. Når videoen er blevet behandlet, kan du se downloadindstillingen på skærmen. Ved at klikke på det kan du downloade filen. For at udtrække lyd fra en anden video behøver du kun at opdatere browseren, og du vil se uploadvideoindstillingen. Nu kan du igen vælge din fil, som du vil udtrække lyd."
+        },
+        {
+            "question": "Bliver jeg opkrævet for at bruge hjemmesiden?",
+            "answer": "Vores hjemmeside er helt gratis, og du kan bruge det så mange gange som du ønsker. Der er ingen gratis prøvebrug, hvorefter du skal betale for at bruge vores tjenester. Vi vil ikke anklage dig noget."
+        },
+        {
+            "question": "Skal jeg oprette en konto for at bruge Uddrag Audio?",
+            "answer": "Vores hjemmeside kræver ikke, at du tilmelder dig eller opretter en konto. Platformen er helt gratis, og du kan komprimere så mange filer som du vil."
+        },
+        {
+            "question": "Vil mine uploadede filer blive gemt på serveren?",
+            "answer": "Al behandling sker i din browser, og ingen filer overføres til serveren. Derfor er dine filer 100% sikre."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "comp/ar/e_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

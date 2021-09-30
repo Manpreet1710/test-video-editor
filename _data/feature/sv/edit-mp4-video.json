@@ -1,0 +1,131 @@
+{
+    "Language": "Svenska",
+    "htmlLangAtt": "sv",
+    "H1": "Redigera MP4",
+    "H2": "Redigera dina MP4-videor online",
+    "TITLE": "Redigera dina MP4-videor online",
+    "META": "Det enklaste sättet att redigera dina MP4-videor online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX till PDF",
+    "BREADCRUMB_LABEL": "DOCX TILL PDF",
+    "color": "#4bcffa",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen är helt gratis, så du kan konvertera så många filer som du vill."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Oberoende",
+            "content": "Vår webbplats är plattformsoberoende. Det fungerar på både Windows- och iOS-operativsystem och kan användas utan några nedladdningar som krävs."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Sekretess och säkerhet ",
+            "content": "Vår webbplats prioriterar kundernas integritet. Eftersom vi arbetar med molnlagring laddas inte dina filer upp. Så, ingen chans att få någon dataintrång. Dina uppgifter är säkra hos oss!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snabba resultat",
+            "content": "Konverteringsprocessen tar knappt några sekunder, beroende på filstorleken, och du kan enkelt få snabba resultat."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snabb och effektiv",
+            "content": "Videoredigering är riktigt snabb och du kan få jobbet gjort på nolltid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sparar tid",
+            "content": "Vår webbplats är plattformsoberoende, kan fungera på bärbara datorer, flikar och telefoner och konverteringen är snabb, det sparar tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Så här redigerar du din mp4",
+        "steps": [
+            "Välj din videofil eller Klicka på nedrullningsbara pilen och välj Dropbox/Google Drive",
+            "Vänta tålmodigt tills videon laddas",
+            "Välj lämpliga inställningar på arbetsytan",
+            "Klicka på spara för att ladda ner din video",
+            "Hurra! Njut av våra tjänster"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Är det säkert att tillåta åtkomst till min enhet?",
+            "answer": "Ja, det är helt säkert att tillåta och ge oss tillgång till din enhet. Vi kommer inte att göra några ändringar på din webbplats och dina dfiles kommer att vara säkra hos dig."
+        },
+        {
+            "question": "Hur laddar jag upp filer från min enhet/dropbox?",
+            "answer": "Klicka på rullgardinsmenyn och välj Dropbox/Google Drive. Välj Google-kontot där du vill länka din enhet. Nu kan du välja de filer som du vill ladda upp."
+        },
+        {
+            "question": "Vilka är de tillgängliga bildförhållandena vid beskärning?",
+            "answer": "MP4-redigeraren låter dig beskära din video till flera bildförhållanden, dvs 1:1 (kvadrat), 16:9 (liggande), 9:16, 4:3, 3:4 (stående). Du kan till och med behålla videons ursprungliga förhållande och göra ändringar enligt dina krav om du inte vill ha dessa standardformat.\nMP4-redigeraren kan du beskära videon enligt dina behov. Du behöver bara dra och justera rutan och flytta den till det område som du vill behålla. MP4 redaktör gör beskärning videor mycket enkelt."
+        },
+        {
+            "question": "Hur lång tid tar det att ladda upp min video?",
+            "answer": "Hur lång tid det tar att ladda upp videon för beskärning eller redigering beror på videons storlek. Bättre kvalitet videor med högre upplösning tar längre tid att ladda upp jämfört med videor av låg kvalitet med lägre upplösning.\nDet beror också på vilken typ av video du vill redigera/beskära. Ju större storleken på videon desto längre tid tar det."
+        },
+        {
+            "question": "Vad är CRF-värde?",
+            "answer": "Konstant rate factor (CRF) är ett kodningsläge som justerar fildatahastigheten uppåt eller nedåt för att uppnå en vald kvalitetsnivå i stället för en viss datahastighet. CRF-värden varierar från 0 till 51, med lägre siffror som ger högre kvalitetsresultat."
+        },
+        {
+            "question": "Kommer kvaliteten på mina videor att minska efter beskärning?",
+            "answer": "MP4-redigeraren kan du välja kvaliteten på videon enligt dina krav. Om du vill ha högkvalitativ video kan du välja en högre upplösning och filstorleken blir större. Men om du bryr dig om storleken på filen och kan kompromissa i storleken väljer du en mindre upplösning.\nMP4-redigeraren låter dig också välja CRF-värdet, vilket innebär att du kan välja upplösningen och CRF-värdet enligt dina behov.\nCRF-värden ligger från 0-1, där en lägre CRF ger bättre komprimering och kvalitet."
+        },
+        {
+            "question": "Vilka är de resolutioner som finns tillgängliga och vad kommer storleken på filen med olika upplösningar att vara?",
+            "answer": "MP4-redigeraren tillhandahåller alla standardupplösningar, dvs 1080p, 720p, 480p, 360p och 240p. Tänk på att en filstorlek med högre upplösning kommer att vara mer än en fil med lägre upplösning. Filens storlek beror också på videons längd, upplösningen, bildförhållandet och CRF-värdena."
+        },
+        {
+            "question": "Vad är kodningshastigheter?",
+            "answer": "MP4 editor låter dig välja kodningshastighet dvs hastigheten med vilken du vill konvertera videon och spara den för nedladdning. Kodningshastigheter tillgängliga med MP4 editor är ultrasnabb, supersnabb, mycket snabb, snabbare, Snabb, medium, långsam, långsammare, mycket långsam.\nJu långsammare hastigheten desto bättre är kompressionen. MP4-redigerare ger ett brett utbud av kodningshastigheter enligt olika behov hos våra användare och säkerställer att ge bästa kvalitet videor för varje redigering som gjorts av användaren."
+        },
+        {
+            "question": "Vilka andra alternativ är tillgängliga än att beskära MP4-videon?",
+            "answer": "MP4-redigeraren ger många alternativ. Förutom beskärning kan du trimma din video, rotera den, ändra upplösningen på dina videoklipp och till och med öka eller minska hastigheten på dina videoklipp.\nMP4 editor är plattform som låter dig göra flera redigeringar på en enda plattform. Det är också gratis!"
+        },
+        {
+            "question": " Kan jag ladda ner filen efter beskärning i något annat format?",
+            "answer": "MP4-redigerare kan du redigera dina videor enligt dina behov och krav som ger flera attribut och funktioner. Du kan bara ladda ner den redigerade videon i MP4-format. Du kan dock använda våra andra webbplatser som MOV Converter, för att slutligen konvertera din video i önskat format."
+        },
+        {
+            "question": "Vad är skillnaden mellan trim och split?",
+            "answer": "Med trimning kan du klippa din video från vardera änden av hela längden på videon. Du kan förkorta videon så mycket du vill från början eller slutet eller båda.\nAtt dela upp en video innebär att du delar upp din video i två eller flera delar. När du har delat upp videon kan du göra enskilda ändringar i videodelar och spara videon som en fil."
+        },
+        {
+            "question": "Kan vi ta bort oönskade delar av videon?",
+            "answer": "Ja, du kan enkelt dela och trimma videoklippen enligt dina krav. MP4-redigeraren kan du dela upp videon i flera delar. Sedan kan du redigera varje del av videon individuellt enligt dina behov."
+        },
+        {
+            "question": "Kan jag ändra storlek på mina videor?",
+            "answer": "Du kan använda alternativet Ändra storlek på video om du vill ändra storlek på dina videoklipp till vilken storlek du vill."
+        },
+        {
+            "question": "Kan jag extrahera ljud från mina videofiler på den här plattformen?",
+            "answer": "MP4-redigeraren har inte ett alternativ där du kan extrahera ljud från dina filer. Du kan använda funktionen Extrahera ljud på safevideokit.com för att extrahera ljud från dina filer."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}
