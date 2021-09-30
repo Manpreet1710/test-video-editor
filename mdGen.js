@@ -1,11 +1,11 @@
 const fs = require("fs")
 
 let home = {
-	path: "/index.markdown"
+	path: "./index.markdown"
 }
 
 let features = {
-	dir: "/features/",
+	dir: "./features/",
 }
 
 
@@ -82,7 +82,7 @@ for(let [code,text] of Object.entries(languages)){
 
 
 	let nh = replace(home_data,code)
-	nh = nh.replace(/permalink.*/,"permalink: /"+ code)
+	nh = nh.replace(/permalink.*/,"permalink: "+ code)
 
 	//console.log(nh)
 

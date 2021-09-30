@@ -3,5 +3,5 @@ layout: home
 folderName: home
 lang: zh-TW
 fileName: data
-permalink: /zh-TW
+permalink: zh-TW
 ---
