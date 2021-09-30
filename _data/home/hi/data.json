@@ -1,32 +1,135 @@
 {
-    "h1":"हम पीडीएफ को आसान बनाते हैं",
-    "h2":"ऑल-इन-वन आसान ऑनलाइन पीडीएफ टूल का उपयोग करें",
-    "title":"List of all Android alarm libraries for use in your project",
-    "meta":"See collection of all Android alarm libraries, filter by license, modified date, languages, and select best for your usecase.",
-    "features":[
-       {
-          "name":"पीडीएफ को संपीड़ित करें",
-          "description":"गुणवत्ता खोए बिना अपने पीडीएफ का आकार कम करें",
-          "color":"blue",
-          "icon": "",
-          "url":"/hi/compress-pdf"
-          
-       },
-       {
-        "name":"पीडीएफ हटाएं",
-        "description":"गुणवत्ता खोए बिना अपने पीडीएफ का आकार कम करें",
-        "color":"blue",
-        "icon": "",
-        "url":"/hi/compress-pdf"
-        
-      },
-      {
-        "name":"स्प्लिट पीडीएफ",
-        "description":"गुणवत्ता खोए बिना अपने पीडीएफ का आकार कम करें",
-        "color":"blue",
-        "icon": "",
-        "url":"/hi/compress-pdf"
-        
-      }
-    ]
- }
+    "Language": "हिन्दी",
+    "htmlLangAtt": "hi",
+    "h1": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "h2": "सर्वर पर कोई फाइल नहीं भेजी जाती है. 100% सुरक्षित।",
+    "title": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "TITLE": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "meta": "हमारा ऑनलाइन वीडियो एडिटर टूल बिल्कुल मुफ्त है और इसका उपयोग करना आसान है। हम सुनिश्चित करते हैं कि आपके वीडियो को संपादित करते समय आपका सारा डेटा सुरक्षित रहे। हम एमपी 3, एमओवी, एमकेवी इत्यादि जैसे वीडियो प्रारूपों की एक बड़ी श्रृंखला का समर्थन करते हैं।",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "MP4 क्रॉप करें",
+            "description": "किसी भी MP4 वीडियो को क्रॉप करें",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/hi/crop-mp4"
+        },
+        {
+            "name": "वीडियो क्रॉप करें",
+            "description": "कोई भी वीडियो क्रॉप करें",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "hi/crop-video"
+        },
+        {
+            "name": "MP4 संपादक",
+            "description": "किसी भी MP4 वीडियो को संपादित करें",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "hi/edit-mp4-video"
+        },
+        {
+            "name": "फ्लिप वीडियो",
+            "description": "किसी भी वीडियो को फ्लिप करें",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "hi/flip-video"
+        },
+        {
+            "name": "MOV कंप्रेसर",
+            "description": "किसी भी MOV वीडियो को कंप्रेस करें",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "hi/mov-compressor"
+        },
+        {
+            "name": "mp4 कंप्रेसर",
+            "description": "किसी भी MP4 वीडियो को कंप्रेस करें",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "hi/mp4-compressor"
+        },
+        {
+            "name": "MP4 कटर",
+            "description": "किसी भी MP4 वीडियो को काटें",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "hi/mp4-cutter"
+        },
+        {
+            "name": "वीडियो एडिटर",
+            "description": "किसी भी वीडियो को संपादित करें",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "hi/video-editor"
+        },
+        {
+            "name": "MP4 ट्रिमर",
+            "description": "किसी भी MP4 वीडियो को ट्रिम करें",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "hi/mp4-trimmer"
+        },
+        {
+            "name": "वीडियो का आकार बदलें",
+            "description": "किसी भी वीडियो का आकार बदलें",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "hi/resize-video"
+        },
+        {
+            "name": "विडियो कम्प्रेसर",
+            "description": "किसी भी वीडियो को कंप्रेस करें",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "hi/video-compressor"
+        },
+        {
+            "name": "वीडियो-कटर",
+            "description": "किसी भी वीडियो को काटें",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "hi/video-cutter"
+        },
+        {
+            "name": "वीडियो रोटेटर",
+            "description": "किसी भी वीडियो को घुमाएं",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "hi/video-rotater"
+        },
+        {
+            "name": "वीडियो स्प्लिटर",
+            "description": "किसी भी वीडियो को विभाजित करें",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "hi/video-splitter"
+        },
+        {
+            "name": "वीडियो ट्रिमर",
+            "description": "किसी भी वीडियो को ट्रिम करें",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "hi/video-trimmer"
+        },
+        {
+            "name": "ऑडियो एक्सट्रेक्ट करें",
+            "description": "वीडियो से ऑडियो एक्सट्रेक्ट करें",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "hi/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}
