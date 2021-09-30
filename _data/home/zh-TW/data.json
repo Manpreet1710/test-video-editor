@@ -1,0 +1,135 @@
+{
+    "Language": "繁體中文",
+    "htmlLangAtt": "zh-TW",
+    "h1": "安全視頻-處理您的視頻最安全的方式",
+    "h2": "沒有文件被發送到服務器。100％ 安全的。",
+    "title": "安全視頻-處理您的視頻最安全的方式",
+    "TITLE": "安全視頻-處理您的視頻最安全的方式",
+    "meta": "我們的線上視頻編輯工具是完全免費的，易於使用。在您編輯影片時，我們會確保您的所有資料都安全無虞。我們支持大量的視頻格式，如 MP3，mov，mkv 等。",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "裁切 MP4",
+            "description": "裁切任何 MP4 視訊",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/zh-TW/crop-mp4"
+        },
+        {
+            "name": "裁切視訊",
+            "description": "裁切任何視訊",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/zh-TW/crop-video"
+        },
+        {
+            "name": "MP4 編輯器",
+            "description": "編輯任何 MP4 視訊",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/zh-TW/edit-mp4-video"
+        },
+        {
+            "name": "翻轉視訊",
+            "description": "翻轉任何視訊",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/zh-TW/flip-video"
+        },
+        {
+            "name": "MOV 壓縮機",
+            "description": "壓縮任何 MOV 視訊",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh-TW/mov-compressor"
+        },
+        {
+            "name": "MP4 壓縮機",
+            "description": "壓縮任何 MP4 視訊",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh-TW/mp4-compressor"
+        },
+        {
+            "name": "MP4 刀具",
+            "description": "剪下任何 MP4 視訊",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh-TW/mp4-cutter"
+        },
+        {
+            "name": "視訊編輯器",
+            "description": "編輯任何視訊",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/zh-TW/video-editor"
+        },
+        {
+            "name": "MP4 微調器",
+            "description": "修剪任何 MP4 視訊",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh-TW/mp4-trimmer"
+        },
+        {
+            "name": "調整視訊大小",
+            "description": "調整任何視訊大小",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/zh-TW/resize-video"
+        },
+        {
+            "name": "視訊壓縮機",
+            "description": "壓縮任何視訊",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh-TW/video-compressor"
+        },
+        {
+            "name": "視訊切割器",
+            "description": "剪下任何視訊",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh-TW/video-cutter"
+        },
+        {
+            "name": "視訊旋轉器",
+            "description": "旋轉任何視訊",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/zh-TW/video-rotater"
+        },
+        {
+            "name": "視訊分割器",
+            "description": "分割任何視訊",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh-TW/video-splitter"
+        },
+        {
+            "name": "視訊微調器",
+            "description": "修剪任何視訊",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh-TW/video-trimmer"
+        },
+        {
+            "name": "擷取音訊",
+            "description": "從視訊擷取音訊",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/zh-TW/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "應用程式",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Video Döndürücü",
+    "H2": "Videolarınızı çevrimiçi olarak döndürün",
+    "TITLE": "Videolarınızı çevrimiçi olarak döndürün",
+    "META": "Videolarınızı çevrimiçi döndürmenin en kolay yolu.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'ten PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX İÇİN PDF",
+    "color": "#33d9b2",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/rotate.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Kazanır",
+            "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Videonuzu döndürme",
+        "steps": [
+            "Video dosyanızı seçin veya Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin",
+            "Video yüklenene kadar sabırla bekleyin",
+            "Uygun döndürme ayarlarını seçin",
+            "Videonuzu indirmek için Kaydet'e tıklayın",
+            "Yaşasın! Hizmetlerimizin keyfini çıkarın"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Sürücüme erişime izin vermek güvenli mi?",
+            "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+        },
+        {
+            "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+            "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+        },
+        {
+            "question": "Videomu neden döndürmeliyim?",
+            "answer": "Video çekerken bir hata varsa veya bir videonun potre modu ve yatay modda istiyorsanız döndürmek kullanabilirsiniz. Videoları döndürmek videolarınızın en boy oranını değiştirir."
+        },
+        {
+            "question": "Mevcut rotasyonlar nelerdir?",
+            "answer": "Size iki seçenek verilir: Sol ve Sağ. İhtiyacınıza bağlı olarak videonuzu saat yönünde veya saat yönünün tersine döndürebilirsiniz. Döndürme işleminizden memnun kalana kadar seçeneklerden birini veya her ikisini birden çok kez seçebilirsiniz."
+        },
+        {
+            "question": "Videolarımı 180 dereceye nasıl döndürebilirim?",
+            "answer": "Videonuzu 180 dereceye döndürmek için, sol veya sağ seçeneğine tıklayıp iki kez seçebilirsiniz. Her seçim videonuzu 90 derece döndürür, bu nedenle iki seçim videolarınızı 180 dereceye döndürür."
+        },
+        {
+            "question": "Döndürme videolarımın kalitesini etkileyecek mi?",
+            "answer": "Hayır, videolarınızı döndürmek videolarınızın kalitesini etkilemez. Sadece videonun en boy oranını değiştirecektir."
+        },
+        {
+            "question": "Başka bir dosya türünü yükleyip döndürebilir miyim?",
+            "answer": "Video Rotator ile istediğiniz her tür video dosyasını yükleyebilir ve döndürebilirsiniz. MP4, MOV, FLV, AVI, MKV ve diğer video dosyaları türünü destekler."
+        },
+        {
+            "question": "Dosyamı işlemek neden bu kadar uzun sürüyor?",
+            "answer": "Videonuzu döndürmek ve işlemek için geçen süre boyutuna, en boy oranına ve gerçekleştirdiğiniz döndürme sayısına bağlıdır. Dosya boyutunuz büyükse, normal dosyalardan biraz daha uzun sürecektir."
+        },
+        {
+            "question": "Video desteğini hangi Windows sürümleri döndürür?",
+            "answer": "Video Rotator tamamen web tabanlı ve bu nedenle çapraz platform desteği sağlar. Bu, aracımızın tüm Windows sürümlerini desteklediği anlamına gelir. Sadece windows işletim sistemi üzerinde çalışır, Ama başka bir işletim sistemi üzerinde çalışabilir, Bu bir tarayıcı destekler."
+        },
+        {
+            "question": "Hem Android hem de iOS platformlarını destekliyor mu?",
+            "answer": "Evet, web sitemiz tarayıcıda çalışır ve bu nedenle hem iOS hem de Android platformlarını destekler"
+        },
+        {
+            "question": "Tarayıcıyı yanlışlıkla yeniledim. Ben ne yapayım?",
+            "answer": "Web sitemiz herhangi bir sunucu kullanmadığından ve verilerinizi saklamadığından, yüklediğiniz dosya kaydedilmeyecektir. Döndürmek için dosyayı yeniden yüklemeniz gerekir."
+        },
+        {
+            "question": "Birden fazla videoyu nasıl döndürebilirim?",
+            "answer": "Video Rotator, birbiri ardına birden fazla dosyayı döndürmenizi sağlar. Bir dosyayı döndürdüğünüzde ve kaydetmeye tıkladığınızda, video işlenecektir. Video işlendikten sonra, ekranda indirme seçeneğini görebilirsiniz. Üzerine tıklayarak döndürülmüş dosyayı indirebilirsiniz. Başka bir videoyu döndürmek için, yalnızca tarayıcıyı yenilemeniz gerekir ve video yükleme seçeneğini göreceksiniz. Artık döndürmek istediğiniz dosyanızı tekrar seçebilirsiniz."
+        },
+        {
+            "question": "Web sitesini kullanmak için ücret alınacak mı?",
+            "answer": "Web sitemiz tamamen ücretsizdir ve istediğiniz kadar kullanabilirsiniz. Ücretsiz deneme kullanımı yoktur, bundan sonra hizmetlerimizi kullanmak için ödeme yapmak zorunda kalacaksınız. Sana hiçbir şey ödemeyeceğiz."
+        },
+        {
+            "question": "Video döndürme özelliğini kullanmak için bir hesap oluşturmam gerekecek mi?",
+            "answer": "Web sitemiz kaydolmanızı veya bir hesap oluşturmanızı gerektirmez. Platform tamamen ücretsizdir ve istediğiniz kadar dosyayı sıkıştırabilirsiniz."
+        },
+        {
+            "question": "Yüklenen dosyalarım sunucuya kaydedilecek mi?",
+            "answer": "Tüm işlemler tarayıcınızda yapılır ve sunucuya hiçbir dosya aktarılmaz. Bu nedenle dosyalarınız% 100 güvenlidir."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

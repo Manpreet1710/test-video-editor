@@ -1,0 +1,184 @@
+{
+    "logo": "/assets/safevideokit.svg",
+    "heading": "Video düzenlemeyi kolaylaştırıyoruz.",
+    "companytitle": "Şirket",
+    "producttitle": "Ürün",
+    "networksitestitle": "Ağ siteleri",
+    "company": [
+        {
+            "name": "Hakkında",
+            "url": "/about"
+        },
+        {
+            "name": "Yardım",
+            "url": "/help"
+        },
+        {
+            "name": "Blog",
+            "url": "/blog"
+        },
+        {
+            "name": "Şartlar ve koşullar",
+            "url": "/terms-and-conditions"
+        }
+    ],
+    "product": [
+        {
+            "name": "Kırpma MP4",
+            "description": "Herhangi bir MP4 videosunu kırpma",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "tr/crop-mp4"
+        },
+        {
+            "name": "Kırpma videosu",
+            "description": "Herhangi bir videoyu kırp",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "tr/crop-video"
+        },
+        {
+            "name": "MP4 editörü",
+            "description": "Herhangi bir MP4 videosunu düzenleme",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "tr/edit-mp4-video"
+        },
+        {
+            "name": "Videoyu çevir",
+            "description": "Herhangi bir video çevirin",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "tr/flip-video"
+        },
+        {
+            "name": "MOV kompresör",
+            "description": "Herhangi bir MOV videosunu sıkıştırın",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "tr/mov-compressor"
+        },
+        {
+            "name": "MP4 kompresör",
+            "description": "Herhangi bir MP4 videolarını sıkıştırın",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "tr/mp4-compressor"
+        },
+        {
+            "name": "MP4 Kesici",
+            "description": "Herhangi bir MP4 videosunu kesin",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "tr/mp4-cutter"
+        },
+        {
+            "name": "video editörü",
+            "description": "Herhangi bir videoyu düzenleme",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "tr/video-editor"
+        },
+        {
+            "name": "MP4 düzenleyici",
+            "description": "Herhangi bir MP4 videosunu kırpın",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "tr/mp4-trimmer"
+        },
+        {
+            "name": "Videoyu yeniden boyutlandırma",
+            "description": "Videoyu yeniden boyutlandırma",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "tr/resize-video"
+        },
+        {
+            "name": "Video kompresörü",
+            "description": "Herhangi bir videoyu sıkıştırın",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "tr/video-compressor"
+        },
+        {
+            "name": "video kesici",
+            "description": "Herhangi bir videoyu kes",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "tr/video-cutter"
+        },
+        {
+            "name": "Video rotater",
+            "description": "Herhangi bir videoyu döndürme",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "tr/video-rotater"
+        },
+        {
+            "name": "Video ayırıcı",
+            "description": "Herhangi bir videoyu bölme",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "tr/video-splitter"
+        },
+        {
+            "name": "Video düzenleyici",
+            "description": "Herhangi bir video kırpma",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "tr/video-trimmer"
+        },
+        {
+            "name": "Video ayıklayın",
+            "icon": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "tr/extract-audio"
+        }
+    ],
+    "networkSites": [],
+    "social": [
+        {
+            "logo": "/assets/facebook.svg",
+            "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
+            "title": "facebook"
+        },
+        {
+            "logo": "/assets/youtube.svg",
+            "url": "/",
+            "title": "youtube"
+        },
+        {
+            "logo": "/assets/instagram.svg",
+            "url": "/",
+            "title": "instagram"
+        },
+        {
+            "logo": "/assets/linkdin.svg",
+            "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
+            "title": "linkdin"
+        },
+        {
+            "logo": "/assets/twitter.svg",
+            "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
+            "title": "twitter"
+        }
+    ],
+    "messege": "© 2021 — Made with love for the people of the world.",
+    "legal": [
+        {
+            "name": "Şartlar ve koşullar",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "name": "Gizlilik Politikası",
+            "url": "/privacy-policy"
+        },
+        {
+            "name": "Bize Ulaşın",
+            "url": "/contact"
+        },
+        {
+            "name": "Yasal Uyarı",
+            "url": "/disclaimer"
+        }
+    ]
+}

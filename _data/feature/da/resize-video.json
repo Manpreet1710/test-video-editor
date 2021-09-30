@@ -1,0 +1,137 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Tilpas størrelse på video",
+    "H2": "Tilpas størrelsen på dine videoer online",
+    "TITLE": "Tilpas størrelsen på dine videoer online",
+    "META": "Den nemmeste måde at ændre størrelsen på dine videoer online",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#ff793f",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/resize.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Uafhængige",
+            "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sp/ar/er tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Sådan ændrer du størrelsen på din video",
+        "steps": [
+            "Vælg din videofil eller Klik på rullepilen og vælg Dropbox/Google Drev",
+            "Vent tålmodigt, indtil videoen bliver indlæst",
+            "Vælg de relevante indstillinger for ændre størrelse",
+            "Klik på Gem for at downloade din video",
+            "Hurra! Nyd vores tjenester"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Er det sikkert at give adgang til mit drev?",
+            "answer": "Ja, det er helt sikkert at tillade og give os adgang til dit drev. Vi foretager ingen ændringer på dit websted, og dine dfiles vil være sikre hos dig."
+        },
+        {
+            "question": "Hvordan kan jeg uploade filer fra mit drev/Dropbox?",
+            "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil linke dit drev. Nu kan du vælge de filer, du vil uploade."
+        },
+        {
+            "question": "Hvad menes der med at ændre størrelsen på videoen?",
+            "answer": "Ændring af størrelsen af videoen betyder, at filstørrelsen på din video ændres. Antag, at du h/ar/ en fil, der er 10 MB, og du vil have den til at være mindre end 5 MB, eller omvendt, kan du ændre størrelsen på din video. Gør til dette, kan du ændre opløsningen af videoen. "
+        },
+        {
+            "question": "Hvilke beslutninger er der til rådighed, og hvad vil størrelsen af de forskellige resolutioner være?",
+            "answer": "Resize Video giver alle stand/ar/dopløsninger, dvs. 1080p, 720p, 480p, 360p og 240p. Husk, at en filstørrelse med højere opløsning vil være mere end en fil med lavere opløsning. Filens størrelse afhænger også af længden af videoen, opløsningen, formatforholdet og CRF-værdierne."
+        },
+        {
+            "question": "Vil størrelsen påvirke kvaliteten af mine videoer?",
+            "answer": "Ja, for at reducere filstørrelsen skal du gå på kompromis med kvaliteten af videoen.  "
+        },
+        {
+            "question": "Kan jeg uploade og ændre størrelsen på en anden filtype?",
+            "answer": "Med Tilpas størrelse på video kan du uploade og ændre størrelsen på enhver type videofil, du ønsker. Det understøtter MP4, MOV, FLV, AVI, MKV og andre videofiler type."
+        },
+        {
+            "question": "Hvorfor tager det så lang tid at behandle min fil?",
+            "answer": "Den tid, det tager at ændre størrelsen og behandle din video, afhænger af størrelsen, størrelsesforholdet og den opløsning, du h/ar/ valgt. Hvis din filstørrelse er større, vil det tage lidt længere tid end almindelige filer."
+        },
+        {
+            "question": "Hvilke Windows-versioner understøtter Tilpas størrelse på video?",
+            "answer": "Resize Video er fuldstændig webbaseret og giver derfor understøttelse på tværs af platforme. Det betyder, at vores værktøj understøtter alle versioner af Windows. Det virker ikke kun på Windows operativsystem, men kan /ar/bejde på ethvert andet operativsystem, der understøtter en browser."
+        },
+        {
+            "answer": "Ja, vores hjemmeside fungerer på browser og understøtter derfor både iOS- og Android-platforme.",
+            "question": "Understøtter det både Android- og iOS-platforme?"
+        },
+        {
+            "question": "Vil mine uploadede filer blive gemt på serveren?",
+            "answer": "Al behandling sker i din browser, og ingen filer overføres til serveren. Derfor er dine filer 100% sikre."
+        },
+        {
+            "question": "Skal jeg oprette en konto for at bruge Tilpas størrelse på video?",
+            "answer": "Vores hjemmeside kræver ikke, at du tilmelder dig eller opretter en konto. Platformen er helt gratis, og du kan komprimere så mange filer som du vil."
+        },
+        {
+            "question": "Bliver jeg opkrævet for at bruge hjemmesiden?",
+            "answer": "Vores hjemmeside er helt gratis, og du kan bruge det så mange gange som du ønsker. Der er ingen gratis prøvebrug, hvorefter du skal betale for at bruge vores tjenester. Vi vil ikke anklage dig noget."
+        },
+        {
+            "question": "Hvordan kan jeg ændre størrelsen på flere videoer?",
+            "answer": "Tilpas størrelse på Video giver dig mulighed for at ændre størrelsen på flere filer, den ene efter den anden. Når du ændrer størrelse på en fil og klikker på gem, behandles videoen. Når videoen h/ar/ været processer, kan du se downloadindstilling på skærmen. Ved at klikke på det kan du downloade den tilpassede fil. For at ændre størrelsen på en anden video behøver du kun at opdatere browseren, og du vil se upload Video option. Nu kan du igen vælge din fil, som du vil ændre størrelsen på."
+        },
+        {
+            "question": "Jeg opdaterede browseren ved en fejl. Hvad skal jeg gøre?",
+            "answer": "Da vores hjemmeside ikke bruger nogen servere og ikke gemmer dine data, vil den fil, du h/ar/ uploadet, ikke blive gemt. Du skal uploade filen igen for at ændre størrelsen på den."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "comp/ar/e_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

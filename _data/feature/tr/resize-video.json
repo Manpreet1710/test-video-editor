@@ -1,0 +1,137 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Videoyu yeniden boyutlandırma",
+    "H2": "Videolarınızı çevrimiçi olarak yeniden boyutlandırma",
+    "TITLE": "Videolarınızı çevrimiçi olarak yeniden boyutlandırma",
+    "META": "Videolarınızı çevrimiçi olarak yeniden boyutlandırmanın en kolay yolu",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'ten PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX İÇİN PDF",
+    "color": "#ff793f",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/resize.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Kazanır",
+            "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Videonuzu yeniden boyutlandırma",
+        "steps": [
+            "Video dosyanızı seçin veya Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin",
+            "Video yüklenene kadar sabırla bekleyin",
+            "Uygun yeniden boyutlandırma ayarlarını seçin",
+            "Videonuzu indirmek için Kaydet'e tıklayın",
+            "Yaşasın! Hizmetlerimizin keyfini çıkarın"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Sürücüme erişime izin vermek güvenli mi?",
+            "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+        },
+        {
+            "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+            "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+        },
+        {
+            "question": "Videoyu yeniden boyutlandırarak ne kastediliyor?",
+            "answer": "Videoyu yeniden boyutlandırmak, videonuzun dosya boyutunu değiştirmek anlamına gelir. 10 MB olan bir dosyanız olduğunu ve 5 MB'den az olmasını istediğinizi veya tam tersini varsayalım, videonuzu yeniden boyutlandırabilirsiniz. Bunu yapın, videonun çözünürlüğünü değiştirebilirsiniz. "
+        },
+        {
+            "question": "Mevcut çözünürlükler nelerdir ve farklı çözünürlüklerin dosyasının boyutu ne olacak?",
+            "answer": "Resize Video tüm standart çözünürlükleri, yani 1080p, 720p, 480p, 360p ve 240p sağlar. Daha yüksek çözünürlüklü dosya boyutunun daha düşük çözünürlüklü bir dosyadan daha fazla olacağını unutmayın. Dosyanın boyutu, videonun uzunluğuna, çözünürlüğe, en boy oranına ve CRF değerlerine de bağlı olacaktır."
+        },
+        {
+            "question": "Yeniden boyutlandırma videolarımın kalitesini etkileyecek mi?",
+            "answer": "Evet, dosya boyutunu azaltmak için videonun kalitesinden ödün vermeniz gerekecektir.  "
+        },
+        {
+            "question": "Başka bir dosya türünü yükleyebilir ve yeniden boyutlandırabilir miyim?",
+            "answer": "Videoyu Yeniden Boyutlandır ile istediğiniz her tür video dosyasını yükleyebilir ve yeniden boyutlandırabilirsiniz. MP4, MOV, FLV, AVI, MKV ve diğer video dosyaları türünü destekler."
+        },
+        {
+            "question": "Dosyamı işlemek neden bu kadar uzun sürüyor?",
+            "answer": "Videonuzu yeniden boyutlandırmak ve işlemek için geçen süre, seçtiğiniz boyuta, en boy oranına ve çözünürlüğe bağlıdır. Dosya boyutunuz büyükse, normal dosyalardan biraz daha uzun sürecektir."
+        },
+        {
+            "question": "Resize Video hangi Windows sürümlerini destekliyor?",
+            "answer": "Resize Video tamamen web tabanlı ve bu nedenle çapraz platform desteği sağlar. Bu, aracımızın tüm Windows sürümlerini desteklediği anlamına gelir. Sadece windows işletim sistemi üzerinde çalışır, Ama başka bir işletim sistemi üzerinde çalışabilir, Bu bir tarayıcı destekler."
+        },
+        {
+            "answer": "Evet, web sitemiz tarayıcıda çalışır ve bu nedenle hem iOS hem de Android platformlarını destekler.",
+            "question": "Hem Android hem de iOS platformlarını destekliyor mu?"
+        },
+        {
+            "question": "Yüklenen dosyalarım sunucuya kaydedilecek mi?",
+            "answer": "Tüm işlemler tarayıcınızda yapılır ve sunucuya hiçbir dosya aktarılmaz. Bu nedenle dosyalarınız% 100 güvenlidir."
+        },
+        {
+            "question": "Videoyu Yeniden Boyutlandır özelliğini kullanmak için bir hesap oluşturmam gerekecek mi?",
+            "answer": "Web sitemiz kaydolmanızı veya bir hesap oluşturmanızı gerektirmez. Platform tamamen ücretsizdir ve istediğiniz kadar dosyayı sıkıştırabilirsiniz."
+        },
+        {
+            "question": "Web sitesini kullanmak için ücret alınacak mı?",
+            "answer": "Web sitemiz tamamen ücretsizdir ve istediğiniz kadar kullanabilirsiniz. Ücretsiz deneme kullanımı yoktur, bundan sonra hizmetlerimizi kullanmak için ödeme yapmak zorunda kalacaksınız. Sana hiçbir şey ödemeyeceğiz."
+        },
+        {
+            "question": "Birden fazla videoyu nasıl yeniden boyutlandırabilirim?",
+            "answer": "Yeniden Boyutlandır Video, birbiri ardına birden fazla dosyayı yeniden boyutlandırmanıza olanak tanır. Bir dosyayı yeniden boyutlandırıp kaydetmeye tıkladığınızda, video işlenecektir. Video işlemlerden sonra, ekranda indirme seçeneğini görebilirsiniz. Üzerine tıklayarak yeniden boyutlandırılmış dosyayı indirebilirsiniz. Başka bir videoyu yeniden boyutlandırmak için yalnızca tarayıcıyı yenilemeniz gerekir ve video yükleme seçeneğini göreceksiniz. Artık yeniden boyutlandırmak istediğiniz dosyanızı yeniden seçebilirsiniz."
+        },
+        {
+            "question": "Tarayıcıyı yanlışlıkla yeniledim. Ben ne yapayım?",
+            "answer": "Web sitemiz herhangi bir sunucu kullanmadığından ve verilerinizi saklamadığından, yüklediğiniz dosya kaydedilmeyecektir. Yeniden boyutlandırmak için dosyayı yeniden yüklemeniz gerekir."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

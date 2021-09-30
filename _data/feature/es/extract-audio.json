@@ -1,0 +1,138 @@
+{
+    "Language": "Español",
+    "htmlLangAtt": "es",
+    "H1": "Extraer audio",
+    "H2": "Extrae audio de tus vídeos online",
+    "TITLE": "Extrae audio de tus vídeos online",
+    "META": "La forma más sencilla de extraer audio de tu vídeo en poco tiempo",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX a PDF",
+    "BREADCRUMB_LABEL": "DOCX A PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independiente",
+            "content": "Nuestro sitio web es independiente de la plataforma. Funciona tanto en sistemas operativos Windows como iOS y se puede utiliz/ar/ sin necesidad de desc/ar/gas."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Absolutamente gratis",
+            "content": "La conversión es totalmente gratuita, por lo que puedes convertir tantos /ar/chivos como quieras."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidad y seguridad ",
+            "content": "Nuestro sitio web prioriza la privacidad de sus clientes. Dado que trabajamos con almacenamiento en la nube, tus /ar/chivos no se c/ar/gan. Por lo tanto, no hay posibilidad de que se produzca ninguna violación de datos. ¡Tus datos están seguros con nosotros!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "El proceso de conversión apenas t/ar/da unos segundos, dependiendo del tamaño de tu /ar/chivo, y puedes obtener resultados rápidos fácilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido y eficiente",
+            "content": "La edición de vídeo es muy rápida y puedes hacer tu trabajo en poco tiempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Ahorra tiempo",
+            "content": "Nuestro sitio web es independiente de la plataforma, puede funcion/ar/ en computadoras portátiles, pestañas y teléfonos y la conversión es rápida, ahorra tiempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Cómo extraer audio de tus vídeos",
+        "steps": [
+            "Elige tu /ar/chivo de vídeo o haz clic en la flecha desplegable y selecciona Dropbox/Google Drive",
+            "Espera pacientemente hasta que se suba el vídeo",
+            "Seleccione el formato de /ar/chivo de audio",
+            "Selecciona la calidad del audio",
+            "Haz clic en Extraer audio p/ar/a desc/ar/g/ar/ tu /ar/chivo",
+            "¡Hurra! Disfruta de nuestros servicios"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "¿Es seguro permitir el acceso a mi unidad?",
+            "answer": "Sí, es absolutamente seguro permitirnos y d/ar/nos acceso a tu unidad. No realiz/ar/emos ningún cambio en tu sitio y tus /ar/chivos est/ar/án seguros contigo."
+        },
+        {
+            "question": "¿Cómo puedo subir /ar/chivos desde mi drive/dropbox?",
+            "answer": "Haz clic en la flecha desplegable y selecciona Dropbox/Google Drive. Selecciona la cuenta de Google desde la que quieres vincul/ar/ tu unidad. Ahora puedes seleccion/ar/ los /ar/chivos que quieres subir."
+        },
+        {
+            "question": "¿Cuáles son los formatos de audio disponibles en los que puedo extraer mi audio?",
+            "answer": "Extract Audio te ofrece múltiples opciones de diferentes formatos de /ar/chivo de audio en los que puedes desc/ar/g/ar/ el audio extraído. Los formatos de /ar/chivo disponibles son MP3, ACC, Ogg, WAV, FLAC y AIFF."
+        },
+        {
+            "question": "¿Qué calidades de audio hay disponibles?",
+            "answer": "Extract Audio te ofrece múltiples opciones de diferentes calidades de audio en las que puedes desc/ar/g/ar/ el audio extraído. Las calidades de audio disponibles son 48k. 64k, 80k, 96k, 128k, 256k y 320k"
+        },
+        {
+            "question": "¿Qué puedo hacer si no estoy seguro de qué formato elegir?",
+            "answer": "Si no está seguro de qué formato de /ar/chivo y calidad de audio elegir, no tiene que preocup/ar/se. Extraer audio tiene una opción predeterminada que extraerá el audio en el formato más adecuado p/ar/a su tipo de /ar/chivo."
+        },
+        {
+            "question": "¿Puedo subir y extraer audio de cualquier tipo de /ar/chivo de vídeo?",
+            "answer": "Sí, extraer audio te permite extraer audio de cualquier formato de /ar/chivo de vídeo que desees. Es compatible con MP4, MOV, FLV, AVI, MKV y otros tipos de /ar/chivos de vídeo."
+        },
+        {
+            "question": "¿Por qué t/ar/da tanto en proces/ar/ mi /ar/chivo?",
+            "answer": "El tiempo neces/ar/io p/ar/a extraer el audio y proces/ar/ el vídeo depende del tamaño del /ar/chivo, del formato de /ar/chivo que haya elegido y de la calidad de audio que haya seleccionado. Si el tamaño del /ar/chivo es mayor, t/ar/d/ar/á un poco más que los /ar/chivos normales."
+        },
+        {
+            "question": "¿Qué versiones de Windows admite Extract Audio?",
+            "answer": "Extract Audio está completamente basado en web y, por lo tanto, proporciona soporte multiplataforma. Esto significa que nuestra herramienta es compatible con todas las versiones de Windows. No solo funciona en el sistema operativo Windows, sino que también puede funcion/ar/ en cualquier otro sistema operativo que admita un navegador."
+        },
+        {
+            "question": "¿Es compatible con las plataformas Android e iOS?",
+            "answer": "Sí, nuestro sitio web funciona en el navegador y, por lo tanto, es compatible con plataformas iOS y Android"
+        },
+        {
+            "question": "Actualicé el navegador por error. ¿Qué hago?",
+            "answer": "Dado que nuestro sitio web no utiliza ningún servidor y no almacena sus datos, el /ar/chivo que ha subido no se gu/ar/d/ar/á. Necesitas volver a subir el /ar/chivo p/ar/a dividirlo."
+        },
+        {
+            "question": "¿Cómo puedo extraer audio de v/ar/ios vídeos?",
+            "answer": "Con la extracción de audio, puedes extraer audio de tus /ar/chivos de vídeo, uno tras otro. Al extraer el audio de un /ar/chivo y hacer clic en extraer, el vídeo se proces/ar/á. Una vez procesado el vídeo, puede ver la opción de desc/ar/ga en la pantalla. Al hacer clic en él puedes desc/ar/g/ar/ el /ar/chivo. P/ar/a extraer audio de otro vídeo, solo necesitas actualiz/ar/ el navegador y verás la opción de subir vídeo. Ahora puede volver a seleccion/ar/ el /ar/chivo que desea extraer audio."
+        },
+        {
+            "question": "¿Me cobr/ar/án por us/ar/ el sitio web?",
+            "answer": "Nuestro sitio web es totalmente gratuito y puedes us/ar/lo tantas veces como quieras. No hay usos de prueba gratuitos, después de lo cual tendrás que pag/ar/ por us/ar/ nuestros servicios. No te cobr/ar/emos nada."
+        },
+        {
+            "question": "¿Tendré que cre/ar/ una cuenta p/ar/a us/ar/ Extract Audio?",
+            "answer": "Nuestro sitio web no requiere que te registres ni crees una cuenta. La plataforma es totalmente gratuita y puedes comprimir tantos /ar/chivos como quieras."
+        },
+        {
+            "question": "¿Los /ar/chivos que he subido se gu/ar/d/ar/án en el servidor?",
+            "answer": "Todo el procesamiento se realiza en el navegador y no se transfiere ningún /ar/chivo al servidor. Por lo tanto, tus /ar/chivos son 100% seguros."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "comp/ar/e_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

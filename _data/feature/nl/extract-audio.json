@@ -1,0 +1,138 @@
+{
+    "Language": "Nederlands",
+    "htmlLangAtt": "nl",
+    "H1": "Audio extraheren",
+    "H2": "Haal online audio uit je video's",
+    "TITLE": "Haal online audio uit je video's",
+    "META": "Eenvoudigste manier om in een mum van tijd audio uit je video te extraheren",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX naar PDF",
+    "BREADCRUMB_LABEL": "DOCX NAAR PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Onafhankelijk",
+            "content": "Onze website is platformonafhankelijk. Het werkt op zowel Windows- als iOS-besturingssystemen en kan zonder downloads worden gebruikt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absoluut gratis",
+            "content": "De conversie is helemaal gratis, dus je kunt zoveel bestanden converteren als je wilt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy en beveiliging ",
+            "content": "Onze website geeft prioriteit aan de privacy van haar klanten. Omdat we met cloudopslag werken, worden je bestanden niet geüpload. Dus geen kans op een datalek. Jouw gegevens zijn veilig bij ons!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snelle resultaten",
+            "content": "Het conversieproces duurt nauwelijks een paar seconden, afhankelijk van je bestandsgrootte, en je kunt snel resultaat behalen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snel en efficiënt",
+            "content": "Videobewerking is erg snel en je kunt je klus in een mum van tijd klaren"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Bespaart tijd",
+            "content": "Onze website is platformonafhankelijk, kan werken op laptops, tabbladen en telefoons en de conversie verloopt snel, het bespaart tijd."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Audio extraheren van je video's",
+        "steps": [
+            "Kies je videobestand of klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive",
+            "Wacht geduldig tot de video is geüpload",
+            "Selecteer de indeling van het audiobestand",
+            "Selecteer de audiokwaliteit",
+            "Klik op Audio extraheren om je bestand te downloaden",
+            "Hoera! Geniet van onze diensten"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Is het veilig om toegang tot mijn schijf toe te staan?",
+            "answer": "Ja, het is absoluut veilig om je schijf toe te staan en ons toegang te geven. We zullen geen wijzigingen aanbrengen in je site en je bestanden zijn veilig bij je."
+        },
+        {
+            "question": "Hoe kan ik bestanden uploaden vanuit mijn drive/dropbox?",
+            "answer": "Klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive. Selecteer het Google-account waar je je schijf wilt koppelen. Nu kun je de bestanden selecteren die je wilt uploaden."
+        },
+        {
+            "question": "Wat zijn de beschikbare audioformaten waarin ik mijn audio kan extraheren?",
+            "answer": "Extract Audio biedt u meerdere opties van verschillende audiobestandsindelingen waarin u uw geëxtraheerde audio kunt downloaden. De beschikbare bestandsformaten zijn MP3, ACC, Ogg, WAV, FLAC en AIFF."
+        },
+        {
+            "question": "Welke audiokwaliteiten zijn er beschikbaar?",
+            "answer": "Extract Audio biedt u meerdere opties van verschillende audiokwaliteiten waarin u uw geëxtraheerde audio kunt downloaden. De beschikbare audiokwaliteiten zijn 48k. 64k, 80k, 96k, 128k, 256k en 320k"
+        },
+        {
+            "question": "Wat kan ik doen als ik niet zeker weet welk formaat ik moet kiezen?",
+            "answer": "Als u niet zeker weet welke bestandsindeling en audiokwaliteit u moet kiezen, hoeft u zich geen zorgen te maken. Extraheer Audio heeft een standaardoptie die de audio extraheren in het formaat dat het meest geschikt is voor uw bestandstype."
+        },
+        {
+            "question": "Kan ik audio uploaden en extraheren uit een videobestand van welk type dan ook?",
+            "answer": "Ja, met het extraheren van audio kun je audio extraheren uit elk gewenst videobestandsindeling. Het ondersteunt MP4, MOV, FLV, AVI, MKV en andere soorten videobestanden."
+        },
+        {
+            "question": "Waarom duurt het zo lang om mijn bestand te verwerken?",
+            "answer": "De tijd die nodig is om de audio te extraheren en uw video te verwerken, hangt af van de grootte van uw bestand, het bestandsindeling dat u hebt gekozen en de audiokwaliteit die u hebt geselecteerd. Als je bestandsgrootte groter is, duurt het iets langer dan gewone bestanden."
+        },
+        {
+            "question": "Welke Windows-versies ondersteunt Extract Audio?",
+            "answer": "Extract Audio is volledig webgebaseerd en biedt daarom platformonafhankelijke ondersteuning. Dit betekent dat onze tool alle versies van Windows ondersteunt. Het werkt niet alleen op het Windows-besturingssysteem, maar kan ook werken op elk ander besturingssysteem dat een browser ondersteunt."
+        },
+        {
+            "question": "Ondersteunt het zowel Android- als iOS-platforms?",
+            "answer": "Ja, onze website werkt op browser en ondersteunt daarom zowel iOS- als Android-platforms"
+        },
+        {
+            "question": "Ik heb de browser per ongeluk vernieuwd. Wat moet ik doen?",
+            "answer": "Aangezien onze website geen servers gebruikt en uw gegevens niet opslaat, wordt het bestand dat u hebt geüpload, niet opgeslagen. Je moet het bestand opnieuw uploaden om het te splitsen."
+        },
+        {
+            "question": "Hoe kan ik audio extraheren uit meerdere video's?",
+            "answer": "Met extraaudio kun je audio uit je videobestanden extraheren, de ene na de andere. Wanneer je de audio uit één bestand haalt en op extract klikt, wordt de video verwerkt. Nadat de video is verwerkt, zie je de downloadoptie op het scherm. Door erop te klikken kun je het bestand downloaden. Om audio uit een andere video te extraheren, hoeft u alleen de browser te vernieuwen en ziet u de optie Video uploaden. Nu kun je opnieuw je bestand selecteren dat je audio wilt extraheren."
+        },
+        {
+            "question": "Worden er kosten in rekening gebracht voor het gebruik van de website?",
+            "answer": "Onze website is helemaal gratis en je kunt hem zo vaak gebruiken als je wilt. Er zijn geen gratis proefversies, waarna u moet betalen voor het gebruik van onze diensten. We zullen je niets in rekening brengen."
+        },
+        {
+            "question": "Moet ik een account aanmaken om Extract Audio te gebruiken?",
+            "answer": "Op onze website hoeft u zich niet aan te melden of een account aan te maken. Het platform is helemaal gratis en je kunt zoveel bestanden comprimeren als je wilt."
+        },
+        {
+            "question": "Worden mijn geüploade bestanden opgeslagen op de server?",
+            "answer": "Alle verwerking gebeurt in uw browser en er worden geen bestanden naar de server overgebracht. Daarom zijn je bestanden 100% veilig."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "Language": "Українська",
+    "htmlLangAtt": "uk",
+    "h1": "Safevideokit.com - Найбезпечніший спосіб обробки відео",
+    "h2": "Ніякі файли не надсилаються на сервер. 100% безпечно.",
+    "title": "Safevideokit.com - Найбезпечніший спосіб обробки відео",
+    "TITLE": "Safevideokit.com - Найбезпечніший спосіб обробки відео",
+    "meta": "Наш онлайн-редактор відео абсолютно безкоштовний і простий у використанні. Ми гарантуємо, що всі ваші дані в безпеці, коли ви редагуєте своє відео. Ми підтримуємо великий діапазон форматів відео, таких як mp3, mov, mkv і т.д.",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "Рослинництво MP4",
+            "description": "Обрізати будь-яке відео MP4",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/uk/crop-mp4"
+        },
+        {
+            "name": "Кадрування відео",
+            "description": "Кадрування будь-якого відео",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/uk/crop-video"
+        },
+        {
+            "name": "Редактор MP4",
+            "description": "Редагування будь-якого відео MP4",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/uk/edit-mp4-video"
+        },
+        {
+            "name": "Перевернути відео",
+            "description": "Переверніть будь-яке відео",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/uk/flip-video"
+        },
+        {
+            "name": "MOV компресор",
+            "description": "Стиснути будь-яке відео MOV",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/uk/mov-compressor"
+        },
+        {
+            "name": "Компресор MP4",
+            "description": "Стиснути будь-які відео MP4",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/uk/mp4-compressor"
+        },
+        {
+            "name": "MP4 різак",
+            "description": "Вирізати будь-яке відео MP4",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/uk/mp4-cutter"
+        },
+        {
+            "name": "відеоредактор",
+            "description": "Редагувати будь-яке відео",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/uk/video-editor"
+        },
+        {
+            "name": "MP4 триммер",
+            "description": "Обрізка будь-якого MP4 відео",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/uk/mp4-trimmer"
+        },
+        {
+            "name": "Змінити розмір відео",
+            "description": "Змінити розмір будь-якого відео",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/uk/resize-video"
+        },
+        {
+            "name": "Відеокомпресор",
+            "description": "Стиснути будь-яке відео",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/uk/video-compressor"
+        },
+        {
+            "name": "відеорізак",
+            "description": "Вирізати будь-яке відео",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/uk/video-cutter"
+        },
+        {
+            "name": "Ротач відео",
+            "description": "Повернути будь-яке відео",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/uk/video-rotater"
+        },
+        {
+            "name": "Відео розгалужувач",
+            "description": "Розділити будь-яке відео",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/uk/video-splitter"
+        },
+        {
+            "name": "Відео-тример",
+            "description": "Обрізати будь-яке відео",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/uk/video-trimmer"
+        },
+        {
+            "name": "Витяг аудіо",
+            "description": "Вилучення аудіо з відео",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/uk/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

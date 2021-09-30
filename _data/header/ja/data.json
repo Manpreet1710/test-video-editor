@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "MP4ツール",
+                "links": [
+                    {
+                        "name": "切り抜くMP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/ja/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4を編集",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/ja/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4 ビデオを編集する",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ja/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4コンプレッサー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/ja/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4カッター",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/ja/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4トリマー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/ja/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "圧縮",
+                "links": [
+                    {
+                        "name": "MOVコンプレッサー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/ja/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "MP4コンプレッサー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/ja/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ビデオコンプレッサー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/ja/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "ビデオツール",
+                "links": [
+                    {
+                        "name": "動画のクロップ",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/ja/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ビデオのサイズを変更",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/ja/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "動画を回転する",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/ja/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "フリップビデオ",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/ja/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ビデオカッター",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/ja/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ビデオスプリッター",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/ja/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ビデオトリマー",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/ja/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "オーディオを抽出",
+                "links": [
+                    {
+                        "name": "オーディオを抽出",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/ja/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "ブログ",
+            "url": "/blog"
+        }
+    ]
+}

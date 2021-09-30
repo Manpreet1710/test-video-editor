@@ -1,0 +1,137 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Video editörü",
+    "H2": "Videolarınızı çevrimiçi düzenleme",
+    "TITLE": "Videolarınızı çevrimiçi düzenleme",
+    "META": "Videolarınızı çevrimiçi düzenlemenin en kolay yolu",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'ten PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX İÇİN PDF",
+    "color": "#ffa502",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-video.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Kazanır",
+            "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Videonuzu düzenleme",
+        "steps": [
+            "Video dosyanızı seçin veya Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin",
+            "Video yüklenene kadar sabırla bekleyin",
+            "Çalışma alanında uygun ayarları seçme",
+            "Videonuzu indirmek için Kaydet'e tıklayın",
+            "Yaşasın! Hizmetlerimizin keyfini çıkarın"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Sürücüme erişime izin vermek güvenli mi?",
+            "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+        },
+        {
+            "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+            "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+        },
+        {
+            "question": "Kırpma sırasında kullanılabilir en boy oranları nelerdir?",
+            "answer": "Video düzenleyici, videonuzu birden fazla en boy oranına (1:1 (kare), 16:9 (manzara), 9:16, 4:3, 3:4 (portre) bölmenize olanak tanır. Hatta bu standart en boy oranlarını istemiyorsanız videonuzun orijinal oranını koruyabilir ve gereksiniminize göre değişiklikler yapabilirsiniz.\nVideo editörü, videoyu ihtiyacınıza göre kırpmanıza izin verir. Sadece kutuyu sürükleyip ayarlamanız ve saklamak istediğiniz alana taşımanız yeterlidir. Video editörü, videoları kırpmayı çok kolaylaştırır."
+        },
+        {
+            "question": "Videomun yüklenmesi ne kadar sürer?",
+            "answer": "Kırpma veya düzenleme için videonuzu yüklemek için geçen süre, videonuzun boyutuna bağlıdır. Daha yüksek çözünürlüğe sahip daha kaliteli videoların yüklenmesi daha az çözünürlüğe sahip düşük kaliteli videolara kıyasla daha fazla zaman alacaktır.\nAyrıca, düzenlemek/kırpmak istediğiniz videonun türüne bağlıdır. Videonun boyutu ne kadar büyük olursa, o kadar uzun sürer."
+        },
+        {
+            "question": "CRF değeri nedir?",
+            "answer": "Sabit hız faktörü (CRF), belirli bir veri hızı yerine seçilen bir kalite düzeyine ulaşmak için dosya veri hızını yukarı veya aşağı ayarlayan bir kodlama modudur. CRF değerleri 0 ile 51 arasında değişir ve daha düşük sayılar daha yüksek kaliteli puanlar sağlar."
+        },
+        {
+            "question": "Kırpıldıktan sonra videolarımın kalitesi azalacak mı?",
+            "answer": "Video editörü, gereksiniminize göre videonun kalitesini seçmenizi sağlar. Yüksek kaliteli video istiyorsanız, daha yüksek bir çözünürlük seçebilir ve dosya boyutu daha büyük olacaktır. Ancak, dosyanın boyutunu önemsiyorsanız ve boyutta ödün verebiliyorsanız, daha az çözünürlük seçti.\nVideo editörü ayrıca CRF değerini seçmenize izin verir, bu da ihtiyacınız olan çözünürlüğü ve CRF değerini seçebileceğiniz anlamına gelir.\nCRF değerleri, daha düşük bir CRF'nin daha iyi sıkıştırma ve kalite sağladığı 0-1 arasındadır."
+        },
+        {
+            "question": "Mevcut çözünürlükler nelerdir ve farklı çözünürlüklerin dosyasının boyutu ne olacak?",
+            "answer": "Video editörü tüm standart çözünürlükleri, yani 1080p, 720p, 480p, 360p ve 240p sağlar. Daha yüksek çözünürlüklü dosya boyutunun daha düşük çözünürlüklü bir dosyadan daha fazla olacağını unutmayın. Dosyanın boyutu, videonun uzunluğuna, çözünürlüğe, en boy oranına ve CRF değerlerine de bağlı olacaktır."
+        },
+        {
+            "question": "Kodlama hızları nedir?",
+            "answer": "Video editörü, kodlama hızını seçmenize izin verir, yani videoyu dönüştürmek ve indirmek için kaydetmek istediğiniz hızı. Video editörü ile mevcut kodlama hızları ultra hızlı, süper hızlı, çok hızlı, hızlı, hızlı, orta, yavaş, çok yavaş.\nHız ne kadar yavaş olursa, sıkıştırma o kadar iyi olur. Video editörü, kullanıcılarımızın değişen ihtiyaçlarına göre geniş bir kodlama hızı yelpazesi sunar ve kullanıcı tarafından yapılan her düzenleme için en iyi kalitede videoları sağlamayı sağlar."
+        },
+        {
+            "question": " Video videosunu kırpmak dışında kullanılabilen diğer seçenekler nelerdir?",
+            "answer": "Video editörü birçok seçenek sunar. Kırpma dışında videonuzu kırpabilir, döndürebilir, videolarınızın çözünürlüğünü değiştirebilir ve hatta videolarınızın hızını artırabilir veya azaltabilirsiniz.\nVideo editörü, tek bir platformda birden fazla düzenleme yapmanızı sağlayan bir platformdur. Bu da ÜCRETSİZ!"
+        },
+        {
+            "question": "Bu platformdaki video dosyalarımdan Ses Ayıklayabilir miyim?",
+            "answer": "Video editörünün dosyalarınızdan ses çıkarabileceğiniz bir seçeneği yoktur. Dosyalarınızdan ses çıkarmak için safevideokit.com üzerindeki ses ayıkla özelliğini kullanabilirsiniz."
+        },
+        {
+            "question": "Videolarımı yeniden boyutlandırabilir miyim?",
+            "answer": "Videolarınızı istediğiniz boyutta yeniden boyutlandırmak için videoyu yeniden boyutlandırma seçeneğini kullanabilirsiniz."
+        },
+        {
+            "question": "Videonun istenmeyen kısımlarını kaldırabilir miyiz?",
+            "answer": "Evet, videoları gereksiniminize göre kolayca bölebilir ve düzeltebilirsiniz. Video editörü, videoyu birden çok parçaya bölmenizi sağlar. Ardından, videonun her bir bölümünü ihtiyaçlarınıza göre ayrı ayrı düzenleyebilirsiniz."
+        },
+        {
+            "question": " trim ve split arasındaki fark nedir?",
+            "answer": "Kırpma, videonuzu videonun tüm uzunluğunun her iki ucundan da kesmenizi sağlar. Videonuzu başlangıç veya bitiş ya da her ikisinden de istediğiniz kadar kısaltabilirsiniz.\nVideoyu bölmek, videonuzu iki veya daha fazla parçaya bölmek anlamına gelir. Videoyu böldükten sonra, video parçalarında bireysel değişiklikler yapabilir ve videoyu tek bir dosya olarak kaydedebilirsiniz."
+        },
+        {
+            "question": "Dosyayı başka bir formatta kırptıktan sonra indirebilir miyim?",
+            "answer": "Video editörü, videolarınızı ihtiyaçlarınıza ve gereksinimlerinize göre düzenlemenize olanak tanır ve birden fazla özellik ve işlev sağlar. Düzenlenen videoyu yalnızca Video formatında indirebilirsiniz. Ancak, nihayet istediğiniz formatta videonuzu dönüştürmek için, Video Converter gibi diğer web sitelerimizi kullanabilirsiniz."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

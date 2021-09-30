@@ -1,0 +1,138 @@
+{
+    "Language": "Français",
+    "htmlLangAtt": "fr",
+    "H1": "Extraire le",
+    "H2": "Extrayez l'audio de vos vidéos en ligne",
+    "TITLE": "Extrayez l'audio de vos vidéos en ligne",
+    "META": "Le moyen le plus simple d'extraire l'audio de votre vidéo en un rien de temps",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX vers PDF",
+    "BREADCRUMB_LABEL": "DOCX VERS PDF",
+    "color": "#26de81",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/sound.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indépendant",
+            "content": "Notre site Web est indépendant de la plateforme. Il fonctionne sur les systèmes d'exploitation Windows et iOS et peut être utilisé sans aucun téléch/ar/gement requis."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/t/ar/get.svg",
+            "header": "Absolument gratuit",
+            "content": "La conversion est totalement gratuite, vous pouvez donc convertir autant de fichiers que vous le souhaitez."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Confidentialité et sécurité ",
+            "content": "Notre site Web accorde la priorité à la confidentialité de ses clients. Comme nous travaillons avec le stockage dans le cloud, vos fichiers ne sont pas téléch/ar/gés. Il n'y a donc aucune chance d'obtenir une violation de données. Avec nous, vos données sont en sécurité !"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Résultats rapides",
+            "content": "Le processus de conversion ne prend que quelques secondes, en fonction de la taille de votre fichier, et vous pouvez facilement obtenir des résultats rapides."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rapide et efficace",
+            "content": "Le montage vidéo est très rapide et vous pouvez faire votre travail en un rien de temps"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Gain de temps",
+            "content": "Notre site Web est indépendant de la plate-forme, peut fonctionner sur des ordinateurs portables, des onglets et des téléphones et la conversion est rapide, cela permet de gagner du temps."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Comment extraire l'audio de vos vidéos",
+        "steps": [
+            "Choisissez votre fichier vidéo ou cliquez sur la flèche déroulante et sélectionnez Dropbox/Google Drive",
+            "Attendez patiemment que la vidéo soit téléch/ar/gée",
+            "Sélectionnez le format de fichier audio",
+            "Sélectionnez la qualité audio",
+            "Cliquez sur Extraire l'audio pour téléch/ar/ger votre fichier",
+            "Hourra ! Profitez de nos services"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "Est-il sécuritaire d'autoriser l'accès à mon disque dur ?",
+            "answer": "Oui, il est absolument sécuritaire de nous autoriser et de nous donner accès à votre disque dur. Nous n'apporterons aucune modification à votre site et vos fichiers seront en sécurité avec vous."
+        },
+        {
+            "question": "Comment puis-je téléch/ar/ger des fichiers depuis mon lecteur ou ma boîte de dépôt ?",
+            "answer": "Cliquez sur la flèche déroulante et sélectionnez Dropbox/Google Drive. Sélectionnez le compte Google auquel vous souhaitez associer votre disque. Vous pouvez maintenant sélectionner les fichiers que vous souhaitez téléch/ar/ger."
+        },
+        {
+            "question": "Quels sont les formats audio disponibles dans lesquels je peux extraire mon audio ?",
+            "answer": "Extract Audio vous offre plusieurs options de différents formats de fichiers audio dans lesquels vous pouvez téléch/ar/ger l'audio extrait. Les formats de fichiers disponibles sont MP3, ACC, Ogg, WAV, FLAC et AIFF."
+        },
+        {
+            "question": "Quelles sont les qualités audio disponibles ?",
+            "answer": "Extract Audio vous offre plusieurs options de différentes qualités audio dans lesquelles vous pouvez téléch/ar/ger l'audio extrait. Les qualités audio disponibles sont 48 ko. 64 000, 80 000, 96 000, 128 ko, 256 ko et 320 ko"
+        },
+        {
+            "question": "Que puis-je faire si je ne suis pas sûr du format à choisir ?",
+            "answer": "Si vous n'êtes pas sûr du format de fichier et de la qualité audio à choisir, vous n'avez pas à vous inquiéter. L'option Extraire l'audio comporte une option p/ar/ défaut qui permet d'extraire l'audio dans le format le mieux adapté à votre type de fichier."
+        },
+        {
+            "question": "Puis-je téléch/ar/ger et extraire l'audio d'un fichier vidéo de n'importe quel type ?",
+            "answer": "Oui, l'option Extract Audio vous permet d'extraire l'audio à p/ar/tir de n'importe quel format de fichier vidéo de votre choix. Il prend en ch/ar/ge MP4, MOV, FLV, AVI, MKV et d'autres types de fichiers vidéo."
+        },
+        {
+            "question": "Pourquoi le traitement de mon dossier prend-il autant de temps ?",
+            "answer": "Le temps nécessaire à l'extraction de l'audio et au traitement de votre vidéo dépend de la taille de votre fichier, du format de fichier choisi et de la qualité audio sélectionnée. Si la taille de votre fichier est plus grande, cela prendra un peu plus de temps que les fichiers normaux."
+        },
+        {
+            "question": "Quelles sont les versions Windows prises en ch/ar/ge p/ar/ Extract Audio ?",
+            "answer": "Extract Audio est entièrement basé sur le Web et fournit donc une prise en ch/ar/ge multiplateforme. Cela signifie que notre outil prend en ch/ar/ge toutes les versions de Windows. Il fonctionne non seulement sur le système d'exploitation Windows, mais peut également fonctionner sur n'importe quel autre système d'exploitation prenant en ch/ar/ge un navigateur."
+        },
+        {
+            "question": "Est-ce qu'il prend en ch/ar/ge les plates-formes Android et iOS ?",
+            "answer": "Oui, notre site Web fonctionne sur navigateur et prend donc en ch/ar/ge les plates-formes iOS et Android"
+        },
+        {
+            "question": "J'ai rafraîchi le navigateur p/ar/ erreur. Que dois-je faire ?",
+            "answer": "Étant donné que notre site Web n'utilise aucun serveur et ne stocke pas vos données, le fichier que vous avez téléch/ar/gé ne sera pas enregistré. Vous devez téléch/ar/ger à nouveau le fichier pour le fractionner."
+        },
+        {
+            "question": "Comment extraire l'audio de plusieurs vidéos ?",
+            "answer": "Avec Extract Audio, vous pouvez extraire l'audio de vos fichiers vidéo, l'un après l'autre. Lorsque vous extrayez l'audio d'un fichier et que vous cliquez sur Extraire, la vidéo est traitée. Une fois la vidéo traitée, vous pouvez voir l'option de téléch/ar/gement à l'écran. En cliquant dessus, vous pouvez téléch/ar/ger le fichier. Pour extraire l'audio d'une autre vidéo, il vous suffit d'actualiser le navigateur et vous verrez l'option de téléch/ar/gement de la vidéo. Vous pouvez maintenant sélectionner à nouveau le fichier dont vous souhaitez extraire l'audio."
+        },
+        {
+            "question": "L'utilisation du site Web me sera-t-elle facturée ?",
+            "answer": "Notre site Web est absolument gratuit et vous pouvez l'utiliser autant de fois que vous le souhaitez. Il n'y a pas d'essai gratuit, après quoi vous devrez payer pour utiliser nos services. Nous ne vous facturerons rien."
+        },
+        {
+            "question": "Est-ce que je dois créer un compte pour utiliser Extract Audio ?",
+            "answer": "Notre site Web n'exige pas que vous vous inscriviez ou que vous créiez un compte. La plateforme est totalement gratuite et vous pouvez compresser autant de fichiers que vous le souhaitez."
+        },
+        {
+            "question": "Mes fichiers téléch/ar/gés seront-ils enregistrés sur le serveur ?",
+            "answer": "Tout le traitement est effectué sur votre navigateur et aucun fichier n'est transféré vers le serveur. Vos fichiers sont donc sécurisés à 100 %."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "comp/ar/e_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

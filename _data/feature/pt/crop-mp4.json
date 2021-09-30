@@ -1,0 +1,131 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Cortar MP4",
+    "H2": "Recorte seus vídeos MP4 online",
+    "TITLE": "Recorte seus vídeos MP4 online",
+    "META": "A maneira mais fácil de cortar seus vídeos MP4 em nenhum momento",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#3867d6",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independente",
+            "content": "Nosso site é independente de plataforma. Ele funciona nos sistemas operacionais Windows e iOS e pode ser usado sem a necessidade de nenhum download."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Totalmente grátis",
+            "content": "A conversão é totalmente gratuita, então você pode converter quantos arquivos quiser."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidade e segurança ",
+            "content": "Nosso site prioriza a privacidade de seus clientes. Como trabalhamos com armazenamento em nuvem, seus arquivos não são carregados. Portanto, não há chance de obter qualquer violação de dados. Seus dados estão seguros conosco!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "O processo de conversão leva apenas alguns segundos, dependendo do tamanho do arquivo, e você pode obter resultados rápidos facilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido e eficiente",
+            "content": "A edição de vídeo é muito rápida e você pode fazer seu trabalho rapidamente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Economiza tempo",
+            "content": "Nosso site é independente de plataforma, pode funcionar em laptops, guias e telefones e a conversão é rápida, economiza tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como cortar seu MP4",
+        "steps": [
+            "Escolha seu arquivo de vídeo MP4 ou clique na seta suspensa e selecione Dropbox/Google Drive",
+            "Espere pacientemente até que o vídeo seja carregado",
+            "Escolha a proporção do corte ou crie manualmente a proporção de corte",
+            "Clique em salvar para baixar o arquivo MP4 cortado",
+            "Viva! Aproveite nossos serviços"
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "É seguro permitir o acesso à minha unidade?",
+            "answer": "Sim, é absolutamente seguro permitir e nos dar acesso à sua unidade. Não faremos nenhuma alteração em seu site e seus arquivos estarão seguros com você."
+        },
+        {
+            "question": "Como posso fazer upload de arquivos do meu drive/dropbox?",
+            "answer": "Clique na seta suspensa e selecione Dropbox/Google Drive. Selecione a Conta do Google de onde você deseja vincular sua unidade. Agora você pode selecionar os arquivos que deseja enviar."
+        },
+        {
+            "question": "Quais são as proporções de aspecto disponíveis durante o corte?",
+            "answer": "O Crop MP4 permite cortar seus vídeos em várias proporções, ou seja, 1:1 (quadrado), 16:9 (paisagem), 9:16, 4:3, 3:4 (retrato). Você pode até manter a proporção original do seu vídeo e fazer alterações de acordo com sua necessidade, se não quiser essas proporções padrão.\nCrop MP4 permite cortar o vídeo de acordo com sua necessidade. Você só precisa arrastar e ajustar a caixa e movê-la para a área que deseja manter. O Crop MP4 torna o corte de vídeos muito fácil."
+        },
+        {
+            "question": "Serei cobrado pelo uso do site?",
+            "answer": "Nosso site é totalmente gratuito e você pode usá-lo quantas vezes quiser. Não há uso de teste gratuito, após o qual você terá que pagar pelo uso de nossos serviços. Não cobraremos nada."
+        },
+        {
+            "question": "Terei que criar uma conta para usar o Crop MP4?",
+            "answer": "Nosso site não exige que você se inscreva ou crie uma conta. A plataforma é totalmente gratuita e você pode compactar quantos arquivos quiser."
+        },
+        {
+            "question": "Meus arquivos enviados serão salvos no servidor?",
+            "answer": "Todo o processamento é feito em seu navegador e nenhum arquivo é transferido para o servidor. Portanto, seus arquivos são 100% seguros."
+        },
+        {
+            "question": "Ele é compatível com as plataformas Android e iOS?",
+            "answer": "Sim, nosso site funciona no navegador e, portanto, suporta plataformas iOS e Android."
+        },
+        {
+            "question": "Como posso cortar vários vídeos?",
+            "answer": "Crop MP4 permite cortar vários arquivos, um após o outro. Quando você recorta um arquivo e clica em salvar, o vídeo será processado. Depois que o vídeo for processado, você poderá ver a opção de download na tela. Ao clicar nele, você pode baixar o arquivo cortado. \nPara cortar outro vídeo, você só precisa atualizar o navegador e verá a opção de upload MP4. Agora você pode selecionar novamente o arquivo que deseja cortar."
+        },
+        {
+            "question": "É seguro usar o Crop MP4?",
+            "answer": "O Crop MP4 é uma das ferramentas online gratuitas mais seguras e protegidas. É absolutamente livre de problemas e faz seu trabalho perfeitamente bem. Ao mesmo tempo, ele não salva nenhum dos dados do usuário. "
+        },
+        {
+            "question": "Quais versões do Windows são compatíveis com o Crop MP4?",
+            "answer": "O Crop MP4 é totalmente baseado na Web e, portanto, fornece suporte multiplataforma. Isso significa que nossa ferramenta oferece suporte a todas as versões do Windows. Ele não só funciona no sistema operacional Windows, mas pode funcionar em qualquer outro sistema operacional, que suporte um navegador."
+        },
+        {
+            "question": "Quanto tempo demora para enviar meu vídeo?",
+            "answer": "O tempo necessário para enviar seu vídeo para recortar ou editar depende do tamanho do vídeo. Vídeos de melhor qualidade com resolução mais alta levarão mais tempo para serem carregados em comparação com vídeos de baixa qualidade com menor resolução.\nTambém depende do tipo de vídeo que você deseja editar/cortar. Quanto maior o tamanho do vídeo, mais tempo demorará."
+        },
+        {
+            "question": "Posso redimensionar meus vídeos?",
+            "answer": "Ao cortar, você pode redimensionar seus vídeos para o tamanho que quiser. Existem tamanhos padrão disponíveis que você pode usar. e se você quiser sua própria proporção, você pode redimensionar seu vídeo ao seu gosto."
+        },
+        {
+            "question": "Eu atualizei o navegador por engano. O que eu faço?",
+            "answer": "Como nosso site não usa nenhum servidor e não armazena seus dados, o arquivo que você carregou não será salvo. Você precisa recarregar o arquivo para cortá-lo."
+        },
+        {
+            "question": "A qualidade dos meus vídeos diminuirá após o corte?",
+            "answer": "Crop MP4 permite que você escolha a qualidade do vídeo de acordo com sua necessidade. Se você quiser um vídeo de alta qualidade, você pode escolher uma resolução mais alta e o tamanho do arquivo será maior. Mas se você se preocupa com o tamanho do arquivo e pode comprometer o tamanho, escolha uma resolução menor.\nCrop MP4 também permite que você escolha o valor CRF, o que significa que você pode escolher a resolução e o valor CRF de acordo com sua necessidade."
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4"
+    ],
+    "compare_formats": [
+        "mp4"
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "Language": "简体中文",
+    "htmlLangAtt": "zh",
+    "h1": "SafeVideoKit.com-处理视频的最安全方法",
+    "h2": "没有文件发送到服务器。100％ 安全。",
+    "title": "SafeVideoKit.com-处理视频的最安全方法",
+    "TITLE": "SafeVideoKit.com-处理视频的最安全方法",
+    "meta": "我们的在线视频编辑器工具是完全免费的，易于使用。在您编辑视频时，我们会确保所有数据都是安全的。我们支持多种视频格式，例如 mp3、mov、mkv 等。",
+    "keywords": "key1,key2,key3,key4",
+    "features": [
+        {
+            "name": "裁剪 MP4",
+            "description": "裁剪任何 MP4 视频",
+            "color": "#3867d6",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/zh/crop-mp4"
+        },
+        {
+            "name": "裁剪视频",
+            "description": "裁剪任何视频",
+            "color": "#ff5e57",
+            "icon": "/assets/FeatureIcons/crop.svg",
+            "url": "/zh/crop-video"
+        },
+        {
+            "name": "MP4 编辑器",
+            "description": "编辑任何 MP4 视频",
+            "color": "#4bcffa",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/zh/edit-mp4-video"
+        },
+        {
+            "name": "翻转视频",
+            "description": "翻转任何视频",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/flip.svg",
+            "url": "/zh/flip-video"
+        },
+        {
+            "name": "MOV 压缩机",
+            "description": "压缩任何 MOV 视频",
+            "color": "#0be881",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh/mov-compressor"
+        },
+        {
+            "name": "MP4 压缩器",
+            "description": "压缩任何 MP4 视频",
+            "color": "#c56cf0",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh/mp4-compressor"
+        },
+        {
+            "name": "MP4 切割器",
+            "description": "剪切任何 MP4 视频",
+            "color": "#7d5fff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh/mp4-cutter"
+        },
+        {
+            "name": "视频编辑器",
+            "description": "编辑任何视频",
+            "color": "#ffa502",
+            "icon": "/assets/FeatureIcons/edit.svg",
+            "url": "/zh/video-editor"
+        },
+        {
+            "name": "MP4 修剪器",
+            "description": "修剪任何 MP4 视频",
+            "color": "#4cd137",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh/mp4-trimmer"
+        },
+        {
+            "name": "调整视频大",
+            "description": "调整视频的大小",
+            "color": "#ff793f",
+            "icon": "/assets/FeatureIcons/resize.svg",
+            "url": "/zh/resize-video"
+        },
+        {
+            "name": "视频压缩器",
+            "description": "压缩任何视频",
+            "color": "#9c88ff",
+            "icon": "/assets/FeatureIcons/compress.svg",
+            "url": "/zh/video-compressor"
+        },
+        {
+            "name": "视频切割器",
+            "description": "剪切任何视频",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh/video-cutter"
+        },
+        {
+            "name": "视频旋转器",
+            "description": "旋转任何视频",
+            "color": "#33d9b2",
+            "icon": "/assets/FeatureIcons/rotate.svg",
+            "url": "/zh/video-rotater"
+        },
+        {
+            "name": "视频分配器",
+            "description": "拆分任何视频",
+            "color": "#e84118",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh/video-splitter"
+        },
+        {
+            "name": "视频修剪器",
+            "description": "修剪任何视频",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/split.svg",
+            "url": "/zh/video-trimmer"
+        },
+        {
+            "name": "提取音频",
+            "description": "从视频中提取音频",
+            "color": "#26de81",
+            "icon": "/assets/FeatureIcons/sound.svg",
+            "url": "/zh/extract-audio"
+        }
+    ],
+    "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+    },
+    "StructuredDataorganization": {
+        "@type": "Organization",
+        "url": "http://www.appscms.com",
+        "logo": "http://www.example.com/images/logo.png"
+    }
+}

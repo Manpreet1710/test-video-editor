@@ -1,0 +1,137 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "/assets/safevideokit.svg",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "أدوات MP4",
+                "links": [
+                    {
+                        "name": "المحاصيل MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+                        "url": "/ar/crop-mp4",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تحرير MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+                        "url": "/ar/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تحرير فيديو MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ar/edit-mp4-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ضاغط MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/ar/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "قاطع MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
+                        "url": "/ar/mp4-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ماكينة تشذيب MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+                        "url": "/ar/mp4-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "ضغط",
+                "links": [
+                    {
+                        "name": "ضاغط MOV",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
+                        "url": "/ar/mov-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ضاغط MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
+                        "url": "/ar/mp4-compressor",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ضاغط فيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
+                        "url": "/ar/video-compressor",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "أدوات الفيديو",
+                "links": [
+                    {
+                        "name": "فيديو المحاصيل",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
+                        "url": "/ar/crop-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
+                        "url": "/ar/resize-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تدوير الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
+                        "url": "/ar/rotate-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "فيديو فليب",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
+                        "url": "/ar/flip-video",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "قاطع الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
+                        "url": "/ar/video-cutter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "مقسم الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
+                        "url": "/ar/video-splitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "أداة تشذيب الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
+                        "url": "/ar/video-trimmer",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "استخراج الصوت",
+                "links": [
+                    {
+                        "name": "استخراج الصوت",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
+                        "url": "/ar/extract-audio",
+                        "hover": "blue"
+                    }
+                ]
+            }
+        ]
+    },
+    "navItems": [
+        {
+            "name": "مدونة",
+            "url": "/blog"
+        }
+    ]
+}
