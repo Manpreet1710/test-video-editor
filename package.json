@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
     "axios": "^0.21.1",
-     "nodegit": "^0.27.0"
+    "nodegit": "^0.27.0"
   }
 }
