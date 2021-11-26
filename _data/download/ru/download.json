@@ -1,0 +1,73 @@
+{
+    "Language": "Русский",
+    "htmlLangAtt": "ru",
+    "successmessage": "Ура! операция завершена",
+    "tryfeatureheading": "Вы также можете попробовать эти функции",
+    "rateus": "Оцените нас",
+    "votes": "голосов",
+    "socialshareheading": "Мы являемся бесплатной платформой для безопасной обработки ваших файлов. Нам нужна ваша поддержка, чтобы расти. Помогите нам, поделившись с нами в социальных сетях. Спасибо! ",
+    "recommendedsitesheading": "Попробуйте другие наши сайты для безопасной обработки ваших файлов! ",
+    "recommendedfeatures": [
+        {
+            "name": "Урожай MP4",
+            "logo": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/ru/crop-mp4",
+            "hover": "blue"
+        },
+        {
+            "name": "триммер MP4",
+            "logo": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/ru/mp4-trimmer",
+            "hover": "blue"
+        },
+        {
+            "name": "Разветвитель видео",
+            "logo": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "/ru/video-splitter",
+            "hover": "blue"
+        },
+        {
+            "name": "Извлечь аудио",
+            "logo": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/ru/extract-audio",
+            "hover": "blue"
+        }
+    ],
+    "recommendedsites": [
+        {
+            "logo": "/assets/safezipkit.png",
+            "name": "safezipkit.com",
+            "url": "https://safezipkit.com/"
+        },
+        {
+            "logo": "/assets/safeimagekit.png",
+            "name": "safeimagekit.com",
+            "url": "https://safeimagekit.com/"
+        },
+        {
+            "logo": "/assets/safepdfkit.svg",
+            "name": "safepdfkit.com",
+            "url": "https://safepdfkit.com"
+        },
+        {
+            "logo": "/assets/safeaudiokit.png",
+            "name": "safeaudiokit.com",
+            "url": "https://safeaudiokit.com"
+        },
+        {
+            "logo": "/assets/safeaudioconverter.png",
+            "name": "safeaudioconverter.com",
+            "url": "https://safeaudioconverter.com"
+        },
+        {
+            "logo": "/assets/safevideoconverter.svg",
+            "name": "safevideoconverter.com",
+            "url": "https://safevideoconverter.com"
+        },
+        {
+            "logo": "/assets/safeimageconverter.svg",
+            "name": "безопасное изображение converter.com",
+            "url": "https://safeimageconverter.com"
+        }
+    ]
+}

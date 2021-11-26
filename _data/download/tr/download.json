@@ -1,0 +1,73 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "successmessage": "Yaşasın! operasyonunuz tamamlandı",
+    "tryfeatureheading": "Bu özellikleri de deneyebilirsiniz",
+    "rateus": "Bizi değerlendirin",
+    "votes": "oylar",
+    "socialshareheading": "Dosyalarınızın güvenli bir şekilde işlenmesi için ücretsiz bir platform kullanıyoruz. Büyümek için desteğinize ihtiyacımız var. Sosyal medyada paylaşarak bize yardımcı olun. Teşekkürler! ",
+    "recommendedsitesheading": "Dosyalarınızı güvenli bir şekilde işlemek için diğer sitelerimizi deneyin! ",
+    "recommendedfeatures": [
+        {
+            "name": "MP4 kırpma",
+            "logo": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/tr/crop-mp4",
+            "hover": "blue"
+        },
+        {
+            "name": "MP4 düzenleyici",
+            "logo": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/tr/mp4-trimmer",
+            "hover": "blue"
+        },
+        {
+            "name": "Video ayırıcı",
+            "logo": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "/tr/video-splitter",
+            "hover": "blue"
+        },
+        {
+            "name": "Ses ayıkla",
+            "logo": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/tr/extract-audio",
+            "hover": "blue"
+        }
+    ],
+    "recommendedsites": [
+        {
+            "logo": "/assets/safezipkit.png",
+            "name": "safezipkit.com",
+            "url": "https://safezipkit.com/"
+        },
+        {
+            "logo": "/assets/safeimagekit.png",
+            "name": "safeimagekit.com",
+            "url": "https://safeimagekit.com/"
+        },
+        {
+            "logo": "/assets/safepdfkit.svg",
+            "name": "safepdfkit.com",
+            "url": "https://safepdfkit.com"
+        },
+        {
+            "logo": "/assets/safeaudiokit.png",
+            "name": "safeaudiokit.com",
+            "url": "https://safeaudiokit.com"
+        },
+        {
+            "logo": "/assets/safeaudioconverter.png",
+            "name": "safeaudioconverter.com",
+            "url": "https://safeaudioconverter.com"
+        },
+        {
+            "logo": "/assets/safevideoconverter.svg",
+            "name": "safevideoconverter.com",
+            "url": "https://safevideoconverter.com"
+        },
+        {
+            "logo": "/assets/safeimageconverter.svg",
+            "name": "safeimageconverter.com",
+            "url": "https://safeimageconverter.com"
+        }
+    ]
+}

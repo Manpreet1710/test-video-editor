@@ -1,0 +1,73 @@
+{
+    "Language": "العربية",
+    "htmlLangAtt": "ar",
+    "successmessage": "(هراي)! تم الانتهاء من عمليتك",
+    "tryfeatureheading": "يمكنك أيضًا تجربة هذه الميزات",
+    "rateus": "قيمنا",
+    "votes": "التصويت",
+    "socialshareheading": "نحن منصة مجانية للاستخدام للمعالجة الآمنة لملفاتك. نحن بحاجة إلى دعمكم للنمو. ساعدنا من خلال مشاركتنا على وسائل التواصل الاجتماعي. شكرا! ",
+    "recommendedsitesheading": "جرب مواقعنا الأخرى للمعالجة الآمنة لملفاتك! ",
+    "recommendedfeatures": [
+        {
+            "name": "اقتصاص MP4",
+            "logo": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/ar/crop-mp4",
+            "hover": "blue"
+        },
+        {
+            "name": "أداة تشذيب MP4",
+            "logo": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/ar/mp4-trimmer",
+            "hover": "blue"
+        },
+        {
+            "name": "مقسم الفيديو",
+            "logo": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "/ar/video-splitter",
+            "hover": "blue"
+        },
+        {
+            "name": "استخراج الصوت",
+            "logo": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/ar/extract-audio",
+            "hover": "blue"
+        }
+    ],
+    "recommendedsites": [
+        {
+            "logo": "/assets/safezipkit.png",
+            "name": "safezipkit.com",
+            "url": "https://safezipkit.com/"
+        },
+        {
+            "logo": "/assets/safeimagekit.png",
+            "name": "سيفيماجيكيت .com",
+            "url": "https://safeimagekit.com/"
+        },
+        {
+            "logo": "/assets/safepdfkit.svg",
+            "name": "safepdfkit.com",
+            "url": "https://safepdfkit.com"
+        },
+        {
+            "logo": "/assets/safeaudiokit.png",
+            "name": "safeaudiok",
+            "url": "https://safeaudiokit.com"
+        },
+        {
+            "logo": "/assets/safeaudioconverter.png",
+            "name": "safeaudioconver",
+            "url": "https://safeaudioconverter.com"
+        },
+        {
+            "logo": "/assets/safevideoconverter.svg",
+            "name": "سيف فيديو كونفيرتر.com",
+            "url": "https://safevideoconverter.com"
+        },
+        {
+            "logo": "/assets/safeimageconverter.svg",
+            "name": "آمنة imageconverter.com",
+            "url": "https://safeimageconverter.com"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "Language": "繁體中文",
+    "htmlLangAtt": "zh-TW",
+    "successmessage": "赫裏！您的操作已完成",
+    "tryfeatureheading": "您也可以嘗試這些功能",
+    "rateus": "評價我們",
+    "votes": "票",
+    "socialshareheading": "我們是一個免費使用平台來安全處理您的文件。我們需要您的支持才能發展。通過在社交媒體上分享我們來幫助我們。謝謝！ ",
+    "recommendedsitesheading": "嘗試我們的其他網站來安全處理您的文件！ ",
+    "recommendedfeatures": [
+        {
+            "name": "裁剪 MP4",
+            "logo": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/zh-TW/crop-mp4",
+            "hover": "blue"
+        },
+        {
+            "name": "MP4 微調器",
+            "logo": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/zh-TW/mp4-trimmer",
+            "hover": "blue"
+        },
+        {
+            "name": "視頻分離器",
+            "logo": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "/zh-TW/video-splitter",
+            "hover": "blue"
+        },
+        {
+            "name": "提取音頻",
+            "logo": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/zh-TW/extract-audio",
+            "hover": "blue"
+        }
+    ],
+    "recommendedsites": [
+        {
+            "logo": "/assets/safezipkit.png",
+            "name": "安全配件",
+            "url": "https://safezipkit.com/"
+        },
+        {
+            "logo": "/assets/safeimagekit.png",
+            "name": "安全影像工具",
+            "url": "https://safeimagekit.com/"
+        },
+        {
+            "logo": "/assets/safepdfkit.svg",
+            "name": "安全工具",
+            "url": "https://safepdfkit.com"
+        },
+        {
+            "logo": "/assets/safeaudiokit.png",
+            "name": "安全音頻工具",
+            "url": "https://safeaudiokit.com"
+        },
+        {
+            "logo": "/assets/safeaudioconverter.png",
+            "name": "安全音頻轉換器",
+            "url": "https://safeaudioconverter.com"
+        },
+        {
+            "logo": "/assets/safevideoconverter.svg",
+            "name": "安全視頻轉換器",
+            "url": "https://safevideoconverter.com"
+        },
+        {
+            "logo": "/assets/safeimageconverter.svg",
+            "name": "安全影像網",
+            "url": "https://safeimageconverter.com"
+        }
+    ]
+}

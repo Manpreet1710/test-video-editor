@@ -1,3 +1,9 @@
+const getScript = document.currentScript
+const pageTool = getScript.dataset.tool
+const fileName = getScript.dataset.filename
+const folderName = getScript.dataset.foldername
+const lang = getScript.dataset.lang
+
 const { createFFmpeg } = FFmpeg
 const ffmpeg = createFFmpeg({ log: true })
 var ProgressBar = document.querySelector('.ProgressBar')

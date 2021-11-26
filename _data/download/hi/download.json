@@ -1,0 +1,73 @@
+{
+    "Language": "हिन्दी",
+    "htmlLangAtt": "hi",
+    "successmessage": "हुर्रे! आपका ऑपरेशन पूरा हो गया था",
+    "tryfeatureheading": "आप इन सुविधाओं को भी आज़मा सकते हैं",
+    "rateus": "हमें रेट करें",
+    "votes": "वोट",
+    "socialshareheading": "हम आपकी फ़ाइलों के सुरक्षित प्रसंस्करण के लिए प्लेटफ़ॉर्म का उपयोग करने के लिए स्वतंत्र हैं। हमें बढ़ने के लिए आपके समर्थन की आवश्यकता है। हमें सोशल मीडिया पर शेयर करके हमारी मदद करें। धन्यवाद! ",
+    "recommendedsitesheading": "आप फ़ाइलों के सुरक्षित प्रसंस्करण के लिए हमारी अन्य साइटों को आज़माएँ! ",
+    "recommendedfeatures": [
+        {
+            "name": "MP4 क्रॉप करें",
+            "logo": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
+            "url": "/hi/crop-mp4",
+            "hover": "blue"
+        },
+        {
+            "name": "MP4 ट्रिमर",
+            "logo": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
+            "url": "/hi/mp4-trimmer",
+            "hover": "blue"
+        },
+        {
+            "name": "वीडियो स्प्लिटर",
+            "logo": "/assets/FeatureIcons_featurePage/video-split.svg",
+            "url": "/hi/video-splitter",
+            "hover": "blue"
+        },
+        {
+            "name": "ऑडियो निकालें",
+            "logo": "/assets/FeatureIcons_featurePage/sound.svg",
+            "url": "/hi/extract-audio",
+            "hover": "blue"
+        }
+    ],
+    "recommendedsites": [
+        {
+            "logo": "/assets/safezipkit.png",
+            "name": "सुरक्षित ज़िपकिट. कॉम",
+            "url": "https://safezipkit.com/"
+        },
+        {
+            "logo": "/assets/safeimagekit.png",
+            "name": "सेफइमेज किट. कॉम",
+            "url": "https://safeimagekit.com/"
+        },
+        {
+            "logo": "/assets/safepdfkit.svg",
+            "name": "सेफपीडीएफकिट. कॉम",
+            "url": "https://safepdfkit.com"
+        },
+        {
+            "logo": "/assets/safeaudiokit.png",
+            "name": "सेफऑडियोकिट. कॉम",
+            "url": "https://safeaudiokit.com"
+        },
+        {
+            "logo": "/assets/safeaudioconverter.png",
+            "name": "सुरक्षित ऑडियो कनवर्टर. कॉम",
+            "url": "https://safeaudioconverter.com"
+        },
+        {
+            "logo": "/assets/safevideoconverter.svg",
+            "name": "सुरक्षितवीडियो कनवर्टर. कॉम",
+            "url": "https://safevideoconverter.com"
+        },
+        {
+            "logo": "/assets/safeimageconverter.svg",
+            "name": "सुरक्षितछवि कनवर्टर. कॉम",
+            "url": "https://safeimageconverter.com"
+        }
+    ]
+}
