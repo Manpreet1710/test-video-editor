@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: ar
+permalink: /ar/download
+sitemap: false
+noindex: true
+---
+    

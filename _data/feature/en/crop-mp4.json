@@ -123,8 +123,9 @@
   ],
   "filelang": "en",
   "display_formats": [
-    "mp4"],
-    "compare_formats": [
-      "mp4"]
-  }
-
+    "mp4"
+  ],
+  "compare_formats": [
+    "mp4"
+  ]
+}

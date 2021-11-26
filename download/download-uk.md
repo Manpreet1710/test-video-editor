@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: uk
+permalink: /uk/download
+sitemap: false
+noindex: true
+---
+    

@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: ko
+permalink: /ko/download
+sitemap: false
+noindex: true
+---
+    

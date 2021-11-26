@@ -26,6 +26,7 @@ developerKey: AIzaSyD4wrfi4Ga-uTH2O4f6DFEhby1I68UQvN8
 clientId: 862003477277-6c2jd8ggqvqpmbae6671umo1c83eidug.apps.googleusercontent.com
 appId: 862003477277
 dropboxapikey: gdmcpa9nvv4xmih
+crossorigin: true
 internationalization: true 
 description: >- # this means to ignore newlines until "baseurl:"
   Safevideokit.com is a game changing website for people who are in need to edit their videos.
