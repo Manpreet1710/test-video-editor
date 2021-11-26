@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: sv
+permalink: /sv/download
+sitemap: false
+noindex: true
+---
+    

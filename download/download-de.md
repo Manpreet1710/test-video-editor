@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: de
+permalink: /de/download
+sitemap: false
+noindex: true
+---
+    

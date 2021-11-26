@@ -1,0 +1,10 @@
+---
+layout: download
+folderName: download
+fileName: download
+lang: ru
+permalink: /ru/download
+sitemap: false
+noindex: true
+---
+    
