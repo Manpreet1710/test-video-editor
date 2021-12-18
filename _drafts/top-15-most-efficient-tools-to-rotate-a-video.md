@@ -38,7 +38,7 @@ Clipchamp allows you to rotate video in real time alongside a range of other vid
 
 Although Ezgif is mostly used to create GIFs, it also allows you to modify videos by cutting, rotating, resizing, reversing them among many other things. It allows you to upload videos up to 100MB in size. You have the option to rotate 90 degrees, 180 degrees, or 270 degrees counter-clockwise.
 
-## Kapwing
+## [Kapwing]()
 
 Kapwing is a powerful online video editor that lets you easily rotate, resize, convert, cut, and loop videos. It also includes the Studio tool, which allows you to edit a video from the ground up.
 
