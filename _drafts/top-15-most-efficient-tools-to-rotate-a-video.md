@@ -52,7 +52,7 @@ Although Ezgif is mostly used to create GIFs, it also allows you to modify video
 
 Kapwing is a powerful online video editor that lets you easily rotate, resize, convert, cut, and loop videos. It also includes the Studio tool, which allows you to edit a video from the ground up.
 
-![kapwing](/uploads/kapwing-rotate.png)
+![kapwing rotate](/uploads/screenshot-189.png)
 
 You may rotate clips with Kapwing in a variety of ways. You can drag the handles in the preview window to any angle you like, or you can click the rotate icon to quickly rotate to 90, 180, or 270 degrees.
 
@@ -75,6 +75,8 @@ Now that we have already gone through a bunch of browser-based video rotator too
 ## Photos
 
 The Photos App in Windows 10 provides a wide range of photo and video editing capabilities that can be utilised by even inexperienced photo and video editors. The best part is that it is in-built so you no installation or Internet access is required at all.
+
+![photos](/uploads/photos-rotate.png)
 
 You must first create a new project in the Photos App by selecting the New Video Project option from the New Video drop-down menu. The video clips you want to rotate can then be imported into the project you made, and you can perform any other video editing activities you choose.
 
