@@ -16,6 +16,8 @@ The technique of lowering the total number of bits required to represent a speci
 
 Video compressors are programs that can shrink the size of video clips. It is a specialized tool for encoding digital data and reducing the total number of the bits occupied it. Popular video file types such as MOV, MP4, FLV, and others are supported by these programs. Many of these apps make it simple to distribute digital information on social media sites.
 
+![video recording](/uploads/technology-g71782e993_640.jpg)
+
 Video compression software examines each video frame's pixels and compresses them by combining similar pixels into big chunks. This minimizes the pixel storage space and, as a result, the video size.
 
 Video compression can be divided into two types/methods: Discrete cosine transform (Discrete Cosine Transform) and MC (Motion Compensation).
@@ -29,6 +31,8 @@ Fist we will begin with some free online MP4 compressor tools that can work on a
 This is one of the best video processing websites that offers a bunch of tools alongside MP4 compression.
 
 The website places a high value on the privacy of its visitors. Your files are not uploaded to any server because we use cloud storage. As a result, there is no risk of a data leak and your information is secure with us.
+
+![mp4 compress](/uploads/safevideokit-compress.png)
 
 The website also lets you set a value for the encoding speed and the Constant Rate Factor (CRF).
 
@@ -47,6 +51,8 @@ You may securely submit any videos with this free video compressor because it us
 ## [Clideo](https://clideo.com/resize-video)
 
 Online Video Resizer by Clideo is an online program that allows you to reduce the size of video clips. It works with a variety of formats of video files including MP4. Drag and drop functionality is included in this cloud app.
+
+![clideo compressor](/uploads/screenshot-204.png)
 
 An SSL certificate is used to protect your file in this application. It lets you turn vertical clips into horizontal ones. You can upload up to 500 MB of video for free.
 
@@ -140,7 +146,7 @@ You can use this application to save videos from YouTube, Facebook, and thousand
 
 You can make 3D movies with the 6 distinct 3D effects offered by it.
 
-## Any Video Converter
+## [Any Video Converter]()
 
 Any Video Converter, regardless of the Windows OS version, can help users minimize the size of their videos. With this app, shrinking movies obtained from YouTube, Facebook, and more than a hundred other web locations is a quick and easy process that takes only a few minutes to accomplish.
 
