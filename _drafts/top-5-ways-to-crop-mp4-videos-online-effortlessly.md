@@ -24,6 +24,8 @@ Here we have our top 5 recommendations of tools to crop MP4 videos online.
 
 This is one of the best video processing websites that offers a bunch of tools such as cropping video.
 
+![safevideokit crop](/uploads/screenshot-203.png)
+
 The website places a high value on the privacy of its visitors. Your files are not uploaded to any server because we use cloud storage. As a result, there is no risk of a data leak and your information is secure with us.
 
 ## [Clideo](https://clideo.com/resize-video)
@@ -32,21 +34,29 @@ Clideo is an online programme that allows you to process video clips. It works w
 
 An SSL certificate is used to protect your file in this application. It lets you turn vertical clips into horizontal ones. You can upload up to 500 MB of video for free.
 
+![clideo](/uploads/screenshot-183.png)
+
 Before saving the clip to your hard disc, the tool even allows you to preview it. This feature comes really handy while editing.
 
 ## [Clipchamp](https://clipchamp.com/en/)
 
 Clipchamp is not just a tool for compressing and clipping video. It allows you to compress video in real time alongside a range of other video editing functions. It is one of the best video compressor tools for PC. It can crop AVI, MOV, and other video formats with efficiency as well without having to install any software
 
-## Kapwing
+![clipchamp](/uploads/screenshot-195.png)
+
+## [Kapwing](https://www.kapwing.com/)
 
 Kapwing is a powerful online video editor that lets you easily rotate, resize, convert, cut, and loop videos. It also includes the Studio tool, which allows you to edit a video from the ground up.
+
+![kapwing](/uploads/screenshot-196.png)
 
 You may crop clips with Kapwing in a variety of ways.
 
 ## [Free Convert](https://www.freeconvert.com/crop-video)
 
 Free Convert is a browser-based video editing tool. Cropping is one of the most basic features offered by it.
+
+![free convert](/uploads/screenshot-198.png)
 
 The tool works with more than 40 video formats including AVI, MP4, MOV, etc.
 
