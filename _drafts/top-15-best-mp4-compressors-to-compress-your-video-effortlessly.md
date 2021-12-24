@@ -12,7 +12,7 @@ comments: false
 
 MP4, brief for MPEG-4 Part 14, is a container format for digital multimedia content that is most typically used to store video and audio. However, it can also hold subtitles and still images. It, like other modern container formats, enables Internet streaming of videos. The only filename extension for MPEG-4 Part 14 files is .mp4.
 
-The technique of lowering the total number of bits required to represent a specific video clip is known as video compression. A programme having a specific algorithm or formula for selecting the optimal approach to shrink the size of the data is most typically used to compress video. For example, H.264/AVC and H.265/HEVC video compression methods can reduce raw content data by up to 1,000 times.
+The technique of lowering the total number of bits required to represent a specific video clip is known as video compression. A program having a specific algorithm or formula for selecting the optimal approach to shrink the size of the data is most typically used to compress video. For example, H.264/AVC and H.265/HEVC video compression methods can reduce raw content data by up to 1,000 times.
 
 Video compressors are programs that can shrink the size of video clips. It is a specialized tool for encoding digital data and reducing the total number of the bits occupied it. Popular video file types such as MOV, MP4, FLV, and others are supported by these programs. Many of these apps make it simple to distribute digital information on social media sites.
 
