@@ -14,6 +14,8 @@ MP4, brief for MPEG-4 Part 14, is a container format for digital multimedia cont
 
 The technique of lowering the total number of bits required to represent a specific video clip is known as video compression. A programme having a specific algorithm or formula for selecting the optimal approach to shrink the size of the data is most typically used to compress video. For example, H.264/AVC and H.265/HEVC video compression methods can reduce raw content data by up to 1,000 times.
 
+![video recording](/uploads/technology-g71782e993_640.jpg)
+
 Whether it is Facebook videos, Instagram Stories, or IGTV, all of them show the uploaded MP4 video in the aspect ratio of their choice. Furthermore, no matter how meticulously we film our recordings, there will always be black bars, strangers, and other unwanted elements. Cropping those clips is the simplest technique to remove unwanted stuff, but the resulting MP4 files are likely to be smaller and have different aspect ratios.
 
 Here we have our top 5 recommendations of tools to crop MP4 videos online.
