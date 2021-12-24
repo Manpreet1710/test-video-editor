@@ -4,7 +4,7 @@ categories: []
 title: Top 15 Best MP4 Compressors to Compress Your Video Effortlessly
 author: Anushka
 layout: post
-image: ''
+image: "/uploads/output-d.png"
 comments: false
 
 ---
