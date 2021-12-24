@@ -4,7 +4,7 @@ categories: []
 title: Best 15 MOV Compressors to Compress Your MOV Video Effortlessly
 author: Anushka
 layout: post
-image: "/uploads/output-12.png"
+image: "/uploads/output-a.png"
 comments: false
 
 ---
