@@ -4,7 +4,7 @@ categories: []
 title: Top 15 Most Efficient Tools to Rotate a Video
 author: Anushka
 layout: post
-image: ''
+image: "/uploads/output-c.png"
 comments: false
 
 ---
