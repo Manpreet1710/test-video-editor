@@ -80,6 +80,8 @@ You do not need to register to utilize this tool and it enables you to compress 
 
 VideoSmaller is another online video compressor that is absolutely free. It is simple to use, although it does have certain limits. Only MP4, AVI, and MOV formats are supported by the platform, and your file size should not exceed 500 MB. All you have to do now is upload your video clip, select the video width, and compress it.
 
+![videosmaller](/uploads/videosmaller.png)
+
 ## [KeepVid](https://keepvid.com/video-compressor.html)
 
 KeepVid is a cloud-based video compression tool that works with MOV video on Firefox or Chrome online. It is one of the greatest online video compression programs for reducing the size of any video.
