@@ -80,6 +80,12 @@ Video2Edit is a free MP4 converter that you may use online. This website include
 
 ![](/uploads/screenshot-209.png)
 
+## [Resize-video](https://www.resize-video.com/)
+
+Resize-Video is a free website that allows you to resize and adjust the dimensions of a video's display online. This website can handle video files up to 500 MB in size and provides three options for changing the screen size:
+
+![](/uploads/screenshot-212.png)
+
 ## [Final Cut Pro X](https://www.apple.com/final-cut-pro/compressor/)
 
 For advanced and professional video editing and compression on Mac devices, this is the best option.
