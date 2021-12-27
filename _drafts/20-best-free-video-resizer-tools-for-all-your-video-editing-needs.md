@@ -110,4 +110,12 @@ However, changing the file type of a video in VCL is the quickest and easiest ap
 
 ## [iMovie](https://www.apple.com/imovie/)
 
-Apple Inc.'s iMovie is a simple-to-use video editing software tool. It's free, but it's only for Mac users. You may compress video files in iMovie by adjusting the resolution and quality until you achieve the desired file size. It also gives you the option of sharing your file right away via YouTube, Facebook, or email.
+Apple Inc.'s iMovie is a simple-to-use video editing software tool. It is free, but it's only for Mac users. You may compress video files in iMovie by adjusting the resolution and quality until you achieve the desired file size. It also gives you the option of sharing your file right away via YouTube, Facebook, or email.
+
+## [Any Video Converter](https://www.any-video-converter.com/en2/index.html)
+
+Any Video Converter, regardless of the Windows OS version, can help users minimize the size of their videos. With this app, shrinking movies obtained from YouTube, Facebook, and more than a hundred other web locations is a quick and easy process that takes only a few minutes to accomplish.
+
+![](/uploads/avc.png)
+
+Simply drag and drop the video you wish to compress into the Any Video Converter and tweak the video conversion options. Despite the speed of the file conversion, the software maintains the good quality of all compressed videos. Any Video Converter allows customers to select the output device for which they wish to optimise their video in addition to a large number of output video file types. You may also utilise Any Video's video editing tools to add subtitles, cut, rotate, or apply visual effects to the videos you are shrinking in size.
