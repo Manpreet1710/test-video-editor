@@ -80,6 +80,10 @@ Video2Edit is a free MP4 converter that you may use online. This website include
 
 ![](/uploads/screenshot-209.png)
 
+## [Ezgif](https://ezgif.com/resize-video)
+
+Ezgif is a well-known website that offers free online GIF, picture, and video editing tools. This website provides a free video resizer online. This tool allows you to customize the video's screen dimensions. You may achieve the same thing by adjusting the percentage level. The additional area is covered in white padding in the final video. This utility accepts practically all common video file types, but the video must be no larger than 100 MB.
+
 ## [Resize-video](https://www.resize-video.com/)
 
 Resize-Video is a free website that allows you to resize and adjust the dimensions of a video's display online. This website can handle video files up to 500 MB in size and provides three options for changing the screen size:
@@ -103,3 +107,7 @@ Because it supports all video file formats, VLC is undoubtedly one of the best o
 ![](/uploads/vlc.png)
 
 However, changing the file type of a video in VCL is the quickest and easiest approach to compress its size. You can accomplish this by going to the Media menu and selecting Convert/Save. Then, from the Profile drop-down menu, choose one of the available profile presets and the choice that is best appropriate for the context in which the video will be used. If you want to manually alter the resolution of a video, you can click the Settings button next to the Profile drop-down box too.
+
+## [iMovie](https://www.apple.com/imovie/)
+
+Apple Inc.'s iMovie is a simple-to-use video editing software tool. It's free, but it's only for Mac users. You may compress video files in iMovie by adjusting the resolution and quality until you achieve the desired file size. It also gives you the option of sharing your file right away via YouTube, Facebook, or email.
