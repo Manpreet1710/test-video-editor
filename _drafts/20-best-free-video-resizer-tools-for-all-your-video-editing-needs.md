@@ -120,6 +120,10 @@ Any Video Converter, regardless of the Windows OS version, can help users minimi
 
 Simply drag and drop the video you wish to compress into the Any Video Converter and tweak the video conversion options. Despite the speed of the file conversion, the software maintains the good quality of all compressed videos. Any Video Converter allows customers to select the output device for which they wish to optimize their video in addition to a large number of output video file types. You may also utilize Any Video's video editing tools to add subtitles, cut, rotate, or apply visual effects to the videos you are shrinking in size.
 
+## [Easy Video Maker](https://www.easymakevideo.com/)
+
+Easy Video Maker is a free video resizer tool for Windows that allows you to choose the size of your output video manually. Drag a video file on the timeline, then go to settings and adjust the output size. You can also choose from predefined video profiles in the aspect ratios from its interface. You can save a video using the render option after resizing it.
+
 ## [Gilisoft Video Converter](https://gilisoft.com/product-video-converter.htm?AFFILIATE=120043)
 
 Gilisoft Video Converter is a program that lets you compress or convert videos without sacrificing quality. With little effort, you can improve your video footage with this application.
