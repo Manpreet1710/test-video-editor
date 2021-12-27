@@ -137,3 +137,23 @@ It is possible to merge, trim, rotate videos or add subtitles to your videos wit
 You can use it to give video clips special effects too.
 
 SWF files can be converted to video or audio here too.
+
+## [Wax](https://www.debugmode.com/wax/)
+
+Wax is another video resizing program. By navigating to Project Settings and manually entering the required width and height, you can adjust the size of your films. Wax, unlike many other programs, does not allow you to change the video's aspect ratio. Click the Render option to save the resized video.
+
+You can change the frame rate, output mode, and other video settings for output. You can also use audio filtering to improve the sound quality.
+
+It is a free video editor that only supports AVI video formats, but it also supports JPEG, WAV, TIFF, PNG, DCX, and other media files.
+
+## Ffmpeg
+
+FFMPEG is a command-line video utility that is available for free. It may be used to resize videos as well as perform a variety of video converting and editing activities.
+
+To resize video in FFMPEG, use the following syntax:
+
+ffmpeg -i <input video> -vf scale=<width>:<height> <output video>
+
+![video editing](/uploads/video-editing-g8b114f30b_640.jpg)
+
+All of the tools on this list have their own distinct qualities and capabilities. We hope that after reading this article, you have a better understanding of how to select the best video resizer tool for you. It is largely dependent on the features and characteristics that you desire so always keep an eye out for all of the features and characteristics. Then you can compare them to find the greatest fit for you. Regardless of which video resizer you use, we hope this guide has aided you in making the best option possible.
