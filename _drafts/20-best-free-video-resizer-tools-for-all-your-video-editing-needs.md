@@ -22,8 +22,6 @@ The majority of these video resizers can import and export videos in standard vi
 
 This is one of the best video processing websites that offers a bunch of tools alongside MP4 compression.
 
-![safevideokit](/uploads/safevideokit-compress.png)
-
 The website places a high value on the privacy of its visitors. Your files are not uploaded to any server because we use cloud storage. As a result, there is no risk of a data leak and your information is secure with us.
 
 ## [FileConverto](https://www.fileconverto.com/resize-video-width-height/)
