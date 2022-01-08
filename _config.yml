@@ -54,6 +54,28 @@ plugins:
 favicon: assets/safevideokit.svg
 production_google_analytics: 'UA-179965937-17'
 name: safevideokit
+noFaqsList:
+  - hi
+  - id
+  - da
+  - de
+  - es
+  - fr
+  - it
+  - nl
+  - pl
+  - pt
+  - sv
+  - vi
+  - tr
+  - ru
+  - uk
+  - ar
+  - th
+  - ko
+  - ja
+  - zh
+  - zh-tw
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
