@@ -802,7 +802,18 @@ const Render_edited_video = async () => {
   var blobUrlActual = URL.createObjectURL(
     new Blob([outputActual.buffer], { type: 'video/mp4' })
   )
-  FinalVideosrc = blobUrlActual
+  let FinalVideo=new Blob([outputActual.buffer], { type: 'video/mp4' });
+  if(isCompressed==1)
+  {
+    if(VideoSourceFile.size<FinalVideo.size)
+    {
+      document.getElementById('ErrorDialog').style.display="block";
+    }
+    else
+      FinalVideosrc = blobUrlActual
+  }
+  else
+    FinalVideosrc = blobUrlActual
 }
 
 const TrimVideo = async (option) => {

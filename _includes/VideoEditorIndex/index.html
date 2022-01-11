@@ -526,6 +526,20 @@
         </div>
     </div>
 
+    <div class="modal" tabindex="-1" id="ErrorDialog" style="display: none;margin-top: 10vh;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Alert</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="location.reload()">X</button>
+            </div>
+            <div class="modal-body">
+              <p>Sorry, the video could not be compressed. Try again using 'slower speeds' or 'higher CRF value'.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <script src="/src/ffmpeg.min.js" crossorigin></script>
     <script src="/assets/js/googledrive.js" crossorigin></script>
     <script data-folderName='{{page.folderName}}' data-lang='{{page.lang}}' data-fileName='{{page.fileName}}'
