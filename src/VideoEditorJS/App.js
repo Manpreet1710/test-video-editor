@@ -807,7 +807,7 @@ const Render_edited_video = async () => {
   {
     if(VideoSourceFile.size<FinalVideo.size)
     {
-      document.getElementById('ErrorDialog').style.display="block";
+      FinalVideosrc="NULL"
     }
     else
       FinalVideosrc = blobUrlActual
@@ -1198,9 +1198,19 @@ const DownloadFile = async () => {
     downloadHREF = FinalVideosrc
   }
   LandingText.innerHTML = ''
-  LoadingText.innerText = 'Thanks for your patience'
-  link.addEventListener('click', () => handleDownload(downloadHREF))
-  document.querySelector('.DownloadBox').style.display = 'inherit'
+  if(downloadHREF==''||downloadHREF=='NULL')
+  {
+    LoadingText.innerText='Sorry, we could not Compress/Edit your video. Please try again with a slower speed option and higher CRF value than '+crfText.innerText;
+    link.innerText='Try Again';
+    link.addEventListener('click', () => {location.reload()});
+    document.querySelector('.DownloadBox').style.display = 'inherit';
+  }
+  else
+  {
+    LoadingText.innerText = 'Thanks for your patience'
+    link.addEventListener('click', () => handleDownload(downloadHREF))
+    document.querySelector('.DownloadBox').style.display = 'inherit'
+  }
 }
 
 //add event listener for resize
