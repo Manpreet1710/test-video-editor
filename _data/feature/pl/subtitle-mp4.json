@@ -1,0 +1,112 @@
+{
+    "Language": "Polski",
+    "htmlLangAtt": "pl",
+    "H1": "Dodaj napisy MP4",
+    "H2": "Dodaj napisy do swojego wideo MP4",
+    "TITLE": "Dodaj napisy do swojego wideo MP4",
+    "META": "Najłatwiejszy sposób na dodawanie napisów do filmów MP4 online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX do PDF",
+    "BREADCRUMB_LABEL": "DOCX do PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Niezależny",
+          "content": "Nasza strona internetowa jest niezależna od platformy. Działa zarówno w systemach operacyjnych Window, jak i iOS i może być używany bez konieczności pobierania plików."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/target.svg",
+          "header": "Całkowicie za darmo",
+          "content": "Konwersja jest całkowicie darmowa, więc możesz przekonwertować tyle plików, ile chcesz."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Prywatność i bezpieczeństwo ",
+          "content": "Nasza strona internetowa priorytetowo traktuje prywatność swoich klientów. Ponieważ pracujemy z magazynem w chmurze, Twoje pliki nie są przesyłane. Więc nie ma szans na jakiekolwiek naruszenie danych. Twoje dane są u nas bezpieczne!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Szybkie wyniki",
+          "content": "Proces konwersji prawie nie trwa kilka sekund, w zależności od rozmiaru pliku, i można łatwo uzyskać szybkie wyniki."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Szybki i wydajny",
+          "content": "Edycja wideo jest bardzo szybka i możesz wykonać swoją pracę w krótkim czasie"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Oszczędza czas",
+          "content": "Nasza strona internetowa jest niezależna od platformy, może pracować na laptopach, kartach i telefonach, a konwersja jest szybka, oszczędza czas."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "Jak dodać napisy do MP4?",
+      "steps": [
+        "Wybierz plik wideo lub kliknij strzałkę w dół i wybierz Dropbox/Dysk Google",
+        "Czekaj cierpliwie, aż wideo się załaduje",
+        "Teraz wybierz Prześlij napisy, aby przesłać plik z napisami, lub Zapisz napisy, aby ręcznie wpisać napisy",
+        "Kliknij Zapisz, aby pobrać swój film",
+        "Hurra! Korzystaj z naszych usług"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Czy zezwalanie na dostęp do mojego dysku jest bezpieczne?",
+        "answer": "Tak, jest całkowicie bezpieczne, aby zezwolić i dać nam dostęp do dysku. Nie będziemy wprowadzać żadnych zmian w Twojej witrynie, a Twoje pliki dfiles będą bezpieczne z Tobą."
+      },
+      {
+        "question": "Jak mogę przesłać pliki z mojego dyskietu/dropbox?",
+        "answer": "Kliknij strzałkę w dół i wybierz Dropbox/Dysk Google. Wybierz konto Google, z którego chcesz połączyć swój dysk. Teraz możesz wybrać pliki, które chcesz przesłać."
+      },
+      {
+        "question": "Czy mogę przesłać i dodać napisy do dowolnego innego typu pliku?",
+        "answer": "Dzięki funkcji Dodaj napisy MP4 możesz przesyłać i dodawać napisy tylko do plików MP4."
+      },
+      {
+        "question": "Które wersje systemu Windows obsługuje Add Subtitles MP4?",
+        "answer": "Add Subtitles MP4 jest całkowicie oparty na przeglądarce internetowej i dlatego zapewnia obsługę wielu platform. Oznacza to, że nasze narzędzie obsługuje wszystkie wersje systemu Windows. Działa nie tylko na systemie operacyjnym Windows, ale może działać na dowolnym innym systemie operacyjnym, który obsługuje przeglądarkę."
+      },
+      {
+        "question": "Czy obsługuje platformy Android i iOS?",
+        "answer": "Tak, nasza strona internetowa działa w przeglądarce, dlatego obsługuje platformy iOS i Android"
+      },
+      {
+        "answer": "Całe przetwarzanie odbywa się w Twojej przeglądarce, a żadne pliki nie są przesyłane na serwer. Dzięki temu Twoje pliki są w 100% bezpieczne.",
+        "question": "Czy przesłane przeze mnie pliki zostaną zapisane na serwerze?"
+      },
+      {
+        "question": "Czy muszę założyć konto, aby korzystać z Add Subtitles MP4?",
+        "answer": "Nasza strona internetowa nie wymaga rejestracji ani utworzenia konta. Platforma jest całkowicie darmowa i możesz skompresować dowolną liczbę plików."
+      },
+      {
+        "question": "Czy za korzystanie ze strony zostanie naliczona opłata?",
+        "answer": "Nasza strona internetowa jest całkowicie darmowa i możesz z niej korzystać tyle razy, ile chcesz. Nie ma darmowych próbnych zastosowań, po których będziesz musiał zapłacić za korzystanie z naszych usług. Nic Cię nie obciążymy."
+      },
+      {
+        "question": "Przez pomyłkę odświeżyłem przeglądarkę. Co ja robię?",
+        "answer": "Ponieważ nasza strona internetowa nie korzysta z żadnych serwerów i nie przechowuje Twoich danych, przesłany przez Ciebie plik nie zostanie zapisany. Musisz ponownie załadować plik, aby dodać do niego napisy."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

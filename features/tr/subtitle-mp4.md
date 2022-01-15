@@ -1,0 +1,14 @@
+---
+layout: feature
+folderName: feature
+fileName: subtitle-mp4
+permalink: /tr/subtitle-mp4
+lang: tr
+tool: subtitle-mp4
+companyName: safevideokit
+domain : com
+---
+
+{% include VideoEditorIndex/index.html %}
+
+   

@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/hi/extract-audio"
+        },
+        {
+          "name": "उपशीर्षक जोड़ें MP4",
+          "description": "MP4 वीडियो में उपशीर्षक जोड़ें",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/hi/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/id/extract-audio"
+        },
+        {
+          "name": "Tambahkan Teks MP4",
+          "description": "Tambahkan subtitle ke video MP4",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/id/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

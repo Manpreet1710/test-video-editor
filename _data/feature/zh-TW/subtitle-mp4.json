@@ -1,0 +1,112 @@
+{
+    "Language": "繁體中文",
+    "htmlLangAtt": "zh-TW",
+    "H1": "添加字幕 MP4",
+    "H2": "為您的 MP4 視頻添加字幕",
+    "TITLE": "為您的 MP4 視頻添加字幕",
+    "META": "在線為您的 MP4 視頻添加字幕的最簡單方法。",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX轉PDF",
+    "BREADCRUMB_LABEL": "文件轉換為 PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "獨立",
+            "content": "我們的網站是獨立的平台。它適用於窗口和 iOS 操作系統，可以在不需要任何下載的情況下使用。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "完全免費",
+            "content": "轉換是完全免費的，因此您可以根據需要轉換任意數量的文件。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "隱私權與安全性 ",
+            "content": "我們的網站優先考慮其客戶的隱私權。由於我們與雲存儲工作，您的文件不會被上傳。因此，沒有任何資料外洩的機會。您的資料對我們來說是安全的！"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "快速結果",
+            "content": "轉換過程幾秒鐘，取決於您的文件大小，您可以輕鬆獲得快速的結果。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "快速且有效率",
+            "content": "視訊編輯速度非常快，您可以立即完成工作"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "節省時間",
+            "content": "我們的網站是獨立於平台的，可以在筆記本電腦，標籤和手機上工作，轉換速度快，節省時間。"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "如何為 MP4 添加字幕",
+      "steps": [
+        "選擇您的視頻文件或單擊下拉箭頭並選擇 Dropbox/Google Drive",
+        "耐心等待視頻加載完畢",
+        "現在選擇“上傳字幕”上傳字幕文件或“寫入字幕”手動編寫字幕",
+        "點擊保存下載您的視頻",
+        "歡呼！享受我們的服務"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "允許訪問我的驅動器是否安全？",
+        "answer": "是的，允許並允許我們訪問您的驅動器是絕對安全的。我們不會對您的網站進行任何更改，您的 dfile 對您來說是安全的。"
+      },
+      {
+        "question": "如何從我的驅動器/保管箱上傳文件？",
+        "answer": "單擊下拉箭頭並選擇 Dropbox/Google Drive。選擇要鏈接驅動器的 Google 帳戶。現在您可以選擇要上傳的文件。"
+      },
+      {
+        "question": "我可以上傳和添加字幕到任何其他文件類型嗎？",
+        "answer": "使用添加字幕 MP4，您可以僅將字幕上傳和添加到 MP4 文件。"
+      },
+      {
+        "question": "添加字幕 MP4 支持哪些 Windows 版本？",
+        "answer": "添加字幕 MP4 完全基於網絡，因此提供跨平台支持。這意味著我們的工具支持所有版本的 Windows。它不僅適用於windows操作系統，也適用於任何其他支持瀏覽器的操作系統。"
+      },
+      {
+        "question": "它是否同時支持Android和iOS平台？",
+        "answer": "是的，我們的網站在瀏覽器上運行，因此支持 iOS 和 Android 平台"
+      },
+      {
+        "answer": "所有處理都在您的瀏覽器上完成，並且沒有文件傳輸到服務器。因此，您的文件是 100% 安全的。",
+        "question": "我上傳的文件會保存在服務器上嗎？"
+      },
+      {
+        "question": "我必須創建一個帳戶才能使用添加字幕 MP4 嗎？",
+        "answer": "我們的網站不需要您註冊或創建帳戶。該平台是完全免費的，您可以根據需要壓縮任意數量的文件。"
+      },
+      {
+        "question": "我會被收取使用該網站的費用嗎？",
+        "answer": "我們的網站是完全免費的，您可以根據需要多次使用它。沒有免費試用，之後您必須為使用我們的服務付費。我們不會向您收取任何費用。"
+      },
+      {
+        "question": "我錯誤地刷新了瀏覽器。我該怎麼辦？",
+        "answer": "由於我們的網站不使用任何服務器，也不存儲您的數據，因此您上傳的文件將不會被保存。您需要重新上傳文件才能為其添加字幕。"
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

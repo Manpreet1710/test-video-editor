@@ -42,6 +42,12 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/nl/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                      "name": "Ondertitels toevoegen MP4",
+                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                      "url": "/nl/subtitle-mp4",
+                      "hover": "blue"
                     }
                 ]
             },
