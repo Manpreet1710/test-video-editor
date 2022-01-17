@@ -58,8 +58,10 @@
       "steps": [
         "Välj din videofil eller klicka på rullgardinsmenyn och välj Dropbox/Google Drive",
         "Vänta tålmodigt tills videon laddas",
-        "Välj nu Ladda upp undertext för att ladda upp en undertextfil eller Skriv undertexter för att skriva undertexter manuellt",
-        "Klicka på spara för att ladda ner din video",
+        "Klicka nu på alternativet Ladda upp undertext för att slå samman undertexter och ladda ner video.",
+        "ELLER",
+        "Klicka på alternativet Skriv undertexter för att skriva undertexter manuellt",
+        "Klicka på Exportera SRT för att ladda ner din genererade SRT-fil eller Klicka på spara video för att ladda ner din video med undertexter",
         "hurra! Njut av våra tjänster"
       ]
     },

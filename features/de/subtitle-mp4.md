@@ -9,6 +9,6 @@ companyName: safevideokit
 domain : com
 ---
 
-{% include VideoEditorIndex/index.html %}
+{% include VideoEditorIndex/subtitleFeature.html %}
 
    

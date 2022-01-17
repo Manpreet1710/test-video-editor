@@ -58,8 +58,10 @@
       "steps": [
         "Pilih file video Anda atau Klik panah tarik-turun dan pilih Dropbox/Google Drive",
         "Tunggu dengan sabar sampai video dimuat",
-        "Sekarang pilih Unggah Subtitle untuk mengunggah file subtitle atau Tulis Subtitle untuk menulis subtitle secara manual",
-        "Klik simpan untuk mengunduh video Anda",
+        "Sekarang klik opsi Unggah Subtitle untuk menggabungkan subtitle dan mengunduh video.",
+        "ATAU",
+        "Klik opsi Write Subtitles untuk menulis subtitle secara manual",
+        "Klik Ekspor SRT untuk mengunduh File SRT yang Anda buat atau Klik simpan video untuk mengunduh video Anda dengan subtitle",
         "Hore! Nikmati layanan kami"
       ]
     },

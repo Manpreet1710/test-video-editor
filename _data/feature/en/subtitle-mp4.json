@@ -58,8 +58,10 @@
       "steps": [
         "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
         "Wait patiently till the video gets loaded",
-        "Now select Upload Subtitle to upload a subtitle file or Write Subtitles to write subtitles manually",
-        "Click save to download your video",
+        "Now click Upload Subtitle option to merge subtitle and download video.",
+        "OR",
+        "Click Write Subtitles options to write subtitles manually",
+        "Click Export SRT to download your generated SRT File or Click save video to download your video with subtitles",
         "Hurray! Enjoy our services"
       ]
     },

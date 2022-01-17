@@ -58,8 +58,10 @@
       "steps": [
         "Escolha seu arquivo de vídeo ou clique na seta suspensa e selecione Dropbox/Google Drive",
         "Aguarde pacientemente até que o vídeo seja carregado",
-        "Agora selecione Upload Subtitle para fazer upload de um arquivo de legenda ou Write Subtitles para escrever legendas manualmente",
-        "Clique em salvar para baixar seu vídeo",
+        "Agora clique na opção Carregar legenda para mesclar legenda e baixar vídeo.",
+        "OU",
+        "Clique nas opções Escrever legendas para escrever legendas manualmente",
+        "Clique em Export SRT para baixar seu arquivo SRT gerado ou clique em salvar vídeo para baixar seu vídeo com legendas",
         "Viva! Desfrute dos nossos serviços"
       ]
     },

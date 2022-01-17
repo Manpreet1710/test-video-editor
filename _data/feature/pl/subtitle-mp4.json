@@ -58,8 +58,10 @@
       "steps": [
         "Wybierz plik wideo lub kliknij strzałkę w dół i wybierz Dropbox/Dysk Google",
         "Czekaj cierpliwie, aż wideo się załaduje",
-        "Teraz wybierz Prześlij napisy, aby przesłać plik z napisami, lub Zapisz napisy, aby ręcznie wpisać napisy",
-        "Kliknij Zapisz, aby pobrać swój film",
+        "Teraz kliknij opcję Prześlij napisy, aby połączyć napisy i pobrać wideo.",
+        "LUB",
+        "Kliknij Opcje zapisu napisów, aby ręcznie wpisać napisy",
+        "Kliknij Eksportuj SRT, aby pobrać wygenerowany plik SRT lub kliknij Zapisz wideo, aby pobrać wideo z napisami",
         "Hurra! Korzystaj z naszych usług"
       ]
     },

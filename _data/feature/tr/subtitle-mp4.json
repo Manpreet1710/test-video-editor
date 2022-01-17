@@ -58,8 +58,10 @@
       "steps": [
         "Video dosyanızı seçin veya açılır oka tıklayın ve Dropbox/Google Drive'ı seçin",
         "Video yüklenene kadar sabırla bekleyin",
-        "Şimdi bir altyazı dosyası yüklemek için Altyazıları Yükle'yi veya altyazıları manuel olarak yazmak için Altyazıları Yaz'ı seçin.",
-        "Videonuzu indirmek için kaydet'e tıklayın",
+        "Şimdi altyazıyı birleştirmek ve videoyu indirmek için Altyazı Yükle seçeneğini tıklayın.",
+        "VEYA",
+        "Altyazıları manuel olarak yazmak için Altyazı Yaz seçeneklerini tıklayın",
+        "Oluşturduğunuz SRT Dosyasını indirmek için SRT'yi Dışa Aktar'a tıklayın veya videonuzu altyazılı olarak indirmek için videoyu kaydet'e tıklayın",
         "Yaşasın! hizmetlerimizin tadını çıkarın"
       ]
     },

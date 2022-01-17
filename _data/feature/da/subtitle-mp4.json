@@ -58,8 +58,10 @@
       "steps": [
         "Vælg din videofil eller klik på rullepilen og vælg Dropbox/Google Drev",
         "Vent tålmodigt, indtil videoen bliver indlæst",
-        "Vælg nu Upload undertekst for at uploade en undertekstfil eller Skriv undertekster for at skrive undertekster manuelt",
-        "Klik på Gem for at downloade din video",
+        "Klik nu på Upload undertekster for at flette undertekster og downloade video.",
+        "ELLER",
+        "Klik på indstillinger for Skriv undertekster for at skrive undertekster manuelt",
+        "Klik på Eksporter SRT for at downloade din genererede SRT-fil eller Klik på Gem video for at downloade din video med undertekster",
         "Hurra! Nyd vores tjenester"
       ]
     },

@@ -58,8 +58,10 @@
       "steps": [
         "Kies je videobestand of klik op de vervolgkeuzepijl en selecteer Dropbox/Google Drive",
         "Wacht geduldig tot de video is geladen",
-        "Selecteer nu Ondertitel uploaden om een ​​ondertitelingsbestand te uploaden of Ondertitels schrijven om handmatig ondertitels te schrijven",
-        "Klik op opslaan om je video te downloaden",
+        "Klik nu op de optie Ondertitel uploaden om ondertitels samen te voegen en video te downloaden.",
+        "OF",
+        "Klik op Ondertitelingsopties schrijven om handmatig ondertitels te schrijven",
+        "Klik op SRT exporteren om uw gegenereerde SRT-bestand te downloaden of klik op video opslaan om uw video met ondertitels te downloaden",
         "Hoera! Geniet van onze diensten"
       ]
     },

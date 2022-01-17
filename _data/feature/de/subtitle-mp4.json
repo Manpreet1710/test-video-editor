@@ -58,8 +58,10 @@
       "steps": [
         "Wählen Sie Ihre Videodatei aus oder klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus",
         "Warten Sie geduldig, bis das Video geladen wird",
-        "Wählen Sie nun Untertitel hochladen, um eine Untertiteldatei hochzuladen, oder Untertitel schreiben, um Untertitel manuell zu schreiben",
-        "Klicken Sie auf Speichern, um Ihr Video herunterzuladen",
+        "Klicken Sie nun auf die Option Untertitel hochladen, um die Untertitel zusammenzuführen und das Video herunterzuladen.",
+        "ODER",
+        "Klicken Sie auf Optionen zum Schreiben von Untertiteln, um Untertitel manuell zu schreiben",
+        "Klicken Sie auf SRT exportieren, um Ihre generierte SRT-Datei herunterzuladen, oder klicken Sie auf Video speichern, um Ihr Video mit Untertiteln herunterzuladen",
         "Hurra! Genießen Sie unsere Dienstleistungen"
       ]
     },

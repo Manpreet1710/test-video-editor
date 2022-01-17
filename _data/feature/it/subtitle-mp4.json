@@ -58,8 +58,10 @@
       "steps": [
         "Scegli il tuo file video o fai clic sulla freccia a discesa e seleziona Dropbox/Google Drive",
         "Attendi pazientemente fino a quando il video non viene caricato",
-        "Ora seleziona Carica sottotitoli per caricare un file di sottotitoli o Scrivi sottotitoli per scrivere manualmente i sottotitoli",
-        "Fai clic su Salva per scaricare il tuo video",
+        "Ora fai clic sull'opzione Carica sottotitoli per unire i sottotitoli e scaricare il video.",
+        "O",
+        "Fare clic su Opzioni di scrittura sottotitoli per scrivere i sottotitoli manualmente",
+        "Fare clic su Esporta SRT per scaricare il file SRT generato o fare clic su Salva video per scaricare il video con i sottotitoli",
         "Evviva! Goditi i nostri servizi"
       ]
     },

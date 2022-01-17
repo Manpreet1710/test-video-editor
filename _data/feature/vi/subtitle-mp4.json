@@ -58,8 +58,10 @@
       "steps": [
         "Chọn tệp video của bạn hoặc Nhấp vào mũi tên thả xuống và chọn Dropbox / Google Drive",
         "Kiên nhẫn chờ cho đến khi video được tải",
-        "Bây giờ chọn Tải lên phụ đề để tải tệp phụ đề lên hoặc Viết phụ đề để viết phụ đề theo cách thủ công",
-        "Nhấp vào lưu để tải xuống video của bạn",
+        "Bây giờ hãy nhấp vào tùy chọn Tải lên phụ đề để hợp nhất phụ đề và tải xuống video.",
+        "HOẶC LÀ",
+        "Nhấp vào tùy chọn Viết phụ đề để viết phụ đề theo cách thủ công",
+        "Nhấp vào Xuất SRT để tải xuống Tệp SRT đã tạo của bạn hoặc Nhấp vào lưu video để tải xuống video của bạn có phụ đề",
         "Tiếng hoan hô! Tận hưởng các dịch vụ của chúng tôi"
       ]
     },
