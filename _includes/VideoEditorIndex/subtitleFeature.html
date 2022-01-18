@@ -80,38 +80,39 @@
     <div class="Workspace">
         <div class="Settings">
             <div class="VideoFile">
-                <h4>File name</h4>
                 <video src="" crossorigin controls></video>
             </div>
         </div>
         <div class="ButtonPointerWrap">
-            <label class="UploadBtn" for="uploadSub" style="cursor: pointer;padding-top: 17px;">Upload Subtitle</label>
+            <label class="UploadBtn" for="uploadSub" style="cursor: pointer;padding-top: 15px">Upload Subtitle</label>
             <input type="file" name="uploadSub" id="uploadSub" onchange="UploadSubs(this)" accept=".srt,.vtt" style="display: none;">
             <button class="UploadBtn" id="writeSub" onclick="WriteSubs()">
                 Write Subtitle
             </button>
         </div>
-        <div class="EditSubs" style="display: none;">
+    </div>
+    <div class="Workspace" id="EditSubs" style="flex-direction: column;-ms-flex-direction: column;display: none;">
+        <div>
+        <div class="ButtonPointerWrap">
+            <button class="UploadBtn" onclick="exportSRT()">Export SRT</button>
+            <button class="UploadBtn" onclick="uploadSRT()">Save Video</button>
+            <button class="UploadBtn" onclick="addRow()">Add Row</button>
+            <button class="UploadBtn" onclick="deleteLast()">Delete Last Row</button>
+        </div>
+        </div>
+        <div class="Settings">
             <div class="VideoFile">
-                <video src="" crossorigin controls></video>
-                <br><br>
-                <button class="UploadBtn" onclick="exportSRT()">Export SRT</button>&emsp;&emsp;
-                <button class="UploadBtn" onclick="uploadSRT()">Save Video</button>
+                <video src="" crossorigin controls id="VDemo"></video>
             </div>
-            <div>
-                <div class="subTable">
-                    <table id="cue-table" class="cue-table" border="1">
-                        <tr>
-                            <th style="width: 10vw;">Start Time</th>
-                            <th style="width: 10vw;">End Time</th>
-                            <th style="width: 25vw;">Text</th>
-                        </tr>
-                    </table>
-                </div>
-                <br>
-                <button class="UploadBtn" onclick="addRow()" style="background-color: rgb(47,141,70);height: 50px; width: 130px; font-size: 15px;"><b>Add Row</b></button>&emsp;&emsp;
-                <button class="UploadBtn" onclick="deleteLast()" style="background-color: rgb(47,141,70);height: 50px; width: 130px; font-size: 15px;"><b>Delete Last Row</b></button>
-            </div>
+            <div class="subTable">
+                <table id="cue-table" class="cue-table" border="1">
+                    <tr>
+                        <th style="width: 10vw;">Start Time</th>
+                        <th style="width: 10vw;">End Time</th>
+                        <th style="width: 20vw;">Text</th>
+                    </tr>
+                </table>
+            </div> 
         </div>
     </div>
     <script src="/assets/js/googledrive.js" crossorigin></script>

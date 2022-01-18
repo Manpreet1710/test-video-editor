@@ -18,7 +18,7 @@ let SubSourceurl=null;
 var sourceBuffer = null
 let SubSourceBuffer=null;
 let type=null;
-var FileName = document.querySelector('.VideoFile h4')
+
 var VFileSrc = document.querySelector('.VideoFile video');
 const gdrive = document.querySelector('#filepicker')
 const getFile = (file) => {
@@ -117,7 +117,6 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  FileName.innerText = VideoSourceFile.name
   VFileSrc.src=URL.createObjectURL(VideoSourceFile);
   const reader = new FileReader()
   reader.readAsDataURL(VideoSourceFile)
@@ -237,10 +236,9 @@ showDropDown.addEventListener('click', (e) => {
 })
 
 function WriteSubs() {
-  document.getElementsByClassName('Settings')[0].style.display='none';
-  document.getElementsByClassName('ButtonPointerWrap')[0].style.display='none';
-  document.getElementsByClassName('EditSubs')[0].style.display='inherit';
-  document.querySelector('.EditSubs .VideoFile video').src=VFileSrc.src;
+  document.getElementsByClassName('Workspace')[0].style.display='none';
+  document.getElementById('EditSubs').style.display='inherit';
+  document.getElementById('VDemo').src=VFileSrc.src;
 }
 
 let rowCounter=0;
@@ -279,7 +277,7 @@ function addRow()
     col3.appendChild(col3Text);
 
     let col4Text=document.createElement('textarea');
-    col4Text.cols="40";
+    col4Text.cols="25";
     col4Text.rows="2";
     col4Text.setAttribute('style', 'overflow-y:hidden;');
     col4Text.addEventListener('input', function () {
@@ -368,22 +366,27 @@ function addRow()
 }
 
 function deleteLast() {
+  if(rowCounter>0)
+  {
     document.getElementById(rowCounter+"row").remove();
     startTime.splice(rowCounter,1);
     endTime.splice(rowCounter,1);
     subText.splice(rowCounter,1);
     rowCounter--;
+  }
 }
 
 function exportSRT() {
     Spinner.style.display = 'none'
-    Workspace.style.display = 'none'
+    document.getElementById("EditSubs").style.display = 'none'
     Landing.style.display = 'inherit'
     CancelProcess.style.display = 'inherit'
     let tempString="";
     for(let i=1;i<startTime.length;i++)
     {
-        tempString+=i+"\n"+startTime[i]+" --> "+endTime[i]+"\n"+subText[i]+"\n\n";
+      if(typeof startTime[i]!="undefined")
+        if(typeof endTime[i]!="undefined")
+          tempString+=i+"\n"+startTime[i]+" --> "+endTime[i]+"\n"+subText[i]+"\n\n";
     }
     let tempBlob=new Blob([tempString],{type: 'text\plain'});
     let url=URL.createObjectURL(tempBlob);
@@ -397,10 +400,14 @@ function exportSRT() {
 }
 
 function uploadSRT() {
+    Spinner.style.display = 'none'
+    document.getElementById("EditSubs").style.display = 'none'
     let tempString="";
     for(let i=1;i<startTime.length;i++)
     {
-        tempString+=i+"\n"+startTime[i]+" --> "+endTime[i]+"\n"+subText[i]+"\n\n";
+      if(typeof startTime[i]!="undefined")
+        if(typeof endTime[i]!="undefined")
+          tempString+=i+"\n"+startTime[i]+" --> "+endTime[i]+"\n"+subText[i]+"\n\n";
     }
     let tempBlob=new Blob([tempString],{type: 'text\plain'});
     const reader=new FileReader();
