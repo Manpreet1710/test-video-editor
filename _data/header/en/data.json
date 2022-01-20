@@ -20,12 +20,6 @@
             "hover": "blue"
           },
           {
-            "name": "Edit MP4 video",
-            "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-            "url": "/edit-mp4-video",
-            "hover": "blue"
-          },
-          {
             "name": "MP4 compressor",
             "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
             "url": "/mp4-compressor",
@@ -78,6 +72,12 @@
         "categoryName": "Video Tools",
         "links": [
           {
+            "name": "Edit video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+            "url": "/video-editor",
+            "hover": "blue"
+          },
+          {
             "name": "Crop video",
             "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
             "url": "/crop-video",
@@ -102,7 +102,7 @@
             "hover": "blue"
           },
           {
-            "name": "video-cutter",
+            "name": "Video Cutter",
             "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
             "url": "/video-cutter",
             "hover": "blue"

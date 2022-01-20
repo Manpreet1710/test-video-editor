@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Редактирование видео MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/ru/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "Компрессор MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ru/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Инструменты для создания видео",
                 "links": [
+                    {
+                        "name": "Редактировать видео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ru/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Кадрирование видео",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

@@ -700,3 +700,8 @@
   height: 25px;
 }
 /*# sourceMappingURL=audioExtractor.css.map */
+@media only screen and (max-width: 992px) {
+  .audioExtractor .Workspace{
+    flex-direction: column;
+  }
+}

@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Modifica video MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/it/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "Compressore MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/it/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Strumenti video",
                 "links": [
+                    {
+                        "name": "Modifica video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/it/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Ritaglia video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

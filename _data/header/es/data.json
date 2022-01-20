@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Editar vídeo MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/es/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "compresor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/es/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Herramientas de vídeo",
                 "links": [
+                    {
+                        "name": "Editar video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/es/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Recortar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

@@ -19,6 +19,32 @@ var sourceBuffer = null
 let SubSourceBuffer=null;
 let type=null;
 
+// Drag and Drop Feature
+UploadButton.addEventListener("dragover",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("dragenter",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("drop",function(evt){
+  evt.preventDefault();
+  let tempInput=document.getElementById("files");
+  tempInput.files=evt.dataTransfer.files;
+  let tempType=(tempInput.files[0].name).split(".");
+  if(tempType[tempType.length-1]=="mp4")
+  {
+    let event = new Event('change');
+    tempInput.dispatchEvent(event);
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload a .mp4 file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
+});
+
 var VFileSrc = document.querySelector('.VideoFile video');
 const gdrive = document.querySelector('#filepicker')
 const getFile = (file) => {
@@ -117,18 +143,27 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  VFileSrc.src=URL.createObjectURL(VideoSourceFile);
-  const reader = new FileReader()
-  reader.readAsDataURL(VideoSourceFile)
+  let temp=(VideoSourceFile.name).split(".");
+  if(temp[temp.length-1]=="mp4")
+  {
+    VFileSrc.src=URL.createObjectURL(VideoSourceFile);
+    const reader = new FileReader()
+    reader.readAsDataURL(VideoSourceFile)
 
-  reader.addEventListener(
+    reader.addEventListener(
     'load',
     async function () {
       ActualSourceurl = reader.result
       fetch_and_load_Video_to_FFmpeg()
     },
     false
-  )
+   )
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload a .mp4 file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
 }
 
 const UploadSubs = async (input) => {
@@ -140,7 +175,9 @@ const UploadSubs = async (input) => {
     type=temporary[temporary.length-1];
   }
   
-  const reader = new FileReader();
+  if(type=="vtt"||type=="srt")
+  {
+    const reader = new FileReader();
   reader.readAsDataURL(VideoSourceFile);
 
   reader.addEventListener(
@@ -151,10 +188,23 @@ const UploadSubs = async (input) => {
     },
     false
   )
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .srt or .vtt file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
 }
 
 const fetch_and_load_Video_to_FFmpeg = async () => {
-  await ffmpeg.load()
+  try{
+    await ffmpeg.load()
+  }catch(e)
+  {
+    document.getElementById("ErrorBoxMessage").innerHTML="<i class='material-icons' style='font-size:48px;color:red'>warning</i><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b>";
+    document.getElementById("ErrorBoxMessage").style.justifyContent="center";
+    document.getElementById("ErrorBox").style.display="block";
+  }
   sourceBuffer = await fetch(ActualSourceurl).then((r) => r.arrayBuffer())
   ffmpeg.FS(
     'writeFile',
@@ -168,7 +218,16 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
 
 const fetch_and_load_Subs_to_FFmpeg = async () => {
   if(!ffmpeg.isLoaded())
-    await ffmpeg.load();
+  {
+    try{
+      await ffmpeg.load();
+    }catch(e)
+    {
+      document.getElementById("ErrorBoxMessage").innerHTML="<i class='material-icons' style='font-size:48px;color:red'>warning</i><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b>";
+      document.getElementById("ErrorBoxMessage").style.justifyContent="center";
+      document.getElementById("ErrorBox").style.display="block";
+    }
+  }
   SubSourceBuffer = await fetch(SubSourceurl).then((r) => r.arrayBuffer())
   ffmpeg.FS(
     'writeFile',

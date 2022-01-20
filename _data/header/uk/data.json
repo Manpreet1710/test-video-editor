@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Редагування відео MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/uk/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "Компресор MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/uk/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Інструменти для відео",
                 "links": [
+                    {
+                        "name": "Редагувати відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/uk/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Кадрування відео",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

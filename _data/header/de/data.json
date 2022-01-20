@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Bearbeiten von MP4-Video",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/de/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4-Kompressor",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/de/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Video-Tools",
                 "links": [
+                    {
+                        "name": "Video bearbeiten",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/de/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Video zuschneiden",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

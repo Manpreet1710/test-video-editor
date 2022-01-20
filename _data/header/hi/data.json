@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 वीडियो संपादित करें",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/hi/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "mp4 कंप्रेसर",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/hi/mp4-compressor",
@@ -78,6 +72,12 @@
                 "categoryName": "विडियो टूल्स",
                 "links": [
                     {
+                        "name": "वीडियो संपादित करें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/hi/video-editor",
+                        "hover": "blue"
+                    },
+                    {
                         "name": "वीडियो क्रॉप करें",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/hi/crop-video",
@@ -102,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "वीडियो-कटर",
+                        "name": "वीडियो कटर",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/hi/video-cutter",
                         "hover": "blue"

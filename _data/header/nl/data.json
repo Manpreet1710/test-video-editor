@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4-video bewerken",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/nl/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4-compressor",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/nl/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Hulpmiddelen voor video",
                 "links": [
+                    {
+                        "name": "Bewerk video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/nl/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Video bijsnijden",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

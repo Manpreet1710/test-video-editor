@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Modifier la vidéo MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/fr/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "Compresseur MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/fr/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Outils vidéo",
                 "links": [
+                    {
+                        "name": "Éditer vidéo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/fr/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Vidéo recadrage",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

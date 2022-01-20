@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Edit video MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/id/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4 kompresor",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/id/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Alat Video",
                 "links": [
+                    {
+                        "name": "Edit video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/id/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Pangkas video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Redigera MP4-video",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/sv/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4-kompressor",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/sv/mp4-compressor",
@@ -78,6 +72,12 @@
                 "categoryName": "Videoverktyg",
                 "links": [
                     {
+                        "name": "Redigera video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/sv/video-editor",
+                        "hover": "blue"
+                    },
+                    {
                         "name": "Beskär video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/sv/crop-video",
@@ -102,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "video-cutter",
+                        "name": "videoklippare",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/sv/video-cutter",
                         "hover": "blue"

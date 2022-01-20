@@ -39,6 +39,7 @@ dropbox.addEventListener(
     const getFile = chooseFromDropbox()
   }
 )
+
 const ffmpeg = createFFmpeg({ log: true })
 let setAll = (obj, val, key) => Object.keys(obj).forEach((k) => (obj[k] = val))
 var previous_feature_selected = null
@@ -148,7 +149,7 @@ console.log = function () {
     var percentage = (seconds / videoTime) * 100
     ProgressBar.style.width = percentage + '%'
     LandingText.innerHTML = `Please wait while we are ${
-      inCompress ? 'compressing' : 'flipping'
+      inCompress ? 'compressing' : 'processing'
     } your video in the most secured way.<br><span>${
       percentage > 0 ? percentage.toFixed(0) : 0
     }%</span>${percentage > 90 ? '<br>Almost done, few seconds left</br>' : ''}`
@@ -237,6 +238,32 @@ var FlipReset = document.querySelector('.FReset')
 var ToggleDownloadOptions = 0
 var LandingPage = document.querySelector('.Landing')
 var SeekTrim = document.querySelector('#SeekTrim')
+
+// Drag and Drop Feature
+UploadButton.addEventListener("dragover",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("dragenter",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("drop",function(evt){
+  evt.preventDefault();
+  let tempInput=document.getElementById("files");
+  tempInput.files=evt.dataTransfer.files;
+  let tempType=(tempInput.files[0].name).split(".");
+  if(tempType[tempType.length-1]=="mp4"||tempType[tempType.length-1]=="mov"||tempType[tempType.length-1]=="ogg"||tempType[tempType.length-1]=="webm")
+  {
+    let event = new Event('change');
+    tempInput.dispatchEvent(event);
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
+});
 
 var CurrentFeature = null
 var CompressionSettingsButton = document.querySelector(
@@ -524,7 +551,14 @@ var TogglePlayPause = (time = null) => {
 playPauseButton.addEventListener('click', TogglePlayPause)
 //this should be called when the video is loaded
 const fetch_and_load_Video_to_FFmpeg = async () => {
-  await ffmpeg.load()
+  try{
+    await ffmpeg.load()
+  }catch(e)
+  {
+    document.getElementById("ErrorBoxMessage").innerHTML="<i class='material-icons' style='font-size:48px;color:red'>warning</i><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b>";
+    document.getElementById("ErrorBoxMessage").style.justifyContent="center";
+    document.getElementById("ErrorBox").style.display="block";
+  }
   sourceBuffer = await fetch(ActualSourceurl).then((r) => r.arrayBuffer())
 }
 
@@ -615,7 +649,10 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  const reader = new FileReader()
+  let temp=(VideoSourceFile.name).split(".");
+  if(temp[temp.length-1]=="mp4"||temp[temp.length-1]=="mov"||temp[temp.length-1]=="ogg"||temp[temp.length-1]=="webm")
+  {
+    const reader = new FileReader()
   reader.readAsDataURL(VideoSourceFile)
   let TempVideo = document.createElement('video')
   TempVideo.onloadeddata = function () {
@@ -637,6 +674,12 @@ const get_video_source_from_input = async (input) => {
     },
     false
   )
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
 }
 
 const timer = (ms) => new Promise((res) => setTimeout(res, ms))
@@ -666,6 +709,9 @@ async function generateFrames(e) {
   Spinner.style.display = 'none'
   var previousWorkingFrameData
 
+  //Temporary fix for firefox parseFloat()
+  let tempCounter=0;
+
   while (video.currentTime < duration) {
     video.currentTime = parseFloat(i)
     await timer(200)
@@ -688,6 +734,16 @@ async function generateFrames(e) {
     progressPercent < 100
       ? (ProgressBar.style.width = progressPercent + '%')
       : null
+    //Fix Temporary for FF  
+    if((duration-video.currentTime)<FrameStep)
+    {
+      tempCounter++;  
+    }
+    if(tempCounter>=2)
+    {
+      
+      break;
+    }
   }
   LandingPage.style.display = 'none'
   Workspace.style.display = 'inherit'

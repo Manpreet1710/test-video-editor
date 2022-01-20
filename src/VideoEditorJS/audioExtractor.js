@@ -53,6 +53,31 @@ dropbox.addEventListener(
     const getFile = chooseFromDropbox()
   }
 )
+// Drag and Drop Feature
+UploadButton.addEventListener("dragover",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("dragenter",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("drop",function(evt){
+  evt.preventDefault();
+  let tempInput=document.getElementById("files");
+  tempInput.files=evt.dataTransfer.files;
+  let tempType=(tempInput.files[0].name).split(".");
+  if(tempType[tempType.length-1]=="mp4"||tempType[tempType.length-1]=="mov"||tempType[tempType.length-1]=="ogg"||tempType[tempType.length-1]=="webm")
+  {
+    let event = new Event('change');
+    tempInput.dispatchEvent(event);
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
+});
 var settings = {
   outputFormat: 'mp3',
   audioQuality: 'default',
@@ -116,7 +141,10 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  FileName.innerText = VideoSourceFile.name
+  let temp=(VideoSourceFile.name).split(".");
+  if(temp[temp.length-1]=="mp4"||temp[temp.length-1]=="mov"||temp[temp.length-1]=="ogg"||temp[temp.length-1]=="webm")
+  {
+    FileName.innerText = VideoSourceFile.name
   const reader = new FileReader()
   reader.readAsDataURL(VideoSourceFile)
 
@@ -128,10 +156,23 @@ const get_video_source_from_input = async (input) => {
     },
     false
   )
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+  }
 }
 
 const fetch_and_load_Video_to_FFmpeg = async () => {
-  await ffmpeg.load()
+  try{
+    await ffmpeg.load()
+  }catch(e)
+  {
+    document.getElementById("ErrorBoxMessage").innerHTML="<i class='material-icons' style='font-size:48px;color:red'>warning</i><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b>";
+    document.getElementById("ErrorBoxMessage").style.justifyContent="center";
+    document.getElementById("ErrorBox").style.display="block";
+  }
   sourceBuffer = await fetch(ActualSourceurl).then((r) => r.arrayBuffer())
   ffmpeg.FS(
     'writeFile',
@@ -185,14 +226,21 @@ var ExtractAudio = async () => {
 
 const initateDownload = async () => {
   const output = ffmpeg.FS('readFile', `output.${settings.outputFormat}`)
-  link.href = URL.createObjectURL(
+  let hrefLink = URL.createObjectURL(
     new Blob([output.buffer], { type: `audio/${settings.outputFormat}` })
   )
-  link.download = `Output.${settings.outputFormat}`
 
   LoadingText.style.display = 'inherit'
   LoadingText.innerText = 'Thanks for your patience'
   DownloadBox.style.display = 'inherit'
+  link.addEventListener('click',()=>handleDownload(hrefLink));
+}
+
+let handleDownload = (src,fname) => {
+  let tempLink = document.createElement('a')
+  tempLink.href = src
+  tempLink.download = `Output.${settings.outputFormat}`;
+  tempLink.click()
   setTimeout(() => {
     if (lang === 'en') {
       window.location.href = `/download?tool=${pageTool}`

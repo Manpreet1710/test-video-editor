@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "تحرير فيديو MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/ar/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "ضاغط MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ar/mp4-compressor",
@@ -78,6 +72,12 @@
                 "categoryName": "أدوات الفيديو",
                 "links": [
                     {
+                        "name": "تحرير الفيديو",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ar/video-editor",
+                        "hover": "blue"
+                    },
+                    {
                         "name": "فيديو المحاصيل",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/ar/crop-video",
@@ -102,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "قاطع الفيديو",
+                        "name": "برنامج تقطيع الفيديو",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/ar/video-cutter",
                         "hover": "blue"

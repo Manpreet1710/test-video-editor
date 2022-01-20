@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 videosunu düzenle",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/tr/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4 kompresör",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/tr/mp4-compressor",
@@ -77,6 +71,12 @@
             {
                 "categoryName": "Video Araçları",
                 "links": [
+                    {
+                        "name": "Videoyu düzenle",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/tr/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Kırpma videosu",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
