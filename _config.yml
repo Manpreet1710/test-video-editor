@@ -51,7 +51,7 @@ theme: appscms-tools-theme
 markdown: kramdown
 plugins:
   - jekyll-feed
-favicon: assets/safevideokit.svg
+favicon: /assets/safevideokit.svg
 production_google_analytics: 'UA-179965937-17'
 name: safevideokit
 

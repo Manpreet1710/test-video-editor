@@ -390,37 +390,6 @@
     border-color: rgb(11, 132, 248);
   }
 
-  .subtitleFeature .Workspace .Settings .subTable{
-    height: 40vh;
-    width: 40vw;
-    overflow-y: scroll;
-    overflow-x: auto;
-  }
-
-  .subtitleFeature .Workspace div .ButtonPointerWrap{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 5px;
-  }
-  
-  .subtitleFeature .Workspace div .ButtonPointerWrap .UploadBtn{
-    width: 180px;
-    height: 60px;
-    outline: none;
-    background: #a55eea;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 13px;
-    overflow: hidden;
-  }
-
-  .subtitleFeature .Workspace div .ButtonPointerWrap .UploadBtn:hover{
-    background: white;
-    border: 1px solid #a55eea;
-    color: #a55eea;
-  }
-
   .subtitleFeature .Workspace .ButtonPointerWrap .UploadBtn {
     width: 200px;
     height: 70px;
@@ -583,123 +552,29 @@
     height: 25px;
   }
 
-  .subtitleFeature .Workspace .Settings .VideoFile .ButtonPointerWrap{
-    flex-direction: row;
+  #subTable{
+    height: 70vh;
   }
 
-  .subtitleFeature .Workspace div .ButtonPointerWrap{
-    flex-direction: row;
+  .cue-table tr td textarea{
+      width: 90%;
   }
 
-  #VDemo{
-    width: 40vw;
-    height: 240px;
-  }
-
-  @media only screen and (max-width: 576px) {
-
-    #VDemo{
-      width: 60vw;
-      height: 240px;
-    }
-
+  @media only screen and (max-width: 992px) {
     .subtitleFeature .Workspace{
       flex-direction: column;
     }
-    .subtitleFeature .Workspace .ButtonPointerWrap{
-      flex-direction: row;
-    }
-    .subtitleFeature .Workspace .ButtonPointerWrap .UploadBtn{
-      margin: 15px;
-      width: 100px;
-      height: 40px;
-      font-size: 14px;
-      padding-top: 10px;
-    }
-    .subtitleFeature .Workspace .Settings{
-      flex-direction: column;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap .UploadBtn{
-      width: 100px;
-    }
-    .subtitleFeature .Workspace .Settings .subTable{
-      height: 20vh;
-      width: 62vw;
-      overflow-y: scroll;
-      overflow-x: scroll;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap{
-      grid-template-columns: auto auto;
-      gap: 1.5px;
-    }
   }
 
-  @media only screen and (min-width: 577px) and (max-width: 768px) {
-    
-    #VDemo{
-      width: 60vw;
-      height: 240px;
+  @media only screen and (max-width: 768px) {
+    #subTable{
+      height: 30vh;
     }
-    
-    .subtitleFeature .Workspace{
-      flex-direction: column;
+    #endButton{
+      justify-content: center;
     }
-    .subtitleFeature .Workspace .ButtonPointerWrap{
-      flex-direction: row;
-    }
-    .subtitleFeature .Workspace .ButtonPointerWrap .UploadBtn{
-      margin: 15px;
-      width: 120px;
-      height: 60px;
-      font-size: 15px;
-      padding-top: 15px;
-    }
-    .subtitleFeature .Workspace .Settings{
-      flex-direction: column;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap .UploadBtn{
-      width: 140px;
-    }
-    .subtitleFeature .Workspace .Settings .subTable{
-      height: 20vh;
-      width: 62vw;
-      overflow-y: scroll;
-      overflow-x: scroll;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap{
-      grid-template-columns: auto auto;
-      gap: 1.5px;
+    #VContainer{
+      height: 40vh;
     }
   }
-
-  @media only screen and (min-width: 769px) and (max-width: 992px) {
-    .subtitleFeature .Workspace{
-      flex-direction: row;
-    }
-    .subtitleFeature .Workspace .ButtonPointerWrap{
-      flex-direction: column;
-    }
-    .subtitleFeature .Workspace .Settings{
-      flex-direction: row;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap .UploadBtn{
-      width: 160px;
-    }
-    .subtitleFeature .Workspace div .ButtonPointerWrap{
-      column-gap: 3px;
-    }
-  }
-
-  @media only screen and (min-width: 993px) {
-    .subtitleFeature .Workspace{
-      flex-direction: row;
-    }
-    .subtitleFeature .Workspace .ButtonPointerWrap{
-      flex-direction: column;
-    }
-    .subtitleFeature .Workspace .Settings{
-      flex-direction: row;
-    }
-  }
-
   /*# sourceMappingURL=subtitleFeature.css.map */
