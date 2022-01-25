@@ -576,7 +576,7 @@
   }
 
   #subTable::-webkit-scrollbar {
-    width: 5px;
+    width: 18px;
     padding: 0.2px;
   }
 
