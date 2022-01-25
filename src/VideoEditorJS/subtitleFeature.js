@@ -311,6 +311,7 @@ function WriteSubs() {
   InputButtonContainer.style.display = 'none'
   Workspace.style.display = 'none'
   document.getElementsByClassName('Workspace')[0].style.display='none';
+  document.getElementsByClassName('Body')[0].style.overflow='hidden';
   document.getElementById('EditBox').style.display='block';
   document.getElementById('VDemo').src=VFileSrc.src;
 
@@ -579,6 +580,7 @@ function make_and_load_VTT() {
 
 function exportSRT() {
     Spinner.style.display = 'none'
+    document.getElementsByClassName('Body')[0].style.overflow='auto';
     document.getElementById("EditBox").style.display = 'none'
     Landing.style.display = 'inherit'
     CancelProcess.style.display = 'inherit'
@@ -620,6 +622,7 @@ function exportSRT() {
 
 function uploadSRT() {
     Spinner.style.display = 'none'
+    document.getElementsByClassName('Body')[0].style.overflow='auto';
     document.getElementById("EditBox").style.display = 'none'
     let tempString="WEBVTT\n\n";
     for(let i=1;i<startTime.length;i++)
