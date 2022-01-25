@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/da/extract-audio"
+        },
+        {
+          "name": "Tilføj undertekster MP4",
+          "description": "Tilføj undertekster til en MP4-video",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/da/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

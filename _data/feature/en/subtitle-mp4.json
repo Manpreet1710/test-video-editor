@@ -1,0 +1,114 @@
+{
+    "Language": "English",
+    "htmlLangAtt": "en",
+    "H1": "Add Subtitles MP4",
+    "H2": "Add Subtitles to your MP4 video",
+    "TITLE": "Add Subtitles to your MP4 video",
+    "META": "Easiest way to add subtitles to your MP4 videos online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX to PDF",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Independent",
+        "content": "Our website is platform independent. It works on both Window and iOS Operating systems and can be used without any downloads required."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Absolutely Free",
+        "content": "The conversion is absolutely free, so you can convert as many files as you want."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privacy and Security ",
+        "content": "Our website prioritises its customers’ privacy. The application works completely on your browser without invlolving any server.Hence your data is safe!"
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Quick Results",
+        "content": "The conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Fast and efficient",
+        "content": "Video editing is really fast and you can get your job done in no time"
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Saves Time",
+        "content": "Our website is platform independent, can work on laptops, tabs and phones and the conversion is quick, it saves time."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "How to add subtitle to your MP4",
+      "steps": [
+        "Choose your video file or Click on the drop down arrow and select Dropbox/Google Drive",
+        "Wait patiently till the video gets loaded",
+        "Now click Upload Subtitle option to merge subtitle and download video.",
+        "OR",
+        "Click Write Subtitles options to write subtitles manually",
+        "Click Export SRT to download your generated SRT File or Click save video to download your video with subtitles",
+        "Hurray! Enjoy our services"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Is it safe to allow access to my drive?",
+        "answer": "Yes, it is absolutely safe to allow and give us access to your drive. We won't be making any changes to your site and your dfiles will be safe with you."
+      },
+      {
+        "question": "How can I upload files from my drive/dropbox?",
+        "answer": "Click on the drop down arrow and select Dropbox/Google Drive. Select the Google account from where you want to link your drive. Now you can select the files that you want to upload."
+      },
+      {
+        "question": "Can I upload and add subtitle to any other file type?",
+        "answer": "With Add Subtitles MP4, you can upload and add subtitles to only MP4 files."
+      },
+      {
+        "question": "Which Windows versions does Add Subtitles MP4 support?",
+        "answer": "Add Subtitles MP4 is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only works on windows operating system, but can work on any other operating system, that supports a browser."
+      },
+      {
+        "question": "Does it support both Android and iOS platforms?",
+        "answer": "Yes, our website works on browser, and therefore supports both iOS and Android platforms"
+      },
+      {
+        "answer": "All processing is done on your browser, and no files are transferred to the server. Hence your files are 100% safe.",
+        "question": "Will my uploaded files be saved on the server?"
+      },
+      {
+        "question": "Will I have to create an account to use Add Subtitles MP4?",
+        "answer": "Our website does not require you to sign up or create an account. The platform is absolutely free and you can compress as many files as you want."
+      },
+      {
+        "question": "Will I be charged to use the website?",
+        "answer": "Our website is absolutely free and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
+      },
+      {
+        "question": "I refreshed the browser by mistake. What do I do?",
+        "answer": "Since our website does not use any servers and does not store your data, the file that you have uploaded, will not be saved. You need to reupload the file to add subtitles to it."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/fr/extract-audio"
+        },
+        {
+          "name": "Ajouter des sous-titres MP4",
+          "description": "Ajouter un sous-titre à une vidéo MP4",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/fr/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

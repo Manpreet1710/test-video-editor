@@ -1,0 +1,114 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Altyazı Ekle MP4",
+    "H2": "MP4 videonuza Altyazılar ekleyin",
+    "TITLE": "MP4 videonuza Altyazılar ekleyin",
+    "META": "MP4 videolarınıza çevrimiçi altyazı eklemenin en kolay yolu.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'den PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX'den PDF'ye",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Bağımsız",
+          "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/target.svg",
+          "header": "Kesinlikle Ücretsiz",
+          "content": "Dönüşüm tamamen ücretsizdir, bu nedenle istediğiniz kadar dosya dönüştürebilirsiniz."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Gizlilik ve Güvenlik ",
+          "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Bulut depolama ile çalıştığımız için dosyalarınız yüklenmiyor. Yani, herhangi bir veri ihlali olasılığı yok. Verileriniz bizimle güvende!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Hızlı sonuçlar",
+          "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak pek birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Hızlı ve Verimli",
+          "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede tamamlayabilirsiniz."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Zaman Kazanır",
+          "content": "Web sitemiz platformdan bağımsız, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zaman kazandırır."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "MP4'ünüze altyazı nasıl eklenir",
+      "steps": [
+        "Video dosyanızı seçin veya açılır oka tıklayın ve Dropbox/Google Drive'ı seçin",
+        "Video yüklenene kadar sabırla bekleyin",
+        "Şimdi altyazıyı birleştirmek ve videoyu indirmek için Altyazı Yükle seçeneğini tıklayın.",
+        "VEYA",
+        "Altyazıları manuel olarak yazmak için Altyazı Yaz seçeneklerini tıklayın",
+        "Oluşturduğunuz SRT Dosyasını indirmek için SRT'yi Dışa Aktar'a tıklayın veya videonuzu altyazılı olarak indirmek için videoyu kaydet'e tıklayın",
+        "Yaşasın! hizmetlerimizin tadını çıkarın"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Sürücüme erişime izin vermek güvenli mi?",
+        "answer": "Evet, sürücünüze erişmemize izin vermek ve bize izin vermek kesinlikle güvenlidir. Sitenizde herhangi bir değişiklik yapmayacağız ve dfiles sizinle güvende olacak."
+      },
+      {
+        "question": "Sürücü/dropbox'ımdan nasıl dosya yükleyebilirim?",
+        "answer": "Aşağı açılan oku tıklayın ve Dropbox/Google Drive'ı seçin. Sürücünüzü bağlamak istediğiniz yerden Google hesabını seçin. Artık yüklemek istediğiniz dosyaları seçebilirsiniz."
+      },
+      {
+        "question": "Başka bir dosya türüne altyazı yükleyip ekleyebilir miyim?",
+        "answer": "Altyazı Ekle MP4 ile yalnızca MP4 dosyalarına altyazı yükleyebilir ve ekleyebilirsiniz."
+      },
+      {
+        "question": "Add Subtitles MP4 hangi Windows sürümlerini destekler?",
+        "answer": "Altyazı Ekle MP4 tamamen web tabanlıdır ve bu nedenle platformlar arası destek sağlar. Bu, aracımızın tüm Windows sürümlerini desteklediği anlamına gelir. Yalnızca Windows işletim sisteminde çalışmakla kalmaz, aynı zamanda tarayıcıyı destekleyen herhangi bir işletim sisteminde de çalışabilir."
+      },
+      {
+        "question": "Hem Android hem de iOS platformlarını destekliyor mu?",
+        "answer": "Evet, web sitemiz tarayıcıda çalışır ve bu nedenle hem iOS hem de Android platformlarını destekler"
+      },
+      {
+        "answer": "Tüm işlemler tarayıcınızda yapılır ve sunucuya hiçbir dosya aktarılmaz. Bu nedenle dosyalarınız %100 güvenlidir.",
+        "question": "Yüklediğim dosyalar sunucuya kaydedilecek mi?"
+      },
+      {
+        "question": "Altyazı Ekle MP4'ü kullanmak için bir hesap oluşturmam gerekecek mi?",
+        "answer": "Web sitemiz, kaydolmanızı veya bir hesap oluşturmanızı gerektirmez. Platform tamamen ücretsizdir ve istediğiniz kadar dosya sıkıştırabilirsiniz."
+      },
+      {
+        "question": "Web sitesini kullanmak için ücret ödeyecek miyim?",
+        "answer": "Web sitemiz tamamen ücretsizdir ve dilediğiniz kadar kullanabilirsiniz. Ücretsiz deneme kullanımı yoktur, bundan sonra hizmetlerimizi kullanmak için ödeme yapmanız gerekecektir. Senden hiçbir ücret talep etmeyeceğiz."
+      },
+      {
+        "question": "Tarayıcıyı yanlışlıkla yeniledim. Ben ne yaparım?",
+        "answer": "Web sitemiz herhangi bir sunucu kullanmadığı ve verilerinizi saklamadığı için yüklemiş olduğunuz dosya kaydedilmeyecektir. Altyazı eklemek için dosyayı yeniden yüklemeniz gerekir."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

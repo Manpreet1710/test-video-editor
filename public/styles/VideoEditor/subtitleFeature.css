@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .subtitleFeature {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subtitleFeature .Landing {
+    width: 100%;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .subtitleFeature .Landing #CancelProcess {
+    width: 200px;
+    height: 50px;
+    background: white;
+    color: #353535;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: none;
+  }
+  
+  .subtitleFeature .Landing #CancelProcess:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .subtitleFeature .Landing #OverlayCancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.425);
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: none;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  
+  .subtitleFeature .Landing #OverlayCancel h4 {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .subtitleFeature .Landing #OverlayCancel .ButtonsWrap {
+    width: 100%;
+    height: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 2%;
+  }
+  
+  .subtitleFeature .Landing #OverlayCancel .ButtonsWrap .decisionButton {
+    width: 200px;
+    height: 50px;
+    background: white;
+    color: #353535;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .subtitleFeature .Landing #OverlayCancel .ButtonsWrap .decisionButton:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .subtitleFeature .Landing .ProgressBar {
+    width: 0%;
+    border-bottom: 8px solid white;
+    position: absolute;
+    top: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  
+  .subtitleFeature .Landing .Landingtext {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+  }
+  
+  .subtitleFeature .Landing .Landingtext span {
+    font-size: 26px;
+  }
+  
+  .subtitleFeature .Landing .Button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .subtitleFeature .Landing .Button svg {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .subtitleFeature .Landing .Button .InputButton {
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
+    background: white;
+    color: #353535;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .subtitleFeature .Landing .Button .InputButton:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .subtitleFeature .Landing .Spinner {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 6%;
+    background: url("./media/icons/spinner.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+  }
+  
+  .subtitleFeature .Landing .LoadingText {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    display: none;
+  }
+  
+  .subtitleFeature .Landing .DownloadBox {
+    width: 500px;
+    height: 200px;
+    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: none;
+  }
+  
+  .subtitleFeature .Landing .DownloadBox .DownloadIcon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .subtitleFeature .Landing .DownloadBox .DownloadLink {
+    width: 140px;
+    height: 50px;
+    background: white;
+    color: #353535;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    text-decoration: none;
+  }
+  
+  .subtitleFeature .Landing .DownloadBox .DownloadLink:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .subtitleFeature .Workspace {
+    width: 100%;
+    height: 90vh;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: none;
+  }
+  
+  .subtitleFeature .Workspace .ButtonPointerWrap {
+    width: 300px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  @-webkit-keyframes animatehand {
+    0% {
+      top: 60%;
+    }
+    100% {
+      top: 65%;
+    }
+  }
+  
+  @keyframes animatehand {
+    0% {
+      top: 60%;
+    }
+    100% {
+      top: 65%;
+    }
+  }
+
+  .cue-table tr td{
+    vertical-align: middle;
+    padding: 5px;
+  }
+
+  .cue-table tr{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .cue-table tr:focus-within{
+    background-color: #151519;
+    box-shadow: #202024;
+    z-index: -3;
+    border-left: 1px solid lightgray;
+  }
+
+  .cue-table tr td textarea,.cue-table tr td input[type="time"]{
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+  }
+
+  .cue-table tr td input[type="time"]::-webkit-calendar-picker-indicator{
+    display: none;
+  }
+
+  .cue-table tr td textarea:focus,.cue-table tr td input[type="time"]:focus{
+    outline: none !important;
+    border-color: rgb(11, 132, 248);
+  }
+
+  .subtitleFeature .Workspace .ButtonPointerWrap .UploadBtn {
+    width: 200px;
+    height: 70px;
+    outline: none;
+    background: #a55eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .subtitleFeature .Workspace .ButtonPointerWrap .UploadBtn:hover {
+    background: white;
+    border: 1px solid #a55eea;
+    color: #a55eea;
+  }
+  
+  .subtitleFeature .Workspace .Settings {
+    width: 80%;
+    height: 80%;
+    -webkit-box-shadow: 0 0 5px rgba(58, 58, 58, 0.267);
+            box-shadow: 0 0 5px rgba(58, 58, 58, 0.267);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 2%;
+  }
+  
+  .subtitleFeature .Workspace .Settings h3 {
+    font-size: 22px;
+    color: #4e4e4e;
+  }
+  
+  .subtitleFeature .Workspace .Settings .VideoFile {
+    width: 100%;
+    height: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .subtitleFeature .Workspace .Settings .VideoFile video {
+    width: 100%;
+    margin-top: 5vh;
+  }
+  
+  .boxes {
+    background: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 24px;
+    height: 54px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 17px;
+    font-weight: 800;
+  }
+  
+  .boxes svg,
+  #dropbox svg,
+  #filepicker svg {
+    height: 24px !important;
+    width: 24px !important;
+  }
+  
+  .file-pick-dropdown {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: #fff;
+    height: 54px;
+    border-left: 1px solid rgba(134, 124, 124, 0.15);
+    padding: 13px 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  
+  .file-pick-dropdown i {
+    margin: 0;
+  }
+  
+  .file-picker-dropdown {
+    width: 227px;
+    position: absolute;
+    background: #fff;
+    top: 111%;
+    right: 0px;
+    display: none;
+    border-radius: 4px;
+  }
+  
+  .arrow-sign {
+    font-size: 18px;
+  }
+  
+  .file-picker-dropdown svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .file-picker-dropdown button,
+  .file-picker-dropdown a {
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+    background: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 24px;
+    list-style: none;
+    height: 54px;
+  }
+  
+  .file-picker-dropdown button:hover {
+    background: #efefef;
+  }
+  
+  #downloadButton svg {
+    height: 25px;
+  }
+
+  #subTable{
+    height: 88vh;
+  }
+
+  #subTable::-webkit-scrollbar {
+    width: 18px;
+    padding: 0.2px;
+  }
+
+  #subTalbe::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+    border-radius: 10px;
+  }
+
+  #subTable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:#2f2f33;
+    -webkit-box-shadow: inset 0 0 6px rgba(90,90,90,0.7);
+  }
+
+  .cue-table tr td textarea{
+      width: 90%;
+      background-color: transparent;
+      color: white;
+  }
+  .cue-table tr td textarea::placeholder{
+    color: white;
+    opacity: 1;
+  }
+  .cue-table tr td textarea:-ms-input-placeholder{
+    color: white;
+    opacity: 1;
+  }
+  .cue-table tr td textarea::-ms-input-placeholder{
+    color: white;
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 767px) {
+    #subTable{
+      height: 48vh;
+    }
+    #endButton{
+      justify-content: center;
+    }
+    #VContainer{
+      height: 40vh;
+    }
+    .subtitleFeature .Workspace{
+      flex-direction: column;
+    }
+  }
+  /*# sourceMappingURL=subtitleFeature.css.map */
