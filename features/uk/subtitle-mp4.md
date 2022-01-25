@@ -7,6 +7,7 @@ lang: uk
 tool: subtitle-mp4
 companyName: safevideokit
 domain : com
+noBox : true
 ---
 
 {% include VideoEditorIndex/subtitleFeature.html %}

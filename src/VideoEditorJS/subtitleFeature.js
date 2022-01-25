@@ -254,7 +254,6 @@ var addSubs = async () => {
   Workspace.style.display = 'none'
   Landing.style.display = 'inherit'
   CancelProcess.style.display = 'inherit'
-  console.log;
   var FFMPEGCommand = `-i input.mp4 -i subtitle.`+type+` -map 0 -map 1 -vcodec copy -acodec copy -c:s:0 copy -c:s mov_text Output.mp4`;
   var ArrayofInstructions = FFMPEGCommand.split(' ');
   await ffmpeg.run(...ArrayofInstructions);
@@ -331,6 +330,12 @@ function WriteSubs() {
       document.getElementById(e.target.id).style.borderColor="gray";
       let currentId=(e.target.id).charAt(0);
       let temp=parseInt(currentId);
+      if(e.target.value>(((document.getElementById("VDemo").duration).toString()).toHHMMSS())){
+        document.getElementById(e.target.id).style.borderColor="red";
+        document.getElementById(e.target.id).title="Can't be more than video length";
+        e.target.value="0";
+      }
+      else{
       if(temp>1)
       {
           let prevId=(temp-1)+"col3";
@@ -355,6 +360,7 @@ function WriteSubs() {
         startTime[temp]=e.target.value+".000";
         make_and_load_VTT();
       }
+      }
   });
 
   document.getElementById("1col3").addEventListener("focusin",function(e){
@@ -369,6 +375,12 @@ function WriteSubs() {
       let prevId=temp+"col2";
       let prevTime=document.getElementById(prevId).value;
       let currentTime=e.target.value;
+      if(currentTime>(((document.getElementById("VDemo").duration).toString()).toHHMMSS())){
+        document.getElementById(e.target.id).style.borderColor="red";
+        document.getElementById(e.target.id).title="Can't be more than video length";
+        e.target.value="0";
+      }
+      else{
       if(currentTime<prevTime)
       {    
           document.getElementById(e.target.id).style.borderColor="red";
@@ -381,6 +393,7 @@ function WriteSubs() {
           document.getElementById(e.target.id).style.borderColor="gray";
           endTime[temp]=e.target.value+".000";
           make_and_load_VTT();
+      }
       }
   });
 
@@ -462,6 +475,12 @@ function addRow()
         document.getElementById(e.target.id).style.borderColor="gray";
         let currentId=(e.target.id).charAt(0);
         let temp=parseInt(currentId);
+        if(e.target.value>(((document.getElementById("VDemo").duration).toString()).toHHMMSS())){
+          document.getElementById(e.target.id).style.borderColor="red";
+          document.getElementById(e.target.id).title="Can't be more than video length";
+          e.target.value="0";
+        }
+        else{
         if(temp>1)
         {
             let prevId=(temp-1)+"col3";
@@ -486,6 +505,7 @@ function addRow()
           startTime[temp]=e.target.value+".000";
           make_and_load_VTT();
         }
+        }
     });
 
     document.getElementById(id3).addEventListener("focusin",function(e){
@@ -500,6 +520,12 @@ function addRow()
         let prevId=temp+"col2";
         let prevTime=document.getElementById(prevId).value;
         let currentTime=e.target.value;
+        if(currentTime>(((document.getElementById("VDemo").duration).toString()).toHHMMSS())){
+          document.getElementById(e.target.id).style.borderColor="red";
+          document.getElementById(e.target.id).title="Can't be more than video length";
+          e.target.value="0";
+        }
+        else{
         if(currentTime<prevTime)
         {    
             document.getElementById(e.target.id).style.borderColor="red";
@@ -512,6 +538,7 @@ function addRow()
             document.getElementById(e.target.id).style.borderColor="gray";
             endTime[temp]=e.target.value+".000";
             make_and_load_VTT();
+        }
         }
     });
 
@@ -531,6 +558,7 @@ function deleteLast() {
     endTime.splice(rowCounter,1);
     subText.splice(rowCounter,1);
     rowCounter--;
+    make_and_load_VTT();
   }
 }
 
@@ -618,3 +646,16 @@ function uploadSRT() {
         }
     },false);
 }
+
+String.prototype.toHHMMSS = function () {
+  let sec_num = parseInt(this, 10); // don't forget the second param
+  let hours   = Math.floor(sec_num / 3600);
+  let minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+  let seconds = sec_num - (hours * 3600) - (minutes * 60);
+
+  if (hours   < 10) {hours   = "0"+hours;}
+  if (minutes < 10) {minutes = "0"+minutes;}
+  if (seconds < 10) {seconds = "0"+seconds;}
+  return hours + ':' + minutes + ':' + seconds;
+}
+  

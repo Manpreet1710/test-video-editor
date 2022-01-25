@@ -58,7 +58,7 @@ name: safevideokit
 webrick:
   headers:
     Cross-Origin-Opener-Policy: same-origin
-    Cross-Origin-Embedder-Policy: require-corp
+    Cross-Origin-Embedder-Policy: require-corp  
     
 # Exclude from processing.
 # The following items will not be processed, by default.
