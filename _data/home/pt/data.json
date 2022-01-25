@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/pt/extract-audio"
+        },
+        {
+          "name": "Adicionar legendas MP4",
+          "description": "Adicionar legenda a um vídeo MP4",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/pt/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

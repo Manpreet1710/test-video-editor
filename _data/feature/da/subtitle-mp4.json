@@ -1,0 +1,114 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Tilføj undertekster MP4",
+    "H2": "Tilføj undertekster til din MP4-video",
+    "TITLE": "Tilføj undertekster til din MP4-video",
+    "META": "Den nemmeste måde at tilføje undertekster til dine MP4-videoer online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX til PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Uafhængige",
+          "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/t/ar/get.svg",
+          "header": "Helt gratis",
+          "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Privatliv og sikkerhed ",
+          "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Hurtige resultater",
+          "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Hurtig og effektiv",
+          "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Sp/ar/er tid",
+          "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "Sådan tilføjer du undertekster til din MP4",
+      "steps": [
+        "Vælg din videofil eller klik på rullepilen og vælg Dropbox/Google Drev",
+        "Vent tålmodigt, indtil videoen bliver indlæst",
+        "Klik nu på Upload undertekster for at flette undertekster og downloade video.",
+        "ELLER",
+        "Klik på indstillinger for Skriv undertekster for at skrive undertekster manuelt",
+        "Klik på Eksporter SRT for at downloade din genererede SRT-fil eller Klik på Gem video for at downloade din video med undertekster",
+        "Hurra! Nyd vores tjenester"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Er det sikkert at give adgang til mit drev?",
+        "answer": "Ja, det er absolut sikkert at tillade og give os adgang til dit drev. Vi vil ikke foretage nogen ændringer på dit websted, og dine dfiler vil være sikre hos dig."
+      },
+      {
+        "question": "Hvordan kan jeg uploade filer fra mit drev/dropbox?",
+        "answer": "Klik på rullepilen og vælg Dropbox/Google Drev. Vælg den Google-konto, hvorfra du vil tilknytte dit drev. Nu kan du vælge de filer, du vil uploade."
+      },
+      {
+        "question": "Kan jeg uploade og tilføje undertekster til enhver anden filtype?",
+        "answer": "Med Tilføj undertekster MP4 kan du uploade og tilføje undertekster til kun MP4-filer."
+      },
+      {
+        "question": "Hvilke Windows-versioner understøtter Tilføj undertekster MP4?",
+        "answer": "Tilføj undertekster MP4 er fuldstændig webbaseret og giver derfor support på tværs af platforme. Det betyder, at vores værktøj understøtter alle versioner af Windows. Det virker ikke kun på Windows-operativsystemet, men kan fungere på ethvert andet operativsystem, der understøtter en browser."
+      },
+      {
+        "question": "Understøtter det både Android- og iOS-platforme?",
+        "answer": "Ja, vores hjemmeside fungerer på browser og understøtter derfor både iOS og Android platforme"
+      },
+      {
+        "answer": "Al behandling foregår på din browser, og ingen filer overføres til serveren. Derfor er dine filer 100% sikre.",
+        "question": "Bliver mine uploadede filer gemt på serveren?"
+      },
+      {
+        "question": "Skal jeg oprette en konto for at bruge Tilføj undertekster MP4?",
+        "answer": "Vores hjemmeside kræver ikke, at du tilmelder dig eller opretter en konto. Platformen er helt gratis, og du kan komprimere så mange filer, du vil."
+      },
+      {
+        "question": "Vil jeg blive opkrævet for at bruge hjemmesiden?",
+        "answer": "Vores hjemmeside er helt gratis, og du kan bruge den så mange gange du vil. Der er ingen gratis prøveversioner, hvorefter du skal betale for at bruge vores tjenester. Vi vil ikke opkræve dig noget."
+      },
+      {
+        "question": "Jeg opdaterede browseren ved en fejl. Hvad skal jeg gøre?",
+        "answer": "Da vores hjemmeside ikke bruger nogen servere og ikke gemmer dine data, vil den fil, du har uploadet, ikke blive gemt. Du skal genuploade filen for at tilføje undertekster til den."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

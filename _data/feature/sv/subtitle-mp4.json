@@ -1,0 +1,114 @@
+{
+    "Language": "Svenska",
+    "htmlLangAtt": "sv",
+    "H1": "Lägg till undertexter MP4",
+    "H2": "Lägg till undertexter till din MP4-video",
+    "TITLE": "Lägg till undertexter till din MP4-video",
+    "META": "Enklaste sättet att lägga till undertexter till dina MP4-videor online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX till PDF",
+    "BREADCRUMB_LABEL": "DOCX till PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Oberoende",
+          "content": "Vår webbplats är plattformsoberoende. Det fungerar på både Windows- och iOS-operativsystem och kan användas utan några nedladdningar som krävs."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/target.svg",
+          "header": "Helt gratis",
+          "content": "Konverteringen är helt gratis, så du kan konvertera så många filer som du vill."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Sekretess och säkerhet ",
+          "content": "Vår webbplats prioriterar kundernas integritet. Eftersom vi arbetar med molnlagring laddas inte dina filer upp. Så, ingen chans att få någon dataintrång. Dina uppgifter är säkra hos oss!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Snabba resultat",
+          "content": "Konverteringsprocessen tar knappt några sekunder, beroende på filstorleken, och du kan enkelt få snabba resultat."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Snabb och effektiv",
+          "content": "Videoredigering är väldigt snabb och du kan få jobbet gjort på nolltid."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Sparar tid",
+          "content": "Vår webbplats är plattformsoberoende, kan fungera på bärbara datorer, flikar och telefoner och konverteringen är snabb, det sparar tid."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "Hur man lägger till undertext till din MP4",
+      "steps": [
+        "Välj din videofil eller klicka på rullgardinsmenyn och välj Dropbox/Google Drive",
+        "Vänta tålmodigt tills videon laddas",
+        "Klicka nu på alternativet Ladda upp undertext för att slå samman undertexter och ladda ner video.",
+        "ELLER",
+        "Klicka på alternativet Skriv undertexter för att skriva undertexter manuellt",
+        "Klicka på Exportera SRT för att ladda ner din genererade SRT-fil eller Klicka på spara video för att ladda ner din video med undertexter",
+        "hurra! Njut av våra tjänster"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Är det säkert att tillåta åtkomst till min enhet?",
+        "answer": "Ja, det är helt säkert att tillåta och ge oss tillgång till din enhet. Vi kommer inte att göra några ändringar på din webbplats och dina dfiles kommer att vara säkra hos dig."
+      },
+      {
+        "question": "Hur laddar jag upp filer från min enhet/dropbox?",
+        "answer": "Klicka på rullgardinsmenyn och välj Dropbox/Google Drive. Välj Google-kontot där du vill länka din enhet. Nu kan du välja de filer som du vill ladda upp."
+      },
+      {
+        "question": "Kan jag ladda upp och lägga till undertexter till någon annan filtyp?",
+        "answer": "Med Lägg till undertexter MP4 kan du ladda upp och lägga till undertexter till endast MP4-filer."
+      },
+      {
+        "question": "Vilka Windows-versioner stöder Add Subtitles MP4?",
+        "answer": "Lägg till undertexter MP4 är helt webbaserat och ger därför plattformsoberoende stöd. Det betyder att vårt verktyg stöder alla versioner av Windows. Det fungerar inte bara på Windows operativsystem, utan kan fungera på alla andra operativsystem som stöder en webbläsare."
+      },
+      {
+        "question": "Stöder den både Android- och iOS-plattformar?",
+        "answer": "Ja, vår webbplats fungerar på webbläsare och stöder därför både iOS- och Android-plattformar"
+      },
+      {
+        "answer": "All bearbetning sker i din webbläsare och inga filer överförs till servern. Därför är dina filer 100 % säkra.",
+        "question": "Kommer mina uppladdade filer att sparas på servern?"
+      },
+      {
+        "question": "Måste jag skapa ett konto för att använda Lägg till undertexter MP4?",
+        "answer": "Vår webbplats kräver inte att du registrerar dig eller skapar ett konto. Plattformen är helt gratis och du kan komprimera så många filer du vill."
+      },
+      {
+        "question": "Kommer jag att debiteras för att använda webbplatsen?",
+        "answer": "Vår webbplats är helt gratis och du kan använda den så många gånger du vill. Det finns inga gratis provanvändningar, varefter du måste betala för att använda våra tjänster. Vi kommer inte att debitera dig något."
+      },
+      {
+        "question": "Jag uppdaterade webbläsaren av misstag. Vad gör jag?",
+        "answer": "Eftersom vår webbplats inte använder några servrar och inte lagrar dina data, kommer filen som du har laddat upp inte att sparas. Du måste ladda upp filen igen för att lägga till undertexter till den."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

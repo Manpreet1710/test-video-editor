@@ -2,7 +2,7 @@
 layout: feature
 folderName: feature
 fileName: video-splitter
-permalink: video-splitter
+permalink: /video-splitter
 lang: en
 tool: video-splitter
 companyName: safevideokit

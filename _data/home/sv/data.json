@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/sv/extract-audio"
+        },
+        {
+          "name": "Lägg till undertexter MP4",
+          "description": "Lägg till undertext till en MP4-video",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/sv/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

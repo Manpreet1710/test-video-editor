@@ -51,9 +51,15 @@ theme: appscms-tools-theme
 markdown: kramdown
 plugins:
   - jekyll-feed
-favicon: assets/safevideokit.svg
+favicon: /assets/safevideokit.svg
 production_google_analytics: 'UA-179965937-17'
 name: safevideokit
+
+webrick:
+  headers:
+    Cross-Origin-Opener-Policy: same-origin
+    Cross-Origin-Embedder-Policy: require-corp  
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

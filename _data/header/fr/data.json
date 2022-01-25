@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Modifier la vidéo MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/fr/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "Compresseur MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/fr/mp4-compressor",
@@ -42,6 +36,12 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/fr/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                      "name": "Ajouter des sous-titres MP4",
+                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                      "url": "/fr/subtitle-mp4",
+                      "hover": "blue"
                     }
                 ]
             },
@@ -71,6 +71,12 @@
             {
                 "categoryName": "Outils vidéo",
                 "links": [
+                    {
+                        "name": "Éditer vidéo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/fr/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "Vidéo recadrage",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
