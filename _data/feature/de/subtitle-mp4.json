@@ -1,0 +1,114 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "Untertitel MP4 hinzufügen",
+    "H2": "Fügen Sie Ihrem MP4-Video Untertitel hinzu",
+    "TITLE": "Fügen Sie Ihrem MP4-Video Untertitel hinzu",
+    "META": "Der einfachste Weg, online Untertitel zu Ihren MP4-Videos hinzuzufügen.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX in PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Unabhängig",
+          "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne Download verwendet werden."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/t/ar/get.svg",
+          "header": "Absolut kostenlos",
+          "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Datenschutz und Sicherheit ",
+          "content": "Unsere Website legt Wert auf die Privatsphäre ihrer Kunden. Da wir mit Cloud-Speicher /ar/beiten, werden Ihre Dateien nicht hochgeladen. Also keine Chance, einen Datenverstoß zu bekommen. Ihre Daten sind bei uns sicher!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Schnelle Ergebnisse",
+          "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein pa/ar/ Sekunden, und Sie können problemlos schnelle Ergebnisse erzielen."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Schnell und effizient",
+          "content": "Die Videobe/ar/beitung ist sehr schnell und Sie können Ihre /ar/beit in kürzester Zeit erledigen."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Sp/ar/t Zeit",
+          "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen /ar/beiten und die Konvertierung ist schnell und sp/ar/t Zeit."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "So fügen Sie Ihrer MP4 Untertitel hinzu",
+      "steps": [
+        "Wählen Sie Ihre Videodatei aus oder klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus",
+        "Warten Sie geduldig, bis das Video geladen wird",
+        "Klicken Sie nun auf die Option Untertitel hochladen, um die Untertitel zusammenzuführen und das Video herunterzuladen.",
+        "ODER",
+        "Klicken Sie auf Optionen zum Schreiben von Untertiteln, um Untertitel manuell zu schreiben",
+        "Klicken Sie auf SRT exportieren, um Ihre generierte SRT-Datei herunterzuladen, oder klicken Sie auf Video speichern, um Ihr Video mit Untertiteln herunterzuladen",
+        "Hurra! Genießen Sie unsere Dienstleistungen"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Ist es sicher, den Zugriff auf mein Laufwerk zuzulassen?",
+        "answer": "Ja, es ist absolut sicher, uns Zugriff auf Ihr Laufwerk zu gewähren und zu gewähren. Wir werden keine Änderungen an Ihrer Website vornehmen und Ihre D-Dateien sind bei Ihnen sicher."
+      },
+      {
+        "question": "Wie kann ich Dateien von meinem Laufwerk/Dropbox hochladen?",
+        "answer": "Klicken Sie auf den Dropdown-Pfeil und wählen Sie Dropbox/Google Drive aus. Wählen Sie das Google-Konto aus, mit dem Sie Ihr Laufwerk verknüpfen möchten. Jetzt können Sie die Dateien auswählen, die Sie hochladen möchten."
+      },
+      {
+        "question": "Kann ich jeden anderen Dateityp hochladen und Untertitel hinzufügen?",
+        "answer": "Mit Add Subtitles MP4 können Sie Untertitel nur zu MP4-Dateien hochladen und hinzufügen."
+      },
+      {
+        "question": "Welche Windows-Versionen unterstützt Add Subtitles MP4?",
+        "answer": "Untertitel hinzufügen MP4 ist vollständig webbasiert und bietet daher plattformübergreifende Unterstützung. Das bedeutet, dass unser Tool alle Versionen von Windows unterstützt. Es funktioniert nicht nur auf Windows-Betriebssystemen, sondern auf jedem anderen Betriebssystem, das einen Browser unterstützt."
+      },
+      {
+        "question": "Unterstützt es sowohl Android- als auch iOS-Plattformen?",
+        "answer": "Ja, unsere Website funktioniert im Browser und unterstützt daher sowohl iOS- als auch Android-Plattformen"
+      },
+      {
+        "answer": "Die gesamte Verarbeitung erfolgt in Ihrem Browser, und es werden keine Dateien auf den Server übertragen. Daher sind Ihre Dateien 100% sicher.",
+        "question": "Werden meine hochgeladenen Dateien auf dem Server gespeichert?"
+      },
+      {
+        "question": "Muss ich ein Konto erstellen, um Add Subtitles MP4 verwenden zu können?",
+        "answer": "Für unsere Website müssen Sie sich nicht anmelden oder ein Konto erstellen. Die Plattform ist absolut kostenlos und Sie können so viele Dateien komprimieren, wie Sie möchten."
+      },
+      {
+        "question": "Wird mir die Nutzung der Website in Rechnung gestellt?",
+        "answer": "Unsere Website ist absolut kostenlos und Sie können sie so oft verwenden, wie Sie möchten. Es gibt keine kostenlosen Probenutzungen, danach müssen Sie für die Nutzung unserer Dienste bezahlen. Wir berechnen Ihnen nichts."
+      },
+      {
+        "question": "Ich habe den Browser versehentlich aktualisiert. Was mache ich?",
+        "answer": "Da unsere Website keine Server verwendet und Ihre Daten nicht speichert, wird die von Ihnen hochgeladene Datei nicht gespeichert. Sie müssen die Datei erneut hochladen, um ihr Untertitel hinzuzufügen."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

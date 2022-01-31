@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "แก้ไขวิดีโอ MP4",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/th/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "คอมเพรสเซอร์ MP",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/th/mp4-compressor",
@@ -42,6 +36,12 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/th/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                      "name": "เพิ่มคำบรรยาย MP4",
+                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                      "url": "/th/subtitle-mp4",
+                      "hover": "blue"
                     }
                 ]
             },
@@ -71,6 +71,12 @@
             {
                 "categoryName": "เครื่องมือวิดีโอ",
                 "links": [
+                    {
+                        "name": "แก้ไขวีดีโอ",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/th/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "ครอบตัดวิดีโอ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

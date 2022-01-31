@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 ビデオを編集する",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/ja/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4コンプレッサー",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ja/mp4-compressor",
@@ -42,6 +36,12 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/ja/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                      "name": "字幕MP4を追加",
+                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                      "url": "/ja/subtitle-mp4",
+                      "hover": "blue"
                     }
                 ]
             },
@@ -71,6 +71,12 @@
             {
                 "categoryName": "ビデオツール",
                 "links": [
+                    {
+                        "name": "ビデオを編集する",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ja/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "動画のクロップ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

@@ -39,6 +39,7 @@ dropbox.addEventListener(
     const getFile = chooseFromDropbox()
   }
 )
+
 const ffmpeg = createFFmpeg({ log: true })
 let setAll = (obj, val, key) => Object.keys(obj).forEach((k) => (obj[k] = val))
 var previous_feature_selected = null
@@ -148,7 +149,7 @@ console.log = function () {
     var percentage = (seconds / videoTime) * 100
     ProgressBar.style.width = percentage + '%'
     LandingText.innerHTML = `Please wait while we are ${
-      inCompress ? 'compressing' : 'flipping'
+      inCompress ? 'compressing' : 'processing'
     } your video in the most secured way.<br><span>${
       percentage > 0 ? percentage.toFixed(0) : 0
     }%</span>${percentage > 90 ? '<br>Almost done, few seconds left</br>' : ''}`
@@ -237,6 +238,34 @@ var FlipReset = document.querySelector('.FReset')
 var ToggleDownloadOptions = 0
 var LandingPage = document.querySelector('.Landing')
 var SeekTrim = document.querySelector('#SeekTrim')
+
+// Drag and Drop Feature
+UploadButton.addEventListener("dragover",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("dragenter",function(evt){
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("drop",function(evt){
+  evt.preventDefault();
+  let tempInput=document.getElementById("files");
+  tempInput.files=evt.dataTransfer.files;
+  let tempType=(tempInput.files[0].name).split(".");
+  if(tempType[tempType.length-1]=="mp4"||tempType[tempType.length-1]=="mov"||tempType[tempType.length-1]=="ogg"||tempType[tempType.length-1]=="webm")
+  {
+    let event = new Event('change');
+    tempInput.dispatchEvent(event);
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+    LandingPage.style.display = 'none'
+    Workspace.style.display = 'none'
+  }
+});
 
 var CurrentFeature = null
 var CompressionSettingsButton = document.querySelector(
@@ -615,7 +644,10 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  const reader = new FileReader()
+  let temp=(VideoSourceFile.name).split(".");
+  if(temp[temp.length-1]=="mp4"||temp[temp.length-1]=="mov"||temp[temp.length-1]=="ogg"||temp[temp.length-1]=="webm")
+  {
+    const reader = new FileReader()
   reader.readAsDataURL(VideoSourceFile)
   let TempVideo = document.createElement('video')
   TempVideo.onloadeddata = function () {
@@ -624,19 +656,35 @@ const get_video_source_from_input = async (input) => {
   reader.addEventListener(
     'load',
     async function () {
-      // convert image file to base64 string
-      videoSource.src = reader.result
-      ActualSourceurl = reader.result
-      TempVideo.src = ActualSourceurl
-      await fetch_and_load_Video_to_FFmpeg()
-      //generate Frames in FrameLayer
-      video = videoSource.cloneNode(true)
-      video.addEventListener('loadeddata', async function () {
-        await generateFrames(this)
-      })
+      try{
+        // convert image file to base64 string
+        videoSource.src = reader.result
+        ActualSourceurl = reader.result
+        TempVideo.src = ActualSourceurl
+        await fetch_and_load_Video_to_FFmpeg()
+        //generate Frames in FrameLayer
+        video = videoSource.cloneNode(true)
+        video.addEventListener('loadeddata', async function () {
+          await generateFrames(this)
+        })
+      }catch(e)
+      {
+        document.getElementById("ErrorBoxMessage").innerHTML="<center><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ff0000' class='bi bi-exclamation-triangle' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b></center>";
+        document.getElementById("ErrorBox").style.display="block";
+        LandingPage.style.display = 'none'
+        Workspace.style.display = 'none'
+      }
     },
     false
   )
+  }
+  else
+  {
+    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display="block";
+    LandingPage.style.display = 'none'
+    Workspace.style.display = 'none'
+  }
 }
 
 const timer = (ms) => new Promise((res) => setTimeout(res, ms))
@@ -666,6 +714,9 @@ async function generateFrames(e) {
   Spinner.style.display = 'none'
   var previousWorkingFrameData
 
+  //Temporary fix for firefox parseFloat()
+  let tempCounter=0;
+
   while (video.currentTime < duration) {
     video.currentTime = parseFloat(i)
     await timer(200)
@@ -688,6 +739,16 @@ async function generateFrames(e) {
     progressPercent < 100
       ? (ProgressBar.style.width = progressPercent + '%')
       : null
+    //Fix Temporary for FF  
+    if((duration-video.currentTime)<FrameStep)
+    {
+      tempCounter++;  
+    }
+    if(tempCounter>=2)
+    {
+      
+      break;
+    }
   }
   LandingPage.style.display = 'none'
   Workspace.style.display = 'inherit'
@@ -802,7 +863,18 @@ const Render_edited_video = async () => {
   var blobUrlActual = URL.createObjectURL(
     new Blob([outputActual.buffer], { type: 'video/mp4' })
   )
-  FinalVideosrc = blobUrlActual
+  let FinalVideo=new Blob([outputActual.buffer], { type: 'video/mp4' });
+  if(isCompressed==1)
+  {
+    if(VideoSourceFile.size<FinalVideo.size)
+    {
+      FinalVideosrc="NULL"
+    }
+    else
+      FinalVideosrc = blobUrlActual
+  }
+  else
+    FinalVideosrc = blobUrlActual
 }
 
 const TrimVideo = async (option) => {
@@ -1187,9 +1259,19 @@ const DownloadFile = async () => {
     downloadHREF = FinalVideosrc
   }
   LandingText.innerHTML = ''
-  LoadingText.innerText = 'Thanks for your patience'
-  link.addEventListener('click', () => handleDownload(downloadHREF))
-  document.querySelector('.DownloadBox').style.display = 'inherit'
+  if(downloadHREF==''||downloadHREF=='NULL')
+  {
+    LoadingText.innerText='Sorry, we could not Compress/Edit your video. Please try again with a slower speed option and higher CRF value than '+crfText.innerText;
+    link.innerText='Try Again';
+    link.addEventListener('click', () => {location.reload()});
+    document.querySelector('.DownloadBox').style.display = 'inherit';
+  }
+  else
+  {
+    LoadingText.innerText = 'Thanks for your patience'
+    link.addEventListener('click', () => handleDownload(downloadHREF))
+    document.querySelector('.DownloadBox').style.display = 'inherit'
+  }
 }
 
 //add event listener for resize

@@ -20,12 +20,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 비디오 편집",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
-                        "url": "/ko/edit-mp4-video",
-                        "hover": "blue"
-                    },
-                    {
                         "name": "MP4 압축기",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ko/mp4-compressor",
@@ -42,6 +36,12 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/ko/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                      "name": "자막 추가 MP4",
+                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                      "url": "/ko/subtitle-mp4",
+                      "hover": "blue"
                     }
                 ]
             },
@@ -71,6 +71,12 @@
             {
                 "categoryName": "비디오 툴",
                 "links": [
+                    {
+                        "name": "영상을 편집하다",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
+                        "url": "/ko/video-editor",
+                        "hover": "blue"
+                    },
                     {
                         "name": "비디오 자르기",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",

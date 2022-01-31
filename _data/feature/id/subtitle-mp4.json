@@ -1,0 +1,114 @@
+{
+    "Language": "Bahasa Indonesia",
+    "htmlLangAtt": "id",
+    "H1": "Tambahkan Teks MP4",
+    "H2": "Tambahkan Subtitle ke video MP4 Anda",
+    "TITLE": "Tambahkan Subtitle ke video MP4 Anda",
+    "META": "Cara termudah untuk menambahkan subtitle ke video MP4 Anda secara online.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX ke PDF",
+    "BREADCRUMB_LABEL": "DOCX ke PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+          "priority": 1,
+          "logoUrl": "/assets/lightbulb.svg",
+          "header": "Independen",
+          "content": "Situs web kami adalah platform independen. Ia bekerja pada kedua Window dan iOS sistem operasi dan dapat digunakan tanpa download diperlukan."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/target.svg",
+          "header": "Benar-benar Gratis",
+          "content": "Konversi ini benar-benar gratis, sehingga Anda dapat mengkonversi file sebanyak yang Anda inginkan."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cross.svg",
+          "header": "Privasi dan Keamanan ",
+          "content": "Situs web kami memprioritaskan privasi pelanggannya. Karena kami bekerja dengan penyimpanan cloud file Anda tidak bisa diunggah. Jadi, tidak ada kesempatan untuk mendapatkan pelanggaran data. Data Anda aman bersama kami!"
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/shield.svg",
+          "header": "Hasil cepat",
+          "content": "Proses konversi hampir tidak memakan waktu beberapa detik, tergantung pada ukuran file Anda, dan Anda bisa mendapatkan hasil yang cepat dengan mudah."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/fast.svg",
+          "header": "Cepat dan Efisien",
+          "content": "Pengeditan video sangat cepat dan Anda bisa menyelesaikan pekerjaan Anda dalam waktu singkat."
+      },
+      {
+          "priority": 1,
+          "logoUrl": "/assets/cloud_new.svg",
+          "header": "Menghemat Waktu",
+          "content": "Situs web kami adalah platform independen, dapat bekerja pada laptop, tab dan telepon dan konversi cepat, menghemat waktu."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "Bagaimana cara menambahkan subtitle ke MP4 Anda",
+      "steps": [
+        "Pilih file video Anda atau Klik panah tarik-turun dan pilih Dropbox/Google Drive",
+        "Tunggu dengan sabar sampai video dimuat",
+        "Sekarang klik opsi Unggah Subtitle untuk menggabungkan subtitle dan mengunduh video.",
+        "ATAU",
+        "Klik opsi Write Subtitles untuk menulis subtitle secara manual",
+        "Klik Ekspor SRT untuk mengunduh File SRT yang Anda buat atau Klik simpan video untuk mengunduh video Anda dengan subtitle",
+        "Hore! Nikmati layanan kami"
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "Apakah aman untuk mengizinkan akses ke drive saya?",
+        "answer": "Ya, itu benar-benar aman untuk memungkinkan dan memberi kami akses ke drive Anda. Kami tidak akan membuat perubahan apa pun pada situs Anda dan dfiles Anda akan aman bersama Anda."
+      },
+      {
+        "question": "Bagaimana cara mengunggah file dari drive/dropbox saya?",
+        "answer": "Klik pada panah drop down dan pilih Dropbox/Google Drive. Pilih akun Google dari tempat Anda ingin menautkan hard disk Anda. Sekarang Anda bisa memilih file yang ingin Anda unggah."
+      },
+      {
+        "question": "Bisakah saya mengunggah dan menambahkan subtitle ke jenis file lain?",
+        "answer": "Dengan Add Subtitles MP4, Anda dapat mengunggah dan menambahkan subtitle hanya ke file MP4."
+      },
+      {
+        "question": "Versi Windows mana yang didukung oleh Add Subtitles MP4?",
+        "answer": "Add Subtitles MP4 sepenuhnya berbasis web dan karenanya menyediakan dukungan lintas platform. Ini berarti bahwa alat kami mendukung semua versi Windows. Ini tidak hanya bekerja pada sistem operasi windows, tetapi dapat bekerja pada sistem operasi lain, yang mendukung browser."
+      },
+      {
+        "question": "Apakah ini mendukung platform Android dan iOS?",
+        "answer": "Ya, situs web kami berfungsi di browser, dan karenanya mendukung platform iOS dan Android"
+      },
+      {
+        "answer": "Semua pemrosesan dilakukan di browser Anda, dan tidak ada file yang ditransfer ke server. Karenanya file Anda 100% aman.",
+        "question": "Apakah file yang saya unggah akan disimpan di server?"
+      },
+      {
+        "question": "Apakah saya harus membuat akun untuk menggunakan Add Subtitles MP4?",
+        "answer": "Situs web kami tidak mengharuskan Anda untuk mendaftar atau membuat akun. Platform ini benar-benar gratis dan Anda dapat mengompres file sebanyak yang Anda inginkan."
+      },
+      {
+        "question": "Will I be charged to use the website?",
+        "answer": "Our website is absolutely free and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
+      },
+      {
+        "question": "Saya tidak sengaja me-refresh browser. Apa yang saya lakukan?",
+        "answer": "Karena situs web kami tidak menggunakan server apa pun dan tidak menyimpan data Anda, file yang telah Anda unggah tidak akan disimpan. Anda perlu mengunggah ulang file untuk menambahkan subtitle ke dalamnya."
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

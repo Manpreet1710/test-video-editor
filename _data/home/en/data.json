@@ -57,7 +57,7 @@
       "url": "/mp4-cutter"
     },
     {
-      "name": "video editor",
+      "name": "Video Editor",
       "description": "Edit any video",
       "color": "#ffa502",
       "icon": "/assets/FeatureIcons/edit.svg",
@@ -85,7 +85,7 @@
       "url": "/video-compressor"
     },
     {
-      "name": "video-cutter",
+      "name": "Video Cutter",
       "description": "Cut any video",
       "color": "#ff615c",
       "icon": "/assets/FeatureIcons/split.svg",
@@ -118,6 +118,13 @@
       "color": "#26de81",
       "icon": "/assets/FeatureIcons/sound.svg",
       "url": "/extract-audio"
+    },
+    {
+      "name": "Add Subtitles MP4",
+      "description": "Add subtitle to a MP4 video",
+      "color": "#BD7ED8",
+      "icon": "/assets/FeatureIcons/subtitle.svg",
+      "url": "/subtitle-mp4"
     }
     
 

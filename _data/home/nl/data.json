@@ -119,6 +119,13 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/nl/extract-audio"
+        },
+        {
+          "name": "Ondertitels toevoegen MP4",
+          "description": "Ondertiteling toevoegen aan een MP4-video",
+          "color": "#BD7ED8",
+          "icon": "/assets/FeatureIcons/subtitle.svg",
+          "url": "/nl/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {
