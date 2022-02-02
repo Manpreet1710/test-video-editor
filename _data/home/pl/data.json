@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/pl/extract-audio"
-        },
-        {
-          "name": "Dodaj napisy MP4",
-          "description": "Dodaj napisy do wideo MP4",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/pl/subtitle-mp4"
-        }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/es/extract-audio"
-        },
-        {
-          "name": "Añadir subtítulos MP4",
-          "description": "Agregar subtítulos a un video MP4",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/es/subtitle-mp4"
-        }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

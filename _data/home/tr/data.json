@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/tr/extract-audio"
-        },
-        {
-          "name": "Altyazı Ekle MP4",
-          "description": "MP4 videoya altyazı ekleme",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/tr/subtitle-mp4"
-        }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
