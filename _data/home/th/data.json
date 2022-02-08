@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/th/extract-audio"
-        },
-        {
-          "name": "เพิ่มคำบรรยาย MP4",
-          "description": "เพิ่มคำบรรยายลงในวิดีโอ MP4",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/th/subtitle-mp4"
-        }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

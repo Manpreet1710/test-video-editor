@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ko/extract-audio"
-        },
-        {
-            "name": "자막 추가 MP4",
-            "description": "MP4 비디오에 자막 추가",
-            "color": "#BD7ED8",
-            "icon": "/assets/FeatureIcons/subtitle.svg",
-            "url": "/ko/subtitle-mp4"
-          }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

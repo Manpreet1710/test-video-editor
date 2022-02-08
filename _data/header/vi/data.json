@@ -36,13 +36,7 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/vi/mp4-trimmer",
                         "hover": "blue"
-                    },
-                    {
-                      "name": "Thêm phụ đề MP4",
-                      "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
-                      "url": "/vi/subtitle-mp4",
-                      "hover": "blue"
-                    }
+                    } 
                 ]
             },
             {

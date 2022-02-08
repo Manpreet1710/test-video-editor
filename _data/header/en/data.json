@@ -36,12 +36,6 @@
             "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
             "url": "/mp4-trimmer",
             "hover": "blue"
-          },
-          {
-            "name": "Add Subtitles MP4",
-            "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
-            "url": "/subtitle-mp4",
-            "hover": "blue"
           }
         ]
       },

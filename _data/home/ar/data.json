@@ -119,13 +119,6 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ar/extract-audio"
-        },
-        {
-          "name": "إضافة ترجمات MP4",
-          "description": "أضف ترجمة لفيديو MP4",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/ar/subtitle-mp4"
         }
     ],
     "StructuredDataWebsite": {

@@ -119,14 +119,7 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/zh/extract-audio"
-        },
-        {
-          "name": "添加字幕 MP4",
-          "description": "为 MP4 视频添加字幕",
-          "color": "#BD7ED8",
-          "icon": "/assets/FeatureIcons/subtitle.svg",
-          "url": "/zh/subtitle-mp4"
-        }
+        } 
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
