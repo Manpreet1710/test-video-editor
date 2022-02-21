@@ -20,7 +20,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compresor MP4",
+                        "name": "Compresor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/es/mp4-compressor",
                         "hover": "blue"
@@ -32,11 +32,17 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Recortadora MP4",
+                        "name": "recortadora MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/es/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Añadir subtítulos a MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/es/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -49,13 +55,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compresor MP4",
+                        "name": "Compresor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/es/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "Compresor vídeo",
+                        "name": "Compresor de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/es/video-compressor",
                         "hover": "blue"
@@ -66,7 +72,7 @@
                 "categoryName": "Herramientas de vídeo",
                 "links": [
                     {
-                        "name": "Editar video",
+                        "name": "Edición de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/es/video-editor",
                         "hover": "blue"
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Cambiar el tamaño del vídeo",
+                        "name": "Redimensionar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/es/resize-video",
                         "hover": "blue"
@@ -96,19 +102,19 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "cortador de vídeo",
+                        "name": "Cortador de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/es/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "divisor de vídeo",
+                        "name": "Divisor de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/es/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Recortador de vídeo",
+                        "name": "Recortadora de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/es/video-trimmer",
                         "hover": "blue"

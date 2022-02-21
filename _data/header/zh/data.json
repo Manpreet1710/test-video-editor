@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/zh/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "将字幕添加到MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/zh/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "调整视频大",
+                        "name": "调整视频大小",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/zh/resize-video",
                         "hover": "blue"
@@ -130,7 +136,7 @@
     },
     "navItems": [
         {
-            "name": "部落格",
+            "name": "博客",
             "url": "/blog"
         }
     ]

@@ -1,0 +1,76 @@
+{
+    "Language": "Nederlands",
+    "htmlLangAtt": "nl",
+    "H1": "Voeg eenvoudig ondertiteling in mp4 online",
+    "H2": "Voeg gratis ondertiteling toe aan mp4 zonder software te installeren",
+    "TITLE": "Voeg gratis ondertitels toe aan mp4-video's online",
+    "META": "Weet je dat video's met ondertiteling meer kans hebben op zoekoptredens? Leer hoe u eenvoudig online ondertitels kunt toevoegen aan mp4-video's met deze gratis tool.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX naar PDF",
+    "BREADCRUMB_LABEL": "DOCX NAAR PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Onafhankelijk",
+        "content": "Onze website is platformonafhankelijk. Het werkt op zowel Windows- als iOS-besturingssystemen en kan zonder downloads worden gebruikt."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Absoluut gratis",
+        "content": "De conversie is helemaal gratis, dus je kunt zoveel bestanden converteren als je wilt."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privacy en beveiliging ",
+        "content": "Onze website geeft prioriteit aan de privacy van haar klanten. Omdat we met cloudopslag werken, worden je bestanden niet geüpload. Dus geen kans op een datalek. Jouw gegevens zijn veilig bij ons!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Snelle resultaten",
+        "content": "Het conversieproces duurt nauwelijks een paar seconden, afhankelijk van je bestandsgrootte, en je kunt snel resultaat behalen."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Snel en efficiënt",
+        "content": "Videobewerking is erg snel en je kunt je klus in een mum van tijd klaren"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Bespaart tijd",
+        "content": "Onze website is platformonafhankelijk, kan werken op laptops, tabbladen en telefoons en de conversie verloopt snel, het bespaart tijd."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

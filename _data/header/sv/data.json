@@ -5,10 +5,10 @@
         "nav-link-name": "Tools",
         "dropdown": [
             {
-                "categoryName": "MP4-verktyg",
+                "categoryName": "MP4 Verktyg",
                 "links": [
                     {
-                        "name": "Beskär MP4",
+                        "name": "Beskära MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/sv/crop-mp4",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/sv/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Lägg till undertexter till MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/sv/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -55,7 +61,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Video kompressor",
+                        "name": "Videokompressor",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/sv/video-compressor",
                         "hover": "blue"
@@ -63,7 +69,7 @@
                 ]
             },
             {
-                "categoryName": "Videoverktyg",
+                "categoryName": "Video Verktyg",
                 "links": [
                     {
                         "name": "Redigera video",
@@ -90,13 +96,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vänd video",
+                        "name": "Flip video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/sv/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "videoklippare",
+                        "name": "Video Cutter",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/sv/video-cutter",
                         "hover": "blue"
@@ -116,10 +122,10 @@
                 ]
             },
             {
-                "categoryName": "Extrahera ljud",
+                "categoryName": "Utdrag ljud",
                 "links": [
                     {
-                        "name": "Extrahera ljud",
+                        "name": "Utdrag ljud",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/sv/extract-audio",
                         "hover": "blue"
@@ -130,7 +136,7 @@
     },
     "navItems": [
         {
-            "name": "blogg",
+            "name": "Blog",
             "url": "/blog"
         }
     ]

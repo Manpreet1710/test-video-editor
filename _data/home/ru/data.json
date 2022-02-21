@@ -2,22 +2,22 @@
     "Language": "Русский",
     "htmlLangAtt": "ru",
     "h1": "SafeVideokit.com - самый безопасный способ обработки ваших видео",
-    "h2": "Файлы не отправляются на сервер. 100% безопасно.",
+    "h2": "Никакие файлы не отправляются на сервер. 100% безопасно.",
     "title": "SafeVideokit.com - самый безопасный способ обработки ваших видео",
     "TITLE": "SafeVideokit.com - самый безопасный способ обработки ваших видео",
-    "meta": "Наш онлайн-редактор видео абсолютно бесплатен и прост в использовании. Мы позаботимся о том, чтобы все ваши данные были в безопасности при редактировании видео. Мы поддерживаем широкий спектр видеоформатов, таких как mp3, mov, mkv и т. Д.",
-    "keywords": "key1,key2,key3,key4",
+    "meta": "Наш онлайн-редактор видео абсолютно бесплатный и простой в использовании. Мы позаботимся о том, чтобы все ваши данные были в безопасности во время редактирования видео. Мы поддерживаем широкий спектр видеоформатов, таких как mp3, mov, mkv и т. Д.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
             "name": "Обрезка MP4",
-            "description": "Обрезайте любое видео MP4",
+            "description": "Обрезать любое видео MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ru/crop-mp4"
         },
         {
             "name": "Кадрирование видео",
-            "description": "Обрезайте любое видео",
+            "description": "Обрезка любого видео",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ru/crop-video"
@@ -37,7 +37,7 @@
             "url": "/ru/flip-video"
         },
         {
-            "name": "MOV компрессор",
+            "name": "Компрессор MOV",
             "description": "Сжатие любого видео MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -52,21 +52,21 @@
         },
         {
             "name": "Резак MP4",
-            "description": "Вырезать любое видео MP4",
+            "description": "Вырежьте любое видео MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ru/mp4-cutter"
         },
         {
-            "name": "видеоредактор",
+            "name": "Редактор видео",
             "description": "Редактируйте любое видео",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ru/video-editor"
         },
         {
-            "name": "триммер MP4",
-            "description": "Обрезайте любое видео MP4",
+            "name": "Триммер MP4",
+            "description": "Обрежьте любое видео MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ru/mp4-trimmer"
@@ -86,7 +86,7 @@
             "url": "/ru/video-compressor"
         },
         {
-            "name": "видео-резак",
+            "name": "Видео резак",
             "description": "Вырезайте любое видео",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -94,7 +94,7 @@
         },
         {
             "name": "Ротатор видео",
-            "description": "Поворачивайте любое видео",
+            "description": "Поверните любое видео",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/ru/video-rotater"
@@ -108,18 +108,25 @@
         },
         {
             "name": "Триммер для видео",
-            "description": "Обрезайте любое видео",
+            "description": "Обрезка любого видео",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ru/video-trimmer"
         },
         {
-            "name": "Извлечение аудио",
-            "description": "Извлечение аудио из видео",
+            "name": "Извлечь звук",
+            "description": "Извлечение звука из видео",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ru/extract-audio"
-        } 
+        },
+        {
+            "name": "Добавить субтитры в MP4",
+            "description": "Добавить субтитры к видео MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ru/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

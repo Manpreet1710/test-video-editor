@@ -1,9 +1,9 @@
 {
     "logo": "/assets/safevideokit.svg",
     "heading": "Ułatwiamy edycję wideo.",
-    "companytitle": "Spółka",
+    "companytitle": "Firma",
     "producttitle": "Produkt",
-    "networksitestitle": "Witryny sieciowe",
+    "networksitestitle": "Witryny sieci",
     "company": [
         {
             "name": "O",
@@ -24,114 +24,121 @@
     ],
     "product": [
         {
-            "name": "Przytnij MP4",
-            "description": "Kadrowanie dowolnego wideo MP4",
+            "name": "Crop MP4",
+            "description": "Kadruj dowolny film MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "pl/crop-mp4"
+            "url": "/pl/crop-mp4"
         },
         {
-            "name": "Przycinanie wideo",
-            "description": "Przytnij dowolny film",
+            "name": "Kadrowanie wideo",
+            "description": "Kadruj dowolny film",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "pl/crop-video"
+            "url": "/pl/crop-video"
         },
         {
             "name": "Edytor MP4",
-            "description": "Edytuj dowolne wideo w formacie MP4",
+            "description": "Edytuj dowolny film MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "pl/edit-mp4-video"
+            "url": "/pl/edit-mp4-video"
         },
         {
             "name": "Odwróć wideo",
             "description": "Odwróć dowolny film",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "pl/flip-video"
+            "url": "/pl/flip-video"
         },
         {
             "name": "Sprężarka MOV",
             "description": "Kompresuj dowolny film MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "pl/mov-compressor"
+            "url": "/pl/mov-compressor"
         },
         {
             "name": "Sprężarka MP4",
             "description": "Kompresuj dowolne filmy MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "pl/mp4-compressor"
+            "url": "/pl/mp4-compressor"
         },
         {
-            "name": "Frez MP4",
+            "name": "Przecinak MP4",
             "description": "Wytnij dowolny film MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "pl/mp4-cutter"
+            "url": "/pl/mp4-cutter"
         },
         {
-            "name": "edytor wideo",
+            "name": "Edytor wideo",
             "description": "Edytuj dowolny film",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "pl/video-editor"
+            "url": "/pl/video-editor"
         },
         {
             "name": "MP4 przycinarka",
-            "description": "Przycinanie dowolnego wideo MP4",
+            "description": "Przytnij dowolny film MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "pl/mp4-trimmer"
+            "url": "/pl/mp4-trimmer"
+        },
+        {
+            "name": "Dodaj napisy do MP4",
+            "description": "Dodawanie napisów do wideo MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/pl/subtitle-mp4"
         },
         {
             "name": "Zmiana rozmiaru wideo",
             "description": "Zmiana rozmiaru dowolnego filmu",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "pl/resize-video"
+            "url": "/pl/resize-video"
         },
         {
-            "name": "Sprężarka wideo",
+            "name": "Kompresor wideo",
             "description": "Kompresuj dowolny film",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "pl/video-compressor"
+            "url": "/pl/video-compressor"
         },
         {
-            "name": "obcinarka wideo",
+            "name": "Obcinarka wideo",
             "description": "Wytnij dowolny film",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "pl/video-cutter"
+            "url": "/pl/video-cutter"
         },
         {
-            "name": "Wirnik wideo",
+            "name": "Rotater wideo",
             "description": "Obróć dowolny film",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "pl/video-rotater"
+            "url": "/pl/video-rotater"
         },
         {
             "name": "Rozdzielacz wideo",
             "description": "Podziel dowolny film",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "pl/video-splitter"
+            "url": "/pl/video-splitter"
         },
         {
-            "name": "Wideo trymer",
-            "description": "Przycinanie dowolnego filmu",
+            "name": "Wideo przycinarka",
+            "description": "Przytnij dowolny film",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "pl/video-trimmer"
+            "url": "/pl/video-trimmer"
         },
         {
             "name": "Wyodrębnij wideo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "pl/extract-audio"
+            "url": "/pl/extract-audio"
         }
     ],
     "networkSites": [],
@@ -169,7 +176,7 @@
             "url": "/terms-and-conditions"
         },
         {
-            "name": "Polityka prywatności",
+            "name": "Polityka Prywatności",
             "url": "/privacy-policy"
         },
         {

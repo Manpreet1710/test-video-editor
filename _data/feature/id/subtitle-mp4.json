@@ -1,0 +1,76 @@
+{
+    "Language": "Bahasa Indonesia",
+    "htmlLangAtt": "id",
+    "H1": "Masukkan subtitle ke mp4 secara online dengan mudah",
+    "H2": "Tambahkan subtitle ke mp4 secara gratis tanpa perangkat lunak apa pun untuk diinstal",
+    "TITLE": "Tambahkan subtitle ke video mp4 online secara gratis",
+    "META": "Tahukah Anda bahwa video dengan subtitle memiliki peluang lebih baik untuk melihat penampilan? Pelajari cara menambahkan subtitle ke video mp4 online dengan mudah dengan alat gratis ini.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX ke PDF",
+    "BREADCRUMB_LABEL": "DOCX KE PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Independen",
+        "content": "Situs web kami adalah platform independen. Ia bekerja pada kedua Window dan iOS sistem operasi dan dapat digunakan tanpa download diperlukan."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Benar-benar Gratis",
+        "content": "Konversi ini benar-benar gratis, sehingga Anda dapat mengkonversi file sebanyak yang Anda inginkan."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privasi dan Keamanan ",
+        "content": "Situs web kami memprioritaskan privasi pelanggannya. Karena kami bekerja dengan penyimpanan cloud file Anda tidak bisa diunggah. Jadi, tidak ada kesempatan untuk mendapatkan pelanggaran data. Data Anda aman bersama kami!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Hasil Cepat",
+        "content": "Proses konversi hampir tidak memakan waktu beberapa detik, tergantung pada ukuran file Anda, dan Anda bisa mendapatkan hasil yang cepat dengan mudah."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Cepat dan efisien",
+        "content": "Pengeditan video sangat cepat dan Anda bisa menyelesaikan pekerjaan Anda dalam waktu singkat"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Menghemat Waktu",
+        "content": "Situs web kami adalah platform independen, dapat bekerja pada laptop, tab dan telepon dan konversi cepat, menghemat waktu."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

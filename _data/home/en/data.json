@@ -118,6 +118,13 @@
       "color": "#26de81",
       "icon": "/assets/FeatureIcons/sound.svg",
       "url": "/extract-audio"
+    },
+    {
+      "name": "Add Subtitles to MP4",
+      "description": "Add subtitle to a MP4 video",
+      "color": "#BD7ED8",
+      "icon": "/assets/FeatureIcons/subtitle.svg",
+      "url": "/subtitle-mp4"
     }
     
 

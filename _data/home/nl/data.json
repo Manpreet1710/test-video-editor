@@ -5,8 +5,8 @@
     "h2": "Er worden geen bestanden naar de server verzonden. 100% veilig.",
     "title": "Safevideokit.com - Veiligste manier om je video's te verwerken",
     "TITLE": "Safevideokit.com - Veiligste manier om je video's te verwerken",
-    "meta": "Onze online video-editor tool is helemaal gratis en is gemakkelijk te gebruiken. We zorgen ervoor dat al je gegevens veilig zijn terwijl je je video bewerkt. We ondersteunen een groot aantal videoformaten zoals mp3, mov, mkv etc.",
-    "keywords": "key1,key2,key3,key4",
+    "meta": "Onze online video-editor is helemaal gratis en gemakkelijk te gebruiken. We zorgen ervoor dat al je gegevens veilig zijn terwijl je je video bewerkt. We ondersteunen een groot aantal videoformaten zoals mp3, mov, mkv enz.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
             "name": "MP4 bijsnijden",
@@ -24,7 +24,7 @@
         },
         {
             "name": "MP4-editor",
-            "description": "Bewerk elke MP4-video",
+            "description": "Elke MP4-video bewerken",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/nl/edit-mp4-video"
@@ -45,7 +45,7 @@
         },
         {
             "name": "MP4-compressor",
-            "description": "Comprimeer alle MP4-video's",
+            "description": "Alle MP4-video's comprimeren",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/nl/mp4-compressor"
@@ -58,22 +58,22 @@
             "url": "/nl/mp4-cutter"
         },
         {
-            "name": "video-editor",
+            "name": "Video-editor",
             "description": "Elke video bewerken",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/nl/video-editor"
         },
         {
-            "name": "MP4 trimmer",
+            "name": "MP4-trimmer",
             "description": "Elke MP4-video bijsnijden",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/nl/mp4-trimmer"
         },
         {
-            "name": "De grootte van video wijzigen",
-            "description": "Het formaat van elke video wijzigen",
+            "name": "Video formaat wijzigen",
+            "description": "Formaat van elke video wijzigen",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/nl/resize-video"
@@ -86,28 +86,28 @@
             "url": "/nl/video-compressor"
         },
         {
-            "name": "video-snijder",
+            "name": "Video snijder",
             "description": "Knip elke video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/nl/video-cutter"
         },
         {
-            "name": "Videorotater",
+            "name": "Video-rotater",
             "description": "Elke video roteren",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/nl/video-rotater"
         },
         {
-            "name": "Video splitter",
+            "name": "Videosplitter",
             "description": "Elke video splitsen",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/nl/video-splitter"
         },
         {
-            "name": "Video-trimmer",
+            "name": "Video trimmer",
             "description": "Elke video bijsnijden",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -115,11 +115,18 @@
         },
         {
             "name": "Audio extraheren",
-            "description": "Audio uit een video extraheren",
+            "description": "Audio extraheren uit een video",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/nl/extract-audio"
-        } 
+        },
+        {
+            "name": "Ondertitels toevoegen aan MP4",
+            "description": "Ondertitels toevoegen aan een MP4-video",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/nl/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

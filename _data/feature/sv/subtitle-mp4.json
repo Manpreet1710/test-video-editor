@@ -1,0 +1,76 @@
+{
+    "Language": "Svenska",
+    "htmlLangAtt": "sv",
+    "H1": "Infoga enkelt undertext till mp4 online",
+    "H2": "Lägg till undertext till mp4 gratis utan någon programvara att installera",
+    "TITLE": "Lägga till undertexter till mp4-videor online gratis",
+    "META": "Vet du att videor med undertexter har större chans att söka utseenden? Lär dig hur du enkelt lägger till undertexter till mp4-videor online med det här gratisverktyget.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX till PDF",
+    "BREADCRUMB_LABEL": "DOCX TILL PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Oberoende",
+        "content": "Vår webbplats är plattformsoberoende. Det fungerar på både Windows- och iOS-operativsystem och kan användas utan några nedladdningar som krävs."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Helt gratis",
+        "content": "Konverteringen är helt gratis, så du kan konvertera så många filer som du vill."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Sekretess och säkerhet ",
+        "content": "Vår webbplats prioriterar kundernas integritet. Eftersom vi arbetar med molnlagring laddas inte dina filer upp. Så, ingen chans att få någon dataintrång. Dina uppgifter är säkra hos oss!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Snabba resultat",
+        "content": "Konverteringsprocessen tar knappt några sekunder, beroende på filstorleken, och du kan enkelt få snabba resultat."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Snabb och effektiv",
+        "content": "Videoredigering är riktigt snabb och du kan få jobbet gjort på nolltid"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Sparar tid",
+        "content": "Vår webbplats är plattformsoberoende, kan fungera på bärbara datorer, flikar och telefoner och konverteringen är snabb, det sparar tid."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

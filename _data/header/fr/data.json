@@ -8,7 +8,7 @@
                 "categoryName": "Outils MP4",
                 "links": [
                     {
-                        "name": "Recadrer MP4",
+                        "name": "Crop MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/fr/crop-mp4",
                         "hover": "blue"
@@ -26,17 +26,23 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Fraise MP4",
+                        "name": "Cutter MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/fr/mp4-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "tondeuse MP4",
+                        "name": "Tondeuse MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/fr/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Ajouter des sous-titres à MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/fr/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -66,13 +72,13 @@
                 "categoryName": "Outils vidéo",
                 "links": [
                     {
-                        "name": "Éditer vidéo",
+                        "name": "Éditer une vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/fr/video-editor",
                         "hover": "blue"
                     },
                     {
-                        "name": "Vidéo recadrage",
+                        "name": "Vidéo sur les cultures",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/fr/crop-video",
                         "hover": "blue"
@@ -84,7 +90,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Rotation de la vidéo",
+                        "name": "Rotation vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
                         "url": "/fr/rotate-video",
                         "hover": "blue"
@@ -96,13 +102,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "découpeuse vidéo",
+                        "name": "Cutter vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/fr/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Séparateur vidéo",
+                        "name": "Répartiteur vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/fr/video-splitter",
                         "hover": "blue"
@@ -116,10 +122,10 @@
                 ]
             },
             {
-                "categoryName": "Extraire audio",
+                "categoryName": "Extraire l'audio",
                 "links": [
                     {
-                        "name": "Extraire le",
+                        "name": "Extraire l'audio",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/fr/extract-audio",
                         "hover": "blue"

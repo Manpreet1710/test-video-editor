@@ -1,6 +1,6 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "Kami membuat penyuntingan video mudah.",
+    "heading": "Kami membuat pengeditan video mudah.",
     "companytitle": "Perusahaan",
     "producttitle": "Produk",
     "networksitestitle": "Situs jaringan",
@@ -18,120 +18,127 @@
             "url": "/blog"
         },
         {
-            "name": "Syarat dan Ketentuan",
+            "name": "Syarat dan ketentuan",
             "url": "/terms-and-conditions"
         }
     ],
     "product": [
         {
-            "name": "Pangkas MP4",
-            "description": "Memotong video MP4 apa pun",
+            "name": "Tanaman MP4",
+            "description": "Pangkas semua video MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "id/crop-mp4"
+            "url": "/id/crop-mp4"
         },
         {
             "name": "Pangkas video",
-            "description": "Memotong video apa pun",
+            "description": "Pangkas video apa pun",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "id/crop-video"
+            "url": "/id/crop-video"
         },
         {
             "name": "Penyunting MP4",
             "description": "Mengedit video MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "id/edit-mp4-video"
+            "url": "/id/edit-mp4-video"
         },
         {
-            "name": "Membalik video",
-            "description": "Membalik video apa pun",
+            "name": "Video Balik",
+            "description": "Balik video apa pun",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "id/flip-video"
+            "url": "/id/flip-video"
         },
         {
             "name": "Kompresor MOV",
-            "description": "Kompres video MOV apa pun",
+            "description": "Kompres setiap video MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "id/mov-compressor"
+            "url": "/id/mov-compressor"
         },
         {
             "name": "MP4 kompresor",
             "description": "Kompres semua video MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "id/mp4-compressor"
+            "url": "/id/mp4-compressor"
         },
         {
             "name": "Pemotong MP4",
-            "description": "Memotong video MP4",
+            "description": "Potong video MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "id/mp4-cutter"
+            "url": "/id/mp4-cutter"
         },
         {
-            "name": "editor video",
+            "name": "Editor Video",
             "description": "Mengedit video apa pun",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "id/video-editor"
+            "url": "/id/video-editor"
         },
         {
-            "name": "Pemangkas MP4",
-            "description": "Memangkas setiap video MP4",
+            "name": "MP4 pemangkas",
+            "description": "Memangkas video MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "id/mp4-trimmer"
+            "url": "/id/mp4-trimmer"
+        },
+        {
+            "name": "Tambahkan sub judul ke MP4",
+            "description": "Menambahkan sub judul ke video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/id/subtitle-mp4"
         },
         {
             "name": "Ubah ukuran video",
             "description": "Ubah ukuran video apa pun",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "id/resize-video"
+            "url": "/id/resize-video"
         },
         {
             "name": "Kompresor video",
             "description": "Kompres video apa pun",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "id/video-compressor"
+            "url": "/id/video-compressor"
         },
         {
-            "name": "pemotong video",
-            "description": "Memotong video apa pun",
+            "name": "Pemotong Video",
+            "description": "Potong video apa pun",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "id/video-cutter"
+            "url": "/id/video-cutter"
         },
         {
-            "name": "Video Rotator",
-            "description": "Memutar video apa pun",
+            "name": "Pemutar video",
+            "description": "Putar video apa pun",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "id/video-rotater"
+            "url": "/id/video-rotater"
         },
         {
-            "name": "Pembagi video",
-            "description": "Membagi video apa pun",
+            "name": "Video splitter",
+            "description": "Membagi setiap video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "id/video-splitter"
+            "url": "/id/video-splitter"
         },
         {
-            "name": "Pemangkas video",
-            "description": "Potong video apa pun",
+            "name": "Video pemangkas",
+            "description": "Potong video apapun",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "id/video-trimmer"
+            "url": "/id/video-trimmer"
         },
         {
             "name": "Ekstrak video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "id/extract-audio"
+            "url": "/id/extract-audio"
         }
     ],
     "networkSites": [],
@@ -165,7 +172,7 @@
     "messege": "© 2021 — Made with love for the people of the world.",
     "legal": [
         {
-            "name": "Syarat dan Ketentuan",
+            "name": "Syarat dan ketentuan",
             "url": "/terms-and-conditions"
         },
         {

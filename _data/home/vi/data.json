@@ -2,11 +2,11 @@
     "Language": "Tiếng Việt",
     "htmlLangAtt": "vi",
     "h1": "Safevideokit.com - Cách an toàn nhất để xử lý video của bạn",
-    "h2": "Không có tập tin được gửi đến máy chủ. 100% an toàn.",
+    "h2": "Không có tệp nào được gửi đến máy chủ. 100% an toàn.",
     "title": "Safevideokit.com - Cách an toàn nhất để xử lý video của bạn",
     "TITLE": "Safevideokit.com - Cách an toàn nhất để xử lý video của bạn",
-    "meta": "Công cụ biên tập video trực tuyến của chúng tôi hoàn toàn miễn phí và dễ sử dụng. Chúng tôi đảm bảo rằng tất cả dữ liệu của bạn được an toàn trong khi bạn chỉnh sửa video của mình. Chúng tôi hỗ trợ một loạt các định dạng video như mp3, mov, mkv v.v.",
-    "keywords": "key1,key2,key3,key4",
+    "meta": "Công cụ chỉnh sửa video trực tuyến của chúng tôi hoàn toàn miễn phí và dễ sử dụng. Chúng tôi đảm bảo tất cả dữ liệu của bạn an toàn trong khi bạn chỉnh sửa video của mình. Chúng tôi hỗ trợ một loạt các định dạng video như mp3, mov, mkv, v.v.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
             "name": "Cắt MP4",
@@ -31,7 +31,7 @@
         },
         {
             "name": "Lật video",
-            "description": "Lật bất kỳ video",
+            "description": "Lật bất kỳ video nào",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/vi/flip-video"
@@ -58,22 +58,22 @@
             "url": "/vi/mp4-cutter"
         },
         {
-            "name": "trình chỉnh sửa video",
+            "name": "Trình chỉnh sửa video",
             "description": "Chỉnh sửa bất kỳ video nào",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/vi/video-editor"
         },
         {
-            "name": "tông đơ MP4",
+            "name": "Tông đơ MP4",
             "description": "Cắt bất kỳ video MP4 nào",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/vi/mp4-trimmer"
         },
         {
-            "name": "Đổi kích thước video",
-            "description": "Thay đổi kích cỡ bất kỳ video",
+            "name": "Thay đổi kích thước video",
+            "description": "Thay đổi kích thước bất kỳ video",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/vi/resize-video"
@@ -86,22 +86,22 @@
             "url": "/vi/video-compressor"
         },
         {
-            "name": "máy cắt video",
+            "name": "Máy cắt video",
             "description": "Cắt bất kỳ video nào",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/vi/video-cutter"
         },
         {
-            "name": "Máy quay video",
-            "description": "Xoay video bất kỳ",
+            "name": "Quay video",
+            "description": "Xoay bất kỳ video nào",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/vi/video-rotater"
         },
         {
             "name": "Bộ chia video",
-            "description": "Tách video bất kỳ",
+            "description": "Chia bất kỳ video nào",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/vi/video-splitter"
@@ -119,7 +119,14 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/vi/extract-audio"
-        } 
+        },
+        {
+            "name": "Thêm phụ đề vào MP4",
+            "description": "Thêm phụ đề vào video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/vi/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

@@ -5,8 +5,8 @@
     "h2": "Nessun file viene inviato al server. Sicuro al 100%.",
     "title": "Safevideokit.com - Il modo più sicuro per elaborare i tuoi video",
     "TITLE": "Safevideokit.com - Il modo più sicuro per elaborare i tuoi video",
-    "meta": "Il nostro strumento di editor di video online è assolutamente gratuito ed è facile da usare. Ci assicuriamo che tutti i tuoi dati siano al sicuro durante la modifica del video. Supportiamo una vasta gamma di formati video come mp3, mov, mkv ecc.",
-    "keywords": "key1,key2,key3,key4",
+    "meta": "Il nostro strumento di editor video online è assolutamente gratuito ed è facile da usare. Ci assicuriamo che tutti i tuoi dati siano al sicuro mentre modifichi il tuo video. Supportiamo una vasta gamma di formati video come mp3, mov, mkv ecc.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
             "name": "Ritaglia MP4",
@@ -38,7 +38,7 @@
         },
         {
             "name": "Compressore MOV",
-            "description": "Comprimi qualsiasi video MOV",
+            "description": "Comprimere qualsiasi video MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/it/mov-compressor"
@@ -58,14 +58,14 @@
             "url": "/it/mp4-cutter"
         },
         {
-            "name": "editor video",
+            "name": "Editor video",
             "description": "Modifica qualsiasi video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/it/video-editor"
         },
         {
-            "name": "trimmer MP4",
+            "name": "Rifinitore MP4",
             "description": "Taglia qualsiasi video MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -86,7 +86,7 @@
             "url": "/it/video-compressor"
         },
         {
-            "name": "taglierina video",
+            "name": "Taglierina video",
             "description": "Taglia qualsiasi video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -108,7 +108,7 @@
         },
         {
             "name": "Rifinitore video",
-            "description": "Taglia qualsiasi video",
+            "description": "Ritaglia qualsiasi video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/it/video-trimmer"
@@ -119,7 +119,14 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/it/extract-audio"
-        } 
+        },
+        {
+            "name": "Aggiungi sottotitoli a MP4",
+            "description": "Aggiungi sottotitoli a un video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/it/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

@@ -8,7 +8,7 @@
                 "categoryName": "Narzędzia MP4",
                 "links": [
                     {
-                        "name": "Przytnij MP4",
+                        "name": "Crop MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/pl/crop-mp4",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Frez MP4",
+                        "name": "Przecinak MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/pl/mp4-cutter",
                         "hover": "blue"
@@ -36,11 +36,17 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/pl/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Dodaj napisy do MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/pl/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
-                "categoryName": "kompresji",
+                "categoryName": "Kompres",
                 "links": [
                     {
                         "name": "Sprężarka MOV",
@@ -55,7 +61,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Sprężarka wideo",
+                        "name": "Kompresor wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/pl/video-compressor",
                         "hover": "blue"
@@ -72,7 +78,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Przycinanie wideo",
+                        "name": "Kadrowanie wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/pl/crop-video",
                         "hover": "blue"
@@ -96,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "obcinarka wideo",
+                        "name": "Obcinarka wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/pl/video-cutter",
                         "hover": "blue"
@@ -108,7 +114,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Wideo trymer",
+                        "name": "Wideo przycinarka",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/pl/video-trimmer",
                         "hover": "blue"

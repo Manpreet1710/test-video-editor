@@ -32,18 +32,24 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "триммер MP4",
+                        "name": "Триммер MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/ru/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Добавить субтитры в MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/ru/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
-                "categoryName": "Сжатие",
+                "categoryName": "Сжать",
                 "links": [
                     {
-                        "name": "MOV компрессор",
+                        "name": "Компрессор MOV",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
                         "url": "/ru/mov-compressor",
                         "hover": "blue"
@@ -63,10 +69,10 @@
                 ]
             },
             {
-                "categoryName": "Инструменты для создания видео",
+                "categoryName": "Инструменты для работы с видео",
                 "links": [
                     {
-                        "name": "Редактировать видео",
+                        "name": "Редактирование видео",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/ru/video-editor",
                         "hover": "blue"
@@ -96,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "видео-резак",
+                        "name": "Видео резак",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/ru/video-cutter",
                         "hover": "blue"
@@ -119,7 +125,7 @@
                 "categoryName": "Извлечь аудио",
                 "links": [
                     {
-                        "name": "Извлечение аудио",
+                        "name": "Извлечь звук",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/ru/extract-audio",
                         "hover": "blue"

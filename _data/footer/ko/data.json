@@ -1,6 +1,6 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "동영상을 쉽게 편집할 수 있습니다.",
+    "heading": "동영상 편집이 쉬워집니다.",
     "companytitle": "회사",
     "producttitle": "제품",
     "networksitestitle": "네트워크 사이트",
@@ -18,120 +18,127 @@
             "url": "/blog"
         },
         {
-            "name": "약관 및 조건",
+            "name": "이용 약관",
             "url": "/terms-and-conditions"
         }
     ],
     "product": [
         {
-            "name": "MP4 자르기",
-            "description": "모든 MP4 비디오 자르기",
+            "name": "자르기 MP4",
+            "description": "MP4 비디오 자르기",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ko/crop-mp4"
+            "url": "/ko/crop-mp4"
         },
         {
-            "name": "비디오 자르기",
-            "description": "모든 동영상 자르기",
+            "name": "자르기 비디오",
+            "description": "모든 비디오 자르기",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ko/crop-video"
+            "url": "/ko/crop-video"
         },
         {
-            "name": "MP4 편집기",
-            "description": "모든 MP4 비디오 편집",
+            "name": "MP4 에디터",
+            "description": "MP4 비디오 편집",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ko/edit-mp4-video"
+            "url": "/ko/edit-mp4-video"
         },
         {
             "name": "플립 비디오",
-            "description": "모든 동영상 뒤집기",
+            "description": "모든 비디오 뒤집기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "ko/flip-video"
+            "url": "/ko/flip-video"
         },
         {
-            "name": "MOV 압축기",
+            "name": "MOV 컴프레서",
             "description": "모든 MOV 비디오 압축",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ko/mov-compressor"
+            "url": "/ko/mov-compressor"
         },
         {
-            "name": "MP4 압축기",
+            "name": "MP4 컴프레서",
             "description": "모든 MP4 비디오 압축",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ko/mp4-compressor"
+            "url": "/ko/mp4-compressor"
         },
         {
             "name": "MP4 커터",
             "description": "모든 MP4 비디오 잘라내기",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ko/mp4-cutter"
+            "url": "/ko/mp4-cutter"
         },
         {
-            "name": "비디오 편집기",
+            "name": "비디오 에디터",
             "description": "모든 비디오 편집",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ko/video-editor"
+            "url": "/ko/video-editor"
         },
         {
             "name": "MP4 트리머",
-            "description": "모든 MP4 비디오 트리밍",
+            "description": "모든 MP4 비디오 다듬기",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ko/mp4-trimmer"
+            "url": "/ko/mp4-trimmer"
+        },
+        {
+            "name": "MP4에 자막 추가",
+            "description": "MP4 비디오에 자막 추가",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ko/subtitle-mp4"
         },
         {
             "name": "비디오 크기 조정",
-            "description": "모든 비디오 크기 조정",
+            "description": "동영상 크기 조정",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "ko/resize-video"
+            "url": "/ko/resize-video"
         },
         {
             "name": "비디오 압축기",
             "description": "모든 비디오 압축",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ko/video-compressor"
+            "url": "/ko/video-compressor"
         },
         {
             "name": "비디오 커터",
-            "description": "모든 동영상 잘라내기",
+            "description": "모든 비디오 잘라내기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ko/video-cutter"
+            "url": "/ko/video-cutter"
         },
         {
             "name": "비디오 로테이터",
-            "description": "모든 동영상 회전",
+            "description": "모든 비디오 회전",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "ko/video-rotater"
+            "url": "/ko/video-rotater"
         },
         {
             "name": "비디오 스플리터",
-            "description": "모든 동영상 분할",
+            "description": "모든 비디오 분할",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ko/video-splitter"
+            "url": "/ko/video-splitter"
         },
         {
             "name": "비디오 트리머",
             "description": "모든 비디오 다듬기",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ko/video-trimmer"
+            "url": "/ko/video-trimmer"
         },
         {
             "name": "비디오 추출",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "ko/extract-audio"
+            "url": "/ko/extract-audio"
         }
     ],
     "networkSites": [],
@@ -139,7 +146,7 @@
         {
             "logo": "/assets/facebook.svg",
             "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
-            "title": "페이스 북"
+            "title": "페이스북"
         },
         {
             "logo": "/assets/youtube.svg",
@@ -149,12 +156,12 @@
         {
             "logo": "/assets/instagram.svg",
             "url": "/",
-            "title": "Instagram"
+            "title": "인스타그램"
         },
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "링크인"
+            "title": "링크드 인"
         },
         {
             "logo": "/assets/twitter.svg",
@@ -165,7 +172,7 @@
     "messege": "© 2021 — Made with love for the people of the world.",
     "legal": [
         {
-            "name": "약관 및 조건",
+            "name": "이용 약관",
             "url": "/terms-and-conditions"
         },
         {
@@ -173,7 +180,7 @@
             "url": "/privacy-policy"
         },
         {
-            "name": "문의하기",
+            "name": "연락처",
             "url": "/contact"
         },
         {

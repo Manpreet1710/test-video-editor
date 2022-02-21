@@ -1,30 +1,30 @@
 {
     "Language": "Polski",
     "htmlLangAtt": "pl",
-    "h1": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
-    "h2": "Żadne pliki nie są wysyłane na serwer. 100% bezpieczne.",
-    "title": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
-    "TITLE": "Safevideokit.com - Najbezpieczniejszy sposób na przetwarzanie filmów",
-    "meta": "Nasze narzędzie do edytora wideo online jest całkowicie bezpłatne i jest łatwe w użyciu. Upewniamy się, że wszystkie Twoje dane są bezpieczne podczas edycji filmu. Obsługujemy szeroką gamę formatów wideo, takich jak mp3, mov, mkv itp.",
-    "keywords": "key1,key2,key3,key4",
+    "h1": "Safevideokit.com - Najbezpieczniejszy sposób przetwarzania filmów",
+    "h2": "Żadne pliki nie są wysyłane na serwer. 100% bezpieczny.",
+    "title": "Safevideokit.com - Najbezpieczniejszy sposób przetwarzania filmów",
+    "TITLE": "Safevideokit.com - Najbezpieczniejszy sposób przetwarzania filmów",
+    "meta": "Nasze narzędzie do edycji wideo online jest całkowicie bezpłatne i jest łatwe w użyciu. Dbamy o to, aby wszystkie Twoje dane były bezpieczne podczas edycji filmu. Wspieramy szeroką gamę formatów wideo, takich jak mp3, mov, mkv itp.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
-            "name": "Przytnij MP4",
-            "description": "Kadrowanie dowolnego wideo MP4",
+            "name": "Crop MP4",
+            "description": "Kadruj dowolny film MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/pl/crop-mp4"
         },
         {
-            "name": "Przycinanie wideo",
-            "description": "Przytnij dowolny film",
+            "name": "Kadrowanie wideo",
+            "description": "Kadruj dowolny film",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/pl/crop-video"
         },
         {
             "name": "Edytor MP4",
-            "description": "Edytuj dowolne wideo w formacie MP4",
+            "description": "Edytuj dowolny film MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/pl/edit-mp4-video"
@@ -51,14 +51,14 @@
             "url": "/pl/mp4-compressor"
         },
         {
-            "name": "Frez MP4",
+            "name": "Przecinak MP4",
             "description": "Wytnij dowolny film MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/pl/mp4-cutter"
         },
         {
-            "name": "edytor wideo",
+            "name": "Edytor wideo",
             "description": "Edytuj dowolny film",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -66,7 +66,7 @@
         },
         {
             "name": "MP4 przycinarka",
-            "description": "Przycinanie dowolnego wideo MP4",
+            "description": "Przytnij dowolny film MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/pl/mp4-trimmer"
@@ -79,21 +79,21 @@
             "url": "/pl/resize-video"
         },
         {
-            "name": "Sprężarka wideo",
+            "name": "Kompresor wideo",
             "description": "Kompresuj dowolny film",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/pl/video-compressor"
         },
         {
-            "name": "obcinarka wideo",
+            "name": "Obcinarka wideo",
             "description": "Wytnij dowolny film",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/pl/video-cutter"
         },
         {
-            "name": "Wirnik wideo",
+            "name": "Rotater wideo",
             "description": "Obróć dowolny film",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
@@ -107,19 +107,26 @@
             "url": "/pl/video-splitter"
         },
         {
-            "name": "Wideo trymer",
-            "description": "Przycinanie dowolnego filmu",
+            "name": "Wideo przycinarka",
+            "description": "Przytnij dowolny film",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/pl/video-trimmer"
         },
         {
             "name": "Wyodrębnij dźwięk",
-            "description": "Wyodrębnianie dźwięku z wideo",
+            "description": "Wyodrębnianie dźwięku z filmu",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/pl/extract-audio"
-        } 
+        },
+        {
+            "name": "Dodaj napisy do MP4",
+            "description": "Dodawanie napisów do wideo MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/pl/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

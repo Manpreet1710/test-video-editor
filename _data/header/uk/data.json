@@ -8,7 +8,7 @@
                 "categoryName": "Інструменти MP4",
                 "links": [
                     {
-                        "name": "Рослинництво MP4",
+                        "name": "Обрізати MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/uk/crop-mp4",
                         "hover": "blue"
@@ -20,7 +20,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Компресор MP4",
+                        "name": "MP4 компресор",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/uk/mp4-compressor",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/uk/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Додати субтитри до MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/uk/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -49,13 +55,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Компресор MP4",
+                        "name": "MP4 компресор",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/uk/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "Відеокомпресор",
+                        "name": "Відео компресор",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/uk/video-compressor",
                         "hover": "blue"
@@ -63,7 +69,7 @@
                 ]
             },
             {
-                "categoryName": "Інструменти для відео",
+                "categoryName": "Відео Інструменти",
                 "links": [
                     {
                         "name": "Редагувати відео",
@@ -72,7 +78,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Кадрування відео",
+                        "name": "Обрізати відео",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/uk/crop-video",
                         "hover": "blue"
@@ -96,19 +102,19 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "відеорізак",
+                        "name": "Відео різак",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/uk/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Відео розгалужувач",
+                        "name": "Відео спліттер",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/uk/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Відео-тример",
+                        "name": "Відео триммер",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/uk/video-trimmer",
                         "hover": "blue"
@@ -116,7 +122,7 @@
                 ]
             },
             {
-                "categoryName": "Витягти аудіо",
+                "categoryName": "Витяг аудіо",
                 "links": [
                     {
                         "name": "Витяг аудіо",
