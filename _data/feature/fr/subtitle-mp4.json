@@ -1,0 +1,76 @@
+{
+    "Language": "Français",
+    "htmlLangAtt": "fr",
+    "H1": "Insérez facilement des sous-titres en mp4 en ligne",
+    "H2": "Ajouter des sous-titres à mp4 gratuitement sans aucun logiciel à installer",
+    "TITLE": "Ajouter des sous-titres à des vidéos mp4 en ligne gratuitement",
+    "META": "Savez-vous que les vidéos avec sous-titres ont de meilleures chances de rechercher des apparences? Apprenez à ajouter facilement des sous-titres à des vidéos mp4 en ligne avec cet outil gratuit.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX vers PDF",
+    "BREADCRUMB_LABEL": "DOCX VERS PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Indépendant",
+        "content": "Notre site Web est indépendant de la plateforme. Il fonctionne sur les systèmes d'exploitation Windows et iOS et peut être utilisé sans aucun téléchargement requis."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Absolument gratuit",
+        "content": "La conversion est totalement gratuite, vous pouvez donc convertir autant de fichiers que vous le souhaitez."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Confidentialité et sécurité ",
+        "content": "Notre site Web accorde la priorité à la confidentialité de ses clients. Comme nous travaillons avec le stockage dans le cloud, vos fichiers ne sont pas téléchargés. Il n'y a donc aucune chance d'obtenir une violation de données. Avec nous, vos données sont en sécurité !"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Résultats rapides",
+        "content": "Le processus de conversion ne prend que quelques secondes, en fonction de la taille de votre fichier, et vous pouvez facilement obtenir des résultats rapides."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Rapide et efficace",
+        "content": "Le montage vidéo est très rapide et vous pouvez faire votre travail en un rien de temps"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Gain de temps",
+        "content": "Notre site Web est indépendant de la plate-forme, peut fonctionner sur des ordinateurs portables, des onglets et des téléphones et la conversion est rapide, cela permet de gagner du temps."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

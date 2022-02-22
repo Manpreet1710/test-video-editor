@@ -8,7 +8,7 @@
                 "categoryName": "MP4 工具",
                 "links": [
                     {
-                        "name": "裁切 MP4",
+                        "name": "裁剪 MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/zh-TW/crop-mp4",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 刀具",
+                        "name": "MP4 切割機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/zh-TW/mp4-cutter",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/zh-TW/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "將字幕添加到 MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/zh-TW/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -55,7 +61,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊壓縮機",
+                        "name": "視頻壓縮機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/zh-TW/video-compressor",
                         "hover": "blue"
@@ -63,7 +69,7 @@
                 ]
             },
             {
-                "categoryName": "視訊工具",
+                "categoryName": "視頻工具",
                 "links": [
                     {
                         "name": "編輯視頻",
@@ -72,43 +78,43 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "裁切視訊",
+                        "name": "裁剪視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/zh-TW/crop-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "調整視訊大小",
+                        "name": "調整視頻大小",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/zh-TW/resize-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "旋轉視訊",
+                        "name": "旋轉視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
                         "url": "/zh-TW/rotate-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "翻轉視訊",
+                        "name": "翻轉視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/zh-TW/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊切割器",
+                        "name": "視頻切割機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/zh-TW/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊分割器",
+                        "name": "視頻分離器",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/zh-TW/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊微調器",
+                        "name": "視頻微調",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/zh-TW/video-trimmer",
                         "hover": "blue"
@@ -116,10 +122,10 @@
                 ]
             },
             {
-                "categoryName": "擷取音訊",
+                "categoryName": "提取音頻",
                 "links": [
                     {
-                        "name": "擷取音訊",
+                        "name": "提取音頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/zh-TW/extract-audio",
                         "hover": "blue"
@@ -130,7 +136,7 @@
     },
     "navItems": [
         {
-            "name": "部落格",
+            "name": "博客",
             "url": "/blog"
         }
     ]

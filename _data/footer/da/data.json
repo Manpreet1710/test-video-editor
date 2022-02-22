@@ -1,9 +1,9 @@
 {
     "logo": "/assets/safevideokit.svg",
     "heading": "Vi gør videoredigering let.",
-    "companytitle": "Selskab",
+    "companytitle": "Firma",
     "producttitle": "Produkt",
-    "networksitestitle": "Netværkssteder",
+    "networksitestitle": "Netværkswebsteder",
     "company": [
         {
             "name": "Om",
@@ -25,113 +25,120 @@
     "product": [
         {
             "name": "Beskær MP4",
-            "description": "Beskær enhver MP4-video",
+            "description": "Beskær enhver MP4 video",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "da/crop-mp4"
+            "url": "/da/crop-mp4"
         },
         {
             "name": "Beskær video",
             "description": "Beskær enhver video",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "da/crop-video"
+            "url": "/da/crop-video"
         },
         {
             "name": "MP4 editor",
-            "description": "Redigér enhver MP4-video",
+            "description": "Rediger enhver MP4-video",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "da/edit-mp4-video"
+            "url": "/da/edit-mp4-video"
         },
         {
             "name": "Flip video",
             "description": "Flip enhver video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "da/flip-video"
+            "url": "/da/flip-video"
         },
         {
             "name": "MOV kompressor",
-            "description": "Komprimer enhver MOV-video",
+            "description": "Komprimer enhver MOV video",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "da/mov-compressor"
+            "url": "/da/mov-compressor"
         },
         {
             "name": "MP4 kompressor",
-            "description": "Komprimer eventuelle MP4-videoer",
+            "description": "Komprimer eventuelle MP4 videoer",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "da/mp4-compressor"
+            "url": "/da/mp4-compressor"
         },
         {
-            "name": "MP4 fræser",
-            "description": "Klip enhver MP4-video",
+            "name": "MP4 Cutter",
+            "description": "Skær enhver MP4 video",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "da/mp4-cutter"
+            "url": "/da/mp4-cutter"
         },
         {
-            "name": "video editor",
-            "description": "Redigér enhver video",
+            "name": "Video Editor",
+            "description": "Rediger enhver video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "da/video-editor"
+            "url": "/da/video-editor"
         },
         {
             "name": "MP4 trimmer",
-            "description": "Trim enhver MP4-video",
+            "description": "Trim enhver MP4 video",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "da/mp4-trimmer"
+            "url": "/da/mp4-trimmer"
         },
         {
-            "name": "Tilpas størrelse på video",
-            "description": "Ændr størrelse på enhver video",
+            "name": "Tilføj undertekster til MP4",
+            "description": "Føj undertekster til en MP4-video",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/da/subtitle-mp4"
+        },
+        {
+            "name": "Ændre størrelsen på video",
+            "description": "Ændre størrelsen på enhver video",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "da/resize-video"
+            "url": "/da/resize-video"
         },
         {
             "name": "Video kompressor",
             "description": "Komprimer enhver video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "da/video-compressor"
+            "url": "/da/video-compressor"
         },
         {
-            "name": "video-cutter",
-            "description": "Klip enhver video",
+            "name": "Video Cutter",
+            "description": "Skær enhver video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "da/video-cutter"
+            "url": "/da/video-cutter"
         },
         {
-            "name": "Video roterer",
+            "name": "Video Rotatere",
             "description": "Roter enhver video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "da/video-rotater"
+            "url": "/da/video-rotater"
         },
         {
             "name": "Video splitter",
             "description": "Opdel enhver video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "da/video-splitter"
+            "url": "/da/video-splitter"
         },
         {
             "name": "Video trimmer",
             "description": "Trim enhver video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "da/video-trimmer"
+            "url": "/da/video-trimmer"
         },
         {
             "name": "Uddrag video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "da/extract-audio"
+            "url": "/da/extract-audio"
         }
     ],
     "networkSites": [],
@@ -149,7 +156,7 @@
         {
             "logo": "/assets/instagram.svg",
             "url": "/",
-            "title": "instagram"
+            "title": "Instagram"
         },
         {
             "logo": "/assets/linkdin.svg",
@@ -159,7 +166,7 @@
         {
             "logo": "/assets/twitter.svg",
             "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
-            "title": "Twitter"
+            "title": "twitter"
         }
     ],
     "messege": "© 2021 — Made with love for the people of the world.",

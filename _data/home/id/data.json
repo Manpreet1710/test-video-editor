@@ -5,19 +5,19 @@
     "h2": "Tidak ada file yang dikirim ke server. 100% aman.",
     "title": "Safevideokit.com - Cara paling aman untuk memproses video Anda",
     "TITLE": "Safevideokit.com - Cara paling aman untuk memproses video Anda",
-    "meta": "Alat editor video online kami benar-benar gratis dan mudah digunakan. Kami memastikan semua data Anda aman saat Anda mengedit video. Kami mendukung berbagai macam format video seperti mp3, mov, mkv dll",
-    "keywords": "key1,key2,key3,key4",
+    "meta": "Alat editor video online kami benar-benar gratis dan mudah digunakan. Kami memastikan semua data Anda aman saat Anda mengedit video Anda. Kami mendukung berbagai macam format video seperti mp3, mov, mkv dll",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
-            "name": "Pangkas MP4",
-            "description": "Memotong video MP4 apa pun",
+            "name": "Tanaman MP4",
+            "description": "Pangkas semua video MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/id/crop-mp4"
         },
         {
             "name": "Pangkas video",
-            "description": "Memotong video apa pun",
+            "description": "Pangkas video apa pun",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/id/crop-video"
@@ -30,15 +30,15 @@
             "url": "/id/edit-mp4-video"
         },
         {
-            "name": "Membalik video",
-            "description": "Membalik video apa pun",
+            "name": "Video Balik",
+            "description": "Balik video apa pun",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/id/flip-video"
         },
         {
             "name": "Kompresor MOV",
-            "description": "Kompres video MOV apa pun",
+            "description": "Kompres setiap video MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/id/mov-compressor"
@@ -52,21 +52,21 @@
         },
         {
             "name": "Pemotong MP4",
-            "description": "Memotong video MP4",
+            "description": "Potong video MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/id/mp4-cutter"
         },
         {
-            "name": "editor video",
+            "name": "Editor Video",
             "description": "Mengedit video apa pun",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/id/video-editor"
         },
         {
-            "name": "Pemangkas MP4",
-            "description": "Memangkas setiap video MP4",
+            "name": "MP4 pemangkas",
+            "description": "Memangkas video MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/id/mp4-trimmer"
@@ -86,40 +86,47 @@
             "url": "/id/video-compressor"
         },
         {
-            "name": "pemotong video",
-            "description": "Memotong video apa pun",
+            "name": "Pemotong Video",
+            "description": "Potong video apa pun",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/id/video-cutter"
         },
         {
-            "name": "Video Rotator",
-            "description": "Memutar video apa pun",
+            "name": "Pemutar video",
+            "description": "Putar video apa pun",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/id/video-rotater"
         },
         {
-            "name": "Pembagi video",
-            "description": "Membagi video apa pun",
+            "name": "Video splitter",
+            "description": "Membagi setiap video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/id/video-splitter"
         },
         {
-            "name": "Pemangkas video",
-            "description": "Potong video apa pun",
+            "name": "Video pemangkas",
+            "description": "Potong video apapun",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/id/video-trimmer"
         },
         {
             "name": "Ekstrak audio",
-            "description": "Mengekstrak audio dari video",
+            "description": "Ekstrak audio dari video",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/id/extract-audio"
-        } 
+        },
+        {
+            "name": "Tambahkan sub judul ke MP4",
+            "description": "Tambahkan subtitle ke video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/id/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

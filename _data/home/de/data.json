@@ -1,12 +1,12 @@
 {
     "Language": "Deutsch",
     "htmlLangAtt": "de",
-    "h1": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
+    "h1": "SafeVideoKit.com - Der sicherste Weg Ihre Videos zu verarbeiten",
     "h2": "Es werden keine Dateien an den Server gesendet. 100% sicher.",
-    "title": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
-    "TITLE": "SafeVideoKIT.com - Die sicherste Art, Ihre Videos zu verarbeiten",
-    "meta": "Unser Online-Video-Editor-Tool ist absolut kostenlos und einfach zu bedienen. Wir stellen sicher, dass alle Ihre Daten sicher sind, während Sie Ihr Video bearbeiten. Wir unterstützen eine Vielzahl von Videoformaten wie MP3, MOV, MKV usw.",
-    "keywords": "key1,key2,key3,key4",
+    "title": "SafeVideoKit.com - Der sicherste Weg Ihre Videos zu verarbeiten",
+    "TITLE": "SafeVideoKit.com - Der sicherste Weg Ihre Videos zu verarbeiten",
+    "meta": "Unser Online-Video-Editor-Tool ist absolut kostenlos und einfach zu bedienen. Wir sorgen dafür, dass alle Ihre Daten sicher sind, während Sie Ihr Video bearbeiten. Wir unterstützen eine Vielzahl von Videoformaten wie MP3, MOV, MKV usw.",
+    "keywords":"key1,key2,key3,key4",
     "features": [
         {
             "name": "MP4 zuschneiden",
@@ -17,13 +17,13 @@
         },
         {
             "name": "Video zuschneiden",
-            "description": "Beschneide jedes Video",
+            "description": "Jedes Video zuschneiden",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/de/crop-video"
         },
         {
-            "name": "MP4-Redakteur",
+            "name": "MP4-Editor",
             "description": "Bearbeiten Sie jedes MP4-Video",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -31,7 +31,7 @@
         },
         {
             "name": "Video umdrehen",
-            "description": "Drehen Sie jedes Video um",
+            "description": "Jedes Video umdrehen",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/de/flip-video"
@@ -45,20 +45,20 @@
         },
         {
             "name": "MP4-Kompressor",
-            "description": "Komprimiere alle MP4-Videos",
+            "description": "Komprimieren Sie alle MP4-Videos",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/de/mp4-compressor"
         },
         {
-            "name": "MP4-Schneider",
+            "name": "MP4-Ausstecher",
             "description": "Schneiden Sie jedes MP4-Video",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/de/mp4-cutter"
         },
         {
-            "name": "Videoeditor",
+            "name": "Videobearbeiter",
             "description": "Bearbeiten Sie jedes Video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -72,8 +72,8 @@
             "url": "/de/mp4-trimmer"
         },
         {
-            "name": "Video Größe ändern",
-            "description": "Ändern Sie die Größe jedes Videos",
+            "name": "Video skalieren",
+            "description": "Ändern der Größe eines beliebigen Videos",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/de/resize-video"
@@ -93,7 +93,7 @@
             "url": "/de/video-cutter"
         },
         {
-            "name": "Video-Rotater",
+            "name": "Video-Drehmaschine",
             "description": "Drehen Sie jedes Video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
@@ -107,7 +107,7 @@
             "url": "/de/video-splitter"
         },
         {
-            "name": "Videoschneider",
+            "name": "Trimmer",
             "description": "Trimmen Sie jedes Video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -119,7 +119,14 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/de/extract-audio"
-        } 
+        },
+        {
+            "name": "Untertitel zu MP4 hinzufügen",
+            "description": "Untertitel zu einem MP4-Video hinzufügen",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/de/subtitle-mp4"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

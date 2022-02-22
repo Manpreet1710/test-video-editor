@@ -8,13 +8,13 @@
                 "categoryName": "MP4 Araçları",
                 "links": [
                     {
-                        "name": "Kırpma MP4",
+                        "name": "MP4 kırpma",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/tr/crop-mp4",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 Düzenle",
+                        "name": "MP4'ü Düzenle",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/tr/edit-mp4-video",
                         "hover": "blue"
@@ -36,11 +36,17 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/tr/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "MP4'e Altyazı Ekle",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/tr/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
-                "categoryName": "Sıkıştır",
+                "categoryName": "Sıkıştırma",
                 "links": [
                     {
                         "name": "MOV kompresör",
@@ -96,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "video kesici",
+                        "name": "Video Kesici",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/tr/video-cutter",
                         "hover": "blue"
@@ -116,10 +122,10 @@
                 ]
             },
             {
-                "categoryName": "Ses Ayıklama",
+                "categoryName": "Ses Ayıkla",
                 "links": [
                     {
-                        "name": "Ses ayıklama",
+                        "name": "Ses ayıkla",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/tr/extract-audio",
                         "hover": "blue"

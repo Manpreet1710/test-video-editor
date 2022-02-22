@@ -1,8 +1,8 @@
 {
     "logo": "/assets/safevideokit.svg",
     "heading": "Мы упрощаем редактирование видео.",
-    "companytitle": "компании",
-    "producttitle": "продукт",
+    "companytitle": "Компания",
+    "producttitle": "Изделие",
     "networksitestitle": "Сетевые сайты",
     "company": [
         {
@@ -10,7 +10,7 @@
             "url": "/about"
         },
         {
-            "name": "Помогите",
+            "name": "Помощь",
             "url": "/help"
         },
         {
@@ -25,113 +25,120 @@
     "product": [
         {
             "name": "Обрезка MP4",
-            "description": "Обрезайте любое видео MP4",
+            "description": "Обрезать любое видео MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ru/crop-mp4"
+            "url": "/ru/crop-mp4"
         },
         {
             "name": "Кадрирование видео",
-            "description": "Обрезайте любое видео",
+            "description": "Обрезка любого видео",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ru/crop-video"
+            "url": "/ru/crop-video"
         },
         {
             "name": "Редактор MP4",
             "description": "Редактируйте любое видео MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ru/edit-mp4-video"
+            "url": "/ru/edit-mp4-video"
         },
         {
             "name": "Флип-видео",
             "description": "Переверните любое видео",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "ru/flip-video"
+            "url": "/ru/flip-video"
         },
         {
-            "name": "MOV компрессор",
+            "name": "Компрессор MOV",
             "description": "Сжатие любого видео MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ru/mov-compressor"
+            "url": "/ru/mov-compressor"
         },
         {
             "name": "Компрессор MP4",
             "description": "Сжатие любых видео MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ru/mp4-compressor"
+            "url": "/ru/mp4-compressor"
         },
         {
             "name": "Резак MP4",
-            "description": "Вырезать любое видео MP4",
+            "description": "Вырежьте любое видео MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ru/mp4-cutter"
+            "url": "/ru/mp4-cutter"
         },
         {
-            "name": "видеоредактор",
+            "name": "Редактор видео",
             "description": "Редактируйте любое видео",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ru/video-editor"
+            "url": "/ru/video-editor"
         },
         {
-            "name": "триммер MP4",
-            "description": "Обрезайте любое видео MP4",
+            "name": "Триммер MP4",
+            "description": "Обрежьте любое видео MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ru/mp4-trimmer"
+            "url": "/ru/mp4-trimmer"
+        },
+        {
+            "name": "Добавить субтитры в MP4",
+            "description": "Добавить субтитры к видео MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ru/subtitle-mp4"
         },
         {
             "name": "Изменить размер видео",
             "description": "Измените размер любого видео",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "ru/resize-video"
+            "url": "/ru/resize-video"
         },
         {
             "name": "Компрессор видео",
             "description": "Сжатие любого видео",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ru/video-compressor"
+            "url": "/ru/video-compressor"
         },
         {
-            "name": "видео-резак",
+            "name": "Видео резак",
             "description": "Вырезайте любое видео",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ru/video-cutter"
+            "url": "/ru/video-cutter"
         },
         {
             "name": "Ротатор видео",
-            "description": "Поворачивайте любое видео",
+            "description": "Поверните любое видео",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "ru/video-rotater"
+            "url": "/ru/video-rotater"
         },
         {
             "name": "Разветвитель видео",
             "description": "Разделите любое видео",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ru/video-splitter"
+            "url": "/ru/video-splitter"
         },
         {
             "name": "Триммер для видео",
-            "description": "Обрезайте любое видео",
+            "description": "Обрезка любого видео",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ru/video-trimmer"
+            "url": "/ru/video-trimmer"
         },
         {
             "name": "Извлечь видео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "ru/extract-audio"
+            "url": "/ru/extract-audio"
         }
     ],
     "networkSites": [],
@@ -154,7 +161,7 @@
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "ссылка в"
+            "title": "увязка"
         },
         {
             "logo": "/assets/twitter.svg",

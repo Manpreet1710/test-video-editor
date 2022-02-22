@@ -87,6 +87,13 @@
       "url": "/mp4-trimmer"
     },
     {
+      "name": "Add Subtitles to MP4",
+      "description": "Add Subtitles to a MP4 video",
+      "color": "#BD7ED8",
+      "icon": "/assets/FeatureIcons/subtitle.svg",
+      "url": "/subtitle-mp4"
+    },
+    {
       "name": "Resize video",
       "description": "Resize any video",
       "color": "#ff793f",

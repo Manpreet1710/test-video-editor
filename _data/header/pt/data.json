@@ -20,7 +20,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor MP4",
+                        "name": "Compressor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/pt/mp4-compressor",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/pt/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Adicionar legendas ao MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/pt/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -49,13 +55,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor MP4",
+                        "name": "Compressor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/pt/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor de vídeo",
+                        "name": "Compressor de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/pt/video-compressor",
                         "hover": "blue"
@@ -72,7 +78,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vídeo de recorte",
+                        "name": "Cortar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/pt/crop-video",
                         "hover": "blue"
@@ -90,13 +96,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vídeo flip",
+                        "name": "Virar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/pt/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "cortador de vídeo",
+                        "name": "Cortador de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/pt/video-cutter",
                         "hover": "blue"

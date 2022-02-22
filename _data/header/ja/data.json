@@ -5,38 +5,44 @@
         "nav-link-name": "Tools",
         "dropdown": [
             {
-                "categoryName": "MP4ツール",
+                "categoryName": "MP4 ツール",
                 "links": [
                     {
-                        "name": "切り抜くMP4",
+                        "name": "MP4 をクロップ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/ja/crop-mp4",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4を編集",
+                        "name": "MP4 を編集",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/ja/edit-mp4-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4コンプレッサー",
+                        "name": "MP4 コンプレッサー",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ja/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4カッター",
+                        "name": "MP4 カッター",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/ja/mp4-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4トリマー",
+                        "name": "MP4 トリマー",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/ja/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "MP4 に字幕を追加する",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/ja/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -49,7 +55,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4コンプレッサー",
+                        "name": "MP4 コンプレッサー",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ja/mp4-compressor",
                         "hover": "blue"
@@ -63,10 +69,10 @@
                 ]
             },
             {
-                "categoryName": "ビデオツール",
+                "categoryName": "動画ツール",
                 "links": [
                     {
-                        "name": "ビデオを編集する",
+                        "name": "動画を編集",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/ja/video-editor",
                         "hover": "blue"
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "ビデオのサイズを変更",
+                        "name": "動画のサイズ変更",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/ja/resize-video",
                         "hover": "blue"
@@ -90,7 +96,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "フリップビデオ",
+                        "name": "動画を反転",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/ja/flip-video",
                         "hover": "blue"
@@ -116,10 +122,10 @@
                 ]
             },
             {
-                "categoryName": "オーディオを抽出",
+                "categoryName": "音声抽出",
                 "links": [
                     {
-                        "name": "オーディオを抽出",
+                        "name": "音声を抽出",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/ja/extract-audio",
                         "hover": "blue"
