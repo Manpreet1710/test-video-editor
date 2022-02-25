@@ -1,0 +1,159 @@
+{
+    "facebook":[
+        {
+            "id": "0",
+            "name": "Facbook Feed Landscape",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Facbook Feed Potrait",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Facbook Story",
+            "width": "1280",
+            "height": "1280",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "3",
+            "name": "Facbook Ads Landscape",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "4",
+            "name": "Facbook Ads Square",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "5",
+            "name": "Facbook 360",
+            "width": "4096",
+            "height": "2048",
+            "aspect-width": "2",
+            "aspect-height": "1",
+            "fps": "30"
+        },
+        {
+            "id": "6",
+            "name": "Facbook Carousel Video Ads Square",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "7",
+            "name": "Facbook Carousel Video Ads Landscape",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        }
+    ],
+    "instagram":[
+        {
+            "id": "0",
+            "name": "Instagram Organic Landscape",
+            "width": "600",
+            "height": "315",
+            "aspect-width": "1.9",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Instagram Organic Square",
+            "width": "600",
+            "height": "600",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Instagram Organic Potrait",
+            "width": "600",
+            "height": "750",
+            "aspect-width": "4",
+            "aspect-height": "5",
+            "fps": "29"
+        },
+        {
+            "id": "3",
+            "name": "Instagram Ads Landscape",
+            "width": "600",
+            "height": "315",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "4",
+            "name": "Instagram Ads Square",
+            "width": "600",
+            "height": "600",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "5",
+            "name": "Instagram Ads Potrait",
+            "width": "600",
+            "height": "750",
+            "aspect-width": "4",
+            "aspect-height": "5",
+            "fps": "29"
+        },
+        {
+            "id": "6",
+            "name": "Instagram Carousel Video Ads",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "7",
+            "name": "Instagram Stories",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "8",
+            "name": "Instagram IGTV",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        }
+    ]
+}
