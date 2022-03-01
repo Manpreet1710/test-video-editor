@@ -208,16 +208,9 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
             for(let i = 0; i < Object.keys(dimens).length;i++){
                 //console.log(dimens[i.toString()]["name"]);
                 let w = 0 , h = 0;
-                if(parseFloat(dimens[i.toString()]["aspect-width"])<parseFloat(dimens[i.toString()]["aspect-height"]))
-                {
-                    w = parseInt(dimens[i.toString()]["height"]);
-                    h = parseInt(dimens[i.toString()]["width"]);
-                }
-                else
-                {
-                    w = parseInt(dimens[i.toString()]["width"]);
-                    h = parseInt(dimens[i.toString()]["height"]);
-                }
+                
+                w = parseInt(dimens[i.toString()]["width"]);
+                h = parseInt(dimens[i.toString()]["height"]);
 
                 let canvas = document.createElement("canvas");
                 let ctx = canvas.getContext("2d");

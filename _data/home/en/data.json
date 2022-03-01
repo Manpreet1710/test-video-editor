@@ -125,6 +125,69 @@
       "color": "#BD7ED8",
       "icon": "/assets/FeatureIcons/subtitle.svg",
       "url": "/subtitle-mp4"
+    },
+    {
+      "name": "Resize For Facebook",
+      "description": "Resize Video For Facebook",
+      "color": "#1773EA",
+      "icon": "/assets/FeatureIcons/facebook.svg",
+      "url": "/resize-for-facebook"
+    },
+    {
+      "name": "Resize For Instagram",
+      "description": "Resize Video For Instagram",
+      "color": "#F00075",
+      "icon": "/assets/FeatureIcons/instagram.svg",
+      "url": "/resize-for-instagram"
+    },
+    {
+      "name": "Resize For Linkedin",
+      "description": "Resize Video For Linkedin",
+      "color": "#0A66C2",
+      "icon": "/assets/FeatureIcons/linkedin.svg",
+      "url": "/resize-for-linkedin"
+    },
+    {
+      "name": "Resize For Pinterest",
+      "description": "Resize Video For Pinterest",
+      "color": "#BD081C",
+      "icon": "/assets/FeatureIcons/pinterest.svg",
+      "url": "/resize-for-pinterest"
+    },
+    {
+      "name": "Resize For Snapchat",
+      "description": "Resize Video For Snapchat",
+      "color": "#9999FF",
+      "icon": "/assets/FeatureIcons/snapchat.svg",
+      "url": "/resize-for-snapchat"
+    },
+    {
+      "name": "Resize For Tiktok",
+      "description": "Resize Video For Tiktok",
+      "color": "#D44638",
+      "icon": "/assets/FeatureIcons/tiktok.svg",
+      "url": "/resize-for-tiktok"
+    },
+    {
+      "name": "Resize For Twitter",
+      "description": "Resize Video For Twitter",
+      "color": "#1DA1F2",
+      "icon": "/assets/FeatureIcons/twitter.svg",
+      "url": "/resize-for-twitter"
+    },
+    {
+      "name": "Resize For Whatsapp",
+      "description": "Resize Video For Whatsapp",
+      "color": "#21A218",
+      "icon": "/assets/FeatureIcons/whatsapp.svg",
+      "url": "/resize-for-whatsapp"
+    },
+    {
+      "name": "Resize For Youtube",
+      "description": "Resize Video For Youtube",
+      "color": "#FF0000",
+      "icon": "/assets/FeatureIcons/youtube.svg",
+      "url": "/resize-for-youtube"
     }
     
 

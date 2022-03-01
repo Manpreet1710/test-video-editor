@@ -1,6 +1,38 @@
 [
     {
         "website": "safevideokit",
-        "feature": "subtitle-mp4"
+        "feature": "resize-for-facebook"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-instagram"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-linkedin"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-pinterest"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-snapchat"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-tiktok"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-twitter"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-whatsapp"
+    },
+    {
+        "website": "safevideokit",
+        "feature": "resize-for-youtube"
     }
 ]
