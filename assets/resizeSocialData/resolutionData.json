@@ -79,8 +79,8 @@
             "name": "Instagram Organic Landscape",
             "width": "600",
             "height": "315",
-            "aspect-width": "1.9",
-            "aspect-height": "1",
+            "aspect-width": "19",
+            "aspect-height": "10",
             "fps": "29"
         },
         {
@@ -238,8 +238,8 @@
             "name": "Twitter Video/Ads Landscape Small",
             "width": "320",
             "height": "180",
-            "aspect-width": "2.39",
-            "aspect-height": "1",
+            "aspect-width": "239",
+            "aspect-height": "100",
             "fps": "39"
         },
         {
@@ -247,8 +247,8 @@
             "name": "Twitter Video/Ads Landscape Medium",
             "width": "640",
             "height": "360",
-            "aspect-width": "2.39",
-            "aspect-height": "1",
+            "aspect-width": "239",
+            "aspect-height": "100",
             "fps": "39"
         },
         {
@@ -256,8 +256,8 @@
             "name": "Twitter Video/Ads Landscape Large",
             "width": "1280",
             "height": "720",
-            "aspect-width": "2.39",
-            "aspect-height": "1",
+            "aspect-width": "239",
+            "aspect-height": "100",
             "fps": "39"
         },
         {
@@ -265,8 +265,8 @@
             "name": "Twitter Video/Ads Potrait Small",
             "width": "240",
             "height": "240",
-            "aspect-width": "1",
-            "aspect-height": "2.39",
+            "aspect-width": "100",
+            "aspect-height": "239",
             "fps": "39"
         },
         {
@@ -274,8 +274,8 @@
             "name": "Twitter Video/Ads Potrait Medium",
             "width": "480",
             "height": "480",
-            "aspect-width": "1",
-            "aspect-height": "2.39",
+            "aspect-width": "100",
+            "aspect-height": "239",
             "fps": "39"
         },
         {
@@ -283,8 +283,8 @@
             "name": "Twitter Video/Ads Potrait Large",
             "width": "640",
             "height": "640",
-            "aspect-width": "1",
-            "aspect-height": "2.39",
+            "aspect-width": "100",
+            "aspect-height": "239",
             "fps": "39"
         }
     ],
@@ -436,7 +436,7 @@
             "width": "750",
             "height": "1334",
             "aspect-width": "9",
-            "aspect-height": "16.08",
+            "aspect-height": "16",
             "fps": "29"
         }
     ]
