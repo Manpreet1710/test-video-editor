@@ -545,5 +545,13 @@
     #bottomButtons{
       bottom: 60px;
     }
+    .card-columns{
+      column-count: 1 !important;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .card-columns{
+      column-count: 2 !important;
+    }
   }
   /*# sourceMappingURL=resizeSocial.css.map */

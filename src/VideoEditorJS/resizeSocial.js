@@ -223,7 +223,7 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
                 temp.className = "row";
                 let cardHeader1 = document.createElement("div");
                 cardHeader1.className = "col-md-auto";
-                cardHeader1.innerHTML = dimens[i.toString()]["name"];
+                cardHeader1.innerHTML = "<h5>"+dimens[i.toString()]["name"]+"</h5>";
 
                 let checkDiv = document.createElement("div");
                 checkDiv.className = "col-md-auto ml-auto";
@@ -265,14 +265,7 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
                 card.appendChild(cardBody);
                 card.appendChild(cardFooter);
 
-                let col = document.createElement("div");
-                col.setAttribute("class","col-md-auto");
-                
-                col.appendChild(card);
-
-                col.style.margin = "1em";
-
-                document.getElementById("row").appendChild(col);
+                document.getElementById("row").appendChild(card);
 
                 // Workspace.appendChild(col);
             }
