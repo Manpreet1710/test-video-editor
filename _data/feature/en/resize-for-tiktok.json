@@ -1,0 +1,76 @@
+{
+    "Language": "English",
+    "htmlLangAtt": "en",
+    "H1": "Resize for Tiktok",
+    "H2": "",
+    "TITLE": "",
+    "META": "",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX to PDF",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#D44638",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/tiktok.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Independent",
+        "content": "Our website is platform independent. It works on both Window and iOS Operating systems and can be used without any downloads required."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Absolutely Free",
+        "content": "The conversion is absolutely free, so you can convert as many files as you want."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privacy and Security ",
+        "content": "Our website prioritises its customers’ privacy. The application works completely on your browser without invlolving any server.Hence your data is safe!"
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Quick Results",
+        "content": "The conversion process hardly takes a few seconds, depending on your file size, and you can get quick results easily."
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Fast and efficient",
+        "content": "Video editing is really fast and you can get your job done in no time"
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Saves Time",
+        "content": "Our website is platform independent, can work on laptops, tabs and phones and the conversion is quick, it saves time."
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  
