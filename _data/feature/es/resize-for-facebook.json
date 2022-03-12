@@ -1,0 +1,81 @@
+{
+    "Language": "Español",
+    "htmlLangAtt": "es",
+    "H1": "Es muy fácil cambiar el tamaño del video mediante el uso de la herramienta de cambio de tamaño para Facebook.",
+    "H2": "Haga clic para cambiar el tamaño del video para Facebook",
+    "TITLE": "Redimensionar para Facebook: crea el videoclip perfecto para facebook",
+    "META": "La mejor herramienta para hacer videos de facebook de aspecto profesional. Ajuste los tamaños y la relación de aspecto del vídeo en safevideokit. Es fácil cambiar el tamaño del video de Facebook con solo unos pocos clics para que se ajuste a marcos panorámicos, cuadrados o verticales.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX a PDF",
+    "BREADCRUMB_LABEL": "DOCX A PDF",
+    "color": "#1773EA",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/facebook.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independiente",
+            "content": "Nuestro sitio web es independiente de la plataforma. Funciona tanto en sistemas operativos Windows como iOS y se puede usar sin necesidad de descargas."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolutamente gratis",
+            "content": "La conversión es absolutamente gratuita, por lo que puede convertir tantos archivos como desee."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidad y seguridad ",
+            "content": "Nuestro sitio web prioriza la privacidad de sus clientes. La aplicación funciona completamente en su navegador sin involucrar a ningún servidor. ¡Por lo tanto, sus datos están seguros!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "El proceso de conversión apenas tarda unos segundos, dependiendo del tamaño del archivo, y puede obtener resultados rápidos fácilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido y eficiente",
+            "content": "La edición de vídeo es muy rápida y puedes hacer tu trabajo en poco tiempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Ahorra tiempo",
+            "content": "Nuestro sitio web es independiente de la plataforma, puede funcionar en computadoras portátiles, pestañas y teléfonos y la conversión es rápida, ahorra tiempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -6,7 +6,7 @@
     "title": "SafeVideokit.com - самый безопасный способ обработки ваших видео",
     "TITLE": "SafeVideokit.com - самый безопасный способ обработки ваших видео",
     "meta": "Наш онлайн-редактор видео абсолютно бесплатный и простой в использовании. Мы позаботимся о том, чтобы все ваши данные были в безопасности во время редактирования видео. Мы поддерживаем широкий спектр видеоформатов, таких как mp3, mov, mkv и т. Д.",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "Обрезка MP4",
@@ -126,6 +126,69 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/ru/subtitle-mp4"
+        },
+        {
+            "name": "Изменить размер для Facebook",
+            "description": "Изменить размер видео для Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ru/resize-for-facebook"
+        },
+        {
+            "name": "Изменить размер для Instagram",
+            "description": "Изменить размер видео для Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ru/resize-for-instagram"
+        },
+        {
+            "name": "Изменить размер для Linkedin",
+            "description": "Изменить размер видео для Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ru/resize-for-linkedin"
+        },
+        {
+            "name": "Изменить размер для Pinterest",
+            "description": "Изменить размер видео для Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ru/resize-for-pinterest"
+        },
+        {
+            "name": "Изменить размер для Snapchat",
+            "description": "Изменить размер видео для Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ru/resize-for-snapchat"
+        },
+        {
+            "name": "Изменить размер для Tiktok",
+            "description": "Изменить размер видео для Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ru/resize-for-tiktok"
+        },
+        {
+            "name": "Изменить размер для Twitter",
+            "description": "Изменить размер видео для Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ru/resize-for-twitter"
+        },
+        {
+            "name": "Изменить размер для Whatsapp",
+            "description": "Изменить размер видео для Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ru/resize-for-whatsapp"
+        },
+        {
+            "name": "Изменить размер для Youtube",
+            "description": "Изменить размер видео для Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ru/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {

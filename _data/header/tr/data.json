@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/tr/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Facebook İçin Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/tr/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Instagram için Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/tr/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Linkedin için Yeniden Boyutlandırma",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/tr/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Pinterest için Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/tr/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Snapchat İçin Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/tr/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Tiktok için Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/tr/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Twitter İçin Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/tr/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Whatsapp için yeniden boyutlandırma",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/tr/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Youtube için Yeniden Boyutlandır",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/tr/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

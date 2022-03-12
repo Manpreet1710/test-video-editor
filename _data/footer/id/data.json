@@ -139,6 +139,51 @@
             "name": "Ekstrak video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/id/extract-audio"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/id/resize-for-facebook"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/id/resize-for-instagram"
+        },
+        {
+            "name": "Ubah Ukuran Untuk LinkedIn",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/id/resize-for-linkedin"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/id/resize-for-pinterest"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/id/resize-for-snapchat"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/id/resize-for-tiktok"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/id/resize-for-twitter"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/id/resize-for-whatsapp"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/id/resize-for-youtube"
         }
     ],
     "networkSites": [],

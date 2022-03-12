@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/ar/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير الحجم لفيسبوك",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/ar/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير الحجم للحصول على Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/ar/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم لينكد إن",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/ar/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم لموقع Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/ar/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم سناب شات",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/ar/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير الحجم لTiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/ar/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير الحجم لتويتر",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/ar/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم الواتس اب",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/ar/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "تغيير حجم يوتيوب",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/ar/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

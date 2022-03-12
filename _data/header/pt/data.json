@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/pt/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/pt/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/pt/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/pt/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/pt/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/pt/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/pt/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/pt/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/pt/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/pt/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

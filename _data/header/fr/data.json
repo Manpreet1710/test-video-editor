@@ -8,13 +8,13 @@
                 "categoryName": "Outils MP4",
                 "links": [
                     {
-                        "name": "Crop MP4",
+                        "name": "Récolte MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/fr/crop-mp4",
                         "hover": "blue"
                     },
                     {
-                        "name": "Modifier MP4",
+                        "name": "Éditer MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/fr/edit-mp4-video",
                         "hover": "blue"
@@ -26,13 +26,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Cutter MP4",
+                        "name": "Coupeur MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/fr/mp4-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Tondeuse MP4",
+                        "name": "tondeuse MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/fr/mp4-trimmer",
                         "hover": "blue"
@@ -117,6 +117,60 @@
                         "name": "Trimmer vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/fr/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/fr/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/fr/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/fr/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/fr/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/fr/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/fr/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/fr/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/fr/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/fr/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

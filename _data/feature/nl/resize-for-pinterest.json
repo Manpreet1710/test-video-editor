@@ -1,0 +1,81 @@
+{
+    "Language": "Nederlands",
+    "htmlLangAtt": "nl",
+    "H1": "Het is supereenvoudig om het formaat van video te wijzigen door het formaat wijzigen voor Pinterest-tool te gebruiken",
+    "H2": "Download de gewenste video voor Pinterest",
+    "TITLE": "Formaat wijzigen voor Pinterest- Gratis online resizer voor Pinterest-video's.",
+    "META": "Wijzig het formaat van je gewenste afbeelding met deze gratis online tool voor het wijzigen van het formaat voor pinterest. Het is gemakkelijk om het formaat van video voor Pinterest te wijzigen met de safevideokit door de grootte ervan te wijzigen in vierkant of volledig scherm met slechts een paar klikken.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX naar PDF",
+    "BREADCRUMB_LABEL": "DOCX NAAR PDF",
+    "color": "#BD081C",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/pinterest.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Onafhankelijk",
+            "content": "Onze website is platformonafhankelijk. Het werkt op zowel Windows- als iOS-besturingssystemen en kan worden gebruikt zonder dat er downloads nodig zijn."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Helemaal gratis",
+            "content": "De conversie is helemaal gratis, dus je kunt zoveel bestanden converteren als je wilt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy en beveiliging ",
+            "content": "Onze website geeft prioriteit aan de privacy van zijn klanten. De applicatie werkt volledig in uw browser zonder dat er een server bij betrokken is. Daarom zijn uw gegevens veilig!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snelle resultaten",
+            "content": "Het conversieproces duurt nauwelijks enkele seconden, afhankelijk van uw bestandsgrootte, en u kunt gemakkelijk snelle resultaten behalen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snel en efficiënt",
+            "content": "Videobewerking gaat heel snel en je kunt je werk in een mum van tijd klaren"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Bespaart tijd",
+            "content": "Onze website is platformonafhankelijk, kan werken op laptops, tabbladen en telefoons en de conversie is snel, het bespaart tijd."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

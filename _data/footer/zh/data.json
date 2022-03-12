@@ -139,6 +139,51 @@
             "name": "提取视频",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/zh/extract-audio"
+        },
+        {
+            "name": "为 Facebook 调整大小",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/zh/resize-for-facebook"
+        },
+        {
+            "name": "调整为 Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/zh/resize-for-instagram"
+        },
+        {
+            "name": "为领英调整大小",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/zh/resize-for-linkedin"
+        },
+        {
+            "name": "调整为 Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/zh/resize-for-pinterest"
+        },
+        {
+            "name": "为 Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/zh/resize-for-snapchat"
+        },
+        {
+            "name": "调整为 Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/zh/resize-for-tiktok"
+        },
+        {
+            "name": "为 Twitter 调整大小",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/zh/resize-for-twitter"
+        },
+        {
+            "name": "为 Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/zh/resize-for-whatsapp"
+        },
+        {
+            "name": "调整为 Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/zh/resize-for-youtube"
         }
     ],
     "networkSites": [],

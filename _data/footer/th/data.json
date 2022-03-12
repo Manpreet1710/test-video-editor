@@ -139,6 +139,51 @@
             "name": "แยกวิดีโอ",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/th/extract-audio"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/th/resize-for-facebook"
+        },
+        {
+            "name": "ปรับขนาดสำหรับอินสตาแกรม",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/th/resize-for-instagram"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/th/resize-for-linkedin"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/th/resize-for-pinterest"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/th/resize-for-snapchat"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/th/resize-for-tiktok"
+        },
+        {
+            "name": "ปรับขนาดสำหรับทวิตเตอร์",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/th/resize-for-twitter"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/th/resize-for-whatsapp"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/th/resize-for-youtube"
         }
     ],
     "networkSites": [],

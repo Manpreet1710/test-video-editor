@@ -139,6 +139,51 @@
             "name": "Wyodrębnij wideo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/pl/extract-audio"
+        },
+        {
+            "name": "Zmień rozmiar dla Facebooka",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/pl/resize-for-facebook"
+        },
+        {
+            "name": "Zmień rozmiar na Instagramie",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/pl/resize-for-instagram"
+        },
+        {
+            "name": "Zmień rozmiar dla Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/pl/resize-for-linkedin"
+        },
+        {
+            "name": "Zmień rozmiar na Pintereście",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/pl/resize-for-pinterest"
+        },
+        {
+            "name": "Zmień rozmiar dla Snapchata",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/pl/resize-for-snapchat"
+        },
+        {
+            "name": "Zmień rozmiar dla Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/pl/resize-for-tiktok"
+        },
+        {
+            "name": "Zmień rozmiar na Twitterze",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/pl/resize-for-twitter"
+        },
+        {
+            "name": "Zmień rozmiar dla Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/pl/resize-for-whatsapp"
+        },
+        {
+            "name": "Zmień rozmiar na Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/pl/resize-for-youtube"
         }
     ],
     "networkSites": [],

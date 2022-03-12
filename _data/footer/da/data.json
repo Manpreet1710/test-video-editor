@@ -139,6 +139,51 @@
             "name": "Uddrag video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/da/extract-audio"
+        },
+        {
+            "name": "Ændre størrelse til Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/da/resize-for-facebook"
+        },
+        {
+            "name": "Ændre størrelse til Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/da/resize-for-instagram"
+        },
+        {
+            "name": "Ændre størrelse til Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/da/resize-for-linkedin"
+        },
+        {
+            "name": "Ændre størrelse til Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/da/resize-for-pinterest"
+        },
+        {
+            "name": "Ændre størrelse til snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/da/resize-for-snapchat"
+        },
+        {
+            "name": "Ændre størrelse til Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/da/resize-for-tiktok"
+        },
+        {
+            "name": "Ændre størrelse til Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/da/resize-for-twitter"
+        },
+        {
+            "name": "Ændre størrelse til Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/da/resize-for-whatsapp"
+        },
+        {
+            "name": "Ændre størrelse til Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/da/resize-for-youtube"
         }
     ],
     "networkSites": [],

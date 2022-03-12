@@ -6,7 +6,7 @@
     "title": "Safevideokit.com - Najbezpieczniejszy sposób przetwarzania filmów",
     "TITLE": "Safevideokit.com - Najbezpieczniejszy sposób przetwarzania filmów",
     "meta": "Nasze narzędzie do edycji wideo online jest całkowicie bezpłatne i jest łatwe w użyciu. Dbamy o to, aby wszystkie Twoje dane były bezpieczne podczas edycji filmu. Wspieramy szeroką gamę formatów wideo, takich jak mp3, mov, mkv itp.",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "Crop MP4",
@@ -126,6 +126,69 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/pl/subtitle-mp4"
+        },
+        {
+            "name": "Zmień rozmiar dla Facebooka",
+            "description": "Zmiana rozmiaru wideo na Facebooku",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/pl/resize-for-facebook"
+        },
+        {
+            "name": "Zmień rozmiar na Instagramie",
+            "description": "Zmień rozmiar wideo na Instagramie",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/pl/resize-for-instagram"
+        },
+        {
+            "name": "Zmień rozmiar dla Linkedin",
+            "description": "Zmiana rozmiaru wideo dla Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/pl/resize-for-linkedin"
+        },
+        {
+            "name": "Zmień rozmiar na Pintereście",
+            "description": "Zmiana rozmiaru wideo na Pintereście",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/pl/resize-for-pinterest"
+        },
+        {
+            "name": "Zmień rozmiar dla Snapchata",
+            "description": "Zmiana rozmiaru wideo dla Snapchata",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/pl/resize-for-snapchat"
+        },
+        {
+            "name": "Zmień rozmiar dla Tiktok",
+            "description": "Zmiana rozmiaru wideo dla Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/pl/resize-for-tiktok"
+        },
+        {
+            "name": "Zmień rozmiar na Twitterze",
+            "description": "Zmiana rozmiaru wideo na Twitterze",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/pl/resize-for-twitter"
+        },
+        {
+            "name": "Zmień rozmiar dla Whatsapp",
+            "description": "Zmień rozmiar wideo dla Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/pl/resize-for-whatsapp"
+        },
+        {
+            "name": "Zmień rozmiar na Youtube",
+            "description": "Zmiana rozmiaru wideo na Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/pl/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {

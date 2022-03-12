@@ -139,6 +139,51 @@
             "name": "استخراج الفيديو",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ar/extract-audio"
+        },
+        {
+            "name": "تغيير الحجم لفيسبوك",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ar/resize-for-facebook"
+        },
+        {
+            "name": "تغيير الحجم للحصول على Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ar/resize-for-instagram"
+        },
+        {
+            "name": "تغيير حجم لينكد إن",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ar/resize-for-linkedin"
+        },
+        {
+            "name": "تغيير حجم لموقع Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ar/resize-for-pinterest"
+        },
+        {
+            "name": "تغيير حجم سناب شات",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ar/resize-for-snapchat"
+        },
+        {
+            "name": "تغيير الحجم لTiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ar/resize-for-tiktok"
+        },
+        {
+            "name": "تغيير الحجم لتويتر",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ar/resize-for-twitter"
+        },
+        {
+            "name": "تغيير حجم الواتس اب",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ar/resize-for-whatsapp"
+        },
+        {
+            "name": "تغيير حجم يوتيوب",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ar/resize-for-youtube"
         }
     ],
     "networkSites": [],

@@ -139,6 +139,51 @@
             "name": "Extraer vídeo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/es/extract-audio"
+        },
+        {
+            "name": "Cambiar el tamaño para Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/es/resize-for-facebook"
+        },
+        {
+            "name": "Cambiar el tamaño para Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/es/resize-for-instagram"
+        },
+        {
+            "name": "Cambiar el tamaño para Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/es/resize-for-linkedin"
+        },
+        {
+            "name": "Cambiar el tamaño de Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/es/resize-for-pinterest"
+        },
+        {
+            "name": "Cambiar el tamaño de Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/es/resize-for-snapchat"
+        },
+        {
+            "name": "Cambiar el tamaño de Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/es/resize-for-tiktok"
+        },
+        {
+            "name": "Cambiar el tamaño de Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/es/resize-for-twitter"
+        },
+        {
+            "name": "Cambiar el tamaño de Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/es/resize-for-whatsapp"
+        },
+        {
+            "name": "Cambiar el tamaño de Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/es/resize-for-youtube"
         }
     ],
     "networkSites": [],

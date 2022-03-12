@@ -1,0 +1,81 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Resize online gratuito per Snapchat",
+    "H2": "Ridimensiona i video in base alle dimensioni di Snapchat.",
+    "TITLE": "Ridimensiona per Snapchat: il miglior strumento per ridimensionare i video per snapchat",
+    "META": "safevideokit è un sito rivoluzionario che ridimensiona i video di Snapchat. Modifica rapidamente e facilmente le dimensioni del video con lo strumento di ridimensionamento per snapchat. Ottieni il video delle dimensioni desiderate in pochi clic. ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX IN PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indipendente",
+            "content": "Il nostro sito Web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza alcun download richiesto."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Assolutamente gratuito",
+            "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacy e sicurezza ",
+            "content": "Il nostro sito web dà la priorità alla privacy dei suoi clienti. L'applicazione funziona completamente sul tuo browser senza coinvolgere alcun server.Quindi i tuoi dati sono al sicuro!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Risultati rapidi",
+            "content": "Il processo di conversione richiede solo pochi secondi, a seconda delle dimensioni del file, e puoi ottenere facilmente risultati rapidi."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Veloce ed efficiente",
+            "content": "L'editing video è davvero veloce e puoi portare a termine il tuo lavoro in pochissimo tempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Consente di risparmiare tempo",
+            "content": "Il nostro sito Web è indipendente dalla piattaforma, può funzionare su laptop, schede e telefoni e la conversione è rapida, consente di risparmiare tempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

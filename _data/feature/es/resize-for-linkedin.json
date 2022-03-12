@@ -1,0 +1,81 @@
+{
+    "Language": "Español",
+    "htmlLangAtt": "es",
+    "H1": "Cambia el tamaño del video para Linkedin con esta herramienta segura y protegida",
+    "H2": "Obtenga el video del tamaño deseado para Linkedin",
+    "TITLE": "Cambiar el tamaño para Linkedin: una forma más fácil de cambiar el tamaño de los videos de Linkedin",
+    "META": "La mejor herramienta para cambiar el tamaño de vídeos de linkedin. Al usar Safevideokit, los usuarios pueden cambiar fácilmente el tamaño de los videos para Linkedin, modificar las dimensiones de forma gratuita y lograr resultados rápidos. Es 100% seguro y protegido. Herramienta fácil de usar.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX a PDF",
+    "BREADCRUMB_LABEL": "DOCX A PDF",
+    "color": "#0A66C2",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/linkedin.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independiente",
+            "content": "Nuestro sitio web es independiente de la plataforma. Funciona tanto en sistemas operativos Windows como iOS y se puede usar sin necesidad de descargas."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolutamente gratis",
+            "content": "La conversión es absolutamente gratuita, por lo que puede convertir tantos archivos como desee."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privacidad y seguridad ",
+            "content": "Nuestro sitio web prioriza la privacidad de sus clientes. La aplicación funciona completamente en su navegador sin involucrar a ningún servidor. ¡Por lo tanto, sus datos están seguros!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Resultados rápidos",
+            "content": "El proceso de conversión apenas tarda unos segundos, dependiendo del tamaño del archivo, y puede obtener resultados rápidos fácilmente."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rápido y eficiente",
+            "content": "La edición de vídeo es muy rápida y puedes hacer tu trabajo en poco tiempo"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Ahorra tiempo",
+            "content": "Nuestro sitio web es independiente de la plataforma, puede funcionar en computadoras portátiles, pestañas y teléfonos y la conversión es rápida, ahorra tiempo."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

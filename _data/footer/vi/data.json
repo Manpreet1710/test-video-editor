@@ -139,6 +139,51 @@
             "name": "Trích xuất video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/vi/extract-audio"
+        },
+        {
+            "name": "Thay đổi kích thước cho Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/vi/resize-for-facebook"
+        },
+        {
+            "name": "Thay đổi kích thước cho Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/vi/resize-for-instagram"
+        },
+        {
+            "name": "Thay đổi kích thước cho Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/vi/resize-for-linkedin"
+        },
+        {
+            "name": "Thay đổi kích thước cho Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/vi/resize-for-pinterest"
+        },
+        {
+            "name": "Thay đổi kích thước cho Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/vi/resize-for-snapchat"
+        },
+        {
+            "name": "Thay đổi kích thước cho Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/vi/resize-for-tiktok"
+        },
+        {
+            "name": "Thay đổi kích thước cho Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/vi/resize-for-twitter"
+        },
+        {
+            "name": "Thay đổi kích thước cho Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/vi/resize-for-whatsapp"
+        },
+        {
+            "name": "Thay đổi kích thước cho Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/vi/resize-for-youtube"
         }
     ],
     "networkSites": [],

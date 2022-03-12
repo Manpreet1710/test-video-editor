@@ -139,6 +139,51 @@
             "name": "Витяг відео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/uk/extract-audio"
+        },
+        {
+            "name": "Змінити розмір для Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/uk/resize-for-facebook"
+        },
+        {
+            "name": "Змінити розмір для Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/uk/resize-for-instagram"
+        },
+        {
+            "name": "Змінити розмір для Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/uk/resize-for-linkedin"
+        },
+        {
+            "name": "Змінити розмір для Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/uk/resize-for-pinterest"
+        },
+        {
+            "name": "Змінити розмір для Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/uk/resize-for-snapchat"
+        },
+        {
+            "name": "Змінити розмір для Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/uk/resize-for-tiktok"
+        },
+        {
+            "name": "Змінити розмір для Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/uk/resize-for-twitter"
+        },
+        {
+            "name": "Змінити розмір для Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/uk/resize-for-whatsapp"
+        },
+        {
+            "name": "Змінити розмір для Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/uk/resize-for-youtube"
         }
     ],
     "networkSites": [],

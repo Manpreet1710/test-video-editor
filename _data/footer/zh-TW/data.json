@@ -139,6 +139,51 @@
             "name": "提取視頻",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/zh-TW/extract-audio"
+        },
+        {
+            "name": "調整臉書的大小",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/zh-TW/resize-for-facebook"
+        },
+        {
+            "name": "調整適用於 Instagram 的大小",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/zh-TW/resize-for-instagram"
+        },
+        {
+            "name": "為領英調整大小",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/zh-TW/resize-for-linkedin"
+        },
+        {
+            "name": "為 Pinterest 調整大小",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/zh-TW/resize-for-pinterest"
+        },
+        {
+            "name": "調整快照聊天的大小",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/zh-TW/resize-for-snapchat"
+        },
+        {
+            "name": "為蒂克託克調整大小",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/zh-TW/resize-for-tiktok"
+        },
+        {
+            "name": "調整推特的大小",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/zh-TW/resize-for-twitter"
+        },
+        {
+            "name": "調整適用於 WhatsApp 的大小",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/zh-TW/resize-for-whatsapp"
+        },
+        {
+            "name": "調整適用於 YouTube 的大小",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/zh-TW/resize-for-youtube"
         }
     ],
     "networkSites": [],

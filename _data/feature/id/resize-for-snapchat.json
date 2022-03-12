@@ -1,0 +1,81 @@
+{
+    "Language": "Bahasa Indonesia",
+    "htmlLangAtt": "id",
+    "H1": "Resize online gratis untuk Snapchat",
+    "H2": "Ubah ukuran video agar sesuai dengan dimensi Snapchat.",
+    "TITLE": "Ubah ukuran untuk Snapchat- Alat terbaik untuk mengubah ukuran video untuk snapchat",
+    "META": "safevideokit adalah situs permainan-mengubah ukuran snapchat video. Cepat dan mudah mengubah dimensi video dengan mengubah ukuran untuk alat snapchat. Dapatkan video berukuran yang Anda inginkan hanya dalam beberapa klik. ",
+    "keywords": "key1, key2, key3, key4",
+    "LABEL": "DOCX ke PDF",
+    "BREADCRUMB_LABEL": "DOCX KE PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Independen",
+            "content": "Situs web kami adalah platform independen. Ia bekerja pada kedua jendela dan iOS sistem operasi dan dapat digunakan tanpa download diperlukan."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Benar-benar Gratis",
+            "content": "Konversi benar-benar gratis, sehingga Anda dapat mengkonversi file sebanyak yang Anda inginkan."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privasi dan Keamanan ",
+            "content": "Situs web kami memprioritaskan privasi pelanggannya. Aplikasi ini bekerja sepenuhnya pada browser Anda tanpa invlolving server apapun.Oleh karena itu data Anda aman!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hasil Cepat",
+            "content": "Proses konversi hampir tidak memakan waktu beberapa detik, tergantung pada ukuran file Anda, dan Anda bisa mendapatkan hasil yang cepat dengan mudah."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Cepat dan efisien",
+            "content": "Pengeditan video sangat cepat dan Anda bisa menyelesaikan pekerjaan Anda dalam waktu singkat"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Menghemat Waktu",
+            "content": "Situs web kami adalah platform independen, dapat bekerja pada laptop, tab dan telepon dan konversi cepat, menghemat waktu."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

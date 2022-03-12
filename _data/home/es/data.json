@@ -6,7 +6,7 @@
     "title": "SafeVideoKit.com: la forma más segura de procesar sus vídeos",
     "TITLE": "SafeVideoKit.com: la forma más segura de procesar sus vídeos",
     "meta": "Nuestra herramienta de edición de video en línea es absolutamente gratuita y fácil de usar. Nos aseguramos de que todos tus datos estén seguros mientras editas tu vídeo. Admitimos una amplia gama de formatos de video como mp3, mov, mkv, etc.",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "Recortar MP4",
@@ -126,11 +126,74 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/es/subtitle-mp4"
+        },
+        {
+            "name": "Cambiar el tamaño para Facebook",
+            "description": "Cambiar el tamaño del video para Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/es/resize-for-facebook"
+        },
+        {
+            "name": "Cambiar el tamaño para Instagram",
+            "description": "Cambiar el tamaño del video para Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/es/resize-for-instagram"
+        },
+        {
+            "name": "Cambiar el tamaño para Linkedin",
+            "description": "Cambiar el tamaño del video para Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/es/resize-for-linkedin"
+        },
+        {
+            "name": "Cambiar el tamaño de Pinterest",
+            "description": "Cambiar el tamaño del vídeo para Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/es/resize-for-pinterest"
+        },
+        {
+            "name": "Cambiar el tamaño de Snapchat",
+            "description": "Cambiar el tamaño del video para Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/es/resize-for-snapchat"
+        },
+        {
+            "name": "Cambiar el tamaño de Tiktok",
+            "description": "Cambiar el tamaño del video para Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/es/resize-for-tiktok"
+        },
+        {
+            "name": "Cambiar el tamaño de Twitter",
+            "description": "Cambiar el tamaño del video para Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/es/resize-for-twitter"
+        },
+        {
+            "name": "Cambiar el tamaño de Whatsapp",
+            "description": "Cambiar el tamaño del video para Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/es/resize-for-whatsapp"
+        },
+        {
+            "name": "Cambiar el tamaño de Youtube",
+            "description": "Cambiar el tamaño del video para Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/es/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
-        "name": "aplicaciones cms",
+        "name": "appscms",
         "alternateName": "appscms",
         "url": "www.appscms.com"
     },

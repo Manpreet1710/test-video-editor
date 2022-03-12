@@ -139,6 +139,51 @@
             "name": "비디오 추출",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ko/extract-audio"
+        },
+        {
+            "name": "페이스 북의 크기 조정",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ko/resize-for-facebook"
+        },
+        {
+            "name": "인스타그램 크기 조정",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ko/resize-for-instagram"
+        },
+        {
+            "name": "링크드인의 크기 조정",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ko/resize-for-linkedin"
+        },
+        {
+            "name": "고객 센터 크기 조정",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ko/resize-for-pinterest"
+        },
+        {
+            "name": "스냅챗 크기 조정",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ko/resize-for-snapchat"
+        },
+        {
+            "name": "틱톡에 맞게 크기 조정",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ko/resize-for-tiktok"
+        },
+        {
+            "name": "트위터의 크기 조정",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ko/resize-for-twitter"
+        },
+        {
+            "name": "왓츠앱 사이즈",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ko/resize-for-whatsapp"
+        },
+        {
+            "name": "유튜브 크기 조정",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ko/resize-for-youtube"
         }
     ],
     "networkSites": [],

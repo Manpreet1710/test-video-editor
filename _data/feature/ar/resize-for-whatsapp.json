@@ -1,0 +1,81 @@
+{
+    "Language": "العربية",
+    "htmlLangAtt": "ar",
+    "H1": "تغيير حجم الفيديو لتطبيق whatsapp باستخدام هذه الأداة الآمنة",
+    "H2": "احصل على الفيديو الذي تريده للواتس اب",
+    "TITLE": "تغيير حجم whatsapp - أفضل أداة لتغيير حجم مقاطع فيديو whatsapp",
+    "META": "تغيير حجم مقاطع فيديو whatsapp دون التضحية بالجودة مع تغيير حجم أداة whatsapp. ما عليك سوى تحميل ملف والحصول على أفضل إعدادات الجودة والحجم لفيديو whatsapp الخاص بك. إنها آمنة ومأمونة بنسبة 100%",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX إلى PDF",
+    "BREADCRUMB_LABEL": "DOCX إلى PDF",
+    "color": "#21A218",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "مستقل",
+            "content": "موقعنا هو منصة مستقلة. يعمل على كل من أنظمة التشغيل Window و iOS ويمكن استخدامه دون الحاجة إلى أي تنزيلات."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "مجاني تمامًا",
+            "content": "التحويل مجاني تمامًا، لذا يمكنك تحويل أكبر عدد تريده من الملفات."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "الخصوصية والأمان ",
+            "content": "يعطي موقعنا الأولوية لخصوصية عملائه. يعمل التطبيق بالكامل على متصفحك دون إشراك أي خادم. ومن ثم بياناتك آمنة!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "نتائج سريعة",
+            "content": "لا تستغرق عملية التحويل بضع ثوانٍ، اعتمادًا على حجم ملفك، ويمكنك الحصول على نتائج سريعة بسهولة."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "سريع وفعال",
+            "content": "تحرير الفيديو سريع حقًا ويمكنك إنجاز عملك في أي وقت من الأوقات"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "يوفر الوقت",
+            "content": "موقعنا هو منصة مستقلة، ويمكن أن تعمل على أجهزة الكمبيوتر المحمولة وعلامات التبويب والهواتف والتحويل سريع، فإنه يوفر الوقت."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

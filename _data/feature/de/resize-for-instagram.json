@@ -1,0 +1,81 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "Ändern Sie die Größe des Videos für Instagram mit nur wenigen Klicks",
+    "H2": "Holen Sie sich das Video in der gewünschten Größe für Instagram",
+    "TITLE": "Größe für Instagram ändern - Das beste Tool zum Ändern der Größe von Instagram-Videos",
+    "META": "safevideokit ist eine bahnbrechende Website, die die Größe von Instagram-Videos ändert. Ändern Sie schnell und einfach die Videomaßnahmen mit dem Tool zur Größenänderung für Instagram. Holen Sie sich mit nur wenigen Klicks Ihr Video in der gewünschten Größe. ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#F00075",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/instagram.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Unabhängige",
+            "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne erforderliche Downloads verwendet werden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolut kostenlos",
+            "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Datenschutz und Sicherheit ",
+            "content": "Unsere Website legt großen Wert auf die Privatsphäre ihrer Kunden. Die Anwendung funktioniert vollständig in Ihrem Browser, ohne dass ein Server involviert ist. Daher sind Ihre Daten sicher!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Schnelle Ergebnisse",
+            "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein paar Sekunden, und Sie können schnell Ergebnisse erzielen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobearbeitung ist sehr schnell und Sie können Ihre Arbeit in kürzester Zeit erledigen"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Spart Zeit",
+            "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen arbeiten und die Konvertierung ist schnell und spart Zeit."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

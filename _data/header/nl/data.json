@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/nl/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/nl/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/nl/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/nl/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/nl/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/nl/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/nl/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/nl/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/nl/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor YouTube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/nl/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

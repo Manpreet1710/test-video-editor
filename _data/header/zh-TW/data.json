@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/zh-TW/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "調整臉書的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/zh-TW/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 Instagram 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/zh-TW/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為領英調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/zh-TW/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為 Pinterest 調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/zh-TW/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整快照聊天的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/zh-TW/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為蒂克託克調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/zh-TW/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整推特的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/zh-TW/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 WhatsApp 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/zh-TW/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 YouTube 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/zh-TW/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

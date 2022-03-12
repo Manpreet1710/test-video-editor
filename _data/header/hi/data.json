@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/hi/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "फेसबुक के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/hi/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "इंस्टाग्राम के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/hi/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "लिंक्डइन के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/hi/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Pinterest के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/hi/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "स्नैपचैट के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/hi/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Tiktok के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/hi/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ट्विटर के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/hi/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Whatsapp के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/hi/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Youtube के लिए आकार बदलें",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/hi/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

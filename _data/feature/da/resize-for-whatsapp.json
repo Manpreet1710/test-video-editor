@@ -1,0 +1,81 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Ændre størrelsen på video til whatsapp med denne sikre og sikre værktøj",
+    "H2": "Få din ønskede størrelse video til whatsapp",
+    "TITLE": "Ændre størrelsen på WhatsApp-det bedste værktøj til at ændre størrelsen på WhatsApp videoer",
+    "META": "Ændre størrelsen på WhatsApp videoer uden at ofre kvalitet med resize til whatsapp værktøj. Du skal blot uploade en fil, og få den bedste kvalitet og størrelse indstillinger for din whatsapp video. Det er 100% sikkert og sikkert",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#21A218",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Uafhængig",
+            "content": "Vores hjemmeside er platform uafhængig. Det virker på både Window og iOS Operativsystemer og kan bruges uden nogen downloads kræves."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Privatliv og sikkerhed ",
+            "content": "Vores hjemmeside prioriterer kundernes privatliv. Ansøgningen fungerer helt på din browser uden invlolving nogen server.Dermed dine data er sikkert!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hurtige resultater",
+            "content": "Konverteringsprocessen tager næppe et par sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hurtig og effektiv",
+            "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sparer tid",
+            "content": "Vores hjemmeside er platform uafhængig, kan arbejde på bærbare computere, faner og telefoner og konverteringen er hurtig, det sparer tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

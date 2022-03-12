@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/da/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/da/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/da/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/da/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/da/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/da/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/da/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/da/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/da/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/da/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

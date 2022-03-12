@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/th/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/th/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับอินสตาแกรม",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/th/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/th/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/th/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/th/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/th/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับทวิตเตอร์",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/th/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/th/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/th/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

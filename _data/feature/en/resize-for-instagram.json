@@ -1,10 +1,10 @@
 {
     "Language": "English",
     "htmlLangAtt": "en",
-    "H1": "Resize for Instagram",
-    "H2": "",
-    "TITLE": "",
-    "META": "",
+    "H1": "Resize video for Instagram in just few clicks",
+    "H2": "Get your desired sized video for Instagram",
+    "TITLE": "Resize for Instagram-The best tool to resize Instagram videos",
+    "META": "safevideokit is a game-changing site that resizes Instagram videos. Quickly and easily change video dimensions with resize for instagram tool. Get your desired sized video in just few clicks. ",
     "keywords": "key1,key2,key3,key4",
     "LABEL": "DOCX to PDF",
     "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -67,9 +67,9 @@
     ],
     "filelang": "en",
     "display_formats": [
-      "mp4"  ],
+      "mp4","mov","ogg","webm"  ],
       "compare_formats": [
-        "mp4"  ]
+        "mp4","mov","ogg","webm"  ]
     }
   
   

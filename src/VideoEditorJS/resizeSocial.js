@@ -22,6 +22,10 @@ let SubSourceurl = null;
 var sourceBuffer = null
 let SubSourceBuffer = null;
 let type = null;
+let percentage = 0;
+
+let cards = document.getElementsByClassName("check-item");
+let flag = true;
 
 let width, height, asW, asH, fps, dimens;
 let counter = 0;
@@ -115,38 +119,55 @@ var Show_or_Hide_CancelProgressOverlay = (params) => {
         return
     }
 }
-// console.stdlog = console.log.bind(console)
-// console.log = function () {
-//     let consoleLog = Array.from(arguments)
+console.stdlog = console.log.bind(console)
+console.log = function () {
+    let consoleLog = Array.from(arguments)
 
-//     let CurrentTime = null
-//     if (consoleLog[0].indexOf('time=') != -1) {
-//         CurrentTime = consoleLog[0].slice(
-//             consoleLog[0].indexOf('time='),
-//             consoleLog[0].indexOf('time=') +
-//             consoleLog[0]
-//                 .substring(consoleLog[0].indexOf('time='))
-//                 .indexOf('bitrate=')
-//         )
-//     }
-//     if (consoleLog[0].indexOf('Duration:') != -1) {
-//         VideoTimeinhhmmss = consoleLog[0].slice(
-//             consoleLog[0].indexOf('Duration: ') + 10,
-//             consoleLog[0].indexOf(',')
-//         )
-//     }
-//     ProgressBar.style.width = '0%'
-//     if (CurrentTime != null) {
-//         let a = CurrentTime.slice(5, CurrentTime.length).split(':')
-//         var seconds = +a[0] * 60 * 60 + +a[1] * 60 + +a[2]
-//         let tot = VideoTimeinhhmmss.split(':')
-//         videoTime = +tot[0] * 60 * 60 + +tot[1] * 60 + +tot[2]
-//         var percentage = (seconds / videoTime) * 100
-//         ProgressBar.style.width = percentage + '%'
-//         LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0
-//             }%</span>`
-//     }
-// }
+    let CurrentTime = null
+    if (consoleLog[0].indexOf('time=') != -1) {
+        CurrentTime = consoleLog[0].slice(
+            consoleLog[0].indexOf('time='),
+            consoleLog[0].indexOf('time=') +
+            consoleLog[0]
+                .substring(consoleLog[0].indexOf('time='))
+                .indexOf('bitrate=')
+        )
+    }
+    if (consoleLog[0].indexOf('Duration:') != -1) {
+        VideoTimeinhhmmss = consoleLog[0].slice(
+            consoleLog[0].indexOf('Duration: ') + 10,
+            consoleLog[0].indexOf(',')
+        )
+    }
+    ProgressBar.style.width = '0%'
+    if (CurrentTime != null) {
+        let a = CurrentTime.slice(5, CurrentTime.length).split(':')
+        var seconds = +a[0] * 60 * 60 + +a[1] * 60 + +a[2]
+        let tot = VideoTimeinhhmmss.split(':')
+        videoTime = +tot[0] * 60 * 60 + +tot[1] * 60 + +tot[2]
+        let pTemp = ((seconds / (videoTime)) * 100)
+        if(pTemp<0)
+            flag = false;
+        
+        if(parseInt(pTemp.toFixed(0))>=100 && flag==false)
+        {
+            percentage+=100/cards.length;
+            flag = true;
+        }
+        else if(percentage==0)
+        {
+            ProgressBar.style.width = (pTemp/cards.length) + '%'
+            LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${(pTemp/cards.length) > 0 ? (pTemp/cards.length).toFixed(0) : 0
+                }%</span>`
+        }
+        else
+        {
+            ProgressBar.style.width = percentage + '%'
+            LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0
+                }%</span>`
+        }
+    }
+}
 const get_video_source_from_input = async (input) => {
     LandingText.innerText = 'Please wait,processing your video'
     Spinner.style.display = 'inherit'
@@ -275,15 +296,14 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
 }
 
 async function setSize(e) {
-    let percentage = 0;
+    // let percentage = 0;
     Spinner.style.display = 'none'
     Workspace.style.display = 'none'
     Landing.style.display = 'inherit'
     CancelProcess.style.display = 'inherit'
-    ProgressBar.style.width = '0%'
-    LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
-
-    let cards = document.getElementsByClassName("check-item");
+    // ProgressBar.style.width = '0%'
+    // LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
+    cards = document.getElementsByClassName("check-item");
     if (e == "All") {
         for (let i = 0; i < cards.length; i++) {
             width = parseFloat(dimens[i.toString()]["width"]);
@@ -292,9 +312,9 @@ async function setSize(e) {
             asH = parseFloat(dimens[i.toString()]["aspect-height"]);
             fps = parseFloat(dimens[i.toString()]["fps"]);
             await resizeVideo();
-            percentage += parseInt(100 / cards.length);
-            ProgressBar.style.width = percentage + '%'
-            LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
+            // percentage += parseInt(100 / cards.length);
+            // ProgressBar.style.width = percentage + '%'
+            // LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
         }
     }
     else {
@@ -306,35 +326,46 @@ async function setSize(e) {
                 asH = parseFloat(dimens[i.toString()]["aspect-height"]);
                 fps = parseFloat(dimens[i.toString()]["fps"]);
                 await resizeVideo();
-                percentage += parseInt(100 / cards.length);
-                ProgressBar.style.width = percentage + '%'
-                LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
+                // percentage += parseInt(100 / cards.length);
+                // ProgressBar.style.width = percentage + '%'
+                // LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0}%</span>`
             }
         }
     }
     if (percentage < 100) {
         for(let i=percentage;i<=100;i++)
         {
-            setTimeout(function(){
                 ProgressBar.style.width = i + '%'
-                LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${i > 0 ? i.toFixed(0) : 0}%</span>`   
-            },2000);
+                LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${i.toFixed(0)}%</span>`   
+                await new Promise(resolve=>setTimeout(resolve,200));
         }
     }
-    setTimeout(()=>{
-        CancelProcess.style.display = 'none'
+    CancelProcess.style.display = 'none'
+    Spinner.style.display = 'inherit'
+    ProgressBar.style.width = 100 + '%'
+    LandingText.innerHTML = `Please wait ,we are compiling your video in a zip file.`
+    let zip = new JSZip();
+
+    for (let i = 0; i < downloadLinks.length; i++) {
+        zip.file("Output"+(i+1)+"."+type,downloadLinks[i]);
+    }
+    zip.generateAsync({type:"base64"}).then(function (base64) {
+        let hrefLink = "data:application/zip;base64," + base64;
+        Spinner.style.display = 'none'
         LandingText.style.display = 'none'
         LoadingText.style.display = 'inherit'
         LoadingText.innerText = 'Thanks for your patience'
         DownloadBox.style.display = 'inherit'
-        link.addEventListener('click', () => handleDownload(downloadLinks));
-    },2000)
+        link.addEventListener('click', () => handleDownload(hrefLink));
+    }, function (err) {
+        console.log(err);
+    });
 }
 
 
 var resizeVideo = async () => {
     
-    var FFMPEGCommand = `-i input.` + type + ` -vf scale=` + width + `:` + height + ` -aspect ` + asW + `:` + asH + ` -filter:v fps=` + fps + ` -preset slow -crf 18 Output.` + type;
+    var FFMPEGCommand = `-i input.`+type+` -vf scale=`+width+`:`+height+` -aspect `+asW+`:`+asH+` -filter:v fps=`+fps +` -preset ultrafast -crf 23 Output.`+type;
     var ArrayofInstructions = FFMPEGCommand.split(' ');
     await ffmpeg.run(...ArrayofInstructions);
     initateDownload();
@@ -347,28 +378,18 @@ const initateDownload = async () => {
     downloadLinks[counter++] = hrefLink;
 }
 
-let handleDownload = (src) => {
-    let zip = new JSZip();
-
-    for (let i = 0; i < src.length; i++) {
-        zip.file("Output"+(i+1)+"."+type,src[i]);
-    }
-    zip.generateAsync({type:"base64"}).then(function (base64) {
-        let hrefLink = "data:application/zip;base64," + base64;
-        let tempLink = document.createElement("a");
-        tempLink.href = hrefLink;
-        tempLink.download = "Output.zip";
-        tempLink.click();
-        setTimeout(() => {
-            if (lang === 'en') {
-                window.location.href = `/download?tool=${pageTool}`
-            } else {
-                window.location.href = `/${lang}/download?tool=${pageTool}`
-            }
-        }, 2000)
-    }, function (err) {
-        console.log(err);
-    });
+let handleDownload = (hrefLink) => {
+    let tempLink = document.createElement("a");
+    tempLink.href = hrefLink;
+    tempLink.download = "Output.zip";
+    tempLink.click();
+    setTimeout(() => {
+        if (lang === 'en') {
+            window.location.href = `/download?tool=${pageTool}`
+        } else {
+            window.location.href = `/${lang}/download?tool=${pageTool}`
+        }
+    }, 500)
 }
 
 const showDropDown = document.querySelector('.file-pick-dropdown')

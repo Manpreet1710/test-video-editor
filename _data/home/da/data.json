@@ -6,7 +6,7 @@
     "title": "SafeVideokit.com - Sikreste måde at behandle dine videoer på",
     "TITLE": "SafeVideokit.com - Sikreste måde at behandle dine videoer på",
     "meta": "Vores online video editor værktøj er helt gratis og er nem at bruge. Vi sørger for, at alle dine data er sikre, mens du redigerer din video. Vi støtter et stort udvalg af videoformater som mp3, mov, mkv osv.",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "Beskær MP4",
@@ -126,6 +126,69 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/da/subtitle-mp4"
+        },
+        {
+            "name": "Ændre størrelse til Facebook",
+            "description": "Ændre størrelsen på video til Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/da/resize-for-facebook"
+        },
+        {
+            "name": "Ændre størrelse til Instagram",
+            "description": "Ændre størrelsen på video til Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/da/resize-for-instagram"
+        },
+        {
+            "name": "Ændre størrelse til Linkedin",
+            "description": "Ændre størrelsen på video til Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/da/resize-for-linkedin"
+        },
+        {
+            "name": "Ændre størrelse til Pinterest",
+            "description": "Ændre størrelsen på video til Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/da/resize-for-pinterest"
+        },
+        {
+            "name": "Ændre størrelse til snapchat",
+            "description": "Ændre størrelsen på video til snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/da/resize-for-snapchat"
+        },
+        {
+            "name": "Ændre størrelse til Tiktok",
+            "description": "Ændre størrelsen på video til Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/da/resize-for-tiktok"
+        },
+        {
+            "name": "Ændre størrelse til Twitter",
+            "description": "Ændre størrelsen på video til Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/da/resize-for-twitter"
+        },
+        {
+            "name": "Ændre størrelse til Whatsapp",
+            "description": "Ændre størrelsen på video til Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/da/resize-for-whatsapp"
+        },
+        {
+            "name": "Ændre størrelse til Youtube",
+            "description": "Ændre størrelsen på video til Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/da/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {
