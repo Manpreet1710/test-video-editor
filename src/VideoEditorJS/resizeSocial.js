@@ -148,15 +148,24 @@ console.log = function () {
         let pTemp = ((seconds / (videoTime)) * 100)
         if(pTemp<0)
             flag = false;
+        
         if(parseInt(pTemp.toFixed(0))>=100 && flag==false)
         {
-            percentage+=pTemp/cards.length;
+            percentage+=100/cards.length;
             flag = true;
         }
-        //console.stdlog(pTemp,percentage);
-        ProgressBar.style.width = percentage + '%'
-        LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0
-            }%</span>`
+        else if(percentage==0)
+        {
+            ProgressBar.style.width = (pTemp/cards.length) + '%'
+            LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${(pTemp/cards.length) > 0 ? (pTemp/cards.length).toFixed(0) : 0
+                }%</span>`
+        }
+        else
+        {
+            ProgressBar.style.width = percentage + '%'
+            LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0
+                }%</span>`
+        }
     }
 }
 const get_video_source_from_input = async (input) => {
@@ -328,23 +337,35 @@ async function setSize(e) {
         {
                 ProgressBar.style.width = i + '%'
                 LandingText.innerHTML = `Please wait ,we are resizing your video in the most secure way<br><span>${i.toFixed(0)}%</span>`   
-                await new Promise(resolve=>setTimeout(resolve,500));
+                await new Promise(resolve=>setTimeout(resolve,200));
         }
     }
-    setTimeout(()=>{
-        CancelProcess.style.display = 'none'
+    CancelProcess.style.display = 'none'
+    Spinner.style.display = 'inherit'
+    ProgressBar.style.width = 100 + '%'
+    LandingText.innerHTML = `Please wait ,we are compiling your video in a zip file.`
+    let zip = new JSZip();
+
+    for (let i = 0; i < downloadLinks.length; i++) {
+        zip.file("Output"+(i+1)+"."+type,downloadLinks[i]);
+    }
+    zip.generateAsync({type:"base64"}).then(function (base64) {
+        let hrefLink = "data:application/zip;base64," + base64;
+        Spinner.style.display = 'none'
         LandingText.style.display = 'none'
         LoadingText.style.display = 'inherit'
         LoadingText.innerText = 'Thanks for your patience'
         DownloadBox.style.display = 'inherit'
-        link.addEventListener('click', () => handleDownload(downloadLinks));
-    },2000)
+        link.addEventListener('click', () => handleDownload(hrefLink));
+    }, function (err) {
+        console.log(err);
+    });
 }
 
 
 var resizeVideo = async () => {
     
-    var FFMPEGCommand = `-i input.`+type+` -vf scale=`+width+`:`+height+` -aspect `+asW+`:`+asH+` -filter:v fps=`+fps +` -crf 18 Output.`+type;
+    var FFMPEGCommand = `-i input.`+type+` -vf scale=`+width+`:`+height+` -aspect `+asW+`:`+asH+` -filter:v fps=`+fps +` -preset ultrafast -crf 23 Output.`+type;
     var ArrayofInstructions = FFMPEGCommand.split(' ');
     await ffmpeg.run(...ArrayofInstructions);
     initateDownload();
@@ -357,28 +378,18 @@ const initateDownload = async () => {
     downloadLinks[counter++] = hrefLink;
 }
 
-let handleDownload = (src) => {
-    let zip = new JSZip();
-
-    for (let i = 0; i < src.length; i++) {
-        zip.file("Output"+(i+1)+"."+type,src[i]);
-    }
-    zip.generateAsync({type:"base64"}).then(function (base64) {
-        let hrefLink = "data:application/zip;base64," + base64;
-        let tempLink = document.createElement("a");
-        tempLink.href = hrefLink;
-        tempLink.download = "Output.zip";
-        tempLink.click();
-        setTimeout(() => {
-            if (lang === 'en') {
-                window.location.href = `/download?tool=${pageTool}`
-            } else {
-                window.location.href = `/${lang}/download?tool=${pageTool}`
-            }
-        }, 1000)
-    }, function (err) {
-        console.log(err);
-    });
+let handleDownload = (hrefLink) => {
+    let tempLink = document.createElement("a");
+    tempLink.href = hrefLink;
+    tempLink.download = "Output.zip";
+    tempLink.click();
+    setTimeout(() => {
+        if (lang === 'en') {
+            window.location.href = `/download?tool=${pageTool}`
+        } else {
+            window.location.href = `/${lang}/download?tool=${pageTool}`
+        }
+    }, 500)
 }
 
 const showDropDown = document.querySelector('.file-pick-dropdown')
