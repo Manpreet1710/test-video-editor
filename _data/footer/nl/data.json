@@ -139,6 +139,51 @@
             "name": "Video extraheren",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/nl/extract-audio"
+        },
+        {
+            "name": "Formaat wijzigen voor Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/nl/resize-for-facebook"
+        },
+        {
+            "name": "Formaat wijzigen voor Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/nl/resize-for-instagram"
+        },
+        {
+            "name": "Formaat wijzigen voor Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/nl/resize-for-linkedin"
+        },
+        {
+            "name": "Formaat wijzigen voor Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/nl/resize-for-pinterest"
+        },
+        {
+            "name": "Formaat wijzigen voor Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/nl/resize-for-snapchat"
+        },
+        {
+            "name": "Formaat wijzigen voor Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/nl/resize-for-tiktok"
+        },
+        {
+            "name": "Formaat wijzigen voor Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/nl/resize-for-twitter"
+        },
+        {
+            "name": "Formaat wijzigen voor Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/nl/resize-for-whatsapp"
+        },
+        {
+            "name": "Formaat wijzigen voor YouTube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/nl/resize-for-youtube"
         }
     ],
     "networkSites": [],

@@ -1,10 +1,10 @@
 {
     "Language": "English",
     "htmlLangAtt": "en",
-    "H1": "Resize for Whatsapp",
-    "H2": "",
-    "TITLE": "",
-    "META": "",
+    "H1": "Resize video for whatsapp with this safe and secure tool",
+    "H2": "Get your desired sized video for whatsapp",
+    "TITLE": "Resize for whatsapp-The best tool to resize whatsapp videos",
+    "META": "Resize WhatsApp videos without sacrificing quality with resize for whatsapp tool. Simply upload a file, and get the best quality and size settings for your whatsapp video. It is 100% safe and secure",
     "keywords": "key1,key2,key3,key4",
     "LABEL": "DOCX to PDF",
     "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -67,9 +67,9 @@
     ],
     "filelang": "en",
     "display_formats": [
-      "mp4"  ],
+      "mp4","mov","ogg","webm"  ],
       "compare_formats": [
-        "mp4"  ]
+        "mp4","mov","ogg","webm"  ]
     }
   
   

@@ -1,10 +1,10 @@
 {
     "Language": "English",
     "htmlLangAtt": "en",
-    "H1": "Resize for Twitter",
-    "H2": "",
-    "TITLE": "",
-    "META": "",
+    "H1": "Resize video for twitter with this safe and secure tool",
+    "H2": "Change the sizes of a video online for twitter",
+    "TITLE": "Resize for Twitter- An Easier way to resize twitter videos.",
+    "META": "Look no further if you're seeking for a free and online video resizer for Twitter. To resize a video for Twitter in a couple of seconds,use safevideokit.",
     "keywords": "key1,key2,key3,key4",
     "LABEL": "DOCX to PDF",
     "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -67,9 +67,9 @@
     ],
     "filelang": "en",
     "display_formats": [
-      "mp4"  ],
+      "mp4","mov","ogg","webm"  ],
       "compare_formats": [
-        "mp4"  ]
+        "mp4","mov","ogg","webm"  ]
     }
   
   

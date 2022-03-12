@@ -1,0 +1,81 @@
+{
+    "Language": "ภาษาไทย",
+    "htmlLangAtt": "th",
+    "H1": "ปรับขนาดออนไลน์ฟรีสำหรับ Snapchat",
+    "H2": "ปรับขนาดวิดีโอให้พอดีกับขนาด Snapchat",
+    "TITLE": "ปรับขนาดสำหรับ Snapchat - เครื่องมือที่ดีที่สุดในการปรับขนาดวิดีโอสำหรับ snapchat",
+    "META": "safevideokit เป็นเว็บไซต์ที่เปลี่ยนเกมที่ปรับขนาดวิดีโอ snapchatเปลี่ยนขนาดวิดีโอได้อย่างรวดเร็วและง่ายดายด้วยการปรับขนาดสำหรับเครื่องมือ snapchatรับวิดีโอขนาดที่คุณต้องการได้ด้วยการคลิกเพียงไม่กี่ครั้ง ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX เป็น PDF",
+    "BREADCRUMB_LABEL": "DOCX เป็น PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "อิสระ",
+            "content": "เว็บไซต์ของเราเป็นแพลตฟอร์มที่เป็นอิสระมันทำงานได้ทั้งบนระบบปฏิบัติการ Window และ iOS และสามารถใช้งานได้โดยไม่ต้องดาวน์โหลดใด ๆ ที่จำเป็น."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "ฟรีอย่างแน่นอน",
+            "content": "การแปลงเป็นฟรีอย่างแน่นอน, เพื่อให้คุณสามารถแปลงไฟล์ได้มากเท่าที่คุณต้องการ."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "ความเป็นส่วนตัวและความปลอดภัย ",
+            "content": "เว็บไซต์ของเราจัดลำดับความสำคัญความเป็นส่วนตัวของลูกค้าแอพลิเคชันทำงานอย่างสมบูรณ์บนเบราว์เซอร์ของคุณโดยไม่ต้อง invlolving เซิร์ฟเวอร์ใด ๆดังนั้นข้อมูลของคุณมีความปลอดภัย!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "ผลลัพธ์ที่รวดเร็ว",
+            "content": "กระบวนการแปลงแทบจะใช้เวลาสองสามวินาทีขึ้นอยู่กับขนาดไฟล์ของคุณและคุณจะได้รับผลลัพธ์ที่รวดเร็วได้อย่างง่ายดาย"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "รวดเร็วและมีประสิทธิภาพ",
+            "content": "การตัดต่อวิดีโอเป็นไปอย่างรวดเร็วและคุณสามารถทำงานของคุณเสร็จในเวลาไม่นาน"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "ประหยัดเวลา",
+            "content": "เว็บไซต์ของเราเป็นแพลตฟอร์มที่เป็นอิสระสามารถทำงานบนแล็ปท็อปแท็บและโทรศัพท์และการแปลงเป็นไปอย่างรวดเร็วจะช่วยประหยัดเวลา"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "Language": "हिन्दी",
+    "htmlLangAtt": "hi",
+    "H1": "यूट्यूब के लिए कुछ ही क्लिक में वीडियो का आकार बदलें",
+    "H2": "Youtube टूल के लिए रीसाइज़ का उपयोग करके अपने वीडियो को और अधिक पेशेवर बनाएं।",
+    "TITLE": "Safevideokit YouTube वीडियो के लिए एक मुफ्त ऑनलाइन पुनर्विक्रेता प्रदान करता है।",
+    "META": "यूट्यूब वीडियो का आकार बदलना अब आसान हो गया है। Youtube टूल के लिए हमारे आकार बदलने के साथ अपने वीडियो को नियमित, वाइडस्क्रीन या पोर्ट्रेट फ़्रेम में फिट करें।",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX से PDF",
+    "BREADCRUMB_LABEL": "DOCX से पीडीएफ",
+    "color": "#FF0000",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/youtube.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "इंडिपेंडेंट",
+            "content": "हमारी वेबसाइट प्लेटफॉर्म स्वतंत्र है। यह विंडो और आईओएस दोनों ऑपरेटिंग सिस्टम पर काम करता है और बिना किसी डाउनलोड की आवश्यकता के इसका उपयोग किया जा सकता है।"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "बिलकुल मुफ्त",
+            "content": "रूपांतरण बिल्कुल मुफ्त है, इसलिए आप जितनी चाहें उतनी फ़ाइलों को परिवर्तित कर सकते हैं।"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "निजता और सुरक्षा ",
+            "content": "हमारी वेबसाइट अपने ग्राहकों की गोपनीयता को प्राथमिकता देती है। एप्लिकेशन किसी भी सर्वर को शामिल किए बिना आपके ब्राउज़र पर पूरी तरह से काम करता है। इसलिए आपका डेटा सुरक्षित है!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "तेज़ परिणाम",
+            "content": "आपकी फ़ाइल के आकार के आधार पर रूपांतरण प्रक्रिया में शायद ही कुछ सेकंड लगते हैं, और आप आसानी से त्वरित परिणाम प्राप्त कर सकते हैं।"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "तेज और कुशल",
+            "content": "वीडियो संपादन वास्तव में तेज़ है और आप कुछ ही समय में अपना काम पूरा कर सकते हैं"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "समय बचाता है",
+            "content": "हमारी वेबसाइट प्लेटफ़ॉर्म स्वतंत्र है, लैपटॉप, टैब और फोन पर काम कर सकती है और रूपांतरण त्वरित है, यह समय बचाता है।"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

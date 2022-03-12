@@ -139,6 +139,51 @@
             "name": "Извлечь видео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ru/extract-audio"
+        },
+        {
+            "name": "Изменить размер для Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ru/resize-for-facebook"
+        },
+        {
+            "name": "Изменить размер для Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ru/resize-for-instagram"
+        },
+        {
+            "name": "Изменить размер для Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ru/resize-for-linkedin"
+        },
+        {
+            "name": "Изменить размер для Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ru/resize-for-pinterest"
+        },
+        {
+            "name": "Изменить размер для Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ru/resize-for-snapchat"
+        },
+        {
+            "name": "Изменить размер для Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ru/resize-for-tiktok"
+        },
+        {
+            "name": "Изменить размер для Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ru/resize-for-twitter"
+        },
+        {
+            "name": "Изменить размер для Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ru/resize-for-whatsapp"
+        },
+        {
+            "name": "Изменить размер для Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ru/resize-for-youtube"
         }
     ],
     "networkSites": [],

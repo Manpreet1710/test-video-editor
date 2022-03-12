@@ -1,10 +1,10 @@
 {
     "Language": "English",
     "htmlLangAtt": "en",
-    "H1": "Resize for Tiktok",
-    "H2": "",
-    "TITLE": "",
-    "META": "",
+    "H1": "It's super easy to resize video by using resize for tiktok tool.",
+    "H2": "Change video dimensions online with resize for tiktok tool",
+    "TITLE": "Resize for tiktok - safevideokit is a free tool for resizing videos for tiktok.",
+    "META": "Use resize for tiktok tool to change video size online for Free. The best way to resize Tiktok videos is by using a professional video resizer like safevideokit.",
     "keywords": "key1,key2,key3,key4",
     "LABEL": "DOCX to PDF",
     "BREADCRUMB_LABEL": "DOCX TO PDF",
@@ -67,9 +67,9 @@
     ],
     "filelang": "en",
     "display_formats": [
-      "mp4"  ],
+      "mp4","mov","ogg","webm"  ],
       "compare_formats": [
-        "mp4"  ]
+        "mp4","mov","ogg","webm"  ]
     }
   
   

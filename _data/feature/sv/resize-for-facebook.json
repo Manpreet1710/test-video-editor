@@ -1,0 +1,81 @@
+{
+    "Language": "Svenska",
+    "htmlLangAtt": "sv",
+    "H1": "Det är super lätt att ändra storlek på video genom att använda ändra storlek för Facebook-verktyg.",
+    "H2": "Klicka för att ändra storlek på video för Facebook",
+    "TITLE": "Ändra storlek för Facebook- Skapa det perfekta videoklippet för facebook",
+    "META": "Bästa verktyget för att göra professionella ser facebook video. Justera videostorlekar och bildförhållande på safevideokit. Det är enkelt att ändra storlek på Facebook-video med bara några klick för att passa widescreen, fyrkantiga eller stående ramar.",
+    "keywords": "key1, key2, key3, key4",
+    "LABEL": "DOCX till PDF",
+    "BREADCRUMB_LABEL": "DOCX TILL PDF",
+    "color": "#1773EA",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/facebook.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Oberoende",
+            "content": "Vår hemsida är plattformsoberoende. Det fungerar på både Windows- och iOS-operativsystem och kan användas utan några nedladdningar krävs."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Helt gratis",
+            "content": "Konverteringen är helt gratis, så du kan konvertera så många filer som du vill."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Sekretess och säkerhet ",
+            "content": "Vår webbplats prioriterar kundernas integritet. Applikationen fungerar helt på din webbläsare utan invlolving någon server.Därav dina data är säker!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Snabba resultat",
+            "content": "Konverteringsprocessen tar knappast några sekunder, beroende på din filstorlek, och du kan få snabba resultat enkelt."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Snabbt och effektivt",
+            "content": "Videoredigering är riktigt snabb och du kan få jobbet gjort på nolltid"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Sparar tid",
+            "content": "Vår hemsida är plattformsoberoende, kan fungera på bärbara datorer, flikar och telefoner och konverteringen är snabb, det sparar tid."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

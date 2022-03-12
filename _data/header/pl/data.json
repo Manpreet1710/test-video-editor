@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/pl/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Facebooka",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/pl/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Instagramie",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/pl/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/pl/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Pintereście",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/pl/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Snapchata",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/pl/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/pl/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Twitterze",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/pl/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/pl/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/pl/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

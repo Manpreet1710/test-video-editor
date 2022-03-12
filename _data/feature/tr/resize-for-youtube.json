@@ -1,0 +1,81 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Videoyu yalnızca birkaç tıklamayla youtube için yeniden boyutlandırma",
+    "H2": "Youtube aracı için yeniden boyutlandırma kullanarak videonuzu daha profesyonel hale getirin.",
+    "TITLE": "Safevideokit YouTube videoları için ücretsiz çevrimiçi yeniden boyutlandırıcı sağlar.",
+    "META": "Youtube videolarını yeniden boyutlandırmak artık çok kolay. Youtube için yeniden boyutlandırma aracımızla videonuzun düzenli, geniş ekran veya portre karelerine uymasını sağlayın.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'den PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#FF0000",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/youtube.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, böylece istediğiniz kadar çok dosyayı dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Uygulama herhangi bir sunucu invlolving olmadan tarayıcınızda tamamen çalışır.Dolayısıyla verileriniz güvenlidir!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede halledebilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Tasarruf",
+            "content": "Web sitemiz platformdan bağımsızdır, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zamandan tasarruf sağlar."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

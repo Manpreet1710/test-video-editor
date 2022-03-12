@@ -2,7 +2,7 @@
     "logo": "/assets/safevideokit.svg",
     "heading": "動画編集を簡単にします。",
     "companytitle": "会社",
-    "producttitle": "プロダクト",
+    "producttitle": "製品",
     "networksitestitle": "ネットワークサイト",
     "company": [
         {
@@ -24,35 +24,35 @@
     ],
     "product": [
         {
-            "name": "MP4 をクロップ",
-            "description": "MP4 ビデオを切り抜く",
+            "name": "切り抜き MP4",
+            "description": "任意の MP4 ビデオを切り抜く",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ja/crop-mp4"
         },
         {
-            "name": "動画のクロップ",
-            "description": "動画をクロップ",
+            "name": "動画をクロップ",
+            "description": "あらゆる動画をクロップ",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ja/crop-video"
         },
         {
             "name": "MP4 エディター",
-            "description": "MP4ビデオを編集する",
+            "description": "任意の MP4 ビデオを編集する",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ja/edit-mp4-video"
         },
         {
-            "name": "動画を反転",
+            "name": "動画をフリップ",
             "description": "あらゆる動画を反転",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/ja/flip-video"
         },
         {
-            "name": "MOVコンプレッサー",
+            "name": "MOV コンプレッサー",
             "description": "あらゆるMOV動画を圧縮",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -60,42 +60,42 @@
         },
         {
             "name": "MP4 コンプレッサー",
-            "description": "MP4動画を圧縮",
+            "description": "MP4動画を圧縮する",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/ja/mp4-compressor"
         },
         {
             "name": "MP4 カッター",
-            "description": "MP4ビデオをカットする",
+            "description": "任意の MP4 ビデオをカットします。",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/mp4-cutter"
         },
         {
             "name": "動画エディター",
-            "description": "動画を編集",
+            "description": "どんな動画でも編集",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ja/video-editor"
         },
         {
             "name": "MP4 トリマー",
-            "description": "MP4ビデオをトリムする",
+            "description": "任意の MP4 ビデオをトリミングする",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/mp4-trimmer"
         },
         {
             "name": "MP4 に字幕を追加する",
-            "description": "MP4 ビデオに字幕を追加する",
+            "description": "MP4 動画に字幕を追加する",
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/ja/subtitle-mp4"
         },
         {
             "name": "動画のサイズ変更",
-            "description": "動画のサイズを変更",
+            "description": "動画のサイズ変更",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/ja/resize-video"
@@ -109,36 +109,81 @@
         },
         {
             "name": "ビデオカッター",
-            "description": "どんな動画でもカット",
+            "description": "どんな動画でもカットする",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/video-cutter"
         },
         {
-            "name": "ビデオローテーター",
-            "description": "動画を回転させる",
+            "name": "ビデオローテータ",
+            "description": "あらゆる動画を回転させる",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/ja/video-rotater"
         },
         {
-            "name": "ビデオスプリッター",
+            "name": "ビデオスプリッタ",
             "description": "動画を分割",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/video-splitter"
         },
         {
-            "name": "ビデオトリマー",
+            "name": "動画トリマー",
             "description": "あらゆる動画をトリミング",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/video-trimmer"
         },
         {
-            "name": "動画の抽出",
+            "name": "動画を抽出",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ja/extract-audio"
+        },
+        {
+            "name": "フェイスブックのサイズ変更",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ja/resize-for-facebook"
+        },
+        {
+            "name": "インスタグラム用にサイズ変更",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ja/resize-for-instagram"
+        },
+        {
+            "name": "LinkedIn用にサイズ変更",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ja/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest 用にサイズ変更",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ja/resize-for-pinterest"
+        },
+        {
+            "name": "Snapchatのサイズ変更",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ja/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok用にサイズ変更",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ja/resize-for-tiktok"
+        },
+        {
+            "name": "ツイッター用にサイズ変更",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ja/resize-for-twitter"
+        },
+        {
+            "name": "Whatsappのサイズ変更",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ja/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube用にサイズ変更",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ja/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -166,7 +211,7 @@
         {
             "logo": "/assets/twitter.svg",
             "url": "https://twitter.com/intent/tweet?url=https://safevideokit.com/",
-            "title": "twitter"
+            "title": "ツイッター"
         }
     ],
     "messege": "© 2021 — Made with love for the people of the world.",

@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/it/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/it/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/it/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Resize per Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/it/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/it/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/it/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/it/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/it/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/it/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ridimensiona per Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/it/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

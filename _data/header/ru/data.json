@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/ru/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/ru/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/ru/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/ru/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/ru/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/ru/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/ru/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/ru/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/ru/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Изменить размер для Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/ru/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

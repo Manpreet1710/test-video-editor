@@ -6,7 +6,7 @@
     "title": "安全視頻 Kit.com-最安全的方式來處理您的視頻",
     "TITLE": "安全視頻 Kit.com-最安全的方式來處理您的視頻",
     "meta": "我們的在線視頻編輯工具是絕對免費的，易於使用。在您編輯視頻時，我們確保您的所有數據都是安全的。我們支持各種視頻格式，如 mp3，mov，mkv 等。",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "裁剪 MP4",
@@ -126,11 +126,74 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/zh-TW/subtitle-mp4"
+        },
+        {
+            "name": "調整臉書的大小",
+            "description": "調整臉書視頻大小",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/zh-TW/resize-for-facebook"
+        },
+        {
+            "name": "調整適用於 Instagram 的大小",
+            "description": "調整視頻大小",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/zh-TW/resize-for-instagram"
+        },
+        {
+            "name": "為領英調整大小",
+            "description": "為領英調整視頻大小",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/zh-TW/resize-for-linkedin"
+        },
+        {
+            "name": "為 Pinterest 調整大小",
+            "description": "為 Pinterest 調整視頻大小",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/zh-TW/resize-for-pinterest"
+        },
+        {
+            "name": "調整快照聊天的大小",
+            "description": "調整視頻大小",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/zh-TW/resize-for-snapchat"
+        },
+        {
+            "name": "為蒂克託克調整大小",
+            "description": "為蒂克託克調整視頻大小",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/zh-TW/resize-for-tiktok"
+        },
+        {
+            "name": "調整推特的大小",
+            "description": "調整視頻大小的推特",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/zh-TW/resize-for-twitter"
+        },
+        {
+            "name": "調整適用於 WhatsApp 的大小",
+            "description": "調整適用於 WhatsApp 的視頻大小",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/zh-TW/resize-for-whatsapp"
+        },
+        {
+            "name": "調整適用於 YouTube 的大小",
+            "description": "調整視頻大小，適用於 YouTube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/zh-TW/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
-        "name": "應用程序",
+        "name": "appscms",
         "alternateName": "appscms",
         "url": "www.appscms.com"
     },

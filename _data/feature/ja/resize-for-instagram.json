@@ -1,0 +1,81 @@
+{
+    "Language": "日本語",
+    "htmlLangAtt": "ja",
+    "H1": "数回クリックするだけでInstagram用の動画のサイズを変更",
+    "H2": "インスタグラムでご希望のサイズの動画をゲット",
+    "TITLE": "Instagramのサイズ変更-Instagram動画のサイズを変更するのに最適なツール",
+    "META": "safevideokit は、インスタグラムの動画のサイズを変更するゲームを変えるサイトです。Instagramツールのサイズ変更により、ビデオのサイズをすばやく簡単に変更できます。数回クリックするだけで、希望するサイズの動画を入手できます。 ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX から PDF へ",
+    "BREADCRUMB_LABEL": "DOCX に PDF",
+    "color": "#F00075",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/instagram.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "独立",
+            "content": "当社のウェブサイトはプラットフォームに依存しません。WindowsオペレーティングシステムとiOSオペレーティングシステムの両方で動作し、ダウンロードを必要とせずに使用できます。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "絶対無料",
+            "content": "変換は完全に無料なので、必要なだけファイルを変換できます。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "プライバシーとセキュリティ ",
+            "content": "当社のウェブサイトでは、お客様のプライバシーを優先しています。アプリケーションは、サーバーを介さずにブラウザ上で完全に動作します。したがって、データは安全です！"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "クイック結果",
+            "content": "ファイルサイズによっては、変換プロセスに数秒かかることはほとんどなく、簡単に結果を得ることができます。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "迅速で効率的",
+            "content": "ビデオ編集は非常に高速で、すぐに作業を完了できます"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "時間の節約",
+            "content": "当社のウェブサイトはプラットフォームに依存せず、ラップトップ、タブ、携帯電話で動作し、変換は迅速で、時間を節約できます。"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

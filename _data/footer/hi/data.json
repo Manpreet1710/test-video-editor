@@ -6,7 +6,7 @@
     "networksitestitle": "नेटवर्क साइटें",
     "company": [
         {
-            "name": "हमारे बारे में",
+            "name": "के बारे में",
             "url": "/about"
         },
         {
@@ -139,6 +139,51 @@
             "name": "वीडियो एक्सट्रैक्ट करें",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/hi/extract-audio"
+        },
+        {
+            "name": "फेसबुक के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/hi/resize-for-facebook"
+        },
+        {
+            "name": "इंस्टाग्राम के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/hi/resize-for-instagram"
+        },
+        {
+            "name": "लिंक्डइन के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/hi/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/hi/resize-for-pinterest"
+        },
+        {
+            "name": "स्नैपचैट के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/hi/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/hi/resize-for-tiktok"
+        },
+        {
+            "name": "ट्विटर के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/hi/resize-for-twitter"
+        },
+        {
+            "name": "Whatsapp के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/hi/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube के लिए आकार बदलें",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/hi/resize-for-youtube"
         }
     ],
     "networkSites": [],

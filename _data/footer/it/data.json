@@ -139,6 +139,51 @@
             "name": "Estrai video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/it/extract-audio"
+        },
+        {
+            "name": "Ridimensiona per Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/it/resize-for-facebook"
+        },
+        {
+            "name": "Ridimensiona per Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/it/resize-for-instagram"
+        },
+        {
+            "name": "Resize per Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/it/resize-for-linkedin"
+        },
+        {
+            "name": "Ridimensiona per Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/it/resize-for-pinterest"
+        },
+        {
+            "name": "Ridimensiona per Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/it/resize-for-snapchat"
+        },
+        {
+            "name": "Ridimensiona per Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/it/resize-for-tiktok"
+        },
+        {
+            "name": "Ridimensiona per Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/it/resize-for-twitter"
+        },
+        {
+            "name": "Ridimensiona per Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/it/resize-for-whatsapp"
+        },
+        {
+            "name": "Ridimensiona per Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/it/resize-for-youtube"
         }
     ],
     "networkSites": [],

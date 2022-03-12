@@ -6,7 +6,7 @@
     "title": "Safevideokit.com - Cara paling aman untuk memproses video Anda",
     "TITLE": "Safevideokit.com - Cara paling aman untuk memproses video Anda",
     "meta": "Alat editor video online kami benar-benar gratis dan mudah digunakan. Kami memastikan semua data Anda aman saat Anda mengedit video Anda. Kami mendukung berbagai macam format video seperti mp3, mov, mkv dll",
-    "keywords":"key1,key2,key3,key4",
+    "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "Tanaman MP4",
@@ -126,6 +126,69 @@
             "color": "#BD7ED8",
             "icon": "/assets/FeatureIcons/subtitle.svg",
             "url": "/id/subtitle-mp4"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Facebook",
+            "description": "Ubah Ukuran Video Untuk Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/id/resize-for-facebook"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Instagram",
+            "description": "Ubah Ukuran Video Untuk Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/id/resize-for-instagram"
+        },
+        {
+            "name": "Ubah Ukuran Untuk LinkedIn",
+            "description": "Ubah Ukuran Video Untuk LinkedIn",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/id/resize-for-linkedin"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Pinterest",
+            "description": "Ubah Ukuran Video Untuk Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/id/resize-for-pinterest"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Snapchat",
+            "description": "Ubah Ukuran Video Untuk Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/id/resize-for-snapchat"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Tiktok",
+            "description": "Ubah Ukuran Video Untuk Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/id/resize-for-tiktok"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Twitter",
+            "description": "Ubah Ukuran Video Untuk Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/id/resize-for-twitter"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Whatsapp",
+            "description": "Ubah Ukuran Video Untuk Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/id/resize-for-whatsapp"
+        },
+        {
+            "name": "Ubah Ukuran Untuk Youtube",
+            "description": "Ubah Ukuran Video Untuk Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/id/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {

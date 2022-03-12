@@ -1,0 +1,81 @@
+{
+    "Language": "Tiếng Việt",
+    "htmlLangAtt": "vi",
+    "H1": "Thay đổi kích thước video cho whatsapp với công cụ an toàn và an toàn này",
+    "H2": "Nhận video có kích thước mong muốn của bạn cho whatsapp",
+    "TITLE": "Thay đổi kích thước cho whatsapp-Công cụ tốt nhất để thay đổi kích thước video whatsapp",
+    "META": "Thay đổi kích thước video WhatsApp mà không làm giảm chất lượng với thay đổi kích thước cho công cụ whatsapp. Đơn giản chỉ cần tải lên một tệp và có được cài đặt chất lượng và kích thước tốt nhất cho video whatsapp của bạn. Nó là 100% an toàn và an toàn",
+    "keywords": "key1, key2, key3, key4",
+    "LABEL": "DOCX sang PDF",
+    "BREADCRUMB_LABEL": "DOCX ĐỂ PDF",
+    "color": "#21A218",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Độc lập",
+            "content": "Trang web của chúng tôi là nền tảng độc lập. Nó hoạt động trên cả hệ điều hành Window và iOS và có thể được sử dụng mà không cần bất kỳ tải xuống nào."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Hoàn toàn miễn phí",
+            "content": "Việc chuyển đổi hoàn toàn miễn phí, vì vậy bạn có thể chuyển đổi bao nhiêu tệp tùy thích."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Quyền riêng tư và bảo mật ",
+            "content": "Trang web của chúng tôi ưu tiên quyền riêng tư của khách hàng. Ứng dụng hoạt động hoàn toàn trên trình duyệt của bạn mà không xâm phạm bất kỳ máy chủ nào. Từ đó dữ liệu của bạn là an toàn!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Kết quả nhanh",
+            "content": "Quá trình chuyển đổi hầu như không mất vài giây, tùy thuộc vào kích thước tệp của bạn và bạn có thể nhận được kết quả nhanh chóng một cách dễ dàng."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Nhanh chóng và hiệu quả",
+            "content": "Chỉnh sửa video thực sự nhanh chóng và bạn có thể hoàn thành công việc của mình ngay lập tức"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Tiết kiệm thời gian",
+            "content": "Trang web của chúng tôi là nền tảng độc lập, có thể làm việc trên máy tính xách tay, tab và điện thoại và chuyển đổi nhanh chóng, nó tiết kiệm thời gian."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

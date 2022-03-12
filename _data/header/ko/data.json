@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/ko/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "페이스 북의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/ko/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "인스타그램 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/ko/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "링크드인의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/ko/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "고객 센터 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/ko/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "스냅챗 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/ko/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "틱톡에 맞게 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/ko/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "트위터의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/ko/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "왓츠앱 사이즈",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/ko/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "유튜브 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/ko/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

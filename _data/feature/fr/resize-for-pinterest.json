@@ -1,0 +1,81 @@
+{
+    "Language": "Français",
+    "htmlLangAtt": "fr",
+    "H1": "Il est très facile de redimensionner une vidéo en utilisant l'outil de redimensionnement pour Pinterest.",
+    "H2": "Obtenez la taille de la vidéo que vous souhaitez pour Pinterest",
+    "TITLE": "Redimensionner pour Pinterest - Resizer en ligne gratuit pour les vidéos Pinterest.",
+    "META": "Redimensionnez l'image de votre choix à l'aide de cet outil de redimensionnement en ligne gratuit pour Pinterest. Il est facile de redimensionner une vidéo pour Pinterest avec le safevideokit en changeant sa taille en carré ou en plein écran en quelques clics.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX à PDF",
+    "BREADCRUMB_LABEL": "DOCX AU FORMAT PDF",
+    "color": "#BD081C",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/pinterest.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Indépendant",
+            "content": "Notre site Web est indépendant de la plateforme. Il fonctionne sur les systèmes d'exploitation Windows et iOS et peut être utilisé sans aucun téléchargement requis."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolument gratuit",
+            "content": "La conversion est totalement gratuite, vous pouvez donc convertir autant de fichiers que vous le souhaitez."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Confidentialité et sécurité ",
+            "content": "Notre site Web donne la priorité à la confidentialité de ses clients. L'application fonctionne complètement sur votre navigateur sans impliquer aucun serveur. Vos données sont donc en sécurité !"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Résultats rapides",
+            "content": "Le processus de conversion ne prend que quelques secondes, selon la taille de votre fichier, et vous pouvez facilement obtenir des résultats rapides."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Rapide et efficace",
+            "content": "Le montage vidéo est très rapide et vous pouvez faire votre travail en un rien de temps"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Gain de temps",
+            "content": "Notre site Web est indépendant de la plate-forme, peut fonctionner sur les ordinateurs portables, les onglets et les téléphones et la conversion est rapide, cela permet de gagner du temps."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

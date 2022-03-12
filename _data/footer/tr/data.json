@@ -139,6 +139,51 @@
             "name": "Videoyu ayıkla",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/tr/extract-audio"
+        },
+        {
+            "name": "Facebook İçin Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/tr/resize-for-facebook"
+        },
+        {
+            "name": "Instagram için Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/tr/resize-for-instagram"
+        },
+        {
+            "name": "Linkedin için Yeniden Boyutlandırma",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/tr/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest için Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/tr/resize-for-pinterest"
+        },
+        {
+            "name": "Snapchat İçin Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/tr/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok için Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/tr/resize-for-tiktok"
+        },
+        {
+            "name": "Twitter İçin Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/tr/resize-for-twitter"
+        },
+        {
+            "name": "Whatsapp için yeniden boyutlandırma",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/tr/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube için Yeniden Boyutlandır",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/tr/resize-for-youtube"
         }
     ],
     "networkSites": [],

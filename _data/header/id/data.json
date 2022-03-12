@@ -118,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/id/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/id/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/id/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk LinkedIn",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/id/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/id/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/id/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/id/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/id/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/id/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/id/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },

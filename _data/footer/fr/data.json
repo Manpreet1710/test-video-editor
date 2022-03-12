@@ -1,6 +1,6 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "Nous simplifions le montage vidéo.",
+    "heading": "Nous facilitons le montage vidéo.",
     "companytitle": "Société",
     "producttitle": "produit",
     "networksitestitle": "Sites du réseau",
@@ -24,29 +24,29 @@
     ],
     "product": [
         {
-            "name": "Crop MP4",
-            "description": "Recadrez toutes les vidéos MP4",
+            "name": "Récolte MP4",
+            "description": "Rogner n'importe quelle vidéo MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/fr/crop-mp4"
         },
         {
             "name": "Vidéo sur les cultures",
-            "description": "Recadrez n'importe",
+            "description": "Recadrer n'importe",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/fr/crop-video"
         },
         {
-            "name": "éditeur MP4",
-            "description": "Éditez n'importe quelle vidéo MP4",
+            "name": "Éditeur MP4",
+            "description": "Modifiez n'importe quelle vidéo MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/fr/edit-mp4-video"
         },
         {
             "name": "Vidéo Flip",
-            "description": "Retourner toutes les vidéos",
+            "description": "Retourner n'importe quelle",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/fr/flip-video"
@@ -66,7 +66,7 @@
             "url": "/fr/mp4-compressor"
         },
         {
-            "name": "Cutter MP4",
+            "name": "Coupeur MP4",
             "description": "Coupez n'importe quelle vidéo MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -80,8 +80,8 @@
             "url": "/fr/video-editor"
         },
         {
-            "name": "Tondeuse MP4",
-            "description": "Coupez n'importe quelle vidéo MP4",
+            "name": "tondeuse MP4",
+            "description": "Découpez n'importe quelle vidéo MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/mp4-trimmer"
@@ -116,7 +116,7 @@
         },
         {
             "name": "Rotateur vidéo",
-            "description": "Rotation de n'importe",
+            "description": "Rotation d'une vidéo",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/fr/video-rotater"
@@ -130,7 +130,7 @@
         },
         {
             "name": "Trimmer vidéo",
-            "description": "Rogner n'importe quelle",
+            "description": "Découpez n'importe quelle",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/video-trimmer"
@@ -139,6 +139,51 @@
             "name": "Extraire la vidéo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/fr/extract-audio"
+        },
+        {
+            "name": "Redimensionner pour Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/fr/resize-for-facebook"
+        },
+        {
+            "name": "Redimensionner pour Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/fr/resize-for-instagram"
+        },
+        {
+            "name": "Redimensionner pour Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/fr/resize-for-linkedin"
+        },
+        {
+            "name": "Redimensionner pour Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/fr/resize-for-pinterest"
+        },
+        {
+            "name": "Redimensionner pour Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/fr/resize-for-snapchat"
+        },
+        {
+            "name": "Redimensionner pour Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/fr/resize-for-tiktok"
+        },
+        {
+            "name": "Redimensionner pour Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/fr/resize-for-twitter"
+        },
+        {
+            "name": "Redimensionner pour Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/fr/resize-for-whatsapp"
+        },
+        {
+            "name": "Redimensionner pour Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/fr/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -161,7 +206,7 @@
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "linkdin"
+            "title": "lien dans"
         },
         {
             "logo": "/assets/twitter.svg",
@@ -184,7 +229,7 @@
             "url": "/contact"
         },
         {
-            "name": "Clause de non-responsabilité",
+            "name": "Déni de responsabilité",
             "url": "/disclaimer"
         }
     ]
