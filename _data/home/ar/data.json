@@ -2,7 +2,7 @@
     "Language": "العربية",
     "htmlLangAtt": "ar",
     "h1": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
-    "h2": "لا يتم إرسال أي ملفات إلى الخادم. آمن بنسبة 100%.",
+    "h2": "لا يتم إرسال أي ملفات إلى الخادم. 100٪ آمن.",
     "title": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
     "TITLE": "Safevideokit.com - الطريقة الأكثر أمانًا لمعالجة مقاطع الفيديو الخاصة بك",
     "meta": "أداة محرر الفيديو عبر الإنترنت مجانية تمامًا وسهلة الاستخدام. نتأكد من أن جميع بياناتك آمنة أثناء تحرير الفيديو الخاص بك. نحن ندعم مجموعة كبيرة من تنسيقات الفيديو مثل mp3 و mov و mkv وما إلى ذلك.",
@@ -51,14 +51,14 @@
             "url": "/ar/mp4-compressor"
         },
         {
-            "name": "قاطع MP4",
+            "name": "كتر MP4",
             "description": "قص أي فيديو MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ar/mp4-cutter"
         },
         {
-            "name": "محرر فيديو",
+            "name": "محرر الفيديو",
             "description": "تحرير أي فيديو",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -93,7 +93,7 @@
             "url": "/ar/video-cutter"
         },
         {
-            "name": "جهاز دوراتر الفيديو",
+            "name": "دوار الفيديو",
             "description": "قم بتدوير أي فيديو",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
@@ -108,7 +108,7 @@
         },
         {
             "name": "أداة تشذيب الفيديو",
-            "description": "تقليم أي فيديو",
+            "description": "قص أي فيديو",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ar/video-trimmer"
@@ -119,11 +119,81 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ar/extract-audio"
+        },
+        {
+            "name": "إضافة ترجمات إلى MP4",
+            "description": "إضافة ترجمة إلى فيديو MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ar/subtitle-mp4"
+        },
+        {
+            "name": "تغيير الحجم لفيسبوك",
+            "description": "تغيير حجم الفيديو لفيسبوك",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ar/resize-for-facebook"
+        },
+        {
+            "name": "تغيير الحجم للحصول على Instagram",
+            "description": "تغيير حجم الفيديو لـ Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ar/resize-for-instagram"
+        },
+        {
+            "name": "تغيير حجم لينكد إن",
+            "description": "تغيير حجم الفيديو لـ Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ar/resize-for-linkedin"
+        },
+        {
+            "name": "تغيير حجم لموقع Pinterest",
+            "description": "تغيير حجم الفيديو لـ Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ar/resize-for-pinterest"
+        },
+        {
+            "name": "تغيير حجم سناب شات",
+            "description": "تغيير حجم الفيديو لـ Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ar/resize-for-snapchat"
+        },
+        {
+            "name": "تغيير الحجم لTiktok",
+            "description": "تغيير حجم الفيديو لـ Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ar/resize-for-tiktok"
+        },
+        {
+            "name": "تغيير الحجم لتويتر",
+            "description": "تغيير حجم الفيديو لتويتر",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ar/resize-for-twitter"
+        },
+        {
+            "name": "تغيير حجم الواتس اب",
+            "description": "تغيير حجم الفيديو للحصول على واتس اب",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ar/resize-for-whatsapp"
+        },
+        {
+            "name": "تغيير حجم يوتيوب",
+            "description": "تغيير حجم الفيديو على Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ar/resize-for-youtube"
         }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
-        "name": "تطبيقات",
+        "name": "appscms",
         "alternateName": "appscms",
         "url": "www.appscms.com"
     },

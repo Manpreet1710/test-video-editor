@@ -20,7 +20,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor MP4",
+                        "name": "Compressor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/pt/mp4-compressor",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/pt/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Adicionar legendas ao MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/pt/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -49,13 +55,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor MP4",
+                        "name": "Compressor MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/pt/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "compressor de vídeo",
+                        "name": "Compressor de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/pt/video-compressor",
                         "hover": "blue"
@@ -72,7 +78,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vídeo de recorte",
+                        "name": "Cortar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/pt/crop-video",
                         "hover": "blue"
@@ -90,13 +96,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vídeo flip",
+                        "name": "Virar vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/pt/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "cortador de vídeo",
+                        "name": "Cortador de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/pt/video-cutter",
                         "hover": "blue"
@@ -111,6 +117,60 @@
                         "name": "Aparador de vídeo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/pt/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/pt/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/pt/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/pt/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/pt/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/pt/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/pt/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/pt/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/pt/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionar para o Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/pt/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

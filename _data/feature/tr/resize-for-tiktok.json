@@ -1,0 +1,81 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Bu tiktok aracı için yeniden boyutlandırma kullanarak videoyu yeniden boyutlandırmak süper kolaydır.",
+    "H2": "tiktok aracı için yeniden boyutlandırma ile çevrimiçi video boyutlarını değiştirin",
+    "TITLE": "tiktok için yeniden boyutlandırma - safevideokit tiktok için videoları yeniden boyutlandırma için ücretsiz bir araçtır.",
+    "META": "Ücretsiz için çevrimiçi video boyutunu değiştirmek için tiktok aracı için yeniden boyutlandırın kullanın. Tiktok videolarını yeniden boyutlandırmanın en iyi yolu, safevideokit gibi profesyonel bir video yeniden boyutlandırıcı kullanmaktır.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'den PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#D44638",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/tiktok.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Bağımsız",
+            "content": "Web sitemiz platformdan bağımsızdır. Hem Pencere hem de iOS İşletim sistemlerinde çalışır ve herhangi bir indirme gerektirmeden kullanılabilir."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Kesinlikle Ücretsiz",
+            "content": "Dönüşüm tamamen ücretsizdir, böylece istediğiniz kadar çok dosyayı dönüştürebilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Gizlilik ve Güvenlik ",
+            "content": "Web sitemiz müşterilerinin gizliliğine öncelik verir. Uygulama herhangi bir sunucu invlolving olmadan tarayıcınızda tamamen çalışır.Dolayısıyla verileriniz güvenlidir!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Hızlı Sonuçlar",
+            "content": "Dönüştürme işlemi, dosya boyutunuza bağlı olarak birkaç saniye sürmez ve kolayca hızlı sonuçlar alabilirsiniz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Hızlı ve verimli",
+            "content": "Video düzenleme gerçekten hızlıdır ve işinizi kısa sürede halledebilirsiniz"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Zaman Tasarruf",
+            "content": "Web sitemiz platformdan bağımsızdır, dizüstü bilgisayarlar, sekmeler ve telefonlarda çalışabilir ve dönüşüm hızlıdır, zamandan tasarruf sağlar."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

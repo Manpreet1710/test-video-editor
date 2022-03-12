@@ -1,29 +1,29 @@
 {
     "Language": "Français",
     "htmlLangAtt": "fr",
-    "h1": "SafeVideokit.com - Le moyen le plus sûr de traiter vos vidéos",
+    "h1": "SafeVideoKit.com - Le moyen le plus sûr de traiter vos vidéos",
     "h2": "Aucun fichier n'est envoyé au serveur. 100% sûr.",
-    "title": "SafeVideokit.com - Le moyen le plus sûr de traiter vos vidéos",
-    "TITLE": "SafeVideokit.com - Le moyen le plus sûr de traiter vos vidéos",
-    "meta": "Notre outil d'édition vidéo en ligne est absolument gratuit et facile à utiliser. Nous veillons à ce que toutes vos données soient en sécurité pendant que vous montez votre vidéo. Nous prenons en charge une large gamme de formats vidéo tels que mp3, mov, mkv, etc.",
+    "title": "SafeVideoKit.com - Le moyen le plus sûr de traiter vos vidéos",
+    "TITLE": "SafeVideoKit.com - Le moyen le plus sûr de traiter vos vidéos",
+    "meta": "Notre outil d'édition vidéo en ligne est totalement gratuit et facile à utiliser. Nous nous assurons que toutes vos données sont sécurisées lorsque vous éditez votre vidéo. Nous prenons en charge une large gamme de formats vidéo tels que mp3, mov, mkv, etc.",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
-            "name": "Recadrer MP4",
-            "description": "Recadrez n'importe quelle vidéo MP4",
+            "name": "Récolte MP4",
+            "description": "Rogner n'importe quelle vidéo MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/fr/crop-mp4"
         },
         {
-            "name": "Vidéo recadrage",
-            "description": "Recadrez toutes les vidéos",
+            "name": "Vidéo sur les cultures",
+            "description": "Recadrer n'importe",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/fr/crop-video"
         },
         {
-            "name": "Editeur MP4",
+            "name": "Éditeur MP4",
             "description": "Modifiez n'importe quelle vidéo MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -31,14 +31,14 @@
         },
         {
             "name": "Vidéo Flip",
-            "description": "Retourner toutes les vidéos",
+            "description": "Retourner n'importe quelle",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/fr/flip-video"
         },
         {
             "name": "Compresseur MOV",
-            "description": "Compressez n'importe quelle vidéo MOV",
+            "description": "Compressez toutes les vidéos MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/fr/mov-compressor"
@@ -51,15 +51,15 @@
             "url": "/fr/mp4-compressor"
         },
         {
-            "name": "Fraise MP4",
+            "name": "Coupeur MP4",
             "description": "Coupez n'importe quelle vidéo MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/mp4-cutter"
         },
         {
-            "name": "éditeur vidéo",
-            "description": "Éditez n'importe quelle vidéo",
+            "name": "Éditeur vidéo",
+            "description": "Modifiez n'importe quelle vidéo",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/fr/video-editor"
@@ -80,46 +80,116 @@
         },
         {
             "name": "Compresseur vidéo",
-            "description": "Compressez n'importe quelle vidéo",
+            "description": "Compressez toutes les vidéos",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/fr/video-compressor"
         },
         {
-            "name": "découpeuse vidéo",
-            "description": "Coupez n'importe quelle vidéo",
+            "name": "Cutter vidéo",
+            "description": "Coupez toutes les vidéos",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/video-cutter"
         },
         {
-            "name": "Rotater vidéo",
-            "description": "Faites pivoter n'importe quelle vidéo",
+            "name": "Rotateur vidéo",
+            "description": "Rotation d'une vidéo",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/fr/video-rotater"
         },
         {
-            "name": "Séparateur vidéo",
-            "description": "Divisez toutes les vidéos",
+            "name": "Répartiteur vidéo",
+            "description": "Split n'importe quelle vidéo",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/video-splitter"
         },
         {
             "name": "Trimmer vidéo",
-            "description": "Coupez n'importe quelle vidéo",
+            "description": "Découpez n'importe quelle",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/fr/video-trimmer"
         },
         {
-            "name": "Extraire le",
+            "name": "Extraire l'audio",
             "description": "Extraire l'audio d'une vidéo",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/fr/extract-audio"
-        } 
+        },
+        {
+            "name": "Ajouter des sous-titres à MP4",
+            "description": "Ajouter des sous-titres à une vidéo MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/fr/subtitle-mp4"
+        },
+        {
+            "name": "Redimensionner pour Facebook",
+            "description": "Redimensionner la vidéo pour Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/fr/resize-for-facebook"
+        },
+        {
+            "name": "Redimensionner pour Instagram",
+            "description": "Redimensionner la vidéo pour Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/fr/resize-for-instagram"
+        },
+        {
+            "name": "Redimensionner pour Linkedin",
+            "description": "Redimensionner la vidéo pour Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/fr/resize-for-linkedin"
+        },
+        {
+            "name": "Redimensionner pour Pinterest",
+            "description": "Redimensionner la vidéo pour Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/fr/resize-for-pinterest"
+        },
+        {
+            "name": "Redimensionner pour Snapchat",
+            "description": "Redimensionner la vidéo pour Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/fr/resize-for-snapchat"
+        },
+        {
+            "name": "Redimensionner pour Tiktok",
+            "description": "Redimensionner la vidéo pour Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/fr/resize-for-tiktok"
+        },
+        {
+            "name": "Redimensionner pour Twitter",
+            "description": "Redimensionner la vidéo pour Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/fr/resize-for-twitter"
+        },
+        {
+            "name": "Redimensionner pour Whatsapp",
+            "description": "Redimensionner la vidéo pour Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/fr/resize-for-whatsapp"
+        },
+        {
+            "name": "Redimensionner pour Youtube",
+            "description": "Redimensionner la vidéo pour Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/fr/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

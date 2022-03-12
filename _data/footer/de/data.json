@@ -1,9 +1,9 @@
 {
     "logo": "/assets/safevideokit.svg",
     "heading": "Wir machen die Videobearbeitung einfach.",
-    "companytitle": "Unternehmen",
+    "companytitle": "Firma",
     "producttitle": "Produkt",
-    "networksitestitle": "Netzwerk-Seiten",
+    "networksitestitle": "Netzwerk-Sites",
     "company": [
         {
             "name": "Über",
@@ -14,11 +14,11 @@
             "url": "/help"
         },
         {
-            "name": "Bloggen",
+            "name": "Blog",
             "url": "/blog"
         },
         {
-            "name": "AGB",
+            "name": "Allgemeine Geschäftsbedingungen",
             "url": "/terms-and-conditions"
         }
     ],
@@ -28,110 +28,162 @@
             "description": "Beschneiden Sie jedes MP4-Video",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "de/crop-mp4"
+            "url": "/de/crop-mp4"
         },
         {
             "name": "Video zuschneiden",
-            "description": "Beschneide jedes Video",
+            "description": "Jedes Video zuschneiden",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "de/crop-video"
+            "url": "/de/crop-video"
         },
         {
-            "name": "MP4-Redakteur",
+            "name": "MP4-Editor",
             "description": "Bearbeiten Sie jedes MP4-Video",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "de/edit-mp4-video"
+            "url": "/de/edit-mp4-video"
         },
         {
             "name": "Video umdrehen",
-            "description": "Drehen Sie jedes Video um",
+            "description": "Jedes Video umdrehen",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "de/flip-video"
+            "url": "/de/flip-video"
         },
         {
             "name": "MOV-Kompressor",
             "description": "Komprimiere jedes MOV-Video",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "de/mov-compressor"
+            "url": "/de/mov-compressor"
         },
         {
             "name": "MP4-Kompressor",
-            "description": "Komprimiere alle MP4-Videos",
+            "description": "Komprimieren Sie alle MP4-Videos",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "de/mp4-compressor"
+            "url": "/de/mp4-compressor"
         },
         {
-            "name": "MP4-Schneider",
+            "name": "MP4-Ausstecher",
             "description": "Schneiden Sie jedes MP4-Video",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "de/mp4-cutter"
+            "url": "/de/mp4-cutter"
         },
         {
-            "name": "Videoeditor",
+            "name": "Videobearbeiter",
             "description": "Bearbeiten Sie jedes Video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "de/video-editor"
+            "url": "/de/video-editor"
         },
         {
             "name": "MP4-Trimmer",
             "description": "Trimmen Sie jedes MP4-Video",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "de/mp4-trimmer"
+            "url": "/de/mp4-trimmer"
         },
         {
-            "name": "Video Größe ändern",
-            "description": "Ändern Sie die Größe jedes Videos",
+            "name": "Untertitel zu MP4 hinzufügen",
+            "description": "Untertitel zu einem MP4-Video hinzufügen",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/de/subtitle-mp4"
+        },
+        {
+            "name": "Video skalieren",
+            "description": "Ändern der Größe eines beliebigen Videos",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "de/resize-video"
+            "url": "/de/resize-video"
         },
         {
             "name": "Videokompressor",
             "description": "Komprimiere jedes Video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "de/video-compressor"
+            "url": "/de/video-compressor"
         },
         {
             "name": "Videoschneider",
             "description": "Schneide jedes Video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "de/video-cutter"
+            "url": "/de/video-cutter"
         },
         {
-            "name": "Video-Rotater",
+            "name": "Video-Drehmaschine",
             "description": "Drehen Sie jedes Video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "de/video-rotater"
+            "url": "/de/video-rotater"
         },
         {
             "name": "Videosplitter",
             "description": "Teilen Sie jedes Video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "de/video-splitter"
+            "url": "/de/video-splitter"
         },
         {
-            "name": "Videoschneider",
+            "name": "Trimmer",
             "description": "Trimmen Sie jedes Video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "de/video-trimmer"
+            "url": "/de/video-trimmer"
         },
         {
             "name": "Video extrahieren",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "de/extract-audio"
+            "url": "/de/extract-audio"
+        },
+        {
+            "name": "Für Facebook skalieren",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/de/resize-for-facebook"
+        },
+        {
+            "name": "Für Instagram skalieren",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/de/resize-for-instagram"
+        },
+        {
+            "name": "Größe für Linkedin ändern",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/de/resize-for-linkedin"
+        },
+        {
+            "name": "Größe für Pinterest ändern",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/de/resize-for-pinterest"
+        },
+        {
+            "name": "Größe für Snapchat ändern",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/de/resize-for-snapchat"
+        },
+        {
+            "name": "Größe für Tiktok ändern",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/de/resize-for-tiktok"
+        },
+        {
+            "name": "Für Twitter skalieren",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/de/resize-for-twitter"
+        },
+        {
+            "name": "Größe für WhatsApp ändern",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/de/resize-for-whatsapp"
+        },
+        {
+            "name": "Größe für Youtube ändern",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/de/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -165,11 +217,11 @@
     "messege": "© 2021 — Made with love for the people of the world.",
     "legal": [
         {
-            "name": "AGB",
+            "name": "Allgemeine Geschäftsbedingungen",
             "url": "/terms-and-conditions"
         },
         {
-            "name": "Datenschutz-Bestimmungen",
+            "name": "Datenschutz",
             "url": "/privacy-policy"
         },
         {
@@ -177,7 +229,7 @@
             "url": "/contact"
         },
         {
-            "name": "Haftungsausschluss",
+            "name": "Haftungsaus",
             "url": "/disclaimer"
         }
     ]

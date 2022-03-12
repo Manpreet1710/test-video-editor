@@ -1,0 +1,443 @@
+{
+    "facebook":[
+        {
+            "id": "0",
+            "name": "Facbook Feed Landscape",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Facbook Feed Potrait",
+            "width": "720",
+            "height": "1280",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Facbook Story",
+            "width": "1280",
+            "height": "1280",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "3",
+            "name": "Facbook Ads Landscape",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "4",
+            "name": "Facbook Ads Square",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "5",
+            "name": "Facbook 360",
+            "width": "4096",
+            "height": "2048",
+            "aspect-width": "2",
+            "aspect-height": "1",
+            "fps": "30"
+        },
+        {
+            "id": "6",
+            "name": "Facbook Carousel Video Ads Square",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "7",
+            "name": "Facbook Carousel Video Ads Landscape",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        }
+    ],
+    "instagram":[
+        {
+            "id": "0",
+            "name": "Instagram Organic Landscape",
+            "width": "600",
+            "height": "315",
+            "aspect-width": "19",
+            "aspect-height": "10",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Instagram Organic Square",
+            "width": "600",
+            "height": "600",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Instagram Organic Potrait",
+            "width": "600",
+            "height": "750",
+            "aspect-width": "4",
+            "aspect-height": "5",
+            "fps": "29"
+        },
+        {
+            "id": "3",
+            "name": "Instagram Ads Landscape",
+            "width": "600",
+            "height": "315",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "4",
+            "name": "Instagram Ads Square",
+            "width": "600",
+            "height": "600",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "5",
+            "name": "Instagram Ads Potrait",
+            "width": "600",
+            "height": "750",
+            "aspect-width": "4",
+            "aspect-height": "5",
+            "fps": "29"
+        },
+        {
+            "id": "6",
+            "name": "Instagram Carousel Video Ads",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "7",
+            "name": "Instagram Stories",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "8",
+            "name": "Instagram IGTV",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        }
+    ],
+    "linkedin":[
+        {
+            "id": "0",
+            "name": "Linkedin Native Video Landscape",
+            "width": "1920",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Linkedin Native Video Potrait",
+            "width": "1080",
+            "height": "1350",
+            "aspect-width": "4",
+            "aspect-height": "5",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Linkedin Ads Landscape",
+            "width": "1920",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "3",
+            "name": "Linkedin Ads Square",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        },
+        {
+            "id": "4",
+            "name": "Linkedin Ads Potrait",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "5",
+            "name": "Linkedin Company Page Video",
+            "width": "1080",
+            "height": "1080",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        }
+    ],
+    "tiktok":[
+        {
+            "id": "0",
+            "name": "Tiktok Video Protrait",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Tiktok Video Square",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "29"
+        }
+    ],
+    "twitter":[
+        {
+            "id": "0",
+            "name": "Twitter Video/Ads Landscape Small",
+            "width": "320",
+            "height": "180",
+            "aspect-width": "239",
+            "aspect-height": "100",
+            "fps": "39"
+        },
+        {
+            "id": "1",
+            "name": "Twitter Video/Ads Landscape Medium",
+            "width": "640",
+            "height": "360",
+            "aspect-width": "239",
+            "aspect-height": "100",
+            "fps": "39"
+        },
+        {
+            "id": "2",
+            "name": "Twitter Video/Ads Landscape Large",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "239",
+            "aspect-height": "100",
+            "fps": "39"
+        },
+        {
+            "id": "3",
+            "name": "Twitter Video/Ads Potrait Small",
+            "width": "240",
+            "height": "240",
+            "aspect-width": "100",
+            "aspect-height": "239",
+            "fps": "39"
+        },
+        {
+            "id": "4",
+            "name": "Twitter Video/Ads Potrait Medium",
+            "width": "480",
+            "height": "480",
+            "aspect-width": "100",
+            "aspect-height": "239",
+            "fps": "39"
+        },
+        {
+            "id": "5",
+            "name": "Twitter Video/Ads Potrait Large",
+            "width": "640",
+            "height": "640",
+            "aspect-width": "100",
+            "aspect-height": "239",
+            "fps": "39"
+        }
+    ],
+    "pinterest":[
+        {
+            "id": "0",
+            "name": "Pinterest Video Square",
+            "width": "600",
+            "height": "600",
+            "aspect-width": "1",
+            "aspect-height": "1",
+            "fps": "24"
+        },
+        {
+            "id": "1",
+            "name": "Pinterest Video Vertical",
+            "width": "600",
+            "height": "900",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "24"
+        }
+    ],
+    "snapchat":[
+        {
+            "id": "0",
+            "name": "Snapchat 10 second Video",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        },
+        {
+            "id": "1",
+            "name": "Snapchat Video Ad Landscape",
+            "width": "1920",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "29"
+        },
+        {
+            "id": "2",
+            "name": "Snapchat Video Ad Potrait",
+            "width": "1080",
+            "height": "1920",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        }
+    ],
+    "youtube":[
+        {
+            "id": "0",
+            "name": "Youtube 144p",
+            "width": "256",
+            "height": "144",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "1",
+            "name": "Youtube 240p",
+            "width": "426",
+            "height": "240",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "2",
+            "name": "Youtube 360p",
+            "width": "640",
+            "height": "360",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "3",
+            "name": "Youtube 480p",
+            "width": "854",
+            "height": "480",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "4",
+            "name": "Youtube 720p",
+            "width": "1280",
+            "height": "720",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "5",
+            "name": "Youtube 1080p",
+            "width": "1920",
+            "height": "1080",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "6",
+            "name": "Youtube 1440p",
+            "width": "2560",
+            "height": "1440",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "7",
+            "name": "Youtube 2160p",
+            "width": "3840",
+            "height": "2160",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "8",
+            "name": "Youtube Bumper Ads",
+            "width": "640",
+            "height": "360",
+            "aspect-width": "16",
+            "aspect-height": "9",
+            "fps": "50"
+        },
+        {
+            "id": "9",
+            "name": "Youtube Short",
+            "width": "2160",
+            "height": "3840",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "50"
+        }
+    ],
+    "whatsapp":[
+        {
+            "id": "0",
+            "name": "Whatsapp Story",
+            "width": "750",
+            "height": "1334",
+            "aspect-width": "9",
+            "aspect-height": "16",
+            "fps": "29"
+        }
+    ]
+}

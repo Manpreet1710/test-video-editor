@@ -5,7 +5,7 @@
         "nav-link-name": "Tools",
         "dropdown": [
             {
-                "categoryName": "MP4 Værktøjer",
+                "categoryName": "MP4 Værktøj",
                 "links": [
                     {
                         "name": "Beskær MP4",
@@ -14,7 +14,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Redigér MP4",
+                        "name": "Rediger MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/da/edit-mp4-video",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 fræser",
+                        "name": "MP4 Cutter",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/da/mp4-cutter",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/da/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Tilføj undertekster til MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/da/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -63,7 +69,7 @@
                 ]
             },
             {
-                "categoryName": "Videoværktøjer",
+                "categoryName": "Video værktøjer",
                 "links": [
                     {
                         "name": "Rediger video",
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Tilpas størrelse på video",
+                        "name": "Ændre størrelsen på video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/da/resize-video",
                         "hover": "blue"
@@ -90,13 +96,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Vend video",
+                        "name": "Flip video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/da/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "videoskærer",
+                        "name": "Video Cutter",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/da/video-cutter",
                         "hover": "blue"
@@ -112,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/da/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/da/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/da/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/da/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/da/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/da/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/da/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/da/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/da/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ændre størrelse til Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/da/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },
@@ -119,7 +179,7 @@
                 "categoryName": "Uddrag lyd",
                 "links": [
                     {
-                        "name": "Udtræk lyd",
+                        "name": "Uddrag lyd",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/da/extract-audio",
                         "hover": "blue"

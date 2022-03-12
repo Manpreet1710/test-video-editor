@@ -1,0 +1,81 @@
+{
+    "Language": "Polski",
+    "htmlLangAtt": "pl",
+    "H1": "Darmowa zmiana rozmiaru online dla Snapchata",
+    "H2": "Zmień rozmiar wideo, aby dopasować wymiary Snapchata.",
+    "TITLE": "Zmiana rozmiaru dla Snapchata — Najlepsze narzędzie do zmiany rozmiaru filmów dla snapchata",
+    "META": "safevideokit to strona zmieniająca rozmiar gry, która zmienia rozmiar filmów snapchat. Szybka i łatwa zmiana wymiarów wideo za pomocą narzędzia Snapchat. Uzyskaj żądany rozmiar wideo za pomocą kilku kliknięć. ",
+    "keywords": "key1, key2, key3, key4",
+    "LABEL": "DOCX do PDF",
+    "BREADCRUMB_LABEL": "DOCX DO PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Niezależny",
+            "content": "Nasza strona internetowa jest niezależna od platformy. Działa zarówno w systemach operacyjnych Windows, jak i iOS i może być używany bez konieczności pobierania plików."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Całkowicie za darmo",
+            "content": "Konwersja jest całkowicie darmowa, więc możesz przekonwertować tyle plików, ile chcesz."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Prywatność i bezpieczeństwo ",
+            "content": "Nasza strona internetowa traktuje priorytet prywatności swoich klientów. Aplikacja działa całkowicie w przeglądarce bez wywoływania żadnego serwera.Stąd Twoje dane są bezpieczne!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Szybkie wyniki",
+            "content": "Proces konwersji zajmuje niewiele sekund, w zależności od rozmiaru pliku, i można łatwo uzyskać szybkie rezultaty."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Szybki i wydajny",
+            "content": "Edycja wideo jest bardzo szybka i możesz wykonać swoją pracę w krótkim czasie"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Oszczędność czasu",
+            "content": "Nasza strona internetowa jest niezależna od platformy, może pracować na laptopach, zakładkach i telefonach, a konwersja jest szybka, oszczędza czas."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

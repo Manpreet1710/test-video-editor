@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/zh/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "将字幕添加到MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/zh/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "调整视频大",
+                        "name": "调整视频大小",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/zh/resize-video",
                         "hover": "blue"
@@ -112,6 +118,60 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/zh/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "为 Facebook 调整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/zh/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "调整为 Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/zh/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "为领英调整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/zh/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "调整为 Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/zh/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "为 Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/zh/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "调整为 Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/zh/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "为 Twitter 调整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/zh/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "为 Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/zh/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "调整为 Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/zh/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },
@@ -130,7 +190,7 @@
     },
     "navItems": [
         {
-            "name": "部落格",
+            "name": "博客",
             "url": "/blog"
         }
     ]

@@ -1,9 +1,9 @@
 {
     "logo": "/assets/safevideokit.svg",
     "heading": "Nous facilitons le montage vidéo.",
-    "companytitle": "Entreprise",
-    "producttitle": "Produit",
-    "networksitestitle": "Sites réseau",
+    "companytitle": "Société",
+    "producttitle": "produit",
+    "networksitestitle": "Sites du réseau",
     "company": [
         {
             "name": "À propos",
@@ -24,114 +24,166 @@
     ],
     "product": [
         {
-            "name": "Recadrer MP4",
-            "description": "Recadrez n'importe quelle vidéo MP4",
+            "name": "Récolte MP4",
+            "description": "Rogner n'importe quelle vidéo MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "fr/crop-mp4"
+            "url": "/fr/crop-mp4"
         },
         {
-            "name": "Vidéo recadrage",
-            "description": "Recadrez toutes les vidéos",
+            "name": "Vidéo sur les cultures",
+            "description": "Recadrer n'importe",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "fr/crop-video"
+            "url": "/fr/crop-video"
         },
         {
-            "name": "Editeur MP4",
+            "name": "Éditeur MP4",
             "description": "Modifiez n'importe quelle vidéo MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "fr/edit-mp4-video"
+            "url": "/fr/edit-mp4-video"
         },
         {
             "name": "Vidéo Flip",
-            "description": "Retourner toutes les vidéos",
+            "description": "Retourner n'importe quelle",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "fr/flip-video"
+            "url": "/fr/flip-video"
         },
         {
             "name": "Compresseur MOV",
-            "description": "Compressez n'importe quelle vidéo MOV",
+            "description": "Compressez toutes les vidéos MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "fr/mov-compressor"
+            "url": "/fr/mov-compressor"
         },
         {
             "name": "Compresseur MP4",
             "description": "Compressez toutes les vidéos MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "fr/mp4-compressor"
+            "url": "/fr/mp4-compressor"
         },
         {
-            "name": "Fraise MP4",
+            "name": "Coupeur MP4",
             "description": "Coupez n'importe quelle vidéo MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "fr/mp4-cutter"
+            "url": "/fr/mp4-cutter"
         },
         {
-            "name": "éditeur vidéo",
-            "description": "Éditez n'importe quelle vidéo",
+            "name": "Éditeur vidéo",
+            "description": "Modifiez n'importe quelle vidéo",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "fr/video-editor"
+            "url": "/fr/video-editor"
         },
         {
             "name": "tondeuse MP4",
             "description": "Découpez n'importe quelle vidéo MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "fr/mp4-trimmer"
+            "url": "/fr/mp4-trimmer"
+        },
+        {
+            "name": "Ajouter des sous-titres à MP4",
+            "description": "Ajouter des sous-titres à une vidéo MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/fr/subtitle-mp4"
         },
         {
             "name": "Redimensionner la vidéo",
             "description": "Redimensionner n'importe quelle vidéo",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "fr/resize-video"
+            "url": "/fr/resize-video"
         },
         {
             "name": "Compresseur vidéo",
-            "description": "Compressez n'importe quelle vidéo",
+            "description": "Compressez toutes les vidéos",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "fr/video-compressor"
+            "url": "/fr/video-compressor"
         },
         {
-            "name": "découpeuse vidéo",
-            "description": "Coupez n'importe quelle vidéo",
+            "name": "Cutter vidéo",
+            "description": "Coupez toutes les vidéos",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "fr/video-cutter"
+            "url": "/fr/video-cutter"
         },
         {
-            "name": "Rotater vidéo",
-            "description": "Faites pivoter n'importe quelle vidéo",
+            "name": "Rotateur vidéo",
+            "description": "Rotation d'une vidéo",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "fr/video-rotater"
+            "url": "/fr/video-rotater"
         },
         {
-            "name": "Séparateur vidéo",
-            "description": "Divisez toutes les vidéos",
+            "name": "Répartiteur vidéo",
+            "description": "Split n'importe quelle vidéo",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "fr/video-splitter"
+            "url": "/fr/video-splitter"
         },
         {
             "name": "Trimmer vidéo",
-            "description": "Coupez n'importe quelle vidéo",
+            "description": "Découpez n'importe quelle",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "fr/video-trimmer"
+            "url": "/fr/video-trimmer"
         },
         {
-            "name": "Extraire vidéo",
+            "name": "Extraire la vidéo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "fr/extract-audio"
+            "url": "/fr/extract-audio"
+        },
+        {
+            "name": "Redimensionner pour Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/fr/resize-for-facebook"
+        },
+        {
+            "name": "Redimensionner pour Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/fr/resize-for-instagram"
+        },
+        {
+            "name": "Redimensionner pour Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/fr/resize-for-linkedin"
+        },
+        {
+            "name": "Redimensionner pour Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/fr/resize-for-pinterest"
+        },
+        {
+            "name": "Redimensionner pour Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/fr/resize-for-snapchat"
+        },
+        {
+            "name": "Redimensionner pour Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/fr/resize-for-tiktok"
+        },
+        {
+            "name": "Redimensionner pour Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/fr/resize-for-twitter"
+        },
+        {
+            "name": "Redimensionner pour Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/fr/resize-for-whatsapp"
+        },
+        {
+            "name": "Redimensionner pour Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/fr/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -154,7 +206,7 @@
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "linkdin"
+            "title": "lien dans"
         },
         {
             "logo": "/assets/twitter.svg",
@@ -177,7 +229,7 @@
             "url": "/contact"
         },
         {
-            "name": "Clause de non-responsabilité",
+            "name": "Déni de responsabilité",
             "url": "/disclaimer"
         }
     ]

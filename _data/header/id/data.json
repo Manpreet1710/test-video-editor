@@ -8,7 +8,7 @@
                 "categoryName": "Alat MP4",
                 "links": [
                     {
-                        "name": "Pangkas MP4",
+                        "name": "Tanaman MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/id/crop-mp4",
                         "hover": "blue"
@@ -32,11 +32,17 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Pemangkas MP4",
+                        "name": "MP4 pemangkas",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/id/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Tambahkan sub judul ke MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/id/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -66,7 +72,7 @@
                 "categoryName": "Alat Video",
                 "links": [
                     {
-                        "name": "Edit video",
+                        "name": "Mengedit video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/id/video-editor",
                         "hover": "blue"
@@ -90,27 +96,81 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Membalik video",
+                        "name": "Video Balik",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/id/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "pemotong video",
+                        "name": "Pemotong Video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/id/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Pembagi video",
+                        "name": "Video splitter",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/id/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Pemangkas video",
+                        "name": "Video pemangkas",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/id/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/id/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/id/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk LinkedIn",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/id/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/id/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/id/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/id/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/id/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/id/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Ubah Ukuran Untuk Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/id/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

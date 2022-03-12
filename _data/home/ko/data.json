@@ -1,50 +1,50 @@
 {
     "Language": "한국어",
     "htmlLangAtt": "ko",
-    "h1": "SafeVideoKit.com - 동영상을 처리하는 가장 안전한 방법",
+    "h1": "세이프비디오킷닷컴 - 동영상을 처리하는 가장 안전한 방법",
     "h2": "서버에 파일이 전송되지 않습니다. 100% 안전합니다.",
-    "title": "SafeVideoKit.com - 동영상을 처리하는 가장 안전한 방법",
-    "TITLE": "SafeVideoKit.com - 동영상을 처리하는 가장 안전한 방법",
-    "meta": "온라인 비디오 편집기 도구는 무료이며 사용하기 쉽습니다.동영상을 편집하는 동안 모든 데이터를 안전하게 보관합니다.우리는 mp3, mov, mkv 등과 같은 광범위한 비디오 형식을 지원합니다.",
+    "title": "세이프비디오킷닷컴 - 동영상을 처리하는 가장 안전한 방법",
+    "TITLE": "세이프비디오킷닷컴 - 동영상을 처리하는 가장 안전한 방법",
+    "meta": "온라인 비디오 편집기 도구는 완전 무료이며 사용하기 쉽습니다.동영상을 편집하는 동안 모든 데이터가 안전한지 확인합니다.mp3, mov, mkv 등과 같은 다양한 비디오 형식을 지원합니다.",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
-            "name": "MP4 자르기",
-            "description": "모든 MP4 비디오 자르기",
+            "name": "자르기 MP4",
+            "description": "MP4 비디오 자르기",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ko/crop-mp4"
         },
         {
-            "name": "비디오 자르기",
-            "description": "모든 동영상 자르기",
+            "name": "자르기 비디오",
+            "description": "모든 비디오 자르기",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ko/crop-video"
         },
         {
-            "name": "MP4 편집기",
-            "description": "모든 MP4 비디오 편집",
+            "name": "MP4 에디터",
+            "description": "MP4 비디오 편집",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ko/edit-mp4-video"
         },
         {
             "name": "플립 비디오",
-            "description": "모든 동영상 뒤집기",
+            "description": "모든 비디오 뒤집기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/ko/flip-video"
         },
         {
-            "name": "MOV 압축기",
+            "name": "MOV 컴프레서",
             "description": "모든 MOV 비디오 압축",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/ko/mov-compressor"
         },
         {
-            "name": "MP4 압축기",
+            "name": "MP4 컴프레서",
             "description": "모든 MP4 비디오 압축",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -58,7 +58,7 @@
             "url": "/ko/mp4-cutter"
         },
         {
-            "name": "비디오 편집기",
+            "name": "비디오 에디터",
             "description": "모든 비디오 편집",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -66,14 +66,14 @@
         },
         {
             "name": "MP4 트리머",
-            "description": "모든 MP4 비디오 트리밍",
+            "description": "모든 MP4 비디오 다듬기",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ko/mp4-trimmer"
         },
         {
             "name": "비디오 크기 조정",
-            "description": "모든 비디오 크기 조정",
+            "description": "동영상 크기 조정",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/ko/resize-video"
@@ -87,21 +87,21 @@
         },
         {
             "name": "비디오 커터",
-            "description": "모든 동영상 잘라내기",
+            "description": "모든 비디오 잘라내기",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ko/video-cutter"
         },
         {
             "name": "비디오 로테이터",
-            "description": "모든 동영상 회전",
+            "description": "모든 비디오 회전",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/ko/video-rotater"
         },
         {
             "name": "비디오 스플리터",
-            "description": "모든 동영상 분할",
+            "description": "모든 비디오 분할",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ko/video-splitter"
@@ -119,7 +119,77 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ko/extract-audio"
-        } 
+        },
+        {
+            "name": "MP4에 자막 추가",
+            "description": "MP4 비디오에 자막 추가",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ko/subtitle-mp4"
+        },
+        {
+            "name": "페이스 북의 크기 조정",
+            "description": "페이스 북에 맞게 비디오 크기 조정",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ko/resize-for-facebook"
+        },
+        {
+            "name": "인스타그램 크기 조정",
+            "description": "인스 타 그램 비디오 크기 조정",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ko/resize-for-instagram"
+        },
+        {
+            "name": "링크드인의 크기 조정",
+            "description": "링크드 인에 대한 비디오 크기 조정",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ko/resize-for-linkedin"
+        },
+        {
+            "name": "고객 센터 크기 조정",
+            "description": "클립 비디오 크기 조정",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ko/resize-for-pinterest"
+        },
+        {
+            "name": "스냅챗 크기 조정",
+            "description": "스냅챗용 비디오 크기 조정",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ko/resize-for-snapchat"
+        },
+        {
+            "name": "틱톡에 맞게 크기 조정",
+            "description": "Tiktok용 비디오 크기 조정",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ko/resize-for-tiktok"
+        },
+        {
+            "name": "트위터의 크기 조정",
+            "description": "트위터의 비디오 크기 조정",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ko/resize-for-twitter"
+        },
+        {
+            "name": "왓츠앱 사이즈",
+            "description": "왓츠앱 비디오 크기 조정",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ko/resize-for-whatsapp"
+        },
+        {
+            "name": "유튜브 크기 조정",
+            "description": "유튜브 용 비디오 크기 조정",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ko/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

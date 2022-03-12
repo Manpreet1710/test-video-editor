@@ -1,0 +1,81 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "Kostenlose Online-Größe für Snapchat ändern",
+    "H2": "Ändern Sie die Größe von Videos an Snapchat-Abmessungen.",
+    "TITLE": "Größe für Snapchat ändern - Das beste Tool zum Ändern der Größe von Videos für Snapchat",
+    "META": "safevideokit ist eine bahnbrechende Website, die die Größe von Snapchat-Videos ändert. Ändern Sie schnell und einfach die Videomaßnahmen mit dem Tool zur Größenänderung für Snapchat Holen Sie sich mit nur wenigen Klicks Ihr Video in der gewünschten Größe. ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Unabhängige",
+            "content": "Unsere Website ist plattformunabhängig. Es funktioniert sowohl auf Windows- als auch auf iOS-Betriebssystemen und kann ohne erforderliche Downloads verwendet werden."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Absolut kostenlos",
+            "content": "Die Konvertierung ist absolut kostenlos, sodass Sie so viele Dateien konvertieren können, wie Sie möchten."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Datenschutz und Sicherheit ",
+            "content": "Unsere Website legt großen Wert auf die Privatsphäre ihrer Kunden. Die Anwendung funktioniert vollständig in Ihrem Browser, ohne dass ein Server involviert ist. Daher sind Ihre Daten sicher!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Schnelle Ergebnisse",
+            "content": "Der Konvertierungsprozess dauert je nach Dateigröße kaum ein paar Sekunden, und Sie können schnell Ergebnisse erzielen."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Schnell und effizient",
+            "content": "Die Videobearbeitung ist sehr schnell und Sie können Ihre Arbeit in kürzester Zeit erledigen"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Spart Zeit",
+            "content": "Unsere Website ist plattformunabhängig, kann auf Laptops, Tabs und Telefonen arbeiten und die Konvertierung ist schnell und spart Zeit."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

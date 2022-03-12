@@ -1,0 +1,76 @@
+{
+    "Language": "Dansk",
+    "htmlLangAtt": "da",
+    "H1": "Indsæt nemt undertitel til mp4 online",
+    "H2": "Tilføj undertitel til mp4 gratis uden software til at installere",
+    "TITLE": "Føj undertekster til mp4-videoer online gratis",
+    "META": "Ved du, at videoer med undertekster har bedre chance for at søge optrædener? Lær nemt at tilføje undertekster til mp4-videoer online med dette gratis værktøj.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX til PDF",
+    "BREADCRUMB_LABEL": "DOCX TIL PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Uafhængige",
+        "content": "Vores hjemmeside er uafhængig af platformen. Det fungerer på både Windows- og iOS-operativsystemer og kan bruges uden nogen downloads påkrævet."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/t/ar/get.svg",
+        "header": "Helt gratis",
+        "content": "Konverteringen er helt gratis, så du kan konvertere så mange filer som du ønsker."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privatliv og sikkerhed ",
+        "content": "Vores hjemmeside prioriterer sine kunders privatliv. Da vi /ar/bejder med cloud storage, bliver dine filer ikke uploadet. Så ingen chance for at få brud på data. Dine data er sikre hos os!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Hurtige resultater",
+        "content": "Konverteringsprocessen tager næppe et p/ar/ sekunder, afhængigt af din filstørrelse, og du kan få hurtige resultater nemt."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Hurtig og effektiv",
+        "content": "Videoredigering er virkelig hurtig, og du kan få dit job gjort på ingen tid"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Sp/ar/er tid",
+        "content": "Vores hjemmeside er platform uafhængig, kan /ar/bejde på bærb/ar/e computere, faner og telefoner og konverteringen er hurtig, det sp/ar/er tid."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

@@ -1,36 +1,36 @@
 {
     "Language": "Svenska",
     "htmlLangAtt": "sv",
-    "h1": "Safevideokit.com - Säkraste sättet att bearbeta dina videor",
+    "h1": "SafeVideokit.com - Säkraste sättet att bearbeta dina videor",
     "h2": "Inga filer skickas till servern. 100% säker.",
-    "title": "Safevideokit.com - Säkraste sättet att bearbeta dina videor",
-    "TITLE": "Safevideokit.com - Säkraste sättet att bearbeta dina videor",
-    "meta": "Vårt online videoredigeringsverktyg är helt gratis och är lätt att använda. Vi ser till att alla dina data är säkra medan du redigerar din video. Vi stöder ett stort utbud av videoformat som mp3, mov, mkv etc.",
+    "title": "SafeVideokit.com - Säkraste sättet att bearbeta dina videor",
+    "TITLE": "SafeVideokit.com - Säkraste sättet att bearbeta dina videor",
+    "meta": "Vårt online videoredigeringsverktyg är helt gratis och är lätt att använda. Vi ser till att alla dina data är säkra när du redigerar din video. Vi stöder ett stort utbud av videoformat som mp3, mov, mkv etc.",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
-            "name": "Beskär MP4",
-            "description": "Beskär alla MP4-videor",
+            "name": "Beskära MP4",
+            "description": "Beskära någon MP4-video",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/sv/crop-mp4"
         },
         {
             "name": "Beskär video",
-            "description": "Beskär valfri video",
+            "description": "Beskära någon video",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/sv/crop-video"
         },
         {
             "name": "MP4-redigerare",
-            "description": "Redigera MP4-video",
+            "description": "Redigera valfri MP4-video",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/sv/edit-mp4-video"
         },
         {
-            "name": "Vänd video",
+            "name": "Flip video",
             "description": "Vänd valfri video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
@@ -45,7 +45,7 @@
         },
         {
             "name": "MP4-kompressor",
-            "description": "Komprimera alla MP4-videor",
+            "description": "Komprimera några MP4-videor",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/sv/mp4-compressor"
@@ -58,7 +58,7 @@
             "url": "/sv/mp4-cutter"
         },
         {
-            "name": "videoredigerare",
+            "name": "Videoredigerare",
             "description": "Redigera valfri video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -66,7 +66,7 @@
         },
         {
             "name": "MP4 trimmer",
-            "description": "Trimma alla MP4-videor",
+            "description": "Trimma vilken MP4-video som helst",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/sv/mp4-trimmer"
@@ -79,21 +79,21 @@
             "url": "/sv/resize-video"
         },
         {
-            "name": "Video kompressor",
-            "description": "Komprimera valfri video",
+            "name": "Videokompressor",
+            "description": "Komprimera någon video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/sv/video-compressor"
         },
         {
-            "name": "video-cutter",
-            "description": "Klipp ut valfri video",
+            "name": "Video Cutter",
+            "description": "Klipp ut någon video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/sv/video-cutter"
         },
         {
-            "name": "Video roterater",
+            "name": "Video roterare",
             "description": "Rotera valfri video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
@@ -101,7 +101,7 @@
         },
         {
             "name": "Video splitter",
-            "description": "Dela vilken video som helst",
+            "description": "Dela upp någon video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/sv/video-splitter"
@@ -114,12 +114,82 @@
             "url": "/sv/video-trimmer"
         },
         {
-            "name": "Extrahera ljud",
+            "name": "Utdrag ljud",
             "description": "Extrahera ljud från en video",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/sv/extract-audio"
-        } 
+        },
+        {
+            "name": "Lägg till undertexter till MP4",
+            "description": "Lägga till undertext till en MP4-video",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/sv/subtitle-mp4"
+        },
+        {
+            "name": "Ändra storlek för Facebook",
+            "description": "Ändra storlek på video för Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/sv/resize-for-facebook"
+        },
+        {
+            "name": "Ändra storlek på Instagram",
+            "description": "Ändra storlek på video för Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/sv/resize-for-instagram"
+        },
+        {
+            "name": "Ändra storlek för Linkedin",
+            "description": "Ändra storlek på video för Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/sv/resize-for-linkedin"
+        },
+        {
+            "name": "Ändra storlek för Pinterest",
+            "description": "Ändra storlek på video för Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/sv/resize-for-pinterest"
+        },
+        {
+            "name": "Ändra storlek för Snapchat",
+            "description": "Ändra storlek på video för Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/sv/resize-for-snapchat"
+        },
+        {
+            "name": "Ändra storlek för Tiktok",
+            "description": "Ändra storlek på video för Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/sv/resize-for-tiktok"
+        },
+        {
+            "name": "Ändra storlek för Twitter",
+            "description": "Ändra storlek på video för Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/sv/resize-for-twitter"
+        },
+        {
+            "name": "Ändra storlek för Whatsapp",
+            "description": "Ändra storlek på video för Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/sv/resize-for-whatsapp"
+        },
+        {
+            "name": "Ändra storlek på Youtube",
+            "description": "Ändra storlek på video för Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/sv/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

@@ -1,0 +1,76 @@
+{
+    "Language": "日本語",
+    "htmlLangAtt": "ja",
+    "H1": "簡単にmp4オンラインに字幕を挿入",
+    "H2": "インストールするソフトウェアなしで無料でmp4に字幕を追加",
+    "TITLE": "無料でオンラインmp4ビデオに字幕を追加",
+    "META": "字幕付きの動画は検索の可能性が高いことを知っていますか?この無料ツールで簡単にMP4ビデオに字幕を追加する方法を学びます。",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCXをPDFに",
+    "BREADCRUMB_LABEL": "DOCXをPDFに",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "独立",
+        "content": "弊社のウェブサイトはプラットフォームに依存しません。Window と iOS の両方のオペレーティングシステムで動作し、ダウンロードを必要とせずに使用できます。"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "絶対無料",
+        "content": "変換は完全に無料なので、必要な数のファイルを変換できます。"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "プライバシーとセキュリティ ",
+        "content": "当社のウェブサイトは、顧客のプライバシーを優先しています。クラウドストレージと連携しているため、ファイルはアップロードされません。したがって、データ侵害が発生する可能性はありません。あなたのデータは安全です！"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "クイック結果",
+        "content": "変換プロセスはファイルサイズにもよりますが、数秒かかることはほとんどなく、簡単に結果を得ることができます。"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "高速で効率的",
+        "content": "ビデオ編集は本当に速く、あっという間に仕事を終わらせる"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "時間を節約",
+        "content": "私たちのウェブサイトはプラットフォームに依存せず、ラップトップ、タブ、電話で動作し、変換は迅速で、時間を節約できます。"
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

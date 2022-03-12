@@ -1,15 +1,15 @@
 {
     "Language": "Türkçe",
     "htmlLangAtt": "tr",
-    "h1": "Safevideokit.com - Videolarınızı işlemek için en güvenli yol",
-    "h2": "Hiçbir dosya sunucuya gönderilir. 100% güvenli.",
-    "title": "Safevideokit.com - Videolarınızı işlemek için en güvenli yol",
-    "TITLE": "Safevideokit.com - Videolarınızı işlemek için en güvenli yol",
-    "meta": "Çevrimiçi video editörü aracımız tamamen ücretsizdir ve kullanımı kolaydır. Videonuzu düzenlerken tüm verilerinizin güvende olduğundan emin oluruz. mp3, mov, mkv vb. Gibi geniş bir video formatını destekliyoruz.",
+    "h1": "Safevideokit.com - Videolarınızı işlemenin en güvenli yolu",
+    "h2": "Hiçbir dosya sunucuya gönderilmemiştir.%100 güvenli.",
+    "title": "Safevideokit.com - Videolarınızı işlemenin en güvenli yolu",
+    "TITLE": "Safevideokit.com - Videolarınızı işlemenin en güvenli yolu",
+    "meta": "Online video editörü aracımız tamamen ücretsizdir ve kullanımı kolaydır. Videonuzu düzenlerken tüm verilerinizin güvende olduğundan emin oluruz. Mp3, mov, mkv vb. Gibi çok çeşitli video formatlarını destekliyoruz.",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
-            "name": "Kırpma MP4",
+            "name": "MP4 kırpma",
             "description": "Herhangi bir MP4 videosunu kırpma",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
@@ -31,34 +31,34 @@
         },
         {
             "name": "Videoyu çevir",
-            "description": "Herhangi bir video çevirin",
+            "description": "Herhangi bir videoyu çevirin",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/tr/flip-video"
         },
         {
             "name": "MOV kompresör",
-            "description": "Herhangi bir MOV videosunu sıkıştırın",
+            "description": "Herhangi bir MOV videosunu sıkıştırma",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/tr/mov-compressor"
         },
         {
             "name": "MP4 kompresör",
-            "description": "Herhangi bir MP4 videolarını sıkıştırın",
+            "description": "Herhangi bir MP4 videolarını sıkıştırma",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/tr/mp4-compressor"
         },
         {
             "name": "MP4 Kesici",
-            "description": "Herhangi bir MP4 videosunu kesin",
+            "description": "Herhangi bir MP4 videosunu kesme",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/tr/mp4-cutter"
         },
         {
-            "name": "video editörü",
+            "name": "Video Düzenleyici",
             "description": "Herhangi bir videoyu düzenleme",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
@@ -66,7 +66,7 @@
         },
         {
             "name": "MP4 düzenleyici",
-            "description": "Herhangi bir MP4 videosunu kırpın",
+            "description": "Herhangi bir MP4 videosunu kırpma",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/tr/mp4-trimmer"
@@ -80,20 +80,20 @@
         },
         {
             "name": "Video kompresörü",
-            "description": "Herhangi bir videoyu sıkıştırın",
+            "description": "Herhangi bir videoyu sıkıştırma",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/tr/video-compressor"
         },
         {
-            "name": "video kesici",
+            "name": "Video Kesici",
             "description": "Herhangi bir videoyu kes",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/tr/video-cutter"
         },
         {
-            "name": "Video rotater",
+            "name": "Video döndürücü",
             "description": "Herhangi bir videoyu döndürme",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
@@ -101,25 +101,95 @@
         },
         {
             "name": "Video ayırıcı",
-            "description": "Herhangi bir videoyu bölme",
+            "description": "Videoyu böl",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/tr/video-splitter"
         },
         {
             "name": "Video düzenleyici",
-            "description": "Herhangi bir video kırpma",
+            "description": "Herhangi bir videoyu kırp",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/tr/video-trimmer"
         },
         {
-            "name": "Ses ayıklama",
+            "name": "Ses ayıkla",
             "description": "Bir videodan ses çıkarma",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/tr/extract-audio"
-        } 
+        },
+        {
+            "name": "MP4'e Altyazı Ekle",
+            "description": "MP4 videosuna altyazı ekleme",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/tr/subtitle-mp4"
+        },
+        {
+            "name": "Facebook İçin Yeniden Boyutlandır",
+            "description": "Facebook İçin Videoyu Yeniden Boyutlandır",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/tr/resize-for-facebook"
+        },
+        {
+            "name": "Instagram için Yeniden Boyutlandır",
+            "description": "Instagram için Videoyu Yeniden Boyutlandır",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/tr/resize-for-instagram"
+        },
+        {
+            "name": "Linkedin için Yeniden Boyutlandırma",
+            "description": "Videoyu Linkedin için Yeniden Boyutlandır",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/tr/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest için Yeniden Boyutlandır",
+            "description": "Pinterest için Videoyu Yeniden Boyutlandırma",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/tr/resize-for-pinterest"
+        },
+        {
+            "name": "Snapchat İçin Yeniden Boyutlandır",
+            "description": "Snapchat İçin Videoyu Yeniden Boyutlandırma",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/tr/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok için Yeniden Boyutlandır",
+            "description": "Tiktok İçin Videoyu Yeniden Boyutlandır",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/tr/resize-for-tiktok"
+        },
+        {
+            "name": "Twitter İçin Yeniden Boyutlandır",
+            "description": "Twitter İçin Videoyu Yeniden Boyutlandırma",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/tr/resize-for-twitter"
+        },
+        {
+            "name": "Whatsapp için yeniden boyutlandırma",
+            "description": "Whatsapp için Videoyu Yeniden Boyutlandır",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/tr/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube için Yeniden Boyutlandır",
+            "description": "Youtube için Videoyu Yeniden Boyutlandırma",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/tr/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

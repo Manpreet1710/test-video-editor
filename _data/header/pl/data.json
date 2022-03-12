@@ -8,7 +8,7 @@
                 "categoryName": "Narzędzia MP4",
                 "links": [
                     {
-                        "name": "Przytnij MP4",
+                        "name": "Crop MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/pl/crop-mp4",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Frez MP4",
+                        "name": "Przecinak MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/pl/mp4-cutter",
                         "hover": "blue"
@@ -36,11 +36,17 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/pl/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Dodaj napisy do MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/pl/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
-                "categoryName": "kompresji",
+                "categoryName": "Kompres",
                 "links": [
                     {
                         "name": "Sprężarka MOV",
@@ -55,7 +61,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Sprężarka wideo",
+                        "name": "Kompresor wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/pl/video-compressor",
                         "hover": "blue"
@@ -72,7 +78,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Przycinanie wideo",
+                        "name": "Kadrowanie wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/pl/crop-video",
                         "hover": "blue"
@@ -96,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "obcinarka wideo",
+                        "name": "Obcinarka wideo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/pl/video-cutter",
                         "hover": "blue"
@@ -108,9 +114,63 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Wideo trymer",
+                        "name": "Wideo przycinarka",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/pl/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Facebooka",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/pl/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Instagramie",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/pl/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/pl/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Pintereście",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/pl/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Snapchata",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/pl/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/pl/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Twitterze",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/pl/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar dla Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/pl/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Zmień rozmiar na Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/pl/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

@@ -1,16 +1,16 @@
 {
     "Language": "हिन्दी",
     "htmlLangAtt": "hi",
-    "h1": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
-    "h2": "सर्वर पर कोई फाइल नहीं भेजी जाती है. 100% सुरक्षित।",
-    "title": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
-    "TITLE": "SafeVideokit.com - आपके वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
-    "meta": "हमारा ऑनलाइन वीडियो एडिटर टूल बिल्कुल मुफ्त है और इसका उपयोग करना आसान है। हम सुनिश्चित करते हैं कि आपके वीडियो को संपादित करते समय आपका सारा डेटा सुरक्षित रहे। हम एमपी 3, एमओवी, एमकेवी इत्यादि जैसे वीडियो प्रारूपों की एक बड़ी श्रृंखला का समर्थन करते हैं।",
+    "h1": "SafeVideokit.com - अपने वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "h2": "सर्वर पर कोई फ़ाइल नहीं भेजी जाती है. 100% सुरक्षित।",
+    "title": "SafeVideokit.com - अपने वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "TITLE": "SafeVideokit.com - अपने वीडियो को संसाधित करने का सबसे सुरक्षित तरीका",
+    "meta": "हमारा ऑनलाइन वीडियो एडिटर टूल बिल्कुल मुफ्त है और इसका उपयोग करना आसान है। हम यह सुनिश्चित करते हैं कि जब आप अपना वीडियो संपादित करते हैं, तो आपका सारा डेटा सुरक्षित रहे। हम mp3, mov, mkv आदि जैसे वीडियो प्रारूपों की एक बड़ी श्रृंखला का समर्थन करते हैं।",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "MP4 क्रॉप करें",
-            "description": "किसी भी MP4 वीडियो को क्रॉप करें",
+            "description": "कोई भी MP4 वीडियो क्रॉप करें",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/hi/crop-mp4"
@@ -38,13 +38,13 @@
         },
         {
             "name": "MOV कंप्रेसर",
-            "description": "किसी भी MOV वीडियो को कंप्रेस करें",
+            "description": "कोई भी MOV वीडियो कंप्रेस करें",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/hi/mov-compressor"
         },
         {
-            "name": "mp4 कंप्रेसर",
+            "name": "MP4 कंप्रेसर",
             "description": "किसी भी MP4 वीडियो को कंप्रेस करें",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -59,7 +59,7 @@
         },
         {
             "name": "वीडियो एडिटर",
-            "description": "किसी भी वीडियो को संपादित करें",
+            "description": "कोई भी वीडियो संपादित करें",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/hi/video-editor"
@@ -79,14 +79,14 @@
             "url": "/hi/resize-video"
         },
         {
-            "name": "विडियो कम्प्रेसर",
+            "name": "वीडियो कंप्रेसर",
             "description": "किसी भी वीडियो को कंप्रेस करें",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/hi/video-compressor"
         },
         {
-            "name": "वीडियो-कटर",
+            "name": "वीडियो कटर",
             "description": "किसी भी वीडियो को काटें",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -114,12 +114,82 @@
             "url": "/hi/video-trimmer"
         },
         {
-            "name": "ऑडियो एक्सट्रेक्ट करें",
+            "name": "ऑडियो एक्सट्रैक्ट करें",
             "description": "वीडियो से ऑडियो एक्सट्रेक्ट करें",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/hi/extract-audio"
-        } 
+        },
+        {
+            "name": "MP4 में उपशीर्षक जोड़ें",
+            "description": "MP4 वीडियो में उपशीर्षक जोड़ें",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/hi/subtitle-mp4"
+        },
+        {
+            "name": "फेसबुक के लिए आकार बदलें",
+            "description": "फेसबुक के लिए वीडियो का आकार बदलें",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/hi/resize-for-facebook"
+        },
+        {
+            "name": "इंस्टाग्राम के लिए आकार बदलें",
+            "description": "इंस्टाग्राम के लिए वीडियो का आकार बदलें",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/hi/resize-for-instagram"
+        },
+        {
+            "name": "लिंक्डइन के लिए आकार बदलें",
+            "description": "लिंक्डइन के लिए वीडियो का आकार बदलें",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/hi/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest के लिए आकार बदलें",
+            "description": "Pinterest के लिए वीडियो का आकार बदलें",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/hi/resize-for-pinterest"
+        },
+        {
+            "name": "स्नैपचैट के लिए आकार बदलें",
+            "description": "स्नैपचैट के लिए वीडियो का आकार बदलें",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/hi/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok के लिए आकार बदलें",
+            "description": "Tiktok के लिए वीडियो का आकार बदलें",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/hi/resize-for-tiktok"
+        },
+        {
+            "name": "ट्विटर के लिए आकार बदलें",
+            "description": "ट्विटर के लिए वीडियो का आकार बदलें",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/hi/resize-for-twitter"
+        },
+        {
+            "name": "Whatsapp के लिए आकार बदलें",
+            "description": "व्हाट्सएप के लिए वीडियो का आकार बदलें",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/hi/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube के लिए आकार बदलें",
+            "description": "Youtube के लिए वीडियो का आकार बदलें",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/hi/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

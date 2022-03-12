@@ -87,6 +87,13 @@
       "url": "/mp4-trimmer"
     },
     {
+      "name": "Add Subtitles to MP4",
+      "description": "Add Subtitles to a MP4 video",
+      "color": "#BD7ED8",
+      "icon": "/assets/FeatureIcons/subtitle.svg",
+      "url": "/subtitle-mp4"
+    },
+    {
       "name": "Resize video",
       "description": "Resize any video",
       "color": "#ff793f",
@@ -132,6 +139,51 @@
       "name": "Extract video",
       "icon": "/assets/FeatureIcons_featurePage/sound.svg",
       "url": "/extract-audio"
+    },
+    {
+      "name": "Resize For Facebook",
+      "icon": "/assets/FeatureIcons/facebook.svg",
+      "url": "/resize-for-facebook"
+    },
+    {
+      "name": "Resize For Instagram",
+      "icon": "/assets/FeatureIcons/instagram.svg",
+      "url": "/resize-for-instagram"
+    },
+    {
+      "name": "Resize For Linkedin",
+      "icon": "/assets/FeatureIcons/linkedin.svg",
+      "url": "/resize-for-linkedin"
+    },
+    {
+      "name": "Resize For Pinterest",
+      "icon": "/assets/FeatureIcons/pinterest.svg",
+      "url": "/resize-for-pinterest"
+    },
+    {
+      "name": "Resize For Snapchat",
+      "icon": "/assets/FeatureIcons/snapchat.svg",
+      "url": "/resize-for-snapchat"
+    },
+    {
+      "name": "Resize For Tiktok",
+      "icon": "/assets/FeatureIcons/tiktok.svg",
+      "url": "/resize-for-tiktok"
+    },
+    {
+      "name": "Resize For Twitter",
+      "icon": "/assets/FeatureIcons/twitter.svg",
+      "url": "/resize-for-twitter"
+    },
+    {
+      "name": "Resize For Whatsapp",
+      "icon": "/assets/FeatureIcons/whatsapp.svg",
+      "url": "/resize-for-whatsapp"
+    },
+    {
+      "name": "Resize For Youtube",
+      "icon": "/assets/FeatureIcons/youtube.svg",
+      "url": "/resize-for-youtube"
     }
   ],
   "networkSites": [],

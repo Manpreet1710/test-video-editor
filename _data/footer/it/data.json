@@ -1,12 +1,12 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "Facilitiamo l'editing video.",
-    "companytitle": "Azienda",
+    "heading": "Semplifichiamo l'editing video.",
+    "companytitle": "L'azienda",
     "producttitle": "Prodotto",
-    "networksitestitle": "Siti di rete",
+    "networksitestitle": "Siti della rete",
     "company": [
         {
-            "name": "Informazioni",
+            "name": "Informazioni su",
             "url": "/about"
         },
         {
@@ -28,110 +28,162 @@
             "description": "Ritaglia qualsiasi video MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "it/crop-mp4"
+            "url": "/it/crop-mp4"
         },
         {
             "name": "Ritaglia video",
             "description": "Ritaglia qualsiasi video",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "it/crop-video"
+            "url": "/it/crop-video"
         },
         {
             "name": "Editor MP4",
             "description": "Modifica qualsiasi video MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "it/edit-mp4-video"
+            "url": "/it/edit-mp4-video"
         },
         {
             "name": "Capovolgi video",
             "description": "Capovolgi qualsiasi video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "it/flip-video"
+            "url": "/it/flip-video"
         },
         {
             "name": "Compressore MOV",
-            "description": "Comprimi qualsiasi video MOV",
+            "description": "Comprimere qualsiasi video MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "it/mov-compressor"
+            "url": "/it/mov-compressor"
         },
         {
             "name": "Compressore MP4",
             "description": "Comprimi qualsiasi video MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "it/mp4-compressor"
+            "url": "/it/mp4-compressor"
         },
         {
             "name": "Taglierina MP4",
             "description": "Taglia qualsiasi video MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "it/mp4-cutter"
+            "url": "/it/mp4-cutter"
         },
         {
-            "name": "editor video",
+            "name": "Editor video",
             "description": "Modifica qualsiasi video",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "it/video-editor"
+            "url": "/it/video-editor"
         },
         {
-            "name": "trimmer MP4",
+            "name": "Rifinitore MP4",
             "description": "Taglia qualsiasi video MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "it/mp4-trimmer"
+            "url": "/it/mp4-trimmer"
+        },
+        {
+            "name": "Aggiungi sottotitoli a MP4",
+            "description": "Aggiungi sottotitoli a un video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/it/subtitle-mp4"
         },
         {
             "name": "Ridimensiona video",
             "description": "Ridimensiona qualsiasi video",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "it/resize-video"
+            "url": "/it/resize-video"
         },
         {
             "name": "Compressore video",
             "description": "Comprimi qualsiasi video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "it/video-compressor"
+            "url": "/it/video-compressor"
         },
         {
-            "name": "taglierina video",
+            "name": "Taglierina video",
             "description": "Taglia qualsiasi video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "it/video-cutter"
+            "url": "/it/video-cutter"
         },
         {
             "name": "Rotatore video",
             "description": "Ruota qualsiasi video",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "it/video-rotater"
+            "url": "/it/video-rotater"
         },
         {
             "name": "Splitter video",
             "description": "Dividi qualsiasi video",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "it/video-splitter"
+            "url": "/it/video-splitter"
         },
         {
             "name": "Rifinitore video",
-            "description": "Taglia qualsiasi video",
+            "description": "Ritaglia qualsiasi video",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "it/video-trimmer"
+            "url": "/it/video-trimmer"
         },
         {
             "name": "Estrai video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "it/extract-audio"
+            "url": "/it/extract-audio"
+        },
+        {
+            "name": "Ridimensiona per Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/it/resize-for-facebook"
+        },
+        {
+            "name": "Ridimensiona per Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/it/resize-for-instagram"
+        },
+        {
+            "name": "Resize per Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/it/resize-for-linkedin"
+        },
+        {
+            "name": "Ridimensiona per Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/it/resize-for-pinterest"
+        },
+        {
+            "name": "Ridimensiona per Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/it/resize-for-snapchat"
+        },
+        {
+            "name": "Ridimensiona per Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/it/resize-for-tiktok"
+        },
+        {
+            "name": "Ridimensiona per Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/it/resize-for-twitter"
+        },
+        {
+            "name": "Ridimensiona per Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/it/resize-for-whatsapp"
+        },
+        {
+            "name": "Ridimensiona per Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/it/resize-for-youtube"
         }
     ],
     "networkSites": [],

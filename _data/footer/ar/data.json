@@ -1,6 +1,6 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "نجعل تحرير الفيديو أمرًا سهلاً.",
+    "heading": "نحن نجعل تحرير الفيديو سهلاً.",
     "companytitle": "شركة",
     "producttitle": "المنتج",
     "networksitestitle": "مواقع الشبكة",
@@ -28,110 +28,162 @@
             "description": "اقتصاص أي فيديو MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ar/crop-mp4"
+            "url": "/ar/crop-mp4"
         },
         {
             "name": "فيديو المحاصيل",
             "description": "اقتصاص أي فيديو",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "ar/crop-video"
+            "url": "/ar/crop-video"
         },
         {
             "name": "محرر MP4",
             "description": "تحرير أي فيديو MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ar/edit-mp4-video"
+            "url": "/ar/edit-mp4-video"
         },
         {
             "name": "فيديو فليب",
             "description": "اقلب أي فيديو",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "ar/flip-video"
+            "url": "/ar/flip-video"
         },
         {
             "name": "ضاغط MOV",
             "description": "ضغط أي فيديو MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ar/mov-compressor"
+            "url": "/ar/mov-compressor"
         },
         {
             "name": "ضاغط MP4",
             "description": "ضغط أي مقاطع فيديو MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ar/mp4-compressor"
+            "url": "/ar/mp4-compressor"
         },
         {
-            "name": "قاطع MP4",
+            "name": "كتر MP4",
             "description": "قص أي فيديو MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ar/mp4-cutter"
+            "url": "/ar/mp4-cutter"
         },
         {
-            "name": "محرر فيديو",
+            "name": "محرر الفيديو",
             "description": "تحرير أي فيديو",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "ar/video-editor"
+            "url": "/ar/video-editor"
         },
         {
             "name": "ماكينة تشذيب MP4",
             "description": "تقليم أي فيديو MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ar/mp4-trimmer"
+            "url": "/ar/mp4-trimmer"
+        },
+        {
+            "name": "إضافة ترجمات إلى MP4",
+            "description": "إضافة ترجمات إلى فيديو MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ar/subtitle-mp4"
         },
         {
             "name": "تغيير حجم الفيديو",
             "description": "تغيير حجم أي فيديو",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "ar/resize-video"
+            "url": "/ar/resize-video"
         },
         {
             "name": "ضاغط فيديو",
             "description": "ضغط أي فيديو",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "ar/video-compressor"
+            "url": "/ar/video-compressor"
         },
         {
             "name": "قاطع الفيديو",
             "description": "قص أي فيديو",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ar/video-cutter"
+            "url": "/ar/video-cutter"
         },
         {
-            "name": "جهاز دوراتر الفيديو",
+            "name": "دوار الفيديو",
             "description": "قم بتدوير أي فيديو",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "ar/video-rotater"
+            "url": "/ar/video-rotater"
         },
         {
             "name": "مقسم الفيديو",
             "description": "تقسيم أي فيديو",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ar/video-splitter"
+            "url": "/ar/video-splitter"
         },
         {
             "name": "أداة تشذيب الفيديو",
-            "description": "تقليم أي فيديو",
+            "description": "قص أي فيديو",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "ar/video-trimmer"
+            "url": "/ar/video-trimmer"
         },
         {
             "name": "استخراج الفيديو",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "ar/extract-audio"
+            "url": "/ar/extract-audio"
+        },
+        {
+            "name": "تغيير الحجم لفيسبوك",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ar/resize-for-facebook"
+        },
+        {
+            "name": "تغيير الحجم للحصول على Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ar/resize-for-instagram"
+        },
+        {
+            "name": "تغيير حجم لينكد إن",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ar/resize-for-linkedin"
+        },
+        {
+            "name": "تغيير حجم لموقع Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ar/resize-for-pinterest"
+        },
+        {
+            "name": "تغيير حجم سناب شات",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ar/resize-for-snapchat"
+        },
+        {
+            "name": "تغيير الحجم لTiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ar/resize-for-tiktok"
+        },
+        {
+            "name": "تغيير الحجم لتويتر",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ar/resize-for-twitter"
+        },
+        {
+            "name": "تغيير حجم الواتس اب",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ar/resize-for-whatsapp"
+        },
+        {
+            "name": "تغيير حجم يوتيوب",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ar/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -139,7 +191,7 @@
         {
             "logo": "/assets/facebook.svg",
             "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
-            "title": "الفيسبوك"
+            "title": "فيسبوك"
         },
         {
             "logo": "/assets/youtube.svg",
@@ -149,12 +201,12 @@
         {
             "logo": "/assets/instagram.svg",
             "url": "/",
-            "title": "إنستغرام"
+            "title": "انستغرام"
         },
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "لينكدين"
+            "title": "ربط الدين"
         },
         {
             "logo": "/assets/twitter.svg",

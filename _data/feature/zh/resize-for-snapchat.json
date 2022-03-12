@@ -1,0 +1,81 @@
+{
+    "Language": "简体中文",
+    "htmlLangAtt": "zh",
+    "H1": "Snapchat 免费在线调整大小",
+    "H2": "调整视频大小以适应 Snapchat 的尺寸。",
+    "TITLE": "为Snapchat调整大小-调整视频大小的最佳工具",
+    "META": "safevideokit 是一个改变游戏规则的网站，可以调整手套视频的大小。使用调整手套大小工具快速轻松地更改视频尺寸。只需点击几下即可获得所需大小的视频。 ",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX 转 PDF",
+    "BREADCRUMB_LABEL": "DOCX 转 PDF",
+    "color": "#9999FF",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/snapchat.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "独立",
+            "content": "我们的网站是独立于平台的。它适用于Window和iOS操作系统，无需下载即可使用。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "绝对免费",
+            "content": "转换是完全免费的，因此您可以根据需要转换任意数量的文件。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "隐私和安全 ",
+            "content": "我们的网站优先考虑客户的隐私。该应用程序完全可以在您的浏览器上运行，而不会涉及任何服务器。因此，您的数据是安全的！"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "快速结果",
+            "content": "转换过程几乎不需要几秒钟，具体取决于文件大小，您可以轻松获得快速结果。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "快速高效",
+            "content": "视频编辑速度非常快，您可以立即完成工作"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "节省时间",
+            "content": "我们的网站独立于平台，可以在笔记本电脑，标签和手机上使用，转换速度快，节省时间。"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

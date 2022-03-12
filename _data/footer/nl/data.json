@@ -28,110 +28,162 @@
             "description": "Elke MP4-video bijsnijden",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "nl/crop-mp4"
+            "url": "/nl/crop-mp4"
         },
         {
             "name": "Video bijsnijden",
             "description": "Elke video bijsnijden",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "nl/crop-video"
+            "url": "/nl/crop-video"
         },
         {
             "name": "MP4-editor",
-            "description": "Bewerk elke MP4-video",
+            "description": "Elke MP4-video bewerken",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "nl/edit-mp4-video"
+            "url": "/nl/edit-mp4-video"
         },
         {
             "name": "Video omdraaien",
             "description": "Elke video omdraaien",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "nl/flip-video"
+            "url": "/nl/flip-video"
         },
         {
             "name": "MOV-compressor",
             "description": "Elke MOV-video comprimeren",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "nl/mov-compressor"
+            "url": "/nl/mov-compressor"
         },
         {
             "name": "MP4-compressor",
-            "description": "Comprimeer alle MP4-video's",
+            "description": "Alle MP4-video's comprimeren",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "nl/mp4-compressor"
+            "url": "/nl/mp4-compressor"
         },
         {
             "name": "MP4 snijder",
             "description": "Knip elke MP4-video",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "nl/mp4-cutter"
+            "url": "/nl/mp4-cutter"
         },
         {
-            "name": "video-editor",
+            "name": "Video-editor",
             "description": "Elke video bewerken",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "nl/video-editor"
+            "url": "/nl/video-editor"
         },
         {
-            "name": "MP4 trimmer",
+            "name": "MP4-trimmer",
             "description": "Elke MP4-video bijsnijden",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "nl/mp4-trimmer"
+            "url": "/nl/mp4-trimmer"
         },
         {
-            "name": "De grootte van video wijzigen",
-            "description": "Het formaat van elke video wijzigen",
+            "name": "Ondertitels toevoegen aan MP4",
+            "description": "Ondertitels toevoegen aan een MP4-video",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/nl/subtitle-mp4"
+        },
+        {
+            "name": "Video formaat wijzigen",
+            "description": "Formaat van elke video wijzigen",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "nl/resize-video"
+            "url": "/nl/resize-video"
         },
         {
             "name": "Videocompressor",
             "description": "Comprimeer elke video",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "nl/video-compressor"
+            "url": "/nl/video-compressor"
         },
         {
-            "name": "video-snijder",
+            "name": "Video snijder",
             "description": "Knip elke video",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "nl/video-cutter"
+            "url": "/nl/video-cutter"
         },
         {
-            "name": "Videorotater",
+            "name": "Video-rotater",
             "description": "Elke video roteren",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "nl/video-rotater"
+            "url": "/nl/video-rotater"
         },
         {
-            "name": "Video splitter",
+            "name": "Videosplitter",
             "description": "Elke video splitsen",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "nl/video-splitter"
+            "url": "/nl/video-splitter"
         },
         {
-            "name": "Video-trimmer",
+            "name": "Video trimmer",
             "description": "Elke video bijsnijden",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "nl/video-trimmer"
+            "url": "/nl/video-trimmer"
         },
         {
             "name": "Video extraheren",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "nl/extract-audio"
+            "url": "/nl/extract-audio"
+        },
+        {
+            "name": "Formaat wijzigen voor Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/nl/resize-for-facebook"
+        },
+        {
+            "name": "Formaat wijzigen voor Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/nl/resize-for-instagram"
+        },
+        {
+            "name": "Formaat wijzigen voor Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/nl/resize-for-linkedin"
+        },
+        {
+            "name": "Formaat wijzigen voor Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/nl/resize-for-pinterest"
+        },
+        {
+            "name": "Formaat wijzigen voor Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/nl/resize-for-snapchat"
+        },
+        {
+            "name": "Formaat wijzigen voor Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/nl/resize-for-tiktok"
+        },
+        {
+            "name": "Formaat wijzigen voor Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/nl/resize-for-twitter"
+        },
+        {
+            "name": "Formaat wijzigen voor Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/nl/resize-for-whatsapp"
+        },
+        {
+            "name": "Formaat wijzigen voor YouTube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/nl/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -154,7 +206,7 @@
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "linkdin"
+            "title": "linkt in"
         },
         {
             "logo": "/assets/twitter.svg",
@@ -173,7 +225,7 @@
             "url": "/privacy-policy"
         },
         {
-            "name": "Contacteer ons",
+            "name": "Neem contact op",
             "url": "/contact"
         },
         {

@@ -32,11 +32,17 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "tông đơ MP4",
+                        "name": "Tông đơ MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/vi/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Thêm phụ đề vào MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/vi/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Đổi kích thước video",
+                        "name": "Thay đổi kích thước video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/vi/resize-video",
                         "hover": "blue"
@@ -96,7 +102,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "máy cắt video",
+                        "name": "Máy cắt video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/vi/video-cutter",
                         "hover": "blue"
@@ -111,6 +117,60 @@
                         "name": "Tông đơ video",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/vi/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/vi/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/vi/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/vi/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/vi/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/vi/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/vi/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/vi/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/vi/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Thay đổi kích thước cho Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/vi/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

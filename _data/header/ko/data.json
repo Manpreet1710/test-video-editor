@@ -8,19 +8,19 @@
                 "categoryName": "MP4 도구",
                 "links": [
                     {
-                        "name": "MP4 자르기",
+                        "name": "자르기 MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/ko/crop-mp4",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 편집",
+                        "name": "MP4 편집하기",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/ko/edit-mp4-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 압축기",
+                        "name": "MP4 컴프레서",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ko/mp4-compressor",
                         "hover": "blue"
@@ -36,20 +36,26 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/ko/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "MP4에 자막 추가",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/ko/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
                 "categoryName": "압축",
                 "links": [
                     {
-                        "name": "MOV 압축기",
+                        "name": "MOV 컴프레서",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
                         "url": "/ko/mov-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 압축기",
+                        "name": "MP4 컴프레서",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/ko/mp4-compressor",
                         "hover": "blue"
@@ -63,16 +69,16 @@
                 ]
             },
             {
-                "categoryName": "비디오 툴",
+                "categoryName": "비디오 도구",
                 "links": [
                     {
-                        "name": "영상을 편집하다",
+                        "name": "비디오 편집",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/ko/video-editor",
                         "hover": "blue"
                     },
                     {
-                        "name": "비디오 자르기",
+                        "name": "자르기 비디오",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/ko/crop-video",
                         "hover": "blue"
@@ -111,6 +117,60 @@
                         "name": "비디오 트리머",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/ko/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "페이스 북의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/ko/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "인스타그램 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/ko/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "링크드인의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/ko/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "고객 센터 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/ko/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "스냅챗 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/ko/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "틱톡에 맞게 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/ko/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "트위터의 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/ko/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "왓츠앱 사이즈",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/ko/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "유튜브 크기 조정",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/ko/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

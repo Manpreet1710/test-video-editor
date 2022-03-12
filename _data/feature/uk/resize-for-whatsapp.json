@@ -1,0 +1,81 @@
+{
+    "Language": "Українська",
+    "htmlLangAtt": "uk",
+    "H1": "Змінити розмір відео для WhatsApp за допомогою цього безпечного та безпечного інструменту",
+    "H2": "Отримайте бажаний розмір відео для WhatsApp",
+    "TITLE": "Зміна розміру для whatsapp-Кращий інструмент для зміни розміру відео WhatsApp",
+    "META": "Змініть розмір відео WhatsApp, не жертвуючи якістю з зміною розміру для інструменту WhatsApp. Просто завантажте файл та отримайте найкращі налаштування якості та розміру для вашого відео WhatsApp. Це на 100% безпечно та безпечно",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX до PDF",
+    "BREADCRUMB_LABEL": "DOCX В PDF",
+    "color": "#21A218",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "Незалежні",
+            "content": "Наш веб-сайт є незалежним від платформи. Він працює як на операційних системах Windows, так і для iOS і може використовуватися без будь-яких завантажень, необхідних."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "Абсолютно безкоштовно",
+            "content": "Перетворення абсолютно безкоштовне, тому ви можете конвертувати стільки файлів, скільки хочете."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "Конфіденційність та безпека ",
+            "content": "Наш веб-сайт має пріоритет конфіденційності своїх клієнтів. Додаток працює повністю у вашому браузері, не invlolving будь-якого серверу.Вика ваші дані в безпеці!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "Швидкі результати",
+            "content": "Процес перетворення навряд чи займає кілька секунд, залежно від розміру файлу, і ви можете легко отримати швидкі результати."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "Швидко та ефективно",
+            "content": "Редагування відео дуже швидко, і ви можете виконати свою роботу в найкоротші терміни"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "Економить час",
+            "content": "Наш веб-сайт не залежний від платформи, може працювати на ноутбуках, вкладках та телефонах, а конверсія швидка, це економить час."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

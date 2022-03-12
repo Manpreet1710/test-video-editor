@@ -1,0 +1,76 @@
+{
+    "Language": "Italiano",
+    "htmlLangAtt": "it",
+    "H1": "Inserisci facilmente i sottotitoli in mp4 online",
+    "H2": "Aggiungi sottotitoli a mp4 gratuitamente senza alcun software da installare",
+    "TITLE": "Aggiungi sottotitoli ai video mp4 online gratuitamente",
+    "META": "Sai che i video con sottotitoli hanno maggiori possibilità di apparire nella ricerca? Scopri come aggiungere facilmente i sottotitoli ai video mp4 online con questo strumento gratuito.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX in PDF",
+    "BREADCRUMB_LABEL": "DOCX DI PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Indipendente",
+        "content": "Il nostro sito web è indipendente dalla piattaforma. Funziona su sistemi operativi Windows e iOS e può essere utilizzato senza bisogno di download."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/target.svg",
+        "header": "Assolutamente gratuito",
+        "content": "La conversione è assolutamente gratuita, quindi puoi convertire tutti i file che desideri."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privacy e sicurezza ",
+        "content": "Il nostro sito web dà la priorità alla privacy dei propri clienti. Poiché lavoriamo con il cloud storage, i tuoi file non vengono caricati. Quindi, nessuna possibilità di ottenere alcuna violazione dei dati. I tuoi dati sono al sicuro con noi!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Risultati rapidi",
+        "content": "Il processo di conversione richiede pochi secondi, a seconda delle dimensioni del file, e puoi ottenere risultati rapidi facilmente."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Veloce ed efficiente",
+        "content": "L'editing video è molto veloce e puoi portare a termine il tuo lavoro in pochissimo tempo"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Risparmia tempo",
+        "content": "Il nostro sito Web è indipendente dalla piattaforma, può funzionare su laptop, schede e telefoni e la conversione è rapida, consente di risparmiare tempo."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  

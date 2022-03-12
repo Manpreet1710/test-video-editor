@@ -1,11 +1,11 @@
 {
     "Language": "Español",
     "htmlLangAtt": "es",
-    "h1": "Safevideokit.com - La forma más segura de procesar tus vídeos",
+    "h1": "SafeVideoKit.com: la forma más segura de procesar sus vídeos",
     "h2": "No se envían archivos al servidor. 100% seguro.",
-    "title": "Safevideokit.com - La forma más segura de procesar tus vídeos",
-    "TITLE": "Safevideokit.com - La forma más segura de procesar tus vídeos",
-    "meta": "Nuestra herramienta de edición de vídeo online es totalmente gratuita y fácil de usar. Nos aseguramos de que todos tus datos estén seguros mientras editas tu vídeo. Admitimos una amplia gama de formatos de vídeo como mp3, mov, mkv, etc.",
+    "title": "SafeVideoKit.com: la forma más segura de procesar sus vídeos",
+    "TITLE": "SafeVideoKit.com: la forma más segura de procesar sus vídeos",
+    "meta": "Nuestra herramienta de edición de video en línea es absolutamente gratuita y fácil de usar. Nos aseguramos de que todos tus datos estén seguros mientras editas tu vídeo. Admitimos una amplia gama de formatos de video como mp3, mov, mkv, etc.",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
@@ -44,7 +44,7 @@
             "url": "/es/mov-compressor"
         },
         {
-            "name": "compresor MP4",
+            "name": "Compresor MP4",
             "description": "Comprime cualquier vídeo MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -58,35 +58,35 @@
             "url": "/es/mp4-cutter"
         },
         {
-            "name": "editor de vídeo",
+            "name": "Editor de vídeo",
             "description": "Edita cualquier vídeo",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/es/video-editor"
         },
         {
-            "name": "Recortadora MP4",
+            "name": "recortadora MP4",
             "description": "Recorta cualquier vídeo MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/es/mp4-trimmer"
         },
         {
-            "name": "Cambiar el tamaño del vídeo",
-            "description": "Cambiar el tamaño de cualquier vídeo",
+            "name": "Redimensionar vídeo",
+            "description": "Cambia el tamaño de cualquier vídeo",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/es/resize-video"
         },
         {
-            "name": "Compresor vídeo",
+            "name": "Compresor de vídeo",
             "description": "Comprime cualquier vídeo",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/es/video-compressor"
         },
         {
-            "name": "cortador de vídeo",
+            "name": "Cortador de vídeo",
             "description": "Corta cualquier vídeo",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -94,20 +94,20 @@
         },
         {
             "name": "Rotador de vídeo",
-            "description": "Girar cualquier vídeo",
+            "description": "Gira cualquier vídeo",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/es/video-rotater"
         },
         {
-            "name": "divisor de vídeo",
+            "name": "Divisor de vídeo",
             "description": "Divide cualquier vídeo",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/es/video-splitter"
         },
         {
-            "name": "Recortador de vídeo",
+            "name": "Recortadora de vídeo",
             "description": "Recorta cualquier vídeo",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -115,15 +115,85 @@
         },
         {
             "name": "Extraer audio",
-            "description": "Extraer audio de un vídeo",
+            "description": "Extraer el audio de un vídeo",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/es/extract-audio"
-        } 
+        },
+        {
+            "name": "Añadir subtítulos a MP4",
+            "description": "Añadir subtítulos a un vídeo MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/es/subtitle-mp4"
+        },
+        {
+            "name": "Cambiar el tamaño para Facebook",
+            "description": "Cambiar el tamaño del video para Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/es/resize-for-facebook"
+        },
+        {
+            "name": "Cambiar el tamaño para Instagram",
+            "description": "Cambiar el tamaño del video para Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/es/resize-for-instagram"
+        },
+        {
+            "name": "Cambiar el tamaño para Linkedin",
+            "description": "Cambiar el tamaño del video para Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/es/resize-for-linkedin"
+        },
+        {
+            "name": "Cambiar el tamaño de Pinterest",
+            "description": "Cambiar el tamaño del vídeo para Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/es/resize-for-pinterest"
+        },
+        {
+            "name": "Cambiar el tamaño de Snapchat",
+            "description": "Cambiar el tamaño del video para Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/es/resize-for-snapchat"
+        },
+        {
+            "name": "Cambiar el tamaño de Tiktok",
+            "description": "Cambiar el tamaño del video para Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/es/resize-for-tiktok"
+        },
+        {
+            "name": "Cambiar el tamaño de Twitter",
+            "description": "Cambiar el tamaño del video para Twitter",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/es/resize-for-twitter"
+        },
+        {
+            "name": "Cambiar el tamaño de Whatsapp",
+            "description": "Cambiar el tamaño del video para Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/es/resize-for-whatsapp"
+        },
+        {
+            "name": "Cambiar el tamaño de Youtube",
+            "description": "Cambiar el tamaño del video para Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/es/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
-        "name": "aplicaciones cms",
+        "name": "appscms",
         "alternateName": "appscms",
         "url": "www.appscms.com"
     },

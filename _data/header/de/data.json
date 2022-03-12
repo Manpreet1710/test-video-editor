@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4-Schneider",
+                        "name": "MP4-Ausstecher",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/de/mp4-cutter",
                         "hover": "blue"
@@ -36,11 +36,17 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/de/mp4-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Untertitel zu MP4 hinzufügen",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/de/subtitle-mp4",
+                        "hover": "blue"
                     }
                 ]
             },
             {
-                "categoryName": "Komprimieren",
+                "categoryName": "Kompresse",
                 "links": [
                     {
                         "name": "MOV-Kompressor",
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Video Größe ändern",
+                        "name": "Video skalieren",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/de/resize-video",
                         "hover": "blue"
@@ -108,9 +114,63 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Videoschneider",
+                        "name": "Trimmer",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/de/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Für Facebook skalieren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/de/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Für Instagram skalieren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/de/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für Linkedin ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/de/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für Pinterest ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/de/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für Snapchat ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/de/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für Tiktok ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/de/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Für Twitter skalieren",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/de/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für WhatsApp ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/de/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Größe für Youtube ändern",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/de/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]
@@ -130,7 +190,7 @@
     },
     "navItems": [
         {
-            "name": "Bloggen",
+            "name": "Blog",
             "url": "/blog"
         }
     ]

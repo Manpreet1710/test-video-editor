@@ -1,23 +1,23 @@
 {
     "Language": "ภาษาไทย",
     "htmlLangAtt": "th",
-    "h1": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
-    "h2": "ไม่มีไฟล์จะถูกส่งไปยังเซิร์ฟเวอร์. 100% ปลอดภัย.",
-    "title": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
-    "TITLE": "SafeVideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
-    "meta": "เครื่องมือตัดต่อวิดีโอออนไลน์ของเราฟรีและใช้งานง่ายเราตรวจสอบให้แน่ใจว่าข้อมูลทั้งหมดของคุณปลอดภัยในขณะที่คุณแก้ไขวิดีโอเราสนับสนุนช่วงกว้างของรูปแบบวิดีโอเช่น mp3, mov, mkv ฯลฯ.",
+    "h1": "Safevideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "h2": "ไม่มีไฟล์จะถูกส่งไปยังเซิร์ฟเวอร์. ปลอดภัย 100%.",
+    "title": "Safevideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "TITLE": "Safevideokit.com - วิธีที่ปลอดภัยที่สุดในการประมวลผลวิดีโอของคุณ",
+    "meta": "เครื่องมือตัดต่อวิดีโอออนไลน์ของเราฟรีและใช้งานง่ายเราตรวจสอบให้แน่ใจว่าข้อมูลทั้งหมดของคุณจะปลอดภัยในขณะที่คุณแก้ไขวิดีโอเราสนับสนุนความหลากหลายของรูปแบบวิดีโอเช่น mp3, mov, mkv ฯลฯ",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
             "name": "ครอบตัด MP4",
-            "description": "ครอบตัดวิดีโอ MP4 ใด ๆ",
+            "description": "ครอบตัดวิดีโอ MP4 ใดๆ",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/th/crop-mp4"
         },
         {
             "name": "ครอบตัดวิดีโอ",
-            "description": "ครอบตัดวิดีโอใดๆ",
+            "description": "ครอบตัดวิดีโอใดก็ได้",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/th/crop-video"
@@ -37,14 +37,14 @@
             "url": "/th/flip-video"
         },
         {
-            "name": "คอมเพรสเซอร์ MOV",
+            "name": "คอมเพรสเซอร์",
             "description": "บีบอัดวิดีโอ MOV ใด ๆ",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/th/mov-compressor"
         },
         {
-            "name": "คอมเพรสเซอร์ MP",
+            "name": "คอมเพรสเซอร์",
             "description": "บีบอัดวิดีโอ MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -52,14 +52,14 @@
         },
         {
             "name": "เครื่องตัด MP4",
-            "description": "ตัดวิดีโอ MP4",
+            "description": "ตัดวิดีโอ MP4 ใด ๆ",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/th/mp4-cutter"
         },
         {
             "name": "โปรแกรมตัดต่อวิดีโอ",
-            "description": "แก้ไขวิดีโอใดๆ",
+            "description": "แก้ไขวิดีโอใดก็ได้",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/th/video-editor"
@@ -73,13 +73,13 @@
         },
         {
             "name": "ปรับขนาดวิดีโอ",
-            "description": "ปรับขนาดวิดีโอ",
+            "description": "ปรับขนาดวิดีโอใดก็ได้",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/th/resize-video"
         },
         {
-            "name": "คอมเพรสเซอร์วิดีโอ",
+            "name": "คอมเพรสเซอร์",
             "description": "บีบอัดวิดีโอใด ๆ",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
@@ -87,28 +87,28 @@
         },
         {
             "name": "เครื่องตัดวิดีโอ",
-            "description": "ตัดวิดีโอใดก็ได้",
+            "description": "ตัดวิดีโอใด ๆ",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/th/video-cutter"
         },
         {
-            "name": "หมุนวิดีโอ",
+            "name": "เครื่องหมุนวิดีโอ",
             "description": "หมุนวิดีโอใดก็ได้",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/th/video-rotater"
         },
         {
-            "name": "ตัวแยกสัญญาณวิดีโอ",
+            "name": "ตัวแยกวิดีโอ",
             "description": "แยกวิดีโอใดก็ได้",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/th/video-splitter"
         },
         {
-            "name": "เครื่องตัดแต่งวิดีโอ",
-            "description": "ตัดแต่งวิดีโอใดๆ",
+            "name": "ตัดแต่งวิดีโอ",
+            "description": "ตัดแต่งวิดีโอใด ๆ",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/th/video-trimmer"
@@ -119,11 +119,81 @@
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/th/extract-audio"
-        } 
+        },
+        {
+            "name": "เพิ่มคำบรรยายลงใน MP4",
+            "description": "เพิ่มคำบรรยายลงในวิดีโอ MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/th/subtitle-mp4"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Facebook",
+            "description": "ปรับขนาดวิดีโอสำหรับ Facebook",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/th/resize-for-facebook"
+        },
+        {
+            "name": "ปรับขนาดสำหรับอินสตาแกรม",
+            "description": "ปรับขนาดวิดีโอสำหรับ Instagram",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/th/resize-for-instagram"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Linkedin",
+            "description": "ปรับขนาดวิดีโอสำหรับ Linkedin",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/th/resize-for-linkedin"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Pinterest",
+            "description": "ปรับขนาดวิดีโอสำหรับ Pinterest",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/th/resize-for-pinterest"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Snapchat",
+            "description": "ปรับขนาดวิดีโอสำหรับ Snapchat",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/th/resize-for-snapchat"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Tiktok",
+            "description": "ปรับขนาดวิดีโอสำหรับ Tiktok",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/th/resize-for-tiktok"
+        },
+        {
+            "name": "ปรับขนาดสำหรับทวิตเตอร์",
+            "description": "ปรับขนาดวิดีโอสำหรับทวิตเตอร์",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/th/resize-for-twitter"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Whatsapp",
+            "description": "ปรับขนาดวิดีโอสำหรับ Whatsapp",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/th/resize-for-whatsapp"
+        },
+        {
+            "name": "ปรับขนาดสำหรับ Youtube",
+            "description": "ปรับขนาดวิดีโอสำหรับ Youtube",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/th/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",
-        "name": "แอพสซีม",
+        "name": "appscms",
         "alternateName": "appscms",
         "url": "www.appscms.com"
     },

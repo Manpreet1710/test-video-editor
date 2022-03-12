@@ -1,0 +1,81 @@
+{
+    "Language": "简体中文",
+    "htmlLangAtt": "zh",
+    "H1": "使用为tiktok调整大小工具来调整视频大小非常容易。",
+    "H2": "使用 tiktok 调整大小工具在线更改视频尺寸",
+    "TITLE": "为 tiktok 调整大小-safevideokit 是一款用于为 tiktok 调整视频大小的免费工具。",
+    "META": "使用tiktok调整大小工具免费在线更改视频大小。调整Tiktok视频大小的最佳方法是使用像safevideokit这样的专业视频缩放器。",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX 转 PDF",
+    "BREADCRUMB_LABEL": "DOCX 转 PDF",
+    "color": "#D44638",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/tiktok.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "独立",
+            "content": "我们的网站是独立于平台的。它适用于Window和iOS操作系统，无需下载即可使用。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "绝对免费",
+            "content": "转换是完全免费的，因此您可以根据需要转换任意数量的文件。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "隐私和安全 ",
+            "content": "我们的网站优先考虑客户的隐私。该应用程序完全可以在您的浏览器上运行，而不会涉及任何服务器。因此，您的数据是安全的！"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "快速结果",
+            "content": "转换过程几乎不需要几秒钟，具体取决于文件大小，您可以轻松获得快速结果。"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "快速高效",
+            "content": "视频编辑速度非常快，您可以立即完成工作"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "节省时间",
+            "content": "我们的网站独立于平台，可以在笔记本电脑，标签和手机上使用，转换速度快，节省时间。"
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

@@ -1,12 +1,12 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "Chúng tôi làm cho việc chỉnh sửa video trở nên dễ dàng.",
+    "heading": "Chúng tôi làm cho việc chỉnh sửa video dễ dàng.",
     "companytitle": "Công ty",
-    "producttitle": "Sản Phẩm",
+    "producttitle": "Sản phẩm",
     "networksitestitle": "Các trang mạng",
     "company": [
         {
-            "name": "Giới thiệu về",
+            "name": "Giới thiệu",
             "url": "/about"
         },
         {
@@ -28,110 +28,162 @@
             "description": "Cắt bất kỳ video MP4 nào",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "vi/crop-mp4"
+            "url": "/vi/crop-mp4"
         },
         {
             "name": "Cắt video",
             "description": "Cắt bất kỳ video nào",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "vi/crop-video"
+            "url": "/vi/crop-video"
         },
         {
             "name": "Trình chỉnh sửa MP4",
             "description": "Chỉnh sửa bất kỳ video MP4 nào",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "vi/edit-mp4-video"
+            "url": "/vi/edit-mp4-video"
         },
         {
             "name": "Lật video",
-            "description": "Lật bất kỳ video",
+            "description": "Lật bất kỳ video nào",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "vi/flip-video"
+            "url": "/vi/flip-video"
         },
         {
             "name": "Máy nén MOV",
             "description": "Nén bất kỳ video MOV nào",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "vi/mov-compressor"
+            "url": "/vi/mov-compressor"
         },
         {
             "name": "Máy nén MP4",
             "description": "Nén bất kỳ video MP4 nào",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "vi/mp4-compressor"
+            "url": "/vi/mp4-compressor"
         },
         {
             "name": "Máy cắt MP4",
             "description": "Cắt bất kỳ video MP4 nào",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "vi/mp4-cutter"
+            "url": "/vi/mp4-cutter"
         },
         {
-            "name": "trình chỉnh sửa video",
+            "name": "Trình chỉnh sửa video",
             "description": "Chỉnh sửa bất kỳ video nào",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "vi/video-editor"
+            "url": "/vi/video-editor"
         },
         {
-            "name": "tông đơ MP4",
+            "name": "Tông đơ MP4",
             "description": "Cắt bất kỳ video MP4 nào",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "vi/mp4-trimmer"
+            "url": "/vi/mp4-trimmer"
         },
         {
-            "name": "Đổi kích thước video",
-            "description": "Thay đổi kích cỡ bất kỳ video",
+            "name": "Thêm phụ đề vào MP4",
+            "description": "Thêm phụ đề vào video MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/vi/subtitle-mp4"
+        },
+        {
+            "name": "Thay đổi kích thước video",
+            "description": "Thay đổi kích thước bất kỳ video",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "vi/resize-video"
+            "url": "/vi/resize-video"
         },
         {
             "name": "Máy nén video",
             "description": "Nén bất kỳ video nào",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "vi/video-compressor"
+            "url": "/vi/video-compressor"
         },
         {
-            "name": "máy cắt video",
+            "name": "Máy cắt video",
             "description": "Cắt bất kỳ video nào",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "vi/video-cutter"
+            "url": "/vi/video-cutter"
         },
         {
-            "name": "Máy quay video",
-            "description": "Xoay video bất kỳ",
+            "name": "Quay video",
+            "description": "Xoay bất kỳ video nào",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "vi/video-rotater"
+            "url": "/vi/video-rotater"
         },
         {
             "name": "Bộ chia video",
-            "description": "Tách video bất kỳ",
+            "description": "Chia bất kỳ video nào",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "vi/video-splitter"
+            "url": "/vi/video-splitter"
         },
         {
             "name": "Tông đơ video",
             "description": "Cắt bất kỳ video nào",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "vi/video-trimmer"
+            "url": "/vi/video-trimmer"
         },
         {
             "name": "Trích xuất video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "vi/extract-audio"
+            "url": "/vi/extract-audio"
+        },
+        {
+            "name": "Thay đổi kích thước cho Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/vi/resize-for-facebook"
+        },
+        {
+            "name": "Thay đổi kích thước cho Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/vi/resize-for-instagram"
+        },
+        {
+            "name": "Thay đổi kích thước cho Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/vi/resize-for-linkedin"
+        },
+        {
+            "name": "Thay đổi kích thước cho Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/vi/resize-for-pinterest"
+        },
+        {
+            "name": "Thay đổi kích thước cho Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/vi/resize-for-snapchat"
+        },
+        {
+            "name": "Thay đổi kích thước cho Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/vi/resize-for-tiktok"
+        },
+        {
+            "name": "Thay đổi kích thước cho Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/vi/resize-for-twitter"
+        },
+        {
+            "name": "Thay đổi kích thước cho Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/vi/resize-for-whatsapp"
+        },
+        {
+            "name": "Thay đổi kích thước cho Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/vi/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -169,7 +221,7 @@
             "url": "/terms-and-conditions"
         },
         {
-            "name": "Chính sách bảo mật",
+            "name": "Chính sách quyền riêng tư",
             "url": "/privacy-policy"
         },
         {

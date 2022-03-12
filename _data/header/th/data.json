@@ -20,7 +20,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "คอมเพรสเซอร์ MP",
+                        "name": "คอมเพรสเซอร์",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/th/mp4-compressor",
                         "hover": "blue"
@@ -36,26 +36,32 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/th/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "เพิ่มคำบรรยายลงใน MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/th/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
-                "categoryName": "บีบอัด",
+                "categoryName": "การบีบอัด",
                 "links": [
                     {
-                        "name": "คอมเพรสเซอร์ MOV",
+                        "name": "คอมเพรสเซอร์",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mov-compress.svg",
                         "url": "/th/mov-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "คอมเพรสเซอร์ MP",
+                        "name": "คอมเพรสเซอร์",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-compress.svg",
                         "url": "/th/mp4-compressor",
                         "hover": "blue"
                     },
                     {
-                        "name": "คอมเพรสเซอร์วิดีโอ",
+                        "name": "คอมเพรสเซอร์",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/th/video-compressor",
                         "hover": "blue"
@@ -66,7 +72,7 @@
                 "categoryName": "เครื่องมือวิดีโอ",
                 "links": [
                     {
-                        "name": "แก้ไขวีดีโอ",
+                        "name": "แก้ไขวิดีโอ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/th/video-editor",
                         "hover": "blue"
@@ -102,21 +108,75 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "ตัวแยกสัญญาณวิดีโอ",
+                        "name": "ตัวแยกวิดีโอ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/th/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "เครื่องตัดแต่งวิดีโอ",
+                        "name": "ตัดแต่งวิดีโอ",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/th/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/th/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับอินสตาแกรม",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/th/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/th/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/th/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/th/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/th/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับทวิตเตอร์",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/th/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/th/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "ปรับขนาดสำหรับ Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/th/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]
             },
             {
-                "categoryName": "สารสกัดเสียง",
+                "categoryName": "แยกเสียง",
                 "links": [
                     {
                         "name": "แยกเสียง",

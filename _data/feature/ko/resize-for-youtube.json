@@ -1,0 +1,81 @@
+{
+    "Language": "한국어",
+    "htmlLangAtt": "ko",
+    "H1": "몇 번의 클릭만으로 YouTube 동영상 크기 조정",
+    "H2": "Youtube 도구의 크기 조정을 사용하여 비디오를 더욱 전문적으로 만드십시오.",
+    "TITLE": "세이프비디오킷은 유튜브 동영상을 위한 무료 온라인 리사이저를 제공합니다.",
+    "META": "이제 YouTube 동영상 크기를 쉽게 조정할 수 있습니다.YouTube 크기 조정 도구를 사용하여 비디오를 일반, 와이드 스크린 또는 세로 프레임에 맞게 만들 수 있습니다.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX에서 PDF로 변환",
+    "BREADCRUMB_LABEL": "DOCX에서 PDF로",
+    "color": "#FF0000",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/youtube.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "인디펜던트",
+            "content": "저희 웹사이트는 플랫폼에 독립적입니다.Window 및 iOS 운영 체제 모두에서 작동하며 다운로드 없이도 사용할 수 있습니다."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "완전 무료",
+            "content": "변환은 완전 무료이므로 원하는만큼 파일을 변환 할 수 있습니다."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "개인정보 보호 및 보안 ",
+            "content": "당사 웹사이트는 고객의 프라이버시를 우선시합니다.응용 프로그램은 서버를 사용하지 않고 브라우저에서 완전히 작동합니다. 따라서 데이터는 안전합니다!"
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "빠른 결과",
+            "content": "파일 크기에 따라 변환 프로세스가 거의 몇 초가 걸리지 않으며 빠른 결과를 쉽게 얻을 수 있습니다."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "빠르고 효율적",
+            "content": "비디오 편집이 정말 빠르며 작업을 즉시 완료 할 수 있습니다."
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "시간 절약",
+            "content": "저희 웹 사이트는 플랫폼에 독립적이며 랩톱, 탭 및 휴대폰에서 작동 할 수 있으며 변환이 빠르며 시간을 절약 할 수 있습니다."
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": [
+            ""
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm"
+    ]
+}

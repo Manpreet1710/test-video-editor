@@ -8,7 +8,7 @@
                 "categoryName": "MP4 工具",
                 "links": [
                     {
-                        "name": "裁切 MP4",
+                        "name": "裁剪 MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/zh-TW/crop-mp4",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 刀具",
+                        "name": "MP4 切割機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/zh-TW/mp4-cutter",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/zh-TW/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "將字幕添加到 MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/zh-TW/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -55,7 +61,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊壓縮機",
+                        "name": "視頻壓縮機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-compress.svg",
                         "url": "/zh-TW/video-compressor",
                         "hover": "blue"
@@ -63,7 +69,7 @@
                 ]
             },
             {
-                "categoryName": "視訊工具",
+                "categoryName": "視頻工具",
                 "links": [
                     {
                         "name": "編輯視頻",
@@ -72,54 +78,108 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "裁切視訊",
+                        "name": "裁剪視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/zh-TW/crop-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "調整視訊大小",
+                        "name": "調整視頻大小",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/zh-TW/resize-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "旋轉視訊",
+                        "name": "旋轉視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
                         "url": "/zh-TW/rotate-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "翻轉視訊",
+                        "name": "翻轉視頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/flip.svg",
                         "url": "/zh-TW/flip-video",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊切割器",
+                        "name": "視頻切割機",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/zh-TW/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊分割器",
+                        "name": "視頻分離器",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/zh-TW/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "視訊微調器",
+                        "name": "視頻微調",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/zh-TW/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整臉書的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/zh-TW/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 Instagram 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/zh-TW/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為領英調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/zh-TW/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為 Pinterest 調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/zh-TW/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整快照聊天的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/zh-TW/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "為蒂克託克調整大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/zh-TW/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整推特的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/zh-TW/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 WhatsApp 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/zh-TW/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "調整適用於 YouTube 的大小",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/zh-TW/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]
             },
             {
-                "categoryName": "擷取音訊",
+                "categoryName": "提取音頻",
                 "links": [
                     {
-                        "name": "擷取音訊",
+                        "name": "提取音頻",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/zh-TW/extract-audio",
                         "hover": "blue"
@@ -130,7 +190,7 @@
     },
     "navItems": [
         {
-            "name": "部落格",
+            "name": "博客",
             "url": "/blog"
         }
     ]

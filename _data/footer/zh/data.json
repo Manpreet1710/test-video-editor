@@ -1,20 +1,20 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "我们使视频编辑变得容易。",
+    "heading": "我们让视频编辑变得简单。",
     "companytitle": "公司",
-    "producttitle": "產品",
+    "producttitle": "产品中心",
     "networksitestitle": "网络站点",
     "company": [
         {
-            "name": "关于",
+            "name": "关于我们",
             "url": "/about"
         },
         {
-            "name": "帮助",
+            "name": "帮帮我",
             "url": "/help"
         },
         {
-            "name": "部落格",
+            "name": "博客",
             "url": "/blog"
         },
         {
@@ -28,110 +28,162 @@
             "description": "裁剪任何 MP4 视频",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "zh/crop-mp4"
+            "url": "/zh/crop-mp4"
         },
         {
             "name": "裁剪视频",
             "description": "裁剪任何视频",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "zh/crop-video"
+            "url": "/zh/crop-video"
         },
         {
             "name": "MP4 编辑器",
             "description": "编辑任何 MP4 视频",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "zh/edit-mp4-video"
+            "url": "/zh/edit-mp4-video"
         },
         {
             "name": "翻转视频",
             "description": "翻转任何视频",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "zh/flip-video"
+            "url": "/zh/flip-video"
         },
         {
             "name": "MOV 压缩机",
-            "description": "压缩任何 MOV 视频",
+            "description": "压缩任何MOV视频",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "zh/mov-compressor"
+            "url": "/zh/mov-compressor"
         },
         {
             "name": "MP4 压缩器",
             "description": "压缩任何 MP4 视频",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "zh/mp4-compressor"
+            "url": "/zh/mp4-compressor"
         },
         {
             "name": "MP4 切割器",
             "description": "剪切任何 MP4 视频",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "zh/mp4-cutter"
+            "url": "/zh/mp4-cutter"
         },
         {
             "name": "视频编辑器",
             "description": "编辑任何视频",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "zh/video-editor"
+            "url": "/zh/video-editor"
         },
         {
             "name": "MP4 修剪器",
             "description": "修剪任何 MP4 视频",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "zh/mp4-trimmer"
+            "url": "/zh/mp4-trimmer"
         },
         {
-            "name": "调整视频大",
-            "description": "调整视频的大小",
+            "name": "将字幕添加到MP4",
+            "description": "为MP4视频添加字幕",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/zh/subtitle-mp4"
+        },
+        {
+            "name": "调整视频大小",
+            "description": "调整任何视频的大小",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "zh/resize-video"
+            "url": "/zh/resize-video"
         },
         {
             "name": "视频压缩器",
             "description": "压缩任何视频",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "zh/video-compressor"
+            "url": "/zh/video-compressor"
         },
         {
             "name": "视频切割器",
             "description": "剪切任何视频",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "zh/video-cutter"
+            "url": "/zh/video-cutter"
         },
         {
             "name": "视频旋转器",
             "description": "旋转任何视频",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "zh/video-rotater"
+            "url": "/zh/video-rotater"
         },
         {
             "name": "视频分配器",
             "description": "拆分任何视频",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "zh/video-splitter"
+            "url": "/zh/video-splitter"
         },
         {
             "name": "视频修剪器",
             "description": "修剪任何视频",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "zh/video-trimmer"
+            "url": "/zh/video-trimmer"
         },
         {
             "name": "提取视频",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "zh/extract-audio"
+            "url": "/zh/extract-audio"
+        },
+        {
+            "name": "为 Facebook 调整大小",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/zh/resize-for-facebook"
+        },
+        {
+            "name": "调整为 Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/zh/resize-for-instagram"
+        },
+        {
+            "name": "为领英调整大小",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/zh/resize-for-linkedin"
+        },
+        {
+            "name": "调整为 Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/zh/resize-for-pinterest"
+        },
+        {
+            "name": "为 Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/zh/resize-for-snapchat"
+        },
+        {
+            "name": "调整为 Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/zh/resize-for-tiktok"
+        },
+        {
+            "name": "为 Twitter 调整大小",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/zh/resize-for-twitter"
+        },
+        {
+            "name": "为 Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/zh/resize-for-whatsapp"
+        },
+        {
+            "name": "调整为 Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/zh/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -144,12 +196,12 @@
         {
             "logo": "/assets/youtube.svg",
             "url": "/",
-            "title": "youtube"
+            "title": "yout"
         },
         {
             "logo": "/assets/instagram.svg",
             "url": "/",
-            "title": "instagram"
+            "title": "instag"
         },
         {
             "logo": "/assets/linkdin.svg",

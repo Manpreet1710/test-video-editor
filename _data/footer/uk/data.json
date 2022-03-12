@@ -1,8 +1,8 @@
 {
     "logo": "/assets/safevideokit.svg",
-    "heading": "Робимо монтаж відео легким.",
+    "heading": "Робимо монтаж відео простим.",
     "companytitle": "Компанія",
-    "producttitle": "Товар",
+    "producttitle": "Продукт",
     "networksitestitle": "Мережеві сайти",
     "company": [
         {
@@ -10,7 +10,7 @@
             "url": "/about"
         },
         {
-            "name": "Допоможіть",
+            "name": "Допомога",
             "url": "/help"
         },
         {
@@ -24,114 +24,166 @@
     ],
     "product": [
         {
-            "name": "Рослинництво MP4",
+            "name": "Обрізати MP4",
             "description": "Обрізати будь-яке відео MP4",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "uk/crop-mp4"
+            "url": "/uk/crop-mp4"
         },
         {
-            "name": "Кадрування відео",
-            "description": "Кадрування будь-якого відео",
+            "name": "Обрізати відео",
+            "description": "Обрізати будь-яке відео",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
-            "url": "uk/crop-video"
+            "url": "/uk/crop-video"
         },
         {
             "name": "Редактор MP4",
-            "description": "Редагування будь-якого відео MP4",
+            "description": "Редагуйте будь-яке відео MP4",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "uk/edit-mp4-video"
+            "url": "/uk/edit-mp4-video"
         },
         {
             "name": "Перевернути відео",
             "description": "Переверніть будь-яке відео",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
-            "url": "uk/flip-video"
+            "url": "/uk/flip-video"
         },
         {
             "name": "MOV компресор",
-            "description": "Стиснути будь-яке відео MOV",
+            "description": "Стисніть будь-яке відео MOV",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "uk/mov-compressor"
+            "url": "/uk/mov-compressor"
         },
         {
-            "name": "Компресор MP4",
-            "description": "Стиснути будь-які відео MP4",
+            "name": "MP4 компресор",
+            "description": "Стисніть будь-які відео MP4",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "uk/mp4-compressor"
+            "url": "/uk/mp4-compressor"
         },
         {
             "name": "MP4 різак",
-            "description": "Вирізати будь-яке відео MP4",
+            "description": "Виріжте будь-яке відео MP4",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "uk/mp4-cutter"
+            "url": "/uk/mp4-cutter"
         },
         {
-            "name": "відеоредактор",
-            "description": "Редагувати будь-яке відео",
+            "name": "Відеоредактор",
+            "description": "Редагуйте будь-яке відео",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
-            "url": "uk/video-editor"
+            "url": "/uk/video-editor"
         },
         {
             "name": "MP4 триммер",
-            "description": "Обрізка будь-якого MP4 відео",
+            "description": "Обрізати будь-яке відео MP4",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "uk/mp4-trimmer"
+            "url": "/uk/mp4-trimmer"
+        },
+        {
+            "name": "Додати субтитри до MP4",
+            "description": "Додавання субтитрів до відео MP4",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/uk/subtitle-mp4"
         },
         {
             "name": "Змінити розмір відео",
             "description": "Змінити розмір будь-якого відео",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
-            "url": "uk/resize-video"
+            "url": "/uk/resize-video"
         },
         {
-            "name": "Відеокомпресор",
+            "name": "Відео компресор",
             "description": "Стиснути будь-яке відео",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
-            "url": "uk/video-compressor"
+            "url": "/uk/video-compressor"
         },
         {
-            "name": "відеорізак",
-            "description": "Вирізати будь-яке відео",
+            "name": "Відео різак",
+            "description": "Виріжте будь-яке відео",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "uk/video-cutter"
+            "url": "/uk/video-cutter"
         },
         {
-            "name": "Ротач відео",
-            "description": "Повернути будь-яке відео",
+            "name": "Відео ротатер",
+            "description": "Поворот будь-якого відео",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
-            "url": "uk/video-rotater"
+            "url": "/uk/video-rotater"
         },
         {
-            "name": "Відео розгалужувач",
-            "description": "Розділити будь-яке відео",
+            "name": "Відео спліттер",
+            "description": "Розділіть будь-яке відео",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "uk/video-splitter"
+            "url": "/uk/video-splitter"
         },
         {
-            "name": "Відео-тример",
+            "name": "Відео триммер",
             "description": "Обрізати будь-яке відео",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
-            "url": "uk/video-trimmer"
+            "url": "/uk/video-trimmer"
         },
         {
-            "name": "Витягти відео",
+            "name": "Витяг відео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
-            "url": "uk/extract-audio"
+            "url": "/uk/extract-audio"
+        },
+        {
+            "name": "Змінити розмір для Facebook",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/uk/resize-for-facebook"
+        },
+        {
+            "name": "Змінити розмір для Instagram",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/uk/resize-for-instagram"
+        },
+        {
+            "name": "Змінити розмір для Linkedin",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/uk/resize-for-linkedin"
+        },
+        {
+            "name": "Змінити розмір для Pinterest",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/uk/resize-for-pinterest"
+        },
+        {
+            "name": "Змінити розмір для Snapchat",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/uk/resize-for-snapchat"
+        },
+        {
+            "name": "Змінити розмір для Tiktok",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/uk/resize-for-tiktok"
+        },
+        {
+            "name": "Змінити розмір для Twitter",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/uk/resize-for-twitter"
+        },
+        {
+            "name": "Змінити розмір для Whatsapp",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/uk/resize-for-whatsapp"
+        },
+        {
+            "name": "Змінити розмір для Youtube",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/uk/resize-for-youtube"
         }
     ],
     "networkSites": [],
@@ -139,7 +191,7 @@
         {
             "logo": "/assets/facebook.svg",
             "url": "https://www.facebook.com/sharer/sharer.php?u=https://safevideokit.com/",
-            "title": "Facebook"
+            "title": "facebook"
         },
         {
             "logo": "/assets/youtube.svg",
@@ -149,12 +201,12 @@
         {
             "logo": "/assets/instagram.svg",
             "url": "/",
-            "title": "інстаграм"
+            "title": "Instagram"
         },
         {
             "logo": "/assets/linkdin.svg",
             "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://safevideokit.com/",
-            "title": "linkdin"
+            "title": "Лінкдін"
         },
         {
             "logo": "/assets/twitter.svg",
@@ -173,7 +225,7 @@
             "url": "/privacy-policy"
         },
         {
-            "name": "Зв'язатися з нами",
+            "name": "зв'яжіться з нами",
             "url": "/contact"
         },
         {

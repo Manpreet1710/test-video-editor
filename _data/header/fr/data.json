@@ -8,13 +8,13 @@
                 "categoryName": "Outils MP4",
                 "links": [
                     {
-                        "name": "Recadrer MP4",
+                        "name": "Récolte MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-mp4.svg",
                         "url": "/fr/crop-mp4",
                         "hover": "blue"
                     },
                     {
-                        "name": "Modifier MP4",
+                        "name": "Éditer MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
                         "url": "/fr/edit-mp4-video",
                         "hover": "blue"
@@ -26,7 +26,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Fraise MP4",
+                        "name": "Coupeur MP4",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-cut.svg",
                         "url": "/fr/mp4-cutter",
                         "hover": "blue"
@@ -36,7 +36,13 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/fr/mp4-trimmer",
                         "hover": "blue"
-                    } 
+                    },
+                    {
+                        "name": "Ajouter des sous-titres à MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/fr/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -66,13 +72,13 @@
                 "categoryName": "Outils vidéo",
                 "links": [
                     {
-                        "name": "Éditer vidéo",
+                        "name": "Éditer une vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/fr/video-editor",
                         "hover": "blue"
                     },
                     {
-                        "name": "Vidéo recadrage",
+                        "name": "Vidéo sur les cultures",
                         "iconSrc": "/assets/FeatureIcons_featurePage/crop-video.svg",
                         "url": "/fr/crop-video",
                         "hover": "blue"
@@ -84,7 +90,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Rotation de la vidéo",
+                        "name": "Rotation vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/rotate.svg",
                         "url": "/fr/rotate-video",
                         "hover": "blue"
@@ -96,13 +102,13 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "découpeuse vidéo",
+                        "name": "Cutter vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/fr/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Séparateur vidéo",
+                        "name": "Répartiteur vidéo",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/fr/video-splitter",
                         "hover": "blue"
@@ -112,14 +118,68 @@
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/fr/video-trimmer",
                         "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/fr/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/fr/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/fr/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/fr/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/fr/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/fr/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/fr/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/fr/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Redimensionner pour Youtube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/fr/resize-for-youtube",
+                        "hover": "blue"
                     }
                 ]
             },
             {
-                "categoryName": "Extraire audio",
+                "categoryName": "Extraire l'audio",
                 "links": [
                     {
-                        "name": "Extraire le",
+                        "name": "Extraire l'audio",
                         "iconSrc": "/assets/FeatureIcons_featurePage/sound.svg",
                         "url": "/fr/extract-audio",
                         "hover": "blue"

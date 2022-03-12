@@ -5,7 +5,7 @@
         "nav-link-name": "Tools",
         "dropdown": [
             {
-                "categoryName": "MP4-hulpmiddelen",
+                "categoryName": "MP4-tools",
                 "links": [
                     {
                         "name": "MP4 bijsnijden",
@@ -32,11 +32,17 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "MP4 trimmer",
+                        "name": "MP4-trimmer",
                         "iconSrc": "/assets/FeatureIcons_featurePage/mp4-trim.svg",
                         "url": "/nl/mp4-trimmer",
                         "hover": "blue"
-                    }  
+                    },
+                    {
+                        "name": "Ondertitels toevoegen aan MP4",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+                        "url": "/nl/subtitle-mp4",
+                        "hover": "blue"
+                    }
                 ]
             },
             {
@@ -63,10 +69,10 @@
                 ]
             },
             {
-                "categoryName": "Hulpmiddelen voor video",
+                "categoryName": "Video-hulpmiddelen",
                 "links": [
                     {
-                        "name": "Bewerk video",
+                        "name": "Video bewerken",
                         "iconSrc": "/assets/FeatureIcons_featurePage/edit-video.svg",
                         "url": "/nl/video-editor",
                         "hover": "blue"
@@ -78,7 +84,7 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "De grootte van video wijzigen",
+                        "name": "Video formaat wijzigen",
                         "iconSrc": "/assets/FeatureIcons_featurePage/resize.svg",
                         "url": "/nl/resize-video",
                         "hover": "blue"
@@ -96,21 +102,75 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "video-snijder",
+                        "name": "Video snijder",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-cut.svg",
                         "url": "/nl/video-cutter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Video splitter",
+                        "name": "Videosplitter",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-split.svg",
                         "url": "/nl/video-splitter",
                         "hover": "blue"
                     },
                     {
-                        "name": "Video-trimmer",
+                        "name": "Video trimmer",
                         "iconSrc": "/assets/FeatureIcons_featurePage/video-trim.svg",
                         "url": "/nl/video-trimmer",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Facebook",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
+                        "url": "/nl/resize-for-facebook",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Instagram",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/instagram.svg",
+                        "url": "/nl/resize-for-instagram",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Linkedin",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/linkedin.svg",
+                        "url": "/nl/resize-for-linkedin",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Pinterest",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/pinterest.svg",
+                        "url": "/nl/resize-for-pinterest",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Snapchat",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/snapchat.svg",
+                        "url": "/nl/resize-for-snapchat",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Tiktok",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/tiktok.svg",
+                        "url": "/nl/resize-for-tiktok",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Twitter",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/twitter.svg",
+                        "url": "/nl/resize-for-twitter",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor Whatsapp",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/whatsapp.svg",
+                        "url": "/nl/resize-for-whatsapp",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Formaat wijzigen voor YouTube",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/youtube.svg",
+                        "url": "/nl/resize-for-youtube",
                         "hover": "blue"
                     }
                 ]

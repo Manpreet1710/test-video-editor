@@ -1,113 +1,113 @@
 {
     "Language": "日本語",
     "htmlLangAtt": "ja",
-    "h1": "SafeVideoKit.com-あなたのビデオを処理する最も安全な方法",
-    "h2": "ファイルはサーバーに送信されません。100% 安全です。",
-    "title": "SafeVideoKit.com-あなたのビデオを処理する最も安全な方法",
-    "TITLE": "SafeVideoKit.com-あなたのビデオを処理する最も安全な方法",
-    "meta": "当社のオンライン動画編集ツールは完全無料で、使いやすいです。動画の編集中は、すべてのデータが安全であることを確認します。mp3、mov、mkvなどの幅広いビデオフォーマットをサポートしています。",
+    "h1": "SafeVideoKit.com-動画を処理する最も安全な方法",
+    "h2": "サーバーにはファイルは送信されません。100% 安全です。",
+    "title": "SafeVideoKit.com-動画を処理する最も安全な方法",
+    "TITLE": "SafeVideoKit.com-動画を処理する最も安全な方法",
+    "meta": "当社のオンライン動画編集ツールは完全に無料で使いやすいです。動画の編集中は、すべてのデータが安全であることを確認します。mp3、mov、mkvなどの幅広いビデオ形式をサポートしています。",
     "keywords": "key1,key2,key3,key4",
     "features": [
         {
-            "name": "切り抜くMP4",
+            "name": "切り抜き MP4",
             "description": "任意の MP4 ビデオを切り抜く",
             "color": "#3867d6",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ja/crop-mp4"
         },
         {
-            "name": "動画のクロップ",
-            "description": "どんな動画でも切り抜く",
+            "name": "動画をクロップ",
+            "description": "あらゆる動画をクロップ",
             "color": "#ff5e57",
             "icon": "/assets/FeatureIcons/crop.svg",
             "url": "/ja/crop-video"
         },
         {
-            "name": "MP4エディター",
+            "name": "MP4 エディター",
             "description": "任意の MP4 ビデオを編集する",
             "color": "#4bcffa",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ja/edit-mp4-video"
         },
         {
-            "name": "フリップビデオ",
-            "description": "任意の動画を反転させる",
+            "name": "動画をフリップ",
+            "description": "あらゆる動画を反転",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/flip.svg",
             "url": "/ja/flip-video"
         },
         {
-            "name": "MOVコンプレッサー",
-            "description": "MOV動画を圧縮する",
+            "name": "MOV コンプレッサー",
+            "description": "あらゆるMOV動画を圧縮",
             "color": "#0be881",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/ja/mov-compressor"
         },
         {
-            "name": "MP4コンプレッサー",
-            "description": "MP4 動画を圧縮する",
+            "name": "MP4 コンプレッサー",
+            "description": "MP4動画を圧縮する",
             "color": "#c56cf0",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/ja/mp4-compressor"
         },
         {
-            "name": "MP4カッター",
+            "name": "MP4 カッター",
             "description": "任意の MP4 ビデオをカットします。",
             "color": "#7d5fff",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/mp4-cutter"
         },
         {
-            "name": "ビデオエディター",
-            "description": "動画を編集する",
+            "name": "動画エディター",
+            "description": "どんな動画でも編集",
             "color": "#ffa502",
             "icon": "/assets/FeatureIcons/edit.svg",
             "url": "/ja/video-editor"
         },
         {
-            "name": "MP4トリマー",
-            "description": "任意の MP4 ビデオをトリミング",
+            "name": "MP4 トリマー",
+            "description": "任意の MP4 ビデオをトリミングする",
             "color": "#4cd137",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/mp4-trimmer"
         },
         {
-            "name": "ビデオのサイズを変更",
-            "description": "動画のサイズを変更",
+            "name": "動画のサイズ変更",
+            "description": "動画のサイズ変更",
             "color": "#ff793f",
             "icon": "/assets/FeatureIcons/resize.svg",
             "url": "/ja/resize-video"
         },
         {
             "name": "ビデオコンプレッサー",
-            "description": "動画を圧縮する",
+            "description": "あらゆる動画を圧縮",
             "color": "#9c88ff",
             "icon": "/assets/FeatureIcons/compress.svg",
             "url": "/ja/video-compressor"
         },
         {
             "name": "ビデオカッター",
-            "description": "動画をカットする",
+            "description": "どんな動画でもカットする",
             "color": "#ff615c",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/video-cutter"
         },
         {
             "name": "ビデオローテータ",
-            "description": "動画を回転させる",
+            "description": "あらゆる動画を回転させる",
             "color": "#33d9b2",
             "icon": "/assets/FeatureIcons/rotate.svg",
             "url": "/ja/video-rotater"
         },
         {
-            "name": "ビデオスプリッター",
-            "description": "動画を分割する",
+            "name": "ビデオスプリッタ",
+            "description": "動画を分割",
             "color": "#e84118",
             "icon": "/assets/FeatureIcons/split.svg",
             "url": "/ja/video-splitter"
         },
         {
-            "name": "ビデオトリマー",
+            "name": "動画トリマー",
             "description": "あらゆる動画をトリミング",
             "color": "#00a8ff",
             "icon": "/assets/FeatureIcons/split.svg",
@@ -115,11 +115,81 @@
         },
         {
             "name": "オーディオを抽出",
-            "description": "ビデオからオーディオを抽出する",
+            "description": "動画から音声を抽出する",
             "color": "#26de81",
             "icon": "/assets/FeatureIcons/sound.svg",
             "url": "/ja/extract-audio"
-        } 
+        },
+        {
+            "name": "MP4 に字幕を追加する",
+            "description": "MP4 動画に字幕を追加する",
+            "color": "#BD7ED8",
+            "icon": "/assets/FeatureIcons/subtitle.svg",
+            "url": "/ja/subtitle-mp4"
+        },
+        {
+            "name": "フェイスブックのサイズ変更",
+            "description": "Facebook のビデオのサイズを変更",
+            "color": "#1773EA",
+            "icon": "/assets/FeatureIcons/facebook.svg",
+            "url": "/ja/resize-for-facebook"
+        },
+        {
+            "name": "インスタグラム用にサイズ変更",
+            "description": "インスタグラム用に動画のサイズを変更",
+            "color": "#F00075",
+            "icon": "/assets/FeatureIcons/instagram.svg",
+            "url": "/ja/resize-for-instagram"
+        },
+        {
+            "name": "LinkedIn用にサイズ変更",
+            "description": "Linkedin用に動画のサイズを変更",
+            "color": "#0A66C2",
+            "icon": "/assets/FeatureIcons/linkedin.svg",
+            "url": "/ja/resize-for-linkedin"
+        },
+        {
+            "name": "Pinterest 用にサイズ変更",
+            "description": "Pinterest 用に動画のサイズを変更",
+            "color": "#BD081C",
+            "icon": "/assets/FeatureIcons/pinterest.svg",
+            "url": "/ja/resize-for-pinterest"
+        },
+        {
+            "name": "Snapchatのサイズ変更",
+            "description": "Snapchat用にビデオのサイズを変更",
+            "color": "#9999FF",
+            "icon": "/assets/FeatureIcons/snapchat.svg",
+            "url": "/ja/resize-for-snapchat"
+        },
+        {
+            "name": "Tiktok用にサイズ変更",
+            "description": "Tiktok用に動画のサイズを変更",
+            "color": "#D44638",
+            "icon": "/assets/FeatureIcons/tiktok.svg",
+            "url": "/ja/resize-for-tiktok"
+        },
+        {
+            "name": "ツイッター用にサイズ変更",
+            "description": "ツイッター用に動画のサイズを変更",
+            "color": "#1DA1F2",
+            "icon": "/assets/FeatureIcons/twitter.svg",
+            "url": "/ja/resize-for-twitter"
+        },
+        {
+            "name": "Whatsappのサイズ変更",
+            "description": "Whatsappのビデオのサイズを変更",
+            "color": "#21A218",
+            "icon": "/assets/FeatureIcons/whatsapp.svg",
+            "url": "/ja/resize-for-whatsapp"
+        },
+        {
+            "name": "Youtube用にサイズ変更",
+            "description": "Youtube用に動画のサイズを変更",
+            "color": "#FF0000",
+            "icon": "/assets/FeatureIcons/youtube.svg",
+            "url": "/ja/resize-for-youtube"
+        }
     ],
     "StructuredDataWebsite": {
         "@type": "WebSite",

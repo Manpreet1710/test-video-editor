@@ -1,0 +1,76 @@
+{
+    "Language": "Español",
+    "htmlLangAtt": "es",
+    "H1": "Inserte fácilmente subtítulos a mp4 en línea",
+    "H2": "Agregue subtítulos gratis a mp4 sin instalar ningún software",
+    "TITLE": "Agrega subtítulos a videos mp4 gratis",
+    "META": "¿Sabías que es más probable que los subtítulos encuentren tu video? Aprenda cómo agregar fácilmente subtítulos a videos mp4 en línea usando esta herramienta gratuita.",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX a PDF",
+    "BREADCRUMB_LABEL": "DOCX A PDF",
+    "color": "#BD7ED8",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/subtitle-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "Independiente",
+        "content": "Nuestro sitio web es independiente de la plataforma. Funciona tanto en sistemas operativos Windows como iOS y se puede utiliz/ar/ sin necesidad de desc/ar/gas."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/t/ar/get.svg",
+        "header": "Absolutamente gratis",
+        "content": "La conversión es totalmente gratuita, por lo que puedes convertir tantos /ar/chivos como quieras."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cross.svg",
+        "header": "Privacidad y seguridad ",
+        "content": "Nuestro sitio web prioriza la privacidad de sus clientes. Dado que trabajamos con almacenamiento en la nube, tus /ar/chivos no se c/ar/gan. Por lo tanto, no hay posibilidad de que se produzca ninguna violación de datos. ¡Tus datos están seguros con nosotros!"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/shield.svg",
+        "header": "Resultados rápidos",
+        "content": "El proceso de conversión apenas t/ar/da unos segundos, dependiendo del tamaño de tu /ar/chivo, y puedes obtener resultados rápidos fácilmente."
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/fast.svg",
+        "header": "Rápido y eficiente",
+        "content": "La edición de vídeo es muy rápida y puedes hacer tu trabajo en poco tiempo"
+    },
+    {
+        "priority": 1,
+        "logoUrl": "/assets/cloud_new.svg",
+        "header": "Ahorra tiempo",
+        "content": "Nuestro sitio web es independiente de la plataforma, puede funcion/ar/ en computadoras portátiles, pestañas y teléfonos y la conversión es rápida, ahorra tiempo."
+    }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "",
+      "steps": [
+        ""
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4"  ],
+      "compare_formats": [
+        "mp4"  ]
+    }
+  
+  
+  
