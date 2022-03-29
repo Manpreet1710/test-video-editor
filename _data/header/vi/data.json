@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Video ngược",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/vi/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Video Chậm",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/vi/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Truyền thông xã hội",
+                "links": [
+                    {
                         "name": "Thay đổi kích thước cho Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/vi/resize-for-facebook",

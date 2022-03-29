@@ -136,7 +136,7 @@
             "url": "/nl/video-trimmer"
         },
         {
-            "name": "Video extraheren",
+            "name": "Audio extraheren",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/nl/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Formaat wijzigen voor YouTube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/nl/resize-for-youtube"
+        },
+        {
+            "name": "Omgekeerde video",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/nl/video-reverse"
+        },
+        {
+            "name": "Trage video",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/nl/video-slow"
         }
     ],
     "networkSites": [],

@@ -136,7 +136,7 @@
             "url": "/ar/video-trimmer"
         },
         {
-            "name": "استخراج الفيديو",
+            "name": "استخراج الصوت",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ar/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "تغيير حجم يوتيوب",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ar/resize-for-youtube"
+        },
+        {
+            "name": "فيديو عكسي",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/ar/video-reverse"
+        },
+        {
+            "name": "فيديو بطيء",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/ar/video-slow"
         }
     ],
     "networkSites": [],

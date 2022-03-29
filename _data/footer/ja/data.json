@@ -136,7 +136,7 @@
             "url": "/ja/video-trimmer"
         },
         {
-            "name": "動画を抽出",
+            "name": "オーディオを抽出",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ja/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Youtube用にサイズ変更",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ja/resize-for-youtube"
+        },
+        {
+            "name": "動画を反転",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/ja/video-reverse"
+        },
+        {
+            "name": "スロービデオ",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/ja/video-slow"
         }
     ],
     "networkSites": [],
