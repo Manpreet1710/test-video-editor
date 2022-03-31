@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Omgekeerde video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/nl/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Trage video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/nl/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Sociale media",
+                "links": [
+                    {
                         "name": "Formaat wijzigen voor Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/nl/resize-for-facebook",

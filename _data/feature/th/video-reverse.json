@@ -1,0 +1,81 @@
+{
+    "Language": "ภาษาไทย",
+    "htmlLangAtt": "th",
+    "H1": "ใช้เอฟเฟ็กต์ย้อนหลังในวิดีโอด้วยเครื่องมือย้อนกลับวิดีโอออนไลน์",
+    "H2": "เปลี่ยนวิดีโอของคุณให้เป็นเอฟเฟ็กต์ที่สะดุดตาโดยการย้อนกลับวิดีโอทางออนไลน์",
+    "TITLE": "วิดีโอย้อนกลับ- เครื่องมือย้อนกลับวิดีโอออนไลน์ที่ดีที่สุด",
+    "META": "ทำให้คลิปปกติเป็นคนตลกด้วยเครื่องมือย้อนกลับวิดีโอที่สร้างสรรค์นี้เครื่องมือออนไลน์ที่ง่ายนี้จะช่วยให้คุณย้อนกลับวิดีโอของคุณได้ด้วยการคลิกเพียงไม่กี่ครั้งให้มันลอง, และทำวิดีโอย้อนกลับที่มีลักษณะเหมือนเคล็ดลับมายากล!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX เป็น PDF",
+    "BREADCRUMB_LABEL": "DOCX เป็น PDF",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "วิธีย้อนกลับวิดีโอของคุณ",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Зворотне відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/uk/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Повільне відео",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/uk/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Соціальні медіа",
+                "links": [
+                    {
                         "name": "Змінити розмір для Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/uk/resize-for-facebook",

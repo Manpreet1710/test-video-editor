@@ -188,6 +188,20 @@
       "color": "#FF0000",
       "icon": "/assets/FeatureIcons/youtube.svg",
       "url": "/resize-for-youtube"
+    },
+    {
+      "name": "Reverse Video",
+      "description": "Reverse any video",
+      "color": "#00a8ff",
+      "icon": "/assets/FeatureIcons/reverse.svg",
+      "url": "/video-reverse"
+    },
+    {
+      "name": "Slow video",
+      "description": "Slow down any video",
+      "color": "#ff615c",
+      "icon": "/assets/FeatureIcons/slow.svg",
+      "url": "/video-slow"
     }
     
 

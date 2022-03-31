@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "วิดีโอย้อนกลับ",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/th/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "วิดีโอช้า",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/th/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "โซเชียลมีเดีย",
+                "links": [
+                    {
                         "name": "ปรับขนาดสำหรับ Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/th/resize-for-facebook",
