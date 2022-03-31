@@ -1,0 +1,75 @@
+{
+    "Language": "English",
+    "htmlLangAtt": "en",
+    "H1": "Apply a backward effect in videos with online video reverse tool",
+    "H2": "Turn your videos into eye-catching effects by reversing them online",
+    "TITLE": "Video Reverse- Best online video reverser tool",
+    "META": "Make normal clips into funny ones with this creative video reverse tool. This easy online tool will help you reverse your video in just a few clicks. Give it a try, and make a reverse video that looks like a magic trick!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX to PDF",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      },
+      {
+        "priority": 1,
+        "logoUrl": "/assets/lightbulb.svg",
+        "header": "",
+        "content": ""
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+      "heading": "How to reverse your video",
+      "steps": [
+        
+      ]
+    },
+    "FAQ": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "filelang": "en",
+    "display_formats": [
+      "mp4","mov","ogg","webm","mkv"  ],
+      "compare_formats": [
+        "mp4","mov","ogg","webm","mkv"  ]
+    }
+  
+  

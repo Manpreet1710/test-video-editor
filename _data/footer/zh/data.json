@@ -136,7 +136,7 @@
             "url": "/zh/video-trimmer"
         },
         {
-            "name": "提取视频",
+            "name": "提取音频",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/zh/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "调整为 Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/zh/resize-for-youtube"
+        },
+        {
+            "name": "反向视频",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/zh/video-reverse"
+        },
+        {
+            "name": "慢视频",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/zh/video-slow"
         }
     ],
     "networkSites": [],

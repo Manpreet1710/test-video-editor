@@ -1,0 +1,81 @@
+{
+    "Language": "العربية",
+    "htmlLangAtt": "ar",
+    "H1": "تطبيق تأثير متخلف في مقاطع الفيديو باستخدام أداة عكس الفيديو عبر الإنترنت",
+    "H2": "حوّل مقاطع الفيديو الخاصة بك إلى تأثيرات لافتة للنظر عن طريق الرجوع إليها عبر الإنترنت",
+    "TITLE": "عكس الفيديو - أفضل أداة عكس الفيديو عبر الإنترنت",
+    "META": "اصنع مقاطع عادية إلى مقاطع مضحكة باستخدام أداة عكس الفيديو الإبداعية هذه. ستساعدك هذه الأداة السهلة عبر الإنترنت على عكس الفيديو الخاص بك ببضع نقرات فقط. جربها، وقم بعمل فيديو عكسي يشبه خدعة سحرية!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX إلى PDF",
+    "BREADCRUMB_LABEL": "DOCX إلى PDF",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "كيفية عكس الفيديو الخاص بك",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

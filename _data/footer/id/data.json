@@ -136,7 +136,7 @@
             "url": "/id/video-trimmer"
         },
         {
-            "name": "Ekstrak video",
+            "name": "Ekstrak audio",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/id/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Ubah Ukuran Untuk Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/id/resize-for-youtube"
+        },
+        {
+            "name": "Video Balik",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/id/video-reverse"
+        },
+        {
+            "name": "Video Lambat",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/id/video-slow"
         }
     ],
     "networkSites": [],

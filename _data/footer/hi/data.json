@@ -136,7 +136,7 @@
             "url": "/hi/video-trimmer"
         },
         {
-            "name": "वीडियो एक्सट्रैक्ट करें",
+            "name": "ऑडियो एक्सट्रैक्ट करें",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/hi/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Youtube के लिए आकार बदलें",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/hi/resize-for-youtube"
+        },
+        {
+            "name": "रिवर्स वीडियो",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/hi/video-reverse"
+        },
+        {
+            "name": "स्लो वीडियो",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/hi/video-slow"
         }
     ],
     "networkSites": [],

@@ -1,0 +1,81 @@
+{
+    "Language": "Tiếng Việt",
+    "htmlLangAtt": "vi",
+    "H1": "Tạo video chuyển động chậm với công cụ video chậm chỉ trong vài cú nhấp chuột.",
+    "H2": "Dễ dàng thêm hiệu ứng chuyển động chậm với công cụ chậm video này",
+    "TITLE": "Video chậm- Một công cụ sáng tạo để làm chậm video",
+    "META": "Ngay lập tức chuyển đổi video của bạn với công cụ chậm video. Làm chậm video có thể ảnh hưởng đến chất lượng clip của bạn, sử dụng công cụ của chúng tôi và có được video chất lượng tốt nhất. Hãy thử, bạn sẽ ngạc nhiên!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX sang PDF",
+    "BREADCRUMB_LABEL": "DOCX ĐỂ PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/slow.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Cách làm chậm video của bạn",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

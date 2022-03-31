@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "فيديو عكسي",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/ar/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "فيديو بطيء",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/ar/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "وسائل التواصل الاجتماعي",
+                "links": [
+                    {
                         "name": "تغيير الحجم لفيسبوك",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/ar/resize-for-facebook",
