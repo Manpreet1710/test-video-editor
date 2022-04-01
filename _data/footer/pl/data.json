@@ -136,7 +136,7 @@
             "url": "/pl/video-trimmer"
         },
         {
-            "name": "Wyodrębnij dźwięk",
+            "name": "Wyodrębnij wideo",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/pl/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "Zmień rozmiar na Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/pl/resize-for-youtube"
-        },
-        {
-            "name": "Odwrócenie wideo",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/pl/video-reverse"
-        },
-        {
-            "name": "Powolne wideo",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/pl/video-slow"
         }
     ],
     "networkSites": [],

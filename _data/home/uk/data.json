@@ -189,20 +189,6 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/uk/resize-for-youtube"
-        },
-        {
-            "name": "Зворотне відео",
-            "description": "Зворотне будь-яке відео",
-            "color": "#00a8ff",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/uk/video-reverse"
-        },
-        {
-            "name": "Повільне відео",
-            "description": "Уповільнення будь-якого відео",
-            "color": "#ff615c",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/uk/video-slow"
         }
     ],
     "StructuredDataWebsite": {
