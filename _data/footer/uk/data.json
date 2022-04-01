@@ -136,7 +136,7 @@
             "url": "/uk/video-trimmer"
         },
         {
-            "name": "Витяг аудіо",
+            "name": "Витяг відео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/uk/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "Змінити розмір для Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/uk/resize-for-youtube"
-        },
-        {
-            "name": "Зворотне відео",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/uk/video-reverse"
-        },
-        {
-            "name": "Повільне відео",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/uk/video-slow"
         }
     ],
     "networkSites": [],

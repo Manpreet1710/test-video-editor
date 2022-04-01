@@ -189,20 +189,6 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/th/resize-for-youtube"
-        },
-        {
-            "name": "วิดีโอย้อนกลับ",
-            "description": "ย้อนกลับวิดีโอใด ๆ",
-            "color": "#00a8ff",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/th/video-reverse"
-        },
-        {
-            "name": "วิดีโอช้า",
-            "description": "ชะลอวิดีโอใด ๆ",
-            "color": "#ff615c",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/th/video-slow"
         }
     ],
     "StructuredDataWebsite": {

@@ -120,23 +120,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Video umkehren",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
-                        "url": "/de/video-reverse",
-                        "hover": "blue"
-                    },
-                    {
-                        "name": "Langsames Video",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
-                        "url": "/de/video-slow",
-                        "hover": "blue"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Sozialen Medien",
-                "links": [
-                    {
                         "name": "Für Facebook skalieren",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/de/resize-for-facebook",

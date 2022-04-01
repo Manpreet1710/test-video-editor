@@ -136,7 +136,7 @@
             "url": "/sv/video-trimmer"
         },
         {
-            "name": "Utdrag ljud",
+            "name": "Utdrag video",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/sv/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "Ändra storlek på Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/sv/resize-for-youtube"
-        },
-        {
-            "name": "Omvänd video",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/sv/video-reverse"
-        },
-        {
-            "name": "Långsam video",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/sv/video-slow"
         }
     ],
     "networkSites": [],

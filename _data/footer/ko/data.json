@@ -136,7 +136,7 @@
             "url": "/ko/video-trimmer"
         },
         {
-            "name": "오디오 추출",
+            "name": "비디오 추출",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ko/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "유튜브 크기 조정",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ko/resize-for-youtube"
-        },
-        {
-            "name": "리버스 비디오",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/ko/video-reverse"
-        },
-        {
-            "name": "슬로우 비디오",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/ko/video-slow"
         }
     ],
     "networkSites": [],

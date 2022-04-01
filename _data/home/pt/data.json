@@ -189,20 +189,6 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/pt/resize-for-youtube"
-        },
-        {
-            "name": "Vídeo reverso",
-            "description": "Reverter qualquer vídeo",
-            "color": "#00a8ff",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/pt/video-reverse"
-        },
-        {
-            "name": "Vídeo lento",
-            "description": "Desacelere qualquer vídeo",
-            "color": "#ff615c",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/pt/video-slow"
         }
     ],
     "StructuredDataWebsite": {

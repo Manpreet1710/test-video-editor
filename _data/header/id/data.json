@@ -120,23 +120,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Video Balik",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
-                        "url": "/id/video-reverse",
-                        "hover": "blue"
-                    },
-                    {
-                        "name": "Video Lambat",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
-                        "url": "/id/video-slow",
-                        "hover": "blue"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Media Sosial",
-                "links": [
-                    {
                         "name": "Ubah Ukuran Untuk Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/id/resize-for-facebook",
