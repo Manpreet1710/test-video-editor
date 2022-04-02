@@ -1,0 +1,81 @@
+{
+    "Language": "Polski",
+    "htmlLangAtt": "pl",
+    "H1": "Stosowanie efektu wstecznego w filmach za pomocą narzędzia do odwrócenia wideo online",
+    "H2": "Przekształć swoje filmy w przyciągające wzrok efekty, odwracając je w trybie online",
+    "TITLE": "Video Reverse- Najlepsze narzędzie do odwrócenia wideo online",
+    "META": "Wykonuj normalne klipy w śmieszne za pomocą tego kreatywnego narzędzia do odwrócenia wideo. To proste narzędzie online pomoże Ci odwrócić film w zaledwie kilka kliknięć. Spróbuj i zrób odwrotny film, który wygląda jak magiczna sztuczka!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX do PDF",
+    "BREADCRUMB_LABEL": "DOCX DO PDF",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Jak odwrócić swój film",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "Language": "Türkçe",
+    "htmlLangAtt": "tr",
+    "H1": "Çevrimiçi video ters aracı ile videolarda geriye dönük bir efekt uygulayın",
+    "H2": "Videolarınızı çevrimiçi olarak tersine çevirerek göz alıcı efektlere dönüştürün",
+    "TITLE": "Video Ters - En iyi online video reverser aracı",
+    "META": "Bu yaratıcı video ters aracı ile komik olanlara normal klipleri yapın. Bu kolay çevrimiçi araç sadece birkaç tıklamayla videonuzu tersine çevirmenize yardımcı olacaktır. Bir deneyin ve bir sihir numarası gibi görünen ters bir video yapın!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX'den PDF'ye",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Videonuzu nasıl tersine çevirirsiniz",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

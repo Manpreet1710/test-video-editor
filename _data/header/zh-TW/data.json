@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "反向視頻",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/zh-TW/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "慢視頻",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/zh-TW/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "社交媒體",
+                "links": [
+                    {
                         "name": "調整臉書的大小",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/zh-TW/resize-for-facebook",

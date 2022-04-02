@@ -136,7 +136,7 @@
             "url": "/vi/video-trimmer"
         },
         {
-            "name": "Trích xuất video",
+            "name": "Trích xuất âm thanh",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/vi/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Thay đổi kích thước cho Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/vi/resize-for-youtube"
+        },
+        {
+            "name": "Video ngược",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/vi/video-reverse"
+        },
+        {
+            "name": "Video Chậm",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/vi/video-slow"
         }
     ],
     "networkSites": [],

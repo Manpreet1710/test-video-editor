@@ -189,6 +189,20 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/zh/resize-for-youtube"
+        },
+        {
+            "name": "反向视频",
+            "description": "反转任何视频",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/zh/video-reverse"
+        },
+        {
+            "name": "慢视频",
+            "description": "放慢任何视频的速度",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/zh/video-slow"
         }
     ],
     "StructuredDataWebsite": {

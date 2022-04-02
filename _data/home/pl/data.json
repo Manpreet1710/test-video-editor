@@ -189,6 +189,20 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/pl/resize-for-youtube"
+        },
+        {
+            "name": "Odwrócenie wideo",
+            "description": "Odwróć dowolny film",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/pl/video-reverse"
+        },
+        {
+            "name": "Powolne wideo",
+            "description": "Zwolnij dowolny film",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/pl/video-slow"
         }
     ],
     "StructuredDataWebsite": {

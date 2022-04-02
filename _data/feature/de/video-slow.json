@@ -1,0 +1,81 @@
+{
+    "Language": "Deutsch",
+    "htmlLangAtt": "de",
+    "H1": "Erstellen Sie mit dem Video-Zeitlupenwerkzeug mit nur wenigen Klicks ein Zeitlupenvideo.",
+    "H2": "Fügen Sie mit diesem Video-Zeitlupenwerkzeug ganz einfach einen Zeitlupeneffekt",
+    "TITLE": "Video langsam - Ein kreatives Tool zum Verlangsamen des Videos",
+    "META": "Verwandeln Sie Ihr Video sofort mit dem Video-Langsam-Tool. Das Verlangsamen von Videos kann sich auf die Qualität Ihres Clips auswirken. Verwenden Sie unser Tool und erhalten Sie die beste Videoqualität. Probieren Sie es aus, Sie werden staunen!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX zu PDF",
+    "BREADCRUMB_LABEL": "DOCX ZU PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/slow.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "So verlangsamen Sie Ihr Video",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

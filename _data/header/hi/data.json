@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "रिवर्स वीडियो",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/hi/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "स्लो वीडियो",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/hi/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "सोशल मीडिया",
+                "links": [
+                    {
                         "name": "फेसबुक के लिए आकार बदलें",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/hi/resize-for-facebook",

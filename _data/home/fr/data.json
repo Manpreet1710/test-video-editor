@@ -189,6 +189,20 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/fr/resize-for-youtube"
+        },
+        {
+            "name": "Vidéo inversée",
+            "description": "Inverser toutes les vidéos",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/fr/video-reverse"
+        },
+        {
+            "name": "Vidéo lente",
+            "description": "Ralentir n'importe quelle vidéo",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/fr/video-slow"
         }
     ],
     "StructuredDataWebsite": {
