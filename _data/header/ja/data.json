@@ -120,23 +120,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "動画を反転",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
-                        "url": "/ja/video-reverse",
-                        "hover": "blue"
-                    },
-                    {
-                        "name": "スロービデオ",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
-                        "url": "/ja/video-slow",
-                        "hover": "blue"
-                    }
-                ]
-            },
-            {
-                "categoryName": "ソーシャルメディア",
-                "links": [
-                    {
                         "name": "フェイスブックのサイズ変更",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/ja/resize-for-facebook",

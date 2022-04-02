@@ -189,20 +189,6 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ru/resize-for-youtube"
-        },
-        {
-            "name": "Обратное видео",
-            "description": "Обратное любое видео",
-            "color": "#00a8ff",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/ru/video-reverse"
-        },
-        {
-            "name": "Медленное видео",
-            "description": "Замедление любого видео",
-            "color": "#ff615c",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/ru/video-slow"
         }
     ],
     "StructuredDataWebsite": {

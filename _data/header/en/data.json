@@ -120,23 +120,6 @@
             "hover": "blue"
           },
           {
-            "name": "Reverse Video",
-            "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
-            "url": "/video-reverse",
-            "hover": "blue"
-          },
-          {
-            "name": "Slow Video",
-            "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
-            "url": "/video-slow",
-            "hover": "blue"
-          }
-        ]
-      },
-      {
-        "categoryName": "Social Media",
-        "links": [
-          {
             "name": "Resize For Facebook",
             "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
             "url": "/resize-for-facebook",

@@ -136,7 +136,7 @@
             "url": "/ru/video-trimmer"
         },
         {
-            "name": "Извлечь звук",
+            "name": "Извлечь видео",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/ru/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "Изменить размер для Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ru/resize-for-youtube"
-        },
-        {
-            "name": "Обратное видео",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/ru/video-reverse"
-        },
-        {
-            "name": "Медленное видео",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/ru/video-slow"
         }
     ],
     "networkSites": [],

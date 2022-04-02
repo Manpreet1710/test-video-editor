@@ -189,20 +189,6 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/ko/resize-for-youtube"
-        },
-        {
-            "name": "리버스 비디오",
-            "description": "동영상 뒤집기",
-            "color": "#00a8ff",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/ko/video-reverse"
-        },
-        {
-            "name": "슬로우 비디오",
-            "description": "동영상 속도 저하",
-            "color": "#ff615c",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/ko/video-slow"
         }
     ],
     "StructuredDataWebsite": {

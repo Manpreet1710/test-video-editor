@@ -136,7 +136,7 @@
             "url": "/zh-TW/video-trimmer"
         },
         {
-            "name": "提取音頻",
+            "name": "提取視頻",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/zh-TW/extract-audio"
         },
@@ -184,16 +184,6 @@
             "name": "調整適用於 YouTube 的大小",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/zh-TW/resize-for-youtube"
-        },
-        {
-            "name": "反向視頻",
-            "icon": "/assets/FeatureIcons/reverse.svg",
-            "url": "/zh-TW/video-reverse"
-        },
-        {
-            "name": "慢視頻",
-            "icon": "/assets/FeatureIcons/slow.svg",
-            "url": "/zh-TW/video-slow"
         }
     ],
     "networkSites": [],

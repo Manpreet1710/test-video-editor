@@ -120,23 +120,6 @@
                         "hover": "blue"
                     },
                     {
-                        "name": "Обратное видео",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
-                        "url": "/ru/video-reverse",
-                        "hover": "blue"
-                    },
-                    {
-                        "name": "Медленное видео",
-                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
-                        "url": "/ru/video-slow",
-                        "hover": "blue"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Социальные сети",
-                "links": [
-                    {
                         "name": "Изменить размер для Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/ru/resize-for-facebook",
