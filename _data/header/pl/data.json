@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Odwrócenie wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/pl/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Powolne wideo",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/pl/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Media społecznościowe",
+                "links": [
+                    {
                         "name": "Zmień rozmiar dla Facebooka",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/pl/resize-for-facebook",

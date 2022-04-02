@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Ters Video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/tr/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Yavaş Video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/tr/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Sosyal Medya",
+                "links": [
+                    {
                         "name": "Facebook İçin Yeniden Boyutlandır",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/tr/resize-for-facebook",

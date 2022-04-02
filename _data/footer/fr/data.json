@@ -136,7 +136,7 @@
             "url": "/fr/video-trimmer"
         },
         {
-            "name": "Extraire la vidéo",
+            "name": "Extraire l'audio",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/fr/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "Redimensionner pour Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/fr/resize-for-youtube"
+        },
+        {
+            "name": "Vidéo inversée",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/fr/video-reverse"
+        },
+        {
+            "name": "Vidéo lente",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/fr/video-slow"
         }
     ],
     "networkSites": [],
