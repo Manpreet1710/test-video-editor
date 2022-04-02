@@ -1,0 +1,81 @@
+{
+    "Language": "Português",
+    "htmlLangAtt": "pt",
+    "H1": "Faça um vídeo em câmera lenta com a ferramenta de vídeo lento em apenas alguns cliques.",
+    "H2": "Adicione facilmente um efeito de câmera lenta com esta ferramenta lenta de vídeo",
+    "TITLE": "Vídeo lento - Uma ferramenta criativa para diminuir a velocidade do vídeo",
+    "META": "Transforme instantaneamente seu vídeo com a ferramenta de lentidão de vídeo. A desaceleração dos vídeos pode afetar a qualidade do seu clipe, usar nossa ferramenta e obter a melhor qualidade de vídeo. Experimente, você ficará surpreso!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX para PDF",
+    "BREADCRUMB_LABEL": "DOCX PARA PDF",
+    "color": "#ff615c",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/slow.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "Como diminuir a velocidade do seu vídeo",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

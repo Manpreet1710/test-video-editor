@@ -1,38 +1,10 @@
 [
     {
         "website": "safevideokit",
-        "feature": "resize-for-facebook"
+        "feature": "video-reverse"
     },
     {
         "website": "safevideokit",
-        "feature": "resize-for-instagram"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-linkedin"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-pinterest"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-snapchat"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-tiktok"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-twitter"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-whatsapp"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "resize-for-youtube"
+        "feature": "video-slow"
     }
 ]

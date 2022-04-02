@@ -136,7 +136,7 @@
             "url": "/th/video-trimmer"
         },
         {
-            "name": "แยกวิดีโอ",
+            "name": "แยกเสียง",
             "icon": "/assets/FeatureIcons_featurePage/sound.svg",
             "url": "/th/extract-audio"
         },
@@ -184,6 +184,16 @@
             "name": "ปรับขนาดสำหรับ Youtube",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/th/resize-for-youtube"
+        },
+        {
+            "name": "วิดีโอย้อนกลับ",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/th/video-reverse"
+        },
+        {
+            "name": "วิดีโอช้า",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/th/video-slow"
         }
     ],
     "networkSites": [],

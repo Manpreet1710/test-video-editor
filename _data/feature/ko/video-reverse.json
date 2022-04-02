@@ -1,0 +1,81 @@
+{
+    "Language": "한국어",
+    "htmlLangAtt": "ko",
+    "H1": "온라인 비디오 반전 도구를 사용하여 비디오에 역방향 효과 적용",
+    "H2": "온라인에서 동영상을 뒤집어 시선을 사로잡는 효과로 전환하세요.",
+    "TITLE": "비디오 리버스 - 최고의 온라인 비디오 리버서 도구",
+    "META": "이 창의적인 비디오 반전 도구를 사용하여 일반 클립을 재미있는 클립으로 만드십시오.이 쉬운 온라인 도구를 사용하면 몇 번의 클릭만으로 비디오를 뒤집을 수 있습니다.한 번 시도해보고 마술처럼 보이는 리버스 비디오를 만드십시오!",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX에서 PDF로 변환",
+    "BREADCRUMB_LABEL": "DOCX에서 PDF로",
+    "color": "#00a8ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/reverse.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "동영상을 뒤집는 방법",
+        "steps": []
+    },
+    "FAQ": [
+        {
+            "question": "",
+            "answer": ""
+        }
+    ],
+    "filelang": "en",
+    "display_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ],
+    "compare_formats": [
+        "mp4",
+        "mov",
+        "ogg",
+        "webm",
+        "mkv"
+    ]
+}

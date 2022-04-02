@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Omvendt Video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/da/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Langsom Video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/da/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Sociale medier",
+                "links": [
+                    {
                         "name": "Ændre størrelse til Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/da/resize-for-facebook",

@@ -120,6 +120,23 @@
                         "hover": "blue"
                     },
                     {
+                        "name": "Omvänd video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/reverse.svg",
+                        "url": "/sv/video-reverse",
+                        "hover": "blue"
+                    },
+                    {
+                        "name": "Långsam video",
+                        "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
+                        "url": "/sv/video-slow",
+                        "hover": "blue"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Sociala medier",
+                "links": [
+                    {
                         "name": "Ändra storlek för Facebook",
                         "iconSrc": "/assets/FeatureIcons_featurePage/facebook.svg",
                         "url": "/sv/resize-for-facebook",

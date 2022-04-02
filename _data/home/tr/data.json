@@ -189,6 +189,20 @@
             "color": "#FF0000",
             "icon": "/assets/FeatureIcons/youtube.svg",
             "url": "/tr/resize-for-youtube"
+        },
+        {
+            "name": "Ters Video",
+            "description": "Videoyu tersine çevir",
+            "color": "#00a8ff",
+            "icon": "/assets/FeatureIcons/reverse.svg",
+            "url": "/tr/video-reverse"
+        },
+        {
+            "name": "Yavaş video",
+            "description": "Herhangi bir videoyu yavaşlat",
+            "color": "#ff615c",
+            "icon": "/assets/FeatureIcons/slow.svg",
+            "url": "/tr/video-slow"
         }
     ],
     "StructuredDataWebsite": {
