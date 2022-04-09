@@ -72,9 +72,14 @@ container.ondragover = function (e) {
 const onFileDrop = (file, flag = 0) => {
   input = file;
   var extension = input.name.replace(/^.*\./, "");
-  if (
-    (extension == "mp4"||
-    extension == "webm")&&(input.size<31457280)) {
+  if (input.size>31457280) {
+    document.querySelector("#error").style.visibility = "visible";
+
+    container.style.height = "350px";
+    document.querySelector("#error").innerHTML = "Files more than 30MB not supported";
+  }
+  else if(extension == "mp4"||extension == "webm")
+  {
     if (flag == 0) {
       showLoader();
     }
@@ -83,12 +88,13 @@ const onFileDrop = (file, flag = 0) => {
 
     inputbox.style.display = "none";
     memeProcessing();
-  } else {
+  } 
+  else {
     // console.log("error");
     document.querySelector("#error").style.visibility = "visible";
 
     container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
+    document.querySelector("#error").innerHTML = "File format not supported";
   }
 };
 
@@ -124,8 +130,14 @@ const fileOnChange = () => {
 
   input = file.files[0];
   var extension = input.name.replace(/^.*\./, "");
-  if((extension == "mp4"||extension == "webm")&&input.size<31457280)
+  if(input.size>31457280)
   {
+    document.querySelector("#error").style.visibility = "visible";
+
+    container.style.height = "350px";
+    document.querySelector("#error").innerHTML = "Files more than 30MB not supported";
+  }
+  else if(extension == "mp4"||extension == "webm"){
     showLoader();
   document.getElementById("fName").innerText = input.name;
   let temp=(input.name).split(".");
@@ -146,7 +158,7 @@ const fileOnChange = () => {
     document.querySelector("#error").style.visibility = "visible";
 
     container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
+    document.querySelector("#error").innerHTML = "File format not supported";
   }
 };
 
