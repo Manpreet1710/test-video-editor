@@ -87,7 +87,20 @@ const onFileDrop = (file, flag = 0) => {
     container.style.height = "300px";
 
     inputbox.style.display = "none";
-    memeProcessing();
+  document.getElementById("fName").innerText = input.name;
+  let temp=(input.name).split(".");
+  type=temp[temp.length-1];
+    const reader = new FileReader()
+    reader.readAsDataURL(input)
+
+    reader.addEventListener(
+    'load',
+    async function () {
+        ActualSourceurl = reader.result
+        fetch_and_load_Video_to_FFmpeg()
+    },
+    false
+   )
   } 
   else {
     // console.log("error");
@@ -227,12 +240,11 @@ function memeProcessing() {
         //https://stackoverflow.com/questions/23150333/html5-javascript-dataurl-to-blob-blob-to-dataurl
 
         let arr = dataurl.split(',');
-        if(arr.length<=1)
+        if(arr[1]=="")
         {
-          document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "Your File Could not be processed here, try another file.";
+          clearInterval(ans);
+          Spinner.style.display="none";
+          document.querySelector("#loadingMessage").innerHTML = "This File Could not be processed, try another file.";
         }
         else
         {

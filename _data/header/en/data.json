@@ -130,6 +130,12 @@
             "iconSrc": "/assets/FeatureIcons_featurePage/slow.svg",
             "url": "/video-slow",
             "hover": "blue"
+          },
+          {
+            "name": "Add Watermark to Video",
+            "iconSrc": "/assets/FeatureIcons_featurePage/watermark.png",
+            "url": "/video-watermark",
+            "hover": "blue"
           }
         ]
       },
