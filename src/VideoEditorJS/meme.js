@@ -73,8 +73,8 @@ const onFileDrop = (file, flag = 0) => {
   input = file;
   var extension = input.name.replace(/^.*\./, "");
   if (
-    extension == "mp4"||
-    extension == "webm") {
+    (extension == "mp4"||
+    extension == "webm")&&(input.size<31457280)) {
     if (flag == 0) {
       showLoader();
     }
@@ -88,7 +88,7 @@ const onFileDrop = (file, flag = 0) => {
     document.querySelector("#error").style.visibility = "visible";
 
     container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported";
+    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
   }
 };
 
@@ -120,10 +120,19 @@ console.log = function () {
 }
 
 const fileOnChange = () => {
-  showLoader();
+  
 
   input = file.files[0];
+  var extension = input.name.replace(/^.*\./, "");
+  if((extension == "mp4"||extension == "webm")&&input.size<31457280)
+  {
+    document.querySelector("#error").style.visibility = "visible";
 
+    container.style.height = "350px";
+    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
+  }
+  else{
+  showLoader();
   document.getElementById("fName").innerText = input.name;
   let temp=(input.name).split(".");
   type=temp[temp.length-1];
@@ -138,6 +147,7 @@ const fileOnChange = () => {
     },
     false
    )
+  }
 };
 
 const fetch_and_load_Video_to_FFmpeg = async () => {
@@ -204,7 +214,17 @@ function memeProcessing() {
 
         //https://stackoverflow.com/questions/23150333/html5-javascript-dataurl-to-blob-blob-to-dataurl
 
-        let arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+        let arr = dataurl.split(',');
+        if(arr.length<=1)
+        {
+          document.querySelector("#error").style.visibility = "visible";
+
+    container.style.height = "350px";
+    document.querySelector("#error").innerHTML = "Your File Could not be processed here, try another file.";
+        }
+        else
+        {
+        let mime = arr[0].match(/:(.*?);/)[1],
             bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
         while (n--) {
             u8arr[n] = bstr.charCodeAt(n);
@@ -213,7 +233,7 @@ function memeProcessing() {
         snapshot = new Blob([u8arr], { type: mime });
 
         reader2.readAsDataURL(snapshot);
-
+        }
     // });
 
   },false);
