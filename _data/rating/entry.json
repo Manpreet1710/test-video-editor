@@ -1,10 +1,6 @@
 [
     {
         "website": "safevideokit",
-        "feature": "video-reverse"
-    },
-    {
-        "website": "safevideokit",
-        "feature": "video-slow"
+        "feature": "video-watermark"
     }
 ]
