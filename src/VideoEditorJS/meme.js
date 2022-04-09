@@ -126,13 +126,7 @@ const fileOnChange = () => {
   var extension = input.name.replace(/^.*\./, "");
   if((extension == "mp4"||extension == "webm")&&input.size<31457280)
   {
-    document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
-  }
-  else{
-  showLoader();
+    showLoader();
   document.getElementById("fName").innerText = input.name;
   let temp=(input.name).split(".");
   type=temp[temp.length-1];
@@ -147,6 +141,12 @@ const fileOnChange = () => {
     },
     false
    )
+  }
+  else{
+    document.querySelector("#error").style.visibility = "visible";
+
+    container.style.height = "350px";
+    document.querySelector("#error").innerHTML = "File format not supported or File too Big Upload file less than 30MB";
   }
 };
 
