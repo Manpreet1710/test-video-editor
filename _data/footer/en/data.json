@@ -194,6 +194,11 @@
       "name": "Slow Video",
       "icon": "/assets/FeatureIcons/slow.svg",
       "url": "/video-slow"
+    },
+    {
+      "name": "Add Watermark to Video",
+      "icon": "/assets/FeatureIcons/watermark.png",
+      "url": "/video-watermark"
     }
   ],
   "networkSites": [],

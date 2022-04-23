@@ -202,8 +202,14 @@
       "color": "#ff615c",
       "icon": "/assets/FeatureIcons/slow.svg",
       "url": "/video-slow"
+    },
+    {
+      "name": "Add Watermark to Video",
+      "description": "Add Watermark to Video",
+      "color": "red",
+      "icon": "/assets/FeatureIcons/watermark.png",
+      "url": "/video-watermark"
     }
-    
 
   ],
   "StructuredDataWebsite": {
