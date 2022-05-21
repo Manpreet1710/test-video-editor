@@ -64,8 +64,88 @@
   },
   "FAQ": [
     {
-      "question": "",
-      "answer": ""
+      "question": "What does the YouTube Video Resizer tool do?",
+      "answer": "Our free YouTube Video Resizer tool lets you resize your videos based on your requirements. You can just upload the video, select from the options how you want to resize the video, and save them."
+    },
+    {
+      "answer": "\"Using our free tool is very simple. Upload the video that you want to resize.\nSelect the appropriate size you desire or multiple sizes, according to your requirements.\nClick on the save all to download all available sizes. Or hit the save selected button to download selected video sizes. Voila! Our tool will resize the video and download them for you and save the same to your device in a zip file.\"",
+      "question": "How to use this tool?"
+    },
+    {
+      "question": "How to download the resized video(s)?",
+      "answer": "All you need to do is choose the final output video type(s) from the options available. If you want to save all, just click on the \"Save All\" button. If you want to save just the selected ones, click on the \"Save Selected\" button. Our tool will resize the video, and save them to your device in a zip file for you, very quickly."
+    },
+    {
+      "answer": "The different video categories available are- Youtube 144p, Youtube 240p, Youtube 360p, Youtube 480p, Youtube 720p, Youtube 1080p, Youtube 1440p, Youtube 2160p, Youtube Bumper Ads, Youtube Short",
+      "question": "What are the different video categories available in the YouTube video resizer?"
+    },
+    {
+      "question": "Does the file format change after resizing?",
+      "answer": "No. Our online tool is designed in such a way that the altered file format will be of the same format as that of the uploaded file."
+    },
+    {
+      "answer": "The size of the file will change to a certain extent, but you can rest assured that the quality of the video will not deteriorate in any form whatsoever.",
+      "question": "Will the size of the file differ after resizing the video?"
+    },
+    {
+      "question": "Will I have to sign up or log in to use this Video Resizer tool?",
+      "answer": "No signing up or logging in is required on our website. You can use our online YouTube Video Resizer for free and without any prompts for signing up."
+    },
+    {
+      "answer": "No, the users after resizing their video by modifying their respective video parameters, can hit the download the option which is given below and can download the modified image. It is a browser-based converter tool that does not support additional softwares, and no additional software is required to download the modified video.",
+      "question": "Do we have to use any additional software to download the modified videos after conversion using the YouTube video resizer feature from safevideokit.com?"
+    },
+    {
+      "question": "What will happen to our progress if we refresh our browser while we are using the YouTube video resizer tool from safevideokit.com?",
+      "answer": "The YouTube video resizer tool is not connected to any server out there, so the data which the user is working on will not be stored anywhere and as a result, it will be erased instantly when the user refreshes the browser which he is working on. The video file which is being converted will also be removed after the user exits or closes the tab on which the extension page of the website is open."
+    },
+    {
+      "answer": "No, safevideokit.com is built with all the latest programs and security features which does not allow the uploaded video files to corrupt. So, the uploaded video files are completely safe and secured.",
+      "question": "Will my uploaded video files corrupt after resizing the video files using the YouTube video resizer file feature from safevideokit.com?"
+    },
+    {
+      "question": "Will resizing the video affect its volume?",
+      "answer": "Cutting or resizing your video does not affect the volume in any way. The video plays at the same volume as it did in the original version."
+    },
+    {
+      "answer": "No. Our online Video Resizer is completely free to use. Anyone with a phone, tablet, laptop, or pc can access this tool and use it for free. We don't charge anything for using this feature.",
+      "question": "Do I have to pay for resizing the video?"
+    },
+    {
+      "question": "Can I use the YouTube Video Resizer tool without having any professional editing knowledge?",
+      "answer": "Our free online video resizing tool can be used by anybody and everybody. For using this function, you don’t need to have any professional editing knowledge at all. "
+    },
+    {
+      "answer": "YouTube Video Resizer is one of the safest and most secure free online tools. It has no harmful links or unwanted ads. It is absolutely trouble-free and does its job perfectly well. At the same time, it does not save any of the user data. ",
+      "question": "Is it safe to use the YouTube Video Resizer?"
+    },
+    {
+      "question": "While using this tool, will any ads pop up?",
+      "answer": "Not at all. Our YouTube Video Resizer tool is completely web-based and requires no additional signup or registration. So, no advertisements will pop up if you use this tool."
+    },
+    {
+      "answer": "Our online free tool does not save any of the user data. It is absolutely safe to use. Any video that the user might upload to our site for resizing is deleted from our cloud within a very short span of time.",
+      "question": "Will this tool save my video to its server?"
+    },
+    {
+      "question": "How much time does it need to resize the video?",
+      "answer": "It takes just a few seconds for our free tool to do its job. It does depend on the size of the video though. But the results are pretty fast and a 100% accurate."
+    },
+    {
+      "answer": "Yes. Our free video resizing feature works on all platforms. You can access it from your mobile phones. Simply choose the video file that you need to resize, from your phone storage or SD card, or cloud storage,and resize as per your need. Next, just download the file and it will be saved in your phone’s storage.",
+      "question": "Does the Image Resizer work on mobile phones?"
+    },
+    {
+      "question": "Does it support both Android and iOS platforms?",
+      "answer": "Yes, our video resizing tool and all other tools support both Android and iOS platforms."
+    },
+    {
+      "answer": "Yes. Our online Video Resizer is accepted on all platforms. You can use this free tool on your website from your pc and your laptop as well. It supports both Windows and Mac. All you need to do is choose a video (which has been downloaded to your pc/ laptop, or from a cloud storage) that needs to be worked on and the next process is the same.",
+      "question": "Does the tool work on pcs and laptops?"
+    },
+    {
+      "question": "Which Windows versions does the YouTube Image Resizer tool support?",
+      "answer": "Our feature is completely web-based. Because of that, it provides our users cross-platform support. This means that our tool supports all versions of Windows. In more general terms, it supports all the versions of all Operating Systems."
     }
   ],
   "filelang": "en",
