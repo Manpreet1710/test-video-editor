@@ -33,10 +33,6 @@ fields:
 - name: comments
   type: boolean
   label: Comments
-  - name: description
-  type: text
-  config:
-    required: false
 pages:
 - _posts/2021-04-19-how-to-easily-add-gifs-to-your-videos-and-make-them-interesting.md
 - _posts/2021-04-25-how-to-make-your-uploads-faster-to-youtube.md
