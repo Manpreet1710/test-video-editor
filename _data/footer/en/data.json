@@ -23,6 +23,10 @@
     }
   ],
   "product": [
+     {
+      "name": "Video Calc",
+      "url": "/calc"
+    },
     {
       "name": "Crop MP4",
       "description": "Crop any MP4 video",
