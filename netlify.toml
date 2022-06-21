@@ -1,3 +1,22 @@
+[[redirects]]
+  from = "/calc/sitemap.xml"
+  to = "https://safevideokit-calc.netlify.app/sitemap.xml"
+  force = true
+  status = 200
+
+[[redirects]]
+  from = "/calc"
+  to = "https://safevideokit-calc.netlify.app/"
+  force = true
+  status = 200
+
+[[redirects]]
+  from = "/calc*"
+  to = "https://safevideokit-calc.netlify.app/calc/:splat"
+  force = true
+  status = 200
+
+
 [[headers]]
   for = "/*"
   [headers.values]
