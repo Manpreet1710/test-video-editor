@@ -6,7 +6,7 @@
 
 [[redirects]]
   from = "/calc"
-  to = "https://safevideokit-calc.netlify.app"
+  to = "https://safevideokit-calc.netlify.app/"
   force = true
   status = 200
 
