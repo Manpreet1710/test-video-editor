@@ -1,8 +1,4 @@
-[[redirects]]
-  from = "/calc/sitemap.xml"
-  to = "https://safevideokit-calc.netlify.app/sitemap.xml"
-  force = true
-  status = 200
+
 
 [[redirects]]
   from = "/calc"
@@ -22,3 +18,9 @@
   [headers.values]
       Cross-Origin-Opener-Policy = "same-origin"
       Cross-Origin-Embedder-Policy = "require-corp"
+      
+[[redirects]]
+  from = "/calc/sitemap.xml"
+  to = "https://safevideokit-calc.netlify.app/sitemap.xml"
+  force = true
+  status = 200
