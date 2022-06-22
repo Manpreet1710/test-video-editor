@@ -15,5 +15,11 @@
   to = "https://safevideokit-calc.netlify.app/calc/:splat"
   force = true
   status = 200
+  
+  [[headers]]
+  for = "/*"
+  [headers.values]
+      Cross-Origin-Opener-Policy = "same-origin"
+      Cross-Origin-Embedder-Policy = "require-corp"
 
 
