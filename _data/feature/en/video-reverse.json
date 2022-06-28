@@ -18,51 +18,107 @@
     {
       "priority": 1,
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Independent",
+      "content": "We Instantly add a reverse effect to any video tool that is independent. The platform works on both Windows and iOS Operating systems and can be used without any downloads required."
     },
     {
-      "priority": 1,
+      "priority": "2",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Absolutely Free",
+      "content": "The tool is free, so you can apply the effects to as many files as you want."
     },
     {
-      "priority": 1,
+      "priority": "3",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Privacy and Security",
+      "content": "We Instantly add a reverse effect to any video tool that prioritizes its customers’ privacy. We work with cloud storage, and your files do not get uploaded. So, no chance of getting any data leak. Your data is safe with us!"
     },
     {
-      "priority": 1,
+      "priority": "4",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Quick results",
+      "content": "Instantly adding a reverse effect to any video tool hardly takes a few seconds, depending on your file size, and you can get quick results easily."
     },
     {
-      "priority": 1,
+      "priority": "5",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Fast and Efficient",
+      "content": "Video editing is fast, and you can get your job done in no time."
     },
     {
-      "priority": 1,
+      "priority": "6",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Saves Time",
+      "content": "We Instantly add a reverse effect to any video tool that is platform-independent, can work on laptops, tabs, and phones, and the conversion is quick and it saves time."
     }
   ],
   "HOW_TO_CONTENT": {
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
     "heading": "How to reverse your video",
     "steps": [
-
+      "Choose your MP4 video file or click on the dropdown arrow and select Dropbox/Google Drive.",
+      "Wait patiently till the video gets uploaded.",
+      "Choose your crop aspect ratio or manually create your reverse effect ratio.",
+      "Click on save to download your reversed effect MP4 file.",
+      "Hurray! Enjoy our services."
     ]
   },
   "FAQ": [
     {
-      "question": "",
-      "answer": ""
+      "question": "Will the quality of my videos decrease after editing the instant reverse feature?",
+      "answer": "Instantly adding a reverse effect to any video tool allows you to choose the quality of the video as per your requirement. If your requirement is for high-quality video, you can choose a higher resolution option, and the file size will be bigger. Instantly adding a reverse effect to any video tool also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
+    },
+    {
+      "question": "I refreshed the browser by mistake. What should I do?",
+      "answer": "Since our tool does not use any servers and does not store your data, the file that you have uploaded will not be saved. You need to re-upload the file to edit it."
+    },
+    {
+      "question": "Which Windows version does Instantly add a reverse effect to any video tool support?",
+      "answer": "Instantly adding a reverse effect to any video tool is completely web-based and therefore provides cross-platform support. This means that our tool supports all versions of Windows. It not only supports the Windows operating system but can also work on any other OS that supports a browser."
+    },
+    {
+      "question": "How long will it take to upload my video?",
+      "answer": "The time taken to upload your video for editing depends on the size of your video. Better quality videos with higher resolution will take more time to upload as compared to low-quality videos with lesser resolution. The larger the size of the video, the longer the time it will consume."
+    },
+    {
+      "question": "Can I resize my videos?",
+      "answer": "By editing, you can resize your videos to any size you want. There are standard sizes available, and if you want your own aspect ratio, you can resize your video to your liking."
+    },
+    {
+      "question": "Will my uploaded files be saved on the server?",
+      "answer": "All processing is performed on your browser, and no files are transferred to our server end. Hence your files are 100% safe."
+    },
+    {
+      "question": "Does it support both Android and iOS platforms?",
+      "answer": "Yes, our tool works on browsers and therefore supports both iOS and Android platforms."
+    },
+    {
+      "question": "How can I Instantly add a reverse effect to any video?",
+      "answer": "Instantly adding a reverse effect to any video tool allows you to edit multiple files, one after the other. When you edit one file and click on save, the video will be processed. After the video has been processed, you can see the download option on the screen. By clicking on it, you can download the edited file. To edit another video, you only need to refresh the browser, and you will see the upload MP4 option. Now you can again select the file which you want to edit."
+    },
+    {
+      "question": "Is it safe to instant add a reverse effect to any video tool?",
+      "answer": "Instantly adding a reverse effect to any video tool is one of the safest and most secure free online tools. It is trouble-free and does its job perfectly well. At the same time, it does not save any of the user data."
+    },
+    {
+      "question": "Will allowing access to my drive be safe?",
+      "answer": "Yes, it is safe to permit and give access to your drive to us. No changes will be made, and your files will be safe with you."
+    },
+    {
+      "question": "How can I upload files from my drive/dropbox?",
+      "answer": "Click on the dropdown arrow and select Dropbox/Google Drive. After that, choose the Google account from where you want to link your drive. You can choose the files that you want to upload."
+    },
+    {
+      "question": "What are the available aspect ratios while giving the reverse effect?",
+      "answer": "Instantly adding a reverse effect to any video tool allows you to give the reverse effect to your videos. You can even keep the original ratio of your video and make changes according to your requirement if you don't want these standard aspect ratios. Instantly adding a reverse effect to any video tool allows you to crop the video as per your need. Instantly adding a reverse effect to any video tool makes editing the videos very easy."
+    },
+    {
+      "question": "Will I be charged to use the tool?",
+      "answer": "Our tool is absolutely free, and you can use it as many times as you want. There are no free trial uses, after which you will have to pay for using our services. We won't charge you anything."
+    },
+    {
+      "question": "Will I have to create an account to use Instantly add a reverse effect to any video tool?",
+      "answer": "Our tool does not require you to sign up or create an account. The platform is free, and you can apply the instant reverse effect to as many videos as you want."
     }
   ],
   "filelang": "en",
