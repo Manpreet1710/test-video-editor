@@ -18,51 +18,103 @@
     {
       "priority": 1,
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Independent",
+      "content": "Our Slow down video online platform is independent. It supports Windows and iOS Operating systems both and can be used without any downloads required."
     },
     {
-      "priority": 1,
+      "priority": "2",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Absolutely Free",
+      "content": "The tool is absolutely free, so you can Slow down a video as much as you want."
     },
     {
-      "priority": 1,
+      "priority": "3",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Privacy and Security",
+      "content": "Our Slow down, an online video tool, prioritizes its customers’ privacy. No chances of getting any data breach. Your data is safe with us!"
     },
     {
-      "priority": 1,
+      "priority": "4",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Quick results",
+      "content": "The tool hardly takes a few seconds, depending on your file size, and you can get quick results easily."
     },
     {
-      "priority": 1,
+      "priority": "5",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Fast and Efficient",
+      "content": "Slow down a video is really fast, and you can get your job done in no time."
     },
     {
-      "priority": 1,
+      "priority": "6",
       "logoUrl": "/assets/lightbulb.svg",
-      "header": "",
-      "content": ""
+      "header": "Saves Time",
+      "content": "Our Slow down online video tool is independent, can work on laptops, tabs and phones, and the process is quick; it saves time."
     }
   ],
   "HOW_TO_CONTENT": {
     "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
-    "heading": "How to slow down your video",
+    "heading": "How to Slow down a video online",
     "steps": [
-
+      "Choose the file or Click on the drop-down arrow and select Dropbox/Google Drive.",
+      "Wait patiently till the video gets uploaded.",
+      "Choose your slow down aspect ratio or manually create your slow down ratio.",
+      "Click on save to download your Slow down a video online file.",
+      "Hurray! Enjoy our services."
     ]
   },
   "FAQ": [
     {
-      "question": "",
-      "answer": ""
+      "question": "Will the quality of my videos decrease after editing?",
+      "answer": "Slowing down a video online allows you to choose the quality of the video as per your requirement. If you want high-quality video, you can choose a higher resolution, and the file size will be bigger. But if you care about the size of the file and can compromise on the size, then choose a lesser resolution. Slowing down a video online also allows you to choose the CRF value, which means you can choose the resolution and the CRF value as per your need."
+    },
+    {
+      "question": "Which Windows versions do Slow down online video support?",
+      "answer": "Slow down a video online is completely web-based and therefore provides cross-platform support. Our tool supports all versions of Windows. It not only works on Windows operating systems but can also work on any other operating system that supports a browser."
+    },
+    {
+      "question": "How long will it take to upload my video?",
+      "answer": "The time taken to upload your video for slowing down, or editing depends on the size of your video. Better quality videos will consume more time to upload as compared to low-quality videos with lesser resolution. It also depends on the type of video. The larger the size of the video, the longer it will take."
+    },
+    {
+      "question": "I refreshed the browser by mistake. What should I do?",
+      "answer": "Our tool does not store your data; the file that you have uploaded will not be saved. You need to reload the file to edit it."
+    },
+    {
+      "question": "Will I be charged to use the tool?",
+      "answer": "Our tool is free, and you can use it repeatedly. There are no free trials, after which you will have to pay for using our services. We won't charge a single money."
+    },
+    {
+      "question": "Will I have to create an account to use Slow down a video online?",
+      "answer": "Our tool does not ask you to sign up or create an account. The platform is absolutely free, and you can slow down as many videos as you want."
+    },
+    {
+      "question": "Will my uploaded files be stored on the server?",
+      "answer": "All processing is performed on your browser, and no files are shifted to the server. Hence your files are 100% safe."
+    },
+    {
+      "question": "Does it support both Android and iOS platforms?",
+      "answer": "Yes, our tool works on browsers and therefore supports both iOS and Android platforms."
+    },
+    {
+      "question": "How can I edit multiple videos?",
+      "answer": "Slowing a video online allows you to slow down multiple videos, one after the other. When you edit the file and save it, the video will be processed. After the processing, you can see the download option on the screen. After clicking on it, you can download the edited file. In order to slow down another video, you only need to refresh the page and can continue. Now you can again select the file which you want to edit."
+    },
+    {
+      "question": "Is it safe to use Slow down a video online?",
+      "answer": "Slowing down an online video tool is the safest and most secure online tool. It is trouble-free and does its job perfectly well. At the same time, it does not save any of the user data."
+    },
+    {
+      "question": "Is access to my drive safe?",
+      "answer": "Yes, it is absolutely safe to permit access to your drive. We don’t make any changes to your site, and your files will be safe with you."
+    },
+    {
+      "question": "How can I upload files from drive/dropbox?",
+      "answer": "Click on the drop-down arrow and click on Dropbox/Google Drive. Choose the Google account from where you want to link your drive. And now select the files to upload."
+    },
+    {
+      "question": "What are the available aspect ratios while slowing down a video online?",
+      "answer": "Slowing a video online allows you to slow down your videos into multiple aspect ratios, i.e.,1:1 (square), 16:9 (landscape), 9:16, 4:3, and 3:4(portrait). You can even keep the original ratio of your video and make changes accordingly if you don't want these standard aspect ratios. Slowing a video online allows you to slow the video as per your need. All you need is to drag and adjust the box where you want to keep it. Slowing down a video online makes slowing down videos very easy."
     }
   ],
   "filelang": "en",
