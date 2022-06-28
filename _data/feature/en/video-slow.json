@@ -1,75 +1,84 @@
 {
-    "Language": "English",
-    "htmlLangAtt": "en",
-    "H1": "Slow down a video online.",
-    "H2": "Just click the button below and slow down the video easily.",
-    "TITLE": "Video slow- Simple and easy to use tool for slowing down the video",
-    "META": "Video slow is a creative tool that instantly transforms the video. Get slow down videos without affecting the quality of your clip. Simple and easy to use tool. ",
-    "keywords": "key1,key2,key3,key4",
-    "LABEL": "DOCX to PDF",
-    "BREADCRUMB_LABEL": "DOCX TO PDF",
-    "color": "#ff615c",
-    "height": "300px",
-    "img": "/assets/FeatureIcons_featurePage/slow.svg",
-    "imgwidth": "30px",
-    "imgheight": "30px",
-    "imgalt": "altvalue",
-    "TEXTUAL_CONTENT": [
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      },
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      },
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      },
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      },
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      },
-      {
-        "priority": 1,
-        "logoUrl": "/assets/lightbulb.svg",
-        "header": "",
-        "content": ""
-      }
-    ],
-    "HOW_TO_CONTENT": {
-      "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
-      "heading": "How to slow down your video",
-      "steps": [
-        
-      ]
+  "Language": "English",
+  "htmlLangAtt": "en",
+  "H1": "Slow down a video online.",
+  "H2": "Just click the button below and slow down the video easily.",
+  "TITLE": "Video slow- Simple and easy to use tool for slowing down the video",
+  "META": "Video slow is a creative tool that instantly transforms the video. Get slow down videos without affecting the quality of your clip. Simple and easy to use tool. ",
+  "keywords": "key1,key2,key3,key4",
+  "LABEL": "DOCX to PDF",
+  "BREADCRUMB_LABEL": "DOCX TO PDF",
+  "color": "#ff615c",
+  "height": "300px",
+  "img": "/assets/FeatureIcons_featurePage/slow.svg",
+  "imgwidth": "30px",
+  "imgheight": "30px",
+  "imgalt": "altvalue",
+  "TEXTUAL_CONTENT": [
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
     },
-    "FAQ": [
-      {
-        "question": "",
-        "answer": ""
-      }
-    ],
-    "filelang": "en",
-    "display_formats": [
-      "mp4","mov","ogg","webm","mkv"  ],
-      "compare_formats": [
-        "mp4","mov","ogg","webm","mkv"  ]
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "",
+      "content": ""
     }
-  
-  
+  ],
+  "HOW_TO_CONTENT": {
+    "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+    "heading": "How to slow down your video",
+    "steps": [
+
+    ]
+  },
+  "FAQ": [
+    {
+      "question": "",
+      "answer": ""
+    }
+  ],
+  "filelang": "en",
+  "display_formats": [
+    "mp4",
+    "mov",
+    "ogg",
+    "webm",
+    "mkv"
+  ],
+  "compare_formats": [
+    "mp4",
+    "mov",
+    "ogg",
+    "webm",
+    "mkv"
+  ],
+  "published": false
+}
