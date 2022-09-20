@@ -1,6 +1,13 @@
 ---
-tags: []
-categories: []
+tags:
+- Free-ebook
+- Library Genesis
+- Get free Ebook
+- Libgen
+- 'download free ebook '
+- free ebook websites
+categories:
+- General
 title: What is the best way to get free ebooks from Libgen (Library Genesis)?
 author: Pallavi Thakur
 layout: post
