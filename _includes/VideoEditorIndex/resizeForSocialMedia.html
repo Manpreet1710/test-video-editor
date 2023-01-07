@@ -3,19 +3,20 @@
 
     <div class="modal" tabindex="-1" id="ErrorBox" style="display: none;margin-top: 40vh;">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Error</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload()">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Error</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        onclick="location.reload()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="ErrorBoxMessage"></p>
+                </div>
             </div>
-            <div class="modal-body">
-              <p id="ErrorBoxMessage"></p>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <div class="Landing">
         <div class="ProgressBar">
@@ -84,7 +85,8 @@
 
 
         <div class="DownloadBox">
-            <img crossorigin class="DownloadIcon" src="/public/styles/VideoEditor/media/icons/trust.svg">
+            <img alt="download-icon" crossorigin class="DownloadIcon"
+                src="/public/styles/VideoEditor/media/icons/trust.svg">
             <div class="LoadingText">
                 Thanks for your patience
             </div>
@@ -103,11 +105,13 @@
             </div>
         </div>
         <div class="card-columns" id="row">
-            
+
         </div>
         <div class="container-fluid fixed-bottom" style="background-color: whitesmoke;" id="bottomButtons">
-            <button type="button" class="btn btn-outline-success" style="margin: 1em;" onclick="setSize('Selected')">Save Selected</button>
-            <button type="button" class="btn btn-outline-success" style="margin: 1em;" onclick="setSize('All')">Save All</button>
+            <button type="button" class="btn btn-outline-success" style="margin: 1em;"
+                onclick="setSize('Selected')">Save Selected</button>
+            <button type="button" class="btn btn-outline-success" style="margin: 1em;" onclick="setSize('All')">Save
+                All</button>
         </div>
     </div>
 

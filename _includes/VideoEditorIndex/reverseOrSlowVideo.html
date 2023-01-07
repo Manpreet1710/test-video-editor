@@ -1,6 +1,6 @@
 <head>
     <style>
-        #speed{
+        #speed {
             -webkit-appearance: none;
             background: #d3d3d3;
             outline: none;
@@ -9,10 +9,12 @@
             transition: opacity .2s;
             border-radius: 20px;
         }
-        #speed:hover{
+
+        #speed:hover {
             opacity: 1;
         }
-        #speed::-webkit-slider-thumb{
+
+        #speed::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
             width: 15px;
@@ -21,7 +23,8 @@
             background: #04aa6d;
             cursor: pointer;
         }
-        #speed::-moz-range-thumb{
+
+        #speed::-moz-range-thumb {
             width: 15px;
             height: 15px;
             border-radius: 50%;
@@ -36,19 +39,20 @@
 
     <div class="modal" tabindex="-1" id="ErrorBox" style="display: none;margin-top: 40vh;">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Error</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload()">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Error</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        onclick="location.reload()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="ErrorBoxMessage"></p>
+                </div>
             </div>
-            <div class="modal-body">
-              <p id="ErrorBoxMessage"></p>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <div class="Landing">
         <div class="ProgressBar">
@@ -116,7 +120,8 @@
 
 
         <div class="DownloadBox">
-            <img crossorigin class="DownloadIcon" src="/public/styles/VideoEditor/media/icons/trust.svg">
+            <img alt="download-icon" crossorigin class="DownloadIcon"
+                src="/public/styles/VideoEditor/media/icons/trust.svg">
             <div class="LoadingText">
                 Thanks for your patience
             </div>
@@ -138,11 +143,12 @@
                         fill="#a55eea" />
                 </svg>
                 <h4>File name</h4>
-                
+
                 <div class="container" id="setting" style="margin-top: 1em;">
-                    
+
                 </div>
-                <button class="ExtractBtn" id="ExtractBtn" onclick="processVideo()" style="padding: 20px;border-radius: 10px;background-color: blueviolet;color: white;display: none;">
+                <button class="ExtractBtn" id="ExtractBtn" onclick="processVideo()"
+                    style="padding: 20px;border-radius: 10px;background-color: blueviolet;color: white;display: none;">
                 </button>
             </div>
         </div>
