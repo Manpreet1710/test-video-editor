@@ -8,13 +8,14 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.9.0"
-gem "appscms-tools-theme","~> 3.0.8"
+gem "appscms-tools-theme","~> 3.5.8"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
   gem 'jekyll-paginate'
+  gem "jekyll-minibundle"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -28,3 +29,5 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+
+gem "webrick", "~> 1.8"

@@ -3,6 +3,9 @@ const pageTool = getScript.dataset.tool
 const fileName = getScript.dataset.filename
 const folderName = getScript.dataset.foldername
 const lang = getScript.dataset.lang
+const body = document.querySelector(".audioExtractor")
+const boxcolor = body.dataset.color
+console.log(boxcolor);
 
 const { createFFmpeg } = FFmpeg
 const ffmpeg = createFFmpeg({ log: true })
@@ -214,6 +217,7 @@ const Number_of_Cores = () => {
 
 var ThreadsCount = Number_of_Cores() * 4
 var ExtractAudio = async () => {
+  document.querySelector(".DownloadBox").style.background = boxcolor
   Spinner.style.display = 'none'
   Workspace.style.display = 'none'
   Landing.style.display = 'inherit'

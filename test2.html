@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Visualizer</title>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <audio id="audio" src="Output.mp3" autoplay></audio>
+  <script>
+
+    // Create an audio context
+const audioCtx = new AudioContext();
+
+// Get the audio element and create a source node
+const audioElement = document.getElementById('audio');
+const audioSource = audioCtx.createMediaElementSource(audioElement);
+
+// Connect the audio source to the audio context destination
+audioSource.connect(audioCtx.destination);
+
+// Play the audio
+audioElement.play();
+// Get the Canvas element and set its dimensions
+const canvas = document.getElementById('canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// Get the Canvas 2D context
+const ctx = canvas.getContext('2d');
+
+// Create the visualization function
+function visualize() {
+  // Get the frequency data from the audio context
+  const frequencyData = new Uint8Array(audioCtx.analyser.frequencyBinCount);
+  audioCtx.analyser.getByteFrequencyData(frequencyData);
+
+  // Clear the Canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Draw the visualization
+  // ...
+  
+  // Call the visualize function again
+  requestAnimationFrame(visualize);
+}
+
+// Start the visualization loop
+visualize();
+// Set the bar width and spacing
+const barWidth = canvas.width / frequencyData.length;
+const barSpacing = 2;
+
+// Loop through the frequency data and draw the bars
+for (let i = 0; i < frequencyData.length; i++) {
+  // Calculate the bar height based on the frequency data
+  const barHeight = (frequencyData[i] / 255) * canvas.height;
+
+  // Calculate the bar position and size
+  const x = i * (barWidth + barSpacing);
+  const y = canvas.height - barHeight;
+  const width = barWidth;
+  const height = barHeight;
+
+  // Draw the bar
+  ctx.fillRect(x, y, width, height);
+}
+
+  </script>
+</body>
+</html>

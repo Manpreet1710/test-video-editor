@@ -4,6 +4,8 @@ const pageTool = getScript.dataset.tool
 const fileName = getScript.dataset.filename
 const folderName = getScript.dataset.foldername
 const lang = getScript.dataset.lang
+const body = document.querySelector(".VideoEditor")
+const boxcolor = body.dataset.color
 const { createFFmpeg } = FFmpeg
 const gdrive = document.querySelector('#filepicker')
 const getFile = (file) => {
@@ -1198,6 +1200,7 @@ const FinalSettings = async () => {
 var CancelProcess = document.getElementById('CancelProcess')
 
 const DownloadFile = async () => {
+  document.querySelector(".DownloadBox").style.background = boxcolor
   Workspace.style.display = 'none'
   LandingPage.style.display = 'inherit'
   ProgressBar.style.width = '0%'

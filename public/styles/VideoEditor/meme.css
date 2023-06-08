@@ -1,3 +1,12 @@
+.box{
+  min-height: auto !important;
+  background-color: transparent !important;
+}
+.box-border{
+  border: none !important;
+  background-color: transparent !important;
+}
+
 .canvas-container {
   height: auto;
   width: 100%;

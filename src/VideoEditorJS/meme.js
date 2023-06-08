@@ -3,6 +3,8 @@ const pageTool = getScript.dataset.tool
 const fileName = getScript.dataset.filename
 const folderName = getScript.dataset.foldername
 const lang = getScript.dataset.lang
+const body = document.querySelector(".container2")
+const boxcolor = body.dataset.color
 
 const { createFFmpeg } = FFmpeg
 const ffmpeg = createFFmpeg({ log: true })
@@ -538,6 +540,7 @@ function memeProcessing() {
         "selection:updated": updateInputs,
       });
       document.querySelector("#save").onclick = () => {
+        document.querySelector(".container2").style.background = boxcolor
         window.location.href = "#";
         document.querySelector(".box").style.background = "red";
         document.querySelector(".container2").style.height = "300px";

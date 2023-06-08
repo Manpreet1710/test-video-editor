@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>432 Hz Converter</title>
+  </head>
+  <body>
+    <h1>432 Hz Converter</h1>
+    <input type="file" id="file-input" accept=".mp3, .wav">
+    <button id="convert-button">Convert to 432 Hz</button>
+    <a id="download-link" download="converted.mp3"></a>
+    <script>
+      // Load audio file from file input
+      const fileInput = document.getElementById('file-input');
+      fileInput.addEventListener('change', event => {
+        const file = event.target.files[0];
+        const audioPlayer = document.createElement('audio');
+        audioPlayer.src = URL.createObjectURL(file);
+        document.body.appendChild(audioPlayer);
+        audioPlayer.style.display = 'none';
+        audioPlayer.addEventListener('loadedmetadata', () => {
+          const duration = audioPlayer.duration;
+          const minutes = Math.floor(duration / 60);
+          const seconds = Math.floor(duration % 60);
+          console.log(`Audio duration: ${minutes}:${seconds}`);
+          document.body.removeChild(audioPlayer);
+        });
+      });
+
+      // Convert audio to 432 Hz and download
+      const convertButton = document.getElementById('convert-button');
+      convertButton.addEventListener('click', event => {
+        const audioContext = new AudioContext();
+
+        const audioPlayer = document.createElement('audio');
+        const audioSource = audioContext.createMediaElementSource(audioPlayer);
+
+        audioContext.audioWorklet.addModule('convert-432.js')
+          .then(() => {
+            const workletNode = new AudioWorkletNode(audioContext, 'convert-432');
+            audioSource.connect(workletNode).connect(audioContext.destination);
+
+            audioPlayer.play();
+
+            const downloadLink = document.getElementById('download-link');
+            downloadLink.addEventListener('click', event => {
+              audioPlayer.pause();
+              audioContext.resume();
+              audioPlayer.currentTime = 0;
+              audioPlayer.play();
+              audioContext.suspend().then(() => {
+                const audioData = audioPlayer.captureStream().getAudioTracks()[0].getSettings();
+                const audioBlob = new Blob(audioData.codec === 'opus' ? [] : [audioData.sampleRate], { type: audioData.codec === 'opus' ? 'audio/ogg' : 'audio/wav' });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                downloadLink.href = audioUrl;
+                downloadLink.click();
+              });
+            });
+          })
+          .catch(error => {
+            console.error(error);
+          });
+      });
+    </script>
+  </body>
+</html>
