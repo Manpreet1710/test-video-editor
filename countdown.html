@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url('background-image.jpg');
+      /* Replace 'background-image.jpg' with the URL or file path of your desired background image */
+      background-size: cover;
+      background-position: center;
+    }
+
+    #countdown-clock {
+      display: flex;
+      justify-content: center;
+    }
+
+    .countdown {
+      margin-top: 100px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .countdown-unit {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+    }
+
+    .countdown-value {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .countdown-label {
+      font-size: 16px;
+    }
+
+    .input-container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input-field {
+      width: 250px;
+      padding: 5px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #seconds{
+      color: red;
+    }
+  </style>
+
+  <title>Countdown Timer</title>
+</head>
+
+<body>
+  <div class="countdown">
+    <h1 id="countdown-text">Countdown Timer</h1>
+    <div id="countdown-clock">
+      <div class="countdown-unit">
+        <div class="countdown-value" id="days">00</div>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="hours">00</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="minutes">00</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="seconds">00</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </div>
+  <div class="input-container">
+    <input type="text" class="input-field" id="event-name" placeholder="Event Name">
+  </div>
+  <div class="input-container">
+    <input type="date" class="input-field" id="countdown-date" required>
+  </div>
+  <div class="input-container">
+    <input type="time" class="input-field" id="countdown-time" required>
+  </div>
+  <div class="input-container">
+    <button type="button" class="input-button" onclick="setCountdownDateTime()">Set Countdown</button>
+  </div>
+
+
+  <script>
+    let countdownDateTime = '';
+
+    function updateCountdown() {
+      if (!countdownDateTime) {
+        // Display a message if countdown date and time are not set
+        document.getElementById('countdown-text').innerText = 'Please enter a valid countdown date and time.';
+        document.getElementById('countdown-clock').style.display = 'none';
+        return;
+      }
+
+      const now = new Date().getTime();
+      const distance = countdownDateTime.getTime() - now;
+
+      // Check if countdown date has passed
+      if (distance < 0) {
+        const audio = new Audio('/alarm.mp3');
+        audio.play();
+        audio.loop = false
+        document.getElementById('countdown-text').innerText = 'Countdown has ended.';
+        document.getElementById('countdown-clock').style.display = 'none';
+        return;
+      }
+
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Update the countdown elements
+      document.getElementById('days').innerText = padNumber(days);
+      document.getElementById('hours').innerText = padNumber(hours);
+      document.getElementById('minutes').innerText = padNumber(minutes);
+      document.getElementById('seconds').innerText = padNumber(seconds);
+    }
+
+    function padNumber(number) {
+      return number.toString().padStart(2, '0');
+    }
+
+    function setCountdownDateTime() {
+      const inputDate = document.getElementById('countdown-date').value;
+      const inputTime = document.getElementById('countdown-time').value;
+      const eventName = document.getElementById('event-name').value;
+
+      if (inputDate && inputTime) {
+        // Combine date and time to create a new Date object
+        const selectedDateTime = new Date(inputDate + 'T' + inputTime);
+
+        if (isNaN(selectedDateTime)) {
+          // Display an error message if the selected date or time is invalid
+          document.getElementById('countdown-text').innerText = 'Please enter a valid date and time.';
+          document.getElementById('countdown-clock').style.display = 'none';
+          return;
+        }
+
+        // Adjust the selected hours based on the time format
+        const hours = selectedDateTime.getHours();
+        const minutes = selectedDateTime.getMinutes();
+        const isPM = inputTime.toLowerCase().includes('pm');
+
+        if (isPM && hours < 12) {
+          selectedDateTime.setHours(hours + 12);
+        } else if (!isPM && hours === 12) {
+          selectedDateTime.setHours(0);
+        }
+
+        selectedDateTime.setMinutes(minutes);
+
+        countdownDateTime = selectedDateTime;
+
+        if (eventName) {
+          document.getElementById('countdown-text').innerText = eventName;
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // Update the URL with the countdown parameters
+        const countdownParams = encodeCountdownParams(eventName, inputDate, inputTime);
+        const url = window.location.href.split('?')[0] + '?countdown=' + encodeURIComponent(countdownParams);
+        window.history.replaceState(null, null, url);
+      }
+    }
+
+    function encodeCountdownParams(eventName, inputDate, inputTime) {
+      const params = {
+        event: eventName,
+        date: inputDate,
+        time: inputTime
+      };
+
+      return btoa(JSON.stringify(params));
+    }
+
+    function decodeCountdownParams(encodedParams) {
+      const decodedParams = atob(encodedParams);
+      return JSON.parse(decodedParams);
+    }
+
+    function getCountdownParamsFromURL() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const encodedParams = urlParams.get('countdown');
+      return decodeCountdownParams(encodedParams);
+    }
+
+    function setCountdownFromURL() {
+      const countdownParams = getCountdownParamsFromURL();
+
+      if (countdownParams) {
+        const { event, date, time } = countdownParams;
+        document.getElementById('event-name').value = event;
+        document.getElementById('countdown-date').value = date;
+        document.getElementById('countdown-time').value = time;
+        setCountdownDateTime();
+      }
+    }
+
+    // Set the current date and time as the default values
+    const currentDate = new Date();
+    const currentDateString = currentDate.toISOString().slice(0, 10);
+    const currentTimeString = currentDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+    document.getElementById('countdown-date').value = currentDateString;
+    document.getElementById('countdown-time').value = currentTimeString;
+
+    // Check if there are countdown parameters in the URL and set the countdown
+    setCountdownFromURL();
+  </script>
+</body>
+
+
+
+</html>

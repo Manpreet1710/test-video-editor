@@ -1,0 +1,71 @@
+
+
+.optionheading {
+    color: #fff;
+    font-weight: 900;
+    padding: 0.4rem 1rem;
+    border-left: 4px solid #0090ff;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.loopOptionWrapper .loopOption {
+    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    flex-basis: 44%;
+    color: #b4bad0;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    min-width: 100px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222532;
+}
+
+
+.loopOptionWrapper .audioOption{
+    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    flex-basis: 44%;
+    color: #b4bad0;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    min-width: 100px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222532;
+}
+
+.loopOptionWrapper .audioOption{
+    color: #fff;
+    background-color: #535a70;
+}
+.loopOptionWrapper .loopOption:hover {
+    color: #fff;
+    background-color: #535a70;
+}
+.active{
+    background: #0090ff !important;
+    color: #fff !important;
+}
+.actives{
+    background: #0090ff !important;
+    color: #fff !important;
+}

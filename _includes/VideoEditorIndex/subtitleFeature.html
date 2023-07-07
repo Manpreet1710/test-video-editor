@@ -1,3 +1,12 @@
+<style>
+    .box-border{
+        display: none;
+    }
+    .box{
+        background: transparent;
+        min-height: 200px;
+    }
+</style>
 <body class="subtitleFeature">
     <link rel="stylesheet" href="/public/styles/VideoEditor/subtitleFeature.css" crossorigin>
 
@@ -22,7 +31,7 @@
             <div class="flex-container">
                 <div class="flex-class">
                     <div class="d-flex flex-column">
-                        <div class="box" style="background:#BD7ED8;min-height:300px;width:100%" id="temp_box1">
+                        <div class="box" style="width:100%" id="temp_box1">
                             <div class="box-border" id="temp_box2"></div>
                             <div class="content-box">
                                 <div class="Landing">
@@ -50,7 +59,7 @@
                                     <label class="Button" for="files">
 
                                         <div class="m-auto ">
-                                            <svg class='video-svg mb-4' enable-background="new 0 0 55.125 55.125"
+                                            <svg class='d-none video-svg mb-4' enable-background="new 0 0 55.125 55.125"
                                                 version="1.1" viewBox="0 0 55.125 55.125" xml:space="preserve"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="white"
@@ -58,14 +67,15 @@
                                                     fill="#fff" />
                                             </svg>
                                             <div class=" d-flex justify-content-center align-items-center ">
-                                                <div id="ButtonLabel" class="InputButton" class="boxes"> <svg
+                                                <div style="background:#BD7ED8; color:#fff;" id="ButtonLabel" class="InputButton" class="boxes"> 
+                                                    <svg
                                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                                         fill="currentColor">
                                                         <path
                                                             d="M14.0036 1.99646L17.0036 4.99646L16.999 4.99946L17 5.00001V13H16V5.99946L13 6.00001V2.99946H4V17.9995L12.0275 18.0003C12.0093 17.8361 12 17.6691 12 17.5C12 15.0147 14.0147 13 16.5 13C18.9853 13 21 15.0147 21 17.5C21 19.9853 18.9853 22 16.5 22C14.5409 22 12.8742 20.7481 12.2563 19.0007L3 19V2.00001H14L14.0036 1.99646ZM16.5 14C14.567 14 13 15.567 13 17.5C13 19.433 14.567 21 16.5 21C18.433 21 20 19.433 20 17.5C20 15.567 18.433 14 16.5 14ZM17 15V16.9995L19 17V18L17 17.9995V20H16V17.9995L14 18V17L16 16.9995V15H17ZM11 14V15H6V14H11ZM14 11V12H6V11H14ZM14 8.00001V9.00001H6V8.00001H14ZM14 3.40746V4.99946H15.592L14 3.40746Z">
                                                         </path>
                                                     </svg> <span class='ml-2'>CHOOSE FILE</span> </div>
-                                                <div class="file-pick-dropdown">
+                                                <div class="file-pick-dropdown" style="background:#BD7ED8; color:#fff;">
                                                     <i class="fas fa-angle-down arrow-sign "></i>
                                                     <div class="file-picker-dropdown" style="display: none;">
                                                         <button id="dropbox"> <svg viewBox="0 0 24 24" fill="#0061FF"
@@ -115,19 +125,31 @@
                                     </div>
                                 </div>
                                 <div class="Workspace">
-                                    <div class="Settings">
+                                    <div class="Settings d-none">
                                         <div class="VideoFile">
                                             <video src="" crossorigin controls></video>
                                         </div>
                                     </div>
                                     <div class="ButtonPointerWrap">
-                                        <label class="UploadBtn" for="uploadSub"
-                                            style="cursor: pointer;padding-top: 15px">Upload Subtitle</label>
+                                        <h6 class="uploadSub-title" style="font-weight:600; font-size:20px">
+                                            Choose how to add subtitles
+                                        </h6>
+
+                                        <button style="background: #a55eea;" class="UploadBtn" id="writeSub" onclick="WriteSubs()">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="white" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px; margin-right: 6px;"><path d="M13.8484 3.12132C14.239 2.7308 14.8721 2.7308 15.2627 3.12132L16.8787 4.73734C17.2692 5.12787 17.2692 5.76103 16.8787 6.15155L7.32312 15.7071C7.13559 15.8946 6.88123 16 6.61602 16H4V13.384C4 13.1188 4.10536 12.8644 4.29289 12.6769L13.8484 3.12132ZM16.6769 1.70711C15.5053 0.535537 13.6058 0.535537 12.4342 1.70711L2.87868 11.2627C2.31607 11.8253 2 12.5883 2 13.384V16C2 17.1046 2.89543 18 4 18H6.61602C7.41167 18 8.17473 17.6839 8.73734 17.1213L18.2929 7.56577C19.4645 6.3942 19.4645 4.4947 18.2929 3.32313L16.6769 1.70711ZM13 18H17C17.5523 18 18 17.5523 18 17C18 16.4477 17.5523 16 17 16H13C12.4477 16 12 16.4477 12 17C12 17.5523 12.4477 18 13 18Z"></path></svg>
+                                            Add manually
+                                        </button>
+                                        <label class="UploadBtn mb-0" for="uploadSub" style="cursor: pointer;">
+                                            <svg xmlns='http://www.w3.org/2000/svg' fill='white' width='20' height='20' viewBox='0 0 20 20' style="margin-left: -1px; margin-right: 6px;"><path d='M5 1C3.34315 1 2 2.34315 2 4V16C2 17.6569 3.34315 19 5 19H15C16.6569 19 18 17.6569 18 16V4C18 2.34315 16.6569 1 15 1H5ZM4 4C4 3.44772 4.44772 3 5 3H15C15.5523 3 16 3.44772 16 4V16C16 16.5523 15.5523 17 15 17H5C4.44772 17 4 16.5523 4 16V4ZM7 9C6.44772 9 6 9.44772 6 10C6 10.5523 6.44772 11 7 11H10.75L13 11C13.5523 11 14 10.5523 14 10C14 9.44771 13.5523 9 13 9H10.75L7 9ZM11 15H10.75H7C6.44772 15 6 14.5523 6 14C6 13.4477 6.44772 13 7 13H10.75H11C11.5523 13 12 13.4477 12 14C12 14.5523 11.5523 15 11 15ZM7 5C6.44772 5 6 5.44772 6 6C6 6.55228 6.44772 7 7 7L10.75 7H13C13.5523 7 14 6.55228 14 6C14 5.44771 13.5523 5 13 5L10.75 5L7 5Z'/></svg>
+                                            Upload
+                                            .SRT</label>
                                         <input type="file" name="uploadSub" id="uploadSub" onchange="UploadSubs(this)"
                                             accept=".srt,.vtt" style="display: none;">
-                                        <button class="UploadBtn" id="writeSub" onclick="WriteSubs()">
-                                            Write Subtitle
-                                        </button>
+
+                                        <!-- <button class="UploadBtn" id="writeSub">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="white" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px; margin-right: 6px;"><path d="M8 7C8 7.55228 7.55229 8 7 8L3 8C2.44772 8 2 7.55229 2 7V3C2 2.44772 2.44772 2 3 2C3.55228 2 4 2.44772 4 3L4 4.70798C5.46514 3.04828 7.60939 2 9.99947 2C13.7285 2 16.8593 4.5505 17.7474 8.00074C17.885 8.53559 17.5631 9.08078 17.0282 9.21844C16.4933 9.3561 15.9482 9.03411 15.8105 8.49926C15.1444 5.9112 12.7939 4 9.99947 4C8.22333 4 6.62643 4.7716 5.52706 6H7C7.55229 6 8 6.44772 8 7ZM2.97074 10.7816C3.50559 10.6439 4.05078 10.9659 4.18844 11.5007C4.85456 14.0888 7.20508 16 9.99947 16C11.7756 16 13.3726 15.2283 14.4719 14H13C12.4477 14 12 13.5523 12 13C12 12.4477 12.4477 12 13 12H16.1695C16.2762 11.9823 16.3864 11.9818 16.4958 12H17C17.5523 12 18 12.4477 18 13V17C18 17.5523 17.5523 18 17 18C16.4477 18 16 17.5523 16 17V15.2908C14.5347 16.9514 12.3901 18 9.99947 18C6.27042 18 3.13959 15.4495 2.25156 11.9993C2.1139 11.4644 2.43589 10.9192 2.97074 10.7816Z" fill="white"></path></svg>
+                                            Generate automatically</button> -->
+
                                     </div>
                                 </div>
                             </div>
@@ -141,38 +163,44 @@
     <div class="container-fluid" style="position:absolute;display: none;top: 0;z-index: 1080;height: 100%;"
         id="EditBox">
         <div class="row fixed-top">
-            <div class="col-md" id="VContainer"
-                style="background-color: #151519;border: 1px solid black;z-index:-1;padding-top: 10px;padding-bottom:10px;padding-right: 50px;padding-left: 50px;">
+            <div class="col-md-8" id="VContainer"
+                style="background-color: #151519;border: 1px solid black;z-index:-1; padding: 120px;">
                 <video src="" crossorigin type="video/mp4" controls style="width: 100%;height: 100%;" id="VDemo">
                     <track label="Track1" kind="subtitles" src="" default id="TDemo">
                 </video>
             </div>
-            <div class="col-md" id="subTable"
-                style="background-color: #202024;justify-content: center;overflow-y:auto;border: 1px solid black;padding: 10px;z-index: 1;">
-                <br>
-                <table id="cue-table" class="cue-table" style="height:80%;width:100%;">
+            <div class="col-md-4" id="subTable"
+                style="background-color: #202024;justify-content: center;overflow-y:scroll; overflow-x: hidden;  border: 1px solid black;padding: 0px;z-index: 1;">
+                <!-- <br> -->
+                <table id="cue-table" class="cue-table d-flex justify-content-center" style="flex-direction: column;">
                     <tr id="1row">
                         <td>
                             <input type="time" id="1col2" step="1">
-                            <br><br>
+                            <br>
                             <input type="time" id="1col3" step="1">
                         </td>
                         <td>
-                            <textarea id="1col4" rows="3" style="overflow-y: hidden;resize: none;"
-                                placeholder="Enter subtitle text here"></textarea>
+                            <textarea id="1col4" rows="2" style="overflow-y: hidden;resize: none;"
+                                placeholder="New subtitle"></textarea>
                         </td>
                     </tr>
                 </table>
-                <br>
-                <button type="button" class="btn btn-primary" onclick="addRow()">Add Row</button>&emsp;
-                <button type="button" class="btn btn-danger" onclick="deleteLast()">Delete Row</button>
+            
+               <div class="d-flex p-3">
+                <button id="addNewSubtitle"  type="button" class="w-100 btn" onclick="addRow()">
+                    <svg viewBox="0 0 20 20" width="20px" style="margin-right:5px" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#a55eea" fill-rule="evenodd" d="M9 17a1 1 0 102 0v-6h6a1 1 0 100-2h-6V3a1 1 0 10-2 0v6H3a1 1 0 000 2h6v6z"></path> </g></svg>
+                    Add subtitle</button>&emsp;
+                <button id="deleteSubtitle" type="button" class="btn" onclick="deleteLast()">
+                  Delete subtitle
+                </button>
+               </div>
             </div>
         </div>
         <div class="row fixed-bottom" id="endButton"
             style="background-color: #202024;border: 1px solid black;padding: 15px;z-index: 2;height: 12vh;">
-            <div class="col-xxl">
-                <button type="button" class="btn btn-secondary" onclick="exportSRT()">Export .SRT</button>&emsp;&emsp;
-                <button type="button" class="btn btn-success" onclick="uploadSRT()">Save Video</button>
+            <div class="w-100 pr-3 text-right">
+                <button id="downloadSRT" type="button" class="btn btn-secondary" onclick="exportSRT()">Download .SRT</button>&emsp;&emsp;
+                <button id="exportBtn" type="button" class="btn btn-success" onclick="uploadSRT()">Export</button>
             </div>
         </div>
     </div>
