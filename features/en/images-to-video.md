@@ -3,9 +3,9 @@ layout: feature
 noBox: true
 folderName: feature
 lang: en
-permalink: slideshow-maker
-fileName: slideshow-maker
-tool: slideshow-maker
+permalink: images-to-video
+fileName: images-to-video
+tool: images-to-video
 format: mp4
 nointernationalization: true
 ---

@@ -61,7 +61,7 @@
                     </div>
                     <!-- <label for="files" id="ButtonLabel" class="InputButton"></label>  -->
                     <input id="files" style="visibility:hidden;" type="file"
-                        onchange="get_video_source_from_input(this)" accept=".mp4">
+                        onchange="get_video_source_from_input(this)" accept="image/*" multiple>
                 </label>
                 <div class="Landingtext">or drop your video file here</div>
                 <div class="Spinner"></div>
@@ -85,65 +85,10 @@
             style="background-color: #191b24;justify-content: center;overflow-y:scroll; overflow-x: hidden;  border: 1px solid black;z-index: 1; height: 100vh;">
 
             <div class="goBack text-left text-white">
-                <a class="text-white" style="text-decoration: underline;" href="/loop-video">Go Back</a>
+                <a class="text-white" style="text-decoration: underline;" href="/slideshow-maker">Go Back</a>
             </div>
             <div class="optionheading">
-                Loop Video
-            </div>
-
-            <div class="loopOptionWrapper">
-                <p class="text-left" style="color: #b4bad0;">Set the number of loops</p>
-                <div class="d-flex" style="flex-wrap: wrap">
-                    <div class="loopOption active" role="button" id="1">
-                        2x
-                    </div>
-                    <div class="loopOption" role="button" id="2">
-                        3x
-                    </div>
-                    <div class="loopOption" role="button" id="3">
-                        4x
-                    </div>
-                    <div class="loopOption" role="button" id="4">
-                        5x
-                    </div>
-                    <div class="loopOption" role="button" id="5">
-                        6x
-                    </div>
-                    <div class="loopOption" role="button" id="7">
-                        8x
-                    </div>
-                    <div class="loopOption" role="button" id="9">
-                        10x
-                    </div>
-                    <div class="loopOption" role="button" id="11">
-                        12x
-                    </div>
-                </div>
-                <div class="finalOuputText" style="color: #b4bad0;"></div>
-            </div>
-
-
-            <div class="loopOptionWrapper">
-                <p class="text-left" style="color: #b4bad0;">Audio</p>
-                <div class="d-flex" style="flex-wrap: wrap">
-                    <div class="audioOption actives" role="button" id="1">
-                        <svg width="25px" fill="#fff" class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
-                            aria-hidden="true" style="font-size: 24px;">
-                            <path
-                                d="M11.8 2.4c.884-.663 2.137-.484 2.8.4.26.346.4.767.4 1.2v16c0 1.105-.895 2-2 2-.433 0-.854-.14-1.2-.4l-5.867-4.4c-.173-.13-.383-.2-.6-.2H4c-1.657 0-3-1.343-3-3v-4c0-1.657 1.343-3 3-3h1.333c.217 0 .427-.07.6-.2zM13 4L7.133 8.4c-.519.39-1.15.6-1.8.6H4c-.552 0-1 .448-1 1v4c0 .552.448 1 1 1h1.333c.65 0 1.281.21 1.8.6L13 20V4zm5.447.106C21.465 5.615 23 8.3 23 12c0 3.7-1.535 6.386-4.553 7.895-.494.247-1.094.046-1.341-.448-.247-.494-.047-1.094.447-1.341C19.868 16.948 21 14.967 21 12s-1.132-4.948-3.447-6.105c-.494-.247-.694-.848-.447-1.342.247-.494.847-.694 1.341-.447zm-1 3C19.155 7.959 20 9.65 20 12s-.845 4.04-2.553 4.895c-.494.247-1.094.046-1.341-.448-.247-.494-.047-1.094.447-1.341C17.513 14.626 18 13.65 18 12s-.488-2.626-1.447-3.105c-.494-.247-.694-.848-.447-1.342.247-.494.847-.694 1.341-.447z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="audioOption" role="button" id="2">
-                        <svg width="25px" fill="#fff" class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
-                            aria-hidden="true" style="font-size: 24px;">
-                            <path
-                                d="M15 12.414V20c0 1.105-.895 2-2 2-.37 0-.733-.103-1.047-.296L11.8 21.6l-3.421-2.565 1.429-1.429L13 20v-5.586l2-2zM14.6 2.8c.223.297.357.649.391 1.016L15 4l-.001 3.585 2.117-2.117c-.145-.276-.16-.615-.01-.915.247-.494.847-.694 1.341-.447l.021.01 1.825-1.823.094-.083c.392-.305.96-.278 1.32.083.39.39.39 1.024 0 1.414l-18 18-.094.083c-.392.305-.96.278-1.32-.083-.39-.39-.39-1.024 0-1.414l3.265-3.267c-.032-.008-.064-.013-.096-.018L5.333 17H4c-1.598 0-2.904-1.249-2.995-2.824L1 14v-4c0-1.598 1.249-2.904 2.824-2.995L4 7h1.333c.173 0 .343-.045.492-.13l.108-.07L11.8 2.4c.884-.663 2.137-.484 2.8.4zm6.574 3.442C22.387 7.729 23 9.662 23 12c0 3.7-1.535 6.386-4.553 7.895-.494.247-1.094.046-1.341-.448-.247-.494-.047-1.094.447-1.341C19.868 16.948 21 14.967 21 12c0-1.793-.413-3.225-1.25-4.334l1.424-1.424zM19.005 8.41C19.67 9.32 20 10.53 20 12c0 2.35-.845 4.04-2.553 4.895-.494.247-1.094.046-1.341-.448-.247-.494-.047-1.094.447-1.341C17.513 14.626 18 13.65 18 12c0-.909-.148-1.613-.441-2.143l1.446-1.447zM13 4L7.133 8.4c-.461.346-1.012.551-1.584.592L5.333 9H4c-.513 0-.936.386-.993.883L3 10v4c0 .513.386.936.883.993L4 15h1.333c.577 0 1.14.166 1.623.477l.089.062 5.954-5.954L13 4z">
-                            </path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="audioMsg" style="color: #b4bad0;">The final video will have sound</div>
+                Slideshow Maker
             </div>
 
 
@@ -151,8 +96,9 @@
         <div class="col-md-9" id="VContainer" style="background-color: #000;border: 1px solid black;z-index:-1;
             display: flex;
             align-items: center;">
-            <video src="" crossorigin type="video/mp4" controls style="width: 700px;  margin:0 auto;height: auto;"
-                id="VDemo"></video>
+            <video crossorigin type="video/mp4" controls style="width: 700px;  margin:0 auto;height: auto;"
+                id="VDemo">
+            </video>
 
                 <div class="row fixed-bottom" id="endButton" style="background-color: #191b24;
                 border: 2px solid #34394e;

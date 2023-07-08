@@ -57,6 +57,9 @@ const showLoader = () => {
     LandingText.innerText = 'Please wait,processing your video'
     Spinner.style.display = 'inherit'
     UploadButton.style.display = 'none'
+    document.querySelector(".Landing").style.display = "flex"
+    document.querySelector(".Landing").style.width = "100%"
+    document.querySelector(".Landing").style.justifyContent = "center"
 }
 const closeLoader = () => { }
 const mimeTypes = 'video/mp4'
@@ -91,13 +94,11 @@ const loopOptions = document.querySelectorAll('.loopOption');
 const audioOption = document.querySelectorAll('.audioOption');
 
 const convertVideo = async (ffmpeg, inputFileName, outputFileName, optionId, audioEnabled) => {
-    console.log(audioEnabled);
-    // console.log(optionId);
-    // console.log(audioEnabled ? '' : '-an');
     await ffmpeg.run("-stream_loop", `${optionId}`, "-i", inputFileName, "-c", "copy", audioEnabled ? '' : '-an', outputFileName);
 };
 
 const get_video_source_from_input = async (input) => {
+    showLoader()
     let VideoSourceFile = input.files[0]
     try {
         if (VideoSourceFile) {
