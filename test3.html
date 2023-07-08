@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Sharing Example</title>
+</head>
+<body>
+  <input type="file" id="imageInput">
+  <button onclick="shareImage()">Share Image</button>
+
+  <script>
+    function shareImage() {
+      var fileInput = document.getElementById('imageInput');
+      var file = fileInput.files[0];
+
+      if (file) {
+        var reader = new FileReader();
+        reader.onload = function(event) {
+          var imageUrl = event.target.result;
+          var shareableLink = generateShareableLink(imageUrl);
+          shareOnSocialMedia(shareableLink);
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+
+    function generateShareableLink(imageUrl) {
+      // Here, you can implement your logic to generate a shareable link for the image
+      // This could involve uploading the image to a server and returning a URL to access it
+
+      // For simplicity, we'll just use the image data URL as the shareable link
+      return imageUrl;
+    }
+
+    function shareOnSocialMedia(shareableLink) {
+      // Replace the following lines with the specific social media sharing functionality
+      // provided by the respective social media platforms (e.g., Facebook, Twitter, etc.)
+      console.log('Sharing image: ' + shareableLink);
+    }
+  </script>
+</body>
+</html>
