@@ -7,6 +7,7 @@ lang: en
 tool: edit-mp4-video
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {% include VideoEditorIndex/index.html %}

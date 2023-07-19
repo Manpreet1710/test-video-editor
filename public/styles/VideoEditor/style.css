@@ -5,12 +5,12 @@
           box-sizing: border-box;
 }
 .box{
-  min-height: auto !important;
-  background-color: transparent !important;
+  min-height: auto;
+  background-color: transparent;
 }
 .box-border{
-  border: none !important;
-  background-color: transparent !important;
+  border: none;
+  background-color: transparent;
 }
 
 .VideoEditor {
@@ -165,7 +165,7 @@
   height: -moz-fit-content;
   height: fit-content;
   font-size: 18px;
-  color: black;
+  color: white;
   /* position: absolute; */
   /* bottom: 20%; */
 }

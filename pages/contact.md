@@ -6,5 +6,6 @@ lang: en
 fileName: contact
 companyName: safevideokit
 domain : com
+noBox: true
 title: Contact us
 ---

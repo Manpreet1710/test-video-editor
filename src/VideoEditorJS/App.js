@@ -130,33 +130,33 @@ const Add_Remove_ClassOnClick = (e) => {
   }
 }
 
-console.stdlog = console.log.bind(console)
-var inCompress = false
-console.log = function () {
-  let consoleLog = Array.from(arguments)
-  let CurrentTime = null
-  if (consoleLog[0].indexOf('time=') != -10)
-    CurrentTime = consoleLog[0].slice(
-      consoleLog[0].indexOf('time='),
-      consoleLog[0].indexOf('time=') +
-        consoleLog[0]
-          .substring(consoleLog[0].indexOf('time='))
-          .indexOf('bitrate=')
-    )
-  ProgressBar.style.width = '0%'
-  if (consoleLog[0].indexOf('inputCompress') != -1) inCompress = true
-  if (CurrentTime != '') {
-    let a = CurrentTime.slice(5, CurrentTime.length).split(':')
-    var seconds = +a[0] * 60 * 60 + +a[1] * 60 + +a[2]
-    var percentage = (seconds / videoTime) * 100
-    ProgressBar.style.width = percentage + '%'
-    LandingText.innerHTML = `Please wait while we are ${
-      inCompress ? 'compressing' : 'processing'
-    } your video in the most secured way.<br><span>${
-      percentage > 0 ? percentage.toFixed(0) : 0
-    }%</span>${percentage > 90 ? '<br>Almost done, few seconds left</br>' : ''}`
-  }
-}
+// console.stdlog = console.log.bind(console)
+// var inCompress = false
+// console.log = function () {
+//   let consoleLog = Array.from(arguments)
+//   let CurrentTime = null
+//   if (consoleLog[0].indexOf('time=') != -10)
+//     CurrentTime = consoleLog[0].slice(
+//       consoleLog[0].indexOf('time='),
+//       consoleLog[0].indexOf('time=') +
+//         consoleLog[0]
+//           .substring(consoleLog[0].indexOf('time='))
+//           .indexOf('bitrate=')
+//     )
+//   ProgressBar.style.width = '0%'
+//   if (consoleLog[0].indexOf('inputCompress') != -1) inCompress = true
+//   if (CurrentTime != '') {
+//     let a = CurrentTime.slice(5, CurrentTime.length).split(':')
+//     var seconds = +a[0] * 60 * 60 + +a[1] * 60 + +a[2]
+//     var percentage = (seconds / videoTime) * 100
+//     ProgressBar.style.width = percentage + '%'
+//     LandingText.innerHTML = `Please wait while we are ${
+//       inCompress ? 'compressing' : 'processing'
+//     } your video in the most secured way.<br><span>${
+//       percentage > 0 ? percentage.toFixed(0) : 0
+//     }%</span>${percentage > 90 ? '<br>Almost done, few seconds left</br>' : ''}`
+//   }
+// }
 
 const Eventlisteners_on_feature_click = (() => {
   for (index = 0; index < features.length; ++index) {
@@ -641,7 +641,9 @@ const Set_actual_video_resolution = (Tempvideo) => {
 }
 
 const get_video_source_from_input = async (input) => {
-  console.stdlog(input)
+  // console.stdlog(input)
+  document.querySelector(".box").style.minHeight = "300px"
+  document.querySelector(".box").style.background = boxcolor
   LandingText.innerText = 'Please wait,processing your video'
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
@@ -1111,7 +1113,7 @@ const ResizeVideo = async () => {
 }
 const ChangeSpeed = async () => {
   if (FeatureValues.Speed != 'Original' || FeatureValues.Speed != 1) {
-    console.stdlog('Changing speed')
+    // console.stdlog('Changing speed')
     if (
       isTrimmed === 1 ||
       isCut === 1 ||
@@ -1200,7 +1202,7 @@ const FinalSettings = async () => {
 var CancelProcess = document.getElementById('CancelProcess')
 
 const DownloadFile = async () => {
-  document.querySelector(".DownloadBox").style.background = boxcolor
+  document.querySelector(".box").style.background = boxcolor
   Workspace.style.display = 'none'
   LandingPage.style.display = 'inherit'
   ProgressBar.style.width = '0%'

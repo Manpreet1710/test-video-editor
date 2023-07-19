@@ -7,6 +7,7 @@ lang: en
 tool: subtitle-mp4
 companyName: safevideokit
 domain : com
+noBox: true
 noBox : true
 ---
 

@@ -6,5 +6,6 @@ lang: en
 fileName: about
 companyName: safevideokit
 domain : com
+noBox: true
 title: about
 ---

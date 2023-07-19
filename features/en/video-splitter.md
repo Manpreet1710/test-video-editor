@@ -7,6 +7,7 @@ lang: en
 tool: video-splitter
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {% include VideoEditorIndex/index.html %}

@@ -7,6 +7,7 @@ lang: en
 tool: mp4-trimmer
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {% include VideoEditorIndex/index.html %}

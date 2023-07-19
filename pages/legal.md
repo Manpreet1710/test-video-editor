@@ -7,5 +7,6 @@ lang: en
 fileName: termAndCondition
 companyName: safevideokit
 domain : com
+noBox: true
 title: Terms and Conditions
 ---

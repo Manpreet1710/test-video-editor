@@ -7,6 +7,7 @@ lang: en
 tool: video-reverse
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {% include VideoEditorIndex/reverseOrSlowVideo.html %}

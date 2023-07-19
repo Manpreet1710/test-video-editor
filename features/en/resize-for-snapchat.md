@@ -7,6 +7,7 @@ lang: en
 tool: resize-for-snapchat
 companyName: safevideokit
 domain : com
+noBox: true
 nobox: true
 ---
 

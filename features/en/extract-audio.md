@@ -7,6 +7,7 @@ lang: en
 tool: extract-audio
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {% include VideoEditorIndex/audioExtractor.html%}

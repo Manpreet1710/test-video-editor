@@ -7,6 +7,7 @@ lang: en
 tool: video-watermark
 companyName: safevideokit
 domain : com
+noBox: true
 ---
 
 {%- include VideoEditorIndex/watermark.html -%}
