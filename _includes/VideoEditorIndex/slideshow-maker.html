@@ -61,7 +61,7 @@
                     </div>
                     <!-- <label for="files" id="ButtonLabel" class="InputButton"></label>  -->
                     <input id="files" style="visibility:hidden;" type="file"
-                        onchange="get_video_source_from_input(this)" accept="image/*" multiple>
+                        onchange="get_video_source_from_input(this)" accept="/*" multiple>
                 </label>
                 <div class="Landingtext">or drop your video file here</div>
                 <div class="Spinner"></div>
@@ -88,7 +88,59 @@
                 <a class="text-white" style="text-decoration: underline;" href="/slideshow-maker">Go Back</a>
             </div>
             <div class="optionheading">
-                Slideshow Maker
+               {{page.title}}
+            </div>
+
+            <div class="d-none side-modal-inner-main">
+                <div>
+                    <h4 class="aspect-ratio-heading text-standard"> Aspect ratio
+                    </h4>
+                    <ul class="aspect-ratio-buttons">
+                        <li class="aspect-ratio-buttons-item">
+                            <button data-aspect-ratio="original" type="button" class="features active vertical-button" color="features" style="width: 80px; height: 60px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" width="24"
+                                    height="24" class="v-icon video-original-size-icon button-icon">
+                                    <use href="#video-original-size"></use>
+                                </svg>
+                                <span class="vertical-button-text">Original</span></button>
+                        </li>
+                        <li class="aspect-ratio-buttons-item"><button data-aspect-ratio="16:9" type="button" class="features vertical-button"
+                                color="features" style="width: 96px; height: 54px;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24"
+                                    class="v-icon youtube-icon button-icon">
+                                    <use href="#youtube"></use>
+                                </svg><!----><span class="vertical-button-text">16:9</span></button>
+                        </li>
+                        <li class="aspect-ratio-buttons-item"><button data-aspect-ratio="1:1" type="button" class="features vertical-button"
+                                color="features" style="width: 54px; height: 54px;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24"
+                                    class="v-icon instagram-icon button-icon">
+                                    <use href="#instagram"></use>
+                                </svg><!----><span class="vertical-button-text">1:1</span></button>
+                        </li>
+                        <li class="aspect-ratio-buttons-item"><button data-aspect-ratio="9:16" type="button" class="features vertical-button"
+                                color="features" style="width: 54px; height: 96px;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24"
+                                    class="v-icon instagram-icon button-icon">
+                                    <use href="#instagram"></use>
+                                </svg><!----><span class="vertical-button-text">9\16</span></button>
+                        </li>
+                        <li class="aspect-ratio-buttons-item"><button data-aspect-ratio="3:4" type="button" class="features vertical-button"
+                                color="features" style="width: 54px; height: 72px;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    class="v-icon linkedin-icon button-icon">
+                                    <use href="#linkedin"></use>
+                                </svg><!----><span class="vertical-button-text">3:4</span></button>
+                        </li>
+                        <li class="aspect-ratio-buttons-item"><button data-aspect-ratio="4:3" type="button" class="features vertical-button"
+                                color="features" style="width: 72px; height: 54px;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24"
+                                    class="v-icon youtube-icon button-icon">
+                                    <use href="#youtube"></use>
+                                </svg><!----><span class="vertical-button-text">4:3</span></button>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
 
@@ -96,11 +148,14 @@
         <div class="col-md-9" id="VContainer" style="background-color: #000;border: 1px solid black;z-index:-1;
             display: flex;
             align-items: center;">
-            <video crossorigin type="video/mp4" controls style="width: 700px;  margin:0 auto;height: auto;"
-                id="VDemo">
-            </video>
 
-                <div class="row fixed-bottom" id="endButton" style="background-color: #191b24;
+            <div style="width:100%;" class="videoWrapper">
+                <video crossorigin type="video/mp4" controls style="width: 700px;  margin:0 auto;height: 80vh;" id="VDemo">
+                </video>
+            </div>
+         
+
+            <div class="row fixed-bottom" id="endButton" style="background-color: #191b24;
                 border: 2px solid #34394e;
                 padding: 10px;
                 z-index: 2;
@@ -115,5 +170,5 @@
         </div>
     </div>
 
-  
+
 </div>

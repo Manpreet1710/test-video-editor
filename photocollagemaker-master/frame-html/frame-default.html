@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<html>
+<head>
+    <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery.ui.touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    <script type="text/javascript" src="js/photoCollageMaker.js"></script>
+</head>
+<style type="text/css">
+    #frame-default {
+        width: 100%;
+        height: 100%;
+        background-color: #FFC0CB;
+    }
+</style>
+<body>
+<div class="pcm-img">
+    <p class="pcm-dimension" id="pcm-width"></p>
+    <div class="pcm-dimension rule_w"></div>
+    <div class="pcm-dimension rule_h"></div>
+    <p class="pcm-dimension" id="pcm-height"></p>
+    <div class ="pcm-x" id="frame-default"><input class="pcm-collage" type="file" accept="image/jpeg, image/png"><img></div>
+</div>
+<input class="pcm-btn-Preview-Image" type="button" value="Preview"/>
+<div class="pcm-previewImage"></div>
+<script type="text/javascript">
+    $( function() {
+        $( ".pcm-img" ).resizable({
+            containment: "body",
+            resize: function(e, ui) {
+                $(".pcm-dimension").css("display", "block");
+                $(this).find("#pcm-width").text(Math.round(ui.size.width)+"px");
+                $(this).find("#pcm-height").text(Math.round(ui.size.height)+"px");
+
+                $(this).find('.pcm-x').each(function () {
+                    var frameHeight = $(this).css('height').replace("px", "");
+                    var frameWidth = $(this).css('width').replace("px", "");
+                    var frameRela = frameHeight/frameWidth;
+                    var imageHeight = $(this).find('img').css('height').replace("px", "");
+                    var imageWidth = $(this).find('img').css('width').replace("px", "");
+                    var imageRela = imageHeight/imageWidth;
+
+                    if (imageRela < frameRela) {
+                        $(this).find('img').css('height', '100%');
+                        $(this).find('img').css('width', 'unset');
+                    } else {
+                        $(this).find('img').css('width', '100%');
+                        $(this).find('img').css('height', 'unset');
+                    }
+                })
+            }
+        });
+        $(".pcm-x img").draggable({
+            stop: function(event, ui) {
+                if(($(this).position().top >= $(this).parent().height()) || ($(this).position().top <= -$(this).height()) || ($(this).position().left >= $(this).parent().width()) || ($(this).position().left <= -$(this).width()) ){
+                    $(this).css('top', 0);
+                    $(this).css('left', 0);
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

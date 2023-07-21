@@ -99,15 +99,23 @@ const get_video_source_from_input = async (input) => {
     await ffmpeg.load();
     const outputFilename = 'slideshow.mp4';
     try {
+        let isImage
         for (let i = 0; i < files.length; i++) {
             const file = files[i];
             const fileData = await fetchFile(file);
-            await ffmpeg.FS('writeFile', `input${i}.jpg`, fileData);
+            isImage = file.type.startsWith('image/');
+            await ffmpeg.FS('writeFile', `input${i}.${isImage ? 'jpg' : 'mp4'}`, fileData);
         }
-        const concatInputs = files.map((_, i) => `file 'input${i}.jpg'\nduration ${durationPerSlide}`);
+        const concatInputs = files.map((_, i) => `file 'input${i}.${isImage ? 'jpg' : 'mp4'}'${isImage ? `\nduration ${durationPerSlide}` : ''}`);
         const concatFileContent = concatInputs.join('\n');
+        let frameRateOptions 
+        if (isImage) {
+            frameRateOptions = '0.33';
+        } else {
+            frameRateOptions = '30';
+        }
         await ffmpeg.FS('writeFile', 'concat.txt', concatFileContent);
-        await ffmpeg.run('-f', 'concat', '-safe', '0', '-i', 'concat.txt', '-r', '0.33', outputFilename);
+        await ffmpeg.run('-f', 'concat', '-safe', '0', '-i', 'concat.txt', '-r', frameRateOptions,  '-preset', "superfast", outputFilename);
         const data = ffmpeg.FS('readFile', outputFilename);
         const videoBlob = new Blob([data.buffer], { type: 'video/mp4' });
         const videoUrl = URL.createObjectURL(videoBlob);

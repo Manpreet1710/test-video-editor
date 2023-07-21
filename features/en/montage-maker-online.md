@@ -3,12 +3,12 @@ layout: feature
 noBox: true
 folderName: feature
 lang: en
-permalink: slideshow-maker
-fileName: slideshow-maker
-tool: slideshow-maker
+permalink: montage-maker-online
+fileName: montage-maker-online
+tool: montage-maker-online
 format: mp4
 nointernationalization: true
-title:  Slideshow Maker
+title:  Montage Maker Online
 ---
 
 {% include VideoEditorIndex/slideshow-maker.html %}
