@@ -68,7 +68,7 @@
   ],
   "csscdns": [
     "<link rel=\"stylesheet\" href=\"/public/styles/VideoEditor/subtitleFeature.css\" crossorigin='anonymous' />",
-    "<link rel=\"stylesheet\" href=\"/css/slideshow-maker.css\" crossorigin='anonymous' />"
+    "<link rel=\"stylesheet\" href=\"/css/podcast-to-video.css\" crossorigin='anonymous' />"
     
   ]
 }

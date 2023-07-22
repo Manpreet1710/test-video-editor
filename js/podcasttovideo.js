@@ -122,11 +122,11 @@ let createPodcastVideo = document.querySelector(".createPodcastVideo")
 const checkboxElement = document.getElementById("wave");
 let audioWave = true
 function handleCheckboxChange() {
-  if (checkboxElement.checked) {
-    audioWave = true
-  } else {
-    audioWave =false
-  }
+    if (checkboxElement.checked) {
+        audioWave = true
+    } else {
+        audioWave = false
+    }
 }
 checkboxElement.addEventListener("change", handleCheckboxChange);
 
@@ -149,6 +149,8 @@ function get_images_source_from_input(input) {
 }
 let isRecordingComplete = false;
 let isConversionInProgress = false;
+let audioCtx;
+let source;
 const get_video_source_from_input = async (input) => {
     showLoader()
     openModal()
@@ -159,14 +161,15 @@ const get_video_source_from_input = async (input) => {
     try {
         createPodcastVideo.addEventListener("click", () => {
             closeModal()
+          
             if (VideoSourceFile) {
                 const reader = new FileReader();
                 reader.readAsArrayBuffer(VideoSourceFile);
                 reader.addEventListener("load", async function () {
                     const audioData = reader.result;
-                    let audioCtx = new AudioContext();
+                    audioCtx = new AudioContext();
                     audioCtx.decodeAudioData(audioData, function (buffer) {
-                        let source = audioCtx.createBufferSource();
+                        source = audioCtx.createBufferSource();
                         source.buffer = buffer;
                         let analyser = audioCtx.createAnalyser();
                         analyser.fftSize = 2048;
@@ -186,6 +189,7 @@ const get_video_source_from_input = async (input) => {
                                     blob = recorder.getBlob();
                                     isRecordingComplete = true;
                                     if (isConversionInProgress) {
+                                        document.querySelector(".download-modal-container").style.display = "none"
                                         await convertVideoToMP4(blob, audioFile);
                                         isConversionInProgress = false; // Reset the flag after the conversion is done
                                     }
@@ -206,22 +210,22 @@ const get_video_source_from_input = async (input) => {
                             }
                             requestAnimationFrame(drawMusicVisualization);
                             analyser.getByteFrequencyData(dataArray);
-
-                            if(audioWave){
-                            let barWidth = (3000 / bufferLength) * 2.5;
-                            let barHeight;
-                            let x = 0;
-                            for (let i = 0; i < bufferLength; i++) {
-                                barHeight = dataArray[i] / 2;
-                                canvasCtx.fillStyle = "white";
-                                canvasCtx.fillRect(
-                                    x,
-                                    HEIGHT - (barHeight / 2) * 1.5,
-                                    barWidth,
-                                    barHeight
-                                );
-                                x += barWidth + 1;
-                            }}
+                            if (audioWave) {
+                                let barWidth = (3000 / bufferLength) * 2.5;
+                                let barHeight;
+                                let x = 0;
+                                for (let i = 0; i < bufferLength; i++) {
+                                    barHeight = dataArray[i] / 2;
+                                    canvasCtx.fillStyle = "white";
+                                    canvasCtx.fillRect(
+                                        x,
+                                        HEIGHT - (barHeight / 2) * 1.5,
+                                        barWidth,
+                                        barHeight
+                                    );
+                                    x += barWidth + 1;
+                                }
+                            }
                         }
                     });
 
@@ -231,6 +235,7 @@ const get_video_source_from_input = async (input) => {
     } catch (error) {
     }
 }
+
 
 async function setupRecorder() {
     let canvasStream = canvas.captureStream();
@@ -309,14 +314,19 @@ async function convertVideoToMP4(blob, audioFile) {
     URL.revokeObjectURL(url);
     ffmpeg.exit();
 }
+
 downloadButton.addEventListener("click", async function () {
     if (!isRecordingComplete) {
-        showLoader();
-        console.log("loadding...");
+        if (audioCtx && audioCtx.state === "running") {
+            audioCtx.suspend();
+        }
+        document.querySelector(".download-modal-container").style.display = "flex"
         isConversionInProgress = true;
         return;
     }
 
+
+  
     // If recording is complete, proceed with the video conversion and other actions
     await convertVideoToMP4(blob, audioFile);
     audioElement.pause();

@@ -1,4 +1,119 @@
 
+  
+  input {
+    -webkit-appearance: none;
+    width: 700px;
+    background: transparent;
+    background-color: #3a4054;
+    padding: 0.5px;
+  }
+  
+  input::-webkit-slider-runnable-track {
+    height: 3px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 2px #57575780;
+  }
+  
+  input::-moz-range-track {
+    height: 5px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 2px #57575780;
+  }
+  
+  input:first-child::-webkit-slider-runnable-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  input:first-child::-moz-range-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* green track */
+  input:nth-child(2)::-webkit-slider-runnable-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  input:nth-child(2)::-moz-range-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* blue track  */
+  input:nth-child(3)::-webkit-slider-runnable-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  input:nth-child(3)::-moz-range-track {
+    background: rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  input::-webkit-slider-thumb:focus{
+    box-shadow: 0 0 5px red !important;
+  }
+  input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #0090ff;
+    outline: 2px solid white;
+    transform: translateY(-5px);
+    color: white;
+    cursor: pointer;
+  }
+  input::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: none;
+    background: #0090ff;
+    box-shadow: inset .5px .5px 1px #57575780;
+  }
+ 
+
+
+
+
+
+
+
+.custom-video-player{
+    position: relative;
+    background: #191b24;
+    z-index: 9999;
+    width: 700px;
+    height: 50px;
+}
+.video-slider{
+    position: absolute;
+    top: -19px;
+    cursor: pointer;
+}
+
+.video-time{
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.PlayButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.PlayIcon{
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
 .optionheading {
     color: #fff;
     font-weight: 900;

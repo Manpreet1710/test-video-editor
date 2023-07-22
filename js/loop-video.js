@@ -17,6 +17,10 @@ let SubSourceurl = null;
 var sourceBuffer = null
 let SubSourceBuffer = null;
 let type = null;
+let PlayButton = document.querySelector(".PlayButton")
+let playIcon = document.querySelector(".PlayIcon");
+let seekSlider = document.getElementById("seekSlider");
+let videoTime = document.querySelector(".video-time")
 
 // Drag and Drop Feature
 UploadButton.addEventListener("dragover", function (evt) {
@@ -129,7 +133,7 @@ const get_video_source_from_input = async (input) => {
                         output = ffmpeg.FS("readFile", outputFileName);
                         blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
                         const videoElement = document.querySelector('#VDemo');
-                        videoElement.controls = true;
+                        videoElement.controls = false;
                         videoElement.addEventListener('loadedmetadata', () => {
                             videoElement.play();
                         });
@@ -159,7 +163,7 @@ const get_video_source_from_input = async (input) => {
                         output = ffmpeg.FS("readFile", outputFileName);
                         blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
                         const videoElement = document.querySelector('#VDemo');
-                        videoElement.controls = true;
+                        videoElement.controls = false;
                         videoElement.addEventListener('loadedmetadata', () => {
                             videoElement.play();
                             document.querySelector(".audioMsg").innerHTML = `${msg}`
@@ -174,9 +178,29 @@ const get_video_source_from_input = async (input) => {
                 output = ffmpeg.FS("readFile", outputFileName);
                 blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
                 const videoElement = document.querySelector('#VDemo');
-                videoElement.controls = true;
+                videoElement.controls = false;
+
+
+
+                videoElement.addEventListener("timeupdate", () => {
+                    seekSlider.value = videoElement.currentTime;
+                    updateDurationText();
+                });
+                seekSlider.addEventListener("input", () => {
+                    videoElement.currentTime = seekSlider.value;
+                    updateDurationText();
+                });
+
+                // Update the duration text dynamically
+                function updateDurationText() {
+                    const currentTime = formatTime(videoElement.currentTime);
+                    const totalDuration = formatTime(videoElement.duration);
+                    videoTime.innerHTML = `${currentTime}&nbsp;/&nbsp;<span style="color:#5c647e">${totalDuration}</span>`;
+                }
+
                 videoElement.addEventListener('loadedmetadata', () => {
-                    videoElement.play();
+                    updateDurationText();
+                    seekSlider.max = videoElement.duration;
                     const seconds = parseInt(videoElement.duration);
                     const minutes = Math.floor(seconds / 60);
                     const remainingSeconds = seconds % 60;
@@ -186,8 +210,21 @@ const get_video_source_from_input = async (input) => {
                     } else {
                         formattedDuration = `${minutes} minute ${remainingSeconds} seconds`;
                     }
-                    // console.log(formattedDuration);
                     document.querySelector(".finalOuputText").innerHTML = `The final output will be <p class="videoTime" style="color: #fff !important;">${formattedDuration}</p>`
+                });
+
+                function togglePlayPause() {
+                    if (videoElement.paused) {
+                        videoElement.play();
+                        playIcon.style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/pause.svg')";
+                    } else {
+                        videoElement.pause();
+                        playIcon.style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/play.svg')";
+                    }
+                }
+                PlayButton.addEventListener("click", togglePlayPause);
+                videoElement.addEventListener('ended', () => {
+                    document.querySelector(".PlayIcon").style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/play.svg')";
                 });
                 videoElement.src = URL.createObjectURL(blob);
                 const videoEditor = document.querySelector('.videoEditor');
@@ -205,6 +242,12 @@ const get_video_source_from_input = async (input) => {
     } catch (error) {
 
     }
+}
+
+function formatTime(time) {
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+    return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
 
