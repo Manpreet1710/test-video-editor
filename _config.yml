@@ -23,10 +23,10 @@ showusps: true
 safeui: true
 pwa: true
 newFeatureBox: true
-monumetricId: true
+monumetricId: false
 removeJquery: true
 removeBootstrapJs: true
-versioning: true
+versioning: false
 developerKey: AIzaSyD4wrfi4Ga-uTH2O4f6DFEhby1I68UQvN8
 clientId: 862003477277-6c2jd8ggqvqpmbae6671umo1c83eidug.apps.googleusercontent.com
 appId: 862003477277

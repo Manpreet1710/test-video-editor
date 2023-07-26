@@ -668,6 +668,7 @@ const get_video_source_from_input = async (input) => {
         await fetch_and_load_Video_to_FFmpeg()
         //generate Frames in FrameLayer
         video = videoSource.cloneNode(true)
+        console.log(video);
         video.addEventListener('loadeddata', async function () {
           await generateFrames(this)
         })
@@ -738,6 +739,7 @@ async function generateFrames(e) {
     img.setAttribute('src', dataURL)
     img.classList.add('Animate')
     FramesLayer.appendChild(img)
+    console.log(FramesLayer);
     i = i + FrameStep
     let progressPercent = (i * 100) / duration
     progressPercent < 100

@@ -324,9 +324,6 @@ downloadButton.addEventListener("click", async function () {
         isConversionInProgress = true;
         return;
     }
-
-
-  
     // If recording is complete, proceed with the video conversion and other actions
     await convertVideoToMP4(blob, audioFile);
     audioElement.pause();

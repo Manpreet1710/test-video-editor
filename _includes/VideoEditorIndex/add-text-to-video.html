@@ -1,0 +1,261 @@
+<link rel="stylesheet" href="/public/styles/VideoEditor/subtitleFeature.css" crossorigin>
+
+<style>
+    #video-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    #video {
+        max-width: 100%;
+    }
+
+    #text-overlay {
+        position: absolute;
+        font-size: 24px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        padding: 5px;
+        cursor: move;
+        pointer-events: auto;
+        user-select: none;
+        /* Prevent text selection */
+    }
+</style>
+<div class="row">
+    <div class="col-md-9 mx-auto">
+        <div class="box" style="width:100%" id="temp_box1">
+            <div class="box-border" id="temp_box2"></div>
+            <div class="Landing">
+                <div class="ProgressBar"></div>
+                <label class="Button" for="files">
+
+                    <div class="m-auto ">
+                        <svg class='d-none video-svg mb-4' enable-background="new 0 0 55.125 55.125" version="1.1"
+                            viewBox="0 0 55.125 55.125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="white"
+                                d="m4.167 47.007h46.792c2.302 0 4.167-1.866 4.167-4.167v-30.555c0-2.301-1.865-4.167-4.167-4.167h-46.792c-2.301 0-4.167 1.866-4.167 4.167v30.555c0 2.301 1.866 4.167 4.167 4.167zm26.604-2.925h-6.418v-3.965h6.418v3.965zm15.294-32.944h6.418v3.965h-6.418v-3.965zm-0.19 28.979h6.419v3.965h-6.419v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965zm-10.571-28.979h6.418v3.965h-6.418v-3.965zm-1.8 9.579 9.639 4.82c2.237 1.119 2.237 2.933 0 4.051l-9.639 4.821c-2.237 1.118-4.052-3e-3 -4.052-2.506v-8.681c-1e-3 -2.502 1.814-3.623 4.052-2.505zm-8.961-9.579h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.418v3.965h-6.418v-3.965zm-10.572-28.979h6.419v3.965h-6.419v-3.965zm-0.189 28.979h6.419v3.965h-6.419v-3.965z"
+                                fill="#fff" />
+                        </svg>
+                        <div class=" d-flex justify-content-center align-items-center ">
+                            <div style="background:#0090ff; color:#fff;" id="ButtonLabel" class="InputButton"
+                                class="boxes">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                    <path
+                                        d="M14.0036 1.99646L17.0036 4.99646L16.999 4.99946L17 5.00001V13H16V5.99946L13 6.00001V2.99946H4V17.9995L12.0275 18.0003C12.0093 17.8361 12 17.6691 12 17.5C12 15.0147 14.0147 13 16.5 13C18.9853 13 21 15.0147 21 17.5C21 19.9853 18.9853 22 16.5 22C14.5409 22 12.8742 20.7481 12.2563 19.0007L3 19V2.00001H14L14.0036 1.99646ZM16.5 14C14.567 14 13 15.567 13 17.5C13 19.433 14.567 21 16.5 21C18.433 21 20 19.433 20 17.5C20 15.567 18.433 14 16.5 14ZM17 15V16.9995L19 17V18L17 17.9995V20H16V17.9995L14 18V17L16 16.9995V15H17ZM11 14V15H6V14H11ZM14 11V12H6V11H14ZM14 8.00001V9.00001H6V8.00001H14ZM14 3.40746V4.99946H15.592L14 3.40746Z">
+                                    </path>
+                                </svg> <span class='ml-2'>CHOOSE FILE</span>
+                            </div>
+                            <div class="file-pick-dropdown" style="background:#0090ff; color:#fff;">
+                                <i class="fas fa-angle-down arrow-sign "></i>
+                                <div class="file-picker-dropdown" style="display: none;">
+                                    <button id="dropbox"> <svg viewBox="0 0 24 24" fill="#0061FF"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="icon"
+                                                d="M12.0146 6.57367L6.50732 10.1473L12.0146 13.721L6.50732 17.2947L1 13.6912L6.50732 10.1176L1 6.57367L6.50732 3L12.0146 6.57367ZM6.47803 18.4263L11.9854 14.8527L17.4927 18.4263L11.9854 22L6.47803 18.4263ZM12.0146 13.6912L17.522 10.1176L12.0146 6.57367L17.4927 3L23 6.57367L17.4927 10.1473L23 13.721L17.4927 17.2947L12.0146 13.6912Z">
+                                            </path>
+                                        </svg> From Dropbox</button>
+                                    <button id='filepicker'> <svg viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="Path" d="M8.33331 3H15.6666L23 15H15.6666L8.33331 3Z"
+                                                fill="#FFC107">
+                                            </path>
+                                            <path id="Path_2" d="M4.6012 21L8.30086 15H23L19.3333 21H4.6012Z"
+                                                fill="#1976D2">
+                                            </path>
+                                            <path id="Path_3" d="M1 15.0625L4.60119 21L12 9L8.33333 3L1 15.0625Z"
+                                                fill="#4CAF50"></path>
+                                        </svg> From Google Drive</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <label for="files" id="ButtonLabel" class="InputButton"></label>  -->
+                    <input id="files" style="visibility:hidden;" type="file"
+                        onchange="get_video_source_from_input(this)" accept=".mp4">
+                </label>
+                <div class="Landingtext">or drop your video file here</div>
+                <div class="Spinner"></div>
+            </div>
+            <div class="Workspace">
+                <div class="Settings d-none">
+                    <div class="VideoFile">
+                        <video src="" crossorigin controls></video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid videoEditor" style="position:absolute;display: none;top: 0;z-index: 1080;height: 100%;"
+    id="EditBox">
+    <div class="row fixed-top">
+        <div class="mobileColumn col-md-3 pl-5 pr-0 pt-3"
+            style="background-color: #191b24;justify-content: center;overflow-y:scroll; overflow-x: hidden;  border: 1px solid black;z-index: 1; height: 100vh;">
+
+            <div class="goBack text-left text-white">
+                <a class="text-white" style="text-decoration: underline;" href="/loop-video">Go Back</a>
+            </div>
+            <div class="optionheading feature-heading">
+                Add Text to Video
+            </div>
+
+            <div class="option-settings">
+                <p class="text-left" style="color: #b4bad0;">Add your text and edit it</p>
+                <div class="txtBox">
+                    <textarea value="Your text here" placeholder="Your text here..." id="yourText" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="option-settings mt-3">
+                <div class="d-flex" style="gap:10px">
+                    <div class="font-select">
+                        <select id="font-name-select">
+                            <option value="/path/to/arial.ttf">Arial</option>
+                            <option value="/path/to/AlfaSlabOne-Regular.ttf">Alfa Slab One</option>
+                            <option value="/path/to/BerkshireSwash-Regular.ttf">Berkshire Swash</option>
+                            <option value="/path/to/BlackOpsOne-Regular.ttf">Black Ops One</option>
+                            <option value="/path/to/Comfortaa-Regular.ttf">Comfortaa</option>
+                            <option value="/path/to/Creepster-Regular.ttf">Creepster</option>
+                            <option value="/path/to/cursive.ttf">Cursive</option>
+                            <option value="/path/to/Lato-Regular.ttf">Lato</option>
+                            <option value="/path/to/OpenSans-Regular.ttf">Open Sans</option>
+                            <option value="/path/to/Pacifico-Regular.ttf">Pacifico</option>
+                            <option value="/path/to/Poppins-Regular.ttf">Poppins</option>
+                            <option value="/path/to/Roboto-Regular.ttf">Roboto</option>
+                            <option value="/path/to/Sacramento-Regular.ttf">Sacramento</option>
+                            <option value="/path/to/SpicyRice-Regular.ttf">Spicy Rice</option>
+                            <option value="/path/to/Underdog-Regular.ttf">Underdog</option>
+                            <option value="/path/to/YatraOne-Regular.ttf">Yatra One</option>
+
+
+                        </select>
+                    </div>
+                    <div class="font-size">
+                        <select id="font-size-select">
+                            <option value="72">72px</option>
+                            <option value="50">50px</option>
+                            <option value="62">62px</option>
+                            <option value="80">80px</option>
+                            <option value="90">90px</option>
+                            <option value="100">100px</option>
+                            <option value="120">120px</option>
+                            <option value="150">150px</option>
+                            <option value="200">200px</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="option-settings mt-3">
+                <div class="bgBox" onclick="toggleTxtColorPicker()">
+                    <div class="innerColorBox">
+                        <div class="ColorSelect"></div>
+                    </div>
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"
+                        style="font-size: 20px; fill: rgb(180, 186, 208);width:20px;height:20px;">
+                        <path
+                            d="M12.896 1.553l.048.117 7 20c.182.52-.092 1.091-.614 1.274-.484.17-1.01-.055-1.229-.506l-.045-.108L15.841 16H8.159l-2.215 6.33c-.17.484-.674.756-1.162.646l-.112-.032c-.484-.17-.756-.674-.646-1.162l.032-.112 7-20c.298-.853 1.463-.891 1.84-.117zM12 5.026L8.859 14h6.282L12 5.026z">
+                        </path>
+                    </svg>
+                    <input type="color" id="txtcolorPicker">
+                </div>
+            </div>
+
+
+            <div class="option-settings mt-4">
+                <p class="text-left" style="color: #b4bad0;">Background Color</p>
+                <div class="bgBox" onclick="toggleColorPicker()">
+                    <div class="innerBgBox">
+                        <div class="noColorSelect"></div>
+                    </div>
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"
+                        style="font-size: 20px; fill: rgb(180, 186, 208);width:20px;height:20px;">
+                        <path
+                            d="M19 3c1.105 0 2 .895 2 2v14c0 1.105-.895 2-2 2H5c-1.105 0-2-.895-2-2V5c0-1.105.895-2 2-2h14zm-6.94 2h-.12l-.105.012-.058.012-.09.024c-.094.032-.183.077-.265.134l-.095.077-.088.09-.055.071-.061.099-.046.095-5 12-.038.11c-.138.481.103 1 .577 1.197.473.198 1.012.004 1.256-.433l.051-.105 1.41-3.385h5.334l1.41 3.385.051.105c.245.437.783.63 1.257.433.473-.197.715-.716.577-1.197l-.039-.11-5-12-.05-.105-.077-.116-.056-.068-.069-.068-.092-.075c-.062-.043-.128-.08-.197-.108l-.124-.042-.117-.024-.08-.008zM12 8.598l1.833 4.4h-3.666L12 8.598z">
+                        </path>
+                    </svg>
+                    <input type="color" id="colorPicker">
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="col-md-9" id="VContainer" style="background-color: #000;border: 1px solid black;z-index:-1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;">
+
+
+            <div class="pos-relative" style="position:relative; top:-5vh">
+                <div id="video-container">
+                    <video src="" crossorigin type="video/mp4" controls
+                        style="width: 700px;  margin:0 auto;height: auto;" id="VDemo"></video>
+                    <div style="width:200px" id="text-overlay" contenteditable>Your text here...</div>
+                </div>
+
+                <div class="custom-video-player pos-relative">
+                    <div class="video-slider">
+                        <input type="range" id="seekSlider" min="0" step="0.1" value="0">
+                    </div>
+                    <div class="PlayButton">
+                        <div class="PlayIcon"
+                            style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
+                        </div>
+                        <div class="video-time">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row fixed-bottom" id="endButton" style="background-color: #191b24;
+                border: 2px solid #34394e;
+                padding: 10px;
+                z-index: 2;
+                height: 12vh;
+                display: flex;
+                align-items: center;">
+                <div class="w-100 pr-3 text-right">
+                    <button id="exportBtn" type="button" class="btn text-white"
+                        style="background: #0090ff;   border-radius: 30px;">Export</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="download-modal-container" style="display: none;">
+    <div id="download-modal">
+        <div class="download-modal-body" style="position: absolute;">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- <p id="warn-message" class="text-center">
+                Please wait! your download will start in few seconds
+            </p> -->
+        </div>
+    </div>
+</div>
