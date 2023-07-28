@@ -30,6 +30,8 @@ let ColorSelect = document.querySelector(".ColorSelect")
 let innerColorBox = document.querySelector(".innerColorBox")
 let fontSizeSelect = document.querySelector("#font-size-select")
 let fontNameSelect = document.querySelector("#font-name-select")
+const colorBoxes = document.querySelectorAll('.txtColorBox');
+let bgColorBoxes = document.querySelectorAll('.bgColorBox');
 
 
 function toggleColorPicker() {
@@ -112,15 +114,14 @@ dropbox.addEventListener(
     }
 )
 
-var InputFormat = "mp4"
-var outputFormat = "mp4"
+let InputFormat = "mp4"
+let outputFormat = "mp4"
+
 //top/center :x=(w-tw)/2:y=10:
 //top/left :x=10:y=10:
 //top/right :x=w-tw-10:y=10
 //bottom/left :x=10:y=h-th-10:
 //botom/right :x=w-tw-10:y=h-th-1
-
-
 
 const convertVideo = async (ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName) => {
     await ffmpeg.run(
@@ -131,65 +132,160 @@ const convertVideo = async (ffmpeg, inputFileName, vfCommand, textToAdd, textSiz
         outputFileName
     );
 };
-let vfCommand
-async function updateVFCommand(x, y, width, height) {
-    y = Math.trunc(y);
-    // vfCommand = `x=${x}:y=${y}:w=${width}:h=${height}`;
-    // console.log(vfCommand);
 
+let vfCommand
+let x = 10 // left
+let y = 156 //top
+// let textOverlay = document.getElementById('text-overlay');
+// async function initializeTextOverlay(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName) {
+//     const video = document.getElementById('VDemo');
+//     const containerWidth = video.offsetWidth;
+//     const containerHeight = video.offsetHeight;
+//     const textWidth = textOverlay.offsetWidth;
+//     const textHeight = textOverlay.offsetHeight;
+//     const initialX = (containerWidth - textWidth) / 2;
+//     const initialY = (containerHeight - textHeight) / 2;
+//     textOverlay.style.left = `${initialX}px`;
+//     textOverlay.style.top = `${initialY}px`;
+//     // Make the text overlay draggable
+//     let isDragging = false;
+//     let offsetX, offsetY;
+//     textOverlay.addEventListener('mousedown', (e) => {
+//         isDragging = true;
+//         offsetX = e.clientX - textOverlay.getBoundingClientRect().left;
+//         offsetY = e.clientY - textOverlay.getBoundingClientRect().top;
+//     });
+
+//     document.addEventListener('mousemove', (e) => {
+//         if (isDragging) {
+//             const x = e.clientX - offsetX;
+//             const y = e.clientY - offsetY;
+//             updateTextPosition(x, y);
+//         }
+//     });
+
+//     document.addEventListener('mouseup',async () => {
+//         if (isDragging) {
+//             isDragging = false;
+//             console.log("Updated vfCommand:", vfCommand);
+//             // await convertVideo(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
+//             // output = ffmpeg.FS("readFile", outputFileName);
+//             // blob = new Blob([output.buffer], { type: `video/mp4` });
+//             // const videoElement = document.querySelector('#VDemo');
+//             // videoElement.controls = false;
+//             // videoElement.src = URL.createObjectURL(blob);
+//         }
+//     });
+
+//     async function updateTextPosition(x, y) {
+//         const minX = 0;
+//         const maxX = containerWidth - textWidth;
+//         const minY = 0;
+//         const maxY = containerHeight - textHeight;
+//         const constrainedX = Math.min(Math.max(x, minX), maxX);
+//         const constrainedY = Math.min(Math.max(y, minY), maxY);
+//         textOverlay.style.left = `${constrainedX}px`;
+//         textOverlay.style.top = `${constrainedY}px`;
+//         x = parseInt(constrainedX);
+//         y = parseInt(constrainedY);
+//         vfCommand = `x=${x}:y=${y}`
+//     }
+
+// }
+
+
+let isQueueEmpty = true;
+const commandQueue = [];
+async function addToQueue(commandFn) {
+  // Add the command to the queue
+  commandQueue.push(commandFn);
+
+  // If the queue was empty, start processing commands
+  if (isQueueEmpty) {
+    isQueueEmpty = false;
+    await processQueue();
+  }
 }
+async function processQueue() {
+  // If the queue is empty, mark it as empty and return
+  if (commandQueue.length === 0) {
+    isQueueEmpty = true;
+    return;
+  }
+
+  // Get the next command from the queue
+  const commandFn = commandQueue.shift();
+
+  try {
+    // Execute the command
+    await commandFn();
+  } catch (error) {
+    // Handle errors here if needed
+    console.error("Error processing command:", error);
+  }
+
+  // Process the next command in the queue
+  await processQueue();
+}
+
+let isDragging = false;
+let offsetX, offsetY;
 let textOverlay = document.getElementById('text-overlay');
-function initializeTextOverlay() {
+
+async function initializeTextOverlay(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName) {
     const video = document.getElementById('VDemo');
     const containerWidth = video.offsetWidth;
     const containerHeight = video.offsetHeight;
     const textWidth = textOverlay.offsetWidth;
     const textHeight = textOverlay.offsetHeight;
-
     const initialX = (containerWidth - textWidth) / 2;
     const initialY = (containerHeight - textHeight) / 2;
-    console.log(containerWidth);
-
     textOverlay.style.left = `${initialX}px`;
     textOverlay.style.top = `${initialY}px`;
 
     // Make the text overlay draggable
-    let isDragging = false;
-    let offsetX, offsetY;
+    textOverlay.addEventListener('mousedown', handleMouseDown);
+    textOverlay.addEventListener('mousemove', handleMouseMove);
+    textOverlay.addEventListener('mouseup', handleMouseUp);
 
-    textOverlay.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        offsetX = e.clientX - textOverlay.getBoundingClientRect().left;
-        offsetY = e.clientY - textOverlay.getBoundingClientRect().top;
-    });
+    async function handleMouseDown(e) {
+        if (e.target === textOverlay) {
+            isDragging = true;
+            offsetX = e.clientX - parseFloat(textOverlay.style.left);
+            offsetY = e.clientY - parseFloat(textOverlay.style.top);
+        }
+    }
 
-    document.addEventListener('mousemove', (e) => {
+    async function handleMouseMove(e) {
         if (isDragging) {
             const x = e.clientX - offsetX;
             const y = e.clientY - offsetY;
             updateTextPosition(x, y);
         }
-    });
+    }
 
-    document.addEventListener('mouseup', () => {
+    async function handleMouseUp() {
         isDragging = false;
-    });
+        console.log("Updated vfCommand:", vfCommand);
+        await convertVideo(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
+        output = ffmpeg.FS("readFile", outputFileName);
+        blob = new Blob([output.buffer], { type: `video/mp4` });
+        const videoElement = document.querySelector('#VDemo');
+        videoElement.controls = false;
+        videoElement.src = URL.createObjectURL(blob);
+    }
 
-    // Function to update the text overlay position
-    function updateTextPosition(x, y) {
+    async function updateTextPosition(x, y) {
         const minX = 0;
         const maxX = containerWidth - textWidth;
         const minY = 0;
         const maxY = containerHeight - textHeight;
-
         const constrainedX = Math.min(Math.max(x, minX), maxX);
         const constrainedY = Math.min(Math.max(y, minY), maxY);
-
         textOverlay.style.left = `${constrainedX}px`;
         textOverlay.style.top = `${constrainedY}px`;
-        updateVFCommand(constrainedX, constrainedY, textWidth, textHeight);
+        vfCommand = `x=${constrainedX}:y=${constrainedY}`;
     }
-
 }
 
 const get_video_source_from_input = async (input) => {
@@ -205,8 +301,8 @@ const get_video_source_from_input = async (input) => {
             let fontFilePath = "/path/to/arial.ttf";
             let textToAdd = "Your text here...";
             yourText.value = textToAdd;
-            let backgroundColor = "0x000000";
-            let textColor = "red";
+            let backgroundColor = "black@0";
+            let textColor = "black";
             let textSize = "72";
 
             reader.addEventListener("load", async function () {
@@ -218,7 +314,7 @@ const get_video_source_from_input = async (input) => {
                 await ffmpeg.FS("writeFile", fontFilePath.split("/").pop(), await fetchFile(fontFilePath));
                 ffmpeg.FS("writeFile", inputFileName, new Uint8Array(inputBuffer));
 
-                vfCommand = "x=(w-tw)/2:y=(h/2)-(lh/2)"
+                vfCommand = `x=${x}:y=${y}`
                 await convertVideo(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
 
                 let output
@@ -235,7 +331,6 @@ const get_video_source_from_input = async (input) => {
                     videoElement.src = URL.createObjectURL(blob);
                     document.querySelector(".download-modal-container").style.display = "none"
                 });
-                console.log(textOverlay);
                 textOverlay.addEventListener('input', async (e) => {
                     videoOverlayLoader()
                     textToAdd = textOverlay.innerText
@@ -273,6 +368,7 @@ const get_video_source_from_input = async (input) => {
                     videoElement.src = URL.createObjectURL(blob);
                     document.querySelector(".download-modal-container").style.display = "none"
                 });
+
                 txtcolorPicker.addEventListener("change", async (e) => {
                     videoOverlayLoader()
                     textColor = e.target.value
@@ -288,6 +384,25 @@ const get_video_source_from_input = async (input) => {
                     videoElement.src = URL.createObjectURL(blob);
                     document.querySelector(".download-modal-container").style.display = "none"
                 });
+
+                colorBoxes.forEach(colorBox => {
+                    colorBox.addEventListener('click', async (event) => {
+                        const dataColor = event.target.getAttribute('data-color');
+                        innerColorBox.style.backgroundColor = dataColor
+                        videoOverlayLoader()
+                        textColor = dataColor
+                        ColorSelect.style.background = "none"
+                        txtcolorPicker.style.display = "block"
+                        await convertVideo(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
+                        output = ffmpeg.FS("readFile", outputFileName);
+                        blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
+                        const videoElement = document.querySelector('#VDemo');
+                        videoElement.controls = false;
+                        videoElement.src = URL.createObjectURL(blob);
+                        document.querySelector(".download-modal-container").style.display = "none"
+                    });
+                });
+
                 colorPicker.addEventListener("change", async (e) => {
                     videoOverlayLoader()
                     backgroundColor = e.target.value
@@ -301,6 +416,29 @@ const get_video_source_from_input = async (input) => {
                     videoElement.controls = false;
                     videoElement.src = URL.createObjectURL(blob);
                     document.querySelector(".download-modal-container").style.display = "none"
+                });
+
+                bgColorBoxes.forEach(colorBox => {
+                    colorBox.addEventListener('click', async (event) => {
+                        videoOverlayLoader()
+                        const dataColorValue = event.currentTarget.getAttribute('data-color-value');
+                        if (dataColorValue == "black@0") {
+                            noColorSelect.style.background = "url(/transparent-color-oval.svg)"
+                        } else {
+                            noColorSelect.style.background = "none"
+                        }
+                        backgroundColor = dataColorValue
+                        innerBgBox.style.backgroundColor = dataColorValue
+                        colorPicker.style.display = "block"
+                        await convertVideo(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
+                        output = ffmpeg.FS("readFile", outputFileName);
+                        blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
+                        const videoElement = document.querySelector('#VDemo');
+                        videoElement.controls = false;
+                        videoElement.src = URL.createObjectURL(blob);
+                        document.querySelector(".download-modal-container").style.display = "none"
+
+                    });
                 });
 
                 output = ffmpeg.FS("readFile", outputFileName);
@@ -354,7 +492,7 @@ const get_video_source_from_input = async (input) => {
                 videoElement.src = URL.createObjectURL(blob);
                 const videoEditor = document.querySelector('.videoEditor');
                 videoEditor.style.display = "block"
-                initializeTextOverlay()
+                initializeTextOverlay(ffmpeg, inputFileName, vfCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName)
                 document.querySelector("#exportBtn").addEventListener("click", ((e) => {
                     let a = document.createElement("a")
                     a.href = URL.createObjectURL(blob)

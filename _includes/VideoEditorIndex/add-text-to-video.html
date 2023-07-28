@@ -22,6 +22,49 @@
         user-select: none;
         /* Prevent text selection */
     }
+
+    .txtColorBox,
+    .bgColorBox {
+        overflow: hidden;
+        position: relative;
+        height: 23px;
+        width: 23px;
+        border-radius: 100%;
+        cursor: pointer;
+        outline: 6px solid #303445;
+    }
+
+    .txtColorBox:nth-child(2) {
+        background-color: #000;
+    }
+
+    .txtColorBox:nth-child(3) {
+        background-color: #fff;
+    }
+
+    .txtColorBox:nth-child(4) {
+        background-color: yellow;
+    }
+
+    .txtColorBox:nth-child(5) {
+        background-color: blue;
+    }
+
+    .txtColorBox:nth-child(6) {
+        background-color: #F11A7B;
+    }
+
+    .bgColorBox:nth-child(2) {
+        background-color: #fff;
+    }
+
+    .bgColorBox:nth-child(3) {
+        background-color: #000;
+    }
+
+    .bgColorBox:nth-child(4) {
+        background-color: #fff;
+    }
 </style>
 <div class="row">
     <div class="col-md-9 mx-auto">
@@ -124,7 +167,7 @@
                             <option value="/path/to/Lato-Regular.ttf">Lato</option>
                             <option value="/path/to/OpenSans-Regular.ttf">Open Sans</option>
                             <option value="/path/to/Pacifico-Regular.ttf">Pacifico</option>
-                            <option value="/path/to/Poppins-Regular.ttf">Poppins</option>
+                            <option style="font-family: Poppins;" value="/path/to/Poppins-Regular.ttf">Poppins</option>
                             <option value="/path/to/Roboto-Regular.ttf">Roboto</option>
                             <option value="/path/to/Sacramento-Regular.ttf">Sacramento</option>
                             <option value="/path/to/SpicyRice-Regular.ttf">Spicy Rice</option>
@@ -151,10 +194,10 @@
 
             </div>
 
-            <div class="option-settings mt-3">
+            <div class="option-settings d-flex align-items-center mt-3" style="gap:20px">
                 <div class="bgBox" onclick="toggleTxtColorPicker()">
                     <div class="innerColorBox">
-                        <div class="ColorSelect"></div>
+                        <div class="d-none ColorSelect"></div>
                     </div>
                     <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"
                         style="font-size: 20px; fill: rgb(180, 186, 208);width:20px;height:20px;">
@@ -164,11 +207,16 @@
                     </svg>
                     <input type="color" id="txtcolorPicker">
                 </div>
+                <div data-color="black" class="txtColorBox"></div>
+                <div data-color="white" class="txtColorBox"></div>
+                <div data-color="yellow" class="txtColorBox"></div>
+                <div data-color="blue" class="txtColorBox"></div>
+                <div data-color="#F11A7B" class="txtColorBox"></div>
             </div>
 
 
-            <div class="option-settings mt-4">
-                <p class="text-left" style="color: #b4bad0;">Background Color</p>
+            <p class="text-left mt-4" style="color: #b4bad0;">Background Color</p>
+            <div class="option-settings d-flex align-items-center" style="gap:20px">
                 <div class="bgBox" onclick="toggleColorPicker()">
                     <div class="innerBgBox">
                         <div class="noColorSelect"></div>
@@ -181,6 +229,12 @@
                     </svg>
                     <input type="color" id="colorPicker">
                 </div>
+
+                <div data-color-value="black@0" class="bgColorBox">
+                    <div class="noselectcolor"></div>
+                </div>
+                <div data-color-value="black" class="bgColorBox"></div>
+                <div data-color-value="white" class="bgColorBox"></div>
 
             </div>
 
@@ -198,7 +252,7 @@
                 <div id="video-container">
                     <video src="" crossorigin type="video/mp4" controls
                         style="width: 700px;  margin:0 auto;height: auto;" id="VDemo"></video>
-                    <div style="width:200px" id="text-overlay" contenteditable>Your text here...</div>
+                    <div style="width:280px" id="text-overlay" contenteditable>Your text here...</div>
                 </div>
 
                 <div class="custom-video-player pos-relative">
@@ -209,9 +263,7 @@
                         <div class="PlayIcon"
                             style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
                         </div>
-                        <div class="video-time">
-
-                        </div>
+                        <div class="video-time"></div>
                     </div>
                 </div>
             </div>

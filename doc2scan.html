@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Scanned or Photocopied Look</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    #canvasContainer {
+      position: relative;
+    }
+
+    #outputCanvas {
+      display: none;
+      width: 500px;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    #imageInput {
+      margin-top: 20px;
+    }
+
+    #downloadButton {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #downloadButton:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="file" id="imageInput">
+  <canvas class="d-none" id="outputCanvas"></canvas>
+  <button id="downloadButton">Download scanned doc</button>
+
+  <script>
+    function applyGrayscaleEffect(image) {
+      return new Promise((resolve) => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set canvas size to match the fixed image size (500px * 500px)
+        canvas.width = image.width;
+        canvas.height = image.height;
+
+        // Draw the image on the canvas
+        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+        // Apply the grayscale effect manually
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const data = imageData.data;
+        for (let i = 0; i < data.length; i += 4) {
+          const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
+          data[i] = avg; // red
+          data[i + 1] = avg; // green
+          data[i + 2] = avg; // blue
+        }
+        ctx.putImageData(imageData, 0, 0);
+
+        resolve(canvas);
+      });
+    }
+
+    
+    function applyGrayscaleEffectToPage(canvas) {
+      const ctx = canvas.getContext('2d');
+
+      // Apply the grayscale effect manually to the entire canvas
+      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      const data = imageData.data;
+      for (let i = 0; i < data.length; i += 4) {
+        const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
+        data[i] = avg; // red
+        data[i + 1] = avg; // green
+        data[i + 2] = avg; // blue
+      }
+      ctx.putImageData(imageData, 0, 0);
+
+      return canvas;
+    }
+
+
+    function applyNoiseEffectToPage(canvas) {
+      const ctx = canvas.getContext('2d');
+      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      const data = imageData.data;
+      for (let i = 0; i < data.length; i += 4) {
+        // Increase the noise amount to create a more noisy effect
+        const noise = Math.random() * 60 - 30; // Adjust the noise amount as needed
+        data[i] += noise; // red
+        data[i + 1] += noise; // green
+        data[i + 2] += noise; // blue
+
+        // Add random black spots for additional scanned effect
+        if (Math.random() < 0.03) { // Adjust the probability (0.03 = 3%) for more or fewer spots
+          const blackSpot = Math.random() * 1880; // Adjust the black spot intensity
+          data[i] -= blackSpot; // red
+          data[i + 1] -= blackSpot; // green
+          data[i + 2] -= blackSpot; // blue
+        }
+      }
+      ctx.putImageData(imageData, 0, 0);
+
+      return canvas;
+    }
+
+
+    function applyScannedEffect(image) {
+      const canvas = document.getElementById('outputCanvas');
+      const ctx = canvas.getContext('2d');
+
+      // Set canvas size to match the A4 page size
+      const widthInCm = 21;
+      const heightInCm = 29.7;
+      const dpi = 300;
+      canvas.width = widthInCm * dpi / 2.54;
+      canvas.height = heightInCm * dpi / 2.54;
+
+      // Draw the A4 page background
+      ctx.fillStyle = '#f0f0f0'; // Set a light gray background color
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      applyGrayscaleEffectToPage(canvas);
+      applyNoiseEffectToPage(canvas);
+
+      // Load the image and draw it on the canvas
+      const grayscaleImage = new Image();
+      grayscaleImage.onload = function () {
+        // Calculate padding
+        const padding = 50; // You can adjust the padding value here as needed
+        const availableWidth = canvas.width - padding * 2;
+        const scale = availableWidth / grayscaleImage.width;
+        const scaledWidth = grayscaleImage.width * scale;
+        const scaledHeight = grayscaleImage.height * scale;
+
+        // Draw the grayscale image on top of the A4 canvas with padding
+        const xOffset = (canvas.width - scaledWidth) / 2;
+        const yOffset = padding; // Set yOffset to padding to place the image on top
+        ctx.drawImage(grayscaleImage, xOffset, yOffset, scaledWidth, scaledHeight);
+
+        // Apply watermark text
+        ctx.font = 'bold 80px Arial';
+        ctx.fillStyle = 'blue'; // Adjust the watermark color and opacity
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        const watermarkText = 'Visit us at safepdfkit.com'; // The watermark text
+        ctx.fillText(watermarkText, canvas.width / 2, canvas.height / 2);
+      };
+      grayscaleImage.onerror = function () {
+        alert('Error loading the image.');
+      };
+      grayscaleImage.src = image.toDataURL();
+      return grayscaleImage;
+    }
+
+    function handleImageUpload(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      if (!file.type.startsWith('image/')) {
+        alert('Please select an image file.');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = function () {
+        const img = new Image();
+        img.onload = async function () {
+          // Apply grayscale effect to the uploaded image
+          const grayscaleCanvas = await applyGrayscaleEffect(this);
+
+          // Apply the scanned effect with the grayscale image on top of the A4 page
+          applyScannedEffect(grayscaleCanvas);
+        };
+        img.onerror = function () {
+          alert('Error loading the image.');
+        };
+        img.src = reader.result;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // Function to download image as A4 page
+    function downloadAsA4Page() {
+      const canvas = document.getElementById('outputCanvas');
+
+      // Convert canvas to an image and initiate the download
+      const downloadLink = document.createElement('a');
+      downloadLink.href = canvas.toDataURL();
+      downloadLink.download = 'scanned_page.png';
+      downloadLink.click();
+    }
+
+
+    const downloadButton = document.getElementById('downloadButton');
+    downloadButton.addEventListener('click', downloadAsA4Page);
+    const imageInput = document.getElementById('imageInput');
+    imageInput.addEventListener('change', handleImageUpload);
+
+  </script>
+</body>
+
+</html>
+
+
+
+<!-- // Function to apply thresholding and convert the grayscale image to black and white
+function applyThresholding(canvas, threshold) {
+  const ctx = canvas.getContext('2d');
+  const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  const data = imageData.data;
+
+  // Iterate through each pixel and set its color to black or white based on the threshold
+  for (let i = 0; i < data.length; i += 4) {
+    const averageColor = (data[i] + data[i + 1] + data[i + 2]) / 3;
+    const newColor = averageColor < threshold ? 0 : 255;
+
+    data[i] = newColor; // red
+    data[i + 1] = newColor; // green
+    data[i + 2] = newColor; // blue
+  }
+
+  ctx.putImageData(imageData, 0, 0);
+} -->
