@@ -62,8 +62,8 @@
         "<script src=\"/assets/js/googledrive.js\"></script>"
     ],
     "jsfilepaths": [
-        "https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.js",
         "/src/ffmpeg.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js",
         "/js/video-overlays.js"
     ],
     "csscdns": [

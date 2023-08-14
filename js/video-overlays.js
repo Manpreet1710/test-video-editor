@@ -340,9 +340,20 @@ const get_video_source_from_input = async (input) => {
 
                 fontNameSelect.addEventListener('change', async (e) => {
                     videoOverlayLoader()
-                    fontFilePath = e.target.value
-                    textOverlay.style.fontFamily = fontFilePath
-                    await ffmpeg.FS("writeFile", fontFilePath.split("/").pop(), await fetchFile(fontFilePath));
+                    const selectedOption = fontNameSelect.options[fontNameSelect.selectedIndex];
+                    const selectedText = selectedOption.innerText;
+                    textOverlay.style.fontFamily = selectedText;
+                   
+                     WebFont.load({
+                        google: {
+                            families: [`${selectedText}:200,300,400,500,600,700,800&display=swap`]
+                        },
+                        active: async () => {
+                            // Once the font is loaded, you can perform additional actions if needed
+                            fontFilePath = e.target.value;
+                            ffmpeg.FS("writeFile", fontFilePath.split("/").pop(), await fetchFile(fontFilePath));
+                        }
+                    });
                     document.querySelector(".download-modal-container").style.display = "none"
                 });
 
