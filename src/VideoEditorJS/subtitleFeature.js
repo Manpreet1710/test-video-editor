@@ -115,9 +115,9 @@ var Show_or_Hide_CancelProgressOverlay = (params) => {
 //     CurrentTime = consoleLog[0].slice(
 //       consoleLog[0].indexOf('time='),
 //       consoleLog[0].indexOf('time=') +
-//       consoleLog[0]
-//         .substring(consoleLog[0].indexOf('time='))
-//         .indexOf('bitrate=')
+//         consoleLog[0]
+//           .substring(consoleLog[0].indexOf('time='))
+//           .indexOf('bitrate=')
 //     )
 //   }
 //   if (consoleLog[0].indexOf('Duration:') != -1) {
@@ -134,8 +134,9 @@ var Show_or_Hide_CancelProgressOverlay = (params) => {
 //     videoTime = +tot[0] * 60 * 60 + +tot[1] * 60 + +tot[2]
 //     var percentage = (seconds / videoTime) * 100
 //     ProgressBar.style.width = percentage + '%'
-//     LandingText.innerHTML = `Please wait ,we are adding subtitles to your video in the most secure way<br><span>${percentage > 0 ? percentage.toFixed(0) : 0
-//       }%</span>`
+//     LandingText.innerHTML = `Please wait ,we are adding subtitles to your video in the most secure way<br><span>${
+//       percentage > 0 ? percentage.toFixed(0) : 0
+//     }%</span>`
 //   }
 // }
 const get_video_source_from_input = async (input) => {
@@ -148,6 +149,7 @@ const get_video_source_from_input = async (input) => {
     VFileSrc.src = URL.createObjectURL(VideoSourceFile);
     const reader = new FileReader()
     reader.readAsDataURL(VideoSourceFile)
+
     reader.addEventListener(
       'load',
       async function () {
@@ -170,14 +172,17 @@ const UploadSubs = async (input) => {
   document.querySelector(".box").style.background = "#a55eea"
   document.querySelector(".box").style.minHeight = "300px"
   document.querySelector(".box-border").style.display = "block"
+
   if (input.files.length > 0) {
     VideoSourceFile = input.files[0];
     let temporary = (VideoSourceFile.name).split('.');
     type = temporary[temporary.length - 1];
   }
+
   if (type == "vtt" || type == "srt") {
     const reader = new FileReader();
     reader.readAsDataURL(VideoSourceFile);
+
     reader.addEventListener(
       'load',
       async function () {
@@ -205,7 +210,7 @@ const fetch_and_load_Video_to_FFmpeg = async () => {
     InputButtonContainer.style.display = 'none'
     Workspace.style.display = 'none'
   }
-  
+
   sourceBuffer = await fetch(ActualSourceurl).then((r) => r.arrayBuffer())
   ffmpeg.FS(
     'writeFile',
@@ -230,7 +235,11 @@ const fetch_and_load_Subs_to_FFmpeg = async () => {
     }
   }
   SubSourceBuffer = await fetch(SubSourceurl).then((r) => r.arrayBuffer())
-  ffmpeg.FS('writeFile','subtitle.srt', new Uint8Array(SubSourceBuffer, 0, SubSourceBuffer.byteLength))
+  ffmpeg.FS(
+    'writeFile',
+    'subtitle.' + type,
+    new Uint8Array(SubSourceBuffer, 0, SubSourceBuffer.byteLength)
+  )
   addSubs();
 }
 
@@ -240,29 +249,17 @@ var addSubs = async () => {
   Landing.style.display = 'inherit'
   CancelProcess.style.display = 'inherit'
 
-
-  // var FFMPEGCommand = `-i input.mp4 -i subtitle.srt -c copy -c:s mov_text output.mp4`;
-  // var ArrayofInstructions = FFMPEGCommand.split(' ');
-  // await ffmpeg.run(...ArrayofInstructions);
-
-
-  // -i infile.mp4 -i infile.srt -c copy -c:s mov_text outfile.mp4
-
-  await ffmpeg.run("-i", "input.mp4", "-i", "subtitle.srt", "-c", "copy", "-c:s", "mov_text","output.mp4");
-  const output = ffmpeg.FS("readFile", "output.mp4");
-  const blob = new Blob([output.buffer], { type: "audio/mp4" });
-  let a = document.createElement('a')
-  a.href = URL.createObjectURL(blob)
-  a.download = "output.mp4";
-  a.click()
+  const FFMPEGCommand = `-i input.mp4 -i subtitle.${type} -map 0 -map 1 -c:v copy -c:a copy -c:s mov_text Output.mp4`;
+  const ArrayOfInstructions = FFMPEGCommand.split(' ');
+  await ffmpeg.run(...ArrayOfInstructions);
 
   CancelProcess.style.display = 'none'
   LandingText.style.display = 'none'
-  // initateDownload();
+  initateDownload();
 }
 
 const initateDownload = async () => {
-  const output = ffmpeg.FS('readFile', `output.mp4`);
+  const output = ffmpeg.FS('readFile', `Output.mp4`);
   let hrefLink = URL.createObjectURL(
     new Blob([output.buffer], { type: `video/mp4` })
   );
@@ -278,13 +275,13 @@ let handleDownload = (src, fname) => {
   tempLink.href = src
   tempLink.download = fname;
   tempLink.click()
-  // setTimeout(() => {
-  //   if (lang === 'en') {
-  //     window.location.href = `/download?tool=${pageTool}`
-  //   } else {
-  //     window.location.href = `/${lang}/download?tool=${pageTool}`
-  //   }
-  // }, 500)
+  setTimeout(() => {
+    if (lang === 'en') {
+      window.location.href = `/download?tool=${pageTool}`
+    } else {
+      window.location.href = `/${lang}/download?tool=${pageTool}`
+    }
+  }, 500)
 }
 
 const showDropDown = document.querySelector('.file-pick-dropdown')
@@ -426,9 +423,6 @@ function addRow() {
   col2Text.id = id2;
 
   col2.appendChild(col2Text);
-  col2.appendChild(document.createElement('br'));
-  // col2.appendChild(document.createElement('br'));
-
   let col3Text = document.createElement('input');
   col3Text.type = "time";
   col3Text.step = "1";
@@ -438,7 +432,7 @@ function addRow() {
   col2.appendChild(col3Text);
 
   let col4Text = document.createElement('textarea');
-  col4Text.rows = "2";
+  col4Text.rows = "3";
   col4Text.setAttribute('style', 'overflow-y:hidden;');
   col4Text.addEventListener('input', function () {
     this.style.height = 'auto';
@@ -448,14 +442,9 @@ function addRow() {
   col4Text.placeholder = "New subtitle";
   let id4 = rowCounter + "col4";
   col4Text.id = id4;
-
   col4.appendChild(col4Text);
-
-  //    row.appendChild(col1);
   row.appendChild(col2);
-  //    row.appendChild(col3);
   row.appendChild(col4);
-
   table.appendChild(row);
 
   let tableDiv = document.getElementById("subTable");
@@ -609,6 +598,7 @@ function uploadSRT() {
   document.querySelector(".box").style.background = "#a55eea"
   document.querySelector(".box").style.minHeight = "300px"
   document.querySelector(".box-border").style.display = "block"
+
   Spinner.style.display = 'none'
   document.getElementsByTagName('Body')[0].style.overflow = 'auto';
   document.getElementById("EditBox").style.display = 'none'
@@ -647,4 +637,3 @@ String.prototype.toHHMMSS = function () {
   if (seconds < 10) { seconds = "0" + seconds; }
   return hours + ':' + minutes + ':' + seconds;
 }
-

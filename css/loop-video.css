@@ -1,231 +1,99 @@
-
-  
-  input {
-    -webkit-appearance: none;
-    width: 700px;
-    background: transparent;
-    background-color: #3a4054;
-    padding: 0.5px;
-  }
-  
-  input::-webkit-slider-runnable-track {
-    height: 3px;
-    border-radius: 20px;
-    box-shadow: inset 1px 1px 2px #57575780;
-  }
-  
-  input::-moz-range-track {
-    height: 5px;
-    border-radius: 20px;
-    box-shadow: inset 1px 1px 2px #57575780;
-  }
-  
-  input:first-child::-webkit-slider-runnable-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  input:first-child::-moz-range-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  /* green track */
-  input:nth-child(2)::-webkit-slider-runnable-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  input:nth-child(2)::-moz-range-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  /* blue track  */
-  input:nth-child(3)::-webkit-slider-runnable-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  input:nth-child(3)::-moz-range-track {
-    background: rgba(0, 0, 0, 0.1);
-  
-  }
-  
-  input::-webkit-slider-thumb:focus{
-    box-shadow: 0 0 5px red !important;
-  }
-  input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    background: #0090ff;
-    outline: 2px solid white;
-    transform: translateY(-5px);
-    color: white;
-    cursor: pointer;
-  }
-  input::-moz-range-thumb {
-    -webkit-appearance: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    border: none;
-    background: #0090ff;
-    box-shadow: inset .5px .5px 1px #57575780;
-  }
- 
-
-
-  /* extra */
-
-  
-
-
-
-
-
-
-.custom-video-player{
-    position: relative;
-    background: #191b24;
-    z-index: 9999;
-    width: 700px;
-    height: 50px;
-}
-.video-slider{
-    position: absolute;
-    top: -19px;
-    cursor: pointer;
-}
-
-.video-time{
-    color: #fff;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-}
-.PlayButton{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.PlayIcon{
-    cursor: pointer;
-    margin-top: 1rem;
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-
-.optionheading {
-    color: #fff;
-    font-weight: 900;
-    padding: 0.4rem 1rem;
-    border-left: 4px solid #0090ff;
-    text-align: left;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
 .loopOptionWrapper .loopOption {
-    margin-right: 1rem;
-    /* margin-left: 1rem; */
-    margin-bottom: 1rem;
-    flex-basis: 44%;
-    color: #b4bad0;
-    width: 100%;
-    cursor: pointer;
-    height: 50px;
-    display: flex;
-    overflow: hidden;
-    min-width: 100px;
-    text-align: center;
-    align-items: center;
-    user-select: none;
-    border-radius: 8px;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #222532;
+  margin-right: 1rem;
+  /* margin-left: 1rem; */
+  margin-bottom: 1rem;
+  flex-basis: 44%;
+  color: #b4bad0;
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  min-width: 100px;
+  text-align: center;
+  align-items: center;
+  user-select: none;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #222532;
 }
 
 
-.loopOptionWrapper .audioOption{
-    margin-right: 1rem;
-    /* margin-left: 1rem; */
-    margin-bottom: 1rem;
-    flex-basis: 44%;
-    color: #b4bad0;
-    width: 100%;
-    cursor: pointer;
-    height: 50px;
-    display: flex;
-    overflow: hidden;
-    min-width: 100px;
-    text-align: center;
-    align-items: center;
-    user-select: none;
-    border-radius: 8px;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #222532;
+.loopOptionWrapper .audioOption {
+  margin-right: 1rem;
+  /* margin-left: 1rem; */
+  margin-bottom: 1rem;
+  flex-basis: 44%;
+  color: #b4bad0;
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  min-width: 100px;
+  text-align: center;
+  align-items: center;
+  user-select: none;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #222532;
 }
 
-.loopOptionWrapper .audioOption{
-    color: #fff;
-    background-color: #535a70;
+.loopOptionWrapper .audioOption {
+  color: #fff;
+  background-color: #535a70;
 }
+
 .loopOptionWrapper .loopOption:hover {
-    color: #fff;
-    background-color: #535a70;
+  color: #fff;
+  background-color: #535a70;
 }
-.active{
-    background: #0090ff !important;
-    color: #fff !important;
+
+.active {
+  background: #0090ff !important;
+  color: #fff !important;
 }
-.actives{
-    background: #0090ff !important;
-    color: #fff !important;
-}
-.Spinner {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 6%;
-    background: url(../public/styles/VideoEditor/media/icons/loader.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: none;
+
+.actives {
+  background: #0090ff !important;
+  color: #fff !important;
 }
 
 @media (max-width:768px) {
-    .mobileColumn{
-        order: 2;
-        /* padding-bottom: 2rem; */
-        border: none !important;
-        padding-left: 2rem !important;
-    }
-     .fixed-bottom{
-        position: absolute;
-    }
-    #exportBtn{
-        width: 150px !important;
-        margin: 0px 10px;
-    }
-    #VContainer{
-        max-width: 100%;
-        padding: 15px !important;
-        height: 50vh !important;
-        border: none !important;
-    }
-    #VDemo{
-        max-width: 100%;
-    }
-    .fixed-top{
-        bottom: 0;
-        overflow-x: hidden ;
-        overflow-y: scroll;
-        /* height: 100vh; */
-    }
-    
+  .mobileColumn {
+    order: 2;
+    /* padding-bottom: 2rem; */
+    border: none !important;
+    padding-left: 2rem !important;
+  }
+
+  .fixed-bottom {
+    position: absolute;
+  }
+
+  #exportBtn {
+    width: 150px !important;
+    margin: 0px 10px;
+  }
+
+  #VContainer {
+    max-width: 100%;
+    padding: 15px !important;
+    height: 50vh !important;
+    border: none !important;
+  }
+
+  #VDemo {
+    max-width: 100%;
+  }
+
+  .fixed-top {
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* height: 100vh; */
+  }
+
 }

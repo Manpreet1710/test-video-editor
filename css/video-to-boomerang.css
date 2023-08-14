@@ -1,0 +1,79 @@
+.convert-from .value div,
+.convert-to .value div {
+    display: flex;
+    width: 200px;
+    padding: 10px 10px;
+    font-size: 16px;
+    align-items: center;
+    /* height: 47px; */
+    text-transform: capitalize;
+    background-color: #222532;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.convert-from div input,
+.convert-to div input {
+    width: 100%;
+    border: none;
+}
+
+.convert-from div input,
+.convert-to div input:focus-visible {
+    outline: none !important;
+    border: none !important;
+    box-shadow: unset;
+}
+
+.convert-from .value,
+.convert-to .value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hhmmss {
+    color: #fff;
+}
+
+.hhmmss input {
+    text-align: center;
+    background-color: transparent;
+    color: #ffff;
+}
+
+.loopOptionWrapper .loopOption {
+    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    flex-basis: 44%;
+    color: #b4bad0;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    min-width: 100px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222532;
+}
+
+.loopOptionWrapper .loopOption:hover {
+    color: #fff;
+    background-color: #535a70;
+}
+
+.active {
+    background: #0090ff !important;
+    color: #fff !important;
+}
+
+.actives {
+    background: #0090ff !important;
+    color: #fff !important;
+}

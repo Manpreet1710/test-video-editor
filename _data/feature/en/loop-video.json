@@ -66,6 +66,7 @@
         "/js/loop-video.js"
     ],
     "csscdns": [
+        "<link rel=\"stylesheet\" href=\"/css/video-editor.css\" crossorigin='anonymous' />",
         "<link rel=\"stylesheet\" href=\"/css/loop-video.css\" crossorigin='anonymous' />"
     ]
 }

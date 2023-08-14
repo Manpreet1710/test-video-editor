@@ -209,6 +209,34 @@
       "color": "red",
       "icon": "/assets/FeatureIcons/watermark.png",
       "url": "/video-watermark"
+    },
+    {
+      "name": "Add text to video",
+      "description": "Add text to video",
+      "color": "#0090ff",
+       "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/add-text-to-video"
+    },
+    {
+      "name": "Video to boomerang",
+      "description": "Video to boomerang",
+      "color": "#0090ff",
+       "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/video-to-boomerang"
+    },
+    {
+      "name": "Podcast to video",
+      "description": "Podcast to video",
+      "color": "#0090ff",
+       "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/podcast-to-video"
+    },
+    {
+      "name": "Montage maker online",
+      "description": "Montage maker online",
+      "color": "#0090ff",
+       "icon": "/assets/FeatureIcons/edit.svg",
+      "url": "/montage-maker-online"
     }
 
   ],

@@ -1,91 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Cropper.js with Draggable Text Overlay for Video</title>
-    <style>
-        /* Add your custom CSS styles here */
-        #video-container {
-            position: relative;
-            display: inline-block;
-        }
-
-        #video {
-            max-width: 100%;
-        }
-
-        #text-overlay {
-            position: absolute;
-            font-size: 24px;
-            color: white;
-            background: rgba(0, 0, 0, 0.5);
-            border: 1px solid white;
-            padding: 5px;
-            cursor: move;
-            pointer-events: auto;
-            user-select: none; /* Prevent text selection */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Detector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"
+        integrity="sha512-jduERlz7En1IUZR54bqzpNI64AbffZWR//KJgF71SJ8D8/liKFZ+s1RxmUmB+bhCnIfzebdZsULwOrbVB5f3nQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
-    <div id="video-container">
-        <video id="video" width="500px" src="input.mp4"></video>
-        <div style="width:200px" id="text-overlay" contenteditable></div>
+    <h1>Guitar Detector</h1>
+    <p>Tune your guitar strings!</p>
+    <div class="detector">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <div id="frequency">Frequency: -</div>
+        <div id="closestNote">Closest Note: -</div>
+        <div id="detectedNotes">Detected Notes: </div>
     </div>
 
     <script>
-        // Get the video and text overlay elements
-        const video = document.getElementById('video');
-        const textOverlay = document.getElementById('text-overlay');
-        // Position the text overlay at the center of the video by default
-        const containerWidth = video.offsetWidth;
-        const containerHeight = video.offsetHeight;
-        const textWidth = textOverlay.offsetWidth;
-        const textHeight = textOverlay.offsetHeight;
+        document.addEventListener('DOMContentLoaded', async () => {
+            const startBtn = document.getElementById('startBtn');
+            const stopBtn = document.getElementById('stopBtn');
+            const frequencyDisplay = document.getElementById('frequency');
+            const closestNoteDisplay = document.getElementById('closestNote');
+            const detectedNotesDisplay = document.getElementById('detectedNotes');
 
-        const initialX = (containerWidth - textWidth) / 2;
-        const initialY = (containerHeight - textHeight) / 2;
-        console.log(containerWidth);
+            const guitarStrings = [
+                { note: 'E4', frequency: 329.63 },
+                { note: 'A4', frequency: 440.00 },
+                { note: 'D4', frequency: 587.33 },
+                { note: 'G3', frequency: 392.00 },
+                { note: 'B3', frequency: 246.94 },
+                { note: 'E2', frequency: 82.41 }
+            ];
 
-        textOverlay.style.left = `${initialX}px`;
-        textOverlay.style.top = `${initialY}px`;
+            let audioContext;
+            let analyzer;
+            let animationFrameId;
 
-        // Make the text overlay draggable
-        let isDragging = false;
-        let offsetX, offsetY;
+            startBtn.addEventListener('click', async () => {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                await audioContext.resume();
+                analyzer = audioContext.createAnalyser();
+                analyzer.fftSize = 2048;
 
-        textOverlay.addEventListener('mousedown', (e) => {
-            isDragging = true;
-            offsetX = e.clientX - textOverlay.getBoundingClientRect().left;
-            offsetY = e.clientY - textOverlay.getBoundingClientRect().top;
-        });
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    const source = audioContext.createMediaStreamSource(stream);
+                    source.connect(audioContext.destination); // Connect to audio context's destination
+                    source.connect(analyzer); // Connect to the analyzer
 
-        document.addEventListener('mousemove', (e) => {
-            if (isDragging) {
-                const x = e.clientX - offsetX;
-                const y = e.clientY - offsetY;
-                updateTextPosition(x, y);
+                    const detectNote = () => {
+                        const dataArray = new Float32Array(analyzer.frequencyBinCount);
+                        analyzer.getFloatFrequencyData(dataArray);
+
+                        let peakIndex = 0;
+                        for (let i = 0; i < dataArray.length; i++) {
+                            if (dataArray[i] > dataArray[peakIndex]) {
+                                peakIndex = i;
+                            }
+                        }
+
+                        const frequency = (peakIndex * audioContext.sampleRate) / analyzer.fftSize;
+                        frequencyDisplay.textContent = `Frequency: ${frequency.toFixed(2)} Hz`;
+
+                        const closestNote = findClosestNoteFreq(frequency);
+                        closestNoteDisplay.textContent = `Closest Note: ${closestNote.note}`;
+
+                        const detectedNote = closestNote.note;
+                        if (!detectedNotesDisplay.textContent.includes(detectedNote)) {
+                            detectedNotesDisplay.textContent += `${detectedNote} `;
+                        }
+
+                        animationFrameId = requestAnimationFrame(detectNote);
+                    };
+
+                    animationFrameId = requestAnimationFrame(detectNote);
+
+                    startBtn.disabled = true;
+                    stopBtn.disabled = false;
+                } catch (error) {
+                    console.error('Error accessing microphone:', error);
+                }
+            });
+
+            stopBtn.addEventListener('click', () => {
+                if (audioContext) {
+                    audioContext.close();
+                    frequencyDisplay.textContent = 'Frequency: -';
+                    closestNoteDisplay.textContent = 'Closest Note: -';
+                    detectedNotesDisplay.textContent = 'Detected Notes: ';
+                    startBtn.disabled = false;
+                    stopBtn.disabled = true;
+
+                    if (animationFrameId) {
+                        cancelAnimationFrame(animationFrameId);
+                    }
+                }
+            });
+
+            function findClosestNoteFreq(targetFrequency) {
+                let closestNote = guitarStrings[0];
+                let minDifference = Math.abs(targetFrequency - guitarStrings[0].frequency);
+
+                for (const string of guitarStrings) {
+                    const difference = Math.abs(targetFrequency - string.frequency);
+                    if (difference < minDifference) {
+                        minDifference = difference;
+                        closestNote = string;
+                    }
+                }
+
+                return closestNote;
             }
         });
 
-        document.addEventListener('mouseup', () => {
-            isDragging = false;
-        });
-
-        // Function to update the text overlay position
-        function updateTextPosition(x, y) {
-            const minX = 0;
-            const maxX = containerWidth - textWidth;
-            const minY = 0;
-            const maxY = containerHeight - textHeight;
-
-            const constrainedX = Math.min(Math.max(x, minX), maxX);
-            const constrainedY = Math.min(Math.max(y, minY), maxY);
-
-            textOverlay.style.left = `${constrainedX}px`;
-            textOverlay.style.top = `${constrainedY}px`;
-        }
-
-  
     </script>
 </body>
+
 </html>

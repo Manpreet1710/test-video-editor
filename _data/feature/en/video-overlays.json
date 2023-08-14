@@ -1,0 +1,73 @@
+{
+    "Language": "English",
+    "htmlLangAtt": "en",
+    "H1": "Video Overlay Online",
+    "H2": "Add the video to get start",
+    "TITLE": "Video Overlay Online |  safevideokit.com",
+    "META": "Video Overlay Online | safevideokit.com",
+    "keywords": "key1,key2,key3,key4",
+    "LABEL": "DOCX to PDF",
+    "BREADCRUMB_LABEL": "DOCX TO PDF",
+    "color": "#0090ff",
+    "height": "300px",
+    "img": "/assets/FeatureIcons_featurePage/edit-mp4.svg",
+    "imgwidth": "30px",
+    "imgheight": "30px",
+    "imgalt": "altvalue",
+    "TEXTUAL_CONTENT": [
+        {
+            "priority": 1,
+            "logoUrl": "/assets/lightbulb.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/target.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cross.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/shield.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/fast.svg",
+            "header": "",
+            "content": ""
+        },
+        {
+            "priority": 1,
+            "logoUrl": "/assets/cloud_new.svg",
+            "header": "",
+            "content": ""
+        }
+    ],
+    "HOW_TO_CONTENT": {
+        "logoImageUrl": "/public/styles/VideoEditor/media/icons/idea.svg",
+        "heading": "",
+        "steps": []
+    },
+    "FAQ": [],
+    "jscdns": [
+        "<script src=\"/assets/js/googledrive.js\"></script>"
+    ],
+    "jsfilepaths": [
+        "https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.js",
+        "/src/ffmpeg.min.js",
+        "/js/video-overlays.js"
+    ],
+    "csscdns": [
+        "<link rel=\"stylesheet\" href=\"/css/video-editor.css\" crossorigin='anonymous' />",
+        "<link rel=\"stylesheet\" href=\"/css/video-overlays.css\" crossorigin='anonymous' />"
+    ]
+}

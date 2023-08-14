@@ -65,7 +65,9 @@
         "/src/ffmpeg.min.js",
         "/js/video-to-boomerang.js"
     ],
+    
     "csscdns": [
-        "<link rel=\"stylesheet\" href=\"/css/loop-video.css\" crossorigin='anonymous' />"
+        "<link rel=\"stylesheet\" href=\"/css/video-editor.css\" crossorigin='anonymous' />",
+        "<link rel=\"stylesheet\" href=\"/css/video-to-boomerang.css\" crossorigin='anonymous' />"
     ]
 }

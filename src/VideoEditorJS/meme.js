@@ -3,633 +3,292 @@ const pageTool = getScript.dataset.tool
 const fileName = getScript.dataset.filename
 const folderName = getScript.dataset.foldername
 const lang = getScript.dataset.lang
-const body = document.querySelector(".container2")
-const boxcolor = body.dataset.color
-
-const { createFFmpeg } = FFmpeg
-const ffmpeg = createFFmpeg({ log: true })
-
-let type=null;
-var ActualSourceurl = null
-var sourceBuffer = null
-var sourceBuffer1 = null
-let Duration = 0;
-let percentage = 0;
-
+const { createFFmpeg, fetchFile } = FFmpeg;
+var ProgressBar = document.querySelector('.ProgressBar')
+var VideoSourceFile = null
+var Workspace = document.querySelector('.Workspace')
+var UploadButton = document.querySelector('.Button')
 var Spinner = document.querySelector('.Spinner')
+var LandingText = document.querySelector('.Landingtext')
+var InputButtonContainer = document.querySelector('.Button')
+var ActualSourceurl = null
+let SubSourceurl = null;
+var sourceBuffer = null
+let SubSourceBuffer = null;
+let type = null;
+let PlayButton = document.querySelector(".PlayButton")
+let playIcon = document.querySelector(".PlayIcon");
+let seekSlider = document.getElementById("seekSlider");
+let videoTime = document.querySelector(".video-time")
+let yourText = document.querySelector("#yourText")
+let colorPicker = document.querySelector("#colorPicker");
+let txtcolorPicker = document.querySelector("#txtcolorPicker")
+let innerBgBox = document.querySelector(".innerBgBox")
+let noColorSelect = document.querySelector(".noColorSelect")
+let ColorSelect = document.querySelector(".ColorSelect")
+let innerColorBox = document.querySelector(".innerColorBox")
+let fontSizeSelect = document.querySelector("#font-size-select")
+let fontNameSelect = document.querySelector("#font-name-select")
+const colorBoxes = document.querySelectorAll('.txtColorBox');
+let bgColorBoxes = document.querySelectorAll('.bgColorBox');
+let watermarkInput = document.querySelector("#upload-logo")
+let alignmentBtns =document.querySelector(".alignment-btns")
+let waterMarkscale = document.querySelector(".waterMarkscale")
 
-var container = document.querySelector(".container2");
-var inputbox = document.querySelector("#inputbox");
-var content = document.querySelector("#content");
-var file = document.querySelector("#file");
-var box = document.querySelector(".box");
-var input;
-var boxContainer = document.querySelector(".container2");
-const gdrive = document.querySelector("#filepicker");
-const getFile = (file) => {
-  onFileDrop(file, 1);
-};
-const showLoader = () => {
-  document.querySelector("#inputbox").style.display = "none";
-  var loaderbox = document.createElement("div");
-  loaderbox.id = "loader-box";
-  var mainDiv = document.querySelector("#loaderDiv .col");
-  mainDiv.insertBefore(loaderbox, mainDiv.childNodes[1]);
-  
-  document.querySelector("#loader").innerHTML = '<p id="loadingMessage"></p>';
-  document.querySelector("#loadingMessage").innerHTML =
-    "Please Wait ,Loading Your file ";
-  Spinner.style.display = 'inherit'
-};
 
-const closeLoader = () => {};
-const mimeTypes = "video/mp4,video/webm";
-const filemimes = [".mp4",".webm"];
-gdrive.addEventListener(
-  "click",
-  (getFile, mimeTypes, showLoader, closeLoader) => {
-    const data = loadPicker();
+
+
+function toggleColorPicker() {
+  colorPicker.style.display = colorPicker.style.display === "none" ? "block" : "none";
+}
+function toggleTxtColorPicker() {
+  txtcolorPicker.style.display = txtcolorPicker.style.display === "none" ? "block" : "none";
+}
+
+// Drag and Drop Feature
+UploadButton.addEventListener("dragover", function (evt) {
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("dragenter", function (evt) {
+  evt.preventDefault();
+});
+
+UploadButton.addEventListener("drop", function (evt) {
+  evt.preventDefault();
+  let tempInput = document.getElementById("files");
+  tempInput.files = evt.dataTransfer.files;
+  let tempType = (tempInput.files[0].name).split(".");
+  if (tempType[tempType.length - 1] == "mp4") {
+    let event = new Event('change');
+    tempInput.dispatchEvent(event);
   }
-);
-const getDropBoxFile = (file) => {
-  onFileDrop(file, 1);
-};
-const dropbox = document.getElementById("dropbox");
-dropbox.addEventListener(
-  "click",
-  async (getDropBoxFile, showLoader, closeLoader) => {
-    const getFile = chooseFromDropbox();
-  }
-);
-boxContainer.ondrop = (e) => {
-  e.preventDefault();
-  onFileDrop(e.dataTransfer.files[0]);
-};
-document.querySelector("#Inputbox").onclick = function () {
-  document.querySelector("#file").click();
-};
-container.ondragover = function (e) {
-  e.preventDefault();
-};
-const onFileDrop = (file, flag = 0) => {
-  input = file;
-  var extension = input.name.replace(/^.*\./, "");
-  if (input.size>31457280) {
-    document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "Files more than 30MB not supported";
-  }
-  else if(extension == "mp4"||extension == "webm")
-  {
-    if (flag == 0) {
-      showLoader();
-    }
-
-    container.style.height = "300px";
-
-    inputbox.style.display = "none";
-  document.getElementById("fName").innerText = input.name;
-  let temp=(input.name).split(".");
-  type=temp[temp.length-1];
-    const reader = new FileReader()
-    reader.readAsDataURL(input)
-
-    reader.addEventListener(
-    'load',
-    async function () {
-        ActualSourceurl = reader.result
-        fetch_and_load_Video_to_FFmpeg()
-    },
-    false
-   )
-  } 
   else {
-    // console.log("error");
-    document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported";
-  }
-};
-
-console.stdlog = console.log.bind(console);
-console.logs = [];
-console.log = function () {
-  console.logs.push(Array.from(arguments));
-  // console.stdlog.apply(console,arguments);
-  // console.stdlog(console.logs)
-  for (let i = 0; i < console.logs.length; i++) {
-    let temp = console.logs[i][0].indexOf("time=");
-    if (temp != -1)
-    {
-      let temp1 = console.logs[i][0].indexOf("bitrate=");
-      let time = console.logs[i][0].substring(temp+5,temp1);
-      let time2 = time.split(":");
-      let secs = (parseFloat(time2[0])*3600)+(parseFloat(time2[1])*60)+parseFloat(time2[2]);
-      let tempPer = ((secs/Duration)*100);
-      if(tempPer>0&&tempPer>percentage)
-      {
-        if(percentage+temp>100)
-          percentage = 100;
-        else
-          percentage += tempPer;
-      }
-      document.querySelector("#loadingMessage").innerHTML=`Please wait, we are processing your video<br><span>${percentage.toFixed(0)}%</span>`;
-    }
-  }
-}
-
-const fileOnChange = () => {
-  
-
-  input = file.files[0];
-  var extension = input.name.replace(/^.*\./, "");
-  if(input.size>31457280)
-  {
-    document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "Files more than 30MB not supported";
-  }
-  else if(extension == "mp4"||extension == "webm"){
-    showLoader();
-  document.getElementById("fName").innerText = input.name;
-  let temp=(input.name).split(".");
-  type=temp[temp.length-1];
-    const reader = new FileReader()
-    reader.readAsDataURL(input)
-
-    reader.addEventListener(
-    'load',
-    async function () {
-        ActualSourceurl = reader.result
-        fetch_and_load_Video_to_FFmpeg()
-    },
-    false
-   )
-  }
-  else{
-    document.querySelector("#error").style.visibility = "visible";
-
-    container.style.height = "350px";
-    document.querySelector("#error").innerHTML = "File format not supported";
-  }
-};
-
-const fetch_and_load_Video_to_FFmpeg = async () => {
-    await ffmpeg.load()
-  sourceBuffer = await fetch(ActualSourceurl).then((r) => r.arrayBuffer())
-  ffmpeg.FS(
-    'writeFile',
-    `input.`+type,
-    new Uint8Array(sourceBuffer, 0, sourceBuffer.byteLength)
-  )
-  memeProcessing();
-}
-//
-
-function memeProcessing() {
-  $("#file").remove();
-
-  var count = 0;
-
-  var ans = setInterval(function () {
-    count = count + 10;
-    // console.log(count);
-    document.querySelector("#upper-loader").style.width = count + "%";
-    if (count == 110) {
-      document.querySelector("#upper-loader").style.display = "none";
-      document.querySelector("#loaderDiv").style.display = "none";
-      Spinner.style.display = 'none'
-      document.querySelector("#content").style.visibility = "visible";
-      document.querySelector("#loader-box").style.display = "none";
-      document.querySelector(".box").style.background = "white";
-      document.querySelector(".box-border").style.background = "none";
-      document.querySelector(".box-border").style.border = "none";
-      document.querySelector(".container2").style.height = "auto";
-
-      document.querySelector(".container2_inner").style.paddingLeft = "10px";
-      document.querySelector(".container2_inner").style.paddingTop = "11px";
-      document.querySelector(".container2_inner").style.paddingRight = "15px";
-      document.querySelector(".container2_inner").style.paddingBottom = "35px";
-      document.querySelector(".box").style.borderRadius = "20px";
-      document.querySelector(".container2_inner").style.borderRadius = "20px";
-
-      clearInterval(ans);
-    }
-  }, 500);
-
-  let snapshot = null;
-
-  let video = document.getElementById("video");
-  let canvasTem = document.getElementById("canvas");
-  let contextTem=canvasTem.getContext('2d');
-  video.src = URL.createObjectURL(input);
-  video.currentTime=1;
-  video.addEventListener("loadedmetadata",()=>{
-    let wt = video.videoWidth;
-    let ht = video.videoHeight;
-    canvasTem.width = wt;
-    canvasTem.height = ht;
-    Duration = video.duration;
-    
-    contextTem.drawImage(video,0,0,wt,ht);
-    // video.addEventListener("canplaythrough", () => {
-        contextTem.drawImage(video, 0, 0, wt, ht);
-        let dataurl = contextTem.canvas.toDataURL();
-
-        //https://stackoverflow.com/questions/23150333/html5-javascript-dataurl-to-blob-blob-to-dataurl
-
-        let arr = dataurl.split(',');
-        if(arr[1]=="")
-        {
-          clearInterval(ans);
-          Spinner.style.display="none";
-          document.querySelector("#loadingMessage").innerHTML = "This File Could not be processed, try another file.";
-        }
-        else
-        {
-        let mime = arr[0].match(/:(.*?);/)[1],
-            bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
-        while (n--) {
-            u8arr[n] = bstr.charCodeAt(n);
-        }
-
-        snapshot = new Blob([u8arr], { type: mime });
-
-        reader2.readAsDataURL(snapshot);
-        }
-    // });
-
-  },false);
-
-  var reader2 = new FileReader();
-  reader2.onload = function () {
-    //canvas adding
-    var img = new Image();
-    img.onload = function () {
-      var canvas = new fabric.Canvas("meme_canvas", {
-        width: img.width,
-        height: img.height,
-        selection: true,
-        allowTouchScrolling: true,
-      });
-      fabric.Image.fromURL(
-        reader2.result,
-        function (meme) {
-          document.querySelector(".canvas-container").style.width = "100%";
-          document.querySelector(".canvas-container").style.height = "auto";
-          document.querySelector(".canvas-container").style.position =
-            "relative";
-          document.querySelector("#meme_canvas").style.width = "auto";
-          document.querySelector("#meme_canvas").style.height = "auto";
-          document.querySelector("#meme_canvas").style.position = "initial";
-          document.querySelector(".upper-canvas").style.width = "auto";
-
-          document.querySelector(".upper-canvas").style.height = "auto";
-
-          canvas.setBackgroundImage(meme, canvas.renderAll.bind(canvas));
-        },
-        {
-          crossOrigin: "anonymous",
-        }
-      );
-      fabric.Object.prototype.set({
-        transparentCorners: false,
-        cornerColor: "yellow",
-        borderColor: "rgba(88,42,114)",
-        cornerSize: parseInt(canvas.width) * 0.02,
-        cornerStrokeColor: "#000000",
-        borderScaleFactor: 2,
-        padding: 4,
-      });
-      var bg_color = "";
-      document.querySelector(".bg_div_inner input").oninput = () => {
-        bg_color = document.querySelector(".bg_div_inner input").value;
-        alert(bg_color);
-      };
-      function createShadow(color, width) {
-        return `${width} 0px 0px ${color}`;
-      }
-      function underline() {
-        var underline_value;
-        var underline = document.querySelector(
-          ".font_div .btn-group label .m_underline"
-        ).checked;
-
-        if (underline == true) {
-          underline_value = "underline";
-        } else {
-          underline_value = "";
-        }
-        return underline_value;
-      }
-
-      function bold() {
-        var bold_value;
-
-        var bold = document.querySelector(
-          ".font_div .btn-group label .m_bold"
-        ).checked;
-        if (bold == true) {
-          bold_value = "bold";
-        } else {
-          bold_value = "";
-        }
-        return bold_value;
-      }
-
-      function italic() {
-        var italic_value;
-        var italic = document.querySelector(
-          ".font_div .btn-group label .m_italic"
-        ).checked;
-
-        if (italic == true) {
-          italic_value = "italic";
-        } else {
-          italic_value = "";
-        }
-        return italic_value;
-      }
-
-      document.querySelector("#add_text").onclick = function () {
-        // console.log(document.querySelector(".bg_div_inner input").clicked);
-        ////helper functions
-
-        // console.log(bg_color);
-        var text = new fabric.Text(
-          document.querySelector(".text_div .inputs_div textarea").value,
-          {
-            top: 50,
-            left: 50,
-            fontSize: 200,
-            underline: underline(),
-            fontWeight: bold(),
-            fontStyle: italic(),
-            fontFamily:
-              document.querySelector(".font_family select").value || "Arial",
-            fontSize:
-              parseInt(document.querySelector(".font_size input").value) || 200,
-            fill: document.querySelector(
-              ".text_div .inputs_div input[type='color']"
-            ).value,
-            textBackgroundColor: bg_color,
-            strokeWidth:
-              parseInt(
-                document.querySelector(".m_stroke div input[type='number']")
-                  .value
-              ) || 0,
-            stroke: document.querySelector(".m_stroke div input[type='color']")
-              .value,
-
-            opacity:
-              parseInt(
-                document.querySelector(".opacity_div input[type='range']").value
-              ) / 100 || 1,
-            shadow: createShadow(
-              document.querySelector(".m_shadow input[type='color']").value,
-              document.querySelector(".m_shadow input[type='number']").value
-            ),
-          }
-        );
-        canvas.add(text).setActiveObject(text);
-        document.querySelector(".opacity_div #m_opacity").value = 100;
-      };
-
-      document.querySelector("#add_image").onclick = () => {
-        var input_file = document.createElement("input");
-        input_file.id = "image_input";
-        input_file.type = "file";
-        input_file.click();
-        input_file.onchange = () => {
-          const reader = new FileReader();
-          reader.onload = function () {
-            var image = new Image();
-            image.src = reader.result;
-            image.onload = function () {
-              fabric.Image.fromURL(
-                reader.result,
-                function (image) {
-                  image.scaleToWidth(canvas.width / 2);
-                  canvas.add(image).setActiveObject(image);
-                },
-                {
-                  opacity:
-                    parseInt(
-                      document.querySelector(".opacity_div input[type='range']")
-                        .value
-                    ) / 100 || 1,
-                }
-              );
-            };
-          };
-          reader.readAsDataURL(input_file.files[0]);
-        };
-      };
-      function setValue(key, value) {
-        if (canvas.getActiveObject() != null) {
-          var activeText = canvas.getActiveObject();
-          activeText.set(key, value);
-          canvas.renderAll();
-        }
-      }
-      loadObjectHandlers();
-      function loadObjectHandlers() {
-        var all_inputs = document.querySelectorAll(
-          ".text_div .inputs_div #m_text,.font_size #m_font_size,.text_div .inputs_div #m_color,.bg_div_inner #m_bg,.opacity_div #m_opacity,.m_stroke #stroke_number,.m_stroke #stroke_color,.m_shadow #shadow_color,.m_shadow #shadow_number,.font_div .font_family #m_font_family,#style_btns label .m_underline,#style_btns label .m_bold,#style_btns label .m_italic"
-        );
-
-        for (let j = 0; j < all_inputs.length; j++) {
-          all_inputs[j].oninput = () => {
-            // console.log(all_inputs[j].id);
-            if (all_inputs[j].id == "m_text") {
-              setValue("text", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "m_font_size") {
-              setValue("fontSize", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "m_color") {
-              setValue("fill", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "m_bg") {
-              setValue("v", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "m_opacity") {
-              setValue("opacity", parseInt(all_inputs[j].value) / 100);
-            }
-            if (all_inputs[j].id == "stroke_number") {
-              setValue("strokeWidth", parseInt(all_inputs[j].value));
-            }
-            if (all_inputs[j].id == "stroke_color") {
-              setValue("stroke", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "m_font_family") {
-              setValue("fontFamily", all_inputs[j].value);
-            }
-            if (all_inputs[j].id == "option3") {
-              setValue("underline", underline());
-            }
-            if (all_inputs[j].id == "option1") {
-              setValue("fontWeight", bold());
-            }
-            if (all_inputs[j].id == "option2") {
-              setValue("fontStyle", italic());
-              // console.log(setValue("fontStyle", italic()));
-            }
-
-            if (all_inputs[j].id == "shadow_color") {
-              setValue(
-                "shadow",
-                createShadow(
-                  $(".m_shadow #shadow_color").val(),
-                  $(".m_shadow #shadow_number").val()
-                )
-              );
-            }
-            if (all_inputs[j].id == "shadow_number") {
-              setValue(
-                "shadow",
-                createShadow(
-                  $(".m_shadow #shadow_color").val(),
-                  $(".m_shadow #shadow_number").val()
-                )
-              );
-            }
-          };
-        }
-      }
-
-      function updateInputs() {
-        var activeObject = canvas.getActiveObject();
-        if (activeObject.get("type") == "text") {
-          document.querySelector(".text_div .inputs_div #m_text").value =
-            activeObject.text;
-          document.querySelector(".font_size #m_font_size").value =
-            activeObject.fontSize;
-          document.querySelector(".text_div .inputs_div #m_color").value =
-            activeObject.fill;
-          document.querySelector(".bg_div_inner #m_bg").value =
-            activeObject.textBackgroundColor;
-          document.querySelector(".m_stroke #stroke_number").value =
-            activeObject.strokeWidth;
-          document.querySelector(".m_stroke #stroke_color").value =
-            activeObject.stroke;
-          document.querySelector(".opacity_div #m_opacity").value =
-            activeObject.opacity;
-          document.querySelector(".m_shadow #shadow_color").value =
-            activeObject.shadow.color;
-          document.querySelector(".m_shadow #shadow_number").value =
-            activeObject.shadow.blur;
-          document.querySelector(
-            ".font_div .font_family #m_font_family"
-          ).value = activeObject.fontFamily;
-          document.querySelector("#style_btns label .m_underline").value =
-            activeObject.underline;
-          document.querySelector("#style_btns label .m_bold").value =
-            activeObject.fontWeight;
-          document.querySelector("#style_btns label .m_italic").value =
-            activeObject.fontStyle;
-          // console.log(activeObject.fontStyle);
-        } else {
-        }
-      }
-      canvas.on({
-        "selection:created": updateInputs,
-        "selection:updated": updateInputs,
-      });
-      document.querySelector("#save").onclick = () => {
-        document.querySelector(".container2").style.background = boxcolor
-        window.location.href = "#";
-        document.querySelector(".box").style.background = "red";
-        document.querySelector(".container2").style.height = "300px";
-
-        document.querySelector(".box-border").style.background =
-          "rgba(0, 0, 0, 0.1)";
-        document.querySelector(".box-border").style.background =
-          "2px dashed rgba(0, 0, 0, 0.15)";
-
-        document.querySelector("#content").style.display = "none";
-        document.querySelector("#loaderDiv").style.display = "inherit";
-        document.querySelector("#loader-box").style.display = "inherit";
-        Spinner.style.display = "inherit";
-
-        processVideo(canvas);   
-      };
-    };
-    img.src = reader2.result;
-  };
-}
-
-var processVideo = async (canvas) => {
-    sourceBuffer1 = await fetch(canvas.toDataURL()).then((r) => r.arrayBuffer())
-    ffmpeg.FS(
-      'writeFile',
-      `watermark.png`,
-      new Uint8Array(sourceBuffer1, 0, sourceBuffer1.byteLength)
-    )
-    var FFMPEGCommand1 = `-i input.`+type+` -i watermark.png -filter_complex overlay=0:0 Output.`+type;
-    var ArrayofInstructions = FFMPEGCommand1.split(' ');
-    await ffmpeg.run(...ArrayofInstructions);
-    initateDownload();
-  }
-
-  const initateDownload = async () => {
-    const output = ffmpeg.FS('readFile', `Output.`+type);
-    let hrefLink = URL.createObjectURL(
-      new Blob([output.buffer], { type: `video/*` }));
-    
-    document.querySelector("#loadingMessage").innerHTML='';
-    Spinner.style.display = "none";
-    document.querySelector("#loaderDiv").style.display = "none";
-    document.querySelector("#loader-box").style.display = "none";
-    document.querySelector(".thankyouBox").innerHTML =
-          ' <div class="row"> <div class="col col-md-12 col-sm-12 col-lg-12 col-xl-12"> <img src="/public/styles/VideoEditor/media/icons/trust.svg" alt="" id="thankyouImage" /> <p id="thankyouText">Thanks for your patience</p> <span><a class="btn" id="downloadButton">Download</a></span> </div> </div>';
-
-        document.querySelector(".box").style.borderRadius = "0px";
-        ///download button
-
-        document.querySelector("#downloadButton").onclick = function () {
-          document.querySelector(".thankyouBox span").style.color = "white";
-          document.querySelector(".thankyouBox span").style.fontWeight = "bold";
-
-          document.querySelector(".thankyouBox span").innerHTML =
-            "Downloading might take a while";
-          var a = document.createElement("a");
-          a.href = hrefLink;
-          fetch(hrefLink)
-            .then((res) => res.blob())
-            .then(function (blob) {
-              var url = window.URL.createObjectURL(blob);
-              a.href = url;
-              var complete_file_name = "OutputVideo."+type;
-              // console.log(complete_file_name);
-              a.download = complete_file_name;
-              a.click();
-              setTimeout(() => {
-                if (lang === "en") {
-                  window.location.href = `/download?tool=${pageTool}`
-                } else {
-                  window.location.href = `/${lang}/download?tool=${pageTool}`
-                }
-              }, 200);
-            });
-        };
-  } 
-
-const showDropDown = document.querySelector(".file-pick-dropdown");
-const icon = document.querySelector(".arrow-sign");
-const dropDown = document.querySelector(".file-picker-dropdown");
-showDropDown.addEventListener("click", () => {
-  addScripts();
-  if (dropDown.style.display !== "none") {
-    dropDown.style.display = "none";
-    icon.classList.remove("fa-angle-up");
-    icon.classList.add("fa-angle-down");
-  } else {
-    dropDown.style.display = "block";
-    icon.classList.remove("fa-angle-down");
-    icon.classList.add("fa-angle-up");
+    document.getElementById("ErrorBoxMessage").innerText = "This type of File could not be processed. Please upload a .mp4 file.";
+    document.getElementById("ErrorBox").style.display = "block";
+    Landing.style.display = 'none'
+    InputButtonContainer.style.display = 'none'
+    Workspace.style.display = 'none'
   }
 });
+
+var VFileSrc = document.querySelector('.VideoFile video');
+const gdrive = document.querySelector('#filepicker')
+const getFile = (file) => {
+  const input = {
+    files: [file],
+  }
+  get_video_source_from_input(input)
+}
+const showLoader = () => {
+  LandingText.innerText = 'Please wait,processing your video'
+  Spinner.style.display = 'inherit'
+  UploadButton.style.display = 'none'
+  document.querySelector(".Landing").style.display = "flex"
+  document.querySelector(".Landing").style.width = "100%"
+  document.querySelector(".Landing").style.justifyContent = "center"
+}
+const videoOverlayLoader = () => {
+  document.querySelector(".download-modal-container").style.display = "flex"
+}
+
+const closeLoader = () => { }
+const mimeTypes = 'video/mp4'
+const filemimes = ['.mp4']
+gdrive.addEventListener(
+  'click',
+  (getFile, mimeTypes, showLoader, closeLoader) => {
+    const data = loadPicker()
+  }
+)
+const getDropBoxFile = (file) => {
+  const input = {
+    files: [file],
+  }
+  console.stdlog(file)
+  console.stdlog(input)
+  console.stdlog(input.files[0])
+  get_video_source_from_input(input)
+}
+const dropbox = document.getElementById('dropbox')
+dropbox.addEventListener(
+  'click',
+  async (getDropBoxFile, showLoader, closeLoader) => {
+    const getFile = chooseFromDropbox()
+  }
+)
+
+let InputFormat = "mp4"
+let outputFormat = "mp4"
+let output
+let blob
+let alignment = "bottom-right"; 
+let scaleFactor = 0.3
+async function addWatermarkToVideo(ffmpeg, inputFileName, watermarkImage, outputFileName) {
+  videoOverlayLoader()
+  ffmpeg.FS("writeFile", "watermark.png", await fetchFile(watermarkImage));
+
+  let filtergraph;
+  if (alignment === "top-left") {
+    filtergraph = `movie=watermark.png, scale=w=iw*${scaleFactor}:h=ih*${scaleFactor} [watermark]; [in][watermark] overlay=10:10 [out]`;
+  } else if (alignment === "top-right") {
+    filtergraph = `movie=watermark.png, scale=w=iw*${scaleFactor}:h=ih*${scaleFactor} [watermark]; [in][watermark] overlay=W-w-10:10 [out]`;
+  } else if (alignment === "bottom-left") {
+    filtergraph = `movie=watermark.png, scale=w=iw*${scaleFactor}:h=ih*${scaleFactor} [watermark]; [in][watermark] overlay=10:H-h-10 [out]`;
+  } else if (alignment === "bottom-right") {
+    filtergraph = `movie=watermark.png, scale=w=iw*${scaleFactor}:h=ih*${scaleFactor} [watermark]; [in][watermark] overlay=W-w-10:H-h-10 [out]`;
+  }
+  
+  await ffmpeg.run("-i", inputFileName, "-vf", filtergraph, "-preset", "ultrafast", outputFileName);
+  output = ffmpeg.FS("readFile", outputFileName);
+  blob = new Blob([output.buffer], { type: `video/${InputFormat}` });
+  const videoElement = document.querySelector('#VDemo');
+  videoElement.src = URL.createObjectURL(blob);
+  document.querySelector(".download-modal-container").style.display = "none"
+}
+
+let ffmpeg;
+let inputFileName;
+let outputFileName;
+let watermarkFile
+const get_video_source_from_input = async (input) => {
+  showLoader();
+  let VideoSourceFile = input.files[0];
+  try {
+    if (VideoSourceFile) {
+      ffmpeg = createFFmpeg({ log: true });
+      await ffmpeg.load();
+      const reader = new FileReader();
+      reader.readAsArrayBuffer(VideoSourceFile);
+      reader.addEventListener("load", async function () {
+        const inputBuffer = reader.result;
+        const inputFormat = VideoSourceFile.name.split(".").pop();
+        inputFileName = `input.${inputFormat}`;
+        outputFileName = `output.${inputFormat}`;
+        ffmpeg.FS("writeFile", inputFileName, new Uint8Array(inputBuffer));
+        watermarkInput.addEventListener("change", (event) => {
+          watermarkFile = event.target.files[0];
+          alignmentBtns.style.opacity = "1"
+          alignmentBtns.style.pointerEvents = "auto"
+          waterMarkscale.style.opacity = "1"
+          waterMarkscale.style.pointerEvents = "auto"
+
+      
+          addWatermarkToVideo(ffmpeg, inputFileName, watermarkFile, outputFileName);
+        });
+        await ffmpeg.run("-i", inputFileName, "-c", "copy", outputFileName);
+
+        output = ffmpeg.FS("readFile", outputFileName);
+        blob = new Blob([output.buffer], { type: `video/${InputFormat}` });
+        const videoElement = document.querySelector('#VDemo');
+        videoElement.controls = false;
+        videoElement.addEventListener("timeupdate", () => {
+          seekSlider.value = videoElement.currentTime;
+          updateDurationText();
+        });
+        seekSlider.addEventListener("input", () => {
+          videoElement.currentTime = seekSlider.value;
+          updateDurationText();
+        });
+        // Update the duration text dynamically
+        function updateDurationText() {
+          const currentTime = formatTime(videoElement.currentTime);
+          const totalDuration = formatTime(videoElement.duration);
+          videoTime.innerHTML = `${currentTime}&nbsp;/&nbsp;<span style="color:#5c647e">${totalDuration}</span>`;
+        }
+        videoElement.addEventListener('loadedmetadata', () => {
+          updateDurationText();
+          seekSlider.max = videoElement.duration;
+          const seconds = parseInt(videoElement.duration);
+          const minutes = Math.floor(seconds / 60);
+          const remainingSeconds = seconds % 60;
+          let formattedDuration
+          if (minutes == 0) {
+            formattedDuration = `${remainingSeconds} seconds`;
+          } else {
+            formattedDuration = `${minutes} minute ${remainingSeconds} seconds`;
+          }
+          // document.querySelector(".finalOuputText").innerHTML = `The final output will be <p class="videoTime" style="color: #fff !important;">${formattedDuration}</p>`
+        });
+
+        function togglePlayPause() {
+          if (videoElement.paused) {
+            videoElement.play();
+            playIcon.style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/pause.svg')";
+          } else {
+            videoElement.pause();
+            playIcon.style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/play.svg')";
+          }
+        }
+        PlayButton.addEventListener("click", togglePlayPause);
+        videoElement.addEventListener('ended', () => {
+          document.querySelector(".PlayIcon").style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/play.svg')";
+        });
+        videoElement.src = URL.createObjectURL(blob);
+        const videoEditor = document.querySelector('.videoEditor');
+        videoEditor.style.display = "block"
+        document.querySelector("#exportBtn").addEventListener("click", ((e) => {
+          let a = document.createElement("a")
+          a.href = URL.createObjectURL(blob)
+          a.download = `safevideokit-loop-video.mp4`
+          document.body.appendChild(a)
+          a.click()
+        }))
+
+
+      })
+
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
+function setAlignment(align) {
+  alignment = align;
+  addWatermarkToVideo(ffmpeg, inputFileName, watermarkFile, outputFileName);
+}
+
+function applyFilter() {
+  scaleFactor = parseFloat(document.getElementById("scalingFactor").value)
+  console.log(scaleFactor);
+  addWatermarkToVideo(ffmpeg, inputFileName, watermarkFile, outputFileName);
+}
+
+
+function formatTime(time) {
+  const minutes = Math.floor(time / 60);
+  const seconds = Math.floor(time % 60);
+  return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
+
+
+
+
+const showDropDown = document.querySelector('.file-pick-dropdown')
+const icon = document.querySelector('.arrow-sign')
+const dropDown = document.querySelector('.file-picker-dropdown')
+showDropDown.addEventListener('click', (e) => {
+  e.preventDefault()
+  e.stopPropagation()
+  addScripts()
+  if (dropDown.style.display !== 'none') {
+    dropDown.style.display = 'none'
+    icon.classList.remove('fa-angle-up')
+    icon.classList.add('fa-angle-down')
+  } else {
+    dropDown.style.display = 'block'
+    icon.classList.remove('fa-angle-down')
+    icon.classList.add('fa-angle-up')
+  }
+})
+
+
+
+
+
+
+
+
+
+

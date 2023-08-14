@@ -134,9 +134,9 @@ const get_video_source_from_input = async (input) => {
                         blob = new Blob([output.buffer], { type: `video/${inputFormat}` });
                         const videoElement = document.querySelector('#VDemo');
                         videoElement.controls = false;
-                        videoElement.addEventListener('loadedmetadata', () => {
-                            videoElement.play();
-                        });
+                        // videoElement.addEventListener('loadedmetadata', () => {
+                        //     videoElement.play();
+                        // });
                         videoElement.src = URL.createObjectURL(blob);
                         const videoEditor = document.querySelector('.videoEditor');
                         videoEditor.style.display = "block"
@@ -165,7 +165,7 @@ const get_video_source_from_input = async (input) => {
                         const videoElement = document.querySelector('#VDemo');
                         videoElement.controls = false;
                         videoElement.addEventListener('loadedmetadata', () => {
-                            videoElement.play();
+                            // videoElement.play();
                             document.querySelector(".audioMsg").innerHTML = `${msg}`
                         });
                         videoElement.src = URL.createObjectURL(blob);
@@ -195,7 +195,7 @@ const get_video_source_from_input = async (input) => {
                 function updateDurationText() {
                     const currentTime = formatTime(videoElement.currentTime);
                     const totalDuration = formatTime(videoElement.duration);
-                    videoTime.innerHTML = `${currentTime}&nbsp;/&nbsp;<span style="color:#5c647e">${totalDuration}</span>`;
+                    videoTime.innerHTML = `${currentTime}&nbsp;/&nbsp;<span style="color:#5c647e;">${totalDuration}</span>`;
                 }
 
                 videoElement.addEventListener('loadedmetadata', () => {
@@ -210,7 +210,7 @@ const get_video_source_from_input = async (input) => {
                     } else {
                         formattedDuration = `${minutes} minute ${remainingSeconds} seconds`;
                     }
-                    document.querySelector(".finalOuputText").innerHTML = `The final output will be <p class="videoTime" style="color: #fff !important;">${formattedDuration}</p>`
+                    document.querySelector(".finalOuputText").innerHTML = `The final output will be <p class="videoTime" style="color: #fff !important; text-align: center">${formattedDuration}</p>`
                 });
 
                 function togglePlayPause() {
@@ -250,6 +250,25 @@ function formatTime(time) {
     return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
+
+
+const showDropDown = document.querySelector('.file-pick-dropdown')
+const icon = document.querySelector('.arrow-sign')
+const dropDown = document.querySelector('.file-picker-dropdown')
+showDropDown.addEventListener('click', (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    addScripts()
+    if (dropDown.style.display !== 'none') {
+        dropDown.style.display = 'none'
+        icon.classList.remove('fa-angle-up')
+        icon.classList.add('fa-angle-down')
+    } else {
+        dropDown.style.display = 'block'
+        icon.classList.remove('fa-angle-down')
+        icon.classList.add('fa-angle-up')
+    }
+})
 
 
 
