@@ -174,6 +174,7 @@ const convertVideo = async (ffmpeg, inputFileName, emojiFileName, vfCommand, vfE
 
 
 };
+
 let vfCommand;
 let vfElementCommand;
 let x = 0; // left
@@ -196,82 +197,109 @@ function initializeTextOverlay() {
     const textHeight = textOverlay.offsetHeight;
     const initialX = (containerWidth - textWidth) / 2;
     const initialY = (containerHeight - textHeight) / 2;
-
     textOverlay.style.left = `${initialX}px`;
     textOverlay.style.top = `${initialY}px`;
     elementOverlay.style.left = `${initialX}px`;
     elementOverlay.style.top = `${initialY}px`;
-
     textOverlay.addEventListener('mousedown', handleMouseDown);
     elementOverlay.addEventListener('mousedown', handleMouseDown);
-    document.addEventListener('mousemove', debounce(handleMouseMove, 10));
+    document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseup', handleMouseUp);
-
     document.addEventListener('click', function (event) {
-        const isClickedInsideTextOverlay = textOverlay.contains(event.target);
-        if (!isClickedInsideTextOverlay) {
+        if (!textOverlay.contains(event.target)) {
             textOverlay.style.border = 'none';
+            textOverlay.classList.add('without-dots');
         }
-        const isClickedInsideElementOverlay = elementOverlay.contains(event.target);
-        if (!isClickedInsideElementOverlay) {
+        if (!elementOverlay.contains(event.target)) {
             elementOverlay.style.border = 'none';
         }
     });
 }
-
 function handleMouseDown(e) {
     if (e.target === textOverlay) {
         isTextOverlayDragging = true;
-        textOverlay.style.border = '3px dashed white';
+        textOverlay.style.border = '2px solid orange';
+        textOverlay.classList.remove('without-dots');
         offsetXTextOverlay = e.clientX - parseFloat(textOverlay.style.left);
         offsetYTextOverlay = e.clientY - parseFloat(textOverlay.style.top);
-        textOverlay.style.transition = 'none';
+        // textOverlay.style.transition = 'none';
+        // e.preventDefault();
     }
     if (e.target === elementOverlay) {
         isElementOverlayDragging = true;
-        elementOverlay.style.border = '3px dashed white';
+        elementOverlay.style.border = '2px solid orange';
         offsetXElementOverlay = e.clientX - parseFloat(elementOverlay.style.left);
         offsetYElementOverlay = e.clientY - parseFloat(elementOverlay.style.top);
         elementOverlay.style.transition = 'none';
+        e.preventDefault();
     }
 }
-
 function handleMouseMove(e) {
     if (isTextOverlayDragging) {
         const x = e.clientX - offsetXTextOverlay;
         const y = e.clientY - offsetYTextOverlay;
-        updateOverlayPosition(x, y, textOverlay);
-        vfCommand = `x=${x / video.offsetWidth}*W:y=${y / video.offsetHeight}*H`;
+        
+        // Check if the mouse is outside the video bounds
+        const videoRect = video.getBoundingClientRect();
+        if (
+            e.clientX < videoRect.left ||
+            e.clientX > videoRect.right ||
+            e.clientY < videoRect.top ||
+            e.clientY > videoRect.bottom
+        ) {
+            // Hide the text overlay
+            textOverlay.style.display = 'none';
+        } else {
+            // Show the text overlay and update its position
+            textOverlay.style.display = 'block';
+            updateOverlayPosition(x, y, textOverlay);
+            vfCommand = `x=${x / video.offsetWidth}*W:y=${y / video.offsetHeight}*H`;
+        }
     }
+    
     if (isElementOverlayDragging) {
         const x = e.clientX - offsetXElementOverlay;
         const y = e.clientY - offsetYElementOverlay;
-        updateOverlayPosition(x, y, elementOverlay);
-        vfElementCommand = `x=${x / video.offsetWidth}*W:y=${y / video.offsetHeight}*H`;
-        console.log(vfElementCommand);
+        
+        // Check if the mouse is outside the video bounds
+        const videoRect = video.getBoundingClientRect();
+        if (
+            e.clientX < videoRect.left ||
+            e.clientX > videoRect.right ||
+            e.clientY < videoRect.top ||
+            e.clientY > videoRect.bottom
+        ) {
+            // Hide the element overlay
+            elementOverlay.style.display = 'none';
+        } else {
+            // Show the element overlay and update its position
+            elementOverlay.style.display = 'block';
+            updateOverlayPosition(x, y, elementOverlay);
+            vfElementCommand = `x=${x / video.offsetWidth}*W:y=${y / video.offsetHeight}*H`;
+        }
     }
 }
 
 function handleMouseUp() {
-    isTextOverlayDragging = false;
-    isElementOverlayDragging = false;
-    textOverlay.style.transition = '';
-    elementOverlay.style.transition = '';
+    if (isTextOverlayDragging) {
+        isTextOverlayDragging = false;
+        textOverlay.style.transition = '';
+    }
+    if (isElementOverlayDragging) {
+        isElementOverlayDragging = false;
+        elementOverlay.style.transition = '';
+    }
 }
-
 async function updateOverlayPosition(x, y, overlay) {
     const minX = 0;
     const maxX = video.offsetWidth - overlay.offsetWidth;
     const minY = 0;
     const maxY = video.offsetHeight - overlay.offsetHeight;
-
     const constrainedX = Math.min(Math.max(x, minX), maxX);
     const constrainedY = Math.min(Math.max(y, minY), maxY);
-
     overlay.style.left = `${constrainedX}px`;
     overlay.style.top = `${constrainedY}px`;
 }
-
 function debounce(func, delay) {
     let timer;
     return function (...args) {
@@ -297,11 +325,9 @@ const get_video_source_from_input = async (input) => {
             let backgroundColor = "black@0";
             let textColor = "white";
             let textSize = "50";
-            elementOverlay.style.fontFamily = 'Alfa Slab One';
-            elementOverlay.style.fontSize = textSize - 22 + 'px'
+            textOverlay.style.border = '2px solid orange';
             textOverlay.style.fontFamily = 'Alfa Slab One';
             textOverlay.style.fontSize = textSize - 22 + 'px'
-
             reader.addEventListener("load", async function () {
                 const inputBuffer = reader.result;
                 const inputFormat = VideoSourceFile.name.split(".").pop();
@@ -343,8 +369,8 @@ const get_video_source_from_input = async (input) => {
                     const selectedOption = fontNameSelect.options[fontNameSelect.selectedIndex];
                     const selectedText = selectedOption.innerText;
                     textOverlay.style.fontFamily = selectedText;
-                   
-                     WebFont.load({
+
+                    WebFont.load({
                         google: {
                             families: [`${selectedText}:200,300,400,500,600,700,800&display=swap`]
                         },

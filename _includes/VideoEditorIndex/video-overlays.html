@@ -1,9 +1,48 @@
 <link rel="stylesheet" href="/public/styles/VideoEditor/subtitleFeature.css" crossorigin>
 
 <style>
-    .element{
+    #text-overlay::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0px 20px 0px white, 0px 40px 0px white;
+        /* Adjust shadow offsets to position dots */
+        position: absolute;
+        left: -10px;
+        /* Position along the left border */
+    }
+    #text-overlay::before {
+        top: -5px;
+    }
+    #text-overlay::after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0px 20px 0px white, 0px 40px 0px white;
+        /* Adjust shadow offsets to position dots */
+        position: absolute;
+        right: -10px;
+        /* Position along the left border */
+    }
+    #text-overlay::after {
+        top: -5px;
+    }
+    #text-overlay.without-dots::before,
+    #text-overlay.without-dots::after {
+        display: none;
+    }
+
+
+
+
+    .element {
         cursor: pointer;
     }
+
     #video-container {
         position: relative;
         display: inline-block;
@@ -62,9 +101,10 @@
         gap: 20px;
     }
 
-    .menu_itemActive{
+    .menu_itemActive {
         background-color: #0090ff;
     }
+
     .menu_item {
         cursor: pointer;
         width: 200px;
@@ -173,7 +213,7 @@
             <div class="goBack text-left text-white">
                 <a class="text-white" style="text-decoration: underline;" href="/loop-video">Go Back</a>
             </div>
-         
+
             <div class="textOverlayOptions mt-4">
                 <div class="option-settings">
                     <p class="text-left" style="color: #b4bad0;">Add your text and edit it</p>
@@ -267,13 +307,17 @@
             </div>
             <div class="elementOverlayoptions d-none">
                 <div class="optionheading feature-heading">
-                   Basic
+                    Basic
                 </div>
                 <div class="basic-elements d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/elements1.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements2.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements3.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements4.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/elements1.png" width="80px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/elements2.png" width="80px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/elements3.png" width="80px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/elements4.png" width="80px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
                     <!-- <img class="element" src="/emjios/elements5.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
                     <img class="element" src="/emjios/elements6.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
                     <img class="element" src="/emjios/elements7.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
@@ -283,40 +327,60 @@
                     <img class="element" src="/emjios/elements11.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
                     <img class="element" src="/emjios/elements12.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
                 -->
-               
+
                 </div>
 
 
                 <div class="optionheading feature-heading">
-                     Emoji
+                    Emoji
                 </div>
                 <div class="emjios d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/Emoji01.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji02.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji03.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji04.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji05.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji06.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji07.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji08.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji09.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji10.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji11.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji12.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji01.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji02.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji03.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji04.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji05.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji06.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji07.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji08.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji09.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji10.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji11.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Emoji12.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
                 </div>
 
                 <div class="optionheading feature-heading">
                     Holiday
                 </div>
                 <div class="emjios d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/Holiday01.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween02.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Christmas08.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween04.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween05.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween06.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween07.png" width="100px" alt="" style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Holiday01.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween02.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Christmas08.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween04.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween05.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween06.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
+                    <img class="element" src="/emjios/Halloween07.png" width="100px" alt=""
+                        style="border: 2px solid #34394e; padding:12px">
                 </div>
             </div>
 
@@ -335,7 +399,7 @@
                     <video src="" crossorigin type="video/mp4" controls
                         style="width: 700px;  margin:0 auto;height: auto;" id="VDemo"></video>
                     <div id="text-overlay" contenteditable="">Your text here...</div>
-                    <img id="element-overlay" style="width:150px"></img>
+                    <img id="element-overlay" class="p-0" style="width:150px"></img>
                 </div>
 
                 <div class="custom-video-player pos-relative">
