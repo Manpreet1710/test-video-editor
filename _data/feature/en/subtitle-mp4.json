@@ -65,6 +65,9 @@
         "answer": ""
       }
     ],
+    "csscdns": [
+      "<link rel=\"stylesheet\" href=\"/css/video-editor.css\" crossorigin='anonymous' />"
+  ],
     "filelang": "en",
     "display_formats": [
       "mp4"  ],

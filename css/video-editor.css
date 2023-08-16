@@ -99,7 +99,7 @@
     position: relative;
     background: #191b24;
     z-index: 9999;
-    width: 700px;
+    width: auto;
     height: 50px;
 }
 
@@ -135,7 +135,7 @@
 
 #seekSlider {
     -webkit-appearance: none;
-    width: 700px;
+    width: 100%;
     background: transparent;
     background-color: #3a4054;
     padding: 0.5px;
