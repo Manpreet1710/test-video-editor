@@ -424,17 +424,14 @@ const UploadSubs = async (input) => {
   document.querySelector(".box").style.background = "#a55eea"
   document.querySelector(".box").style.minHeight = "300px"
   document.querySelector(".box-border").style.display = "block"
-
   if (input.files.length > 0) {
     VideoSourceFile = input.files[0];
     let temporary = (VideoSourceFile.name).split('.');
     type = temporary[temporary.length - 1];
   }
-
   if (type == "vtt" || type == "srt") {
     const reader = new FileReader();
     reader.readAsDataURL(VideoSourceFile);
-
     reader.addEventListener(
       'load',
       async function () {
@@ -471,20 +468,42 @@ const fetch_and_load_Subs_to_FFmpeg = async () => {
   )
   addSubs();
 }
-var addSubs = async () => {
+const addSubs = async () => {
   Spinner.style.display = 'none'
   Workspace.style.display = 'none'
   Landing.style.display = 'inherit'
   CancelProcess.style.display = 'inherit'
-
-  const FFMPEGCommand = `-i input.mp4 -i subtitle.${type} -map 0 -map 1 -c:v copy -c:a copy -c:s mov_text Output.mp4`;
-  const ArrayOfInstructions = FFMPEGCommand.split(' ');
-  await ffmpeg.run(...ArrayOfInstructions);
-
+  LoadingText.style.display = 'inherit'
+  LoadingText.innerText = 'Thanks for your patience'
+  DownloadBox.style.display = 'inherit'
+  link.addEventListener('click', async () => {
+    var FFMPEGCommand = `-i input.mp4 -i subtitle.` + type + ` -c:v copy -c:a copy -c:s mov_text -map 0 -map 1 -metadata:s:s:0 language=eng Output.mp4`;
+    const ArrayOfInstructions = FFMPEGCommand.split(' ');
+    await ffmpeg.run(...ArrayOfInstructions);
+    const output = ffmpeg.FS('readFile', `Output.mp4`);
+    let url = URL.createObjectURL(new Blob([output.buffer], { type: `video/mp4` }));
+    let tempLink = document.createElement('a');
+    tempLink.href = url;
+    tempLink.download = "SubtitledVideo.mp4";
+    tempLink.click();
+  });
   CancelProcess.style.display = 'none'
   LandingText.style.display = 'none'
-  initateDownload();
 }
+function make_and_load_VTT() {
+  if (startTime.length > 0 && endTime.length > 0 && subText.length > 0) {
+    let tempString = "WEBVTT\n\n";
+    for (let i = 1; i < startTime.length; i++) {
+      tempString += startTime[i] + " --> " + endTime[i] + "\n" + subText[i] + "\n\n";
+    }
+    let tempBlob = new Blob([tempString], { type: 'text\plain' });
+    let url = URL.createObjectURL(tempBlob);
+    document.getElementById("TDemo").src = url;
+    document.getElementById("TDemo").track.mode = 'showing';
+  }
+}
+
+// add manually subtitle
 function WriteSubs() {
   document.querySelector(".toaster").style.left = "0px"
   document.querySelector(".toaster").style.right = "auto"
@@ -494,18 +513,11 @@ function WriteSubs() {
   document.getElementsByClassName('Workspace')[0].style.display = 'none';
   document.getElementsByTagName('Body')[0].style.overflow = 'hidden';
   document.getElementById('EditBox').style.display = 'block';
-
-  // document.getElementById('1col4').addEventListener('input', function () {
-  //   this.style.height = 'auto';
-  //   this.style.height = (this.scrollHeight) + 'px';
-  // });
   let tableDiv = document.getElementById("subTable");
   tableDiv.scrollTop = tableDiv.scrollHeight;
-
   // document.getElementById("1col2").addEventListener("focusin", function (e) {
   //   document.getElementById(e.target.id).style.borderColor = "rgb(11, 132, 248)";
   // });
-
   // let startTime = document.getElementById("1col2")
   // document.getElementById("1col2").addEventListener("focusout", function (e) {
   //   document.getElementById(e.target.id).style.borderColor = "gray";
@@ -580,87 +592,58 @@ function WriteSubs() {
   //   make_and_load_VTT();
   // });
 }
-function make_and_load_VTT() {
-  if (startTime.length > 0 && endTime.length > 0 && subText.length > 0) {
-    let tempString = "WEBVTT\n\n";
-    for (let i = 1; i < startTime.length; i++) {
-      tempString += startTime[i] + " --> " + endTime[i] + "\n" + subText[i] + "\n\n";
-    }
-    let tempBlob = new Blob([tempString], { type: 'text\plain' });
-    let url = URL.createObjectURL(tempBlob);
-    document.getElementById("TDemo").src = url;
-    document.getElementById("TDemo").track.mode = 'showing';
+// generate srt from written subtitles
+function generateSRT(subtitleText, startTimeInSeconds, endTimeInSeconds) {
+  const srtContent = [];
+  const subtitleLines = subtitleText.trim().split('\n');
+  let sequence = 1;
+  for (const line of subtitleLines) {
+    const startTime = formatTime(startTimeInSeconds);
+    const endTime = formatTime(endTimeInSeconds);
+
+    srtContent.push(`${sequence}`);
+    srtContent.push(`${startTime} --> ${endTime}`);
+    srtContent.push(line);
+    srtContent.push('');
+
+    sequence++;
   }
+  return srtContent.join('\n');
 }
+//export srt
 function exportSRT() {
-  document.querySelector(".box").style.background = "#a55eea"
-  document.querySelector(".box").style.minHeight = "300px"
-  document.querySelector(".box-border").style.display = "block"
-
-  Spinner.style.display = 'none'
-  document.getElementsByTagName('Body')[0].style.overflow = 'auto';
-  document.getElementById("EditBox").style.display = 'none'
-  Landing.style.display = 'inherit'
-  CancelProcess.style.display = 'inherit'
-  let tempString = "";
-  for (let i = 1; i < startTime.length; i++) {
-    if (typeof startTime[i] != "undefined")
-      if (typeof endTime[i] != "undefined") {
-        tempString += i + "\n";
-        for (let j = 0; j < startTime[i].length; j++) {
-          if (startTime[i].charAt(j) != '.')
-            tempString += startTime[i].charAt(j);
-          else
-            tempString += ',';
-        }
-        tempString += " --> ";
-        for (let k = 0; k < endTime[i].length; k++) {
-          if (endTime[i].charAt(k) != '.')
-            tempString += endTime[i].charAt(k);
-          else
-            tempString += ',';
-        }
-        tempString += "\n" + subText[i] + "\n\n";
-      }
+  function timeToSeconds(time) {
+    const parts = time.split(":").map(parseFloat);
+    return parts[0] * 3600 + parts[1] * 60 + parts[2];
   }
-  let tempBlob = new Blob([tempString], { type: 'text\plain' });
-  let url = URL.createObjectURL(tempBlob);
-  CancelProcess.style.display = 'none'
-  LandingText.style.display = 'none'
 
-  LoadingText.style.display = 'inherit'
-  LoadingText.innerText = 'Thanks for your patience'
-  DownloadBox.style.display = 'inherit'
-  link.addEventListener('click', () => handleDownload(url, "Subtitles.srt"));
-}
-const initateDownload = async () => {
-  const output = ffmpeg.FS('readFile', `Output.mp4`);
-  let hrefLink = URL.createObjectURL(
-    new Blob([output.buffer], { type: `video/mp4` })
-  );
+  let srtContent = ""; // Initialize with an empty string to accumulate the content
+  rowData.forEach((data) => {
+    const startTime = `${data.timeInputs[0].value}:${data.timeInputs[1].value}:${data.timeInputs[2].value}`;
+    const endTime = `${data.timeInputs[3].value}:${data.timeInputs[4].value}:${data.timeInputs[5].value}`;
+    const startTimeInSeconds = timeToSeconds(startTime);
+    const endTimeInSeconds = timeToSeconds(endTime);
+    let subtitleText;
 
-  LoadingText.style.display = 'inherit'
-  LoadingText.innerText = 'Thanks for your patience'
-  DownloadBox.style.display = 'inherit'
-  link.addEventListener('click', () => handleDownload(hrefLink, "SubtitledVideo.mp4"));
-}
-let handleDownload = (src, fname) => {
-  let tempLink = document.createElement('a')
-  tempLink.href = src
-  tempLink.download = fname;
-  tempLink.click()
-  setTimeout(() => {
-    if (lang === 'en') {
-      window.location.href = `/download?tool=${pageTool}`
+    if (data.subtitleInput.value == "") {
+      subtitleText = "New Subtitle";
     } else {
-      window.location.href = `/${lang}/download?tool=${pageTool}`
+      subtitleText = data.subtitleInput.value;
     }
-  }, 500)
-}
+    const subtitleSRT = generateSRT(subtitleText, startTimeInSeconds, endTimeInSeconds);
+    srtContent += subtitleSRT + "\n"; // Accumulate the subtitle content
+  });
 
+  const tempBlob = new Blob([srtContent], { type: 'text/plain' });
+  const url = URL.createObjectURL(tempBlob);
+
+  let tempLink = document.createElement('a');
+  tempLink.href = url;
+  tempLink.download = "Subtitles.srt";
+  tempLink.click();
+}
 // export video as a .mp4
 async function exportVideo() {
-  console.log(rowData);
   function timeToSeconds(time) {
     const parts = time.split(":").map(parseFloat);
     return parts[0] * 3600 + parts[1] * 60 + parts[2];
@@ -704,44 +687,9 @@ async function exportVideo() {
   let blob = new Blob([output.buffer], { type: `video/${InputFormat}` });
   let a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = `safevideokit-loop-video.mp4`;
+  a.download = `safevideokit-subtitle.mp4`;
   document.body.appendChild(a);
   a.click();
-
-
-
-
-
-
-  // document.querySelector(".box").style.background = "#a55eea"
-  // document.querySelector(".box").style.minHeight = "300px"
-  // document.querySelector(".box-border").style.display = "block"
-
-  // Spinner.style.display = 'none'
-  // document.getElementsByTagName('Body')[0].style.overflow = 'auto';
-  // document.getElementById("EditBox").style.display = 'none'
-  // let tempString = "WEBVTT\n\n";
-  // for (let i = 1; i < startTime.length; i++) {
-  //   if (typeof startTime[i] != "undefined")
-  //     if (typeof endTime[i] != "undefined")
-  //       tempString += startTime[i] + " --> " + endTime[i] + "\n" + subText[i] + "\n\n";
-  // }
-  // let tempBlob = new Blob([tempString], { type: 'text\plain' });
-  // const reader = new FileReader();
-  // reader.readAsDataURL(tempBlob);
-  // reader.addEventListener('load', async () => {
-  //   try {
-  //     SubSourceurl = reader.result;
-  //     type = "vtt";
-  //     fetch_and_load_Subs_to_FFmpeg();
-  //   } catch (e) {
-  //     document.getElementById("ErrorBoxMessage").innerHTML = "<center><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ff0000' class='bi bi-exclamation-triangle' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b></center>";
-  //     document.getElementById("ErrorBox").style.display = "block";
-  //     Landing.style.display = 'none'
-  //     InputButtonContainer.style.display = 'none'
-  //     Workspace.style.display = 'none'
-  //   }
-  // }, false);
 }
 String.prototype.toHHMMSS = function () {
   let sec_num = parseInt(this, 10); // don't forget the second param
@@ -753,6 +701,9 @@ String.prototype.toHHMMSS = function () {
   if (minutes < 10) { minutes = "0" + minutes; }
   if (seconds < 10) { seconds = "0" + seconds; }
   return hours + ':' + minutes + ':' + seconds;
+}
+function padTime(value) {
+  return value.toString().padStart(2, '0');
 }
 function formatTime(time) {
   const minutes = Math.floor(time / 60);

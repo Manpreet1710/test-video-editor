@@ -4,6 +4,9 @@
 #video-container {
     position: relative;
     display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 
 #video {
@@ -12,13 +15,53 @@
 
 .txtColorBox,
 .bgColorBox {
+    outline: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 10px;
     overflow: hidden;
     position: relative;
     height: 23px;
     width: 23px;
     border-radius: 100%;
     cursor: pointer;
-    outline: 6px solid #303445;
+}
+
+#text-overlay::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 20px 0px white, 0px 40px 0px white;
+    /* Adjust shadow offsets to position dots */
+    position: absolute;
+    left: -10px;
+    /* Position along the left border */
+}
+
+#text-overlay::before {
+    top: -5px;
+}
+
+#text-overlay::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 20px 0px white, 0px 40px 0px white;
+    /* Adjust shadow offsets to position dots */
+    position: absolute;
+    right: -10px;
+    /* Position along the left border */
+}
+
+#text-overlay::after {
+    top: -5px;
+}
+
+#text-overlay.without-dots::before,
+#text-overlay.without-dots::after {
+    display: none;
 }
 
 .txtColorBox:nth-child(2) {
@@ -53,7 +96,8 @@
     background-color: #fff;
 }
 
-#text-overlay,#element-overlay {
+#text-overlay,
+#element-overlay {
     position: absolute;
     font-size: 24px;
     color: white;
@@ -63,32 +107,36 @@
     user-select: none;
 }
 
-#text-overlay:focus {
+#text-overlay:focus,
+#yourText:focus {
     box-shadow: unset;
-    border: none;
+    /* border: none; */
     outline: none;
 }
 
 #yourText {
-    color: #fff;
-    width: 95%;
+    color: #000;
+    width: 100%;
     padding: 15px;
-    border: 1px solid #303445;
+    border: 1px solid rgb(247, 247, 248);
     cursor: text;
     display: flex;
     position: relative;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.1876em;
-    border-radius: 18px;
-    background-color: #303445;
+    border-radius: 7px;
+    background-color: rgb(247, 247, 248);
+    resize: none;
 }
 
 .bgBox {
     position: relative;
-    height: 35px;
+    height: 25px;
     width: 80px;
-    background: #303445;
+    background-color: transparent;
+    outline: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 10px;
     border-radius: 22px;
     cursor: pointer;
     display: flex;
@@ -144,28 +192,87 @@
 
 #font-name-select,
 #font-size-select {
+    border-radius: 7px;
+    transition: all 100ms ease 0s;
+    border-color: rgb(238, 238, 240);
     display: flex;
     flex-direction: row;
-    border-radius: 18px;
     position: relative;
-    background-color: rgb(48, 52, 69);
-    border: 1px solid rgb(48, 52, 69);
+    background-color: transparent;
+    border: 1px solid rgb(238, 238, 240);
     padding: 1px 12px 0px;
     font-size: 16px;
-    color: rgb(180, 186, 208);
+    color: rgb(25, 32, 51);
     line-height: 1.25;
     box-sizing: border-box;
     cursor: pointer;
-    height: 36px !important;
+    height: 45px !important;
+    font-size: 15px;
 }
 
 #font-name-select,
 #font-size-select:focus {
     outline: none;
-    border: none;
-    box-shadow: unset;
+    /* border: none; */
+    /* box-shadow: unset; */
+}
+.elements{
+    cursor: pointer;
+    gap:10px;
+    overflow-x: scroll;
+}
+.elements::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar in WebKit browsers (e.g., Chrome, Safari) */
+}
+.elements .element{
+    background: rgb(247, 247, 248);
+    border-radius: 10px;
+    border: 1px solid rgb(247, 247, 248);
+    border-radius: 7px;
+    width: 75px;
+}
+.basic-filters{
+    cursor: pointer;
+    gap:10px;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
 }
 
+.filter-container{
+    /* padding: 20px 0px; */
+    width: calc(50% - 10px); /* 50% width with some spacing */
+}
+.filter-container label{
+    font-size: 14px;
+    color:gray;
+    margin-bottom: 0;
+}
+.basic-filters #none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(247, 247, 248);
+    border-radius: 10px;
+    border: 1px solid rgb(247, 247, 248);
+    border-radius: 10px;
+    width: 100%;
+    height: 105px;
+}
+.media-upload .upload-box,
+.audio-upload .upload-box {
+    border: 2px dashed #b4bad0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload-box input[type="file"] {
+    display: none;
+}
 .download-modal-container {
     position: fixed;
     display: none;
@@ -310,6 +417,3 @@
         opacity: 0
     }
 }
-
-
-

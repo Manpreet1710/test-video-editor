@@ -1,129 +1,9 @@
-
-<style>
-    #text-overlay::before {
-        content: "";
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: white;
-        box-shadow: 0px 20px 0px white, 0px 40px 0px white;
-        /* Adjust shadow offsets to position dots */
-        position: absolute;
-        left: -10px;
-        /* Position along the left border */
-    }
-    #text-overlay::before {
-        top: -5px;
-    }
-    #text-overlay::after {
-        content: "";
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: white;
-        box-shadow: 0px 20px 0px white, 0px 40px 0px white;
-        /* Adjust shadow offsets to position dots */
-        position: absolute;
-        right: -10px;
-        /* Position along the left border */
-    }
-    #text-overlay::after {
-        top: -5px;
-    }
-    #text-overlay.without-dots::before,
-    #text-overlay.without-dots::after {
-        display: none;
-    }
-
-
-
-
-    .element {
-        cursor: pointer;
-    }
-
-    #video-container {
-        position: relative;
-        display: inline-block;
-    }
-
-    #video {
-        max-width: 100%;
-    }
-
-
-
-    .txtColorBox,
-    .bgColorBox {
-        overflow: hidden;
-        position: relative;
-        height: 23px;
-        width: 23px;
-        border-radius: 100%;
-        cursor: pointer;
-        outline: 6px solid #303445;
-    }
-
-    .txtColorBox:nth-child(2) {
-        background-color: #000;
-    }
-
-    .txtColorBox:nth-child(3) {
-        background-color: #fff;
-    }
-
-    .txtColorBox:nth-child(4) {
-        background-color: yellow;
-    }
-
-    .txtColorBox:nth-child(5) {
-        background-color: blue;
-    }
-
-    .txtColorBox:nth-child(6) {
-        background-color: #F11A7B;
-    }
-
-    .bgColorBox:nth-child(2) {
-        background-color: #fff;
-    }
-
-    .bgColorBox:nth-child(3) {
-        background-color: #000;
-    }
-
-    .bgColorBox:nth-child(4) {
-        background-color: #fff;
-    }
-
-    .menuBar {
-        gap: 20px;
-    }
-
-    .menu_itemActive {
-        background-color: #0090ff;
-    }
-
-    .menu_item {
-        cursor: pointer;
-        width: 200px;
-        height: 60px;
-        /* background-color: red; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu_item p {
-        margin-bottom: 0 !important;
-    }
-</style>
 <div class="row">
     <div class="col-md-9 mx-auto">
         <div class="box" style="width:100%" id="temp_box1">
             <div class="box-border" id="temp_box2"></div>
             <div class="Landing">
-                <div class="ProgressBar"></div>
+                <!-- <div class="ProgressBar"></div> -->
                 <label class="Button" for="files">
 
                     <div class="m-auto ">
@@ -134,15 +14,13 @@
                                 fill="#fff" />
                         </svg>
                         <div class=" d-flex justify-content-center align-items-center ">
-                            <div style="background:#0090ff; color:#fff;" id="ButtonLabel" class="InputButton"
+                            <div style="background:#0098FD; color:#fff;" id="ButtonLabel" class="InputButton"
                                 class="boxes">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                                    <path
-                                        d="M14.0036 1.99646L17.0036 4.99646L16.999 4.99946L17 5.00001V13H16V5.99946L13 6.00001V2.99946H4V17.9995L12.0275 18.0003C12.0093 17.8361 12 17.6691 12 17.5C12 15.0147 14.0147 13 16.5 13C18.9853 13 21 15.0147 21 17.5C21 19.9853 18.9853 22 16.5 22C14.5409 22 12.8742 20.7481 12.2563 19.0007L3 19V2.00001H14L14.0036 1.99646ZM16.5 14C14.567 14 13 15.567 13 17.5C13 19.433 14.567 21 16.5 21C18.433 21 20 19.433 20 17.5C20 15.567 18.433 14 16.5 14ZM17 15V16.9995L19 17V18L17 17.9995V20H16V17.9995L14 18V17L16 16.9995V15H17ZM11 14V15H6V14H11ZM14 11V12H6V11H14ZM14 8.00001V9.00001H6V8.00001H14ZM14 3.40746V4.99946H15.592L14 3.40746Z">
-                                    </path>
-                                </svg> <span class='ml-2'>CHOOSE FILE</span>
+                                <img height="21px" width="21px"
+                                    src="https://d33wubrfki0l68.cloudfront.net/b69837ed98eb2fdc6b59ae85db395367c5d19dbb/f7ef6/assets/images/add.svg"
+                                    alt="add" crossorigin=""> <span class='ml-2'>CHOOSE FILE</span>
                             </div>
-                            <div class="file-pick-dropdown" style="background:#0090ff; color:#fff;">
+                            <div class="file-pick-dropdown" style="background:#0098FD; color:#fff;">
                                 <i class="fas fa-angle-down arrow-sign "></i>
                                 <div class="file-picker-dropdown" style="display: none;">
                                     <button id="dropbox"> <svg viewBox="0 0 24 24" fill="#0061FF"
@@ -184,44 +62,178 @@
         </div>
     </div>
 </div>
-
-<div class="container-fluid videoEditor" style="position:absolute;display: none;top: 0;z-index: 1080;height: 100%;"
-    id="EditBox">
+<div class="container-fluid videoEditor" style="display: none;" id="EditBox">
     <div class="row fixed-top">
-        <div class="col-md-1" style="background-color: #191b24;
-        border: 2px solid #34394e;">
-            <ol class="menuBar d-flex align-items-center justify-content-center flex-column pt-2">
-                <li class="item">
-                    <img src="/assets/safevideokit.svg" width="40x" height="40px" alt="">
-                </li>
-                <!-- <li class="menu_item">
-                    <p class="text-white">Template</p>
-                </li> -->
+        <div class="col-md-1 p-0">
+            <div class="navbar">
+                <ul class="w-100 menuBar d-flex align-items-center flex-column pl-3">
+                    <li class="item">
+                        <img src="/assets/safevideokit.svg" width="35px" height="35px" alt="">
+                    </li>
+                    <li class="menu_item" id="add-media">
+                        <div class="tab tabClicked">
+                            <svg width="25px" height="25px" viewBox="-6.4 -6.4 44.80 44.80" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-6.4" y="-6.4" width="44.80" height="44.80" rx="8.96" fill="#6FB5F5"
+                                        strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>plus</title>
+                                    <desc>Created with Sketch Beta.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke-width="0.00032" fill="none" fill-rule="evenodd"
+                                        sketch:type="MSPage">
+                                        <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                            transform="translate(-362.000000, -1037.000000)" fill="#ffffff">
+                                            <path
+                                                d="M390,1049 L382,1049 L382,1041 C382,1038.79 380.209,1037 378,1037 C375.791,1037 374,1038.79 374,1041 L374,1049 L366,1049 C363.791,1049 362,1050.79 362,1053 C362,1055.21 363.791,1057 366,1057 L374,1057 L374,1065 C374,1067.21 375.791,1069 378,1069 C380.209,1069 382,1067.21 382,1065 L382,1057 L390,1057 C392.209,1057 394,1055.21 394,1053 C394,1050.79 392.209,1049 390,1049"
+                                                id="plus" sketch:type="MSShapeGroup"> </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <a class="tab-label" style="color:#0098FD">Media</a>
+                    </li>
+                    <li class="menu_item" id="textMenuItem">
+                        <div class="tab">
+                            <svg width="25px" height="25px" viewBox="-4.8 -4.8 57.60 57.60"
+                                xmlns="http://www.w3.org/2000/svg" fill="#fff" stroke="#fff"
+                                stroke-width="0.00048000000000000007">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-4.8" y="-4.8" width="57.60" height="57.60" rx="11.52" fill="#C8CBD4"
+                                        strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>text-style-solid</title>
+                                    <g id="Layer_2" data-name="Layer 2">
+                                        <g id="invisible_box" data-name="invisible box">
+                                            <rect width="48" height="48" fill="none"></rect>
+                                        </g>
+                                        <g id="Q3_icons" data-name="Q3 icons">
+                                            <polygon points="40 5 8 5 8 11 21 11 21 43 27 43 27 11 40 11 40 5">
+                                            </polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <a class="tab-label">Text</a>
+                    </li>
+                    <li class="menu_item" id="elementMenuItem">
+                        <div class="tab">
+                            <svg width="25px" height="25px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="5.76" fill="#C8CBD4"
+                                        strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M22 8.52V3.98C22 2.57 21.36 2 19.77 2H15.73C14.14 2 13.5 2.57 13.5 3.98V8.51C13.5 9.93 14.14 10.49 15.73 10.49H19.77C21.36 10.5 22 9.93 22 8.52Z"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="M22 19.77V15.73C22 14.14 21.36 13.5 19.77 13.5H15.73C14.14 13.5 13.5 14.14 13.5 15.73V19.77C13.5 21.36 14.14 22 15.73 22H19.77C21.36 22 22 21.36 22 19.77Z"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="M10.5 8.52V3.98C10.5 2.57 9.86 2 8.27 2H4.23C2.64 2 2 2.57 2 3.98V8.51C2 9.93 2.64 10.49 4.23 10.49H8.27C9.86 10.5 10.5 9.93 10.5 8.52Z"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="M10.5 19.77V15.73C10.5 14.14 9.86 13.5 8.27 13.5H4.23C2.64 13.5 2 14.14 2 15.73V19.77C2 21.36 2.64 22 4.23 22H8.27C9.86 22 10.5 21.36 10.5 19.77Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <a class="tab-label">Elements</a>
+                    </li>
+                    <li class="menu_item" id="add-audio">
+                        <div class="tab">
+                            <svg width="25px" height="25px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="6.048000000000001"
+                                        fill="#C8CBD4" strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M14.3187 2.50498C13.0514 2.35716 11.8489 3.10033 11.4144 4.29989C11.3165 4.57023 11.2821 4.86251 11.266 5.16888C11.2539 5.40001 11.2509 5.67552 11.2503 6L11.25 6.45499C11.25 6.4598 11.25 6.4646 11.25 6.46938V14.5359C10.4003 13.7384 9.25721 13.25 8 13.25C5.37665 13.25 3.25 15.3766 3.25 18C3.25 20.6234 5.37665 22.75 8 22.75C10.6234 22.75 12.75 20.6234 12.75 18V9.21059C12.8548 9.26646 12.9683 9.32316 13.0927 9.38527L15.8002 10.739C16.2185 10.9481 16.5589 11.1183 16.8378 11.2399C17.119 11.3625 17.3958 11.4625 17.6814 11.4958C18.9486 11.6436 20.1511 10.9004 20.5856 9.70089C20.6836 9.43055 20.7179 9.13826 20.7341 8.83189C20.75 8.52806 20.75 8.14752 20.75 7.67988L20.7501 7.59705C20.7502 7.2493 20.7503 6.97726 20.701 6.71946C20.574 6.05585 20.2071 5.46223 19.6704 5.05185C19.4618 4.89242 19.2185 4.77088 18.9074 4.6155L16.1999 3.26179C15.7816 3.05264 15.4412 2.88244 15.1623 2.76086C14.8811 2.63826 14.6043 2.53829 14.3187 2.50498Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <a class="tab-label">Audio</a>
+                    </li>
+                    <li class="menu_item" id="add-subtitle">
+                        <div class="tab">
+                            <svg width="25px" height="25px" fill="#ffffff" viewBox="-5 -5 60.00 60.00" version="1.2"
+                                baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" overflow="inherit"
+                                stroke="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-5" y="-5" width="60.00" height="60.00" rx="12" fill="#C8CBD4"
+                                        strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M15.599 23c-.033-1-.32-1.731-.806-2.206-.475-.513-1.137-.885-1.976-.885-2.871 0-3.345 2.919-3.345 5.199 0 2.897 1.104 4.783 3.345 4.783 1.976 0 2.749-.892 2.969-2.892h7.717c-.662 6-5.365 8.002-10.686 8.002-6.205 0-10.985-3.49-10.985-9.987 0-6.574 4.625-10.131 10.985-10.131 5.133 0 9.991 2.117 10.532 8.117h-7.75zm24.497 0c-.033-1-.331-1.731-.806-2.206-.475-.513-1.137-.885-1.988-.885-2.858 0-3.333 2.919-3.333 5.199 0 2.897 1.104 4.783 3.333 4.783 1.988 0 2.761-.892 2.981-2.892h7.717c-.662 6-5.365 8.002-10.698 8.002-6.204 0-10.973-3.49-10.973-9.987 0-6.574 4.626-10.131 10.973-10.131 5.146 0 9.991 2.117 10.544 8.117h-7.75z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <a class="tab-label">Subtitles</a>
+                    </li>
+                    <li class="menu_item" id="add-filters">
+                        <div class="tab">
+                            <svg width="25px" height="25px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" transform="rotate(0)">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="5.472" fill="#C8CBD4"
+                                        strokewidth="0"></rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M18 8C18 11.3137 15.3137 14 12 14C8.68629 14 6 11.3137 6 8C6 4.68629 8.68629 2 12 2C15.3137 2 18 4.68629 18 8Z"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="M5.03349 10.7834C3.22163 11.816 2 13.7653 2 16C2 19.3137 4.68629 22 8 22C11.3137 22 14 19.3137 14 16C14 15.7437 13.9839 15.4911 13.9527 15.2432C13.3301 15.4107 12.6755 15.5 12 15.5C8.84139 15.5 6.13882 13.5474 5.03349 10.7834Z"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="M15.3866 14.6936C15.4611 15.1179 15.5 15.5544 15.5 16C15.5 18.0906 14.6446 19.9815 13.2646 21.3416C14.0849 21.7625 15.0147 22 16 22C19.3137 22 22 19.3137 22 16C22 13.7653 20.7783 11.816 18.9665 10.7834C18.2876 12.4811 17.0062 13.8726 15.3866 14.6936Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
 
-                <li class="menu_item menu_itemActive" id="textMenuItem">
-                    <p class="text-white">Text</p>
-                </li>
-                <li class="menu_item" id="elementMenuItem">
-                    <p class="text-white">Element</p>
-                </li>
-            </ol>
-        </div>
-        <div class="mobileColumn col-md-3  pr-0 pt-3"
-            style="background-color: #191b24;justify-content: center;overflow-y:scroll; overflow-x: hidden;  border: 1px solid black;z-index: 1; height: 100vh;">
-
-            <div class="goBack text-left text-white">
-                <a class="text-white" style="text-decoration: underline;" href="/loop-video">Go Back</a>
+                        </div>
+                        <a class="tab-label">Filters</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="textOverlayOptions mt-4">
+        </div>
+        <div class="editor-options mobileColumn col-md-3">
+            <div class="media-upload mt-5">
+                <p class="text-left" style="color: #000; font-weight: 900;">Add Media</p>
+                <div class="upload-box mt-3">
+                    <label class="mb-0" for="upload-logo">Upload a File</label>
+                    <input type="file" id="upload-logo">
+                </div>
+            </div>
+            <div class="textOverlayOptions d-none my-5">
+                <p class="mb-2 text-left" style="color: #000; font-weight: 900;">Edit Text</p>
                 <div class="option-settings">
-                    <p class="text-left" style="color: #b4bad0;">Add your text and edit it</p>
                     <div class="txtBox">
                         <textarea value="Your text here" placeholder="Your text here..." id="yourText"
-                            rows="3"></textarea>
+                            rows="5"></textarea>
                     </div>
                 </div>
-                <div class="option-settings mt-3">
+                <p class="mb-2 mt-4 text-left" style="color: #000; font-weight: 900;">Style</p>
+                <div class="option-settings">
                     <div class="d-flex" style="gap:10px">
                         <div class="font-select">
                             <select id="font-name-select">
@@ -262,7 +274,7 @@
                     </div>
 
                 </div>
-                <div class="option-settings d-flex align-items-center mt-3" style="gap:20px">
+                <div class="option-settings d-flex align-items-center mt-3" style="gap:20px;margin-left: .3rem;">
                     <div class="bgBox" onclick="toggleTxtColorPicker()">
                         <div class="innerColorBox">
                             <div class="d-none ColorSelect"></div>
@@ -281,8 +293,8 @@
                     <div data-color="blue" class="txtColorBox"></div>
                     <div data-color="#F11A7B" class="txtColorBox"></div>
                 </div>
-                <p class="text-left mt-4" style="color: #b4bad0;">Background Color</p>
-                <div class="option-settings d-flex align-items-center" style="gap:20px">
+                <p class="mt-4 text-left" style="color: #000; font-weight: 900;">Background Color</p>
+                <div class="option-settings d-flex align-items-center" style="gap:20px; margin-left: 0.3rem;">
                     <div class="bgBox" onclick="toggleColorPicker()">
                         <div class="innerBgBox">
                             <div class="noColorSelect"></div>
@@ -304,105 +316,233 @@
 
                 </div>
             </div>
-            <div class="elementOverlayoptions d-none">
+            <div class="elementOverlayoptions pb-5 d-none">
                 <div class="optionheading feature-heading">
-                    Basic
+                    <p class="mb-2 text-left" style="color: #000; font-weight: 900;">Social</p>
                 </div>
-                <div class="basic-elements d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/elements1.png" width="80px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements2.png" width="80px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements3.png" width="80px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements4.png" width="80px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <!-- <img class="element" src="/emjios/elements5.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements6.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements7.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements8.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements9.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements10.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements11.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/elements12.png" width="80px" alt="" style="border: 2px solid #34394e; padding:12px">
-                -->
+                <div class="elements basic-elements d-flex">
+                    <img class="element" src="/elements/social-icon-instagram.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-facebook.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-snapchat.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-whatsapp.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-youtube.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-like.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/social-icon-subscribe.png" style="padding:15px;" alt="element">
+
+
 
                 </div>
-
-
                 <div class="optionheading feature-heading">
-                    Emoji
+                    <p class="text-left mb-2" style="color: #000; font-weight: 900;">Emoji</p>
                 </div>
-                <div class="emjios d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/Emoji01.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji02.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji03.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji04.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji05.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji06.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji07.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji08.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji09.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji10.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji11.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Emoji12.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
+                <div class="elements emjios d-flex">
+                    <img class="element" src="/elements/Emoji01.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji02.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji03.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji04.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji05.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji06.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji07.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji08.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji09.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji10.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji11.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Emoji12.png" width="100px" alt="element">
                 </div>
-
                 <div class="optionheading feature-heading">
-                    Holiday
+                    <p class="text-left mb-2" style="color: #000; font-weight: 900;">Holiday</p>
                 </div>
-                <div class="emjios d-flex  flex-wrap" style="gap:10px; justify-content: center;">
-                    <img class="element" src="/emjios/Holiday01.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween02.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Christmas08.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween04.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween05.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween06.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
-                    <img class="element" src="/emjios/Halloween07.png" width="100px" alt=""
-                        style="border: 2px solid #34394e; padding:12px">
+                <div class="elements emjios d-flex">
+                    <img class="element" src="/elements/Holiday01.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween02.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Christmas08.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween04.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween05.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween06.png" width="100px" alt="element">
+                    <img class="element" src="/elements/Halloween07.png" width="100px" alt="element">
+                </div>
+                <div class="optionheading feature-heading">
+                    <p class="mb-2 text-left" style="color: #000; font-weight: 900;">People</p>
+                </div>
+                <div class="elements basic-elements d-flex">
+                    <img class="element" src="/elements/people-1.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/people-2.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/people-3.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/people-4.png" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/people-5.png" style="padding:15px;" alt="element">
+                </div>
+                <div class="optionheading feature-heading">
+                    <p class="mb-2 text-left" style="color: #000; font-weight: 900;">Gifs</p>
+                </div>
+                <div class="elements basic-elements d-flex">
+                    <img class="element" src="/elements/yA.gif" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/5GJg.gif" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/3zM0.gif" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/4Mj.gif" style="padding:15px;" alt="element">
+                    <img class="element" src="/elements/OzG.gif" style="padding:15px;" alt="element">
                 </div>
             </div>
-
-
-
-        </div>
-        <div class="col-md-8" id="VContainer" style="background-color: #000;border: 1px solid black;z-index:-1;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;">
-
-
-            <div class="pos-relative" style="position:relative; top:-5vh">
-                <div id="video-container">
-                    <video src="" crossorigin type="video/mp4" controls
-                        style="width: 700px;  margin:0 auto;height: auto;" id="VDemo"></video>
-                    <div id="text-overlay" contenteditable="">Your text here...</div>
-                    <img id="element-overlay" class="p-0" style="width:150px"></img>
+            <div class="audio-upload d-none mt-5">
+                <p class="text-left" style="color: #000; font-weight: 900;">Add Media</p>
+                <div class="upload-box mt-3">
+                    <label class="mb-0" for="upload-logo">Upload a File</label>
+                    <input type="file" id="upload-logo">
                 </div>
+            </div>
+            <div class="video-filters-options pb-5 d-none">
+                <div class="optionheading feature-heading">
+                    <p class="text-left" style="color: #000; font-weight: 900;">Filters</p>
+                </div>
+                <div class="filters basic-filters d-flex">
+                    <div class="filter-container">
+                        <div id="none" class="filter-box">
+                            <svg id="None" width="50" height="50" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="#9094A5" class="sc-bgqQcB fKxksa">
+                                <path
+                                    d="M32 17c0-8.28427-6.7157-15-15-15C8.71573 2 2 8.71573 2 17c0 8.2843 6.71573 15 15 15 8.2843 0 15-6.7157 15-15ZM7 6l20 21"
+                                    stroke="currentColor" stroke-width="3"></path>
+                            </svg>
+                        </div>
+                        <label class="filter-label" for="None">None</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="sepia" class="filter-box">
+                            <img src="/elements/filter-sepia.webp" alt="filter" height="100%" style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Sepia</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="calmII" class="filter-box">
+                            <img src="/elements/filter-saturate.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Calm II</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="grayscale" class="filter-box">
+                            <img src="/elements/filter-grayscale.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Grayscale</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="pixelate" class="filter-box">
+                            <img src="/elements/filter-pixelate.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Pixelate</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="noise" class="filter-box">
+                            <img src="/elements/filter-noise.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Noise</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="red" class="filter-box">
+                            <img src="/elements/filter-redeye.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Red Eye</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="blue" class="filter-box">
+                            <img src="/elements/filter-blueye.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Blue Eye</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="hue" class="filter-box">
+                            <img src="/elements/filter-hue.webp" alt="filter" height="100%" style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Hue</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="rgb" class="filter-box">
+                            <img src="/elements/filter-rgb.webp" alt="filter" height="100%" style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">RGB</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="blur" class="filter-box">
+                            <img src="/elements/filter-blur.webp" alt="filter" height="100%" style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Blur</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="brightness" class="filter-box">
+                            <img src="/elements/filter-brightness.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Brightness</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="contrast" class="filter-box">
+                            <img src="/elements/filter-contrast.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Contrast</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="invert" class="filter-box">
+                            <img src="/elements/filter-invert.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Invert</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="painting" class="filter-box">
+                            <img src="/elements/filter-painting.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Painting</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="vintage" class="filter-box">
+                            <img src="/elements/filter-vintage.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Vintage</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="emboss" class="filter-box">
+                            <img src="/elements/filter-emboss.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Emboss</label>
+                    </div>
+                    <div class="filter-container">
+                        <div id="sharpen" class="filter-box">
+                            <img src="/elements/filter-sharpen.webp" alt="filter" height="100%"
+                                style="border-radius:7px">
+                        </div>
+                        <label class="filter-label" for="None">Sharpen</label>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="VContainer">
+            <div class="downloadVideo" style="width: 100%;
+           text-align: right;
+           position: relative;
+           top: -10px;">
+                <button id="exportBtn" type="button" class="btn text-white"
+                    style="background: #0098FD;   border-radius: 5px;">Export</button>
+            </div>
+            <div class="pos-relative" style="position:relative;">
+                <div id="video-container">
+                    <video src="" crossorigin type="video/mp4" controls style="margin:0 auto;height: auto;"
+                        id="VDemo"></video>
+                    <audio id="audioPlayer" src="" type="audio/mpeg"></audio>
+                    <div id="text-overlay" contenteditable="">Your text here...</div>
+                    <img id="element-overlay" class="p-0" style="width:150px">
+                </div>
                 <div class="custom-video-player pos-relative">
-                    <div class="video-slider">
+                    <div class="video-slider d-none">
                         <input type="range" id="seekSlider" min="0" step="0.1" value="0">
                     </div>
                     <div class="PlayButton">
@@ -412,26 +552,87 @@
                         <div class="video-time"></div>
                     </div>
                 </div>
+                <div class="d-none video-controls" id="video-controls">
+                    <div class="bottom-controls">
+                        <div class="left-controls">
+                            <button data-title="Play (k)" id="play">
+                                <div class="PlayIcon"
+                                    style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
+                                </div>
+                            </button>
+                            <button type="button" class="add-file-btn">
+                                <span class="button-text">Add file</span>
+                            </button>
+                            <div class="volume-controls">
+                                <button data-title="Mute (m)" class="volume-button" id="volume-button">
+                                    <svg>
+                                        <use class="hidden" href="#volume-mute"></use>
+                                        <use class="hidden" href="#volume-low"></use>
+                                        <use href="#volume-high"></use>
+                                    </svg>
+                                </button>
+
+                                <input class="volume" id="volume" value="1" data-mute="0.5" type="range" max="1" min="0"
+                                    step="0.01" />
+                            </div>
+                            <div class="time">
+                                <time id="time-elapsed">00:00</time>
+                                <span> / </span>
+                                <time id="duration">00:00</time>
+                            </div>
+
+                            <div class="Feature" id="Trim" title="Trim" style="margin: 20px">
+                                <a>
+                                    <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M8.08 6.665A3.5 3.5 0 106.665 8.08L8.585 10l-1.921 1.922a3.5 3.5 0 101.414 1.414l2.614-2.614a.591.591 0 00.028-.028l6.653-6.653a1 1 0 00-1.414-1.414L10 8.586l-1.92-1.92zM5 3.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm0 10a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M11.35 11.36a1 1 0 011.415-.001l4.608 4.6a1 1 0 01-1.413 1.415l-4.608-4.6a1 1 0 01-.001-1.414z"
+                                            fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="right-controls">
+                            <button data-title="PIP (p)" class="pip-button" id="pip-button">
+                                <svg>
+                                    <use href="#pip"></use>
+                                </svg>
+                            </button>
+                            <button data-title="Full screen (f)" class="fullscreen-button" id="fullscreen-button">
+                                <svg>
+                                    <use href="#fullscreen"></use>
+                                    <use href="#fullscreen-exit" class="hidden"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-            <div class="row fixed-bottom" id="endButton" style="background-color: #191b24;
-                border: 2px solid #34394e;
-                padding: 10px;
-                z-index: 2;
-                height: 12vh;
-                display: flex;
-                align-items: center;">
+            <div class="row fixed-bottom" id="endButton">
                 <div class="w-100 pr-3 text-right">
-                    <button id="exportBtn" type="button" class="btn text-white"
-                        style="background: #0090ff;   border-radius: 30px;">Export</button>
+                    <div class="video-progress">
+                        <input class="seek" id="seek" value="0" min="0" type="range" step="1" />
+                        <div id="progress-bar" value="0" min="0"></div>
+                        <div class="seek-tooltip" id="seek-tooltip">00:00</div>
+                        <div class="time-marker">
+                            <div class="time-marker-tick"></div>
+                            <div class="time-marker-line"></div>
+                        </div>
+                        <div class="video-files-container">
+                            <div class="frames"></div>
+                        </div>
+                        <div class="audio-files-container"></div>
+                    </div>
+                    <button id="exportBtn" type="button" class="btn text-white d-none"
+                        style="background: #0098FD;   border-radius: 30px;">Export</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <div class="download-modal-container" style="display: none;">
     <div id="download-modal">
         <div class="download-modal-body" style="position: absolute;">
