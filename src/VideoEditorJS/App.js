@@ -19,7 +19,7 @@ const showLoader = () => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
 }
-const closeLoader = () => {}
+const closeLoader = () => { }
 const mimeTypes = 'video/mp4,video/mov,video/ogg,video/webm'
 const filemimes = ['.mp4', '.mov', '.ogg', '.webm']
 gdrive.addEventListener(
@@ -242,28 +242,26 @@ var LandingPage = document.querySelector('.Landing')
 var SeekTrim = document.querySelector('#SeekTrim')
 
 // Drag and Drop Feature
-UploadButton.addEventListener("dragover",function(evt){
+UploadButton.addEventListener("dragover", function (evt) {
   evt.preventDefault();
 });
 
-UploadButton.addEventListener("dragenter",function(evt){
+UploadButton.addEventListener("dragenter", function (evt) {
   evt.preventDefault();
 });
 
-UploadButton.addEventListener("drop",function(evt){
+UploadButton.addEventListener("drop", function (evt) {
   evt.preventDefault();
-  let tempInput=document.getElementById("files");
-  tempInput.files=evt.dataTransfer.files;
-  let tempType=(tempInput.files[0].name).split(".");
-  if(tempType[tempType.length-1]=="mp4"||tempType[tempType.length-1]=="mov"||tempType[tempType.length-1]=="ogg"||tempType[tempType.length-1]=="webm")
-  {
+  let tempInput = document.getElementById("files");
+  tempInput.files = evt.dataTransfer.files;
+  let tempType = (tempInput.files[0].name).split(".");
+  if (tempType[tempType.length - 1] == "mp4" || tempType[tempType.length - 1] == "mov" || tempType[tempType.length - 1] == "ogg" || tempType[tempType.length - 1] == "webm") {
     let event = new Event('change');
     tempInput.dispatchEvent(event);
   }
-  else
-  {
-    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
-    document.getElementById("ErrorBox").style.display="block";
+  else {
+    document.getElementById("ErrorBoxMessage").innerText = "This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display = "block";
     LandingPage.style.display = 'none'
     Workspace.style.display = 'none'
   }
@@ -579,11 +577,11 @@ const Handle_Trimmer_Change = (Target, value) => {
     var MHSTime = measuredTime.toISOString().substr(11, 8)
     StartTrimValue.innerText = MHSTime
     FeatureValues['StartTime'] = MHSTime + Milliseconds
-    ;[
-      StartTimeChange.hhs.value,
-      StartTimeChange.mms.value,
-      StartTimeChange.sss.value,
-    ] = MHSTime.split(':')
+      ;[
+        StartTimeChange.hhs.value,
+        StartTimeChange.mms.value,
+        StartTimeChange.sss.value,
+      ] = MHSTime.split(':')
     TrimInfo.innerText = `Your video will be splitted from ${FeatureValues['StartTime']} to ${FeatureValues['EndTime']}`
   } else {
     var Right = Target.style.left
@@ -600,17 +598,14 @@ const Handle_Trimmer_Change = (Target, value) => {
     var MHSTime = measuredTime.toISOString().substr(11, 8)
     EndTrimValue.innerText = MHSTime
     FeatureValues['EndTime'] = MHSTime + Milliseconds
-    ;[
-      EndTimeChange.hhe.value,
-      EndTimeChange.mme.value,
-      EndTimeChange.sse.value,
-    ] = MHSTime.split(':')
+      ;[
+        EndTimeChange.hhe.value,
+        EndTimeChange.mme.value,
+        EndTimeChange.sse.value,
+      ] = MHSTime.split(':')
     TrimInfo.innerText = `Your video will be splitted from ${FeatureValues['StartTime']} to ${FeatureValues['EndTime']}`
   }
 }
-
-//have to change based on the input
-
 //observer for style change
 var observer = new MutationObserver(function (mutations) {
   mutations.forEach(function (mutationRecord) {
@@ -627,7 +622,6 @@ var observer = new MutationObserver(function (mutations) {
     isTrimmed = 1
   })
 })
-
 for (let i = 0; i < 2; ++i) {
   observer.observe(Trimmers[i], {
     attributes: true,
@@ -639,7 +633,6 @@ const Set_actual_video_resolution = (Tempvideo) => {
   ActualSourceVideoHeight = Tempvideo.videoHeight
   ActualSourceVideoWidth = Tempvideo.videoWidth
 }
-
 const get_video_source_from_input = async (input) => {
   // console.stdlog(input)
   document.querySelector(".box").style.minHeight = "300px"
@@ -648,59 +641,53 @@ const get_video_source_from_input = async (input) => {
   Spinner.style.display = 'inherit'
   UploadButton.style.display = 'none'
   VideoSourceFile = input.files[0]
-  let temp=(VideoSourceFile.name).split(".");
-  if(temp[temp.length-1]=="mp4"||temp[temp.length-1]=="mov"||temp[temp.length-1]=="ogg"||temp[temp.length-1]=="webm")
-  {
+  let temp = (VideoSourceFile.name).split(".");
+  if (temp[temp.length - 1] == "mp4" || temp[temp.length - 1] == "mov" || temp[temp.length - 1] == "ogg" || temp[temp.length - 1] == "webm") {
     const reader = new FileReader()
-  reader.readAsDataURL(VideoSourceFile)
-  let TempVideo = document.createElement('video')
-  TempVideo.onloadeddata = function () {
-    Set_actual_video_resolution(this)
+    reader.readAsDataURL(VideoSourceFile)
+    let TempVideo = document.createElement('video')
+    TempVideo.onloadeddata = function () {
+      Set_actual_video_resolution(this)
+    }
+    reader.addEventListener(
+      'load',
+      async function () {
+        try {
+          // convert image file to base64 string
+          videoSource.src = reader.result
+          ActualSourceurl = reader.result
+          TempVideo.src = ActualSourceurl
+          await fetch_and_load_Video_to_FFmpeg()
+          //generate Frames in FrameLayer
+          video = videoSource.cloneNode(true)
+          console.log(video);
+          video.addEventListener('loadeddata', async function () {
+            await generateFrames(this)
+          })
+        } catch (e) {
+          document.getElementById("ErrorBoxMessage").innerHTML = "<center><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ff0000' class='bi bi-exclamation-triangle' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b></center>";
+          document.getElementById("ErrorBox").style.display = "block";
+          LandingPage.style.display = 'none'
+          Workspace.style.display = 'none'
+        }
+      },
+      false
+    )
   }
-  reader.addEventListener(
-    'load',
-    async function () {
-      try{
-        // convert image file to base64 string
-        videoSource.src = reader.result
-        ActualSourceurl = reader.result
-        TempVideo.src = ActualSourceurl
-        await fetch_and_load_Video_to_FFmpeg()
-        //generate Frames in FrameLayer
-        video = videoSource.cloneNode(true)
-        console.log(video);
-        video.addEventListener('loadeddata', async function () {
-          await generateFrames(this)
-        })
-      }catch(e)
-      {
-        document.getElementById("ErrorBoxMessage").innerHTML="<center><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ff0000' class='bi bi-exclamation-triangle' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg><br><b>Your file couldn't be processed on this browser. Please try this on latest version of Google Chrome Desktop.</b></center>";
-        document.getElementById("ErrorBox").style.display="block";
-        LandingPage.style.display = 'none'
-        Workspace.style.display = 'none'
-      }
-    },
-    false
-  )
-  }
-  else
-  {
-    document.getElementById("ErrorBoxMessage").innerText="This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
-    document.getElementById("ErrorBox").style.display="block";
+  else {
+    document.getElementById("ErrorBoxMessage").innerText = "This type of File could not be processed. Please upload .mp4,.mov,.ogg or .webm file.";
+    document.getElementById("ErrorBox").style.display = "block";
     LandingPage.style.display = 'none'
     Workspace.style.display = 'none'
   }
 }
-
 const timer = (ms) => new Promise((res) => setTimeout(res, ms))
-
 const isEmpty = (dataURL) => {
   var invalidUrl =
     'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII='
   if (dataURL === invalidUrl) return true
   return false
 }
-
 async function generateFrames(e) {
   //generate thumbnail URL data
   video.muted = true
@@ -720,7 +707,7 @@ async function generateFrames(e) {
   var previousWorkingFrameData
 
   //Temporary fix for firefox parseFloat()
-  let tempCounter=0;
+  let tempCounter = 0;
 
   while (video.currentTime < duration) {
     video.currentTime = parseFloat(i)
@@ -746,13 +733,11 @@ async function generateFrames(e) {
       ? (ProgressBar.style.width = progressPercent + '%')
       : null
     //Fix Temporary for FF  
-    if((duration-video.currentTime)<FrameStep)
-    {
-      tempCounter++;  
+    if ((duration - video.currentTime) < FrameStep) {
+      tempCounter++;
     }
-    if(tempCounter>=2)
-    {
-      
+    if (tempCounter >= 2) {
+
       break;
     }
   }
@@ -762,7 +747,6 @@ async function generateFrames(e) {
   InitialEndTrimPosition = Trimmers[1].offsetLeft
   ratio = duration / (FramesLayer.offsetWidth - 20)
 }
-
 //make the trim elements draggable
 dragElement(document.getElementById('StartTrim'))
 dragElement(document.getElementById('EndTrim'))
@@ -857,9 +841,8 @@ const TrimChangeHandler = (value) => {
 
 const playVideoPreview = async (starttime = null) => {
   //change actual video src to src#t 00:00 to 00:10 using basic html
-  videoSource.src = `${ActualSourceurl}#t=${
-    starttime ? starttime : FeatureValues['StartTime']
-  },${FeatureValues['EndTime']}`
+  videoSource.src = `${ActualSourceurl}#t=${starttime ? starttime : FeatureValues['StartTime']
+    },${FeatureValues['EndTime']}`
   videoSource.play()
 }
 
@@ -869,12 +852,10 @@ const Render_edited_video = async () => {
   var blobUrlActual = URL.createObjectURL(
     new Blob([outputActual.buffer], { type: 'video/mp4' })
   )
-  let FinalVideo=new Blob([outputActual.buffer], { type: 'video/mp4' });
-  if(isCompressed==1)
-  {
-    if(VideoSourceFile.size<FinalVideo.size)
-    {
-      FinalVideosrc="NULL"
+  let FinalVideo = new Blob([outputActual.buffer], { type: 'video/mp4' });
+  if (isCompressed == 1) {
+    if (VideoSourceFile.size < FinalVideo.size) {
+      FinalVideosrc = "NULL"
     }
     else
       FinalVideosrc = blobUrlActual
@@ -1080,13 +1061,11 @@ const FlipVideo = async () => {
     )
   }
   if (isFlipped === 1) {
-    var FlipCommand = `-i inputFlip.mp4 -vf vflip -threads ${
-      ThreadsCount > 10 ? 10 : ThreadsCount
-    } -c:a copy Output.mp4`
+    var FlipCommand = `-i inputFlip.mp4 -vf vflip -threads ${ThreadsCount > 10 ? 10 : ThreadsCount
+      } -c:a copy Output.mp4`
   } else {
-    var FlipCommand = `-i inputFlip.mp4 -vf hflip -threads ${
-      ThreadsCount > 10 ? 10 : ThreadsCount
-    } -c:a copy Output.mp4`
+    var FlipCommand = `-i inputFlip.mp4 -vf hflip -threads ${ThreadsCount > 10 ? 10 : ThreadsCount
+      } -c:a copy Output.mp4`
   }
 
   var ArrayofInstructions = FlipCommand.split(' ')
@@ -1176,27 +1155,22 @@ const FinalSettings = async () => {
 
   var ish264 = true
   //-itsscale ${FeatureValues.Speed}
-  var all_in_one_Command = `-i inputCompress.mp4${
-    FeatureValues.Compression_data.size !== 0
+  var all_in_one_Command = `-i inputCompress.mp4${FeatureValues.Compression_data.size !== 0
       ? ` -fs ${FeatureValues.Compression_data.size}M`
       : ''
-  } -c:v libx264 -crf ${FeatureValues.Compression_data.crf} ${
-    ThreadsCount >= 16
+    } -c:v libx264 -crf ${FeatureValues.Compression_data.crf} ${ThreadsCount >= 16
       ? `${ish264 ? '-threads 10' : '-threads 16'}`
-      : `${
-          ThreadsCount > 10 && ish264
-            ? `-threads 10`
-            : `-threads ${ThreadsCount}`
-        }`
-  }  -preset ${
-    FeatureValues.Compression_data.speed
+      : `${ThreadsCount > 10 && ish264
+        ? `-threads 10`
+        : `-threads ${ThreadsCount}`
+      }`
+    }  -preset ${FeatureValues.Compression_data.speed
       ? FeatureValues.Compression_data.speed
       : 'ultrafast'
-  } -c:a copy ${
-    FeatureValues.Resolution !== 'Original'
+    } -c:a copy ${FeatureValues.Resolution !== 'Original'
       ? ` -vf scale=-2:${FeatureValues.Resolution},format=yuv420p`
       : ''
-  } Output.${FeatureValues.Oformat}`
+    } Output.${FeatureValues.Oformat}`
   var ArrayofInstructions = all_in_one_Command.split(' ')
   await ffmpeg.run(...ArrayofInstructions)
 }
@@ -1266,15 +1240,13 @@ const DownloadFile = async () => {
     downloadHREF = FinalVideosrc
   }
   LandingText.innerHTML = ''
-  if(downloadHREF==''||downloadHREF=='NULL')
-  {
-    LoadingText.innerText='Sorry, we could not Compress/Edit your video. Please try again with a slower speed option and higher CRF value than '+crfText.innerText;
-    link.innerText='Try Again';
-    link.addEventListener('click', () => {location.reload()});
+  if (downloadHREF == '' || downloadHREF == 'NULL') {
+    LoadingText.innerText = 'Sorry, we could not Compress/Edit your video. Please try again with a slower speed option and higher CRF value than ' + crfText.innerText;
+    link.innerText = 'Try Again';
+    link.addEventListener('click', () => { location.reload() });
     document.querySelector('.DownloadBox').style.display = 'inherit';
   }
-  else
-  {
+  else {
     LoadingText.innerText = 'Thanks for your patience'
     link.addEventListener('click', () => handleDownload(downloadHREF))
     document.querySelector('.DownloadBox').style.display = 'inherit'

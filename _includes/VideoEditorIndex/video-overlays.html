@@ -1,11 +1,59 @@
+<style>
+    .spinner {
+        width: 11.2px;
+        height: 11.2px;
+        animation: spinner-o824ag 1s infinite linear;
+    }
+
+    .spinner div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #5db3ff;
+        border-radius: 50%;
+        animation: spinner-vse6n7 1.25s infinite ease;
+    }
+
+    .spinner div:nth-child(1) {
+        --rotation: 90;
+    }
+
+    .spinner div:nth-child(2) {
+        --rotation: 180;
+    }
+
+    .spinner div:nth-child(3) {
+        --rotation: 270;
+    }
+
+    .spinner div:nth-child(4) {
+        --rotation: 360;
+    }
+
+    @keyframes spinner-vse6n7 {
+
+        0%,
+        100% {
+            transform: rotate(calc(var(--rotation) * 1deg)) translateY(0);
+        }
+
+        50% {
+            transform: rotate(calc(var(--rotation) * 1deg)) translateY(300%);
+        }
+    }
+
+    @keyframes spinner-o824ag {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
 <div class="row">
     <div class="col-md-9 mx-auto">
         <div class="box" style="width:100%" id="temp_box1">
             <div class="box-border" id="temp_box2"></div>
             <div class="Landing">
-                <!-- <div class="ProgressBar"></div> -->
                 <label class="Button" for="files">
-
                     <div class="m-auto ">
                         <svg class='d-none video-svg mb-4' enable-background="new 0 0 55.125 55.125" version="1.1"
                             viewBox="0 0 55.125 55.125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -44,12 +92,16 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <label for="files" id="ButtonLabel" class="InputButton"></label>  -->
                     <input id="files" style="visibility:hidden;" type="file"
                         onchange="get_video_source_from_input(this)" accept=".mp4">
                 </label>
                 <div class="Landingtext">or drop your video file here</div>
-                <div class="Spinner"></div>
+                <div class="spinner" style="display:none">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
             <div class="Workspace">
                 <div class="Settings d-none">
@@ -221,9 +273,10 @@
                 <p class="text-left" style="color: #000; font-weight: 900;">Add Media</p>
                 <div class="upload-box mt-3">
                     <label class="mb-0" for="upload-logo">Upload a File</label>
-                    <input type="file" id="upload-logo">
+                    <input onchange="get_video_source_from_input(this)" type="file" id="upload-logo">
                 </div>
             </div>
+            <!-- <div class="showing-text-panel"></div> -->
             <div class="textOverlayOptions d-none my-5">
                 <p class="mb-2 text-left" style="color: #000; font-weight: 900;">Edit Text</p>
                 <div class="option-settings">
@@ -231,6 +284,9 @@
                         <textarea value="Your text here" placeholder="Your text here..." id="yourText"
                             rows="5"></textarea>
                     </div>
+                </div>
+                <div class="add-text-button mt-3 text-left">
+                    <button style="width:100px" class="btn btn-primary">Add Text</button>
                 </div>
                 <p class="mb-2 mt-4 text-left" style="color: #000; font-weight: 900;">Style</p>
                 <div class="option-settings">
@@ -435,8 +491,7 @@
                     </div>
                     <div class="filter-container">
                         <div id="noise" class="filter-box">
-                            <img src="/elements/filter-noise.webp" alt="filter" height="100%"
-                                style="border-radius:7px">
+                            <img src="/elements/filter-noise.webp" alt="filter" height="100%" style="border-radius:7px">
                         </div>
                         <label class="filter-label" for="None">Noise</label>
                     </div>
@@ -538,32 +593,15 @@
                     <video src="" crossorigin type="video/mp4" controls style="margin:0 auto;height: auto;"
                         id="VDemo"></video>
                     <audio id="audioPlayer" src="" type="audio/mpeg"></audio>
-                    <div id="text-overlay" contenteditable="">Your text here...</div>
+                    <div style="visibility: hidden;" id="text-overlay" contenteditable="">Your text here...</div>
                     <img id="element-overlay" class="p-0" style="width:150px">
                 </div>
-                <div class="custom-video-player pos-relative">
-                    <div class="video-slider d-none">
-                        <input type="range" id="seekSlider" min="0" step="0.1" value="0">
-                    </div>
-                    <div class="PlayButton">
-                        <div class="PlayIcon"
-                            style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
-                        </div>
-                        <div class="video-time"></div>
-                    </div>
-                </div>
-                <div class="d-none video-controls" id="video-controls">
+            </div>
+            <div class="row fixed-bottom" id="endButton">
+                <div class="video-controls" id="video-controls">
                     <div class="bottom-controls">
                         <div class="left-controls">
-                            <button data-title="Play (k)" id="play">
-                                <div class="PlayIcon"
-                                    style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
-                                </div>
-                            </button>
-                            <button type="button" class="add-file-btn">
-                                <span class="button-text">Add file</span>
-                            </button>
-                            <div class="volume-controls">
+                            <div class="d-none volume-controls">
                                 <button data-title="Mute (m)" class="volume-button" id="volume-button">
                                     <svg>
                                         <use class="hidden" href="#volume-mute"></use>
@@ -575,26 +613,40 @@
                                 <input class="volume" id="volume" value="1" data-mute="0.5" type="range" max="1" min="0"
                                     step="0.01" />
                             </div>
-                            <div class="time">
+                            <div class="d-none time">
                                 <time id="time-elapsed">00:00</time>
                                 <span> / </span>
                                 <time id="duration">00:00</time>
                             </div>
-
-                            <div class="Feature" id="Trim" title="Trim" style="margin: 20px">
+                            <div class="Feature" id="Trim" title="Trim" style="margin: 20px 0px">
                                 <a>
-                                    <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M8.08 6.665A3.5 3.5 0 106.665 8.08L8.585 10l-1.921 1.922a3.5 3.5 0 101.414 1.414l2.614-2.614a.591.591 0 00.028-.028l6.653-6.653a1 1 0 00-1.414-1.414L10 8.586l-1.92-1.92zM5 3.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm0 10a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"
-                                            fill="white"></path>
-                                        <path
-                                            d="M11.35 11.36a1 1 0 011.415-.001l4.608 4.6a1 1 0 01-1.413 1.415l-4.608-4.6a1 1 0 01-.001-1.414z"
-                                            fill="white"></path>
+                                    <svg style="fill: black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                        fill="#000000">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path
+                                                    d="M12 14.121l-2.317 2.317a4 4 0 1 1-2.121-2.121L9.88 12 4.21 6.333a2 2 0 0 1 0-2.829l.708-.707L12 9.88l7.081-7.082.708.707a2 2 0 0 1 0 2.829L14.12 12l2.317 2.317a4 4 0 1 1-2.121 2.121L12 14.12zM6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z">
+                                                </path>
+                                            </g>
+                                        </g>
                                     </svg>
                                 </a>
                             </div>
                         </div>
-
+                        <div class="center-controls">
+                            <div class="custom-video-player pos-relative">
+                                <div class="PlayButton">
+                                    <div class="PlayIcon"
+                                        style="background-image: url(&quot;./public/styles/VideoEditor/media/icons/play.svg&quot;);">
+                                    </div>
+                                    <div class="video-time pl-5"></div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="right-controls">
                             <button data-title="PIP (p)" class="pip-button" id="pip-button">
                                 <svg>
@@ -602,16 +654,24 @@
                                 </svg>
                             </button>
                             <button data-title="Full screen (f)" class="fullscreen-button" id="fullscreen-button">
-                                <svg>
-                                    <use href="#fullscreen"></use>
-                                    <use href="#fullscreen-exit" class="hidden"></use>
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M33 6H42V15" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M42 33V42H33" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M15 42H6V33" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M6 15V6H15" stroke="#000" stroke-width="4" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
                                 </svg>
                             </button>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row fixed-bottom" id="endButton">
                 <div class="w-100 pr-3 text-right">
                     <div class="video-progress">
                         <input class="seek" id="seek" value="0" min="0" type="range" step="1" />
@@ -626,35 +686,20 @@
                         </div>
                         <div class="audio-files-container"></div>
                     </div>
-                    <button id="exportBtn" type="button" class="btn text-white d-none"
-                        style="background: #0098FD;   border-radius: 30px;">Export</button>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="download-modal-container" style="display: none;">
-    <div id="download-modal">
-        <div class="download-modal-body" style="position: absolute;">
-            <div class="d-flex align-items-center justify-content-center">
-                <div class="lds-spinner">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            <div class="download-modal-container" style="display: none;">
+                <div id="download-modal">
+                    <div class="download-modal-body">
+                        <div class="spinner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <p id="warn-message" class="text-center">
-                Please wait! your download will start in few seconds
-            </p> -->
         </div>
     </div>
 </div>
