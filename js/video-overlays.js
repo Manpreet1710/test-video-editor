@@ -61,6 +61,7 @@ let timeTick = document.querySelector("time-marker-tick");
 let videoFilesContainer = document.querySelector(".video-files-container");
 let audioFilesContainer = document.querySelector(".audio-files-container");
 let timeLineDuration = 0;
+let totalTime=document.querySelector(".total-time")
 
 //Left side bar toggle functionlity here...
 menuItems.forEach(menuItem => {
@@ -221,12 +222,12 @@ let mediaType = null
 let textOverlayEnabled = null
 let elementOverlayEnabled = null
 const convertVideo = async (ffmpeg, inputFileName, elements, vfCommand, vfElementCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName) => {
-    let videoFilterExpersion = videoFilter ? videoFilter + "," : "";
+    // let videoFilterExpersion = videoFilter ? videoFilter + "," : "";
     let elementWidth = 250
     let elementHeight = 250
-    let textOverlayCommand = `[0:v]${videoFilterExpersion}drawtext=text='${textToAdd}':${vfCommand}:fontsize=${textSize}:fontcolor=${textColor}:box=1:boxcolor=${backgroundColor}:fontfile=${fontFilePath.split("/").pop()}`;
+    let textOverlayCommand = `[0:v]drawtext=text='${textToAdd}':${vfCommand}:fontsize=${textSize}:fontcolor=${textColor}:box=1:boxcolor=${backgroundColor}:fontfile=${fontFilePath.split("/").pop()}`;
     let elementOverlayCommand = `[1][0]scale2ref=oh*mdar:ih*0.2[logo][video];[video][logo]overlay=${vfElementCommand}`
-    let textOverlayWithElementOverLay = `[1:v]scale=${elementWidth}:${elementHeight}[emoji_scaled];[0:v][emoji_scaled]overlay=${vfElementCommand}[temp];[temp]${videoFilterExpersion}drawtext=text='${textToAdd}':${vfCommand}:fontsize=${textSize}:fontcolor=${textColor}:box=1:boxcolor=${backgroundColor}:fontfile=${fontFilePath.split("/").pop()}[out]`
+    let textOverlayWithElementOverLay = `[1:v]scale=${elementWidth}:${elementHeight}[emoji_scaled];[0:v][emoji_scaled]overlay=${vfElementCommand}[temp];[temp]drawtext=text='${textToAdd}':${vfCommand}:fontsize=${textSize}:fontcolor=${textColor}:box=1:boxcolor=${backgroundColor}:fontfile=${fontFilePath.split("/").pop()}[out]`
     let videoOverlayCommands = ""
     if (textOverlayEnabled && elementOverlayEnabled) {
         videoOverlayCommands = textOverlayWithElementOverLay
@@ -240,11 +241,11 @@ const convertVideo = async (ffmpeg, inputFileName, elements, vfCommand, vfElemen
     }
     let videoEditorCommands = [
         '-i', inputFileName,
-        ...(mediaType == "audio" ? ["-i", "input_audio.mp3", "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-shortest"] : []),
+        // ...(mediaType == "audio" ? ["-i", "input_audio.mp3", "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-shortest"] : []),
         ...(elementOverlayEnabled ? ["-i", elements] : []),
         ...(textOverlayEnabled || elementOverlayEnabled ? ["-filter_complex", videoOverlayCommands] : []),
         ...(textOverlayEnabled && elementOverlayEnabled ? ["-map", "[out]"] : []),
-        ...(!textOverlayEnabled && !elementOverlayEnabled ? [videoFilterExpersion ? "-vf" : "", videoFilterExpersion.replace(/,$/, "")] : []),
+        // ...(!textOverlayEnabled && !elementOverlayEnabled ? [videoFilterExpersion ? "-vf" : "", videoFilterExpersion.replace(/,$/, "")] : []),
         '-c:a', 'copy',
         '-preset', 'ultrafast',
         outputFileName
@@ -291,15 +292,15 @@ async function initializeTimeLine() {
     const time = formatTimeToSeconds(timeLineDuration);
     if (timeLineDuration <= 5) {
         seek.setAttribute("max", timeLineDuration);
-        duration.innerText = `${time.minutes}: ${time.seconds}`;
-        duration.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
+        totalTime.innerHTML = `&nbsp;&nbsp<span style="color:#000">${time.minutes}:${time.seconds}</span>`;
+        totalTime.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
         let intervals = timeLineDuration;
         let timePoints = generateTimePoints(time.seconds, intervals);
         updateTimeline(timePoints);
     } else {
         seek.setAttribute("max", timeLineDuration);
-        duration.innerText = `${time.minutes}: ${time.seconds}`;
-        duration.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
+        totalTime.innerHTML = `&nbsp;&nbsp<span style="color:#000">${time.minutes}:${time.seconds}</span>`;
+        totalTime.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
 
         let intervals = timeLineDuration / 2;
         if (intervals > 50) {
@@ -338,12 +339,12 @@ function updateTimeElapsed() {
     }
     if (videoDuration > audioDuration) {
         const time = formatTime(video.currentTime);
-        timeElapsed.innerText = `${time.minutes}: ${time.seconds}`;
-        timeElapsed.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
+        videoTime.innerHTML = `${time}&nbsp;&nbsp`;
+        videoTime.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
     } else {
         const time = formatTime(audioPlayer.currentTime);
-        timeElapsed.innerText = `${time.minutes}: ${time.seconds}`;
-        timeElapsed.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
+        videoTime.innerHTML = `${time}&nbsp;&nbsp`;
+        videoTime.setAttribute("datetime", `${time.minutes}m ${time.seconds}s`);
     }
 }
 function generateTimePoints(videoDuration, interval) {
@@ -426,7 +427,7 @@ function getTime(seconds) {
     const remainingSeconds = seconds % 60;
     return `${minutes}: ${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
 }
- //Closed
+//Closed
 
 // Overlay Drag and Drop Functionlity
 function initializeTextOverlay() {
@@ -740,26 +741,37 @@ filterContainers.forEach((container) => {
 })
 const applyVideoFilter = async () => {
     videoProcessingLoading();
+    const inputFileName = `input.mp4`
+    const outputFileName = `output.mp4`;
+    const response = await fetch(videoElement.src);
+    const videoBlob = await response.blob();
+    const videoData = new Uint8Array(await videoBlob.arrayBuffer());
+    ffmpeg.FS("writeFile", inputFileName, videoData);
     const filterArg = videoFilter ? ["-vf", videoFilter] : []
     await ffmpeg.run(
         "-i", "input.mp4",
         ...filterArg,
         "-preset", "ultrafast",
-        "output.mp4"
+        outputFileName
     );
     output = ffmpeg.FS("readFile", "output.mp4");
     blob = new Blob([output.buffer], { type: `video/mp4` });
-    video.src = URL.createObjectURL(blob);
+    videoElement.src = URL.createObjectURL(blob);
+    // ffmpeg.FS("unlink", inputFileName);
+    // ffmpeg.FS("unlink", outputFileName);
     document.querySelector(".download-modal-container").style.display = "none";
 }
 // export final video 
-const exportVideo = async () =>{
-    const inputFormat = VideoSourceFile.name.split(".").pop();
-    const inputFileName = `input.${inputFormat}`;
-    const outputFileName = `output.${inputFormat}`;
+const exportVideo = async () => {
+    const inputFileName = `input.mp4`
+    const outputFileName = `output.mp4`;
+    const response = await fetch(videoElement.src);
+    const videoBlob = await response.blob();
+    const videoData = new Uint8Array(await videoBlob.arrayBuffer());
+    ffmpeg.FS("writeFile", inputFileName, videoData);
     await convertVideo(ffmpeg, inputFileName, elements, vfCommand, vfElementCommand, textToAdd, textSize, textColor, backgroundColor, fontFilePath, outputFileName);
     output = ffmpeg.FS("readFile", "output.mp4");
-    blob = new Blob([output.buffer], { type: `video / mp4` });
+    blob = new Blob([output.buffer], { type: `video/mp4` });
     let a = document.createElement("a")
     a.href = URL.createObjectURL(blob)
     a.download = `safevideokit.mp4`
@@ -779,19 +791,12 @@ const get_video_source_from_input = async (input) => {
             videoElement.controls = false;
             videoElement.src = URL.createObjectURL(VideoSourceFile);
             videoElement.addEventListener("timeupdate", () => {
-                updateDurationText();
                 updateTimeElapsed()
                 updateProgress()
             });
-            function updateDurationText() {
-                const currentTime = formatTime(videoElement.currentTime);
-                const totalDuration = formatTime(videoElement.duration);
-                videoTime.innerHTML = `${currentTime}&nbsp;&nbsp;<span style="color:#000">${totalDuration}</span>`;
-            }
             videoElement.addEventListener('loadedmetadata', () => {
                 initializeTextOverlay()
                 initializeTimeLine()
-                updateDurationText();
             });
             videoElement.addEventListener('ended', () => {
                 document.querySelector(".PlayIcon").style.backgroundImage = "url('/public/styles/VideoEditor/media/icons/play.svg')";
@@ -802,7 +807,6 @@ const get_video_source_from_input = async (input) => {
                 const inputBuffer = reader.result;
                 const inputFormat = VideoSourceFile.name.split(".").pop();
                 const inputFileName = `input.${inputFormat}`;
-                const outputFileName = `output.${inputFormat}`;
                 ffmpeg.FS("writeFile", inputFileName, new Uint8Array(inputBuffer));
                 videoOverlays()
                 downloadButton.addEventListener("click", (async (e) => {
@@ -832,10 +836,28 @@ const get_video_source_from_input = async (input) => {
             const audioData = new Uint8Array(await audioBlob.arrayBuffer());
             ffmpeg.FS("writeFile", "input_audio.mp3", audioData);
 
+            const inputFileName = `input.mp4`
+            const outputFileName = `output.mp4`;
+            const response = await fetch(videoElement.src);
+            const videoBlob = await response.blob();
+            const videoData = new Uint8Array(await videoBlob.arrayBuffer());
+            ffmpeg.FS("writeFile", inputFileName, videoData);
+            // Combine video and audio
+            const command = `-i ${inputFileName} -i input_audio.mp3 -map 0:v -map 1:a -c:v copy ${outputFileName}`;
+            await ffmpeg.run(...command.split(" "));
+
+            // Read the output video file
+            output = ffmpeg.FS("readFile", outputFileName);
+            blob = new Blob([output.buffer], { type: `video/mp4` });
+            videoElement.src = URL.createObjectURL(blob);
             audioFilesContainer.innerHTML = "";
             audioPlayer.src = URL.createObjectURL(audioFile);
             audioPlayer.load();
             audioPlayer.pause();
+            // ffmpeg.FS("unlink", inputFileName);
+            // ffmpeg.FS("unlink", "input_audio.mp3");
+            // ffmpeg.FS("unlink", outputFileName);
+
             var fileName = audioFile.name;
             var html = `<div class="audioFiles"> ${fileName}</>`;
             audioFilesContainer.insertAdjacentHTML("beforeend", html);

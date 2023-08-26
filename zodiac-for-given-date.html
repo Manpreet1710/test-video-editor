@@ -134,6 +134,8 @@
        <br>
 
         <label class="text-dark" for="">Enter Your Date of birth</label>
+        <!-- for dynamic -->
+        <!-- <input class="form-control" id="date" value="{{page.date}}"></input> -->
         <input class="form-control" id="date" value="1-05-2023"></input>
         <button class="btn btn-primary mt-3" onclick="get_zodiac(date.value)">Calculate</button>
         <div class="text-dark" id="response"></div>
@@ -152,8 +154,6 @@
             var myDoB = DoB.split("-");
             var day = myDoB[0];
             var month = myDoB[1];
-
-            
             var Signs = {
                 'capricorn': 'capricorn',
                 'aquarius': 'aquarius',
@@ -168,7 +168,6 @@
                 'scorpio': 'scorpio',
                 'sagittarius': 'sagittarius'
             }
-
             if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
                 mySign = (Signs.capricorn);
             } else if ((month == 1 && day >= 21) || (month == 2 && day <= 18)) {
@@ -194,7 +193,6 @@
             } else if ((month == 11 && day >= 23) || (month == 12 && day <= 21)) {
                 mySign = (Signs.sagittarius);
             }
-
             response = document.getElementById("response")
             response.innerHTML = "Answer : " + "The Zodiac Sign of " + '(' + day + "-" + month + "-" + myDoB[2] + ')' +
                 '<p class="zod ' + mySign + '"> ' + mySign + ' </p>';
