@@ -243,8 +243,8 @@ dateArray.forEach(date => {
 layout: home
 folderName: home
 lang: nl
-fileName: zodiac-for-given-${day}-${month}-${year}
-permalink: zodiac-for-given-${day}-${month}-${year}
+fileName: zodiac-sign-for-${day}-${month}-${year}
+permalink: zodiac-sign-for-${day}-${month}-${year}
 date: ${day}-${monthNumber}-${year}
 ---
 {% include zodiac.html %}

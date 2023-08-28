@@ -2,8 +2,8 @@
 layout: home
 folderName: home
 lang: nl
-fileName: zodiac-for-given-6-december-1996
-permalink: zodiac-for-given-6-december-1996
+fileName: zodiac-sign-for-6-december-1996
+permalink: zodiac-sign-for-6-december-1996
 date: 6-12-1996
 ---
 {% include zodiac.html %}
