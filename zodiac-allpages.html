@@ -251,7 +251,7 @@ permalink: zodiaic-allpages
     const listContainer = document.querySelector('.conver-list');
     dateArray.forEach(date => {
         const link = document.createElement('a');
-        link.href = `/zodiac-sign-for-${date}.md`; // Change the URL structure based on your project
+        link.href = `/zodiac-sign-for-${date}`; // Change the URL structure based on your project
         link.textContent = "Zodiac Sign for" + " " + date.replace(/-/g, ' ');
         link.style.color = '#0d6efd';
         const listItem = document.createElement('li');
