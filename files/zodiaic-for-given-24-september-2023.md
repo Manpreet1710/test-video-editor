@@ -1,0 +1,9 @@
+---
+layout: home
+folderName: home
+lang: nl
+fileName: zodiac-for-given-24-september-2023
+permalink: zodiac-for-given-24-september-2023
+date: 24-09-2023
+---
+{% include zodiac.html %}

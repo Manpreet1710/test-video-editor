@@ -1,0 +1,188 @@
+<style>
+    div {
+        line-height: 40px;
+    }
+
+    .zod {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        border: 2px solid black;
+        padding: 20px;
+    }
+
+
+    .zod.aries:before {
+        content: "\2648";
+        color: darkorange;
+    }
+
+    .zod.aries:after {
+        content: "(fire)";
+        color: darkorange;
+    }
+
+    .zod.taurus:before {
+        content: "\2649";
+        color: saddlebrown;
+    }
+
+    .zod.taurus:after {
+        content: "(earth)";
+        color: saddlebrown;
+    }
+
+    .zod.gemini:before {
+        content: "\264A";
+        color: dodgerblue;
+    }
+
+    .zod.gemini:after {
+        content: "(air)";
+        color: dodgerblue;
+    }
+
+    .zod.cancer:before {
+        content: "\264B";
+        color: lightseagreen;
+    }
+
+    .zod.cancer:after {
+        content: "(water)";
+        color: lightseagreen;
+    }
+
+    .zod.leo:before {
+        content: "\264C";
+        color: darkorange;
+    }
+
+    .zod.virgo:before {
+        content: "\264D";
+        color: saddlebrown;
+    }
+
+    .zod.libra:before {
+        content: "\264E";
+        color: dodgerblue;
+    }
+
+    .zod.scorpio:before {
+        content: "\264F";
+        color: lightseagreen;
+    }
+
+    .zod.sagittarius:before {
+        content: "\2650";
+        color: darkorange;
+    }
+
+    .zod.capricorn:before {
+        content: "\2651";
+        color: saddlebrown;
+    }
+
+    .zod.aquarius:before {
+        content: "\2652";
+        color: dodgerblue;
+    }
+
+    .zod.pisces:before {
+        content: "\2653";
+        color: lightseagreen;
+    }
+
+
+    .zod.male:before {
+        content: "\2640";
+        color: royalblue;
+        font-weight: bolder;
+    }
+
+    .zod.female:before {
+        content: "\2642";
+        color: deeppink;
+        font-weight: bolder;
+    }
+</style>
+<div class="container text-white text-left mt-5">
+    <div class="p-3 bg-primary text-white mb-0" style="border-radius: 5px">
+        <svg style="width:30px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffffff">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <title>gemini</title>
+                <path
+                    d="M2.51 24.466c1.48-0.432 2.964-0.801 4.485-1.065v-14.993c-1.521-0.263-3.005-0.633-4.485-1.065v-5.634c4.41 1.288 8.354 1.832 12.976 1.832 4.916 0 9.086-0.594 13.732-2.103v5.652c-1.622 0.527-3.229 0.954-4.91 1.259v15.11c1.681 0.305 3.288 0.732 4.91 1.259v5.652c-4.646-1.509-8.816-2.103-13.732-2.103-4.622 0-8.566 0.544-12.976 1.832v-5.634zM15.486 22.708c0.607 0 1.836 0.010 2.428 0.029v-13.665c-0.592 0.019-1.821 0.029-2.428 0.029-0.494 0-1.613-0.006-2.098-0.019v13.645c0.485-0.012 1.604-0.019 2.098-0.019v0z">
+                </path>
+            </g>
+        </svg>
+        What is My Zodiac Sign?
+        <p class="mb-0 text-white">Show the Zodiac sign for any given date</p>
+    </div>
+    <br>
+
+    <label class="text-dark" for="">Enter Your Date of birth</label>
+    <!-- for dynamic -->
+    <input class="form-control" id="date" value="{{page.date}}">
+    <button class="btn btn-primary mt-3" onclick="get_zodiac(date.value)">Calculate</button>
+    <div class="text-dark" id="response"></div>
+
+
+    <p class="text-white bg-primary p-5 mt-5">
+        This calculator will show the Zodiac sign for any given date. For example, it can help you find out what
+        Zodiac Star Sign is May 01, 2023? Pick a day (e.g. 'May 01, 2023') and click the 'Calculate' button.
+    </p>
+</div>
+<script>
+    document.querySelector(".btn").click()
+    function get_zodiac(DoB) {
+        var mySign = "";
+        var myDoB = DoB.split("-");
+        var day = myDoB[0];
+        var month = myDoB[1];
+        var Signs = {
+            'capricorn': 'capricorn',
+            'aquarius': 'aquarius',
+            'pisces': 'pisces',
+            'aries': 'ariese',
+            'taurus': 'taurus',
+            'gemini': 'gemini',
+            'cancer': 'cancer',
+            'leo': 'leo',
+            'virgo': 'virgo',
+            'libra': 'libra',
+            'scorpio': 'scorpio',
+            'sagittarius': 'sagittarius'
+        }
+        if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
+            mySign = (Signs.capricorn);
+        } else if ((month == 1 && day >= 21) || (month == 2 && day <= 18)) {
+            mySign = (Signs.aquarius);
+        } else if ((month == 2 && day >= 19) || (month == 3 && day <= 20)) {
+            mySign = (Signs.pisces);
+        } else if ((month == 3 && day >= 21) || (month == 4 && day <= 20)) {
+            mySign = (Signs.aries);
+        } else if ((month == 4 && day >= 21) || (month == 5 && day <= 20)) {
+            mySign = (Signs.taurus);
+        } else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) {
+            mySign = (Signs.gemini);
+        } else if ((month == 6 && day >= 22) || (month == 7 && day <= 22)) {
+            mySign = (Signs.cancer);
+        } else if ((month == 7 && day >= 23) || (month == 8 && day <= 23)) {
+            mySign = (Signs.leo);
+        } else if ((month == 8 && day >= 24) || (month == 9 && day <= 23)) {
+            mySign = (Signs.virgo);
+        } else if ((month == 9 && day >= 24) || (month == 10 && day <= 23)) {
+            mySign = (Signs.libra);
+        } else if ((month == 10 && day >= 24) || (month == 11 && day <= 22)) {
+            mySign = (Signs.scorpio);
+        } else if ((month == 11 && day >= 23) || (month == 12 && day <= 21)) {
+            mySign = (Signs.sagittarius);
+        }
+        response = document.getElementById("response")
+        response.innerHTML = "Answer : " + "The Zodiac Sign of " + '(' + day + "-" + month + "-" + myDoB[2] + ')' +
+            '<p class="zod ' + mySign + '"> ' + mySign + ' </p>';
+    }
+</script>

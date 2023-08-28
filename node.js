@@ -243,10 +243,11 @@ dateArray.forEach(date => {
 layout: home
 folderName: home
 lang: nl
-fileName: zodiac-for-given-${day}-${monthNumber}-${year}
-permalink: zodiaic-for-given-${day}-${monthNumber}-${year}
+fileName: zodiac-for-given-${day}-${month}-${year}
+permalink: zodiac-for-given-${day}-${month}-${year}
 date: ${day}-${monthNumber}-${year}
 ---
+{% include zodiac.html %}
 `;
 
     const filePath = `./files/zodiaic-for-given-${day}-${month}-${year}.md`;
