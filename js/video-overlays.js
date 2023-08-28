@@ -843,7 +843,7 @@ const get_video_source_from_input = async (input) => {
             const videoData = new Uint8Array(await videoBlob.arrayBuffer());
             ffmpeg.FS("writeFile", inputFileName, videoData);
             // Combine video and audio
-            const command = `-i ${inputFileName} -i input_audio.mp3 -map 0:v -map 1:a -c:v copy ${outputFileName}`;
+            const command = `-i ${inputFileName} -i input_audio.mp3 -map 0:v -map 1:a -c:v copy  ${outputFileName}`;
             await ffmpeg.run(...command.split(" "));
 
             // Read the output video file
