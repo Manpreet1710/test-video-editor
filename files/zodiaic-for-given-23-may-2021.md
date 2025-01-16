@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: feature
 folderName: home
-lang: nl
+lang: en
+noBox: true
+nointernationalization: true
 fileName: zodiac-sign-for-23-may-2021
 permalink: zodiac-sign-for-23-may-2021
 date: 23-05-2021

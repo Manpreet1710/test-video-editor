@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: feature
 folderName: home
-lang: nl
+lang: en
+noBox: true
+nointernationalization: true
 fileName: zodiac-sign-for-1-august-2023
 permalink: zodiac-sign-for-1-august-2023
 date: 1-08-2023

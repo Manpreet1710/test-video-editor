@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: feature
 folderName: home
-lang: nl
+lang: en
+noBox: true
+nointernationalization: true
 fileName: zodiac-sign-for-26-january-2024
 permalink: zodiac-sign-for-26-january-2024
 date: 26-01-2024

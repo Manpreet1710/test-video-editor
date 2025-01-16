@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: feature
 folderName: home
-lang: nl
+lang: en
+noBox: true
+nointernationalization: true
 fileName: zodiac-sign-for-11-june-1991
 permalink: zodiac-sign-for-11-june-1991
 date: 11-06-1991

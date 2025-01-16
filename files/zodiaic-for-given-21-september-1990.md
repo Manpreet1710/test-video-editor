@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: feature
 folderName: home
-lang: nl
+lang: en
+noBox: true
+nointernationalization: true
 fileName: zodiac-sign-for-21-september-1990
 permalink: zodiac-sign-for-21-september-1990
 date: 21-09-1990
